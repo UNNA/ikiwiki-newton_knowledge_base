@@ -1,0 +1,38 @@
+Date: Sat, 12 Jun 2004 11:09:29 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=MpCradle;
+  flags="";
+  author=24.156.127.194;
+  version=1;
+  lastmodified=1087052969;
+  created=1087052969;
+  author_id=24.156.127.194;
+  markup=2;
+  hits=493;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__MP 2x00 Cradle (Docking Station)__
+
+
+__What:__ Off-the-shelf product or instructions and DIY kit for a docking station for MP 2x00.
+
+__Background:__ The MP 1x0 has it (sorta kinda), why not the MP2x00? This cradle would allow to charge MessagePads with either NiCad or NiMh cells and synching via serial port while simultaneoulsy working desktop-style with a keyboard attached (and maybe a VGA-PC Card), featuring full line-in and line-out capabilities and what have you.
+
+__Benefit:__ Desktop-style use of Newton w/ keyboard. No more searching for power supply; work, charge and exchange date w/desktop. Play Newton-audio over stationary hifi or desktop machine.
+
+__Caveat:__ Any WLAN-, Ethernet- or Bluetooth-equipped MP would synch faster than via serial port, so synching maybe could be neglected.
+
+__Additional Data:__
+* See Florian Biehler's [FreeDock| http://ourworld.compuserve.com/homepages/Flo_Biehler/FREETOP.HTM#FreeDock] (which was available around 1997, see Andree Detmer's ["Newton Does it!"-review|http://dettmer.maclab.org/newton/freedock.html]). Maybe another production run of these would do the job?
+* Yoshiyuki Hashimoto has some diagrams on [MP2K Docking station|http://www.venus.dti.ne.jp/~yos/newton/newtonhacks.html].
+* Carsten Lemmen had an idea called ["NewtDog"|http://web.archive.org/web/19990508223402/http://www.concentric.net/~Cmonica/newton/newtdog.html].
+* Victor Rehorst and Eric Schenk coughed up some ideas on a [Newton Docking Station|http://www.chuma.org/newton/projects/], too!
+* Another idea was the Newton Connection Center by Austrian company [INS|http://www.ins-edv.co.at/ins] (dead link), which was for MP 1x0 and synched via the Newton's IR port. Something for the MP 2x00-platform, too?
+
+__Any Takers?__%%%
+%%%
+%%%
+----
+HomePage : NewtonWishLists : HardwareWishList : MpCradle

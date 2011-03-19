@@ -1,0 +1,127 @@
+Date: Sun, 5 Dec 2004 11:18:36 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=MakeNewtonSpeakText;
+  flags="";
+  author=80.128.182.129;
+  version=1;
+  lastmodified=1102263516;
+  created=1102263516;
+  author_id=80.128.182.129;
+  markup=2;
+  hits=3120;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Your Newton can speak! Or at least, all [NewtonOS2.1]-models can (incl. eMate).
+
+This page collects some resources that are splettered all over the web so you have an easy start as you enter the wonderful realm of speech synthesis and gives some general information about this topic.
+
+%%%
+__What are the Text-to-Speech packages?__
+
+"One is Talk To Me, and seems to be by Apple and maybe another company.  The other, seems to be a direct port of the application MacInTalk. It has nine voices, speed control, pitch control; all of which TalkToMe did not have. Also, you could select text and have just that read with MacTalk." ([Chris Frost |http://www.frostnet.net/chris/newton/html/text_to_speech.html])
+
+"The speech synthesizer itself is in the "MacinTalk" package. The name is an indication of its origin as the Macintosh text to speech software. (...) not surprising considering its origin, the Newton speech drivers largely accept the same embedded speech commands as the Macintosh version.
+The other package that makes up the Newton Text to Speech software is a transport that allows a user to recognize the text from any Newton application that supports routing of text. This is a clever way to support existing applications without requiring software changes but if you are writing new software and want to support the text to speech software you can work without the transport." ([Jim Bailey|http://bigweb.misty.com/weyer/newton/a0000004.shtml])
+
+"SpeakText is unnecessary for TTS functionality; it's nothing more than a nice global hook for routing text to Macintalk. When incorporating TTS support into your applications, you'll want to send text to Macintalk directly, with the appropriate control codes." ([W. Nelson and J. Bordens |http://bigweb.misty.com/weyer/newton/a0000003.shtml])
+
+%%%
+__How to make your Newton read Notes to you__
+
+1. Install MacInTalk and Speaktext (and/or TalkToMe). 2. Just write any text in Notes. 3. Tap on the routing button (i.e. the envelope-icon) and 4. select "SpeakText" or "TalkToMe" from the menu.
+
+* SpeakText will immediately read the note to you.
+* TalkToMe will open a routing slip and wait for you to manually start the reading.
+
+Note: You can also trigger the reading from Notes' collapsed view.
+
+Trick: Write a few notes with some short phrases each. Display the list of note as collapsed view (hit the round button next to the scroll arrows). Mark the notes in the order you want them to be read, tap the envelope, select SpeakText (or TalkToMe), and your Newton will read them in the order they have been selected. This way, you could have some standard phrases in foreign languages or whatever and recombine it as the situation requires. Neat? You bet!
+
+Q: Which other apps use the SpeakText or TalkToMe feature from the routing menu (i.e. "the envelope")?
+
+
+%%%
+__How to make your Newton read books to you__
+
+You can add routing to the TTS engine to the built-in book reader with either one of these two softwares:
+
+* [Bernie's BookReader|http://www.bernieb.com/newton/products/#bookreader] is a US$ 10,-- shareware by Bernie Bernstone. Reads Newton books and paperbacks and offers comfy access to MacInTalk prefs and bookmarking stuff to be read out aloud.
+* [HTMList|http://home.comcast.net/~saweyer/newton/htmlist.htm] (which incorporates the TTS-routing formerly shipped separately in [RouteBook|http://home.comcast.net/~saweyer/newton/newtscape/routbook.htm]) adds SpeakText to the book reader's routing menu (doesn't read Paperbacks, though - they have no routing button...) - and allows saving books as HTML to Notes or the desktop and converts Notes and Works documents to HTML! A brilliant free demoware by Steve Weyer.
+
+%%%
+__More Fun with MacInTalk__
+
+* You can make your Newton sing! Just pop over to e.g. [Charles Kelly's Macintalk Songs-Page|http://aitech.ac.jp/~ckelly/songs], and "get the songs from URLs like this: http://aitech.ac.jp/~ckelly/songs/are_you_sleeping.talk - it's one URL for each song, always with the .talk extension. If you just stick their contents into a note {e.g. open with text editor + cut&paste - DJV.} and then speak it, it should work." (Thanks, VictorRehorst!)
+
+Following Charles' examples, you can teach your Newton your own songs by writing them in Notes! Or you can search the web for more songs! The limitless are possibilities! ;=}
+
+* Here http://tools.unna.org/wikiwikinewt/index.php/MakeNewtonSing you'll find a step-by-step walkthrough on how to make your Newton sing Christmas songs.
+
+* You can include MacInTalk functionality in your software projects ([NOS 2.1]-only, sorry), see documentation below.
+
+
+%%%
+__The Nine Voices of your Newton (acc. to Nelson & Bordens)__
+
+* fred - the default; sort of like kermit the frog
+* zarv - zarvox, a kind of spacey computer voice
+* ralf - ralph, a deep-voiced fred
+* junr - junior, a bit like fred's son
+* kath - kathy, fred's wife (can sound "sexy" at the lower pitches)
+* whis - whisper, a kind of creepy whisper voice
+* prin - princess, another (higher) female voice
+* gnws - Good News, essentially sings text
+* bnws - Bad News, sings text to a dirgelike tune
+
+%%%
+__How to change the voices and other settings for reading Notes and eBooks__
+
+"Configure Speak Text prefs from the In/Out Box.  Just tap
+the 'i' button and select 'Speak Text prefs'.  From here you can
+select another voice, as well as adjust pitch and rate for that
+voice. [...]
+
+Q: Can I adjust the volume of the voice that reads the text?
+
+A: No; This isn't a problem with the MacInTalk autopart, just the Speak Text extension.  Perhaps a kindly developer could create a more powerful (and feature-laden) replacement for Speak Text. Until then, you're stuck with the default maximum system volume." [Nathan Henderson|http://web.archive.org/web/19990429042732/www.servtech.com/~sota1/newton/ttsread.txt]
+
+%%%
+__How to use Macintalk in your Applications__
+
+See below ressorces. There are two excellent articles showing you how to integrate speech synthesis in your development project. You can make the Newton speak out results, make it sing, give high scores, and that in up to four voices simultaneously (polyphonic!)
+
+(Q: If the Newton can handle audio four channels, shouldn't then the hardware or OS also be capable of stereo output?)
+
+
+%%%
+__Newton Text-to-Speech Ressouces__
+
+* [MacInTalk|http://www.unna.org/unna/apple/software/TextToSpeech] (macintal.pkg, TALKTOME.PKG, speaktex.pkg) at UNNA.org.
+
+* [MacInTalk |http://www.frostnet.net/chris/newton/html/macintalk.html] (macintal.pkg, speakeas.pkg, speaktra.pkg) from another site.%%%
+
+[Chris Frost's Text-to-Speech page|http://www.frostnet.net/chris/newton/html/text_to_speech.html] offers RealPlayer streams  demoing the Talk To Me and the various MacInTalk-voices and settings.
+
+[Nathan Henderson's  MacInTalk Mini-Readme |http://web.archive.org/web/19990221231859/http://www.servtech.com/%7Esota1/newton/ttsread.txt]  - "Very Unofficial and Incomplete README file" from Newton Evangelist-website
+
+[How to work with the Text-to-Speech extension|http://bigweb.misty.com/weyer/newton/a0000003.shtml] by William Nelson and Jake Bordens describes a lot about how TTS works on the Newton and how to include it in any software projects.
+
+Jim Bailey's 1997 article [More Newton Text to Speech|http://bigweb.misty.com/weyer/newton/a0000004.shtml] builds on "How to work with the Text-to-Speech extension", but is more user-focused.
+
+[Inside Macintosh: Sound|http://developer.apple.com/documentation/mac/Sound/Sound-2.html] gives a lot of background to Apple's speech synthesis and TTS technology, most of which may still apply to the Newton's MacInTalk version.
+
+[Charles Kelly's Macintalk Songs|http://aitech.ac.jp/~ckelly/songs] -- hear a Macintosh computer sing. (Note: The links to the actual songs are a buggy, see above "More Fun with MacInTalk" for how to tweak them.)
+
+[Kajita Takuya's Famous PD Songs |http://www.asahi-net.or.jp/~QK6T-KJT/song.html] presents over 50 songs in English, Japanese, German, Russian, Indonesian, etc. and has a special [Christmas-section|http://www.asahi-net.or.jp/~QK6T-KJT/merr.html] -- just click on the tree. ;=} (Note: Actual URLs need tweaking as with Charles Kelly's web page, see above)
+
+%%%
+----
+Editors
+
+20040424 DJ_Vollkasko_at_gmx.net
+20041205 DJV, added MakeNewtonSing link
+
+----
+HomePage : HowTo : MakeNewtonSpeakText

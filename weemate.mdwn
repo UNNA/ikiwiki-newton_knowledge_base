@@ -1,0 +1,23 @@
+Date: Wed, 31 Mar 2004 17:46:06 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=weemate;
+  flags="";
+  author=198.110.192.97;
+  version=1;
+  lastmodified=1080773166;
+  created=1080773166;
+  author_id=198.110.192.97;
+  markup=2;
+  hits=395;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+The eMate is bigger than my laptop. This bugs me. So, I've decided to embark on a mission to make it way smaller.
+
+*Bye bye keyboard. As nice as this is, I don't need it.
+*Make a slimmer case.
+
+Any suggestions beyond that? (feel free to edit/add)
+
+you can also email me: jmusket (at) nmu.edu

@@ -1,0 +1,136 @@
+Date: Tue, 14 Mar 2006 16:14:11 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=PublicHoliday;
+  flags="";
+  author=ThomasTempelmann;
+  version=1;
+  lastmodified=1142370851;
+  created=1142370851;
+  author_id=212.202.193.236;
+  summary=Restored%20page%20that%20got%20spammed%20over;
+  hits=366;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+NB: There is a solution for getting Holidays and other important dates for 2006 now, [Holidays Redux|http://www.chuma.org/index.php/newton/holidays-redux/].
+
+Public Holidays to be added to the Holiday program are:
+
+!2006
+
+* "1/1/2006",   "New Years Day",
+* "6/1/2006",   "Hl. Drei Könige (D)",
+* "6/1/2006",   "Christmas (Christian Orthodox)",
+* "16/1/2006",  "Martin Luther King Day (USA)",
+* "26/1/2006",  "Europeans colonize Australia Day (AUS)",
+* "27/1/2006",  "Gedenktag für die Opfer des Nationalsozialismus (D)",
+
+* "6/2/2006",   "Waitangi Day (NZ)",
+* "20/2/2006",  "Washington's Birthday (USA)",
+* "20/2/2006",  "Family Day (CDN ALTA)",
+
+* "13/3/2006",  "Fast Of Esther",
+* "13/3/2006",  "Labour Day (AUS Victoria)",
+* "14/3/2006",  "Purim",
+
+* "12/4/2006",  "First Seder"
+* "13/4/2006",  "Passover begins"
+* "14/4/2006",  "Good Friday",
+* "17/4/2006",  "Easter Monday",
+* "25/4/2006",  "Anzac Day (AUS)",
+
+* "1/5/2006",   "Tag der Arbeit (D)",
+* "16/5/2006",  "Lag B'Omer",
+* "22/5/2006",  "Victoria Day (CDN)",
+* "25/5/2006",  "Hemelvaart (NL)",
+* "26/5/2006",  "Hemelvaart (NL)",
+* "29/5/2006",  "Memorial Day (USA)",
+
+* "2/6/2006",   "Shavuot",
+* "5/6/2006",   "Tweede Pinksterdag (NL)",
+* "5/6/2006",   "Queen’s Birthday (NZ)",
+* "5/6/2006",   "Foundation Day (AUS WA)"
+* "12/6/2006",  "Queens Birthday (AUS -except WA)",
+
+* "1/7/2006",   "Canada Day (CDN)",
+* "4/7/2006",   "Independence Day (USA)",
+
+* "3/8/2006",   "Tisha B'Av",
+* "7/8/2006",   "Heritage Day (CDN ALTA)",
+* "7/8/2006",   "Picnic Day (AUS NT)",
+
+* "4/9/2006",   "Labor Day (USA,CDN)",
+* "23/9/2006",  "Rosh Hashanah"
+
+* "2/10/2006",  "Labour Day (AUS except VIC)",
+* "2/10/2006",  "Yom Kippur",
+* "3/10/2006",  "Tag der Deutschen Einheit (D)",
+* "7/10/2006",  "Sukkot",
+* "9/10/2006",  "Thanksgiving (CDN)",
+* "9/10/2006",  "Columbus Day (USA)",
+* "15/10/2006", "Simchat Torah",
+* "31/10/2006", "Halloween",
+* "31/10/2006", "Reformationstag (D)",
+
+* "1/11/2006",  "Allerheiligen (D)",
+* "7/11/2006",  "Melbourne Cup Day (AUS)",
+* "10/11/2006", "Veterans Day observed (USA)",
+* "11/11/2006", "Remembrance Day (AUS, CDN)",
+* "11/11/2006", "Veterans Day (USA)",
+* "19/11/2006", "Volkstrauertag (D)",
+* "22/11/2006", "Buss- und Bettag (D)",
+* "23/11/2006", "Thanksgiving Day (USA)",
+* "26/11/2006", "Totensonntag (D)",
+
+* "3/12/2006",  "1. Advent (D)",
+* "6/12/2006",  "Nikolaus (D)",
+* "10/12/2006", "2. Advent (D)",
+* "17/12/2006", "3. Advent (D)",
+* "22/12/2006", "Winteranfang (D)",
+* "24/12/2006", "4. Advent (D)",
+* "16/12/2006", "Hanukkah first day",
+* "17/12/2006", "3. Advent (D)",
+* "22/12/2006", "Winteranfang (D)",
+* "24/12/2006", "4. Advent (D)",
+* "24/12/2006", "Heiligabend (D)",
+* "25/12/2006", "Christmas Day",
+* "25/12/2006", "1. Weihnachtstag (D)",
+* "26/12/2006", "Boxing Day",
+* "26/12/2006", "2. Weihnachtstag (D)",
+* "31/12/2006", "New Years Eve",
+* "31/12/2006", "Silvester (D)",
+
+
+!2007
+
+* "1/1/2007",   "New Years Day",
+* "6/1/2007",   "Hl. Drei Könige (D)",
+* "6/1/2007",   "Christmas (Christian Orthodox)",
+
+* "1/5/2007",   "Tag der Arbeit (D)",
+
+* "4/7/2007",   "Independence Day (USA)",
+
+* "3/10/2007",  "Tag der Deutschen Einheit (D)",
+
+* "6/12/2007",  "Nikolaus (D)",
+* "24/12/2007", "Heiligabend (D)",
+* "25/12/2007", "Christmas Day",
+* "25/12/2007", "1. Weihnachtstag (D)",
+* "26/12/2007", "Boxing Day",
+* "26/12/2007", "2. Weihnachtstag (D)",
+* "31/12/2007", "New Years Eve",
+* "31/12/2007", "Silvester (D)",
+
+
+----
+
+!Missing:
+
+* Chinese, Hindu and Persian New Year.
+* Ramadan and other internationally relevant holidays.
+* International anniversaries...
+* Ground Hog's Day, Talk-like-a-pirate-Day, Sysadmin Appreciation Day,...
+* Newton Anniversaries (Release Dates for OMP-110-120-130-2000-2100-eMate 300 and cousins, Newton Inc. Day, Newton Memorial Day)
+* Distinction between moving and fixed holidays ("Repeat ever year on this date")...

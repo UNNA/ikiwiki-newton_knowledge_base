@@ -1,0 +1,368 @@
+Date: Wed, 8 Nov 2006 10:02:56 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_49"
+
+--=_multipart_boundary_49
+Content-Type: application/x-phpwiki;
+  pagename=GutsVoyager;
+  flags="";
+  author=MatthiasMelcher;
+  version=3;
+  lastmodified=1162998176;
+  created=1162998176;
+  author_id=MatthiasMelcher;
+  markup=2;
+  hits=98;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+This is a table with an overview of what I was able to find out about the Voyager ASIC chip and the functions that access these registers.
+
+It would probably be helpful to look at the register setup of the SA1100 and SA1110 CPUs since they seem to have been designed for a Newton style successor, providing pretty much exactly those interfaces that are implemented as an ASIC in our Newton.
+
+<?plugin OldStyleTable caption="Know Interrupts" border||=1
+| *address* | *remark*
+| 0f001000 | ?? |  accessed by BasicBusControlRegInit, DiagBootStub, TCardSocket::Init
+| 0f001800 | ?? |  accessed by DiagBootStub
+| 0f001c00 | ?? |  accessed by DiagBootStub
+| 0f002000 | ? |  accessed by DiagBootStub
+| 0f041000 | ? |
+| 0f041800 | ? |  accessed by TBIOInterface::BIOFIFOWriteCommand
+| 0f043000 | ? |  accessed by DiagBootStub
+| 0f043800 | ? |  accessed by DiagBootStub
+| 0f048000 | ? |  accessed by DiagBootStub, TBIOInterface::Init, TBIOInterface::BIOWriteCommand, TBIOInterface::BIOWriteCommand, PCirrusSoundDriver::New, TBIOInterface::WaitBIOStatus
+| 0f04a000 | ? |
+| 0f050000 | ? |
+| 0f050800 | ? |
+| 0f052800 | ? |
+| 0f052c00 | ? |   accessed byTBIOInterface::BIOWriteCommand, TBIOInterface::BIOReadCommand
+| 0f053400 | ? |   accessed by TBIOInterface::BIOWriteCommand, TBIOInterface::BIOReadCommand
+| 0f053800 | ? |   accessed by TBIOInterface::BIOWriteCommand, TBIOInterface::BIOReadCommand
+| 0f053c00 | ? |   accessed by TBIOInterface::BIOReadCommand
+| 0f054000 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f054400 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f054800 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f054c00 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f055000 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f086c00 | DMA R1.3 Ch3|
+| 0f08ac00 | DMA R1.3 Ch5 |  accessed by PCirrusSoundDriver::PowerOutputOff
+| 0f08fc00 | DMA Assignment Register |  accessed by TDMAManager::Init, TDMAManager::RequestAssignement
+| 0f090000 | DMA R2.0 Ch0 |  accessed by TSerialDMAEngine::Init
+| 0f091000 | DMA R2.0 Ch1 |  accessed by TSerialDMAEngine::Init
+| 0f092000 | DMA R2.0 Ch2 |  accessed by TSerialDMAEngine::Init
+| 0f093000 | DMA R2.0 Ch3 |  accessed by PCirrusSoundDriver::New
+| 0f093c00 | DMA R2.3 Ch3 |  accessed by PCirrusSoundDriver::New
+| 0f094c00 | DMA R2.3 Ch4 |  accessed by PCirrusSoundDriver::New
+| 0f095c00 | DMA R2.3 Ch3 |  accessed by PCirrusSoundDriver::New
+| 0f096000 | DMA R2.0 Ch5 |  accessed by TSerialDMAEngine::Init
+| 0f097000 | DMA R2.0 Ch5 |  accessed by TSerialDMAEngine::Init
+| 0f098000 | DMA Status |  accessed by PCirrusSoundDriver::StopOutput
+| 0f098400 | ? |   accessed by TDMAManager::Init, PCirrusSoundDriver::StopOutput
+| 0f110000 | Power | (bit0=screen?, bit2=serial?) accessed by BasicBusControlRegInit, DiagBootStub, TVoyagerPlatform::PauseSystem
+| 0f110400 | ?? |  accessed by BasicBusControlRegInit, DiagBootStub, TVoyagerPlatform::PauseSystem
+| 0f111400 | ??
+| 0f140000 | ?
+| 0f140400 | ?
+| 0f140800 | ?
+| 0f140c00 | ?
+| 0f141000 | ?
+| 0f141400 | ?
+| 0f141800 | ?
+| 0f141c00 | ?
+| 0f142000 | ?
+| 0f142400 | ?
+| 0f142800 | ?
+| 0f142c00 | ?
+| 0f143000 | ?
+| 0f180400 | ?? |  accessed by BasicBusControlRegInit
+| 0f181000 | Real Time |  accessed by InitGlobalsThatLiveAcrossReboot, AdjustRealTimeClock, GetRealTimeClock
+| | | This register contains the time in seconds since (?). Can be read any time.
+| 0f181400 | Alarm Time | When this register matches the Real Time register, the CPU wakes up and an interrupt is triggered
+| 0f181800 | Fast Timer |  accessed by Fast Timer, DiagBootStub
+| | | This is a hardware timer that counts up at 200ns(?) per step
+| 0f182000 | TM0 | Triggers an interrupt when this equals Fast Timer
+| 0f182400 | TM1 | Triggers an interrupt when this equals Fast Timer
+| 0f182800 | TM2 |  accessed by SetAlarm1
+| | | Triggers interrupt 00000020 when this equals Fast Timer (TimerInterruptHandler)
+| 0f182c00 | TM3 |  accessed by StartScheduler(4b8a7c8f), PreEmptiveTimerInterrruptHandler(4c188df4)
+| | | Triggers interrupt 00000040 when this equals Fast Timer (PreEmptiveTimerInterruptHandler)
+| 0f183000 | IRQ Pending |  accessed by PostCGlobalsHWInit, DispatchIRQInterrupt
+| | | This is a mask of all interrupts that are currently pending (but which are FIQ or IRQ)
+| 0f183400 | IRQ ?? |   accessed by _EnterFIQAtomicFast(w0c400000), _EnterAtomic, _ExitFIQAtomic(w0c400000), PublicExitAtomic, SetAndClearBitsAtomic
+| 0f183800 | IRQ Ack |  // DisableAllInterrupts(wffffffff), ClearInterrupt, DispatchIRQInterruptaccessed by _EnterAtomic
+| | | Setting a bit here will clear the corresponding IRQ Pending bit
+| 0f184000 | IC1 |  accessed by DisableAllInterrupts(w0c400000), SetAlarm1(rw)
+| | | This seems to be a mask of interrupts that actually trigger an IRQ
+| 0f184400 | IC2 |  accessed by DisableAllInterrupts(w0c000000)
+| | | Please fill this in
+| 0f184800 | IC3 |  accessed by DisableAllInterrupts(w00400000)
+| | | Please fill this in
+| 0f184c00 | ?
+| 0f185000 | ?
+| 0f18c400 | ? (GPIO Int?) |  accessed by DiagBootStub, TGPIOInterface::Init
+| 0f18c800 | ? (GPIO Int Ack?)
+| 0f18cc00 | ? (GPIO Int?) |  accessed by TGPIOInterface::Init
+| 0f18d400 | ? |   accessed by TGPIOInterfaec::ReadGPIOData
+| 0f18d800 | ? (GPIO Int?) |  accessed by DiagBootStub, TGPIOInterface::Init
+| 0f18dc00 | ? (GPIO Pullups?) |  accessed by DiagBootStub, TGPIOInterface::Init
+| 0f18e000 | ? (GPIO Polarity?) |  accessed by DiagBootStub, TGPIOInterface::Init
+| 0f18e800 | ? (GPIO Direction?) |  accessed by DiagBootStub, EarlyIOPowerOn, TGPIOInterface::Init
+| 0f18ec00 |  (GPIO Output Data?) |  accessed by DiagBootStub, EarlyIOPowerOn, EarlyIOPowerOff, TGPIOInterface::Init, TGPIOInterface::WriteGPIOData(r), TVoyagerPlatform::PowerOffSrc5V
+| 0f1c4400 | TGeoPortStatus | byte access read from TGeoPortDebugLink::BeaconDetect(long) (called form install, InitSerialDebugging. InitializeCommHardware: ea310, InitializeCommManager))
+| | | mask 0x08 is the beacon line (rect signal at a certain freq.), 0x80 is ready to write, 0x40 is data available to read. If no beacon was found, the port is not initialized at all.
+| 0f1c6000 | TGeoPortWriteByte | TGeoPort::PutByte(), writing debug information through this port
+| 0f1c6700 | TGeoPortReadByte | TGeoPort::GetNextByte(), reads information from the external debugger device
+| 0f1f2800 |  (GPIO Output Data?) |  // BYTE ACCESS WRITE: DiagBootStubaccessed by DataAbortHandler (TCardSerevr, TCardDomains)
+| 0f240800 | ??
+| 0f241000 | Flash RAM Bank Control |  accessed by DiagBootStub, TBankControlRegister::SetBankControlRegister
+| | | This register seems to change Flash RAM access from 16bit to 32bit. Setting this to 00000300 maps a Flash on the lower two lanes to 32bit access.
+| 0f241800 | ? |   accessed by DiagBootStub
+| 0f242400 | ? |   accessed by GetRebootReason, GetUnsuccessfulBootCount, DiagBootStub, SetRebootReason, SetUnseccessfulBootCount
+| 0f243000 | ?? |  accessed by DiagBootStub
+| 0f280000 | ? |   accessed by BasicBusControlRegInit, DiagBootStub
+| 0f280400 | ? |   accessed by BasicBusControlRegInit, DiagBootStub
+| 0f280800 | ? |   accessed by BasicBusControlRegInit
+| 0f283000 | ? |   accessed by BasicBusControlRegInit, DiagBootStub'
+| 0f283400 | ? |   accessed by DiagBootStub
+?>
+
+--=_multipart_boundary_49
+Content-Type: application/x-phpwiki;
+  pagename=GutsVoyager;
+  flags="";
+  author=MatthiasMelcher;
+  version=2;
+  lastmodified=1162847511;
+  created=1162998176;
+  author_id=MatthiasMelcher;
+  markup=2;
+  hits=98;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+
+This is a table with an overview of what I was able to find out about the Voyager ASIC chip and the functions that access these registers.
+
+It would probably be helpful to look at the register setup of the SA1100 and SA1110 CPUs since they seem to have been designed for a Newton style successor, providing pretty much exactly those interfaces that are implemented as an ASIC in our Newton.
+
+<?plugin OldStyleTable caption="Know Interrupts" border||=1
+| *address* | *remark*
+| 0f001000 | ?? |  accessed by BasicBusControlRegInit, DiagBootStub, TCardSocket::Init
+| 0f001800 | ?? |  accessed by DiagBootStub
+| 0f001c00 | ?? |  accessed by DiagBootStub
+| 0f002000 | ? |  accessed by DiagBootStub
+| 0f041000 | ? |
+| 0f041800 | ? |  accessed by TBIOInterface::BIOFIFOWriteCommand
+| 0f043000 | ? |  accessed by DiagBootStub
+| 0f043800 | ? |  accessed by DiagBootStub
+| 0f048000 | ? |  accessed by DiagBootStub, TBIOInterface::Init, TBIOInterface::BIOWriteCommand, TBIOInterface::BIOWriteCommand, PCirrusSoundDriver::New, TBIOInterface::WaitBIOStatus
+| 0f04a000 | ? |
+| 0f050000 | ? |
+| 0f050800 | ? |
+| 0f052800 | ? |
+| 0f052c00 | ? |   accessed byTBIOInterface::BIOWriteCommand, TBIOInterface::BIOReadCommand
+| 0f053400 | ? |   accessed by TBIOInterface::BIOWriteCommand, TBIOInterface::BIOReadCommand
+| 0f053800 | ? |   accessed by TBIOInterface::BIOWriteCommand, TBIOInterface::BIOReadCommand
+| 0f053c00 | ? |   accessed by TBIOInterface::BIOReadCommand
+| 0f054000 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f054400 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f054800 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f054c00 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f055000 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f086c00 | DMA R1.3 Ch3|
+| 0f08ac00 | DMA R1.3 Ch5 |  accessed by PCirrusSoundDriver::PowerOutputOff
+| 0f08fc00 | DMA Assignment Register |  accessed by TDMAManager::Init, TDMAManager::RequestAssignement
+| 0f090000 | DMA R2.0 Ch0 |  accessed by TSerialDMAEngine::Init
+| 0f091000 | DMA R2.0 Ch1 |  accessed by TSerialDMAEngine::Init
+| 0f092000 | DMA R2.0 Ch2 |  accessed by TSerialDMAEngine::Init
+| 0f093000 | DMA R2.0 Ch3 |  accessed by PCirrusSoundDriver::New
+| 0f093c00 | DMA R2.3 Ch3 |  accessed by PCirrusSoundDriver::New
+| 0f094c00 | DMA R2.3 Ch4 |  accessed by PCirrusSoundDriver::New
+| 0f095c00 | DMA R2.3 Ch3 |  accessed by PCirrusSoundDriver::New
+| 0f096000 | DMA R2.0 Ch5 |  accessed by TSerialDMAEngine::Init
+| 0f097000 | DMA R2.0 Ch5 |  accessed by TSerialDMAEngine::Init
+| 0f098000 | DMA Status |  accessed by PCirrusSoundDriver::StopOutput
+| 0f098400 | ? |   accessed by TDMAManager::Init, PCirrusSoundDriver::StopOutput
+| 0f110000 | Power | (bit0=screen?, bit2=serial?) accessed by BasicBusControlRegInit, DiagBootStub, TVoyagerPlatform::PauseSystem
+| 0f110400 | ?? |  accessed by BasicBusControlRegInit, DiagBootStub, TVoyagerPlatform::PauseSystem
+| 0f111400 | ??
+| 0f140000 | ?
+| 0f140400 | ?
+| 0f140800 | ?
+| 0f140c00 | ?
+| 0f141000 | ?
+| 0f141400 | ?
+| 0f141800 | ?
+| 0f141c00 | ?
+| 0f142000 | ?
+| 0f142400 | ?
+| 0f142800 | ?
+| 0f142c00 | ?
+| 0f143000 | ?
+| 0f180400 | ?? |  accessed by BasicBusControlRegInit
+| 0f181000 | Real Time |  accessed by InitGlobalsThatLiveAcrossReboot, AdjustRealTimeClock, GetRealTimeClock
+| | | This register contains the time in seconds since (?). Can be read any time.
+| 0f181400 | Alarm Time | When this register matches the Real Time register, the CPU wakes up and an interrupt is triggered
+| 0f181800 | Fast Timer |  accessed by Fast Timer, DiagBootStub
+| | | This is a hardware timer that counts up at 200ns(?) per step
+| 0f182000 | TM0 | Triggers an interrupt when this equals Fast Timer
+| 0f182400 | TM1 | Triggers an interrupt when this equals Fast Timer
+| 0f182800 | TM2 |  accessed by SetAlarm1
+| | | Triggers interrupt 00000020 when this equals Fast Timer (TimerInterruptHandler)
+| 0f182c00 | TM3 |  accessed by StartScheduler(4b8a7c8f), PreEmptiveTimerInterrruptHandler(4c188df4)
+| | | Triggers interrupt 00000040 when this equals Fast Timer (PreEmptiveTimerInterruptHandler)
+| 0f183000 | IRQ Pending |  accessed by PostCGlobalsHWInit, DispatchIRQInterrupt
+| | | This is a mask of all interrupts that are currently pending (but which are FIQ or IRQ)
+| 0f183400 | IRQ ?? |   accessed by _EnterFIQAtomicFast(w0c400000), _EnterAtomic, _ExitFIQAtomic(w0c400000), PublicExitAtomic, SetAndClearBitsAtomic
+| 0f183800 | IRQ Ack |  // DisableAllInterrupts(wffffffff), ClearInterrupt, DispatchIRQInterruptaccessed by _EnterAtomic
+| | | Setting a bit here will clear the corresponding IRQ Pending bit
+| 0f184000 | IC1 |  accessed by DisableAllInterrupts(w0c400000), SetAlarm1(rw)
+| | | This seems to be a mask of interrupts that actually trigger an IRQ
+| 0f184400 | IC2 |  accessed by DisableAllInterrupts(w0c000000)
+| | | Please fill this in
+| 0f184800 | IC3 |  accessed by DisableAllInterrupts(w00400000)
+| | | Please fill this in
+| 0f184c00 | ?
+| 0f185000 | ?
+| 0f18c400 | ? (GPIO Int?) |  accessed by DiagBootStub, TGPIOInterface::Init
+| 0f18c800 | ? (GPIO Int Ack?)
+| 0f18cc00 | ? (GPIO Int?) |  accessed by TGPIOInterface::Init
+| 0f18d400 | ? |   accessed by TGPIOInterfaec::ReadGPIOData
+| 0f18d800 | ? (GPIO Int?) |  accessed by DiagBootStub, TGPIOInterface::Init
+| 0f18dc00 | ? (GPIO Pullups?) |  accessed by DiagBootStub, TGPIOInterface::Init
+| 0f18e000 | ? (GPIO Polarity?) |  accessed by DiagBootStub, TGPIOInterface::Init
+| 0f18e800 | ? (GPIO Direction?) |  accessed by DiagBootStub, EarlyIOPowerOn, TGPIOInterface::Init
+| 0f18ec00 |  (GPIO Output Data?) |  accessed by DiagBootStub, EarlyIOPowerOn, EarlyIOPowerOff, TGPIOInterface::Init, TGPIOInterface::WriteGPIOData(r), TVoyagerPlatform::PowerOffSrc5V
+| 0f1f2800 |  (GPIO Output Data?) |  // BYTE ACCESS WRITE: DiagBootStubaccessed by DataAbortHandler (TCardSerevr, TCardDomains)
+| 0f240800 | ??
+| 0f241000 | Flash RAM Bank Control |  accessed by DiagBootStub, TBankControlRegister::SetBankControlRegister
+| | | This register seems to change Flash RAM access from 16bit to 32bit. Setting this to 00000300 maps a Flash on the lower two lanes to 32bit access.
+| 0f241800 | ? |   accessed by DiagBootStub
+| 0f242400 | ? |   accessed by GetRebootReason, GetUnsuccessfulBootCount, DiagBootStub, SetRebootReason, SetUnseccessfulBootCount
+| 0f243000 | ?? |  accessed by DiagBootStub
+| 0f280000 | ? |   accessed by BasicBusControlRegInit, DiagBootStub
+| 0f280400 | ? |   accessed by BasicBusControlRegInit, DiagBootStub
+| 0f280800 | ? |   accessed by BasicBusControlRegInit
+| 0f283000 | ? |   accessed by BasicBusControlRegInit, DiagBootStub'
+| 0f283400 | ? |   accessed by DiagBootStub
+?>
+
+--=_multipart_boundary_49
+Content-Type: application/x-phpwiki;
+  pagename=GutsVoyager;
+  flags="";
+  author=MatthiasMelcher;
+  version=1;
+  lastmodified=1162847277;
+  created=1162847511;
+  author_id=MatthiasMelcher;
+  markup=2;
+  summary=Added%20Voyager%20register%20overview;
+  hits=98;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+<?plugin OldStyleTable caption="Know Interrupts" border||=1
+| *address* | *remark*
+| 0f001000 | ?? |  accessed by BasicBusControlRegInit, DiagBootStub, TCardSocket::Init
+| 0f001800 | ?? |  accessed by DiagBootStub
+| 0f001c00 | ?? |  accessed by DiagBootStub
+| 0f002000 | ? |  accessed by DiagBootStub
+| 0f041000 | ? |
+| 0f041800 | ? |  accessed by TBIOInterface::BIOFIFOWriteCommand
+| 0f043000 | ? |  accessed by DiagBootStub
+| 0f043800 | ? |  accessed by DiagBootStub
+| 0f048000 | ? |  accessed by DiagBootStub, TBIOInterface::Init, TBIOInterface::BIOWriteCommand, TBIOInterface::BIOWriteCommand, PCirrusSoundDriver::New, TBIOInterface::WaitBIOStatus
+| 0f04a000 | ? |
+| 0f050000 | ? |
+| 0f050800 | ? |
+| 0f052800 | ? |
+| 0f052c00 | ? |   accessed byTBIOInterface::BIOWriteCommand, TBIOInterface::BIOReadCommand
+| 0f053400 | ? |   accessed by TBIOInterface::BIOWriteCommand, TBIOInterface::BIOReadCommand
+| 0f053800 | ? |   accessed by TBIOInterface::BIOWriteCommand, TBIOInterface::BIOReadCommand
+| 0f053c00 | ? |   accessed by TBIOInterface::BIOReadCommand
+| 0f054000 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f054400 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f054800 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f054c00 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f055000 | ? |   accessed by TBIOInterface::BIOWriteCommand
+| 0f086c00 | DMA R1.3 Ch3|
+| 0f08ac00 | DMA R1.3 Ch5 |  accessed by PCirrusSoundDriver::PowerOutputOff
+| 0f08fc00 | DMA Assignment Register |  accessed by TDMAManager::Init, TDMAManager::RequestAssignement
+| 0f090000 | DMA R2.0 Ch0 |  accessed by TSerialDMAEngine::Init
+| 0f091000 | DMA R2.0 Ch1 |  accessed by TSerialDMAEngine::Init
+| 0f092000 | DMA R2.0 Ch2 |  accessed by TSerialDMAEngine::Init
+| 0f093000 | DMA R2.0 Ch3 |  accessed by PCirrusSoundDriver::New
+| 0f093c00 | DMA R2.3 Ch3 |  accessed by PCirrusSoundDriver::New
+| 0f094c00 | DMA R2.3 Ch4 |  accessed by PCirrusSoundDriver::New
+| 0f095c00 | DMA R2.3 Ch3 |  accessed by PCirrusSoundDriver::New
+| 0f096000 | DMA R2.0 Ch5 |  accessed by TSerialDMAEngine::Init
+| 0f097000 | DMA R2.0 Ch5 |  accessed by TSerialDMAEngine::Init
+| 0f098000 | DMA Status |  accessed by PCirrusSoundDriver::StopOutput
+| 0f098400 | ? |   accessed by TDMAManager::Init, PCirrusSoundDriver::StopOutput
+| 0f110000 | Power | (bit0=screen?, bit2=serial?) accessed by BasicBusControlRegInit, DiagBootStub, TVoyagerPlatform::PauseSystem
+| 0f110400 | ?? |  accessed by BasicBusControlRegInit, DiagBootStub, TVoyagerPlatform::PauseSystem
+| 0f111400 | ??
+| 0f140000 | ?
+| 0f140400 | ?
+| 0f140800 | ?
+| 0f140c00 | ?
+| 0f141000 | ?
+| 0f141400 | ?
+| 0f141800 | ?
+| 0f141c00 | ?
+| 0f142000 | ?
+| 0f142400 | ?
+| 0f142800 | ?
+| 0f142c00 | ?
+| 0f143000 | ?
+| 0f180400 | ?? |  accessed by BasicBusControlRegInit
+| 0f181000 | Real Time |  accessed by InitGlobalsThatLiveAcrossReboot, AdjustRealTimeClock, GetRealTimeClock
+| | | This register contains the time in seconds since (?). Can be read any time.
+| 0f181400 | Alarm Time | When this register matches the Real Time register, the CPU wakes up and an interrupt is triggered
+| 0f181800 | Fast Timer |  accessed by Fast Timer, DiagBootStub
+| | | This is a hardware timer that counts up at 200ns(?) per step
+| 0f182000 | TM0 | Triggers an interrupt when this equals Fast Timer
+| 0f182400 | TM1 | Triggers an interrupt when this equals Fast Timer
+| 0f182800 | TM2 |  accessed by SetAlarm1
+| | | Triggers interrupt 00000020 when this equals Fast Timer (TimerInterruptHandler)
+| 0f182c00 | TM3 |  accessed by StartScheduler(4b8a7c8f), PreEmptiveTimerInterrruptHandler(4c188df4)
+| | | Triggers interrupt 00000040 when this equals Fast Timer (PreEmptiveTimerInterruptHandler)
+| 0f183000 | IRQ Pending |  accessed by PostCGlobalsHWInit, DispatchIRQInterrupt
+| | | This is a mask of all interrupts that are currently pending (but which are FIQ or IRQ)
+| 0f183400 | IRQ ?? |   accessed by _EnterFIQAtomicFast(w0c400000), _EnterAtomic, _ExitFIQAtomic(w0c400000), PublicExitAtomic, SetAndClearBitsAtomic
+| 0f183800 | IRQ Ack |  // DisableAllInterrupts(wffffffff), ClearInterrupt, DispatchIRQInterruptaccessed by _EnterAtomic
+| | | Setting a bit here will clear the corresponding IRQ Pending bit
+| 0f184000 | IC1 |  accessed by DisableAllInterrupts(w0c400000), SetAlarm1(rw)
+| | | This seems to be a mask of interrupts that actually trigger an IRQ
+| 0f184400 | IC2 |  accessed by DisableAllInterrupts(w0c000000)
+| | | Please fill this in
+| 0f184800 | IC3 |  accessed by DisableAllInterrupts(w00400000)
+| | | Please fill this in
+| 0f184c00 | ?
+| 0f185000 | ?
+| 0f18c400 | ? (GPIO Int?) |  accessed by DiagBootStub, TGPIOInterface::Init
+| 0f18c800 | ? (GPIO Int Ack?)
+| 0f18cc00 | ? (GPIO Int?) |  accessed by TGPIOInterface::Init
+| 0f18d400 | ? |   accessed by TGPIOInterfaec::ReadGPIOData
+| 0f18d800 | ? (GPIO Int?) |  accessed by DiagBootStub, TGPIOInterface::Init
+| 0f18dc00 | ? (GPIO Pullups?) |  accessed by DiagBootStub, TGPIOInterface::Init
+| 0f18e000 | ? (GPIO Polarity?) |  accessed by DiagBootStub, TGPIOInterface::Init
+| 0f18e800 | ? (GPIO Direction?) |  accessed by DiagBootStub, EarlyIOPowerOn, TGPIOInterface::Init
+| 0f18ec00 |  (GPIO Output Data?) |  accessed by DiagBootStub, EarlyIOPowerOn, EarlyIOPowerOff, TGPIOInterface::Init, TGPIOInterface::WriteGPIOData(r), TVoyagerPlatform::PowerOffSrc5V
+| 0f1f2800 |  (GPIO Output Data?) |  // BYTE ACCESS WRITE: DiagBootStubaccessed by DataAbortHandler (TCardSerevr, TCardDomains)
+| 0f240800 | ??
+| 0f241000 | Flash RAM Bank Control |  accessed by DiagBootStub, TBankControlRegister::SetBankControlRegister
+| | | This register seems to change Flash RAM access from 16bit to 32bit. Setting this to 00000300 maps a Flash on the lower two lanes to 32bit access.
+| 0f241800 | ? |   accessed by DiagBootStub
+| 0f242400 | ? |   accessed by GetRebootReason, GetUnsuccessfulBootCount, DiagBootStub, SetRebootReason, SetUnseccessfulBootCount
+| 0f243000 | ?? |  accessed by DiagBootStub
+| 0f280000 | ? |   accessed by BasicBusControlRegInit, DiagBootStub
+| 0f280400 | ? |   accessed by BasicBusControlRegInit, DiagBootStub
+| 0f280800 | ? |   accessed by BasicBusControlRegInit
+| 0f283000 | ? |   accessed by BasicBusControlRegInit, DiagBootStub'
+| 0f283400 | ? |   accessed by DiagBootStub
+?>
+
+--=_multipart_boundary_49--

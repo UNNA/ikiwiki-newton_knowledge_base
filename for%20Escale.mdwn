@@ -1,0 +1,63 @@
+Date: Wed, 19 May 2004 07:30:10 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=for%20Escale;
+  flags="";
+  author=151.203.119.131;
+  version=1;
+  lastmodified=1084966210;
+  created=1084966210;
+  author_id=151.203.119.131;
+  hits=264;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+From Tom Isenbarger:%%%
+
+Connecting Newton to Mac (running OS X and Escale) over wireless:
+
+On the computer (this is for Mac OS X 10.3.3 running on a 15"
+Alumininum Powerbook G4, 1 GHz, with an Airport Extreme card):%%%
+
+1.  Appletalk must be active for the Airport connection on the computer
+(System Preferences > Network > Show Airport > AppleTalk > Make AppleTalk active > Apply Now).%%%
+
+2.  A) In the menubar if there is an Airport item there, or B) in Internet Connect > Airport %%%
+
+choose Create Network (it doesn't have to be called "Newton", but it is case sensitive).%%%
+
+Mine is called "spaceman" and is set on channel 11 (Automatic)%%%
+
+3.  Internet sharing is off%%%
+
+4.  Launch Escale and wait for Appletalk access to be active
+(indicated by the icon looking something like this <---> becoming black and not grey)%%%
+
+
+
+on the Newton (mine is a MP2100 with Lucent WaveLAN silver)
+
+1.  Wireless card is set to work in "infrastructure" mode (channel is not important).
+This also worked in "ad-hoc" mode.  I didn't try "ad-hoc (old-fashioned)" mode.%%%
+----
+Paul Guyot:
+I noticed that this setting has no importance with Lucent cards, but  it does with other cards. With other cards, you would need to connect in ad-hoc mode (with the channel set properly to 11).%%%
+----
+
+2.  In Dock, I choose connect via Appletalk, choose other computer and
+"spaceman" shows up.  Now instead of where it used to say "Desktop
+computer" it says "spaceman", so I don't have to choose "other
+computer" any more.
+
+3.  Sometimes if I have just switched worksites, or if I haven't connected to this particular computer in a little while, when I try to to connect the <---> symbol briefly (few seconds) goes grey and then comes back to black.  Also, sometimes my connection fails on this first try.  If I try to connect again, it almost always connects successfully.  It's as if the first connect attempt has to reset the Appletalk connection, allowing the second trial to work.
+----
+Paul Guyot:
+You have to do it to activate AppleTalk on the Mac. In your case,
+AppleTalk was active (hence the black <...> icon in Escale), but if
+there is no other computer connected to the network, MacOS X shuts
+the interface down and you need to hook the Newton to the network
+with choosing "other computer" to have the Mac fire the interface up.
+Then you have to wait for 10 seconds before the AppleTalk stack is
+completely up and Escale's service is registered.
+----
+3.  Do stuff

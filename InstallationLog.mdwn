@@ -1,0 +1,32 @@
+Date: Tue, 13 Apr 2004 10:07:51 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=InstallationLog;
+  flags="";
+  author=DjVollkasko;
+  version=1;
+  lastmodified=1081865271;
+  created=1081865271;
+  author_id=212.149.48.43;
+  markup=2;
+  hits=197;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__Installation Log (Tool)__
+
+
+__What:__ Logs installation and deletion of any package.
+
+__Background:__ Sometimes you don't know what you installed together or when or in what order. For some apps, this is important, also cross-installing some stuff may result in having stability issues. - Logs name of package, developer, date created, date installed, date deleted, any comments, allows sorting data by the first five categories mentioned.
+
+__Benefit:__ Allows to identify possibly conflicting packages, will allow to pinpoint what packages were installed last before any problem occured.
+
+__Additional Data:__ Any additional input appreciated.
+
+
+__Any Takers?__%%%
+%%%
+%%%
+----
+HomePage : NewtonWishLists : SoftwareWishlist : InstallationLog

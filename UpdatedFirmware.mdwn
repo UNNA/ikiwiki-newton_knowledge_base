@@ -1,0 +1,72 @@
+Date: Fri, 7 Apr 2006 15:31:23 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_38"
+
+--=_multipart_boundary_38
+Content-Type: application/x-phpwiki;
+  pagename=UpdatedFirmware;
+  flags="";
+  author=danielpadilla;
+  version=2;
+  lastmodified=1144438283;
+  created=1144438283;
+  author_id=danielpadilla;
+  markup=2;
+  hits=278;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+  With this procedure,  you can change the default settings of the Conceptronic CBT100C PC Card and make it usable in a Newton with Blunt. <br>
+<br>
+  WARNING!!  This process can render your card useless,  don't do this if you don't feel confident,  ask before if you have any doubt.   Use this information at your own risk.<br><br>
+
+ 1.- Files needed: PSTool.exe  ,  Oxprom.exe  ,  complex.dat  , OXCF950 drivers.<br>
+ 2.- Insert the card in a windows laptop and install it with the OXCF950 drivers.<br>
+ 3.- Find the serial port it has created with the hardware manager.<br>
+ 4.- Launch PSTool and select that serial port, BCSP and 961kbps.<br>
+ 5.- Change the default view in "view", "ordinal sort".<br>
+ 6.- find key nr. 191 and change it to TBD.<br>
+ 7.- find key nr. 1f9 and change it to TBD.<br>
+ 8.- push "reset BC" button and exit PSTool.<br>
+
+   With these operations,  you have changed the card's BT module default operating mode to one that the newton can use.  <br> Now, you have to change the operating mode of the card's serial port chip so the newton OS can actually talk to the BT module through it.<br>
+
+ 9.- Open a hyper Terminal sesion using the card's serial port and the default serial settings. <br>
+ 10.- Launch OXPROM select OXCF950 device, enter base address (it's the first number in I/O range, use device manager).<br>
+ 11.- write complex.dat in the file field and push program device.  It will take a few minutes.
+
+  That's it!  You can use this card with the "generic" driver in Blunt.
+
+  I'm taking screen-shots for the whole process.  They'll be here in a few days.
+
+--=_multipart_boundary_38
+Content-Type: application/x-phpwiki;
+  pagename=UpdatedFirmware;
+  flags="";
+  author=danielpadilla;
+  version=1;
+  lastmodified=1144436367;
+  created=1144438283;
+  author_id=danielpadilla;
+  markup=2;
+  hits=278;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+  With this procedure,  you can change the default settings of the Conceptronic CBT100C PC Card and make it usable in a Newton with Blunt. <br>
+
+ 1.- Files needed: PSTool.exe  ,  Oxprom.exe  ,  complex.dat  , OXCF950 drivers.<br>
+ 2.- Insert the card in a windows laptop and install it with the OXCF950 drivers.<br>
+ 3.- Find the serial port it has created with the hardware manager.<br>
+ 4.- Launch PSTool and select that serial port, BCSP and TBD kbps.<br>
+ 5.- Change the default view in "view", "ordinal sort".<br>
+ 6.- find key nr. 191 and change it to TBD.<br>
+ 7.- find key nr. 1f1 and change it to TBD.<br>
+ 8.- push "reset BC" button and exit PSTool.<br>
+
+   With these operations,  you have changed the BT module default operating mode to one that the newton can use.  <br> Now, you have to change the operating mode of the card's serial port chip so the newton OS can actually talk to the BT module through it.<br>
+
+ TBD<br>
+
+--=_multipart_boundary_38--

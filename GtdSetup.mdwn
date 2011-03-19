@@ -1,0 +1,85 @@
+Date: Tue, 13 Mar 2007 12:25:02 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_45"
+
+--=_multipart_boundary_45
+Content-Type: application/x-phpwiki;
+  pagename=GtdSetup;
+  flags="";
+  author=EckhartKoeppen;
+  version=3;
+  lastmodified=1173803102;
+  created=1173803102;
+  author_id=EckhartKoeppen;
+  markup=2;
+  hits=447;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+[Getting Things Done|http://www.davidco.com], or short GTD is a way to deal with tasks and projects in a self-organizing way. Here are a some ideas how to implement GTD on the Newton:
+
+EckhartKoeppen:
+
+This my previous setup:
+
+* The software I use is DateMan, MoreFolders and some homegrown extensions to DateMan, plus the built-in Newton software
+* My projects are represented as global folders in MoreFolders. Each project contains notes, tasks and appointments
+* There are two things which I do differently than GTD: I don't have separate action lists, and I use DateMan's task priorities
+* Tasks are prioritized like this: A1 tasks have to be done today, A2 tasks should be done today as well, B tasks are enablers for other tasks but don't have a deadline yet, and C tasks are the rest
+* Usually, I try to put tasks into the correct priority order each morning
+* For each mail I get, there can only be one of four actions: do something about it right away, file it for reference, delete it, or create a task on the Newton to deal with it
+
+Now I'm using FlashPoint (as usual on [40hz|http://40hz.org/wiki/index.php/Flashpoint])
+
+--=_multipart_boundary_45
+Content-Type: application/x-phpwiki;
+  pagename=GtdSetup;
+  flags="";
+  author=EckhartKoeppen;
+  version=2;
+  lastmodified=1151427996;
+  created=1173803102;
+  author_id=EckhartKoeppen;
+  markup=2;
+  hits=447;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+[Getting Things Done|http://www.davidco.com], or short GTD is a way to deal with tasks and projects in a self-organizing way. Here are a some ideas how to implement GTD on the Newton:
+
+EckhartKoeppen:
+
+* The software I use is DateMan, MoreFolders and some homegrown extensions to DateMan, plus the built-in Newton software
+* My projects are represented as global folders in MoreFolders. Each project contains notes, tasks and appointments
+* There are two things which I do differently than GTD: I don't have separate action lists, and I use DateMan's task priorities
+* Tasks are prioritized like this: A1 tasks have to be done today, A2 tasks should be done today as well, B tasks are enablers for other tasks but don't have a deadline yet, and C tasks are the rest
+* Usually, I try to put tasks into the correct priority order each morning
+* For each mail I get, there can only be one of four actions: do something about it right away, file it for reference, delete it, or create a task on the Newton to deal with it
+
+--=_multipart_boundary_45
+Content-Type: application/x-phpwiki;
+  pagename=GtdSetup;
+  flags="";
+  author=EckhartKoppen;
+  version=1;
+  lastmodified=1151427258;
+  created=1151427996;
+  author_id=EckhartKoppen;
+  markup=2;
+  hits=447;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+[Getting Things Done|http://www.davidco.com], or short GTD is a way to deal with tasks and projects in a self-organizing way. Here are a some ideas how to implement GTD on the Newton:
+
+EckhartKoppen:
+
+* The software I use is DateMan, MoreFolders and some homegrown extensions to DateMan, plus the built-in Newton software
+* My projects are represented as global folders in MoreFolders. Each project contains notes, tasks and appointments
+* There are two things which I do differently than GTD: I don't have separate action lists, and I use DateMan's task priorities
+* Tasks are prioritized like this: A1 tasks have to be done today, A2 tasks should be done today as well, B tasks are enablers for other tasks but don't have a deadline yet, and C tasks are the rest
+* Usually, I try to put tasks into the correct priority order each morning
+* For each mail I get, there can only be one of four actions: do something about it right away, file it for reference, delete it, or create a task on the Newton to deal with it
+
+--=_multipart_boundary_45--

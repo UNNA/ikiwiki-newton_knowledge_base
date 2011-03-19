@@ -1,0 +1,42 @@
+Date: Wed, 14 Mar 2007 14:06:16 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_27"
+
+--=_multipart_boundary_27
+Content-Type: application/x-phpwiki;
+  pagename=MoreInfo;
+  flags="";
+  author=reidsrow;
+  version=2;
+  lastmodified=1173895576;
+  created=1173895576;
+  author_id=reidsrow;
+  markup=2;
+  hits=164;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+This application by [SilverWARE|http://silverware.com] seamlessly integrates with the Newton's built-in [Names], [Dates], [ToDoList], [Calls], [NotePad] (including voice recording stationary) and add-ons like [NewtonWorks] to provide extraordinary linking capabilities that transform the Newton into a full integrated information management system. (Commercial, [Download Free Trial|http://www.silverware.com/Moreinfo.shtml] ~$80 and worth every penny.)
+
+MoreInfo can be used for more than just contact management. Matthew Reidsma describes using MoreInfo in DoingAcademicResearch.
+
+--=_multipart_boundary_27
+Content-Type: application/x-phpwiki;
+  pagename=MoreInfo;
+  flags="";
+  author=reidsrow;
+  version=1;
+  lastmodified=1173895521;
+  created=1173895576;
+  author_id=reidsrow;
+  markup=2;
+  hits=164;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+This application by [SilverWARE|http://silverware.com] seamlessly integrates with the Newton's built-in [Names], [Dates], [ToDoList], [Calls], [Notes] (including voice recording stationary) and add-ons like [NewtonWorks] to provide extraordinary linking capabilities that transform the Newton into a full integrated information management system. (Commercial, [Download Free Trial|http://www.silverware.com/Moreinfo.shtml] ~$80 and worth every penny.)
+
+MoreInfo can be used for more than just contact management. Matthew Reidsma describes using MoreInfo in DoingAcademicResearch.
+
+--=_multipart_boundary_27--

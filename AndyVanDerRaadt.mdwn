@@ -1,0 +1,21 @@
+Date: Tue, 14 Mar 2006 16:11:31 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=AndyVanDerRaadt;
+  flags="";
+  author=ThomasTempelmann;
+  version=1;
+  lastmodified=1142370691;
+  created=1142370691;
+  author_id=212.202.193.236;
+  markup=2;
+  summary=Restored%20page%20that%20got%20spammed%20over;
+  hits=636;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+[AndyVanDerRaadt] is new to the Newton, though he used to play with the OriginalMessagePad his father had when he was a youngling. Presently he has that same H1000 and two [MessagePad2100]s, both wired and wireless.
+
+He's looking for a spare dongle adapter, another AA battery tray and a keyboard of the Newton or Palm variety. If anyone is willing to part with one, [please get in touch|mailto:fallow@gmail.com].
+
+He also owns a Palm m500; please forgive him. (It's in a drawer, somewhere.)

@@ -1,0 +1,223 @@
+Date: Sat, 2 Dec 2006 22:10:20 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_31"
+
+--=_multipart_boundary_31
+Content-Type: application/x-phpwiki;
+  pagename=NewtAC;
+  flags="";
+  author=se6ciocco;
+  version=2;
+  lastmodified=1165115420;
+  created=1165115420;
+  author_id=se6ciocco;
+  markup=2;
+  hits=1280;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HardWare : [NewtAC]%%%
+----
+!!!NewtAC
+
+%%%
+Adapter by AdrianoAngelillis (Italy) for attaching USB power sources (e.g. USB battery box, USB car charger, USB hubs, etc... ) to MessagePads 1x0 and 2x00 eMate. It allows operating the Newton as if attached to the standard external power supply.
+
+
+!!What is it good for?
+
+"NewtAC example of use:
+ - your are at home and tomorrow will start your travelling
+ - take you modded battery tray, and recharge n.4 batteries inside your MessagePad
+ - take out the modded tray, put inside the Newton original battery and recharge it too
+ - put the batteries recharged in the modded tray in your usb battery pack
+ - take the MP2k, the NewtAC, the usb battery pack and the usb car charger and start your travel
+ - in the car, just connect the MP2k to the car charger via NewtAC, turn-on the AQ-300 and monitor your travel without any power loss
+ - at destination, just leave the car (and car adapter) and bring with you the GPS and the b.pack along with your MP2k
+ - when your battery pack will be out-of-power, a couple of days could have been passed-off and your internal battery is still full" (AdrianoAngelillis)
+
+
+
+
+!!NewtAC FAQ:
+
+
+*Q: Will any USB battery box work with NewtAC?%%%
+**A: "Everything which will power a USB device (car adapter, USB hub, etc. ...), will be compatible with [NewtAC] too, so a cool, thin battery box will be fine.%%%
+**There are cheap usb chargers, and there are also expensive chargers (i.e. Targus) which will recharge almost everything in every situation (laptops, mobiles, and pdas on the airplane, on the train etc.). The good news is that with [NewtAC] these (cheap or expensive) gadgets, if they have a female usb port, will recharge a MP2k, too!" (AdrianoAngelillis)%%%
+
+*Q: Can I run the Newton from internal cells, then attach NewtAC and run from that, and then insert fresh internal cells, detach NewtAC -- all without interrupting Newton operation (e.g. nonstop-GPS mission tracking with [GPSMap])?%%%
+**A: "Yes, sure. With [NewtAC] attached and forwarding power to the MessagePad mainboard, you can remove the internal battery pack and exchange it with a fresh one." (AdrianoAngelillis)%%%
+
+*Q: Is there an option to charge the battery IN the USB battery box?%%%
+**A: "No, that would be too expensive for me to build at the moment, but i am working for finding a cheap solution for this. Although so, on the market are already selling very good external chargers (car adapter battery charger, 110/220 V wall charger, solar charger), just recharge using the devices mentioned above, then once your batteries are fresh, put them in the battery pack you designated to be your Newton external/portable power box." (AdrianoAngelillis)%%%
+
+*Q: Newtons are very sensitive about their power supplies - unregulated voltage or too high currents can kill them very quickly... How do I know it is really safe to attach the Newton via NewtAC to USB wallchargers, USB Car Adapters or USB hubs?%%%
+**A: "Standard USB specs are internationally fixed and digitally regulated to:
+***current 0.5 Amperes
+***voltage 5 Volts
+****the specs above are mandatory
+****Be aware that on the market exist non-standard usb chargers made for powering specific devices. If a usb charger designed to supply a current over 1.2Amperes is connected through NewtAC, the MessagePad could suffer a shock. No one will be able to repair a shocked MessagePad, no one apart of ''Dr.Newton'' (far away for now) or ''Mr.Frank Gruendel''"
+**"IT'S OK TO:
+***hook-up directly to a Powerbook usb port
+***hook-up to a usb hub
+***hook-up to a usb car adapter ONLY IF it will supply current below 1.2A (the info is readable on the car adapter specs, as usually glued on its body)
+***hook-up to whatever usb charger ONLY IF it will supply current below 1.2A (the info is readable on the adapter specs, as usually printed on its body)." (AdrianoAngelillis)%%%
+
+
+*Q: Why 4x AA [NiMH], why not 8x AA like in Apple Newton BatteryBooster?%%%
+**A: "A booster pack would have a current regulator inside and some particular soldering needs.
+**batteries tend to become a problem as they squash if not used properly
+**large factories production make usb battery packs sell at $3,00 on the road markets
+**Two questions:
+***1. do you know how many hours will it need to you to fully recharge eight AA NiMH batteries?
+***2. do you know how much will cost to buy a wall recharger for having eight AA NiMH recharged?
+**The answers to the above questions are the two best reasons to not have a 8x AA batteries booster pack." (AdrianoAngelillis)%%%
+
+
+!!Recommendations
+
+[NewtAC] has been realized to preserve the Newton internal battery charge.
+
+When connected to a standard desktop/laptop usb port, it will recharge the MessagePad's battery.
+
+Cause of Newton OS sensibility, [NewtAC] is not officially recommended for recharging purposes.
+
+Although some car/wall/travel usb chargers will recharge the MessagePad's internal battery,
+the hardware needed to stop the recharging process on fully charged batteries is not present on such accessories
+so the MessagePad can be ruined if the process isn't stopped disconnecting the cables manually. (AdrianoAngelillis)%%%
+
+----
+!See also these Newton Power-Resources:
+
+* Apple [ACAdapter]
+* Apple Newton BatteryBooster
+* Apple NewtonCarChargingAdaptor
+* BatteryPacks
+* BatteryReconditioning
+* [NiMH]
+* PowerConsumption
+* SolarPanels
+----
+!See also these fabulous products from AdrianoAngelillis:
+
+* [NewtLight] -- Mini-DIN 9-to-USB adapter for use with MP 2x00's InterConnectPort and the InterConnectDongle, draws power from InterConnectPort (NO USB connection!).
+* [NewtSplit] -- Y-adapter: Newton-to-PC serial with male USB plug that provides power from the MessagePad.
+* [NewtEye] -- A 10.000mcd blue led that directly plugs into the Newton's serial port.
+* NewtNav -- Attach GPS mouse receiver directly to serial port of MP 2x000 (draw power from Newton, transmit data)
+----
+HomePage : HardWare : [NewtAC]%%%
+
+--=_multipart_boundary_31
+Content-Type: application/x-phpwiki;
+  pagename=NewtAC;
+  flags="";
+  author=151.49.1.106;
+  version=1;
+  lastmodified=1124149968;
+  created=1165115420;
+  author_id=151.49.1.106;
+  markup=2;
+  hits=1280;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HardWare : [NewtAC]%%%
+----
+!!!NewtAC
+
+%%%
+Adapter by AdrianoAngelillis (Italy) for attaching USB power sources (e.g. USB battery box, USB car charger, USB hubs, etc... ) to MessagePads 1x0 and 2x00 eMate. It allows operating the Newton as if attached to the standard external power supply.
+
+
+[NewtAC website|http://homepage.mac.com/adriano.angelillis/PhotoAlbum12.html]%%%
+[Movie: NewtAC on MP 130|http://homepage.mac.com/adriano.angelillis/iMovieTheater13.html]%%%
+[Movie: NewtAC on MP 2100|http://homepage.mac.com/adriano.angelillis/iMovieTheater14.html]%%%
+
+
+!!What is it good for?
+
+"NewtAC example of use:
+ - your are at home and tomorrow will start your travelling
+ - take you modded battery tray, and recharge n.4 batteries inside your MessagePad
+ - take out the modded tray, put inside the Newton original battery and recharge it too
+ - put the batteries recharged in the modded tray in your usb battery pack
+ - take the MP2k, the NewtAC, the usb battery pack and the usb car charger and start your travel
+ - in the car, just connect the MP2k to the car charger via NewtAC, turn-on the AQ-300 and monitor your travel without any power loss
+ - at destination, just leave the car (and car adapter) and bring with you the GPS and the b.pack along with your MP2k
+ - when your battery pack will be out-of-power, a couple of days could have been passed-off and your internal battery is still full" (AdrianoAngelillis)
+
+
+
+
+!!NewtAC FAQ:
+
+
+*Q: Will any USB battery box work with NewtAC?%%%
+**A: "Everything which will power a USB device (car adapter, USB hub, etc. ...), will be compatible with [NewtAC] too, so a cool, thin battery box will be fine.%%%
+**There are cheap usb chargers, and there are also expensive chargers (i.e. Targus) which will recharge almost everything in every situation (laptops, mobiles, and pdas on the airplane, on the train etc.). The good news is that with [NewtAC] these (cheap or expensive) gadgets, if they have a female usb port, will recharge a MP2k, too!" (AdrianoAngelillis)%%%
+
+*Q: Can I run the Newton from internal cells, then attach NewtAC and run from that, and then insert fresh internal cells, detach NewtAC -- all without interrupting Newton operation (e.g. nonstop-GPS mission tracking with [GPSMap])?%%%
+**A: "Yes, sure. With [NewtAC] attached and forwarding power to the MessagePad mainboard, you can remove the internal battery pack and exchange it with a fresh one." (AdrianoAngelillis)%%%
+
+*Q: Is there an option to charge the battery IN the USB battery box?%%%
+**A: "No, that would be too expensive for me to build at the moment, but i am working for finding a cheap solution for this. Although so, on the market are already selling very good external chargers (car adapter battery charger, 110/220 V wall charger, solar charger), just recharge using the devices mentioned above, then once your batteries are fresh, put them in the battery pack you designated to be your Newton external/portable power box." (AdrianoAngelillis)%%%
+
+*Q: Newtons are very sensitive about their power supplies - unregulated voltage or too high currents can kill them very quickly... How do I know it is really safe to attach the Newton via NewtAC to USB wallchargers, USB Car Adapters or USB hubs?%%%
+**A: "Standard USB specs are internationally fixed and digitally regulated to:
+***current 0.5 Amperes
+***voltage 5 Volts
+****the specs above are mandatory
+****Be aware that on the market exist non-standard usb chargers made for powering specific devices. If a usb charger designed to supply a current over 1.2Amperes is connected through NewtAC, the MessagePad could suffer a shock. No one will be able to repair a shocked MessagePad, no one apart of ''Dr.Newton'' (far away for now) or ''Mr.Frank Gruendel''"
+**"IT'S OK TO:
+***hook-up directly to a Powerbook usb port
+***hook-up to a usb hub
+***hook-up to a usb car adapter ONLY IF it will supply current below 1.2A (the info is readable on the car adapter specs, as usually glued on its body)
+***hook-up to whatever usb charger ONLY IF it will supply current below 1.2A (the info is readable on the adapter specs, as usually printed on its body)." (AdrianoAngelillis)%%%
+
+
+*Q: Why 4x AA [NiMH], why not 8x AA like in Apple Newton BatteryBooster?%%%
+**A: "A booster pack would have a current regulator inside and some particular soldering needs.
+**batteries tend to become a problem as they squash if not used properly
+**large factories production make usb battery packs sell at $3,00 on the road markets
+**Two questions:
+***1. do you know how many hours will it need to you to fully recharge eight AA NiMH batteries?
+***2. do you know how much will cost to buy a wall recharger for having eight AA NiMH recharged?
+**The answers to the above questions are the two best reasons to not have a 8x AA batteries booster pack." (AdrianoAngelillis)%%%
+
+
+!!Recommendations
+
+[NewtAC] has been realized to preserve the Newton internal battery charge.
+
+When connected to a standard desktop/laptop usb port, it won't recharge the MessagePad's battery.
+
+Cause of Newton OS sensibility, [NewtAC] is not recommended for recharging purposes.
+
+Although some car/wall/travel usb chargers will recharge the MessagePad's internal battery,
+the hardware needed to stop the recharging process on fully charged batteries is not present on such accessories
+so the MessagePad can be ruined if the process isn't stopped disconnecting the cables manually. (AdrianoAngelillis)%%%
+
+----
+!See also these Newton Power-Resources:
+
+* Apple [ACAdapter]
+* Apple Newton BatteryBooster
+* Apple NewtonCarChargingAdaptor
+* BatteryPacks
+* BatteryReconditioning
+* [NiMH]
+* PowerConsumption
+* SolarPanels
+----
+!See also these fabulous products from AdrianoAngelillis:
+
+* [NewtLight] -- Mini-DIN 9-to-USB adapter for use with MP 2x00's InterConnectPort and the InterConnectDongle, draws power from InterConnectPort (NO USB connection!).
+* [NewtSplit] -- Y-adapter: Newton-to-PC serial with male USB plug that provides power from the MessagePad.
+* [NewtEye] -- A 10.000mcd blue led that directly plugs into the Newton's serial port.
+* NewtNav -- Attach GPS mouse receiver directly to serial port of MP 2x000 (draw power from Newton, transmit data)
+----
+HomePage : HardWare : [NewtAC]%%%
+
+--=_multipart_boundary_31--

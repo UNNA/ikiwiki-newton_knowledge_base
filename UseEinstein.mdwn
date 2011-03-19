@@ -1,0 +1,136 @@
+Date: Wed, 24 May 2006 01:04:52 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_33"
+
+--=_multipart_boundary_33
+Content-Type: application/x-phpwiki;
+  pagename=UseEinstein;
+  flags="";
+  author=RossOlson;
+  version=2;
+  lastmodified=1148447092;
+  created=1148447092;
+  author_id=RossOlson;
+  summary=Additional%20Formating%2C%20new%20section%20for%20Zaurus%20install;
+  hits=1492;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!!!Einstein
+
+__If your Newton dies because of this or anything else bad happens, I take no responsibility whatsoever. - Jeffrey McMurtrie__
+
+[Einstein|http://www.kallisys.com/newton/einstein/en/] is a Newton emulator, currently only for the Newton 2x00 with Mac OS X using X11.  X11 can be found on the Panther (Mac OS 10.3) install disk.
+
+!!How to Install Einstein on MacOSX
+
+Einstein currently only works with MP2x00 US units.
+
+'''Step 1:''' Connect your Newton via Serial to [Hammer or Newtsbug|http://www.unna.org/view.php?/development/NewtonDev] and save the memory from 0x00000000 to 0x00800000 or between 0x00800000 and 0x01000000 (although you would actually type in 00000000 vs. 0x00000000). This is the same because of the way the ROM card is built. In Hammer, the first range isn't entirely accessible in user mode (but with Hammer, you grab it in supervisor mode, so it's not a problem). __This may take a few hours.__
+
+'''Step 2:''' Move the saved memory file into the Einstein data folder and rename it 717006.
+
+'''Step 3:''' Lauch Einstein by navigating to the einstein folder and typing ./einstein data/ . For example if Einstein was in your  main user folder you'd type:
+
+
+!!ROM dump to a Mac using ROMDumper:
+
+Install ROMDumper on your Newton. Make sure you can connect to your local network and a Mac running X via Newt's ethernet card or wireless card and establish what IP address was given your Newt (manual setting of the IP would be best, else you will need to establish Newt's IP running DHCP setting. I use ettercap on the Mac.)
+
+On your Mac, launch the Terminal.
+
+Type nc Newt's IP addess here 10080 > rom
+     ie. nc 192.168.0.4 10080 > rom
+
+I could not get this to work on my PowerBook Pismo for as long as I had a space character between the ">" and the file name. So better type nc 192.168.0.4 10080 >rom (June 12, 2005 Frank Gruendel)
+
+!!Launch ROMDumper on the Newt.
+
+A 8MB file named rom will be downloaded to the top level of your user folder on your Mac.
+
+Change the name of the file according to the instructions i.e. 717006
+
+Place the file in the data folder as instructed next to the Einstein.rex file.
+
+
+cd Einstein %%%
+./einstein data/
+----
+
+!!How to install Einstein on a Sharp Zaurus:
+
+Read the page at: EinsteinOnZaurus
+
+
+----
+!!See also:
+
+* Official website for [Einstein|http://www.kallisys.com/newton/einstein/en]
+* Paul Guyot's original presentation of Einstein at [WWNC] 2004: ["Newton Never Dies. It only gets new Hardware"|http://wwnc.newtontalk.net/2004/program/paulguyot/slides-paulguyot.pdf]
+* Early discussion of Einstein project scope and opportunities [Newton Future: what could be done IMO|http://marc.theaimsgroup.com/?t=103898667200003&r=1&w=2] (thanks, SonyaHipper for pointing me to this thread!--[DJ Vollkasko|DJVollkaskoSetup])
+
+--=_multipart_boundary_33
+Content-Type: application/x-phpwiki;
+  pagename=UseEinstein;
+  flags="";
+  author=64.230.0.197;
+  version=1;
+  lastmodified=1138076746;
+  created=1148447092;
+  author_id=64.230.0.197;
+  summary=Added%20note%20to%20remove%20%220x%22%20from%20memory%20addresses%20when%20downloading%20ROM%20from%20Newtsbug%2FHammer;
+  hits=1492;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!!Einstein
+
+__If your Newton dies because of this or anything else bad happens, I take no responsibility whatsoever. - Jeffrey McMurtrie__
+
+[Einstein|http://www.kallisys.com/newton/einstein/en/] is a Newton emulator, currently only for the Newton 2x00 with Mac OS X using X11.  X11 can be found on the Panther (Mac OS 10.3) install disk.
+
+!How to use Einstein
+
+Einstein currently only works with MP2x00 US units.
+
+Step 1: Connect your Newton via Serial to [Hammer or Newtsbug|http://www.unna.org/view.php?/development/NewtonDev] and save the memory from 0x00000000 to 0x00800000 or between 0x00800000 and 0x01000000 (although you would actually type in 00000000 vs. 0x00000000). This is the same because of the way the ROM card is built. In Hammer, the first range isn't entirely accessible in user mode (but with Hammer, you grab it in supervisor mode, so it's not a problem). __This may take a few hours.__
+
+Step 2: Move the saved memory file into the Einstein data folder and rename it 717006.
+
+Step 3: Lauch Einstein by navigating to the einstein folder and typing ./einstein data/ . For example if Einstein was in your  main user folder you'd type:
+
+
+ROM dump to a Mac using ROMDumper:
+
+Install ROMDumper on your Newton. Make sure you can connect to your local network and a Mac running X via Newt's ethernet card or wireless card and establish what IP address was given your Newt (manual setting of the IP would be best, else you will need to establish Newt's IP running DHCP setting. I use ettercap on the Mac.)
+
+On your Mac, launch the Terminal.
+
+Type nc Newt's IP addess here 10080 > rom
+     ie. nc 192.168.0.4 10080 > rom
+
+I could not get this to work on my PowerBook Pismo for as long
+as I had a space character between the ">" and the file name.
+So better type nc 192.168.0.4 10080 >rom (June 12, 2005 Frank Gruendel)
+
+Launch ROMDumper on the Newt.
+
+A 8MB file named rom will be downloaded to the top level of your user folder on your Mac.
+
+Change the name of the file according to the instructions i.e. 717006
+
+Place the file in the data folder as instructed next to the Einstein.rex file.
+
+
+cd Einstein %%%
+./einstein data/
+----
+
+!!See also:
+
+* Official website for [Einstein|http://www.kallisys.com/newton/einstein/en]
+* Paul Guyot's original presentation of Einstein at [WWNC] 2004: ["Newton Never Dies. It only gets new Hardware"|http://wwnc.newtontalk.net/2004/program/paulguyot/slides-paulguyot.pdf]
+* Early discussion of Einstein project scope and opportunities [Newton Future: what could be done IMO|http://marc.theaimsgroup.com/?t=103898667200003&r=1&w=2] (thanks, SonyaHipper for pointing me to this thread!--[DJ Vollkasko|DJVollkaskoSetup])
+
+--=_multipart_boundary_33--

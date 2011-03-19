@@ -1,0 +1,32 @@
+Date: Sun, 13 Jun 2004 13:59:37 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=ButtonBar;
+  flags="";
+  author=24.156.127.194;
+  version=1;
+  lastmodified=1087149577;
+  created=1087149577;
+  author_id=24.156.127.194;
+  hits=493;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+The __Button Bar__ in the MP2X00 series is the Newton's effective command centre, visible over every application and automatically launched at startup. The manner in which one can customise the icons contained in its boundaries appears to have leant some influence to the Dock in __NeXT__ and __Mac__ __OS__ __X__.
+
+If you delete a file in an application such as Notes you can see the rather obvious examples of this as the document scrunches up and floats to the Watebasket with superb sound effects =] Just as whimsical as the genie effect is OSX. %%%
+John Swaine %%%
+%%%
+
+!! Button Bar Enhancements
+
+!! Hiding the Button Bar
+If you want to hide the !ButtonBar (some Apps may require this), you can use a variety of applications:
+
+Full Screen V1.1 from Roger Milne - http://roger.trideja.com/downloads.html  - Freeware - For NOS ???
+
+Barkeep by ICS with its KillBB extention - http://www.newts.com/newton/bkfinalpr.html - Shareware, $7 - For NOS 2.1
+
+DashBoard by Five Speed Software, Inc. - http://www.fivespeed.com/dashboard/ - Commercial, $25 - For NOS 2.1
+
+Button Bar Plus by Stand Alone Software - Info: http://www.standalone.com/MessagePad/ButtonBar/body.html For Sale At: http://standalone.com/newtonos/ - Shareware, $25 - For NOS 2.x

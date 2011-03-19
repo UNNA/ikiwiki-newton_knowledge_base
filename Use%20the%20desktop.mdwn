@@ -1,0 +1,50 @@
+Date: Tue, 19 Sep 2006 08:51:56 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=Use%20the%20desktop;
+  flags="";
+  author=MichaelWittmann;
+  version=1;
+  lastmodified=1158670316;
+  created=1158670316;
+  author_id=MichaelWittmann;
+  markup=2;
+  hits=427;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!! Connecting Newton and Desktop (OS X)
+
+I'll update this later, but it's worth putting it here now because I've been thinking about it lately.
+
+Working on the Newton, I use the various Notes stationary (outlines, checklists, notes) to keep track of lectures, meetings with graduate students, notes in other areas, and so on. I use Dates to keep track of my life, Names to link information together... You know what? Go read [Organize Information] and [Daily Use] for more on that. The question is, how do you get relevant information from the Newton to another location?
+
+The Newton's desktop communication has always been notoriously bad. NCU worked okay for me, but I now have an Intel based Mac and am happy to see Classic go by the wayside. I only used NCU anymore, anyway. I have an old desktop that I can fire up if I need it, but I haven't needed it in 6 weeks and doubt I'll need it in the next 6 months. So what do I use?
+
+!! Outlines/Checklists to maps
+
+A major toolbox is the new OPML capability of two communication pieces, NewtSync and [Blunt]. I use NewtSync with my ethernet connection (to a hub connected to my laptop) and I use Blunt with the bluetooth communication. In each case, the goal is to get information off the Newton and onto the desktop. I get an OPML file on my desktop. That's step 1. (Getting either system to work is its own story, of course. I have no problems anymore...)
+
+Step 2 is to open up the OPML file in the appropriate software. OmniOutliner is fine and dandy, but does way more than the Newton outliners allow you to do. I miss good keystrokes in [MyMind | http://www.sebastian-krauss.de/software/] but just love what it does with the information I have. I have OPML setup to open in [MyMind | http://www.sebastian-krauss.de/software/] . So I double-click on the new OPML file, which launches [MyMind | http://www.sebastian-krauss.de/software/] . I don't really do anything other than hit the "Create Map" button. I open the Inspector, choose my preferred map, set thickness of lines and how much the line thickness decreases in each step, and turn on rainbow colors for the map. This last one makes each branch a different color and makes a map much easier to read.
+
+If I need to share the map, I can save as jpg and mail it to someone. I can print out a page that has the map on it, allowing for quick reference and readability. In the process, I have completely repackaged a linear list (created on the fly, while somewhere with my Newton) into a highly presentable and easily shareable piece of information. Plus, since OPML is easily shareable, I can mail the actual data on to other people, if needed.
+
+!! Archiving calendar data
+
+What I don't use:
+
+1. Nominally, iCal synch with NewtSync should work, but there are so many bugs that I drop it. For some reason, some entries in my Dates don't show up on the desktop, and that is always annoying. It's not a backup of information if it's not a complete backup, so I don't use it.
+
+2. IC/VC is a slick routing tool that lets you go the other way, subscribing to calendars and importing that data into the Newton. But, I use the Newton as my primary calendering platform, so I don't really like it.
+
+What I do use:
+
+I use the Newton as the master calendar. It's always with me, so why not? I find it necessary, though, to back up my information regularly. I don't need to be terribly clean about it, but I have needed to know in the past when I completed a task. For that, I use [DateSum | http://www.unna.org/unna/applications/pim/DateSum1.71/]. I collect a weekly report (7 days, starting Sunday) that contains all my events, meetings, and tasks. I copy that to Notes, and from there I dump it onto the desktop (NewtSync or [Blunt]). I name the file using the format YYYYmmdd.txt. If I need to find something, Spotlight in OS X can do it for me. If I know what day something happened, roughly, I can just open that file and use Find to get to the appropriate place.
+
+!! Archiving all notes
+
+I really like plain text, though I miss good formatting along the way. I use [Markdown | http://daringfireball.net/projects/markdown/] when writing normal Notes, with BBEditor to help me out with commonly used formatting bits like return-type-4-spaces-and-an-asterisk which creates a bulleted list indented from the previous text (you have to understand Markdown to get that, I guess).
+
+All my notes (even outlines and checklists) get dumped into my "Master Notes" folder on the desktop. I have other notes entering that location, as well. I don't use Yojimbo or SOHO Notes or Mori or any of those other tools. I use the Finder. I have my folders (as described in [Organize Information]) and those are the same across my whole system. Master Notes has the same folder architecture as my Finder does as a whole. Using a simple alias (and an icon which is always the same yellow "notepad" icon), I have links in each relevant Finder folder to the Notes that are associated with that folder. So, for example, my "5-personal" folder contains an alias to the "5-personal" notes. The icon tells me what kind of information I can find in the folder.
+
+An important piece of this is that I don't actually use the Finder for my file browsing. I use a competely outdated piece of software that never made it past beta, [Coela | http://translate.google.com/translate?u=http%3A%2F%2Fwww.bekkoame.ne.jp%2F%7Eiimori%2Fsw%2FCoela.html&langpair=ja%7Cen&hl=en&ie=UTF-8&oe=UTF-8&prev=%2Flanguage_tools]. It worked on both OS 9 and OS X, which was nice when I had to use both systems. I got used to it and stuck with it. It allows sortable column views (by name, date, kind, label, and size), which helps sometimes. It also has a huge "favorites" sidebar, in which I can have an outline structure of my major folders PLUS links to regularly used folders outside of that outline hierarchy PLUS additional sidebar pages which are easily accessible. In other words, it allows me to slice my Finder folder system in many different ways. Using keystrokes to launch "snapshots" or using [Butler | http://www.petermaurer.de/nasi.php?thema=butler&id=butlerhelpers&sprache=english] to launch certain folders in Coela, plus having two different column views open at once, I can fly from point to point in my system. I let individual programs do their job, and I let Coela/Finder do its job. (This is my reason for not moving to Mori, Yojimbo, or any of those other programs which seem to be so Newton-like on the desktop).

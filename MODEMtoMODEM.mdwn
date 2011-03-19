@@ -1,0 +1,70 @@
+Date: Mon, 3 Jan 2005 22:03:34 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=MODEMtoMODEM;
+  flags="";
+  author=207.34.68.34;
+  version=1;
+  lastmodified=1104807814;
+  created=1104807814;
+  author_id=207.34.68.34;
+  markup=2;
+  hits=2449;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+_Alternative Newton Connection Method_
+
+Version 2
+For the Newton 2000 and 2100
+
+Why use a modem to modem connection?
+
+Several reasons: modems are cheap; almost everyone has one; it does not require any special tools; and the big one... bootstrapping.
+
+Let's start on the Newton side:
+
+goto the prefs : then go to modem: volume will need to be on just not very loud, uncheck the “Require dial tone” box, “connect using “ default or which ever slot your card is in, Modem setup select  your type of modem or one that is close.
+
+Now go to the “Dock” :
+
+* owners name: (should be yours)
+* connect via: (check modem)
+* connect to: (the name of your comp or other)
+* will dial: (doesn't matter)
+
+prefs : none checked
+
+this concludes our newton setup, so far not too hard.
+
+On your computer:
+
+Will need to have NCU installed.
+
+Start up your newton connection program, on apple systems it will warn you that appletalk is off just ignore it an keep going. Once it is open got to its preferences, make sure to check internal modem or modem. Here is where you can turn off the feature to listen to appletalk so it wont ask for it the next time you start up NCU.
+
+Will need to make sure that all data correction it turned off this is important.
+
+Your modem software will need to be able to allow you to manualy answer.
+
+* Pop in your modem card for the newton
+* Plug the phone line into both modems
+* Go to dock on the newton and get ready to connect on the computer side turn on NCU and get ready to answer from the comp.
+* Start the connection from the newton first , let it dial, wait a few seconds.
+* Now answer from the computer side (if you dont have an option to manual answer with your modem,  you should be able to work around this by waiting to start up NCU till after the newton dials. If all goes well you should get a connection at the rate of the slowest modem. I belive this should be a way around having to use slowdown routines.
+
+My setup is connecting at 100% and have full use of NCU.
+
+* Works for me too!  Whoever thought this up should get a medal!
+* If you get into trouble try out the following ideas too :-
+* I used the kermit comms package to program my modem, but I guess other comms packages should work just as well.
+
+Look up the various at& commands for your PC's modem, you want it to keep the line up even when the PC tries to hang up from the serial line side (I think its something about DSR etc.)  This allows you to run ata and exit but leave the line up, this fools NCU into thinking it is directly connected to the newton.
+
+*** Use 'ata' modem command on the PC to auto answer after you have got the Newton to dial the dummy numbers (you dont need to be actually connected to the real phone network, I used a T-connector with the modems side by side in the top two holes).  When you see the "Connected XXXXX" text appear on the terminal Window, close kermit and fire up NCU.
+
+I had it set to the highest speed.  I also used "Alternate modem 2" on the newton side.
+
+I also had to have 2 copies of "slowdown" set to max slowness to be able to download big files.
+
+Once I got 'bootstrapped' I got a PCMCIA NE2K network card to work with NIE and was able to use FTP, etc.

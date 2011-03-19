@@ -1,0 +1,893 @@
+Date: Mon, 5 Jun 2006 13:48:11 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_32"
+
+--=_multipart_boundary_32
+Content-Type: application/x-phpwiki;
+  pagename=LocalizeNewtonForInternationalUsers;
+  flags="";
+  author=DJ%20Vollkasko;
+  version=7;
+  lastmodified=1149529691;
+  created=1149529691;
+  author_id=DJ%20Vollkasko;
+  markup=2;
+  summary=Added%20Anton%20Balaban%27s%20Russian%20Localization%20website;
+  hits=541;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+----
+
+_International Newton Localization_
+
+
+!!!Working with several Dictionaries for HWR Recognition
+
+"If you get Paul's DictMngr and you go into 'commons(attributed)(forward)' and uncheck the Enabled checkbox it disables the internal dictionary, great fro recognition with foreign languages.
+(BTW, this sound more difficult than it is in practice)
+
+I use this all of the time and from looking at the accuracy and the good second guesses it comes up if it goes wrong, my Dutch dictionary is certainly very active.
+
+BTW, I never loaded a French one, the best option would be to activate whatever language one desires of course..." (Source: Robert Benschop at NTLK)
+
+----
+
+!!Chinese
+
+!B2Uni Translator
+
+The encoding system on the Newton is UNICODE, while most of the electronic documents in traditional Chinese language are encoded with Big5 code. Joseph Chens's B2Uni (available from his website http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html) is a small Newton extension to do the translation job. It is needed for Newt's Cape Chinese.
+B2Uni Translator is based on NTEncoding by GNUE (aka Makoto Nukui).
+
+!Chinese Input Methods
+
+*Joseph Chen offers a [Chinese Input Method| http://nats-www.informatik.uni-hamburg.de/~joseph/newton/input_methods/index.html] which is based on a modular design. You can choose your own input method module(s) and install separately what you need. A generic input method is automatically installed, which is nothing but a writing panel for Roman script input. At the time of this writing, the available modules are,
+** PinYin/Phrase Input Module
+** CangJie Input Module
+** Cantonese Input Module
+** Boshiamy Module
+** Simplified CangJie Input Module
+** Alternative Cantonese Input Module
+*Radicals for NewtonOS 2.x
+**[Radicals|http://cs.gmu.edu/~sean/projects/newton/Radicals/] by SeanLuke is a radical/stroke-based Chinese input system designed to be used like Chinese dictionaries are. Native Chinese won't find it very useful, but non-native students of the language will find it indespensable.
+*Cantonese Yale Romanization Input Module for NewtonOS 2.x
+**Based on data provided by SeanLuke, Joseph Chen created a Yale Romanization input module for his [Chinese Input Method| http://nats-www.informatik.uni-hamburg.de/~joseph/newton/input_methods/index.html]. This input module makes it possible to enter Chinese characters into the Newton by writing their romanizations. However, it was never added to the collection on Joseph Chen's web page, so SeanLuke makes it available on [his own website|http://cs.gmu.edu/~sean/projects/newton/YaleInput/]. Joseph does have two earlier (non-Yale) Cantonese input modules which don't work as well as this one.
+
+
+!Chinese Dictionaries
+
+*CharDict and CharDict+ for NewtonOS 2.x
+**[CharDict|http://cs.gmu.edu/~sean/projects/newton/CharDict/] is a dictionary of 4000 basic Chinese characters, including definitions, pronounciations in Mandarin and Cantonese, traditional and simplified variants, and usage frequency.
+**[CharDict+|http://cs.gmu.edu/~sean/projects/newton/CharDict/] is all that plus 2600 or even 14,000 compound Chinese words to boot.
+
+
+!Chinese Fonts
+*Joe Chen hosts [Chinese fonts and a Lextionary engine| http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html].
+* SeanLuke hosts more [Chinese and laser printer fonts|http://cs.gmu.edu/~sean/projects/newton/Fonts/] for the Newton MessagePad.
+----
+
+!!French
+
+
+!!German
+
+
+!!Italian
+
+
+!!Japanese
+
+[Tomoyoshi Murai|mailto:tmurai@mars.dtinet.or.jp] has a very good page on Japanese Newton Localization: _Japanese Bitmap Font for Newton OS_ ([English|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfont.html], [Japanese|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfontj.html])
+
+!Japanese Enabler
+NewtonOS Patch to support Japanese, released by Apple Japan for Japanese market only.
+* [For MP130|ftp://ftp.apple.co.jp/pub/AppleJapan/Newton/Update526205-J.sea.hqx]
+* [For MP120 NOS 2.0|ftp://ftp.apple.co.jp/pub/AppleJapan/Newton/Update516205-J.sea.hqx]
+** (Q: Is the NOS 2.0 version also okay for NOS 2.1?)
+
+*Note:* "If you input Japanese in Names or Dates _without_ having *Japanese Enabler* installed, you will break the soup and lose all your data in memory. But I tested that NotePad has no problem inputing Japanese without *Japanese Enabler*." (T. Murai)
+
+!Japanese Input Systems
+    There are 6 ways.
+
+    #Use nJIM ([Newton Japanese Input Method|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/nJIM/nJIM.html], Freeware by [Tomoyoshi Murai|mailto:tmurai@mars.dtinet.or.jp].
+    #Use [UniFEP|http://www.enfour.co.jp/newton/software/index.html] released by [Enfour, Inc.|http://www.enfour.co.jp]. Commercial software.
+    #Use Izumi (2006: bad link http://www.sakabe.nuie.nagoya-u.ac.jp/newton/nagoya-u/izumi) released by [Ohkubo|mailto:ohkubo@inagaki.nuie.nagoya-u.ac.jp]. Freeware.
+    #Use KanaKana (2006: dead link http://www.bekkoame.or.jp/~kuwa27/applets/KanaKana/index.html) released by [T. Kuwabara|mailto:kuwa27@virgo.bekkoame.or.jp]. Freeware. (Japanese-only pages)
+    #Use TFM (POBox for Newton) (2006: bad link http://www.t3.rim.or.jp/~hirose1/) released by [Y. Hirose|mailto:hirose1@asia.apple.com]. Freeware.
+    #Use Chameleon (2006: dead link http://www2.meshnet.or.jp/~tomotsugu/newton.html) released by [H. Tomotsugu|mailto:hitoshi@mxc.meshnet.or.jp]. Freeware.
+
+!Japanese Fonts
+[Tomoyoshi Murai|mailto:tmurai@mars.dtinet.or.jp]'s [website| http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfont.html] offers seven Japanese fonts for both NOS 1.0 and 2.x.
+
+----
+
+!!Portuguese
+
+
+!!Polish
+
+----
+!!Russian
+
+!Russian Localization Info
+[Anton Balaban|mailto:anton@balaban.ru] has a great page on Russian Newton localization on [his website|http://www.balaban.ru/newt/russian.htm] for NOS 1.x and 2.x (in Russian). Offers Newton dictionaries, fonts, keyboard drivers and many great tips.
+
+!Cyrillic Reading Pack for Newton
+Cyrillic is Joe Chen's port of a freeware X Window Cyrillic font to Newton platform (Unicode) and available from his website http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html. Also enclosed with the distribution are code translation modules for GNUE's (aka Makoto Nukui) NTEncoding, with which you're able to send/receive files with any software that supports NTEncoding (notably Steve Weyer's Newt's Cape.) The supported translations are
+    # MacCyrillic (Russian) <-> Unicode
+    # ISO 8859-5 <-> Unicode
+    # KOI-R <-> Unicode
+    # Win 1251 <-> Unicode
+
+You can also use UniTaipeiX (avaiblable from Joe's website) which comes with full set of Latin-1 (ISO 8859-1), traditional Chinese (Big5), Japanese Kana and Kanji (JIS 208) and Cyrillic characters (KOI-R). There is also a code translator that can make it easy to share data between Newton and a desktop.
+
+!Cyrillic Writing Pack for Newton
+Joseph Chen's Cyrillic Writing Pack http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html includes a Cyrillic keyboard with which you can type Cyrillic in your Newton and a TapBar button for transliteration (Latin->Cyrillic). Joe is using Graffiti as keyboard and found the input of Cyrillic like a breeze.
+----
+
+!!Spanish
+
+
+!!Swedish
+
+"There is an official swedish word-list from apple as well, i happen to
+use it :)
+http://www.pixell.net/downloads/newton/Svensk_ordlista_Newton.sit
+
+the swedish dictionary is not the best one dough, which, combined with
+the fact that the NOS lacks the possibility to turn off the english
+dictionary makes it work ... hmm ... not as good as the english one.
+
+if the newton would be ported, i see the alt.rec features paired with
+the optimisations larry suggested during WWNC  as an important part of
+getting it right. the newton HWR engine could be refined a lot more
+from where we stand, especially if you think international..."
+
+(Source: Roman Pixell at NTLK)
+
+----
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+
+--=_multipart_boundary_32
+Content-Type: application/x-phpwiki;
+  pagename=LocalizeNewtonForInternationalUsers;
+  flags="";
+  author=DJ%20Vollkasko;
+  version=6;
+  lastmodified=1149528753;
+  created=1149529691;
+  author_id=DJ%20Vollkasko;
+  markup=2;
+  summary=Added%20Sean%20Luke%27s%20Chinese%20Localization%20info.;
+  hits=541;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+----
+
+_International Newton Localization_
+
+
+!!!Working with several Dictionaries for HWR Recognition
+
+"If you get Paul's DictMngr and you go into 'commons(attributed)(forward)' and uncheck the Enabled checkbox it disables the internal dictionary, great fro recognition with foreign languages.
+(BTW, this sound more difficult than it is in practice)
+
+I use this all of the time and from looking at the accuracy and the good second guesses it comes up if it goes wrong, my Dutch dictionary is certainly very active.
+
+BTW, I never loaded a French one, the best option would be to activate whatever language one desires of course..." (Source: Robert Benschop at NTLK)
+
+----
+
+!!Chinese
+
+!B2Uni Translator
+
+The encoding system on the Newton is UNICODE, while most of the electronic documents in traditional Chinese language are encoded with Big5 code. Joseph Chens's B2Uni (available from his website http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html) is a small Newton extension to do the translation job. It is needed for Newt's Cape Chinese.
+B2Uni Translator is based on NTEncoding by GNUE (aka Makoto Nukui).
+
+!Chinese Input Methods
+
+*Joseph Chen offers a [Chinese Input Method| http://nats-www.informatik.uni-hamburg.de/~joseph/newton/input_methods/index.html] which is based on a modular design. You can choose your own input method module(s) and install separately what you need. A generic input method is automatically installed, which is nothing but a writing panel for Roman script input. At the time of this writing, the available modules are,
+** PinYin/Phrase Input Module
+** CangJie Input Module
+** Cantonese Input Module
+** Boshiamy Module
+** Simplified CangJie Input Module
+** Alternative Cantonese Input Module
+*Radicals for NewtonOS 2.x
+**[Radicals|http://cs.gmu.edu/~sean/projects/newton/Radicals/] by SeanLuke is a radical/stroke-based Chinese input system designed to be used like Chinese dictionaries are. Native Chinese won't find it very useful, but non-native students of the language will find it indespensable.
+*Cantonese Yale Romanization Input Module for NewtonOS 2.x
+**Based on data provided by SeanLuke, Joseph Chen created a Yale Romanization input module for his [Chinese Input Method| http://nats-www.informatik.uni-hamburg.de/~joseph/newton/input_methods/index.html]. This input module makes it possible to enter Chinese characters into the Newton by writing their romanizations. However, it was never added to the collection on Joseph Chen's web page, so SeanLuke makes it available on [his own website|http://cs.gmu.edu/~sean/projects/newton/YaleInput/]. Joseph does have two earlier (non-Yale) Cantonese input modules which don't work as well.
+
+
+
+!Chinese Dictionaries
+
+*CharDict and CharDict+ for NewtonOS 2.x
+**[CharDict|http://cs.gmu.edu/~sean/projects/newton/CharDict/] is a dictionary of 4000 basic Chinese characters, including definitions, pronounciations in Mandarin and Cantonese, traditional and simplified variants, and usage frequency.
+**[CharDict+|http://cs.gmu.edu/~sean/projects/newton/CharDict/] is all that plus 2600 or even 14,000 compound Chinese words to boot.
+
+
+!Chinese Fonts
+*Joe Chen hosts [Chinese fonts and a Lextionary engine| http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html].
+* SeanLuke hosts more [Chinese and laser printer fonts|http://cs.gmu.edu/~sean/projects/newton/Fonts/] for the Newton MessagePad.
+
+
+----
+
+!!French
+
+
+!!German
+
+
+!!Italian
+
+
+!!Japanese
+
+[Tomoyoshi Murai|mailto:tmurai@mars.dtinet.or.jp] has a very good page on Japanese Newton Localization: _Japanese Bitmap Font for Newton OS_ ([English|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfont.html], [Japanese|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfontj.html])
+
+!Japanese Enabler
+NewtonOS Patch to support Japanese, released by Apple Japan for Japanese market only.
+* [For MP130|ftp://ftp.apple.co.jp/pub/AppleJapan/Newton/Update526205-J.sea.hqx]
+* [For MP120 NOS 2.0|ftp://ftp.apple.co.jp/pub/AppleJapan/Newton/Update516205-J.sea.hqx]
+** (Q: Is the NOS 2.0 version also okay for NOS 2.1?)
+
+*Note:* "If you input Japanese in Names or Dates _without_ having *Japanese Enabler* installed, you will break the soup and lose all your data in memory. But I tested that NotePad has no problem inputing Japanese without *Japanese Enabler*." (T. Murai)
+
+!Japanese Input Systems
+    There are 6 ways.
+
+    #Use nJIM ([Newton Japanese Input Method|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/nJIM/nJIM.html], Freeware by [Tomoyoshi Murai|mailto:tmurai@mars.dtinet.or.jp].
+    #Use [UniFEP|http://www.enfour.co.jp/newton/software/index.html] released by [Enfour, Inc.|http://www.enfour.co.jp]. Commercial software.
+    #Use Izumi (2006: bad link http://www.sakabe.nuie.nagoya-u.ac.jp/newton/nagoya-u/izumi) released by [Ohkubo|mailto:ohkubo@inagaki.nuie.nagoya-u.ac.jp]. Freeware.
+    #Use KanaKana (2006: dead link http://www.bekkoame.or.jp/~kuwa27/applets/KanaKana/index.html) released by [T. Kuwabara|mailto:kuwa27@virgo.bekkoame.or.jp]. Freeware. (Japanese-only pages)
+    #Use TFM (POBox for Newton) (2006: bad link http://www.t3.rim.or.jp/~hirose1/) released by [Y. Hirose|mailto:hirose1@asia.apple.com]. Freeware.
+    #Use Chameleon (2006: dead link http://www2.meshnet.or.jp/~tomotsugu/newton.html) released by [H. Tomotsugu|mailto:hitoshi@mxc.meshnet.or.jp]. Freeware.
+
+!Japanese Fonts
+
+[Tomoyoshi Murai|mailto:tmurai@mars.dtinet.or.jp]'s [website| http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfont.html] offers seven Japanese fonts for both NOS 1.0 and 2.x.
+
+----
+
+!!Portuguese
+
+
+!!Polish
+
+
+!!Russian
+
+!Cyrillic Reading Pack for Newton
+
+Cyrillic is Joe Chen's port of a freeware X Window Cyrillic font to Newton platform (Unicode) and available from his website http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html. Also enclosed with the distribution are code translation modules for GNUE's (aka Makoto Nukui) NTEncoding, with which you're able to send/receive files with any software that supports NTEncoding (notably Steve Weyer's Newt's Cape.) The supported translations are
+    # MacCyrillic (Russian) <-> Unicode
+    # ISO 8859-5 <-> Unicode
+    # KOI-R <-> Unicode
+    # Win 1251 <-> Unicode
+
+You can also use UniTaipeiX (avaiblable from Joe's website) which comes with full set of Latin-1 (ISO 8859-1), traditional Chinese (Big5), Japanese Kana and Kanji (JIS 208) and Cyrillic characters (KOI-R). There is also a code translator that can make it easy to share data between Newton and a desktop.
+
+
+!Cyrillic Writing Pack for Newton
+
+Joseph Chen's Cyrillic Writing Pack http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html includes a Cyrillic keyboard with which you can type Cyrillic in your Newton and a TapBar button for transliteration (Latin->Cyrillic). Joe is using Graffiti as keyboard and found the input of Cyrillic like a breeze.
+----
+
+!!Spanish
+
+
+!!Swedish
+
+"There is an official swedish word-list from apple as well, i happen to
+use it :)
+http://www.pixell.net/downloads/newton/Svensk_ordlista_Newton.sit
+
+the swedish dictionary is not the best one dough, which, combined with
+the fact that the NOS lacks the possibility to turn off the english
+dictionary makes it work ... hmm ... not as good as the english one.
+
+if the newton would be ported, i see the alt.rec features paired with
+the optimisations larry suggested during WWNC  as an important part of
+getting it right. the newton HWR engine could be refined a lot more
+from where we stand, especially if you think international..."
+
+(Source: Roman Pixell at NTLK)
+
+----
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+
+--=_multipart_boundary_32
+Content-Type: application/x-phpwiki;
+  pagename=LocalizeNewtonForInternationalUsers;
+  flags="";
+  author=DJ%20Vollkasko;
+  version=5;
+  lastmodified=1149523148;
+  created=1149528753;
+  author_id=DJ%20Vollkasko;
+  markup=2;
+  hits=541;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+----
+
+_International Newton Localization_
+
+
+!!!Working with several Dictionaries for HWR Recognition
+
+"If you get Paul's DictMngr and you go into 'commons(attributed)(forward)' and uncheck the Enabled checkbox it disables the internal dictionary, great fro recognition with foreign languages.
+(BTW, this sound more difficult than it is in practice)
+
+I use this all of the time and from looking at the accuracy and the good second guesses it comes up if it goes wrong, my Dutch dictionary is certainly very active.
+
+BTW, I never loaded a French one, the best option would be to activate whatever language one desires of course..." (Source: Robert Benschop at NTLK)
+
+----
+
+!!Chinese
+
+!B2Uni Translator
+
+The encoding system on the Newton is UNICODE, while most of the electronic documents in traditional Chinese language are encoded with Big5 code. Joseph Chens's B2Uni (available from his website http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html) is a small Newton extension to do the translation job. It is needed for Newt's Cape Chinese.
+B2Uni Translator is based on NTEncoding by GNUE (aka Makoto Nukui).
+
+!Chinese Input Method
+Joe Chen also offers a Chinese Input Method http://nats-www.informatik.uni-hamburg.de/~joseph/newton/input_methods/index.html which is based on a modular design. You can choose your own input method module(s) and install separately what you need. A generic input method is automatically installed, which is nothing but a writing panel for Roman script input. At the time of this writing, the available modules are,
+        * PinYin/Phrase Input Module
+        * CangJie Input Module
+        * Cantonese Input Module
+        * Boshiamy Module
+        * Simplified CangJie Input Module
+        * Alternative Cantonese Input Module
+
+!Chinese Fonts and Dictionary
+Joe Chen also hosts Chinese fonts and a Lextionary engine http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html .
+----
+
+!!French
+
+
+!!German
+
+
+!!Italian
+
+
+!!Japanese
+
+[Tomoyoshi Murai|mailto:tmurai@mars.dtinet.or.jp] has a very good page on Japanese Newton Localization: _Japanese Bitmap Font for Newton OS_ ([English|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfont.html], [Japanese|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfontj.html])
+
+!Japanese Enabler
+NewtonOS Patch to support Japanese, released by Apple Japan for Japanese market only.
+* [For MP130|ftp://ftp.apple.co.jp/pub/AppleJapan/Newton/Update526205-J.sea.hqx]
+* [For MP120 NOS 2.0|ftp://ftp.apple.co.jp/pub/AppleJapan/Newton/Update516205-J.sea.hqx]
+** (Q: Is the NOS 2.0 version also okay for NOS 2.1?)
+
+*Note:* "If you input Japanese in Names or Dates _without_ having *Japanese Enabler* installed, you will break the soup and lose all your data in memory. But I tested that NotePad has no problem inputing Japanese without *Japanese Enabler*." (T. Murai)
+
+!Japanese Input Systems
+    There are 6 ways.
+
+    #Use nJIM ([Newton Japanese Input Method|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/nJIM/nJIM.html], Freeware by [Tomoyoshi Murai|mailto:tmurai@mars.dtinet.or.jp].
+    #Use [UniFEP|http://www.enfour.co.jp/newton/software/index.html] released by [Enfour, Inc.|http://www.enfour.co.jp]. Commercial software.
+    #Use Izumi (2006: bad link http://www.sakabe.nuie.nagoya-u.ac.jp/newton/nagoya-u/izumi) released by [Ohkubo|mailto:ohkubo@inagaki.nuie.nagoya-u.ac.jp]. Freeware.
+    #Use KanaKana (2006: dead link http://www.bekkoame.or.jp/~kuwa27/applets/KanaKana/index.html) released by [T. Kuwabara|mailto:kuwa27@virgo.bekkoame.or.jp]. Freeware. (Japanese-only pages)
+    #Use TFM (POBox for Newton) (2006: bad link http://www.t3.rim.or.jp/~hirose1/) released by [Y. Hirose|mailto:hirose1@asia.apple.com]. Freeware.
+    #Use Chameleon (2006: dead link http://www2.meshnet.or.jp/~tomotsugu/newton.html) released by [H. Tomotsugu|mailto:hitoshi@mxc.meshnet.or.jp]. Freeware.
+
+!Japanese Fonts
+
+[Tomoyoshi Murai|mailto:tmurai@mars.dtinet.or.jp]'s [website| http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfont.html] offers seven Japanese fonts for both NOS 1.0 and 2.x.
+
+----
+
+!!Portuguese
+
+
+!!Polish
+
+
+!!Russian
+
+!Cyrillic Reading Pack for Newton
+
+Cyrillic is Joe Chen's port of a freeware X Window Cyrillic font to Newton platform (Unicode) and available from his website http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html. Also enclosed with the distribution are code translation modules for GNUE's (aka Makoto Nukui) NTEncoding, with which you're able to send/receive files with any software that supports NTEncoding (notably Steve Weyer's Newt's Cape.) The supported translations are
+    # MacCyrillic (Russian) <-> Unicode
+    # ISO 8859-5 <-> Unicode
+    # KOI-R <-> Unicode
+    # Win 1251 <-> Unicode
+
+You can also use UniTaipeiX (avaiblable from Joe's website) which comes with full set of Latin-1 (ISO 8859-1), traditional Chinese (Big5), Japanese Kana and Kanji (JIS 208) and Cyrillic characters (KOI-R). There is also a code translator that can make it easy to share data between Newton and a desktop.
+
+
+!Cyrillic Writing Pack for Newton
+
+Joseph Chen's Cyrillic Writing Pack http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html includes a Cyrillic keyboard with which you can type Cyrillic in your Newton and a TapBar button for transliteration (Latin->Cyrillic). Joe is using Graffiti as keyboard and found the input of Cyrillic like a breeze.
+----
+
+!!Spanish
+
+
+!!Swedish
+
+"There is an official swedish word-list from apple as well, i happen to
+use it :)
+http://www.pixell.net/downloads/newton/Svensk_ordlista_Newton.sit
+
+the swedish dictionary is not the best one dough, which, combined with
+the fact that the NOS lacks the possibility to turn off the english
+dictionary makes it work ... hmm ... not as good as the english one.
+
+if the newton would be ported, i see the alt.rec features paired with
+the optimisations larry suggested during WWNC  as an important part of
+getting it right. the newton HWR engine could be refined a lot more
+from where we stand, especially if you think international..."
+
+(Source: Roman Pixell at NTLK)
+
+----
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+
+--=_multipart_boundary_32
+Content-Type: application/x-phpwiki;
+  pagename=LocalizeNewtonForInternationalUsers;
+  flags="";
+  author=DJ%20Vollkasko;
+  version=4;
+  lastmodified=1149523024;
+  created=1149523148;
+  author_id=DJ%20Vollkasko;
+  markup=2;
+  summary=Added%20Japanese%20Input%20Systems%20%2B%20Fonts.%20Anybody%20know%20where%20the%20dead%20sites%20are%20mirrored%3F;
+  hits=541;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+----
+
+_International Newton Localization_
+
+
+!!!Working with several Dictionaries for HWR Recognition
+
+"If you get Paul's DictMngr and you go into 'commons(attributed)(forward)' and uncheck the Enabled checkbox it disables the internal dictionary, great fro recognition with foreign languages.
+(BTW, this sound more difficult than it is in practice)
+
+I use this all of the time and from looking at the accuracy and the good second guesses it comes up if it goes wrong, my Dutch dictionary is certainly very active.
+
+BTW, I never loaded a French one, the best option would be to activate whatever language one desires of course..." (Source: Robert Benschop at NTLK)
+
+----
+
+!!Chinese
+
+!B2Uni Translator
+
+The encoding system on the Newton is UNICODE, while most of the electronic documents in traditional Chinese language are encoded with Big5 code. Joseph Chens's B2Uni (available from his website http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html) is a small Newton extension to do the translation job. It is needed for Newt's Cape Chinese.
+B2Uni Translator is based on NTEncoding by GNUE (aka Makoto Nukui).
+
+!Chinese Input Method
+Joe Chen also offers a Chinese Input Method http://nats-www.informatik.uni-hamburg.de/~joseph/newton/input_methods/index.html which is based on a modular design. You can choose your own input method module(s) and install separately what you need. A generic input method is automatically installed, which is nothing but a writing panel for Roman script input. At the time of this writing, the available modules are,
+        * PinYin/Phrase Input Module
+        * CangJie Input Module
+        * Cantonese Input Module
+        * Boshiamy Module
+        * Simplified CangJie Input Module
+        * Alternative Cantonese Input Module
+
+!Chinese Fonts and Dictionary
+Joe Chen also hosts Chinese fonts and a Lextionary engine http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html .
+----
+
+!!French
+
+
+!!German
+
+
+!!Italian
+
+
+!!Japanese
+
+[Tomoyoshi Murai|mailto:tmurai@mars.dtinet.or.jp] has a very good page on Japanese Newton Localization: _Japanese Bitmap Font for Newton OS_ ([English|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfont.html], [Japanese|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfontj.html])
+
+!Japanese Enabler
+NewtonOS Patch to support Japanese, released by Apple Japan for Japanese market only.
+* [For MP130|ftp://ftp.apple.co.jp/pub/AppleJapan/Newton/Update526205-J.sea.hqx]
+* [For MP120 NOS 2.0|ftp://ftp.apple.co.jp/pub/AppleJapan/Newton/Update516205-J.sea.hqx]
+** (Q: Is the NOS 2.0 version also okay for NOS 2.1?)
+
+*Note:* "If you input Japanese in Names or Dates _without_ having *Japanese Enabler* installed, you will break the soup and lose all your data in memory. But I tested that NotePad has no problem inputing Japanese without *Japanese Enabler*." (T. Murai)
+
+!Japanese Input Systems
+    There are 6 ways.
+
+    1. Use nJIM ([Newton Japanese Input Method|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/nJIM/nJIM.html], Freeware by [Tomoyoshi Murai|mailto:tmurai@mars.dtinet.or.jp].
+    2. Use [UniFEP|http://www.enfour.co.jp/newton/software/index.html] released by [Enfour, Inc.|http://www.enfour.co.jp]. Commercial software.
+    3. Use Izumi (2006: bad link http://www.sakabe.nuie.nagoya-u.ac.jp/newton/nagoya-u/izumi) released by [Ohkubo|mailto:ohkubo@inagaki.nuie.nagoya-u.ac.jp]. Freeware.
+    4. Use KanaKana (2006: dead link http://www.bekkoame.or.jp/~kuwa27/applets/KanaKana/index.html) released by [T. Kuwabara|mailto:kuwa27@virgo.bekkoame.or.jp]. Freeware. (Japanese-only pages)
+    5. Use TFM (POBox for Newton) (2006: bad link http://www.t3.rim.or.jp/~hirose1/) released by [Y. Hirose|mailto:hirose1@asia.apple.com]. Freeware.
+    6. Use Chameleon (2006: dead link http://www2.meshnet.or.jp/~tomotsugu/newton.html) released by [H. Tomotsugu|mailto:hitoshi@mxc.meshnet.or.jp]. Freeware.
+
+!Japanese Fonts
+
+[Tomoyoshi Murai|mailto:tmurai@mars.dtinet.or.jp]'s [website| http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfont.html] offers seven Japanese fonts for both NOS 1.0 and 2.x.
+
+----
+
+!!Portuguese
+
+
+!!Polish
+
+
+!!Russian
+
+!Cyrillic Reading Pack for Newton
+
+Cyrillic is Joe Chen's port of a freeware X Window Cyrillic font to Newton platform (Unicode) and available from his website http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html. Also enclosed with the distribution are code translation modules for GNUE's (aka Makoto Nukui) NTEncoding, with which you're able to send/receive files with any software that supports NTEncoding (notably Steve Weyer's Newt's Cape.) The supported translations are
+    # MacCyrillic (Russian) <-> Unicode
+    # ISO 8859-5 <-> Unicode
+    # KOI-R <-> Unicode
+    # Win 1251 <-> Unicode
+
+You can also use UniTaipeiX (avaiblable from Joe's website) which comes with full set of Latin-1 (ISO 8859-1), traditional Chinese (Big5), Japanese Kana and Kanji (JIS 208) and Cyrillic characters (KOI-R). There is also a code translator that can make it easy to share data between Newton and a desktop.
+
+
+!Cyrillic Writing Pack for Newton
+
+Joseph Chen's Cyrillic Writing Pack http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html includes a Cyrillic keyboard with which you can type Cyrillic in your Newton and a TapBar button for transliteration (Latin->Cyrillic). Joe is using Graffiti as keyboard and found the input of Cyrillic like a breeze.
+----
+
+!!Spanish
+
+
+!!Swedish
+
+"There is an official swedish word-list from apple as well, i happen to
+use it :)
+http://www.pixell.net/downloads/newton/Svensk_ordlista_Newton.sit
+
+the swedish dictionary is not the best one dough, which, combined with
+the fact that the NOS lacks the possibility to turn off the english
+dictionary makes it work ... hmm ... not as good as the english one.
+
+if the newton would be ported, i see the alt.rec features paired with
+the optimisations larry suggested during WWNC  as an important part of
+getting it right. the newton HWR engine could be refined a lot more
+from where we stand, especially if you think international..."
+
+(Source: Roman Pixell at NTLK)
+
+----
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+
+--=_multipart_boundary_32
+Content-Type: application/x-phpwiki;
+  pagename=LocalizeNewtonForInternationalUsers;
+  flags="";
+  author=DJ%20Vollkasko;
+  version=3;
+  lastmodified=1149515297;
+  created=1149523024;
+  author_id=DJ%20Vollkasko;
+  markup=2;
+  summary=Added%20some%20Japanese%20Localization.%20More%20Power%20to%20the%20Wiki%2C%20y%27all%21%20%3B%3D%7D;
+  hits=541;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+----
+
+_International Newton Localization_
+
+
+!!!Working with several Dictionaries for HWR Recognition
+
+"If you get Paul's DictMngr and you go into 'commons(attributed)(forward)' and uncheck the Enabled checkbox it disables the internal dictionary, great fro recognition with foreign languages.
+(BTW, this sound more difficult than it is in practice)
+
+I use this all of the time and from looking at the accuracy and the good second guesses it comes up if it goes wrong, my Dutch dictionary is certainly very active.
+
+BTW, I never loaded a French one, the best option would be to activate whatever language one desires of course..." (Source: Robert Benschop at NTLK)
+
+----
+
+!!Chinese
+
+!B2Uni Translator
+
+The encoding system on the Newton is UNICODE, while most of the electronic documents in traditional Chinese language are encoded with Big5 code. Joseph Chens's B2Uni (available from his website http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html) is a small Newton extension to do the translation job. It is needed for Newt's Cape Chinese.
+B2Uni Translator is based on NTEncoding by GNUE (aka Makoto Nukui).
+
+!Chinese Input Method
+Joe Chen also offers a Chinese Input Method http://nats-www.informatik.uni-hamburg.de/~joseph/newton/input_methods/index.html which is based on a modular design. You can choose your own input method module(s) and install separately what you need. A generic input method is automatically installed, which is nothing but a writing panel for Roman script input. At the time of this writing, the available modules are,
+        * PinYin/Phrase Input Module
+        * CangJie Input Module
+        * Cantonese Input Module
+        * Boshiamy Module
+        * Simplified CangJie Input Module
+        * Alternative Cantonese Input Module
+
+!Chinese Fonts and Dictionary
+Joe Chen also hosts Chinese fonts and a Lextionary engine http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html .
+----
+
+!!French
+
+
+!!German
+
+
+!!Italian
+
+
+!!Japanese
+
+[Tomoyoshi Murai|tmurai@mars.dtinet.or.jp] has a very good page on Japanese Newton Localization: _Japanese Bitmap Font for Newton OS_ ([English|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfont.html], [Japanese|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/jfont/newtonfontj.html])
+
+* *Japanese Enabler:* NewtonOS Patch to support Japanese, released by Apple Japan for Japanese market only.
+** [For MP130|ftp://ftp.apple.co.jp/pub/AppleJapan/Newton/Update526205-J.sea.hqx]
+** [For MP120 NOS 2.0|ftp://ftp.apple.co.jp/pub/AppleJapan/Newton/Update516205-J.sea.hqx]
+*** (Q: Is the NOS 2.0 version also okay for NOS 2.1?)
+
+*Note:* "If you input Japanese in Names or Dates _without_ having *Japanese Enabler* installed, you will break the soup and lose all your data in memory. But I tested that NotePad has no problem inputing Japanese without *Japanese Enabler*." (T. Murai)
+
+
+
+----
+
+!!Portuguese
+
+
+!!Polish
+
+
+!!Russian
+
+!Cyrillic Reading Pack for Newton
+
+Cyrillic is Joe Chen's port of a freeware X Window Cyrillic font to Newton platform (Unicode) and available from his website http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html. Also enclosed with the distribution are code translation modules for GNUE's (aka Makoto Nukui) NTEncoding, with which you're able to send/receive files with any software that supports NTEncoding (notably Steve Weyer's Newt's Cape.) The supported translations are
+    # MacCyrillic (Russian) <-> Unicode
+    # ISO 8859-5 <-> Unicode
+    # KOI-R <-> Unicode
+    # Win 1251 <-> Unicode
+
+You can also use UniTaipeiX (avaiblable from Joe's website) which comes with full set of Latin-1 (ISO 8859-1), traditional Chinese (Big5), Japanese Kana and Kanji (JIS 208) and Cyrillic characters (KOI-R). There is also a code translator that can make it easy to share data between Newton and a desktop.
+
+
+!Cyrillic Writing Pack for Newton
+
+Joseph Chen's Cyrillic Writing Pack http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html includes a Cyrillic keyboard with which you can type Cyrillic in your Newton and a TapBar button for transliteration (Latin->Cyrillic). Joe is using Graffiti as keyboard and found the input of Cyrillic like a breeze.
+----
+
+!!Spanish
+
+
+!!Swedish
+
+"there is an official swedish word-list from apple as well, i happen to
+use it :)
+http://www.pixell.net/downloads/newton/Svensk_ordlista_Newton.sit
+
+the swedish dictionary is not the best one dough, which, combined with
+the fact that the NOS lacks the possibility to turn off the english
+dictionary makes it work ... hmm ... not as good as the english one.
+
+if the newton would be ported, i see the alt.rec features paired with
+the optimisations larry suggested during WWNC  as an important part of
+getting it right. the newton HWR engine could be refined a lot more
+from where we stand, especially if you think international..."
+
+(Source: Roman Pixell at NTLK)
+
+----
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+
+--=_multipart_boundary_32
+Content-Type: application/x-phpwiki;
+  pagename=LocalizeNewtonForInternationalUsers;
+  flags="";
+  author=DJ%20Vollkasko;
+  version=2;
+  lastmodified=1149506785;
+  created=1149515297;
+  author_id=DJ%20Vollkasko;
+  markup=2;
+  summary=Added%20Chinese%20and%20Cyrillic%20from%20Joe%20Chen%27s%20website.;
+  hits=541;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+----
+
+_International Newton Localization_
+
+
+!!!Working with several Dictionaries for HWR Recognition
+
+"If you get Paul's DictMngr and you go into 'commons(attributed)(forward)' and uncheck the Enabled checkbox it disables the internal dictionary, great fro recognition with foreign languages.
+(BTW, this sound more difficult than it is in practice)
+
+I use this all of the time and from looking at the accuracy and the good second guesses it comes up if it goes wrong, my Dutch dictionary is certainly very active.
+
+BTW, I never loaded a French one, the best option would be to activate whatever language one desires of course..." (Source: Robert Benschop at NTLK)
+
+----
+
+!!Chinese
+
+!B2Uni Translator
+
+The encoding system on the Newton is UNICODE, while most of the electronic documents in traditional Chinese language are encoded with Big5 code. Joseph Chens's B2Uni (available from his website http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html) is a small Newton extension to do the translation job. It is needed for Newt's Cape Chinese.
+B2Uni Translator is based on NTEncoding by GNUE (aka Makoto Nukui).
+
+!Chinese Input Method
+Joe Chen also offers a Chinese Input Method http://nats-www.informatik.uni-hamburg.de/~joseph/newton/input_methods/index.html which is based on a modular design. You can choose your own input method module(s) and install separately what you need. A generic input method is automatically installed, which is nothing but a writing panel for Roman script input. At the time of this writing, the available modules are,
+        * PinYin/Phrase Input Module
+        * CangJie Input Module
+        * Cantonese Input Module
+        * Boshiamy Module
+        * Simplified CangJie Input Module
+        * Alternative Cantonese Input Module
+
+!Chinese Fonts and Dictionary
+Joe Chen also hosts Chinese fonts and a Lextionary engine http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html .
+----
+
+!!French
+
+
+!!German
+
+
+!!Italian
+
+
+!!Japanese
+
+
+!!Portuguese
+
+
+!!Polish
+
+
+!!Russian
+
+!Cyrillic Reading Pack for Newton
+
+Cyrillic is Joe Chen's port of a freeware X Window Cyrillic font to Newton platform (Unicode) and available from his website http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html. Also enclosed with the distribution are code translation modules for GNUE's (aka Makoto Nukui) NTEncoding, with which you're able to send/receive files with any software that supports NTEncoding (notably Steve Weyer's Newt's Cape.) The supported translations are
+    # MacCyrillic (Russian) <-> Unicode
+    # ISO 8859-5 <-> Unicode
+    # KOI-R <-> Unicode
+    # Win 1251 <-> Unicode
+
+You can also use UniTaipeiX (avaiblable from Joe's website) which comes with full set of Latin-1 (ISO 8859-1), traditional Chinese (Big5), Japanese Kana and Kanji (JIS 208) and Cyrillic characters (KOI-R). There is also a code translator that can make it easy to share data between Newton and a desktop.
+
+
+!Cyrillic Writing Pack for Newton
+
+Joseph Chen's Cyrillic Writing Pack http://nats-www.informatik.uni-hamburg.de/~joseph/newton/index.html includes a Cyrillic keyboard with which you can type Cyrillic in your Newton and a TapBar button for transliteration (Latin->Cyrillic). Joe is using Graffiti as keyboard and found the input of Cyrillic like a breeze.
+----
+
+!!Spanish
+
+
+!!Swedish
+
+"there is an official swedish word-list from apple as well, i happen to
+use it :)
+http://www.pixell.net/downloads/newton/Svensk_ordlista_Newton.sit
+
+the swedish dictionary is not the best one dough, which, combined with
+the fact that the NOS lacks the possibility to turn off the english
+dictionary makes it work ... hmm ... not as good as the english one.
+
+if the newton would be ported, i see the alt.rec features paired with
+the optimisations larry suggested during WWNC  as an important part of
+getting it right. the newton HWR engine could be refined a lot more
+from where we stand, especially if you think international..."
+
+(Source: Roman Pixell at NTLK)
+
+----
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+
+--=_multipart_boundary_32
+Content-Type: application/x-phpwiki;
+  pagename=LocalizeNewtonForInternationalUsers;
+  flags="";
+  author=80.128.169.37;
+  version=1;
+  lastmodified=1102319619;
+  created=1149506785;
+  author_id=80.128.169.37;
+  markup=2;
+  hits=541;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+----
+
+!Working with several Dictionaries for HWR Recognition
+
+"If you get Paul's DictMngr and you go into
+'commons(attributed)(forward)' and uncheck the Enabled checkbox it
+disables the internal dictionary, great fro recognition with foreign
+languages.
+(BTW, this sound more difficult than it is in practice)
+
+I use this all of the time and from looking at the accuracy and the
+good second guesses it comes up if it goes wrong, my Dutch dictionary
+is certainly very active.
+
+BTW, I never loaded a French one, the best option would be to activate
+whatever language one desires of course..." (Source: Robert Benschop at NTLK)
+
+%%%
+
+!!Chinese
+
+
+!!French
+
+
+!!German
+
+
+!!Italian
+
+
+!!Japanese
+
+
+!!Portuguese
+
+
+!!Polish
+
+
+!!Spanish
+
+
+!!Swedish
+
+"there is an official swedish word-list from apple as well, i happen to
+use it :)
+http://www.pixell.net/downloads/newton/Svensk_ordlista_Newton.sit
+
+the swedish dictionary is not the best one dough, which, combined with
+the fact that the NOS lacks the possibility to turn off the english
+dictionary makes it work ... hmm ... not as good as the english one.
+
+if the newton would be ported, i see the alt.rec features paired with
+the optimisations larry suggested during WWNC  as an important part of
+getting it right. the newton HWR engine could be refined a lot more
+from where we stand, especially if you think international..."
+
+(Source: Roman Pixell at NTLK)
+
+
+%%%
+----
+HomePage : HowTo : LocalizeNewtonForInternationalUsers
+
+--=_multipart_boundary_32--

@@ -1,0 +1,16 @@
+Date: Fri, 26 Mar 2004 12:43:43 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=WireLess;
+  flags="";
+  author=ScottyTechnoir;
+  version=1;
+  lastmodified=1080323023;
+  created=1080323023;
+  author_id=69.196.225.226;
+  markup=2;
+  hits=525;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Most [WireLess] stuff ended up on the WiFi page...

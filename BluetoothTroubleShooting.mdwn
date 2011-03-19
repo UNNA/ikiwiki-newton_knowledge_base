@@ -1,0 +1,122 @@
+Date: Fri, 5 May 2006 17:23:14 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_14"
+
+--=_multipart_boundary_14
+Content-Type: application/x-phpwiki;
+  pagename=BluetoothTroubleShooting;
+  flags="";
+  author=giulio;
+  version=2;
+  lastmodified=1146864194;
+  created=1146864194;
+  author_id=giulio;
+  markup=2;
+  summary=added%20SysPatch%2FDiscover%20bug;
+  hits=1188;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : UsingBluetoothIndex : [BluetoothTroubleShooting]
+----
+
+!!Newton Bluetooth Troubleshooting Quick Reference
+
+For details, check the Complete Moron's Manuals(TM) that deal with Bluetooth for the Newton at UsingBluetoothIndex . Be sure to have followed them step by step without fail.
+
+* Do you have the right [Blunt|http://www.40hz.org/Blunt] driver packages installed?
+**On an US-MessagePad, install Eckart Koeppen's BluntMP2x00US.pkg and Bluetooth Setup.pkg.
+**On a German MessagePad install BluntMP2100D.pkg and Bluetooth Setup.pkg.
+** __Important note__: The Bluetooth Setup program included in Blunt 0.7.7 may not be able to __discover__ anything (at least this is the case with the Pico card). Until this gets fixed, use the Bluetooth Setup.pkg from Blunt 0.7.6 instead. You can download version 0.7.6 of the Setup program here: [as a pkg file|http://www.tempel.org/ftp/pub/Newton/Blunt-Bluetooth-Setup-0.7.6.pkg] or [as a zip file|http://www.tempel.org/ftp/pub/Newton/Blunt-Bluetooth-Setup-0.7.6.pkg.zip]
+
+* Reset BluetoothCards without rebooting Newton:
+** Open Bluetooth Setup on your Newton.
+** Go to i/Prefs.
+** Tap on button "Test" -- this option not only tests, but also _resets_ the BT-Card, so if it ever hangs, here's a cheap fix for ya.
+
+*__Q:__ I've installed Blunt and inserted the BT card in one of the slots, but nothing plays...?!
+**__A:__ Is your card compatible with Newton's Bluetooth-stack [Blunt]?
+***Check BluetoothCards for a list of cards that have been confirmed to be compatible of not with Blunt.
+**__A:__ Did you tell the Newton in ''which'' slot you stuck the card? If not:
+*** Open __Bluetooth Setup__ on your Newton.
+*** Go to __i/Prefs__.
+*** Set __Device Location:__ to the proper slot (tap on it to open a menu allowing to select from Bottom PC Card, Top PC Card, Serial Port or Internal Module).
+**__A:__ Did you select the correct driver? If not:
+*** Open __Bluetooth Setup__ on your Newton.
+*** Go to __i/Prefs__.
+*** Set __Driver:__ to the proper device driver (tap on it to open a menu allowing to select from nine specific drivers).
+
+* If everything seems to be set up properly, but __Discover__ does not seem to find anything:
+** If, after __Discover__, the list is entirely blank, try the Newton's scroll buttons to see if the list items were simply scrolled out of view.
+** If the list shows "There are no devices in this folder", then really nothing was found.
+*** Check the version of the Setup program in the About view by using the "i" button. If it shows that you are using version 0.7.7 then try the Setup program from version 0.7.6 instead. See above for the link where to download it.
+*** Make sure you actually have a bluetooth device that is discoverable (most Bluetooth devides can be made hidden so that a blind discovery operation does not reveal them to potential attackers). Mobile phones are usually discoverable once Bluetooth is activated. If you are using a Macintosh OS X computer, you have to explicitly enable this option (see [MacOSXBluetooth]).
+
+* In case your Newton is  __crashing and rebooting__ during almost each __Discover__ phase, freeze [SysPatch | http://www.ee.cityu.edu.hk/~clli/syspatch.html]. Eventually the Discover phase should proceed without problems, provided that you followed the other hints above... Apparently [SysPatch | http://www.ee.cityu.edu.hk/~clli/syspatch.html] affects only the Discover phase (at least with Setup 0.7.7/0.7.6 and Blunt 0.7.7) and it can be thawed after discovering and during normal Bluetooth operations.
+
+Here are some more tips which are not necessary but may be helpful in general:
+* Install all Blunt packages on internal store.
+* For convenience, file Bluetooth Setup in the Extras' Setup folder.
+
+----
+HomePage : HowTo : UsingBluetoothIndex : [BluetoothTroubleShooting]
+
+--=_multipart_boundary_14
+Content-Type: application/x-phpwiki;
+  pagename=BluetoothTroubleShooting;
+  flags="";
+  author=ThomasTempelmann;
+  version=1;
+  lastmodified=1142166799;
+  created=1146864194;
+  author_id=212.202.193.236;
+  markup=2;
+  summary=Added%20suggestions%20what%20to%20do%20if%20%22Discover%22%20does%20not%20work;
+  hits=1188;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : UsingBluetoothIndex : [BluetoothTroubleShooting]
+----
+
+!!Newton Bluetooth Troubleshooting Quick Reference
+
+For details, check the Complete Moron's Manuals(TM) that deal with Bluetooth for the Newton at UsingBluetoothIndex . Be sure to have followed them step by step without fail.
+
+* Do you have the right [Blunt|http://www.40hz.org/Blunt] driver packages installed?
+**On an US-MessagePad, install Eckart Koeppen's BluntMP2x00US.pkg and Bluetooth Setup.pkg.
+**On a German MessagePad install BluntMP2100D.pkg and Bluetooth Setup.pkg.
+** __Important note__: The Bluetooth Setup program included in Blunt 0.7.7 may not be able to __discover__ anything (at least this is the case with the Pico card). Until this gets fixed, use the Bluetooth Setup.pkg from Blunt 0.7.6 instead. You can download version 0.7.6 of the Setup program here: [as a pkg file|http://www.tempel.org/ftp/pub/Newton/Blunt-Bluetooth-Setup-0.7.6.pkg] or [as a zip file|http://www.tempel.org/ftp/pub/Newton/Blunt-Bluetooth-Setup-0.7.6.pkg.zip]
+
+* Reset BluetoothCards without rebooting Newton:
+** Open Bluetooth Setup on your Newton.
+** Go to i/Prefs.
+** Tap on button "Test" -- this option not only tests, but also _resets_ the BT-Card, so if it ever hangs, here's a cheap fix for ya.
+
+*__Q:__ I've installed Blunt and inserted the BT card in one of the slots, but nothing plays...?!
+**__A:__ Is your card compatible with Newton's Bluetooth-stack [Blunt]?
+***Check BluetoothCards for a list of cards that have been confirmed to be compatible of not with Blunt.
+**__A:__ Did you tell the Newton in ''which'' slot you stuck the card? If not:
+*** Open __Bluetooth Setup__ on your Newton.
+*** Go to __i/Prefs__.
+*** Set __Device Location:__ to the proper slot (tap on it to open a menu allowing to select from Bottom PC Card, Top PC Card, Serial Port or Internal Module).
+**__A:__ Did you select the correct driver? If not:
+*** Open __Bluetooth Setup__ on your Newton.
+*** Go to __i/Prefs__.
+*** Set __Driver:__ to the proper device driver (tap on it to open a menu allowing to select from nine specific drivers).
+
+* If everything seems to be set up properly, but __Discover__ does not seem to find anything:
+** If, after __Discover__, the list is entirely blank, try the Newton's scroll buttons to see if the list items were simply scrolled out of view.
+** If the list shows "There are no devices in this folder", then really nothing was found.
+*** Check the version of the Setup program in the About view by using the "i" button. If it shows that you are using version 0.7.7 then try the Setup program from version 0.7.6 instead. See above for the link where to download it.
+*** Make sure you actually have a bluetooth device that is discoverable (most Bluetooth devides can be made hidden so that a blind discovery operation does not reveal them to potential attackers). Mobile phones are usually discoverable once Bluetooth is activated. If you are using a Macintosh OS X computer, you have to explicitly enable this option (see [MacOSXBluetooth]).
+
+Here are some more tips which are not necessary but may be helpful in general:
+* Install all Blunt packages on internal store.
+* For convenience, file Bluetooth Setup in the Extras' Setup folder.
+
+----
+HomePage : HowTo : UsingBluetoothIndex : [BluetoothTroubleShooting]
+
+--=_multipart_boundary_14--

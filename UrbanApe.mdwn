@@ -1,0 +1,21 @@
+Date: Mon, 23 Feb 2004 15:58:51 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=UrbanApe;
+  flags="";
+  author=UrbanApe;
+  version=1;
+  lastmodified=1077569931;
+  created=1077569931;
+  author_id=206.16.200.250;
+  markup=2;
+  hits=166;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Zachery Bir
+
+zbir at urbanape.com
+
+Interested in:
+* Newton programming - specifically, I'd like to figure out a way to modernize the software development environment for the Newton, specifically, using tools like Xcode.

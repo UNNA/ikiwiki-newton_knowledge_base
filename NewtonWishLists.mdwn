@@ -1,0 +1,36 @@
+Date: Tue, 6 Apr 2004 07:11:04 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtonWishLists;
+  flags="";
+  author=DjVollkasko;
+  version=1;
+  lastmodified=1081249864;
+  created=1081249864;
+  author_id=212.149.48.43;
+  markup=2;
+  hits=1546;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Maybe you are a Newton user with some curious ideas on what you'd like to see happen in Newton software or hardware development. Well, let us know about it right here on the Newton Wish Lists!
+
+Or you are a code-churning prodigy or a soldering-iron slinger, looking for new ideas on what to tackle next - find inspiration here and leave comments (and hopefully project updates ;=} ).
+
+Or you want to participate in the ebook-making project, and suggest a etext site, point at a certain book you're going to do or see what work needs to be done where you could help out.
+
+----
+
+__[Newton Software Wish List| SoftwareWishlist]__
+
+
+__[Newton Hardware Wish List | HardwareWishList]__
+
+Also see the incredible idea incubator __[Newton's Bulb |http://dev.newtontalk.net/~martinw/Ideas%20pages]__.
+%%%
+%%%
+__[Newton eBook Wish List | EbookWishList]__
+
+%%%
+----
+HomePage : NewtonWishLists

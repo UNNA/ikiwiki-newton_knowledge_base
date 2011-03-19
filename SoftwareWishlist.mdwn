@@ -1,0 +1,79 @@
+Date: Mon, 9 May 2005 18:42:33 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=SoftwareWishlist;
+  flags="";
+  author=84.178.169.160;
+  version=1;
+  lastmodified=1115678553;
+  created=1115678553;
+  author_id=84.178.169.160;
+  markup=2;
+  hits=1665;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Maybe you are a Newton user with some curious ideas on what you'd like to see happen in Newton software development. Well, let us know about it!
+
+Or you are a code-churning prodigy, looking for new ideas on what to tackle next - find inspiration here and leave comments (and hopefully project updates ;=} ).
+
+----
+
+__Newton Software Wishlist__
+
+__Emulators__
+* AmigaEmulator ;=} (Emulator)
+* [ScummVM] - Emulator for classic computer games (LucasGames etc.)
+
+__Applications__
+*AbiWord (OpenSource Word-Processor)
+*AudioApplications (Applications: Karaoke Player, Drum Machine/Sequencer, Sampler,...)
+*MindMap (Application)
+*NewtonSensorSuite (Application, monitors external sensors and probes)
+*SynchableWiki (Application)
+*Tide Calculator (Application) -- port [Mr. Tides|http://www.exmsft.com/~augusth] to Newton.
+
+
+__Tools__
+* InstallationLog
+* EuroFonts (Fonts)
+* [LAN Sniffer Suite | LanSniffer] (Tool)
+* [LEGO Mindstorms SDK|LegoMindstormsSdk] (Software Development Kit)
+* [PGP | NewtonPgp] (Tool)
+* Simple wireless connection [utility | wconn] (Tool)
+* [WLAN Scanner | WlanScanner] (Tool)
+* [xPDF Reader/Writer |PDFReaderWriter] (Tool)
+* [SSL] SSL (library) - prerequisite for SSH?
+* [nSSH] SSH client (Tool)
+
+__Drivers__
+* VariousDrivers (Drivers for game pads, VGA-PC Cards, Audio-PC Cards,...)
+* Extension for Nokia CardPhone 2.0 which shows incoming calls
+
+__Games__
+* BullshitBingo (Word Bingo)
+* Life [update | lfupd] (LifeSim)
+* NewtoGotchi (Game)
+* [xEvil | nxEvil] (Game)
+* [nSand | nsand] (PhysSim)
+* [NZAngband | NZAng]
+* [OptionBingo | obing]
+
+__Desktop__
+* Update NTK
+* Update NewtonPress
+* Update BookMaker
+* Port to newer OSes (X, Linux, XP)
+* PkgViaApache Mac OS X MIME type install script.
+* See [http://www.kallisys.com/newton/dcl/] for related projects
+* A newer and more comprehendable set of programming environments
+
+__Patches__
+* A newer version of [RoboPicture| http://dev.newtontalk.net/~dpadilla/progs/RoboPicture/robopicture.zip] (Note that the link is to a 'zip' file.)
+** Add Bluetooth-service for increased remote control-range (e.g. BT service on the Newton and tiny Waba-application on the client, which then could be any Waba-capable device, e.g. Newton, other PDAs, mobile phones, laptops,...)
+** NPDS plug-in: Your newton as a Web Cam Server!
+
+
+%%%
+----
+HomePage : NewtonWishLists : SoftwareWishlist

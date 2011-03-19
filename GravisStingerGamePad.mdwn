@@ -1,0 +1,38 @@
+Date: Fri, 9 Apr 2004 04:31:38 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=GravisStingerGamePad;
+  flags="";
+  author=DjVollkasko;
+  version=1;
+  lastmodified=1081499498;
+  created=1081499498;
+  author_id=80.128.166.97;
+  markup=2;
+  hits=797;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__Driver for Gravis Stinger Game Pad__
+
+
+__What:__ Driver for serial game controller
+
+__Background:__ Finally get a proper game pad going for the Newton! Think all the nice games, think Newtendo (Newtendo!), think nMAME (Arcade-O-Mania!)... But there is no proper controller - hacking away on the keyboard may be too clumsy, and hard use of the screen... Nah, I don't think so. So - please somebody tackle this project!
+
+__Benefit:__ Solid and well-reviewed product w/ excellent form factor. Saves wear of display. Improves gaming experience. Plus it would be way cool. ;=} And now imagine this game controller, your Newton and a [VGA card|VGACards] - turning the Newton into a proper video game console!
+
+__Additional Data:__ "The Stinger is, according to Gravis, a "Laptop Game Pad", but you can use it with any Windows PC with a serial port and the right drivers. This may be a game pad, but it doesn't use the game port, just normal nine pin RS-232 serial. (...) Despite its small dimensions, the Stinger's got a full suite of standard gamepad controls. Six game buttons plus Start and Select, two shoulder buttons, one analogue thumb-stick. (...) The Stinger can behave as a joystick, game pad or mouse, as far as the computer's concerned. You can set up completely different configurations for all of its buttons (including Start and Select) for each mode, and for individual programs.%%%
+In joystick mode, the Stinger's little thumb-stick is obviously no replacement for a big serious joystick, but it's a heck of a lot better than keyboard. It's a proper proportional stick, not just a piece of plastic on top of four digital buttons.%%%
+In mouse mode, the Stinger for some reason defaults to all ten of its buttons being the left mouse button, but it's easy enough to change that. The stick lets you scoot the cursor around the screen with reasonable aplomb" (from http://www.dansdata.com/stinger.htm)
+
+
+__Note:__ Other serial game controllers that may or may not be of interest are THUNDERPAD CNTRL GAME PAD FOR XBOX and RAVEN CNTRL GAME PAD FOR XBOX (both Serial DB9).
+
+
+
+__Any Takers?__%%%
+%%%
+%%%
+----
+HomePage : NewtonWishLists : SoftwareWishlist : VariousDrivers : GravisStingerGamePad

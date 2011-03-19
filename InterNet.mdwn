@@ -1,0 +1,77 @@
+Date: Thu, 11 Aug 2005 02:58:42 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=InterNet;
+  flags="";
+  author=24.0.248.224;
+  version=1;
+  lastmodified=1123743522;
+  created=1123743522;
+  author_id=24.0.248.224;
+  summary=Changed%20Infrared%20to%20IrDA%2C%20fixed%20IrDA%20and%20Bluetooth%20links.;
+  hits=4008;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : InterNet
+----
+
+!!!__Newton Online!__
+
+!! Connection Types
+Newton can connect to the web in a few different ways:
+* Modem
+** see related info about ModemCards
+** some folks still connect with the CigarettePackModem
+* Serial
+** Setting up a PPP link over [serial] with Mac OS X
+* Wired Ethernet
+** for driver, see the EthernetDrivers page
+* Wireless Ethernet
+** the WiFi page covers HowTo get set up with Wireless 802.11 and others
+* [IrDA]
+* [Bluetooth]
+
+!!! Internet Applications
+
+Steve Weyer maintains a list of internet related applications (e.g., categories mentioned, plus weather, HTML editors, etc.): http://mywebpages.comcast.net/saweyer/newton/newtscape.htm#other . Another Website covering Newton and Internet Applications is http://newton.guhl.net/indexe.php
+
+!!Web Browsers
+
+See WebBrowsers
+
+!!Email Software
+* [ SimpleMail |  http://dialspace.dial.pipex.com/town/road/aah66/] by Simon Bell, continues to actively support SimpleMail, earning him the gratitude of the entire Newton community.
+* [ EnRoute | http://www.netstrat.com/] was available in the MP2x00 CD/Floppies.
+** Last final version was v1.4.2, and last beta was v1.4.3b1
+* [ Eudora Pro | http://www.eudora.com/eudoralight/] by !QualComm, allows users to read e-mail from any MessagePad via a Macintosh or a Windows machine.
+** [ Mac version | http://www.unna.org/unna/internet/email/EudoraLite1.0fc1-mac/]
+** [ Windows version | http://www.unna.org/unna/internet/email/EudoraLite1.0fc1-win/]
+* [ LunaSuite | http://www.lunatech.com/products/lunasuite/] by !LunaTech
+* [ GoFetch | http://www.enfour.com/newton/products/index.html ], Unimail by Enfour
+
+!!Newsgroup readers
+
+*[ InkSpot | http://www.dejavusoftware.com/] by !DejaVu
+*[ Paperboy | http://www.standalone.com/] by Standalone
+*[ Newt's Paper | http://www.visualnewt.com/Products/Newton/Newton.html] by Serg Koren
+*[ NewsReader | http://www.bekkoame.or.jp/~kuwa27/index.htm] by T. Kuwabara
+
+
+!! Misc
+
+Chat:
+* [ NewtChat | http://www.sealiecomputing.com/NewtChat/] let's you get it on with the AIM network
+* If ICQ is your thing, check the HowTo pages to see how you connect with Jabber
+
+FTP:
+
+*[ NewtFTP | http://www.tactile.com/newtFTP.html ] is a great FTP utility that I use
+*[ LunaSuite | http://www.lunatech.com/products/lunasuite/ ] includes an FTP add-on
+
+Telnet:
+* use PT100 available from [Scrawlsoft | http://www.scrawlsoft.com/]
+
+%%%
+----
+HomePage : InterNet

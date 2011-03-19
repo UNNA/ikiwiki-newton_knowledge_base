@@ -1,0 +1,244 @@
+Date: Tue, 13 Mar 2007 08:57:02 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_51"
+
+--=_multipart_boundary_51
+Content-Type: application/x-phpwiki;
+  pagename=TroubleshootNotes;
+  flags="";
+  author=jdueck;
+  version=7;
+  lastmodified=1173790622;
+  created=1173790622;
+  author_id=jdueck;
+  markup=2;
+  hits=180;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!How To Troubleshoot NCX Note Syncing using NewtSync
+
+If you've ever experienced a lockup of Simon Bell's wonderful new NCX (Newton Connection for OS X)  utility while attempting to export notes from the Newton to your Mac, the following tip might be useful to you. Here's what can happen: you'll open NCX, choose "Import" and then choose "Select" or "Export All," at which point your system will display a Spinning Beach Ball until you Force Quit NCX.
+
+If this is your situation, and you'd like to use NCX to export your notes, you can use the following troubleshooting procedure:
+&#65532;
+1. First, install and then use NewtSync to back all of your notes up. NewtSync will only backup the text of your notes, but it will preserve your Newton's Notes folder structure and also an important tag for troubleshooting notes syncing: the UniqueID of each Note in the Notes soup (for example, a NewtSync'ed note, on your Mac, might be called "93 - My Grocery List," and "93" denotes the UniqueID of that note; or "94 - My Textbooks" where "94" is the UniqueID). Copy _all_ of these new text files (the NewtSync'ed notes on your Mac) into one folder. If you list the folder's contents, they will appear in the order of their UniqueID (example: first "93 - My Grocery List" and then "94 - My Textbooks").
+
+2. Now start Console up on your Mac (Applications / Utilities / Console.app). Open NCX. Connect your Newton to NCX. Choose to Export All notes. Now watch the Console log: NCX will translate the Notes it receives in sequential order of their uniqueID. When you hit the "spinning beach ball," quit (or, if Apple-Q does not work, then Force Quit) NCX. Check the Console log: Console will first report that NCX is "Translating Newton notes," then list each note by name which is successfully translated. "Successful" is the key word here: the note which _immediately follows_ the last note reported on Console is a problem note. This means that the note with the next higher UniqueID is a problem note (there may be more than one) that NCX can't successfully translate.
+
+3. Now look back at the folder containing _all_ your NewtSync'ed notes (not the individual folders of NewtSync'ed notes) on your Mac. Find the note whose UniqueID immediately follows that of the name of the last note successfully translated (as reported by Console). That's your problem note. For example, if "My Grocery List" (UniqueID 93, appears in NewtSync folder as "93 - My Grocery List") appears as successfully translated, then "My Textbooks" (UniqueID 94, appears in NewtSync folder as "94 - My Textbooks") is the problem note.
+
+4. You'll probably want to preserve the problem note somehow: if the NewtSync copy on your Mac contains all the information you need (i.e., there is no special formatting to preserve in the note), then keep that somewhere, to restore to your Newton later on. You can also export it (text only) using Sloup, or as ink text etc. using X-Port, or you can print it to a PDF Printer on your Desktop (or to SoftPrintPack; see my Wiki page on this: [InkTextToPDF])
+
+5. Once you've saved a backup copy of the problem note, delete that note from the Newton's notepad.
+
+Now, try to Export your notes from your Newton to your Desktop, using NCX, again. Hopefully this will work just fine.
+
+If not, just repeat steps 2-5, and you'll have a properly exporting Newton in no time. (And once that happens, you'll want to re-install the notes you deleted from the Mac to your Newton).
+
+--=_multipart_boundary_51
+Content-Type: application/x-phpwiki;
+  pagename=TroubleshootNotes;
+  flags="";
+  author=jdueck;
+  version=6;
+  lastmodified=1173038057;
+  created=1173790622;
+  author_id=jdueck;
+  markup=2;
+  hits=180;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!How To Troubleshoot NCX Note Syncing using NewtSync
+
+If you've ever experienced a lockup of Simon Bell's wonderful new NCX (Newton Connection for OS X)  utility while attempting to export notes from the Newton to your Mac, the following tip might be useful to you. Here's what can happen: you'll open NCX, choose "Import" and then choose "Select" or "Export All," at which point your system will display a Spinning Beach Ball until you Force Quit NCX.
+
+If this is your situation, and you'd like to use NCX to export your notes, you can use the following troubleshooting procedure:
+&#65532;
+1. First, install and then use NewtSync to back all of your notes up. NewtSync will only backup the text of your notes, but it will preserve your Newton's Notes folder structure and also an important tag for troubleshooting notes syncing: the UniqueID of each Note in the Notes soup (for example, a NewtSync'ed note, on your Mac, might be called "93 - My Grocery List," and "93" denotes the UniqueID of that note; or "94 - My Textbooks" where "94" is the UniqueID). Copy _all_ of these new text files (the NewtSync'ed notes on your Mac) into one folder. If you list the folder's contents, they will appear in the order of their UniqueID (example: first "93 - My Grocery List" and then "94 - My Textbooks").
+
+2. Now start Console up on your Mac (Applications / Utilities / Console.app). Open NCX. Connect your Newton to NCX. Choose to Export All notes. Now watch the Console log: NCX will translate the Notes it receives in sequential order of their uniqueID. When you hit the "spinning beach ball," quit (or, if Apple-Q does not work, then Force Quit) NCX. Check the Console log: the last note it reports as translated will by name; for example, Console will first report that NCX is "Translating Newton notes," then list each note by name which is successfully translated. "Successful" is the key word here: the note which _immediately follows_ the last note reported on Console is a problem note. This means that the note with the next higher UniqueID is a problem note (there may be more than one) which NCX can't successfully translate.
+
+3. Now look back at the folder containing _all_ your NewtSync'ed notes (not the individual folders of NewtSync'ed notes) on your Mac. Find the note whose UniqueID immediately follows that of the name of the last note successfully translated (as reported by Console). That's your problem note. For example, if "My Grocery List" (UniqueID 93, appears in NewtSync folder as "93 - My Grocery List") appears as successfully translated, then "My Textbooks" (UniqueID 94, appears in NewtSync folder as "94 - My Textbooks") is the problem note.
+
+4. You'll probably want to preserve the problem note somehow: if the NewtSync copy on your Mac contains all the information you need (i.e., there is no special formatting to preserve in the note), then keep that somewhere, to restore to your Newton later on. You can also export it (text only) using Sloup, or as ink text etc. using X-Port, or you can print it to a PDF Printer on your Desktop (or to SoftPrintPack; see my Wiki page on this: [InkTextToPDF])
+
+5. Once you've saved a backup copy of the problem note, delete that note from the Newton's notepad.
+
+Now, try to Export your notes from your Newton to your Desktop, using NCX, again. Hopefully this will work just fine.
+
+If not, just repeat steps 2-5, and you'll have a properly exporting Newton in no time.
+
+--=_multipart_boundary_51
+Content-Type: application/x-phpwiki;
+  pagename=TroubleshootNotes;
+  flags="";
+  author=jdueck;
+  version=5;
+  lastmodified=1173038031;
+  created=1173038057;
+  author_id=jdueck;
+  markup=2;
+  hits=180;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!How To Troubleshoot NCX Note Syncing using NewtSync
+
+If you've ever experienced a lockup of Simon Bell's wonderful new NCX (Newton Connection for OS X)  utility while attempting to export notes from the Newton to your Mac, the following tip might be useful to you. Here's what can happen: you'll open NCX, choose "Import" and then choose "Select" or "Export All," at which point your system will display a Spinning Beach Ball until you Force Quit NCX.
+
+If this is your situation, and you'd like to use NCX to export your notes, you can use the following troubleshooting procedure:
+&#65532;
+1. First, install and then use NewtSync to back all of your notes up. NewtSync will only backup the text of your notes, but it will preserve your Newton's Notes folder structure and also an important tag for troubleshooting notes syncing: the UniqueID of each Note in the Notes soup (for example, a NewtSync'ed note, on your Mac, might be called "93 - My Grocery List," and "93" denotes the UniqueID of that note; or "94 - My Textbooks" where "94" is the UniqueID). Copy _all_ of these new text files (the NewtSync'ed notes on your Mac) into one folder. If you list the folder's contents, they will appear in the order of their UniqueID (example: first "93 - My Grocery List" and then "94 - My Textbooks").
+
+2. Now start Console up on your Mac (Applications / Utilities / Console.app). Open NCX. Connect your Newton to NCX. Choose to Export All notes. Now watch the Console log: NCX will translate the Notes it receives in sequential order of their uniqueID. When you hit the "spinning beach ball," quit (or, if Apple-Q does not work, then Force Quit) NCX. Check the Console log: the last note it reports as translated will by name; for example, Console will first report that NCX is "Translating Newton notes," then list each note by name which is successfully translated. "Successful" is the key word here: the note which _immediately follows_ the last note reported on Console is a problem note. This means that the note with the next higher UniqueID is a problem note (there may be more than one) which NCX can't successfully translate.
+
+3. Now look back at the folder containing _all_ your NewtSync'ed notes (not the individual folders of NewtSync'ed notes) on your Mac. Find the note whose UniqueID immediately follows that of the name of the last note successfully translated (as reported by Console). That's your problem note. For example, if "My Grocery List" (UniqueID 93, appears in NewtSync folder as "93 - My Grocery List") appears as successfully translated, then "My Textbooks" (UniqueID 94, appears in NewtSync folder as "94 - My Textbooks") is the problem note.
+
+4. You'll probably want to preserve the problem note somehow: if the NewtSync copy on your Mac contains all the information you need (i.e., there is no special formatting to preserve in the note), then keep that somewhere, to restore to your Newton later on. You can also export it (text only) using Sloup, or as ink text etc. using X-Port, or you can print it to a PDF Printer on your Desktop (or to SoftPrintPack; see my Wiki page on this: InkTextToPDF)
+
+5. Once you've saved a backup copy of the problem note, delete that note from the Newton's notepad.
+
+Now, try to Export your notes from your Newton to your Desktop, using NCX, again. Hopefully this will work just fine.
+
+If not, just repeat steps 2-5, and you'll have a properly exporting Newton in no time.
+
+--=_multipart_boundary_51
+Content-Type: application/x-phpwiki;
+  pagename=TroubleshootNotes;
+  flags="";
+  author=jdueck;
+  version=4;
+  lastmodified=1173037973;
+  created=1173038031;
+  author_id=jdueck;
+  markup=2;
+  hits=180;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!How To Troubleshoot NCX Note Syncing using NewtSync
+
+If you've ever experienced a lockup of Simon Bell's wonderful new NCX (Newton Connection for OS X)  utility while attempting to export notes from the Newton to your Mac, the following tip might be useful to you. Here's what can happen: you'll open NCX, choose "Import" and then choose "Select" or "Export All," at which point your system will display a Spinning Beach Ball until you Force Quit NCX.
+
+If this is your situation, and you'd like to use NCX to export your notes, you can use the following troubleshooting procedure:
+&#65532;
+1. First, install and then use NewtSync to back all of your notes up. NewtSync will only backup the text of your notes, but it will preserve your Newton's Notes folder structure and also an important tag for troubleshooting notes syncing: the UniqueID of each Note in the Notes soup (for example, a NewtSync'ed note, on your Mac, might be called "93 - My Grocery List," and "93" denotes the UniqueID of that note; or "94 - My Textbooks" where "94" is the UniqueID). Copy _all_ of these new text files (the NewtSync'ed notes on your Mac) into one folder. If you list the folder's contents, they will appear in the order of their UniqueID (example: first "93 - My Grocery List" and then "94 - My Textbooks").
+
+2. Now start Console up on your Mac (Applications / Utilities / Console.app). Open NCX. Connect your Newton to NCX. Choose to Export All notes. Now watch the Console log: NCX will translate the Notes it receives in sequential order of their uniqueID. When you hit the "spinning beach ball," quit (or, if Apple-Q does not work, then Force Quit) NCX. Check the Console log: the last note it reports as translated will by name; for example, Console will first report that NCX is "Translating Newton notes," then list each note by name which is successfully translated. "Successful" is the key word here: the note which _immediately follows_ the last note reported on Console is a problem note. This means that the note with the next higher UniqueID is a problem note (there may be more than one) which NCX can't successfully translate.
+
+3. Now look back at the folder containing _all_ your NewtSync'ed notes (not the individual folders of NewtSync'ed notes) on your Mac. Find the note whose UniqueID immediately follows that of the name of the last note successfully translated (as reported by Console). That's your problem note. For example, if "My Grocery List" (UniqueID 93, appears in NewtSync folder as "93 - My Grocery List") appears as successfully translated, then "My Textbooks" (UniqueID 94, appears in NewtSync folder as "94 - My Textbooks") is the problem note.
+
+4. You'll probably want to preserve the problem note somehow: if the NewtSync copy on your Mac contains all the information you need (i.e., there is no special formatting to preserve in the note), then keep that somewhere, to restore to your Newton later on. You can also export it (text only) using Sloup, or as ink text etc. using X-Port, or you can print it to a PDF Printer on your Desktop (or to SoftPrintPack; see my Wiki page on this: )
+
+5. Once you've saved a backup copy of the problem note, delete that note from the Newton's notepad.
+
+Now, try to Export your notes from your Newton to your Desktop, using NCX, again. Hopefully this will work just fine.
+
+If not, just repeat steps 2-5, and you'll have a properly exporting Newton in no time.
+
+--=_multipart_boundary_51
+Content-Type: application/x-phpwiki;
+  pagename=TroubleshootNotes;
+  flags="";
+  author=jdueck;
+  version=3;
+  lastmodified=1173037926;
+  created=1173037973;
+  author_id=jdueck;
+  markup=2;
+  hits=180;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+*How To Troubleshoot NCX Note Syncing using NewtSync*
+
+If you've ever experienced a lockup of Simon Bell's wonderful new NCX (Newton Connection for OS X)  utility while attempting to export notes from the Newton to your Mac, the following tip might be useful to you. Here's what can happen: you'll open NCX, choose "Import" and then choose "Select" or "Export All," at which point your system will display a Spinning Beach Ball until you Force Quit NCX.
+
+If this is your situation, and you'd like to use NCX to export your notes, you can use the following troubleshooting procedure:
+&#65532;
+1. First, install and then use NewtSync to back all of your notes up. NewtSync will only backup the text of your notes, but it will preserve your Newton's Notes folder structure and also an important tag for troubleshooting notes syncing: the UniqueID of each Note in the Notes soup (for example, a NewtSync'ed note, on your Mac, might be called "93 - My Grocery List," and "93" denotes the UniqueID of that note; or "94 - My Textbooks" where "94" is the UniqueID). Copy _all_ of these new text files (the NewtSync'ed notes on your Mac) into one folder. If you list the folder's contents, they will appear in the order of their UniqueID (example: first "93 - My Grocery List" and then "94 - My Textbooks").
+
+2. Now start Console up on your Mac (Applications / Utilities / Console.app). Open NCX. Connect your Newton to NCX. Choose to Export All notes. Now watch the Console log: NCX will translate the Notes it receives in sequential order of their uniqueID. When you hit the "spinning beach ball," quit (or, if Apple-Q does not work, then Force Quit) NCX. Check the Console log: the last note it reports as translated will by name; for example, Console will first report that NCX is "Translating Newton notes," then list each note by name which is successfully translated. "Successful" is the key word here: the note which _immediately follows_ the last note reported on Console is a problem note. This means that the note with the next higher UniqueID is a problem note (there may be more than one) which NCX can't successfully translate.
+
+3. Now look back at the folder containing _all_ your NewtSync'ed notes (not the individual folders of NewtSync'ed notes) on your Mac. Find the note whose UniqueID immediately follows that of the name of the last note successfully translated (as reported by Console). That's your problem note. For example, if "My Grocery List" (UniqueID 93, appears in NewtSync folder as "93 - My Grocery List") appears as successfully translated, then "My Textbooks" (UniqueID 94, appears in NewtSync folder as "94 - My Textbooks") is the problem note.
+
+4. You'll probably want to preserve the problem note somehow: if the NewtSync copy on your Mac contains all the information you need (i.e., there is no special formatting to preserve in the note), then keep that somewhere, to restore to your Newton later on. You can also export it (text only) using Sloup, or as ink text etc. using X-Port, or you can print it to a PDF Printer on your Desktop (or to SoftPrintPack; see my Wiki page on this: )
+
+5. Once you've saved a backup copy of the problem note, delete that note from the Newton's notepad.
+
+Now, try to Export your notes from your Newton to your Desktop, using NCX, again. Hopefully this will work just fine.
+
+If not, just repeat steps 2-5, and you'll have a properly exporting Newton in no time.
+
+--=_multipart_boundary_51
+Content-Type: application/x-phpwiki;
+  pagename=TroubleshootNotes;
+  flags="";
+  author=jdueck;
+  version=2;
+  lastmodified=1173037859;
+  created=1173037926;
+  author_id=jdueck;
+  markup=2;
+  hits=180;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+*How To Troubleshoot NCX Note Syncing using NewtSync*
+
+If you've ever experienced a lockup of Simon Bell's wonderful new NCX (Newton Connection for OS X)  utility while attempting to export notes from the Newton to your Mac, the following tip might be useful to you. Here's what can happen: you'll open NCX, choose "Import" and then choose "Select" or "Export All," at which point your system will display a Spinning Beach Ball until you Force Quit NCX.
+
+If this is your situation, and you'd like to use NCX to export your notes, you can use the following troubleshooting procedure:
+&#65532;
+1. First, install and then use NewtSync to back all of your notes up. NewtSync will only backup the text of your notes, but it will preserve your Newton's Notes folder structure and also an important tag for troubleshooting notes syncing: the UniqueID of each Note in the Notes soup (for example, a NewtSync'ed note, on your Mac, might be called "93 - My Grocery List," and "93" denotes the UniqueID of that note; or "94 - My Textbooks" where "94" is the UniqueID). Copy _all_ of these new text files (the NewtSync'ed notes on your Mac) into one folder. If you list the folder's contents, they will appear in the order of their UniqueID (example: first "93 - My Grocery List" and then "94 - My Textbooks").
+
+2. Now start Console up on your Mac (Applications / Utilities / Console.app). Open NCX. Connect your Newton to NCX. Choose to Export All notes. Now watch the Console log: NCX will translate the Notes it receives in sequential order of their uniqueID. When you hit the "spinning beach ball," quit (or, if Apple-Q does not work, then Force Quit) NCX. Check the Console log: the last note it reports as translated will by name; for example, Console will first report that NCX is "Translating Newton notes," then list each note by name which is successfully translated. "Successful" is the key word here: the note which _immediately follows_ the last note reported on Console is a problem note. This means that the note with the next higher UniqueID is a problem note (there may be more than one) which NCX can't successfully translate.
+
+3. Now look back at the folder containing _all_ your NewtSynce'd notes (not the individual folders of NewtSync'ed notes) on your Mac. Find the note whose UniqueID immediately follows that of the name of the last note successfully translated (as reported by Console). That's your problem note. For example, if "My Grocery List" (UniqueID 93, appears in NewtSync folder as "93 - My Grocery List") appears as successfully translated, then "My Textbooks" (UniqueID 94, appears in NewtSync folder as "94 - My Textbooks") is the problem note.
+
+4. You'll probably want to preserve the problem note somehow: if the NewtSync copy on your Mac contains all the information you need (i.e., there is no special formatting to preserve in the note), then keep that somewhere, to restore to your Newton later on. You can also export it (text only) using Sloup, or as ink text etc. using X-Port, or you can print it to a PDF Printer on your Desktop (or to SoftPrintPack; see my Wiki page on this: )
+
+5. Once you've saved a backup copy of the problem note, delete that note from the Newton's notepad.
+
+Now, try to Export your notes from your Newton to your Desktop, using NCX, again. Hopefully this will work just fine.
+
+If not, just repeat steps 2-5, and you'll have a properly exporting Newton in no time.
+
+--=_multipart_boundary_51
+Content-Type: application/x-phpwiki;
+  pagename=TroubleshootNotes;
+  flags="";
+  author=jdueck;
+  version=1;
+  lastmodified=1173037778;
+  created=1173037859;
+  author_id=jdueck;
+  markup=2;
+  hits=180;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+*Bold text*How To Troubleshoot NCX Note Syncing using NewtSync*Bold text*
+
+If you've ever experienced a lockup of Simon Bell's wonderful new NCX (Newton Connection for OS X)  utility while attempting to export notes from the Newton to your Mac, the following tip might be useful to you. Here's what can happen: you'll open NCX, choose "Import" and then choose "Select" or "Export All," at which point your system will display a Spinning Beach Ball until you Force Quit NCX.
+
+If this is your situation, and you'd like to use NCX to export your notes, you can use the following troubleshooting procedure:
+&#65532;
+1. First, install and then use NewtSync to back all of your notes up. NewtSync will only backup the text of your notes, but it will preserve your Newton's Notes folder structure and also an important tag for troubleshooting notes syncing: the UniqueID of each Note in the Notes soup (for example, a NewtSync'ed note, on your Mac, might be called "93 - My Grocery List," and "93" denotes the UniqueID of that note; or "94 - My Textbooks" where "94" is the UniqueID). Copy _all_ of these new text files (the NewtSync'ed notes on your Mac) into one folder. If you list the folder's contents, they will appear in the order of their UniqueID (example: first "93 - My Grocery List" and then "94 - My Textbooks").
+
+2. Now start Console up on your Mac (Applications / Utilities / Console.app). Open NCX. Connect your Newton to NCX. Choose to Export All notes. Now watch the Console log: NCX will translate the Notes it receives in sequential order of their uniqueID. When you hit the "spinning beach ball," quit (or, if Apple-Q does not work, then Force Quit) NCX. Check the Console log: the last note it reports as translated will by name; for example, Console will first report that NCX is "Translating Newton notes," then list each note by name which is successfully translated. "Successful" is the key word here: the note which _Italic text_immediately follows_Italic text_ the last note reported on Console is a problem note. This means that the note with the next higher UniqueID is a problem note (there may be more than one) which NCX can't successfully translate.
+
+3. Now look back at the folder containing _Italic text_all_Italic text_ your NewtSynce'd notes (not the individual folders of NewtSync'ed notes) on your Mac. Find the note whose UniqueID immediately follows that of the name of the last note successfully translated (as reported by Console). That's your problem note. For example, if "My Grocery List" (UniqueID 93, appears in NewtSync folder as "93 - My Grocery List") appears as successfully translated, then "My Textbooks" (UniqueID 94, appears in NewtSync folder as "94 - My Textbooks") is the problem note.
+
+4. You'll probably want to preserve the problem note somehow: if the NewtSync copy on your Mac contains all the information you need (i.e., there is no special formatting to preserve in the note), then keep that somewhere, to restore to your Newton later on. You can also export it (text only) using Sloup, or as ink text etc. using X-Port, or you can print it to a PDF Printer on your Desktop (or to SoftPrintPack; see my Wiki page on this: )
+
+5. Once you've saved a backup copy of the problem note, delete that note from the Newton's notepad.
+
+Now, try to Export your notes from your Newton to your Desktop, using NCX, again. Hopefully this will work just fine.
+
+If not, just repeat steps 2-5, and you'll have a properly exporting Newton in no time.
+
+--=_multipart_boundary_51--

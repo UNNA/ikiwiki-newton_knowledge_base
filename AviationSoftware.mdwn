@@ -1,0 +1,34 @@
+Date: Thu, 13 Nov 2003 22:11:50 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=AviationSoftware;
+  flags="";
+  author=ScottyTechnoir;
+  version=1;
+  lastmodified=1068779510;
+  created=1068779510;
+  author_id=24.192.34.170;
+  hits=609;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Newted Pilots rejoice! Thanks to the resourceful NTLK list, we present...
+!!!''Attack of the Flying Newtons''
+
+Here is the list of known (so far) Aviation-related software for the Newt:
+* [FlightTrack | http://toronto.unna.org/unna/applications/GeoAssist/]
+* [Aviatrix 1.0 | http://www.unna.org/unna/applications/Aviatrix1.0b1/]
+** ''full fledged E6B calculator and graphic weight and balance computer for 2-6 seater aircraft''
+* [PilotPad | http://toronto.unna.org/unna/utilites/PilotPad/]
+* [Crosswind Calculator | http://www.standalone.com/MessagePad/Crosswind/content.html] ([download | http://www.standalone.com/newtonos/index.shtml])
+* [NewtonAviator | http://home.comcast.net/~jeffpiazza/NewtonAviator/index.html]
+** ''flight planning software''
+* [aviators.com | http://www.aviators.com] ''has a [page | http://www.aviators.com/newton/] dedicated to the Newton''
+* [AirplaneWeight | http://www.unna.org/unna/applications/AirplaneWeight/]
+** ''same as [PlaneWeight | http://www.unna.org/unna/applications/PlaneWeight/]; source code available''
+* [FlightX | http://toronto.unna.org/unna/utilites/stationary/NotepadXtension1.03/]
+** (part of !NotepadXtension) ''reportedly contains a "smart form (which) facilitates accurate entry of airline flight information".''
+
+There is also a flight simulator (incredible but true) called [NFlight | http://toronto.unna.org/unna/games/Nflight1.2/] which takes 2-D graphics to amazing portable heights.%%%
+----
+''Thanks to Robert Benschop and Jonathan Ramos for contributing links.''

@@ -1,0 +1,79 @@
+Date: Thu, 26 May 2005 04:39:45 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=LakeTahoeHikingNewton;
+  flags="";
+  author=RonParker;
+  version=1;
+  lastmodified=1117096785;
+  created=1117096785;
+  author_id=67.114.220.142;
+  markup=2;
+  hits=2431;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : CoolSetups : LakeTahoeHikingNewton%%%
+HomePage : HowTo : [GPSOnNewton] : LakeTahoeHikingNewton%%%
+----
+
+!!!The Lake Tahoe Hiking Newton - The Official Reference Guide
+!!An Introduction to GPS Navigation using an Apple Newton MessagePad 120
+__Written by Ron A. Parker - February 25, 2005 - All Rights Reserved__
+%%%
+%%%
+%%%
+----
+%%%
+I like to take my Newton everywhere, but I'm no fool. The thought of carrying some outrageously heavy computer with me, while I'm hiking, is pretty much ridiculous. A vision of a power hungry laptop and a portable Honda generator, tied to the top of a backpack, with a few extra gallons of gasoline strapped to either side, begins to fill my imagination. Why carry a computer with you? They don’t call it ''dead'' ''weight'' because it's the only thing found, long after the vultures have cleaned your bones. But then, the Newton is not a laptop. It's a MessagePad. And it's small, light weight, and very easily packed. ''But useful?''
+
+My intentions for building this project were not to (simply) create another stylized, over illuminated, case mod. Although the desire for aesthetics and Newton Fame came a bit later, the true inspiration (for the Hiking Newton) was initially sparked by the sheer quality in design of the U.S. Army issue camouflage Newton carrying case.  When I saw a batch of these cases (pop up for sale) on eBay, at surplus prices, I just couldn't resist buying a bunch and keeping a couple for myself. I liked them because they were an interesting collector's item. But, trying to picture myself carrying a Newton around, attached to my belt, in a fold out camouflage case was just a little too nerdy, even for me. Unless...I was hiking that is.
+%%%
+%%%
+__>> DING <<__
+%%%
+%%%
+__The Lake Tahoe Hiking Newton__
+%%%
+  [http://photos6.flickr.com/9578804_fa7fd0177e_m.jpg]  [http://photos4.flickr.com/9578803_f036b20f36_m.jpg]  [http://photos4.flickr.com/9578802_73553b99b5_m.jpg]
+  Click here for the [Flickr ZOOM!|http://www.flickr.com/photos/raparker/9578803/in/set-172646/]
+
+%%%
+%%%
+Suddenly, it all made sense and my imagination went wild. For the last three months I have been on a near-obsessive quest: To outfit a Newton for exploring the Tahoe wilderness. To design it so, that it is not only useful but, in fact, a necessary tool and accessory, without being a burden. That was the primary goal, but I will also be taking into consideration many other important requirements: weight, battery life, and its overall functionality within the environment that it will be used.
+
+How much weight things carry, please excuse the pun for illustrative purposes, will always be one of the biggest concerns when backpacking. Those who can travel light, yet fully prepared for anything, travel with the most comfort and do so, more safely. Therefore, it's simply understood, everything you carry with you, must have a purpose and a level of importance attached to it. Or, any item that doesn’t stands a very good chance of being left behind. Although the Hiking Newton is slightly more weight than you would normally consider in a handheld camping tool, the weight can be easily justified, as well as compensated for, through design and functionality.
+
+Operation within a wilderness environment is another major concern. With average elevations of 7,000 to 10,000 feet, the Lake Tahoe area can present it's own set of unique challenges, for both humans and electronics. Low temperatures, rain and snow can be expected to interfere with any type of outdoor activity, during any month of the year. But, of course, not without warning. Being prepared for any circumstance cannot be repeated enough. Even day hiking with a friend or exploring the wilderness "in the safety" of a motorized vehicle, you must BE PREPARED FOR ANYTHING! With this in mind, I will also try to provide some limited information on how to protect yourself, and your Newton; so both of you will be able to return to civilization to blog all about it.
+
+What I will not try to examine are the limits of what a Newton is capable of. This is well documented elsewhere and, in reality; you are only limited by your own imagination and creativity. This tutorial is actually an open reference for using a Newton MessagePad while enjoying the outdoors. Be it backpacking into Desolation Wilderness, riding the Rubicon in a 4x4, or flying down the Flume Trail on a mountain bike, your Newton can be a helpful guide along the way. Since I have personally decided to take my Newton with me, it only makes since to try and maximize its usefulness and streamline its design, to better fit in as a "must have" tool. This is what I am determined to present here.
+
+With a few enhancements, the U.S. Army Newton case can be fantastic and perfectly designed for taking a Newton hiking or backpacking. So, for your consideration (and in an effort to break this wiki wiki note into more digestible chunks) I have divided The Lake Tahoe Hiking Newton reference guide into various sections.
+
+  HikingNewtonHardware - Pictures, detailed descriptions, parts and modifications needed to outfit a Hiking Newton using the U.S. Army issue camouflage Newton case.
+
+  HikingNewtonSoftware - Descriptions, downloads and notes for using the software on the Lake Tahoe version of the Hiking Newton.
+
+  HowToPackYourNewton - Another collection of pictures and notes, showing how to use and protect a Hiking Newton while in the field.
+
+  HowToPowerYourNewton - Additional information about batteries, battery life,  power supplies and recharging your Hiking Newton on the trail.
+
+  HowToNavigateWithYourNewton - A basic tutorial, with online references for using a GPS with your Newton, and how to navigate __without__ it.
+
+  HowNotToPackYourNewton - Funny pictures, adventures and anecdotes.
+
+%%%
+Lake Tahoe Hiking Newton (v1.3)
+[http://webpages.charter.net/quadzillanet/howtopack.jpg]
+
+%%%
+----
+!See also:
+
+* [GPSOnNewton]
+* Complete Moron's Manual on [GPSMapMaking]
+
+%%%
+----
+HomePage : CoolSetups : LakeTahoeHikingNewton%%%
+HomePage : HowTo : [GPSOnNewton] : LakeTahoeHikingNewton%%%

@@ -1,0 +1,17 @@
+Date: Thu, 11 Dec 2003 10:55:01 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=SpeakText;
+  flags="";
+  author=ScottyTechnoir;
+  version=1;
+  lastmodified=1071158101;
+  created=1071158101;
+  author_id=63.138.75.78;
+  markup=2;
+  hits=925;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+SpeakText and Macintalk add Text-to-Speech functionality to your Newton. Once installed, they add a new 'Transport' to the Routing Menu (the little envelope button thingy found in almost every app). Nearly any text in the Newton can be read back in any one of nine voices. Almost exactly the same as the Text-to-Speech found in the MacOS.%%%
+''Hint:'' The preferences for SpeakText can be accessed through the "i" menu of the InOutBox.

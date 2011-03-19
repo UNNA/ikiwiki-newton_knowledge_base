@@ -1,0 +1,47 @@
+Date: Thu, 21 Apr 2005 10:54:48 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtsCape;
+  flags="";
+  author=212.149.48.43;
+  version=1;
+  lastmodified=1114095288;
+  created=1114095288;
+  author_id=212.149.48.43;
+  hits=1167;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : WebBrowsers : NewtsCape
+----
+
+A powerful (and slightly complicated,) internet browser for Newton OS 1.x and up also with a very small memory footprint.  It is fully compatible with frames and forms. A number of file extensions can also be handled by Newt's Cape, they are:
+
+•.htm/.html for web pages%%%
+•.txt for text documents%%%
+•.gif for 'gif' formatted images%%%
+•.jpg/.jpeg for 'jpeg' images%%%
+•.bmp/.wbm for bit-mapped images%%%
+•.pkg for Newton applications%%%
+•.pdb for Palm data files%%%
+•.prc for Palm OS books with 'TEXtREAd' or 'vIMGView' type ID's%%%
+•.wav for 'wav' audio files%%%
+•.aif/.aiff for 'aiff' audio files%%%
+•.au for 'au' audio files%%%
+•.mod for 'mod' audio files%%%
+•.class/.pdb/.wrp/.jar creates a Waba app on the Newton%%%
+
+It can also [create Newtonbooks|MakeNewtonEbooks] with text, graphics, links, tables and forms from HTML documents via the internet.  WebClipping is also supported.  Newt's Cape is a (well-supported) commercial product, $20 US or $10 US for students. Chinese, Japanese, Cyrillic, English, French, and German are all supported.  A 45 day demo is available at the link below.
+
+[Newt's Cape's Home Page | http://www.kagi.com/weyer/#NewtsCape] ([An Alternate Link | http://home.comcast.net/~saweyer/newton/newtscape.htm])
+
+* Q: What about NOS 2.x? Sez only "for Newton OS 1.x" above...
+
+----
+__See also:__
+
+InterNet
+
+MakeNewtonEbooks
+----
+HomePage : HowTo : WebBrowsers : NewtsCape

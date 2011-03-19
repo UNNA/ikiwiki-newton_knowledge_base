@@ -1,0 +1,16 @@
+Date: Wed, 2 Mar 2005 22:01:37 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=UniversalRemoteControlFunction;
+  flags="";
+  author=EntropyRecall;
+  version=1;
+  lastmodified=1109818897;
+  created=1109818897;
+  author_id=69.162.33.123;
+  markup=2;
+  hits=226;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+It works for an [iPod|http://macmod.com/content/view/117/2/] without any additional programming, and could be done using the special IrDA dongle shown on that page without additional programming on an audio-port hacked Newt, too. If we could somehow reroute the audio signal through the IrDA stack, it wouldn't even require the dongle.

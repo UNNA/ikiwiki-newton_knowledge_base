@@ -1,0 +1,193 @@
+Date: Tue, 19 Sep 2006 08:20:56 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_39"
+
+--=_multipart_boundary_39
+Content-Type: application/x-phpwiki;
+  pagename=MichaelWittmann;
+  flags="";
+  author=MichaelWittmann;
+  version=12;
+  lastmodified=1158668456;
+  created=1158668456;
+  author_id=MichaelWittmann;
+  markup=2;
+  hits=1189;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!! Past setups
+
+For those interested in past setups and implementations (from 1998 and 1999), click here: [Newton Usin' | http://newted.dyndns.org/users/mikele/newton.htm]
+
+!! A rough day's use of the Newton
+
+A brief write-up of my [Daily Use] of the Newton. I'm a pretty heavy user of the basic functionality...
+
+!! Organizing my life on the Newton
+
+How I [Organize Information] on my trusty 2100, BimBox.
+
+!! Working with a desktop
+
+How I [Use the desktop] with my Newton.
+
+--=_multipart_boundary_39
+Content-Type: application/x-phpwiki;
+  pagename=MichaelWittmann;
+  flags="";
+  author=MichaelWittmann;
+  version=11;
+  lastmodified=1145505321;
+  created=1158668456;
+  author_id=MichaelWittmann;
+  markup=2;
+  summary=made%20link%20to%20old%20Newted%20site%20more%20attractive;
+  hits=1189;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!! Past setups
+
+For those interested in past setups and implementations (from 1998 and 1999), click here: [Newton Usin' | http://newted.dyndns.org/users/mikele/newton.htm]
+
+!! A rough day's use of the Newton
+
+A brief write-up of my [Daily Use] of the Newton. I'm a pretty heavy user of the basic functionality...
+
+!! Organizing my life on the Newton
+
+How I [Organize Information] on my trusty 2100, BimBox.
+
+--=_multipart_boundary_39
+Content-Type: application/x-phpwiki;
+  pagename=MichaelWittmann;
+  flags="";
+  author=MichaelWittmann;
+  version=10;
+  lastmodified=1145494972;
+  created=1145505321;
+  author_id=MichaelWittmann;
+  markup=2;
+  hits=1189;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!! Past setups
+
+For those interested in past setups and implementations (from 1998 and 1999), click here: http://newted.dyndns.org/users/mikele/newton.htm
+
+!! A rough day's use of the Newton
+
+A brief write-up of my [Daily Use] of the Newton. I'm a pretty heavy user of the basic functionality...
+
+!! Organizing my life on the Newton
+
+How I [Organize Information] on my trusty 2100, BimBox.
+
+--=_multipart_boundary_39
+Content-Type: application/x-phpwiki;
+  pagename=MichaelWittmann;
+  flags="";
+  author=MichaelWittmann;
+  version=9;
+  lastmodified=1145494907;
+  created=1145494972;
+  author_id=MichaelWittmann;
+  markup=2;
+  hits=1189;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!! Past setups
+
+For those interested in past setups and implementations (from 1998 and 1999), click here: http://newted.dyndns.org/users/mikele/newton.htm
+
+!! A rough day's use of the Newton
+
+A brief write-up of my [Daily Use] of the Newton on a daily basis. I'm a pretty heavy user of the basic functionality...
+
+!! Organizing my life on the Newton
+
+How I [Organize Information] on my trusty 2100, BimBox.
+
+--=_multipart_boundary_39
+Content-Type: application/x-phpwiki;
+  pagename=MichaelWittmann;
+  flags="";
+  author=MichaelWittmann;
+  version=8;
+  lastmodified=1145494818;
+  created=1145494907;
+  author_id=MichaelWittmann;
+  markup=2;
+  hits=1189;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!! Past setups
+
+For those interested in past setups and implementations (from 1998 and 1999), click here: http://newted.dyndns.org/users/mikele/newton.htm
+
+!! A rough day's use of the Newton
+
+A brief write-up of my [Daily Use] of the Newton gets used on a daily basis. I'm a pretty heavy user of the basic functionality...
+
+!! Organizing my life on the Newton
+
+How I [Organize Information] on my trusty 2100, BimBox.
+
+--=_multipart_boundary_39
+Content-Type: application/x-phpwiki;
+  pagename=MichaelWittmann;
+  flags="";
+  author=MichaelWittmann;
+  version=7;
+  lastmodified=1145494781;
+  created=1145494818;
+  author_id=MichaelWittmann;
+  markup=2;
+  hits=1189;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!! Past setups
+
+For those interested in past setups and implementations (from 1998 and 1999), click here: http://newted.dyndns.org/users/mikele/newton.htm
+
+!! A rough day's use of the Newton
+
+Here's [a brief write-up] of my [Daily Use] of the Newton gets used on a daily basis. I'm a pretty heavy user of the basic functionality...
+
+!! Organizing my life on the Newton
+
+How I [Organize Information] on my trusty 2100, BimBox.
+
+--=_multipart_boundary_39
+Content-Type: application/x-phpwiki;
+  pagename=MichaelWittmann;
+  flags="";
+  author=MichaelWittmann;
+  version=1;
+  lastmodified=1145122528;
+  created=1145494781;
+  author_id=MichaelWittmann;
+  markup=2;
+  hits=1189;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!! Past setups
+
+For those interested in past setups and implementations (from 1998 and 1999), click here: http://newted.dyndns.org/users/mikele/newton.htm
+
+!! A rough day's use of the Newton
+
+Here's a brief write-up of my {Daily Use] of the Newton gets used on a daily basis. I'm a pretty heavy user of the basic functionality...
+
+!! Organizing my life on the Newton
+
+How I [Organize Information] on my trusty 2100, BimBox.
+
+--=_multipart_boundary_39--

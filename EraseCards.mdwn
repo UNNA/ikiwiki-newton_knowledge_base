@@ -1,0 +1,37 @@
+Date: Wed, 11 May 2005 15:35:50 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=EraseCards;
+  flags="";
+  author=84.178.158.200;
+  version=1;
+  lastmodified=1115840150;
+  created=1115840150;
+  author_id=84.178.158.200;
+  markup=2;
+  hits=428;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : [EraseCards]%%%
+HomePage : HardWare : FlashCards : EraseCards%%%
+----
+
+!!How to erase Linear Flash Cards with damaged Index
+
+*__Q:__ When I insert a storage card in my MP2100, it tries to activate the packages and then stalls (always at different packages). Same behaviour at reboot. ;=( I have a recent backup, so data loss is not an issue -- I just want to wipe the card and restore my backup. But how can I get this card erased? Are there any cool Newton tricks, like how to avoid package activation when inserting the card, that would allow to completely wipe it?%%%
+
+*__A1:__ If you hold the stylus (or your thumbnail) down on the screen on the left side about 1" to 1 1/2" up from the bottom of the screen, and while holding the stylus on that point, inserting the card, you will get a dialogue asking if you want to activate the packages on the newly inserted card. Respond "NO", and the card will be recognized with package activation.%%%
+**What frequently happens here is:%%%
+**#You used freezing to manage heap, and most of the packages that were on this card before were frozen.%%%
+**#A restore will put the packages on the card in an "unfrozen" state.%%%
+**#Inserting a loaded high capacity card where all of the packages are unfrozen will overrun your available heap, and cause the newton to lock up.%%%
+*By using the above technique, you can get into the card, freeze everything that should be in a frozen state, and then reboot.  it should come up fine after that. (GaryMoody on [NTLK|http://marc.10east.com/?l=newtontalk&m=111582768401727&w=2] 2005)%%%
+
+*__A2:__ Try inserting the card while the Newton's preference window (Extras/Unfiled/Prefs) is open. You will be offered the option of erasing all data from the card (""). (WoodySmith on [NTLK|http://marc.10east.com/?l=newtontalk&m=111581678409932&w=2] 2005)%%%
+
+*__A3:__ If that fails, then there are [some utils|http://www.unna.org/unna/windows/flash/intel/utils.exe] on [UNNA] (for Windows only... sorry) for manipulating Linear Flash cards. (VictorRehorst on [NTLK|http://marc.10east.com/?l=newtontalk&m=111581767028742&w=2]2005)%%%
+
+----
+HomePage : HowTo : [EraseCards]%%%
+HomePage : HardWare : FlashCards : EraseCards%%%

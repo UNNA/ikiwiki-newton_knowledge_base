@@ -1,0 +1,36 @@
+Date: Wed, 28 Jan 2004 15:10:07 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=RhondaSetup;
+  flags="";
+  author=RhondaHyslop;
+  version=1;
+  lastmodified=1075320607;
+  created=1075320607;
+  author_id=64.180.125.197;
+  markup=2;
+  hits=2434;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+I find the following generally useful, if maybe not "cool". This is all for a MP2100. I had to put extras in overview mode so I could tell which programs were built-in and which weren't, and dig through the extensions folder. I installed all of these when I first got my newton in 1998, so I couldn't remember what came with the newt and what I added in the first few months.
+
+Extensions:
+* BigNotes - Removes the limit on the length of notepad notes. Really big notes make the newton feel slooooow, and I've heard they can cause trouble with backing up. Start new notes when appropriate; this at least makes it so you aren't forced to start a new note in the middle of a thought, a problem I had frequently before installing this extension.
+* ClipHoard - Allows more than one item in the screen-edge clipboard. It allows up to 20 items; I typically use 3-4 at most.
+* MacInTalk and SpeakText - Allows the newton to speak the text of alarms, as well as read out the text of notes. This really freaks some people out, but it's rather useful. Only problem is that if you dismiss the alarm popup before it's finished talking, the alarm will keep sounding but no alarm slip will appear. When that happens, the only way I've found reliably shuts the newton up is to press the reset button on the back.
+* MoreFolders - Allows more than the default number of folders, and allows nesting folders. I found this critical when taking notes in class, because I had one folder for each class, and over a couple of years they build up.
+* NotesWordCount - A nice little utility DanielPadilla made one evening when I asked the [NewtonTalk | http://www.NewtonTalk.net] list if there was a word counting program available for the notepad.
+
+Programs
+* GeekSafe - Stores passwords. Not encrypted, so somebody with a soup reader will be able to extract them. There's a passcode screen before it allows you to get at the passwords via the program.
+* MoreInfo - Major improvement to the built-in dates and names software. I've gotten so used to it that I can't remember anymore what features are built in to Dates and Names, and which are MI extensions. The crosslinking is great though.
+* [MPG] - Tracks fuel consumption and repairs for your car(s). There are different versions depending on what units you use (miles/kilometers, or gallons/litres). Integrates with PocketMoney to bring up a new purchase entry whenever you make a purchase (such as a gas fillup) with most of the fields pre-filled. If you travel for business it also allows you to start trips (and side trips) and from that calculate how many miles were on company time and how many weren't. I haven't used it in a few years because I haven't had a car in a few years, but it was nice when I did have one.
+* PocketMoney - Checkbook program. Very nice.
+* QuickFigure - Spreadsheet for NewtonWorks. This is really the only reason I still have NewtonWorks installed, because I never use the word processor part. Very nice little spreadsheet, can do graphs, but I've found that if you have too long a string of equations depending on other equations it can get a little flaky. Probably due to running out of heap to do the calculations in, but that's just my wild guess.
+* [i++] - adds stuff to the i menu.
+* [Roosta] - Alarm clock. Has single day, weekdays only, or every day settings. Starts quiet and increases volume until it's Really Damn Annoying.
+* [Sloup] - serial connection program. NewtonConnectionUtilities won't run on Linux, so I have to use other programs that require sloup in order to install packages etc. It'll do 56k over serial.
+
+
+CoolSetups

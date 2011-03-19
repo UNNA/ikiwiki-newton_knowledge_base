@@ -1,0 +1,16 @@
+Date: Fri, 31 Jan 2003 17:50:52 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=MP2x00;
+  flags="";
+  author=VictorRehorst;
+  version=1;
+  lastmodified=1044053452;
+  created=1044053452;
+  author_id=142.245.193.8;
+  markup=2;
+  hits=485;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+[MP2x00] is shorthand indicating the [MessagePad2000] or the [MessagePad2100] models, which differed only in the amount of memory installed.  The MessagePad2000 came with 1MB of DRAM, and the MessagePad2100 came with 4MB.  When the MessagePad2100 came out, Apple offered an upgrade program for 2000 owners to upgrade their 2000s to 4MB.  They don't do this anymore, though.

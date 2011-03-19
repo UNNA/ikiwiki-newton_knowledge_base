@@ -1,0 +1,437 @@
+Date: Thu, 22 Feb 2007 13:39:34 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_13"
+
+--=_multipart_boundary_13
+Content-Type: application/x-phpwiki;
+  pagename=BluetoothOBEX;
+  flags="";
+  author=rterhune;
+  version=4;
+  lastmodified=1172169574;
+  created=1172169574;
+  author_id=rterhune;
+  markup=2;
+  hits=1864;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : UsingBluetoothIndex : [BluetoothOBEX]
+----
+
+!!! Exchanging data between Bluetooth-enabled Newton 2x00 devices and other devices
+
+This page talks about transferring files via the [OBEX protocol using Bluetooth|ObexExplanation]
+
+It also assumes you have gotten the [basic connection and pairing working|BluntSetup]. You need to have installed both [Blunt] and [Neo] at least. [IC/VC|ICVC] is good to have installed as well.
+
+----
+
+!! Transferring files between a Newton and a Macintosh (OS X) computer via Bluetooth
+
+All data exchange works via the Newton's __InOut__ box.
+
+! Sending items from the Newton to a paired device
+
+First, let's make sure the setup is correct on the Newton:
+
+* Open __Bluetooth Setup__ on the Newton and check that you have paired with at least one device.
+* Also make sure that the paired device lists "OBEX Push"  in the __OBEX Port__
+
+To send a file (for instance, a note) to a paired device, use the same technique you would use when trying to mail or fax an item:
+
+* Use the item's routing menu (that's the mail envelope) and choose OBEX.
+* A new window appears in which you can choose the transport in the top left area. Make sure you have "BtOBEX" selected there.
+* Choose Send -> Now to initiate the transfer.
+* See what happens on your receiving computer (the Mac). Depending on your Bluetooth setting on the Mac, a dialog might appear asking you to accept the transfer. Once the transfer has completed, the item should appear in the folder that is preset in the Bluetooth preferences (by defaults, it's the user's "Documents" folder).
+
+To receive a file sent from your Macintosh computer:
+
+* On the Mac, launch the "Bluetooth File Exchange.app" (it's inside Applications/Utilities) and choose "Send file" from its menu. Alternatively, if you've enabled the option to "Show bluetooth status in menu bar", you can also choose "Send File" from the menu under the Bluetooth icon.
+* Choose a file to send to the Newton. Try a small plain text file for a start.
+* After choosing the file, a dialog appears in which you can choose the device you want to send the item to. __Choose the Newton__ from the list (if it is not in the list, you have not properly paired the Newton earlier).
+* On the Newton, open the __In Box__ (open "InOut", then switch to "In Box" at the top in case you're seeing the "Out Box")
+* Tap __Receive__ and choose __BtOBEX__. Now the Newton is waiting to receive an item
+* On the Mac, where the Send File dialog is ready, press the __Send__ button. A message "validating device" is showing for a few seconds, after which the transfer should begin (if not, the Newton is not in listening mode any more and you have to choose Receive->BtOBEX there again first).
+* The item should now appear in the In Box, from which you can put it away if all went well.
+* __Note__: Unfortunately, we seem not to have much control on the Newton over where it gets put to, so if the item you transferred to the Newton can not be put away to a sensible place, e.g. if the text you transferred shows that it requires an __uninstalled stationary__, then try giving the file you want to transfer a "proper" extension and try the transfer again. For example, plain text files should have a ".txt" extension so that the transfer lets the Newton know that it is a text file indeed.
+* If the item you are sending is a package, you will need [IC/VC|ICVC] from http://40hz.org/ICVC/ installed on your Newton. After you send the .pkg file (make sure it has the proper file/creator codes first by using software such as Packager for MacOS X) it should be in your Newton's Inbox. Select it, tap the "tag" icon at the bottom of the screen, and select "Put Away" to intall the package.
+
+----
+
+!! Transferring files between a Newton and a Windows computer via Bluetooth
+
+No one has volunteered yet to add information here. Note that Windows XP comes with its own Bluetooth support while Windows 2000 relies on 3rd party software that may work differently.
+
+Until then, have a look at the description for Macintosh above and see if that helps you with your computer.
+
+----
+
+!! Transferring files between two Newtons via Bluetooth
+
+See the [bluetooth index page|UsingBluetoothIndex] for a link to a newsgroup post on this topic
+
+----
+
+!! Transferring "stuff" using Bluetooth for morons (apparently)
+
+! Note: The following is an older description relocated here from the BluntSetup page:
+
+You'll want to use your bluetooth connection for somethng meaningful. I mean, yeah, it's just cool in itself to have it, but it'd be infinitely cooler to actually *use* it for something, like, do something with it.
+
+So, you unredeemable thrill jockey, follow me and let's see how we can get you rigged up.
+
+1. Sending stuff around
+
+1.1 Send something off yer MessagePad: Go to your Newton's Notes, select a Note, tap the Routing icon and choose "Obex" from the menu. Now a sending slip opens, it should show "BtOBEX" and for Send To it should list the other Bluetooth-devices hostname. Tap "Send" and the "Now", and off your note goes!
+Note: It's smart to set a receiving folder on the receiving device, e.g. the desktop.
+{Q:} There is no OBEX or BtOBEX option in the Extras routing menue (envelope-button). How can I send packages off the Newton?
+
+1.2 Send something to your MessagePad (aka "Receive"): You'll receive everything in the In-Box, to put it away to it's proper uses, you'll have first to install IC/VC, also from Eckart Koeppen (get it herre http://www.40hz.org/ICVC).
+Go to In/Out Box, tap "Receive"; a menu opens - leave it open.
+Next select Send File ("Datei senden") from your PowerBook's Bluetooth-Data Exchange ("Bluetooth-Datenastausch"). Select the File you want to send and hit Send ("Senden"). On your PowerBook, another splash screen will open, there hit send again.
+On your Newton, also tap btOBEX (from the Receive-menu which you'd opened before). Zaprishti, your transfer should start right away!
+
+1.3 Now that Bluetooth works and you have IC/VC installed, you can also quickly transfer Names from your Newton to your PowerBook's Address Book ("Adressbuch"): Open Names on your Newton, change to overview mode if neccessary, select all names (by tapping "All"), tap the routing icon (envelope), select OBEX.
+A routing slip opens; the transport should be set to BtOBEX (if not - well, change it!), Format should be vCard. Tap Send.
+The PowerBook now asks for a password to the Newton's Bluetooth connection; enter the password which you'd used to pair the two devices. A file "Multiple Cards.vcf.vcf" will appear on your PowerBook in your download folder (e.g. your desktop or any other folder you'd specified).
+For importing the vCards tranferred off your Newton, just double-click the icon. The Address Book will open and dialog boxes will guide you through the import. It's really simple.
+
+1.4 Oh, but you can also send all the names you have on your PowerBook to your Newton! Open Adressbook, export Group-vCard (Ablage/Gruppen-vCard exportieren), send that file to your Newton (open In-Box, tap receive, then send file off the PowerBook), in In Box select the received file, and tap the icon between "Receive" and the "File"-button. A menu opens, offering "Log" and "Put away". Tap "Put away", and your addresses will be put away to Names, courtesy of Eckart's IC/VC.
+
+----
+! See also:
+
+* [BluetoothTroubleShooting] for what to do when things go wrong.
+* [BluntSetup] for setting up the Newton for Bluetooth
+* [MacOSXBluetooth] for setting up a Macintosh computer for Bluetooth
+* "[Configuration Bluetooth (Blunt)|http://messagepad.chez-alice.fr/Bluetooth/Bluetooth.html]" for a complete illustrated setup-manual by Andreas Nijenhuis. Despite it being in french, it contains a lot of pictures that show the english dialogs on the Newton. So, even if you can't read french, this web page can still show you quite well what to do.
+
+----
+HomePage : HowTo : UsingBluetoothIndex : [BluetoothOBEX]
+
+--=_multipart_boundary_13
+Content-Type: application/x-phpwiki;
+  pagename=BluetoothOBEX;
+  flags="";
+  author=rterhune;
+  version=3;
+  lastmodified=1152089821;
+  created=1172169574;
+  author_id=rterhune;
+  markup=2;
+  hits=1864;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : UsingBluetoothIndex : [BluetoothOBEX]
+----
+
+!!! Exchanging data between Bluetooth-enabled Newton 2x00 devices and other devices
+
+This page talks about transferring files via the [OBEX protocol using Bluetooth|ObexExplanation]
+
+It also assumes you have gotten the [basic connection and pairing working|BluntSetup]. You need to have installed both [Blunt] and [Neo] at least. [IC/VC|ICVC] is good to have installed as well.
+
+----
+
+!! Transferring files between a Newton and a Macintosh (OS X) computer via Bluetooth
+
+All data exchange works via the Newton's __InOut__ box.
+
+! Sending items from the Newton to a paired device
+
+First, let's make sure the setup is correct on the Newton:
+
+* Open __Bluetooth Setup__ on the Newton and check that you have paired with at least one device.
+* Also make sure that the paired device lists "OBEX Push"  in the __OBEX Port__
+
+To send a file (for instance, a note) to a paired device, use the same technique you would use when trying to mail or fax an item:
+
+* Use the item's routing menu (that's the mail envelope) and choose OBEX.
+* A new window appears in which you can choose the transport in the top left area. Make sure you have "BtOBEX" selected there.
+* Choose Send -> Now to initiate the transfer.
+* See what happens on your receiving computer (the Mac). Depending on your Bluetooth setting on the Mac, a dialog might appear asking you to accept the transfer. Once the transfer has completed, the item should appear in the folder that is preset in the Bluetooth preferences (by defaults, it's the user's "Documents" folder).
+
+To receive a file sent from your Macintosh computer:
+
+* On the Mac, launch the "Bluetooth File Exchange.app" (it's inside Applications/Utilities) and choose "Send file" from its menu. Alternatively, if you've enabled the option to "Show bluetooth status in menu bar", you can also choose "Send File" from the menu under the Bluetooth icon.
+* Choose a file to send to the Newton. Try a small plain text file for a start.
+* After choosing the file, a dialog appears in which you can choose the device you want to send the item to. __Choose the Newton__ from the list (if it is not in the list, you have not properly paired the Newton earlier).
+* On the Newton, open the __In Box__ (open "InOut", then switch to "In Box" at the top in case you're seeing the "Out Box")
+* Tap __Receive__ and choose __BtOBEX__. Now the Newton is waiting to receive an item
+* On the Mac, where the Send File dialog is ready, press the __Send__ button. A message "validating device" is showing for a few seconds, after which the transfer should begin (if not, the Newton is not in listening mode any more and you have to choose Receive->BtOBEX there again first).
+* The item should now appear in the In Box, from which you can put it away if all went well.
+* __Note__: Unfortunately, we seem not to have much control on the Newton over where it gets put to, so if the item you transferred to the Newton can not be put away to a sensible place, e.g. if the text you transferred shows that it requires an __uninstalled stationary__, then try giving the file you want to transfer a "proper" extension and try the transfer again. For example, plain text files should have a ".txt" extension so that the transfer lets the Newton know that it is a text file indeed.
+* If the item you are sending is a package, you will need [IC/VC|ICVC] from http://40hz.org/ICVC/ installed on your Newton. After you send the .pkg file (make sure it has the proper file/creator codes first by using software such as Packager for MacOS X) it should be in your Newton's Inbox. Select it, tap the "tag" icon at the bottom of the screen, and select to intall the package from the menu.
+
+----
+
+!! Transferring files between a Newton and a Windows computer via Bluetooth
+
+No one has volunteered yet to add information here. Note that Windows XP comes with its own Bluetooth support while Windows 2000 relies on 3rd party software that may work differently.
+
+Until then, have a look at the description for Macintosh above and see if that helps you with your computer.
+
+----
+
+!! Transferring files between two Newtons via Bluetooth
+
+See the [bluetooth index page|UsingBluetoothIndex] for a link to a newsgroup post on this topic
+
+----
+
+!! Transferring "stuff" using Bluetooth for morons (apparently)
+
+! Note: The following is an older description relocated here from the BluntSetup page:
+
+You'll want to use your bluetooth connection for somethng meaningful. I mean, yeah, it's just cool in itself to have it, but it'd be infinitely cooler to actually *use* it for something, like, do something with it.
+
+So, you unredeemable thrill jockey, follow me and let's see how we can get you rigged up.
+
+1. Sending stuff around
+
+1.1 Send something off yer MessagePad: Go to your Newton's Notes, select a Note, tap the Routing icon and choose "Obex" from the menu. Now a sending slip opens, it should show "BtOBEX" and for Send To it should list the other Bluetooth-devices hostname. Tap "Send" and the "Now", and off your note goes!
+Note: It's smart to set a receiving folder on the receiving device, e.g. the desktop.
+{Q:} There is no OBEX or BtOBEX option in the Extras routing menue (envelope-button). How can I send packages off the Newton?
+
+1.2 Send something to your MessagePad (aka "Receive"): You'll receive everything in the In-Box, to put it away to it's proper uses, you'll have first to install IC/VC, also from Eckart Koeppen (get it herre http://www.40hz.org/ICVC).
+Go to In/Out Box, tap "Receive"; a menu opens - leave it open.
+Next select Send File ("Datei senden") from your PowerBook's Bluetooth-Data Exchange ("Bluetooth-Datenastausch"). Select the File you want to send and hit Send ("Senden"). On your PowerBook, another splash screen will open, there hit send again.
+On your Newton, also tap btOBEX (from the Receive-menu which you'd opened before). Zaprishti, your transfer should start right away!
+
+1.3 Now that Bluetooth works and you have IC/VC installed, you can also quickly transfer Names from your Newton to your PowerBook's Address Book ("Adressbuch"): Open Names on your Newton, change to overview mode if neccessary, select all names (by tapping "All"), tap the routing icon (envelope), select OBEX.
+A routing slip opens; the transport should be set to BtOBEX (if not - well, change it!), Format should be vCard. Tap Send.
+The PowerBook now asks for a password to the Newton's Bluetooth connection; enter the password which you'd used to pair the two devices. A file "Multiple Cards.vcf.vcf" will appear on your PowerBook in your download folder (e.g. your desktop or any other folder you'd specified).
+For importing the vCards tranferred off your Newton, just double-click the icon. The Address Book will open and dialog boxes will guide you through the import. It's really simple.
+
+1.4 Oh, but you can also send all the names you have on your PowerBook to your Newton! Open Adressbook, export Group-vCard (Ablage/Gruppen-vCard exportieren), send that file to your Newton (open In-Box, tap receive, then send file off the PowerBook), in In Box select the received file, and tap the icon between "Receive" and the "File"-button. A menu opens, offering "Log" and "Put away". Tap "Put away", and your addresses will be put away to Names, courtesy of Eckart's IC/VC.
+
+----
+! See also:
+
+* [BluetoothTroubleShooting] for what to do when things go wrong.
+* [BluntSetup] for setting up the Newton for Bluetooth
+* [MacOSXBluetooth] for setting up a Macintosh computer for Bluetooth
+* "[Configuration Bluetooth (Blunt)|http://messagepad.chez-alice.fr/Bluetooth/Bluetooth.html]" for a complete illustrated setup-manual by Andreas Nijenhuis. Despite it being in french, it contains a lot of pictures that show the english dialogs on the Newton. So, even if you can't read french, this web page can still show you quite well what to do.
+
+----
+HomePage : HowTo : UsingBluetoothIndex : [BluetoothOBEX]
+
+--=_multipart_boundary_13
+Content-Type: application/x-phpwiki;
+  pagename=BluetoothOBEX;
+  flags="";
+  author=rterhune;
+  version=2;
+  lastmodified=1152089603;
+  created=1152089821;
+  author_id=rterhune;
+  markup=2;
+  hits=1864;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : UsingBluetoothIndex : [BluetoothOBEX]
+----
+
+!!! Exchanging data between Bluetooth-enabled Newton 2x00 devices and other devices
+
+This page talks about transferring files via the [OBEX protocol using Bluetooth|ObexExplanation]
+
+It also assumes you have gotten the [basic connection and pairing working|BluntSetup]. You need to have installed both [Blunt] and [Neo] at least. [IC/VC|ICVC] is good to have installed as well.
+
+----
+
+!! Transferring files between a Newton and a Macintosh (OS X) computer via Bluetooth
+
+All data exchange works via the Newton's __InOut__ box.
+
+! Sending items from the Newton to a paired device
+
+First, let's make sure the setup is correct on the Newton:
+
+* Open __Bluetooth Setup__ on the Newton and check that you have paired with at least one device.
+* Also make sure that the paired device lists "OBEX Push"  in the __OBEX Port__
+
+To send a file (for instance, a note) to a paired device, use the same technique you would use when trying to mail or fax an item:
+
+* Use the item's routing menu (that's the mail envelope) and choose OBEX.
+* A new window appears in which you can choose the transport in the top left area. Make sure you have "BtOBEX" selected there.
+* Choose Send -> Now to initiate the transfer.
+* See what happens on your receiving computer (the Mac). Depending on your Bluetooth setting on the Mac, a dialog might appear asking you to accept the transfer. Once the transfer has completed, the item should appear in the folder that is preset in the Bluetooth preferences (by defaults, it's the user's "Documents" folder).
+
+To receive a file sent from your Macintosh computer:
+
+* On the Mac, launch the "Bluetooth File Exchange.app" (it's inside Applications/Utilities) and choose "Send file" from its menu. Alternatively, if you've enabled the option to "Show bluetooth status in menu bar", you can also choose "Send File" from the menu under the Bluetooth icon.
+* Choose a file to send to the Newton. Try a small plain text file for a start.
+* After choosing the file, a dialog appears in which you can choose the device you want to send the item to. __Choose the Newton__ from the list (if it is not in the list, you have not properly paired the Newton earlier).
+* On the Newton, open the __In Box__ (open "InOut", then switch to "In Box" at the top in case you're seeing the "Out Box")
+* Tap __Receive__ and choose __BtOBEX__. Now the Newton is waiting to receive an item
+* On the Mac, where the Send File dialog is ready, press the __Send__ button. A message "validating device" is showing for a few seconds, after which the transfer should begin (if not, the Newton is not in listening mode any more and you have to choose Receive->BtOBEX there again first).
+* The item should now appear in the In Box, from which you can put it away if all went well.
+* __Note__: Unfortunately, we seem not to have much control on the Newton over where it gets put to, so if the item you transferred to the Newton can not be put away to a sensible place, e.g. if the text you transferred shows that it requires an __uninstalled stationary__, then try giving the file you want to transfer a "proper" extension and try the transfer again. For example, plain text files should have a ".txt" extension so that the transfer lets the Newton know that it is a text file indeed.
+* If the item you are sending is a package, you will need IC/IV from http://40hz.org/ICVC/ installed on your Newton. After you send the .pkg file (make sure it has the proper file/creator codes first by using software such as Packager for MacOS X) it should be in your Newton's Inbox. Select it, tap the "tag" icon at the bottom of the screen, and select to intall the package from the menu.
+
+----
+
+!! Transferring files between a Newton and a Windows computer via Bluetooth
+
+No one has volunteered yet to add information here. Note that Windows XP comes with its own Bluetooth support while Windows 2000 relies on 3rd party software that may work differently.
+
+Until then, have a look at the description for Macintosh above and see if that helps you with your computer.
+
+----
+
+!! Transferring files between two Newtons via Bluetooth
+
+See the [bluetooth index page|UsingBluetoothIndex] for a link to a newsgroup post on this topic
+
+----
+
+!! Transferring "stuff" using Bluetooth for morons (apparently)
+
+! Note: The following is an older description relocated here from the BluntSetup page:
+
+You'll want to use your bluetooth connection for somethng meaningful. I mean, yeah, it's just cool in itself to have it, but it'd be infinitely cooler to actually *use* it for something, like, do something with it.
+
+So, you unredeemable thrill jockey, follow me and let's see how we can get you rigged up.
+
+1. Sending stuff around
+
+1.1 Send something off yer MessagePad: Go to your Newton's Notes, select a Note, tap the Routing icon and choose "Obex" from the menu. Now a sending slip opens, it should show "BtOBEX" and for Send To it should list the other Bluetooth-devices hostname. Tap "Send" and the "Now", and off your note goes!
+Note: It's smart to set a receiving folder on the receiving device, e.g. the desktop.
+{Q:} There is no OBEX or BtOBEX option in the Extras routing menue (envelope-button). How can I send packages off the Newton?
+
+1.2 Send something to your MessagePad (aka "Receive"): You'll receive everything in the In-Box, to put it away to it's proper uses, you'll have first to install IC/VC, also from Eckart Koeppen (get it herre http://www.40hz.org/ICVC).
+Go to In/Out Box, tap "Receive"; a menu opens - leave it open.
+Next select Send File ("Datei senden") from your PowerBook's Bluetooth-Data Exchange ("Bluetooth-Datenastausch"). Select the File you want to send and hit Send ("Senden"). On your PowerBook, another splash screen will open, there hit send again.
+On your Newton, also tap btOBEX (from the Receive-menu which you'd opened before). Zaprishti, your transfer should start right away!
+
+1.3 Now that Bluetooth works and you have IC/VC installed, you can also quickly transfer Names from your Newton to your PowerBook's Address Book ("Adressbuch"): Open Names on your Newton, change to overview mode if neccessary, select all names (by tapping "All"), tap the routing icon (envelope), select OBEX.
+A routing slip opens; the transport should be set to BtOBEX (if not - well, change it!), Format should be vCard. Tap Send.
+The PowerBook now asks for a password to the Newton's Bluetooth connection; enter the password which you'd used to pair the two devices. A file "Multiple Cards.vcf.vcf" will appear on your PowerBook in your download folder (e.g. your desktop or any other folder you'd specified).
+For importing the vCards tranferred off your Newton, just double-click the icon. The Address Book will open and dialog boxes will guide you through the import. It's really simple.
+
+1.4 Oh, but you can also send all the names you have on your PowerBook to your Newton! Open Adressbook, export Group-vCard (Ablage/Gruppen-vCard exportieren), send that file to your Newton (open In-Box, tap receive, then send file off the PowerBook), in In Box select the received file, and tap the icon between "Receive" and the "File"-button. A menu opens, offering "Log" and "Put away". Tap "Put away", and your addresses will be put away to Names, courtesy of Eckart's IC/VC.
+
+----
+! See also:
+
+* [BluetoothTroubleShooting] for what to do when things go wrong.
+* [BluntSetup] for setting up the Newton for Bluetooth
+* [MacOSXBluetooth] for setting up a Macintosh computer for Bluetooth
+* "[Configuration Bluetooth (Blunt)|http://messagepad.chez-alice.fr/Bluetooth/Bluetooth.html]" for a complete illustrated setup-manual by Andreas Nijenhuis. Despite it being in french, it contains a lot of pictures that show the english dialogs on the Newton. So, even if you can't read french, this web page can still show you quite well what to do.
+
+----
+HomePage : HowTo : UsingBluetoothIndex : [BluetoothOBEX]
+
+--=_multipart_boundary_13
+Content-Type: application/x-phpwiki;
+  pagename=BluetoothOBEX;
+  flags="";
+  author=ThomasTempelmann;
+  version=1;
+  lastmodified=1142177295;
+  created=1152089603;
+  author_id=212.202.193.236;
+  markup=2;
+  hits=1864;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : UsingBluetoothIndex : [BluetoothOBEX]
+----
+
+!!! Exchanging data between Bluetooth-enabled Newton 2x00 devices and other devices
+
+This page talks about transferring files via the [OBEX protocol using Bluetooth|ObexExplanation]
+
+It also assumes you have gotten the [basic connection and pairing working|BluntSetup]. You need to have installed both [Blunt] and [Neo] at least. [IC/VC|ICVC] is good to have installed as well.
+
+----
+
+!! Transferring files between a Newton and a Macintosh (OS X) computer via Bluetooth
+
+All data exchange works via the Newton's __InOut__ box.
+
+! Sending items from the Newton to a paired device
+
+First, let's make sure the setup is correct on the Newton:
+
+* Open __Bluetooth Setup__ on the Newton and check that you have paired with at least one device.
+* Also make sure that the paired device lists "OBEX Push"  in the __OBEX Port__
+
+To send a file (for instance, a note) to a paired device, use the same technique you would use when trying to mail or fax an item:
+
+* Use the item's routing menu (that's the mail envelope) and choose OBEX.
+* A new window appears in which you can choose the transport in the top left area. Make sure you have "BtOBEX" selected there.
+* Choose Send -> Now to initiate the transfer.
+* See what happens on your receiving computer (the Mac). Depending on your Bluetooth setting on the Mac, a dialog might appear asking you to accept the transfer. Once the transfer has completed, the item should appear in the folder that is preset in the Bluetooth preferences (by defaults, it's the user's "Documents" folder).
+
+To receive a file sent from your Macintosh computer:
+
+* On the Mac, launch the "Bluetooth File Exchange.app" (it's inside Applications/Utilities) and choose "Send file" from its menu. Alternatively, if you've enabled the option to "Show bluetooth status in menu bar", you can also choose "Send File" from the menu under the Bluetooth icon.
+* Choose a file to send to the Newton. Try a small plain text file for a start.
+* After choosing the file, a dialog appears in which you can choose the device you want to send the item to. __Choose the Newton__ from the list (if it is not in the list, you have not properly paired the Newton earlier).
+* On the Newton, open the __In Box__ (open "InOut", then switch to "In Box" at the top in case you're seeing the "Out Box")
+* Tap __Receive__ and choose __BtOBEX__. Now the Newton is waiting to receive an item
+* On the Mac, where the Send File dialog is ready, press the __Send__ button. A message "validating device" is showing for a few seconds, after which the transfer should begin (if not, the Newton is not in listening mode any more and you have to choose Receive->BtOBEX there again first).
+* The item should now appear in the In Box, from which you can put it away if all went well.
+* __Note__: Unfortunately, we seem not to have much control on the Newton over where it gets put to, so if the item you transferred to the Newton can not be put away to a sensible place, e.g. if the text you transferred shows that it requires an __uninstalled stationary__, then try giving the file you want to transfer a "proper" extension and try the transfer again. For example, plain text files should have a ".txt" extension so that the transfer lets the Newton know that it is a text file indeed.
+
+----
+
+!! Transferring files between a Newton and a Windows computer via Bluetooth
+
+No one has volunteered yet to add information here. Note that Windows XP comes with its own Bluetooth support while Windows 2000 relies on 3rd party software that may work differently.
+
+Until then, have a look at the description for Macintosh above and see if that helps you with your computer.
+
+----
+
+!! Transferring files between two Newtons via Bluetooth
+
+See the [bluetooth index page|UsingBluetoothIndex] for a link to a newsgroup post on this topic
+
+----
+
+!! Transferring "stuff" using Bluetooth for morons (apparently)
+
+! Note: The following is an older description relocated here from the BluntSetup page:
+
+You'll want to use your bluetooth connection for somethng meaningful. I mean, yeah, it's just cool in itself to have it, but it'd be infinitely cooler to actually *use* it for something, like, do something with it.
+
+So, you unredeemable thrill jockey, follow me and let's see how we can get you rigged up.
+
+1. Sending stuff around
+
+1.1 Send something off yer MessagePad: Go to your Newton's Notes, select a Note, tap the Routing icon and choose "Obex" from the menu. Now a sending slip opens, it should show "BtOBEX" and for Send To it should list the other Bluetooth-devices hostname. Tap "Send" and the "Now", and off your note goes!
+Note: It's smart to set a receiving folder on the receiving device, e.g. the desktop.
+{Q:} There is no OBEX or BtOBEX option in the Extras routing menue (envelope-button). How can I send packages off the Newton?
+
+1.2 Send something to your MessagePad (aka "Receive"): You'll receive everything in the In-Box, to put it away to it's proper uses, you'll have first to install IC/VC, also from Eckart Koeppen (get it herre http://www.40hz.org/ICVC).
+Go to In/Out Box, tap "Receive"; a menu opens - leave it open.
+Next select Send File ("Datei senden") from your PowerBook's Bluetooth-Data Exchange ("Bluetooth-Datenastausch"). Select the File you want to send and hit Send ("Senden"). On your PowerBook, another splash screen will open, there hit send again.
+On your Newton, also tap btOBEX (from the Receive-menu which you'd opened before). Zaprishti, your transfer should start right away!
+
+1.3 Now that Bluetooth works and you have IC/VC installed, you can also quickly transfer Names from your Newton to your PowerBook's Address Book ("Adressbuch"): Open Names on your Newton, change to overview mode if neccessary, select all names (by tapping "All"), tap the routing icon (envelope), select OBEX.
+A routing slip opens; the transport should be set to BtOBEX (if not - well, change it!), Format should be vCard. Tap Send.
+The PowerBook now asks for a password to the Newton's Bluetooth connection; enter the password which you'd used to pair the two devices. A file "Multiple Cards.vcf.vcf" will appear on your PowerBook in your download folder (e.g. your desktop or any other folder you'd specified).
+For importing the vCards tranferred off your Newton, just double-click the icon. The Address Book will open and dialog boxes will guide you through the import. It's really simple.
+
+1.4 Oh, but you can also send all the names you have on your PowerBook to your Newton! Open Adressbook, export Group-vCard (Ablage/Gruppen-vCard exportieren), send that file to your Newton (open In-Box, tap receive, then send file off the PowerBook), in In Box select the received file, and tap the icon between "Receive" and the "File"-button. A menu opens, offering "Log" and "Put away". Tap "Put away", and your addresses will be put away to Names, courtesy of Eckart's IC/VC.
+
+----
+! See also:
+
+* [BluetoothTroubleShooting] for what to do when things go wrong.
+* [BluntSetup] for setting up the Newton for Bluetooth
+* [MacOSXBluetooth] for setting up a Macintosh computer for Bluetooth
+* "[Configuration Bluetooth (Blunt)|http://messagepad.chez-alice.fr/Bluetooth/Bluetooth.html]" for a complete illustrated setup-manual by Andreas Nijenhuis. Despite it being in french, it contains a lot of pictures that show the english dialogs on the Newton. So, even if you can't read french, this web page can still show you quite well what to do.
+
+----
+HomePage : HowTo : UsingBluetoothIndex : [BluetoothOBEX]
+
+--=_multipart_boundary_13--

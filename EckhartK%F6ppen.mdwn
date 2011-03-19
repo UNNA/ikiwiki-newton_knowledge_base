@@ -1,0 +1,46 @@
+Date: Wed, 14 Mar 2007 14:24:46 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_29"
+
+--=_multipart_boundary_29
+Content-Type: application/x-phpwiki;
+  pagename=EckhartK%F6ppen;
+  flags="";
+  author=reidsrow;
+  version=2;
+  lastmodified=1173896686;
+  created=1173896686;
+  author_id=reidsrow;
+  markup=2;
+  summary=Made%20link%20to%20near-duplicate%20page%2C%20added%20material.;
+  hits=175;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Eckhart is the developer of many useful Newton packages, such as The Fish ([NotePad] encryption), [Courier] (text-based webbrowser) and [MAD Newton] (MAD-based MP3 decoder for Newton). He is best known for his work on Newton communication interfaces with  [Nitro] (which brings the IrCOMM Communications Protocol to Newton) and most of all Blunt, the Newton [Bluetooth] driver. As of Spring 2006, a major redesign of the [Bluetooth] driver is underway (Blunt 2).
+
+His software is open source (GPL- or LGPL-licensed) and available with source code from his website 40Hz.org.
+
+You can follow the progress of Eckhart's projects at his [web log|http://www.40hz.org/mottek/].
+
+----
+See also [40Hz|http://www.40Hz.org] and [EckhartKoeppen]
+
+--=_multipart_boundary_29
+Content-Type: application/x-phpwiki;
+  pagename=EckhartK%F6ppen;
+  flags="";
+  author=151.49.4.164;
+  version=1;
+  lastmodified=1114888346;
+  created=1173896686;
+  author_id=151.49.4.164;
+  markup=2;
+  hits=175;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+[40Hz]
+
+--=_multipart_boundary_29--

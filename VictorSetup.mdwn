@@ -1,0 +1,48 @@
+Date: Thu, 9 Dec 2004 09:28:59 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=VictorSetup;
+  flags="";
+  author=VictorRehorst;
+  version=1;
+  lastmodified=1102602539;
+  created=1102602539;
+  author_id=204.225.173.9;
+  markup=2;
+  hits=4381;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+This is a step-by-step of how [I|VictorRehorst] setup my [MessagePad2100] from a [BrainWipe]d state.
+
+In the package lists, I've linked directly to the UNNA entry for the package where possible.
+
+Since I'm a Windows user, I'm stuck doing my package installing via a WindowsConnection over serial.  So the first thing I do is install [Ser57600|http://www.unna.org/unna/utilites/system_enhancements/Ser57600/] and then hack my registry settings for NCU, so I can connect at 57600bps instead of the default 38400bps and install things a bit faster.
+
+After that, there's some basic enhancements to the [NewtonOS] and applications that I just can't live without:
+* [Big Notes|http://www.unna.org/view.php?/utilites/notes_enhancements/BigNotes] - lets you create Notes over 4k in size
+* [EEUnProtect|http://www.unna.org/view.php?/utilites/system_enhancements/EEUnProtect] - ignores the copy-protect bit on all installed packages
+* [IO Box Select All|http://www.unna.org/unna/utilites/shortcuts/ioselect.zip] - Adds a Select All button to In/Out
+* [Pkg Info|http://www.unna.org/view.php?/utilites/PkgInfo] - adds a routing option in Extras to get a package's information such as size, copyright, version etc.
+* [alt.rec...|http://www.unna.org/view.php?/utilites/hwr_enhancements/alt.rec-0.7a1] - enhances and improves the printed recognizer [Rosetta|http://toronto.unna.org/glossary/query.php?term=Rosetta]
+* [SBM Options|http://www.unna.org/view.php?/utilites/SBMOptions] - tweak little settings like # of clipboards, battery warning level, etc.
+* [Heaven or Hell|http://www.unna.org/view.php?/utilites/patches/HeavenOrHell1.01] - avoid the nasty [-10061 error|http://tools.unna.org/errors/viewcomments.php?code=-10061]
+* [DashBoard|http://www.fivespeed.com/dashboard/] - it's like NewtonOS 3.0
+* [Dreamsoft Spell|http://www.unna.org/view.php?/utilites/Spell] - spell checking in Notes
+
+Next are drivers for all of the external doohickeys that extend my Newton:
+* Ethernet card drivers or WaveLan drivers - requires Newton Devices to be installed first, at minimum
+* ATA Support for CF cards
+* PReader package for my Siemens Pocket Reader
+* InPath for my barcode wand
+
+Internet packages are always important!
+* NIE 2.0, Internet Setup, and NIE Patch v2
+* NIE Ethernet
+* TCP/IP Dock package for making TCP/IP dock connections to DCL, EScale, or DILTester
+* SimpleMail for full POP3/SMTP and basic IMAP support
+* Web browsers: lately, I favour Courier
+
+
+
+''more to come...''

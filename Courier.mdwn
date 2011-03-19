@@ -1,0 +1,17 @@
+Date: Thu, 10 Jun 2004 13:07:18 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=Courier;
+  flags="";
+  author=24.156.127.194;
+  version=1;
+  lastmodified=1086887238;
+  created=1086887238;
+  author_id=24.156.127.194;
+  markup=2;
+  summary=New%20Page;
+  hits=964;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+[ Courier | http://www.40hz.org/Courier/] is an excellent free web browser (For Newton OS 2.1 devices, i.e. eMate 300, Newton MP 2000, and Newton MP 2100,) by Eckhart Köppen.  Although it is text-only, it loads pages very quickly.  Forms and frames are not supported, but there is a button which allows for Google, Yahoo, Dictionary.com, Wikipedia, NewtonTalk, and IMDb searches with the option to add other sites.

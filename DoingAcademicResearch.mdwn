@@ -1,0 +1,317 @@
+Date: Wed, 14 Mar 2007 14:28:58 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_25"
+
+--=_multipart_boundary_25
+Content-Type: application/x-phpwiki;
+  pagename=DoingAcademicResearch;
+  flags="";
+  author=reidsrow;
+  version=7;
+  lastmodified=1173896938;
+  created=1173896938;
+  author_id=reidsrow;
+  markup=2;
+  hits=535;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+The Newton makes the perfect tool for doing academic research with a few simple add-ons.
+
+![Matthew Reidsma's|MatthewSetup] Process
+
+!!The Add-on Applications:
+
+* [CardMedia] - A collection of [Names] extensions that allow you to catalog Books, Articles, or other media in the [Names] application. (Available at your local [UNNA|http://www.unna.org/view.php?/utilites/stationary/CardMEDIA].
+* [MoreInfo] - This application by [SilverWARE|http://silverware.com] seamlessly integrates with the Newton's built-in [Names], [Dates], [ToDoList], [Calls], [InOutBox], [NotePad] (including voice recording stationary) and add-ons like [NewtonWorks] to provide extraordinary linking capabilities that transform the Newton into a full integrated information management system. (Commercial, [Download Free Trial|http://www.silverware.com/Moreinfo.shtml] ~$80 and worth every penny.)
+
+!!The Process:
+
+I create new Book or Article cards in [CardMedia] when I encounter a reference I am interested in pursuing. I then tap the routing icon, and select "link to." (This is where [MoreInfo] comes in). I link the new Book or Article record to my next scheduled library visit in [Dates]. When I arrive at the library, the linked Book and Article cards tell me what items I need to retrieve. My university library almost always has the material that I need, but if not, I'll request it through Interlibrary Loan and then link the Book or Article card to the next library visit I schedule.
+
+As I examine each source, I create a new linked note from each Book or Article card using [MoreInfo]. I write any citations or notes in the [NotePad], and they are linked both to and from the bibliographic citation.
+
+To find citations by "keyword," I use either the built-in Find or [Assist] functions. I make heaby use of the [Assist] function for all of my Newton-related activities, and so it is natural for me to use it to find things. If I want to find everything containing the word "padua," I tap [Assist] and either select "Look for" from the drop-down menu or write "find padua." I can select to search everywhere on the Newton, including Calls, To-Dos, Notes, Works documents, Dates, or I can select only certain places to search. For research, I usually limit my search to the [NotePad] and [NewtonWorks].
+
+I transfer my notes from the Newton to my [PowerBook] via [BluetoothOBEX]. In OS X it is also possible to move notes to the desktop using [Glass Onion Software's|http://homepage.mac.com/nowhereman77/hacks/newton/] [NotePad] plugin for [NewtSync] or [SimonBell]'s new Cocoa [NCU] replacement, [NCX].
+
+I generally compose longer pieces on my [PowerBook], but will occasionally compose a document in pieces in the [NotePad] and then combine them into a larger, formatted document in [NewtonWorks] using [WorksBetter|NewtonWorksAddOns] by [StandAlone]. Jonathan Dueck also wrote an excellent page on [ScholarlyWriting] with the Newton and OSX running Bookends 9 and Nisus Writer.
+
+!!Other applications that can be helpful for the researcher:
+
+* VoiceNotes - quickly read out that citation when your hand is sick of writing, and organize it as well.
+* HyperNewt - Allows you to organize your notes in a more intuitive interface.
+* [NewtNotes|http://www.catamount.com/NewtonApps/NewtNotes.html] - An [EndNote|http://www.endnote.com/] interface for the Newt. No longer developed, but technically still supported, this software is really expensive. Unsure if it talks with newer versions of [EndNote|http://www.endnote.com/].
+
+!!External Sites about the Newton and Research:
+
+* [The Post-Graduate Newton|http://www.h-net.msu.edu/~mac/mp2000.html] - One man's experience with his brand-new MP2000 while earning his PhD. (circa 1998).
+
+--=_multipart_boundary_25
+Content-Type: application/x-phpwiki;
+  pagename=DoingAcademicResearch;
+  flags="";
+  author=reidsrow;
+  version=6;
+  lastmodified=1173895461;
+  created=1173896938;
+  author_id=reidsrow;
+  markup=2;
+  summary=Complete%20rewrite%20of%20the%20page.;
+  hits=535;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+The Newton makes the perfect tool for doing academic research with a few simple add-ons.
+
+!Matthew Reidsma's Process
+
+!!The Add-on Applications:
+
+* [CardMedia] - A collection of [Names] extensions that allow you to catalog Books, Articles, or other media in the [Names] application. (Available at your local [UNNA|http://www.unna.org/view.php?/utilites/stationary/CardMEDIA].
+* [MoreInfo] - This application by [SilverWARE|http://silverware.com] seamlessly integrates with the Newton's built-in [Names], [Dates], [ToDoList], [Calls], [NotePad] (including voice recording stationary) and add-ons like [NewtonWorks] to provide extraordinary linking capabilities that transform the Newton into a full integrated information management system. (Commercial, [Download Free Trial|http://www.silverware.com/Moreinfo.shtml] ~$80 and worth every penny.)
+
+!!The Process:
+
+I create new Book or Article cards in [CardMedia] when I encounter a reference I am interested in pursuing. I then tap the routing icon, and select "link to." (This is where [MoreInfo] comes in). I link the new Book or Article record to my next scheduled library visit in [Dates]. When I arrive at the library, the linked Book and Article cards tell me what items I need to retrieve. My university library almost always has the material that I need, but if not, I'll request it through Interlibrary Loan and then link the Book or Article card to the next library visit I schedule.
+
+As I examine each source, I create a new linked note from each Book or Article card using [MoreInfo]. I write any citations or notes in the [NotePad], and they are linked both to and from the bibliographic citation.
+
+To find citations by "keyword," I use either the built-in Find or [Assist] functions. I make heaby use of the [Assist] function for all of my Newton-related activities, and so it is natural for me to use it to find things. If I want to find everything containing the word "padua," I tap [Assist] and either select "Look for" from the drop-down menu or write "find padua." I can select to search everywhere on the Newton, including Calls, To-Dos, Notes, Works documents, Dates, or I can select only certain places to search. For research, I usually limit my search to the [NotePad] and [NewtonWorks].
+
+I transfer my notes from the Newton to my Powerbook via [BluetoothOBEX]. In OS X it is also possible to move notes to the desktop using [Glass Onion Software's|http://homepage.mac.com/nowhereman77/hacks/newton/] [NotePad] plugin for [NewtSync] or [SimonBell]'s new Cocoa [NCU] replacement, [NCX].
+
+I generally compose longer pieces on my Powerbook, but will occasionally compose a document in pieces in the NotePad and then combine them into a larger, formatted document in [NewtonWorks] using [WorksBetter] by [StandAlone]. Jonathan Dueck also wrote an excellent page on [ScholarlyWriting] with the Newton and OSX running Bookends 9 and Nisus Writer.
+
+!!Other applications that can be helpful for the researcher:
+
+* VoiceNotes - quickly read out that citation when your hand is sick of writing, and organize it as well.
+* HyperNewt - Allows you to organize your notes in a more intuitive interface.
+* [NewtNotes|http://www.catamount.com/NewtonApps/NewtNotes.html] - An [EndNote|http://www.endnote.com/] interface for the Newt. No longer developed, but technically still supported, this software is really expensive. Unsure if it talks with newer versions of [EndNote|http://www.endnote.com/].
+
+!!External Sites about the Newton and Research:
+
+* [The Post-Graduate Newton|http://www.h-net.msu.edu/~mac/mp2000.html] - One man's experience with his brand-new MP2000 while earning his PhD. (circa 1998).
+
+--=_multipart_boundary_25
+Content-Type: application/x-phpwiki;
+  pagename=DoingAcademicResearch;
+  flags="";
+  author=reidsrow;
+  version=5;
+  lastmodified=1173893404;
+  created=1173895461;
+  author_id=reidsrow;
+  markup=2;
+  summary=Structural%20changes;
+  hits=535;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+The Newton makes the perfect tool for doing academic research. With a few simple add-on applications, the Newton will have your research available to you at your fingertips.
+
+!!The Applications:
+
+* [CardMedia] - A collection of Names extensions that allow you to catalog Books, Articles, or other media in the Names application. (Available at your local [UNNA|http://www.unna.org/view.php?/utilites/stationary/CardMEDIA].
+* [MoreInfo|http://www.silverware.com/Moreinfo.shtml] - This Application lets you link anything to anything. You'll soon think it is part of the NewtonOS, it blends in so well! (Commercial, ~$80)
+
+!!The Process:
+
+I've spent a lot of time trying to perfect my research techniques. It allows me to bring together my two favorite things: gadgets and reading. So I'll describe how I use my Newt to do research, and I hope that you will add your own experience below!
+
+For my research, I only use CardMedia and MoreInfo. Let's say I am reading an article, and I find a reference to a text I want to review. A quick internet search shows me that the library at my university has the text (which is likely), and so I want to take a look the next time I spend a research day in the stacks. In the past, I would carry around a system of 3x5 cards with bibliographic references on them. But now, I simply pull out my Newt and open up my Names file. I have seperate file folders for various categories of my contacts, but I also have folders for my various papers and chapters that I am writing. And so I create a new Book or Article, depending on the source, and fill in the requisite information. I then click on the routing icon, and select "link to." (This is where MoreInfo comes in). I link this record to my next scheduled library visit in Dates, and then I go back to reading. By the time my library appointment rolls around, I might have 5 or 6 references linked to the entry. So since my Newton is my scheduler and goes everywhere with me, I have an easy way to remember which sources I wanted to look up when I get to the stacks.
+
+Next, when I find the source in the stacks, I sit down in a carel to read it. My trusty Newton does double duty as a NotePad here. I simply select the Book or Article entry in my Names application for the source I am reading, and from the "MI" (MoreInfo) menu I select "New Linked Note." Now, I write all of the citations and notes about the source in this note, and it is linked directly to the bibliographic record. No more trying to figure out who said what and when.
+
+The Newton's built-in Find function makes it a cinch to find citations on various topics. For instance, if I am working on a section about the Templars (I wouldn't be, but since it is a favorite topic of the OT threads on the NewtonTalk list, I'll use it here) I can simply tap Assist and write "find templars." All the references in my NotePad to "Templars" come up. And if I want, I can link notes to other notes, notes to other appointments, notes to Names cards....whatever I want! I've never felt so organized in my life. And since my Newton is always with me, my research is always with me too. Makes it nice when I get stuck in line at the DMV and wish I could work on writing that section about Anthony of Padua....
+
+I now transfer my notes from the Newton to my Powerbook via [BluetoothOBEX]. I've left my old setup below for anyone who is interested:
+
+From the original document: ''To back up all of this precious data, I use [Glass Onion Software's|http://homepage.mac.com/nowhereman77/hacks/newton/] [NotePad] plugin for [NewtSync]. The [CardMedia] files seem to have broken the [Names] synchronizing function, and I don't have any use for iCal, so I only syncronize my NotePad with my Mac. Now, my Mac isn't an ordinary home machine. Its main uses are a music server, and a web server. So I have setup my Newton to syncronize my Notes with a directory accessible through my web domain (password protected, of course). That way, when I am writing or editing on my laptop (which runs Linux and doesn't get along with my Newton very well) I can just navigate over to my website in the browser of my choice, and cut and paste from my notes to my heart's content.''
+
+Jonathan Dueck also wrote an excellent page on [ScholarlyWriting] with the Newton and OSX running Bookends 9 and Nisus Writer.
+
+!!Other applications that can be helpful for the researcher:
+
+* VoiceNotes - quickly read out that citation when your hand is sick of writing, and organize it as well.
+* HyperNewt - Allows you to organize your notes in a more intuitive interface.
+* [NewtNotes|http://www.catamount.com/NewtonApps/NewtNotes.html] - An [EndNote|http://www.endnote.com/] interface for the Newt. No longer developed, but technically still supported, this software is really expensive. Unsure if it talks with newer versions of [EndNote|http://www.endnote.com/].
+
+!!External Sites about the Newton and Research:
+
+* [The Post-Graduate Newton|http://www.h-net.msu.edu/~mac/mp2000.html] - One man's experience with his brand-new MP2000 while earning his PhD. (circa 1998).
+
+--=_multipart_boundary_25
+Content-Type: application/x-phpwiki;
+  pagename=DoingAcademicResearch;
+  flags="";
+  author=reidsrow;
+  version=4;
+  lastmodified=1173892318;
+  created=1173893404;
+  author_id=reidsrow;
+  markup=2;
+  hits=535;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+The Newton makes the perfect tool for doing academic research. With a few simple add-on applications, the Newton will have your research available to you at your fingertips.
+
+!!The Applications:
+
+* CardMedia - A collection of Names extensions that allow you to catalog Books, Articles (even CDs!) in your Names soup. (Available at your local [UNNA|http://www.unna.org/view.php?/utilites/stationary/CardMEDIA].
+* [MoreInfo|http://www.silverware.com/Moreinfo.shtml] - This Application lets you link anything to anything. You'll soon think it is part of the NewtonOS, it blends in so well! (Commercial, ~$80)
+
+!!The Process:
+
+I've spent a lot of time trying to perfect my research techniques. It allows me to bring together my two favorite things: gadgets and reading. So I'll describe how I use my Newt to do research, and I hope that you will add your own experience below!
+
+For my research, I only use CardMedia and MoreInfo. Let's say I am reading an article, and I find a reference to a text I want to review. A quick internet search shows me that the library at my university has the text (which is likely), and so I want to take a look the next time I spend a research day in the stacks. In the past, I would carry around a system of 3x5 cards with bibliographic references on them. But now, I simply pull out my Newt and open up my Names file. I have seperate file folders for various categories of my contacts, but I also have folders for my various papers and chapters that I am writing. And so I create a new Book or Article, depending on the source, and fill in the requisite information. I then click on the routing icon, and select "link to." (This is where MoreInfo comes in). I link this record to my next scheduled library visit in Dates, and then I go back to reading. By the time my library appointment rolls around, I might have 5 or 6 references linked to the entry. So since my Newton is my scheduler and goes everywhere with me, I have an easy way to remember which sources I wanted to look up when I get to the stacks.
+
+Next, when I find the source in the stacks, I sit down in a carel to read it. My trusty Newton does double duty as a NotePad here. I simply select the Book or Article entry in my Names application for the source I am reading, and from the "MI" (MoreInfo) menu I select "New Linked Note." Now, I write all of the citations and notes about the source in this note, and it is linked directly to the bibliographic record. No more trying to figure out who said what and when.
+
+The Newton's built-in Find function makes it a cinch to find citations on various topics. For instance, if I am working on a section about the Templars (I wouldn't be, but since it is a favorite topic of the OT threads on the NewtonTalk list, I'll use it here) I can simply Click "Find" and write "Templars." All the references in my NotePad to "Templars" come up. And if I want, I can link notes to other notes, notes to other appointments, notes to Names cards....whatever I want! I've never felt so organized in my life. And since my Newton is always with me, my research is always with me too. Makes it nice when I get stuck in line at the DMV and wish I could work on writing that section about Anthony of Padua....
+
+To back up all of this precious data, I use [Glass Onion Software's|http://homepage.mac.com/nowhereman77/hacks/newton/] fantastic NotePad plugin for [NewtSync]. The CardMedia files seem to have broken the Names synchronizing function, and I don't have any use for iCal, so I only syncronize my NotePad with my Mac. Now, my Mac isn't an ordinary home machine. Its main uses are a music server, and a web server. So I have setup my Newton to syncronize my Notes with a directory accessible through my web domain (password protected, of course). That way, when I am writing or editing on my laptop (which runs Linux and doesn't get along with my Newton very well) I can just navigate over to my website in the browser of my choice, and cut and paste from my notes to my heart's content.
+
+Jonathan Dueck also wrote an excellent page on ScholarlyWriting with the Newton and OSX running Bookends 9 and Nisus Writer.
+
+!!Other applications that can be helpful for the researcher:
+
+* VoiceNotes - quickly read out that citation when your hand is sick of writing, and organize it as well.
+* HyperNewt - Allows you to organize your notes in a more intuitive interface.
+* [NewtNotes|http://www.catamount.com/NewtonApps/NewtNotes.html] - An [EndNote|http://www.endnote.com/] interface for the Newt. No longer developed, but technically still supported, this software is really expensive. Unsure if it talks with newer versions of [EndNote|http://www.endnote.com/].
+
+!!External Sites about the Newton and Research:
+
+* [The Post-Graduate Newton|http://www.h-net.msu.edu/~mac/mp2000.html] - One man's experience with his brand-new MP2000 while earning his PhD. (circa 1998).
+
+--=_multipart_boundary_25
+Content-Type: application/x-phpwiki;
+  pagename=DoingAcademicResearch;
+  flags="";
+  author=reidsrow;
+  version=3;
+  lastmodified=1173892283;
+  created=1173892318;
+  author_id=reidsrow;
+  markup=2;
+  summary=Formatting%20changes.;
+  hits=535;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+The Newton makes the perfect tool for doing academic research. With a few simple add-on applications, the Newton will have your research available to you at your fingertips.
+
+!!The Applications:!!
+
+* CardMedia - A collection of Names extensions that allow you to catalog Books, Articles (even CDs!) in your Names soup. (Available at your local [UNNA|http://www.unna.org/view.php?/utilites/stationary/CardMEDIA].
+* [MoreInfo|http://www.silverware.com/Moreinfo.shtml] - This Application lets you link anything to anything. You'll soon think it is part of the NewtonOS, it blends in so well! (Commercial, ~$80)
+
+!!The Process:!!
+
+I've spent a lot of time trying to perfect my research techniques. It allows me to bring together my two favorite things: gadgets and reading. So I'll describe how I use my Newt to do research, and I hope that you will add your own experience below!
+
+For my research, I only use CardMedia and MoreInfo. Let's say I am reading an article, and I find a reference to a text I want to review. A quick internet search shows me that the library at my university has the text (which is likely), and so I want to take a look the next time I spend a research day in the stacks. In the past, I would carry around a system of 3x5 cards with bibliographic references on them. But now, I simply pull out my Newt and open up my Names file. I have seperate file folders for various categories of my contacts, but I also have folders for my various papers and chapters that I am writing. And so I create a new Book or Article, depending on the source, and fill in the requisite information. I then click on the routing icon, and select "link to." (This is where MoreInfo comes in). I link this record to my next scheduled library visit in Dates, and then I go back to reading. By the time my library appointment rolls around, I might have 5 or 6 references linked to the entry. So since my Newton is my scheduler and goes everywhere with me, I have an easy way to remember which sources I wanted to look up when I get to the stacks.
+
+Next, when I find the source in the stacks, I sit down in a carel to read it. My trusty Newton does double duty as a NotePad here. I simply select the Book or Article entry in my Names application for the source I am reading, and from the "MI" (MoreInfo) menu I select "New Linked Note." Now, I write all of the citations and notes about the source in this note, and it is linked directly to the bibliographic record. No more trying to figure out who said what and when.
+
+The Newton's built-in Find function makes it a cinch to find citations on various topics. For instance, if I am working on a section about the Templars (I wouldn't be, but since it is a favorite topic of the OT threads on the NewtonTalk list, I'll use it here) I can simply Click "Find" and write "Templars." All the references in my NotePad to "Templars" come up. And if I want, I can link notes to other notes, notes to other appointments, notes to Names cards....whatever I want! I've never felt so organized in my life. And since my Newton is always with me, my research is always with me too. Makes it nice when I get stuck in line at the DMV and wish I could work on writing that section about Anthony of Padua....
+
+To back up all of this precious data, I use [Glass Onion Software's|http://homepage.mac.com/nowhereman77/hacks/newton/] fantastic NotePad plugin for [NewtSync]. The CardMedia files seem to have broken the Names synchronizing function, and I don't have any use for iCal, so I only syncronize my NotePad with my Mac. Now, my Mac isn't an ordinary home machine. Its main uses are a music server, and a web server. So I have setup my Newton to syncronize my Notes with a directory accessible through my web domain (password protected, of course). That way, when I am writing or editing on my laptop (which runs Linux and doesn't get along with my Newton very well) I can just navigate over to my website in the browser of my choice, and cut and paste from my notes to my heart's content.
+
+Jonathan Dueck also wrote an excellent page on ScholarlyWriting with the Newton and OSX running Bookends 9 and Nisus Writer.
+
+!!Other applications that can be helpful for the researcher:!!
+
+* VoiceNotes - quickly read out that citation when your hand is sick of writing, and organize it as well.
+* HyperNewt - Allows you to organize your notes in a more intuitive interface.
+* [NewtNotes|http://www.catamount.com/NewtonApps/NewtNotes.html] - An [EndNote|http://www.endnote.com/] interface for the Newt. No longer developed, but technically still supported, this software is really expensive. Unsure if it talks with newer versions of [EndNote|http://www.endnote.com/].
+
+!!External Sites about the Newton and Research:!!
+
+* [The Post-Graduate Newton|http://www.h-net.msu.edu/~mac/mp2000.html] - One man's experience with his brand-new MP2000 while earning his PhD. (circa 1998).
+
+--=_multipart_boundary_25
+Content-Type: application/x-phpwiki;
+  pagename=DoingAcademicResearch;
+  flags="";
+  author=reidsrow;
+  version=2;
+  lastmodified=1173192962;
+  created=1173892283;
+  author_id=reidsrow;
+  summary=Added%20link%20to%20ScholarlyWriting;
+  hits=535;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+The Newton makes the perfect tool for doing academic research. With a few simple add-on applications, the Newton will have your research available to you at your fingertips.
+
+The Applications:
+
+* CardMedia - A collection of Names extensions that allow you to catalog Books, Articles (even CDs!) in your Names soup. (Available at your local [UNNA|http://www.unna.org/view.php?/utilites/stationary/CardMEDIA].
+* [MoreInfo|http://www.silverware.com/Moreinfo.shtml] - This Application lets you link anything to anything. You'll soon think it is part of the NewtonOS, it blends in so well! (Commercial, ~$80)
+* VoiceNotes - quickly read out that citation when your hand is sick of writing, and organize it as well.
+* HyperNewt - Allows you to organize your notes in a more intuitive interface.
+* [NewtNotes|http://www.catamount.com/NewtonApps/NewtNotes.html] - An [EndNote|http://www.endnote.com/] interface for the Newt. No longer developed, but technically still supported, this software is really expensive. Unsure if it talks with newer versions of [EndNote|http://www.endnote.com/].
+
+The Process:
+
+I've spent a lot of time trying to perfect my research techniques. It allows me to bring together my two favorite things: gadgets and reading. So I'll describe how I use my Newt to do research, and I hope that you will add your own experience below!
+
+For my research, I only use CardMedia and MoreInfo. Let's say I am reading an article, and I find a reference to a text I want to review. A quick internet search shows me that the library at my university has the text (which is likely), and so I want to take a look the next time I spend a research day in the stacks. In the past, I would carry around a system of 3x5 cards with bibliographic references on them. But now, I simply pull out my Newt and open up my Names file. I have seperate file folders for various categories of my contacts, but I also have folders for my various papers and chapters that I am writing. And so I create a new Book or Article, depending on the source, and fill in the requisite information. I then click on the routing icon, and select "link to." (This is where MoreInfo comes in). I link this record to my next scheduled library visit in Dates, and then I go back to reading. By the time my library appointment rolls around, I might have 5 or 6 references linked to the entry. So since my Newton is my scheduler and goes everywhere with me, I have an easy way to remember which sources I wanted to look up when I get to the stacks.
+
+Next, when I find the source in the stacks, I sit down in a carel to read it. My trusty Newton does double duty as a NotePad here. I simply select the Book or Article entry in my Names application for the source I am reading, and from the "MI" (MoreInfo) menu I select "New Linked Note." Now, I write all of the citations and notes about the source in this note, and it is linked directly to the bibliographic record. No more trying to figure out who said what and when.
+
+The Newton's built-in Find function makes it a cinch to find citations on various topics. For instance, if I am working on a section about the Templars (I wouldn't be, but since it is a favorite topic of the OT threads on the NewtonTalk list, I'll use it here) I can simply Click "Find" and write "Templars." All the references in my NotePad to "Templars" come up. And if I want, I can link notes to other notes, notes to other appointments, notes to Names cards....whatever I want! I've never felt so organized in my life. And since my Newton is always with me, my research is always with me too. Makes it nice when I get stuck in line at the DMV and wish I could work on writing that section about Anthony of Padua....
+
+To back up all of this precious data, I use [Glass Onion Software's|http://homepage.mac.com/nowhereman77/hacks/newton/] fantastic NotePad plugin for [NewtSync]. The CardMedia files seem to have broken the Names synchronizing function, and I don't have any use for iCal, so I only syncronize my NotePad with my Mac. Now, my Mac isn't an ordinary home machine. Its main uses are a music server, and a web server. So I have setup my Newton to syncronize my Notes with a directory accessible through my web domain (password protected, of course). That way, when I am writing or editing on my laptop (which runs Linux and doesn't get along with my Newton very well) I can just navigate over to my website in the browser of my choice, and cut and paste from my notes to my heart's content.
+
+Jonathan Dueck also wrote an excellent page on ScholarlyWriting with the Newton and OSX running Bookends 9 and Nisus Writer.
+
+External Sites about the Newton and Research:
+
+* [The Post-Graduate Newton|http://www.h-net.msu.edu/~mac/mp2000.html] - One man's experience with his brand-new MP2000 while earning his PhD. (circa 1998).
+
+--=_multipart_boundary_25
+Content-Type: application/x-phpwiki;
+  pagename=DoingAcademicResearch;
+  flags="";
+  author=MatthewReidsma;
+  version=1;
+  lastmodified=1105674840;
+  created=1173192962;
+  author_id=128.103.176.23;
+  hits=535;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+The Newton makes the perfect tool for doing academic research. With a few simple add-on applications, the Newton will have your research available to you at your fingertips.
+
+The Applications:
+
+* CardMedia - A collection of Names extensions that allow you to catalog Books, Articles (even CDs!) in your Names soup. (Available at your local [UNNA|http://www.unna.org/view.php?/utilites/stationary/CardMEDIA].
+* [MoreInfo|http://www.silverware.com/Moreinfo.shtml] - This Application lets you link anything to anything. You'll soon think it is part of the NewtonOS, it blends in so well! (Commercial, ~$80)
+* VoiceNotes - quickly read out that citation when your hand is sick of writing, and organize it as well.
+* HyperNewt - Allows you to organize your notes in a more intuitive interface.
+* [NewtNotes|http://www.catamount.com/NewtonApps/NewtNotes.html] - An [EndNote|http://www.endnote.com/] interface for the Newt. No longer developed, but technically still supported, this software is really expensive. Unsure if it talks with newer versions of [EndNote|http://www.endnote.com/].
+
+The Process:
+
+I've spent a lot of time trying to perfect my research techniques. It allows me to bring together my two favorite things: gadgets and reading. So I'll describe how I use my Newt to do research, and I hope that you will add your own experience below!
+
+For my research, I only use CardMedia and MoreInfo. Let's say I am reading an article, and I find a reference to a text I want to review. A quick internet search shows me that the library at my university has the text (which is likely), and so I want to take a look the next time I spend a research day in the stacks. In the past, I would carry around a system of 3x5 cards with bibliographic references on them. But now, I simply pull out my Newt and open up my Names file. I have seperate file folders for various categories of my contacts, but I also have folders for my various papers and chapters that I am writing. And so I create a new Book or Article, depending on the source, and fill in the requisite information. I then click on the routing icon, and select "link to." (This is where MoreInfo comes in). I link this record to my next scheduled library visit in Dates, and then I go back to reading. By the time my library appointment rolls around, I might have 5 or 6 references linked to the entry. So since my Newton is my scheduler and goes everywhere with me, I have an easy way to remember which sources I wanted to look up when I get to the stacks.
+
+Next, when I find the source in the stacks, I sit down in a carel to read it. My trusty Newton does double duty as a NotePad here. I simply select the Book or Article entry in my Names application for the source I am reading, and from the "MI" (MoreInfo) menu I select "New Linked Note." Now, I write all of the citations and notes about the source in this note, and it is linked directly to the bibliographic record. No more trying to figure out who said what and when.
+
+The Newton's built-in Find function makes it a cinch to find citations on various topics. For instance, if I am working on a section about the Templars (I wouldn't be, but since it is a favorite topic of the OT threads on the NewtonTalk list, I'll use it here) I can simply Click "Find" and write "Templars." All the references in my NotePad to "Templars" come up. And if I want, I can link notes to other notes, notes to other appointments, notes to Names cards....whatever I want! I've never felt so organized in my life. And since my Newton is always with me, my research is always with me too. Makes it nice when I get stuck in line at the DMV and wish I could work on writing that section about Anthony of Padua....
+
+To back up all of this precious data, I use [Glass Onion Software's|http://homepage.mac.com/nowhereman77/hacks/newton/] fantastic NotePad plugin for [NewtSync]. The CardMedia files seem to have broken the Names synchronizing function, and I don't have any use for iCal, so I only syncronize my NotePad with my Mac. Now, my Mac isn't an ordinary home machine. Its main uses are a music server, and a web server. So I have setup my Newton to syncronize my Notes with a directory accessible through my web domain (password protected, of course). That way, when I am writing or editing on my laptop (which runs Linux and doesn't get along with my Newton very well) I can just navigate over to my website in the browser of my choice, and cut and paste from my notes to my heart's content.
+
+External Sites about the Newton and Research:
+
+* [The Post-Graduate Newton|http://www.h-net.msu.edu/~mac/mp2000.html] - One man's experience with his brand-new MP2000 while earning his PhD. (circa 1998).
+
+--=_multipart_boundary_25--

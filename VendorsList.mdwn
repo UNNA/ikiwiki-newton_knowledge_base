@@ -1,0 +1,54 @@
+Date: Mon, 14 Mar 2005 06:23:49 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=VendorsList;
+  flags="";
+  author=84.178.140.66;
+  version=1;
+  lastmodified=1110799429;
+  created=1110799429;
+  author_id=84.178.140.66;
+  markup=2;
+  hits=1775;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : NewtonNewbieGuide : VendorsList
+----
+
+
+This is a list of current vendors that are known to sell Newton stuff.  Try to sort each list by the amount of things they sell (ie. if they just sell styluses, put them at the bottom)
+
+This list should not be construed as an endorsement of these vendors.  Caveat Emptor - Buyer Beware.
+
+!Hardware & Accessories
+
+* [GEM Enterprises|http://www.gementerprises.com/] - Used 2x00 units, extensive package deals, all manner of accessories and the like
+* [HandMedia|http://www.hand-media.com/] - Internal headphone and microphone jacks for Newton MP's 2000 or 2100 at fair prices.  They also sell MP 2000 -> 2100 upgrades.
+* [J&K Sales|http://www.jksalesinc.com/] - Used 2x00 units, package deals, all manner of accessories including 2x00 door clips, cases, flash cards, Newtons preinstalled with the original [Mr. PCBMAN|http://members.tripod.com/mrpcbman] upgrade boards, etc etc etc.
+* [Konwledgenavigator|http://www.angelfire.com/oz/newtonian] - New and used 2x00 units, every accessory including 2x00 door clips, leather cases, memory cards, ethernet cards, bluetooth, wifi, internal eMate 4mb memory card, internal serial board, eMate 300 Units, recelled battery packs. Also offers upgrades such as speed boost implants for the 2x00 and emate, internal headphone ports for the 2100; only source for replacement __eMate Ribbon Display cables__. Replacement backlights (green, blue, white) for MP 2x000 units and eMate units.
+* [Macs R Us Computers|http://www.macsruscomputers.com] sell new and used Newtons and very reasonable priced [eMate]s.
+* [MP2x00 Display Upgrade|http://www.adago.net/] - Replacement touchscreen layer and EL backlight layer.
+* [Mr. PCBMAN|http://members.tripod.com/mrpcbman/] - Original developer and manufacturer of SER-001 serial port upgrade and the EM300 eMate memory upgrade, available through him directly or [J&K Sales|http://www.jksalesinc.com/].
+* [NuShield|http://www.nushield.net/] - High-quality screen protectors for all Newton models.
+
+!Newton Merchandise
+
+* [Newtontalk.net|http://www.newtontalk.net/] - T-shirts and buttons emblazoned with the Newton lightbulb logo.
+* [United Network of Newton Archives|http://www.unna.org/] - Software CDs chock full of Newton software - the largest collection anywhere.
+
+!Newton software (vendors still selling/supporting/developing for the Newton)
+
+* [Kallisys|http://www.kallisys.com/] - ATA Driver, and many free applications
+* [Steve Weyer|http://www.kagi.com/weyer] - Newt's Cape web browser, among many many others
+* [Five Speed Software|http://www.fivespeed.com/] - Authors of the highly-acclaimed DashBoard button bar replacement and WakeUpCall alarm program
+* [Standalone|http://www.standalone.com/newtonos/index.shtml] - Still selling many of their old Newton classics.  Many arcade-style games and useful tools.
+* [Smart Dog Software|http://www.smartdogsw.com/] - IrOBEX stack for Newton: beam information to/from PalmOS devices and others
+* [Innovative Computer Solutions|http://www.newts.com/newton/] - X-Port transfer utility, NewtCase, GestureLaunch, others.
+* [LandWare|http://www.landware.com/catalog/newton/] - Lunar Lander Pro, QuickNames Pro, NewtPaint...
+
+''this list is by no means complete''
+
+%%%
+____
+HomePage : NewtonNewbieGuide : VendorsList

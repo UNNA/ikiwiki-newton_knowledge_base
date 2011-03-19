@@ -1,0 +1,27 @@
+Date: Wed, 2 Nov 2005 08:31:58 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=CardLending;
+  flags="";
+  author=212.149.48.43;
+  version=1;
+  lastmodified=1130938318;
+  created=1130938318;
+  author_id=212.149.48.43;
+  markup=2;
+  hits=894;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : NewtonNewbieGuide : [CardLending]%%%
+HomePage : BootStrapping : [CardLending]
+----
+!Installing packages via a memory card
+Use another Newton to copy packages to the card, then place that card into the virgin Newton and move the package(s) onto it.%%%
+If you don't have a second Newton yourself, or no Newton friend in your vicinity to help you, the CardLending Service offered by FrankGruendel (Germany) and PaulCurtis (USA) will help you. Against a refundable deposit fee they'll preload storage cards with all the packages you need to get connected and will send this to your doorstep.%%%
+This is also useful if the display of your Newton is broken and you need to save all your data to your desktop via [DataRescue|http://www.stillnewt.org/library/_Software/NewtonConnectivityCD/Apple%20Newton%20Survival%20Tools/DataRescue%20(NOS%201.x,%202.x)] (NOS 1.x & 2.x, writen by André Meyer 1996), but don't have your own NewtonFirstAidCard.
+
+
+----
+HomePage : NewtonNewbieGuide : [CardLending]%%%
+HomePage : BootStrapping : [CardLending]

@@ -1,0 +1,42 @@
+Date: Tue, 23 Mar 2004 21:07:53 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=TalkAboutNewton;
+  flags="";
+  author=24.156.127.194;
+  version=1;
+  lastmodified=1080094073;
+  created=1080094073;
+  author_id=24.156.127.194;
+  summary=Removal%20of%20dead%20MacAddict%20link;
+  hits=1523;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+The NewtonMessagePad has a burgeoning online community.  Even before the rise of the Internet, Newton users congregated on Apple's old eWorld online service, and in special sections of AOL and CompuServe.
+
+Nowadays, there are a great deal of online mailing lists and discussion groups you can join to talk to other Newton users!  Here's a list.
+
+Mailing Lists
+* [NewtonTalk|http://www.newtontalk.net/] - Probably the grandaddy of them all, NewtonTalk has been steaming along since at least 1995.  It still boasts around 1900 users (3/5/03), and is a __very__ active group, often topping 3000 posts a month.
+* [German Newton list|http://home.tu-clausthal.de/student/newton/]
+* [Dutch Newton list "Newtongebruikers"|http://ngn.luna.nl/maillist.htm]
+* [Newton FR (in French)|http://ngfun.online.fr/newtonfr/]
+
+!WebBoards
+* I'm probably missing a lot of these, as they seem to pop up everywhere.
+* [Newted Community message boards|http://newted.dyndns.org/cgi-bin/Ultimate.cgi?action=intro]
+* [Smaller.com message boards|http://talk.smaller.com/Ultimate.cgi]
+* [Apple's official discussion boards (click on Older Apple Products, then Newton)|http://discussions.info.apple.com/webx?]
+
+Newsgroups
+* comp.sys.newton.misc (general Newton discussion)
+* comp.sys.newton.marketplace (buy/sell/trade/auction postings)
+* comp.sys.newton.developer (developer/programming discussion)
+* comp.sys.newton.announce (moderated, reserved for Newton-related announcements)
+
+IRC (Internet Relay Chat)
+* [EFNet|http://www.efnet.org/] #newton
+
+AIM Chats
+* newtontalk - use Apple's iChat or AOL's AIM (and probably others) to join

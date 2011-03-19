@@ -1,0 +1,91 @@
+Date: Thu, 26 May 2005 04:30:17 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=HikingNewtonHardware;
+  flags="";
+  author=RonParker;
+  version=1;
+  lastmodified=1117096217;
+  created=1117096217;
+  author_id=67.114.220.142;
+  markup=2;
+  hits=1393;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : CoolSetups : LakeTahoeHikingNewton : HikingNewtonHardware
+
+HomePage : HowTo : [GPSOnNewton] : LakeTahoeHikingNewton : HikingNewtonHardware
+----
+
+!!!The Lake Tahoe Hiking Newton - The Official Reference Guide
+!!Hardware For Building A Hiking Newton
+__Written by Ron A. Parker - February 25, 2005 - All Rights Reserved__
+%%%
+%%%
+----
+!Hardware Summary:
+* Newton-Gear
+** Newton MessagePad 120 (NOS v2.0 is highly recommended)
+** 24MB Linear Flash Memory storage card
+* GPS-Gear and Adapters
+** Polstar PGM-111 GPS Mouse Receiver with DB9 RS-232/USB (power tap) adapter
+** Mini DIN-8(M) to DB25(M) RS-232 Mac Modem Cable
+** DB25F to DB9F port adapter
+* Power-Supply for GPS Receiver
+** 4xAA USB battery supply
+** 4-port USB micro hub
+*Extras
+** USB 3-LED flex light
+** Midland GXT-400 4 Watt GMRS/FRS/NOAA two way radio
+** AA NiMH (Nickel Metal Hydride) 2300maH rated rechargeable batteries (QTY. 16 or 20 recommended)
+
+!Design & Compatibility Overview:
+The Lake Tahoe Hiking Newton is, of course, designed around the U.S. Army issue camo case and the Newton 1x0 form factor. Although you can use any Newton with this setup, the limitations of available software and overall OS capabilities suggest that a NOS MessagePad v2.0 MP or better will give the best results as a Hiking Newton. If GPS will be the primary application, then GPS Map Lite v1.29 and GPS Map v1.8.8 are very capable of using this same hardware setup with a NOS v1.3 MessagePad. Eventually, I may upgrade my Hiking Newton to an MP130, but for all intents and purposes, an MP130 or greater is not required.
+
+!Choosing a GPS Antenna:
+GPS receivers of all kinds are now available at bargain prices. They all essentially speak the same language (NMEA 0183 version blah.blah). Only the connection method differs from unit to unit. With the Hiking Newton, and using an MP1x0, you've basically narrowed it down to RS-232 serial compatibility. PCMCIA should be ruled out because you will need that expansion slot for maps, applications and E-Book storage.
+
+Among the RS-232 variety, you will want to find a model that can be powered from a separate power source (USB or 12V lighter adapter). At the same time, the GPS must provide data transfer using a (common) DB9 RS-232 serial connector. After that, you've got it made. Simply convert the DB9 RS-232 to the Newton's Mini-DIN8 (aka: Mac Serial or RS-422) and you'll be talkin' to satellites in no time. ''NOTE: It's the adapter cable that will eliminate the frustration of compatibility.'' I really don't recommend attempting to build your own. The conversion process from RS-232 to the Newton's RS-422 is best handled by paid professionals. Save yourself the time and money.
+
+In my case, I purchased a Polstar PGM-111 GPS Mouse Antenna. The reason was simple: Polstar (and other manufacturers) have designed there receivers using a special PS/2 connector. This PS/2 connector allows them to make a variety of adapters available, including the unique DB9/USB adapter I chose. Technically, the USB connector (on this adapter) is a only a power tap and not the actual ''Serial'' connection. The DB9 is what supplies the RS-232 signals, and the USB (power tap) can then be connected to any number of "USB" power sources, including battery packs and automobile (cigarette) adapters. Options! I like options!
+
+Manufacturer Information:
+%%%
+  Polstar Technologies Inc. %%%
+  58 University Road %%%
+  Hsinchu City 300, TAIWAN %%%
+  TEL: + 886 - 3 - 571 - 8588 %%%
+  FAX: + 886 - 3 - 571 - 1855 %%%
+  [Polstar High Sensitivity Mouse Receiver|http://www.polstargps.com/images/pgm.gif]%%%
+  [http://www.polstargps.com/]%%%
+
+%%%
+%%%
+U.S. Distributors:
+%%%
+  BRG Precision Products   %%%
+  (800) 295-0220  %%%
+  (316) 788-2000  %%%
+  (720) 293-9393 Fax %%%
+
+  [http://www.brgprecision.com] %%%
+%%%
+  Trison Electronics Inc. %%%
+  music_hotel@hotmail.com %%%
+  1350 Matheson Blvd E  Unit 9 ? %%%
+  Canada ? %%%
+  Telephone:  905-238-9251 ? %%%
+
+%%%
+%%%
+__Building a USB Power Distribution Hub__
+
+With the Lake Tahoe Hiking Newton, I've taken a unique approach for power distribution to individual peripherals (LED lamps, GPS receiver, etc.). You'll notice that the power is being supplied by using a USB battery pack, which is connected to a 4-port USB micro hub. Although it's called a USB hub, the actual ''Serial'' part of the USB is being ignored and I'm taking advantage of the ''Universal Bus'' aspects of the technology. This creates a very clean looking, convenient, power distribution hub, where individual components can be turned on or off just by pulling a plug. Additionally, the battery pack has its own (master) power switch, as well as an LED power indicator, that can be used (and seen) through the camouflage canvas.
+
+
+%%%
+[http://webpages.charter.net/quadzillanet/newtongps.jpg]
+%%%
+----
+HomePage : CoolSetups : LakeTahoeHikingNewton : HikingNewtonHardware

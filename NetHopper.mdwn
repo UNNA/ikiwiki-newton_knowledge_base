@@ -1,0 +1,26 @@
+Date: Sun, 13 Nov 2005 15:07:48 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NetHopper;
+  flags="";
+  author=64.230.0.198;
+  version=1;
+  lastmodified=1131912468;
+  created=1131912468;
+  author_id=64.230.0.198;
+  markup=2;
+  summary=I%20just%20fixed%20the%20link%20to%20NetHopper%20on%20the%20UNNA%20by%20adding%20%22view.php%3F%22%20to%20the%20link;
+  hits=1667;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+[ NetHopper | http://www.unna.org/view.php?/internet/web-browsers/NetHopper3.2/] although now discontinued is still a very popular and very free.  It is very easy to use, but one issue is that NetHopper does not have a translator for ISO-8859-1 charset web pages, so it flat-out refuses to display them, which severely limits its functionality. (Now solved! See below!) It also has allows WebClipping.
+There are a number of available plugins:%%%
+%%%
+• [NetHopper JPEG plugin | http://dev.newtontalk.net/~dpadilla/progs.htm] is a plugin by Daniel Padilla that allows the viewing of .jpg images in NetHopper. Note: It uses [JPEGConvert | http://www.unna.org/view.php?/internet/web-browsers/NewtScape] by Steve Weyer.%%%
+• [NetHopper Japanese plugin | http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/nhpj/nhpj.html] is a plugin for NetHopper which allows for Japanese characters to be read.%%%
+• [NetHopper's virtual host patch | http://dev.newtontalk.net/~dpadilla/progs.htm] is a plugin by Daniel Padilla which allows you to access virtual hosts on NetHopper and adds a MIME type to allow the direct download of Newton packages from [Unna | http://www.unna.org/].%%%
+• [NetHopper's charsets patch | http://dev.newtontalk.net/~dpadilla/progs.htm] is a plugin by Daniel Padilla that allows it to receive HTML pages with "utf-8" and "iso8859-1" character sets. Useful to access www.skweezer.net %%%
+%%%
+The API's for NetHopper are still available via the Internet Archive:%%%
+• [NetHopper APIs | http://web.archive.org/web/19980209233432/www.allpen.com/products/nethopper-api/]%%%

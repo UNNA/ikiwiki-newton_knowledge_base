@@ -1,0 +1,45 @@
+Date: Sat, 21 May 2005 17:10:35 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=GPSHardwareConfiguration;
+  flags="";
+  author=84.178.170.209;
+  version=1;
+  lastmodified=1116709835;
+  created=1116709835;
+  author_id=84.178.170.209;
+  markup=2;
+  hits=696;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : [GPSOnNewton] : [GPSHardware] : [GPSHardwareConfiguration]%%%
+HomePage : HardWare : [GPSOnNewton] : [GPSHardware] : [AQ-300] : [GPSHardwareConfiguration]%%%
+----
+!!!GPS Hardware Configuration
+
+%%%
+!![Die Umprogrammierung mit dem PC|http://www.martin-dehler.de/gps/navigate.htm]
+German instruction on configuring SiRF-based receivers via SiRFDemo.exe on PC and configuring via terminal programm (e.g. [PT100 Version 1.01 and Version 1.1b4|http://www.scrawlsoft.com/products/pt100/info.html], [EETerminal|http://www.easter-eggs.com/newton/eetransfer/eeterm.html] or [TermLimit 1.4|http://www.unna.org/unna/applications/communications/TermLimit1.4/] on the Newton)
+----
+
+!!Baud Rate and Output Sentences Setting (From [AQ-300 Manual|http://www.stillnewt.org/library/_Software/_GPS%20Software/AQ%20max%20AQ-300%20Manual%20(GPS%20Mouse)/AQ-300%20Manual%20English.pdf])
+
+!By SiRF demo Program
+
+#Connect your AQ-300 to PC (either COM or USB)
+#Execute SiRFdemo.exe (Program is in the CD)
+#When “Data Source Setup” shows, select the port (COM 1, 2 or 3....)  you used, click “OK”.
+#Click “Action”, select “Open Data Source.” Then you will see lots of  sentences show. All the sentences start with $GPxxxx. This is NMEA  protocol. If you do not see these sentences, please click “View”, “Select  Message”, then click “Development”. The message will appear. If it still  shows nothing, then continue below steps.
+#There is a screen “Selection of Target Receiver Software” might appear,  please select “SiRF Star II”.
+#Click “Action.” Select “Switch to SiRF Protocol”. Then you will see SiRF  binary and the sentences start with #Time, shows every 4 lines and you  can not see the sentences start with $GP. These sentences are for  setting or viewing the GPS receiver’s performance. If your software is  using standard NMEA protocol, please do the following:
+#Click “Action.” Select “Switch to NMEA Protocol”. You will see GGA,  GSV, GSA and RMC in black and the Baud Rate is 4800. These are the  default we put inside the receiver. Please click “OK”. Then you can use it  as a standard GPS receiver. If your software uses different sentence,  please choose the sentences you need.    After above actions, the new setting will be kept in SRAM. If no power  supplied to AQ-300 for more than 30 days, user must re-set again when  power on.
+
+!By other SiRF based  demo program
+
+There are a few companies or private websites providing some very good demo software. (...at least that's what AQmax's manual says, but when I asked them to name one for Mac OS X, they politely remained silent. So Mac users either visit a friendly Windows user or use the terminal app-trick. - DJV.)
+
+
+----
+HomePage : HowTo : [GPSOnNewton] : [GPSHardware] : [GPSHardwareConfiguration]%%%
+HomePage : HardWare : [GPSOnNewton] : [GPSHardware] : [AQ-300] : [GPSHardwareConfiguration]%%%

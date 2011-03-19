@@ -1,0 +1,133 @@
+Date: Wed, 23 Jun 2004 15:15:14 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=WhatAreSoups;
+  flags="";
+  author=212.242.203.228;
+  version=1;
+  lastmodified=1088018114;
+  created=1088018114;
+  author_id=212.242.203.228;
+  hits=2047;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Lifted from a NTLK post by Richard Davis:%%%
+
+...a few observations about Newton Soups:%%%
+
+Newton Soups are a form of "long-term, system-storage".%%%
+
+In Windows, Linux, UNIX, Mac OS, and the like, "long-term, system-storage"
+is what is commonly known as a "file".  Since there can be many completely
+independent files on a given system at one time, there has to be some form
+of access to files on an individual basis.  Thus, these systems rely on some
+form of "directory oriented" organization to manage access to these files.%%%
+
+In the Newton, there is a single long-term storage system managed by the
+Newton OS.  The structure managed by the Newton OS is called a "Soup".  The
+Newton OS does permit multiple "soups", and in that sense one could imagine
+that a Newton "soup" roughly corresponds to a classical "file".%%%
+
+However, classical files are not structured by rules embedded in the
+operating system.  A Windows file can be structured any way the designer of
+applications that will use the file wants to set up these files.%%%
+
+Newton soups, on the other hand, are directly managed by the Newton OS.
+Thus, Newton soup structure is maintained by rules embedded in the Newton
+OS.  Newton applications have a say in what and how information is stored in
+a Newton soup, but the  Newton OS decides how that is done internally.%%%
+
+Moreover, placing information into soups in a Newton can be done at the
+simplest, "atomic" level by ANY application running in the Newton, at any
+time.  The applications don't have to open and read from files to bring data
+into the context of the running program.  Newton applications can read and
+write directly into Newton soups.  Thus, the Newton applications are able to
+run with the ENTIRE Newton long-term storage system of data as an immediate
+part of the program execution environment.%%%
+
+In classical systems, application programs must first open and read from
+files into some intermediate storage to get the data they will manipulate
+into some form that the programs can use.  This intermediate storage is
+temporary, and is discarded when the running program is terminated.  This
+creates an increase in memory requirements, and produces other overhead
+expenses.%%%
+
+In the Newton, memory conservation was a paramount consideration, so the
+soup concept was easily embraced by the Newton designers.%%%
+
+The Newton Soup is not a new concept, nor is it specifically appropriate for
+the Newton alone.  Instead, the soup concept is a hugely powerful
+"long-term" "system-storage" approach to information storage that is not
+widely recognized for its merits over classical, directory oriented system
+storage.  One noteworthy basis for resistance from the technical community
+to the Newton technology, I believe, arises from the general lack of
+understanding of the 'soup' approach.%%%
+
+There is a strong resistance to the possibility of setting aside the
+directory oriented design for long-term system storage in favor of thinking
+along the lines of 'soups', or whatever else you might call these
+alternatives.  This is a most unfortunate impediment to progress in
+information systems design.%%%
+
+========%%%
+
+Now, dropping down a level, just briefly.....%%%
+
+Newton long-term storage is really NAMED long term system storage, something
+that is NOT true in classical systems like Windows, UNIX, and MacOS.%%%
+
+What does that mean?  Well, all computer programs at some point operate not
+on data per se, but operate on NAMES that are bound to data.  The power of
+this fact is that the same procedure--also known as process or program--can
+operate at different times in exactly the same way, but with different data.%%%
+
+This arises from the basic characteristic of programs that associate unique
+NAMES with specific instances of DATA.  These NAME-DATA pairings are created
+by some assignment process.  In the language BASIC we see the programmer
+write:  SET ALPHA="NEWTON".  Then, subsequently, where ever the program
+needs to use the string "NEWTON", the programmer can write using the "NAME"
+ALPHA to stand in for the string "NEWTON".%%%
+
+The power here is in the fact that the program can 'assign' other values to
+the NAME "ALPHA" in the future and change how the program behaves, BUT the
+program itself does not have to change.%%%
+
+Now, in classical programs using classical directory storage, these
+assignments of NAMES to DATA do not PERSIST after the program that initially
+makes the assignments has been terminated.  In Windows, UNIX and MacOS, the
+associations of names with data do not persist in long-term system storage.
+Every time a Windows program wants to print out the data value of the NAME
+"ALPHA", the program has to resurrect the whole process of assignment of the
+value "NEWTON" to the NAME "ALPHA".%%%
+
+IN CONTRAST, IN THE NEWTON, assignments of data values to names, such as
+binding the data value "NEWTON" to the NAME "ALPHA" is preserved in the
+Newton Soup.  Thus, in the Newton Soup, storage is NAMED storage, and those
+binding of names with data values are persistent.  The association of the
+value "NEWTON" with the NAME "ALPHA" is preserved in the soup indefinitely.%%%
+
+Now, ANY NEWTON PROGRAM CAN COME ALONG AT ANY TIME IN THE FUTURE AND MAKE
+USE OF THE NAME "ALPHA", and the result will be immediately to find the
+associated data value "NEWTON".%%%
+
+This is the "really big deal" about the Newton soup--it provides PERSISTENT,
+NAMED system storage, something not found in most other modern information
+systems.%%%
+
+It is worthwhile to notice that the XML explosion ongoing today is based on
+a data transfer approach that preserves pairings (a.k.a., bindings, or
+assignments) of 'names' and 'data values' as information is moved from one
+place to another.  The rapid, and extensive spread of XML thinking into
+modern information processing is mostly the result of this protocol in XML
+that preservs the bindings of names(symbols) to data values.  Thus, the
+Newton technology surely recognized this powerful concept long before it was
+a widespread part of IT thinking.%%%
+
+Regards,%%%
+
+Richard.%%%
+
+--
+Richard Davis%%%
+Mformation SYStems Company%%%

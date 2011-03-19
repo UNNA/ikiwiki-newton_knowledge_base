@@ -1,0 +1,22 @@
+Date: Sun, 25 Apr 2004 16:48:34 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewEbookAnnouncements;
+  flags="";
+  author=24.156.127.194;
+  version=1;
+  lastmodified=1082926114;
+  created=1082926114;
+  author_id=24.156.127.194;
+  markup=2;
+  hits=224;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+So you've created a new Newton ebook - go and link a new page from this one, describing "your" book and where to find it.
+
+1984 - George Orwell - Available soon at [UNNA|http://www.unna.org/view.php?/books]
+
+%%%
+----
+HomePage : HowTo : MakeNewtonEbooksIndex : NewEbookAnnouncements

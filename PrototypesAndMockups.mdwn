@@ -1,0 +1,89 @@
+Date: Mon, 18 Apr 2005 17:17:19 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=PrototypesAndMockups;
+  flags="";
+  author=151.49.11.184;
+  version=1;
+  lastmodified=1113859039;
+  created=1113859039;
+  author_id=151.49.11.184;
+  markup=2;
+  hits=2904;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!!! Newton Prototypes and Mockups
+
+-----
+
+!!Pre-Newton Concept
+
+[http://img.photobucket.com/albums/v217/antidespotic/concept1copy.jpg]
+
+[http://img.photobucket.com/albums/v217/antidespotic/concept1backcopy.jpg]
+
+''__"And slimy things did crawl with legs upon the slimy sea"__- Samuel Talyor Coleridge, Rime of the Ancient Mariner''
+
+I believe that this concept predates the Newton name itself.
+
+-----
+
+!!Newton
+
+[http://img.photobucket.com/albums/v217/antidespotic/concept3.jpg]
+
+Very similar, but I think that this was the first product mockup to bear the Newton codename. Note the larger screen.
+
+-----
+
+!!Newton Plus
+
+[http://img.photobucket.com/albums/v217/antidespotic/concept2copy.jpg]
+
+Basically, the newton concept on steroids. The tethered pen would later show up in the Cadillac concept.
+
+-----
+!!Newton Senior- "Cadillac" Prototype (a.k.a. Montblac, Figaro)
+
+[http://img.photobucket.com/albums/v217/antidespotic/cadillac1.jpg]
+
+[http://img.photobucket.com/albums/v217/antidespotic/cadillac2.jpg]
+
+In the early days of Newton, Apple's Newton development team was working on two projects simultaneously- "Senior" and "Junior." Senior represented the original Newton concept- a high-end, high-powered, high-cost large-format pen-based computer similar to today's Tablet PCs. As the Senior project missed deadline after deadline, however, Junior was proposed. Junior was to be a smaller, lower-cost product to get some of the developed Newton technology out in a profitable consumer product. Junior became the H1000 or OMP. As for Senior... well, some of the features of Senior can be seen in the 2*00 series, but the intended product never quite made it to market.
+
+A [former Apple Employee|http://groups-beta.google.com/group/comp.sys.newton.misc/browse_thread/thread/054f97f4cc12916f/0dff7cda5afac3ad#0dff7cda5afac3ad] says of it:
+
+;: In late 1992 to mid-1993 I was working on a project at Apple for the Newton. There were two Newton prototypes being developed at the time. I was working on a screen calibrator for the larger of the two Newtons. I never saw anything but the LCD and its controller. Then, there was a big layoff, about 2500, if I recall. Our whole division, Manufacturing R & D was wiped out, my boss, his boss, and his boss  and nearly all their people. Later, the $40,000 calibrator we'd been building went in the dumpster. IIRC, the Newton whose calibrator I was working on was shelved and the smaller one, the Newton as we know it, got to market as the 100.
+
+;: The one whose calibrator I'd worked on had a larger screen than the 100. Its screen and the surrounding board/controller were made by Sharp. The screen may have been about the size of the 2000/2100, but the board surrounding it added more than an inch around the perimeter of the screen.
+
+[Another Apple employee|http://groups-beta.google.com/group/comp.sys.newton.misc/browse_thread/thread/054f97f4cc12916f/0dff7cda5afac3ad#0dff7cda5afac3ad] :
+
+;: Senior was quite far along, plastics existed for it's case.  It was more rounded on the sides than an MP2000, had two PCMCIA slots and a battery 'tube' along the expected 'grip edge' of it.  I'd hardly categorize it a 'gadget complex' since all it really had was a larger screen.  The circuit boards were different, of course, but not significantly so.
+
+;: I've actually seen, held and written code for one.  It wasn't a 'kitchen sink' approach.  It was larger with more RAM/ROM and a second PCMCIA slot. But that's about it.  It would of course have been more expensive but that and available battery life had everyhing to do with it not coming to market. That among the rest of the non-technical reasons the Newton group tanked.
+
+Based on the description, these workers were probably interacting with the Apple Newton "Cadillac" prototype, seen and explained [here|http://www.uzes.net/newton] in great detail. Somehow, this prototype escaped Apple and now belongs to a private collector.
+
+-----
+
+!!Newton Senior- "Bic" Prototype
+
+[http://img.photobucket.com/albums/v217/antidespotic/IMG_1385.jpg]
+
+The ["Bic"|http://www.a-in-a-circle.com/newton/bic.html] prototype. Big bad grandaddy of the MP2*00s, but powered by the slower ARM processor from the 1*0s. Somewhere, this beast still exists...
+
+-----
+
+!!Newton PDA  - Integrated Accessories Investigations (1996)
+
+[Docked DVT|http://www.bbid.com/aplqdev.html] with eMate-type keyboard
+
+Bradford D. Bissel designed a lot of things for Apple during '90s, but this MessagePad layout is simply amazing!!!
+
+-----
+
+''Unless otherwise noted, pictures are from a now out-of-print book on the Apple Design Group.''
+
+-----

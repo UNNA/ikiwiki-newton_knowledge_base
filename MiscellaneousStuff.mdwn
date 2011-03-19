@@ -1,0 +1,21 @@
+Date: Tue, 15 Apr 2003 12:11:30 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=MiscellaneousStuff;
+  flags="";
+  author=64.53.172.109;
+  version=1;
+  lastmodified=1050423090;
+  created=1050423090;
+  author_id=64.53.172.109;
+  markup=2;
+  summary=Miscellaneous%20Newton%20Applications%20in%20UNNA;
+  hits=1028;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Some Newton-based apps are truly unique and defy classification.  Among these are:
+
+* NewtMirror: a simple program that blacks out the screen, creating a somewhat reflective surface that you can use as an ad hoc mirror (or, with backlighting on, a green flashlight).
+
+* [add more items]

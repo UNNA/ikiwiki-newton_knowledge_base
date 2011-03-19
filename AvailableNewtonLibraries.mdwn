@@ -1,0 +1,38 @@
+Date: Tue, 14 Mar 2006 15:58:33 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=AvailableNewtonLibraries;
+  flags="";
+  author=ThomasTempelmann;
+  version=1;
+  lastmodified=1142369913;
+  created=1142369913;
+  author_id=212.202.193.236;
+  markup=2;
+  summary=Restored%20page%20that%20got%20spammed%20over;
+  hits=741;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+So you're a Newton user who's looking for a new eBook to read. Or maybe you're about to [turn a raw etext into a Newton eBook|MakeNewtonEbooks], but would like to check if somebody has previously done this - would be a shame to do a book that's already available, wouldn't it? One might as well read the existing book and contribute the effort scheduled for making this to another one that hasn't been Newtonized yet.
+
+Check the Newton Libraries sprinkled across the WWW - there's no complete or concise site as of this writing (April 2004), so every site has some stuff others don't have. There's treasure everywhere!
+
+----
+
+[Alex Catalogue of Electronic Texts|http://www.infomotions.com/alex] by EricMorgan offers English texts in many digital formats (Newton Paperback, Palm DOC, Palm Reader, PDF, Rocket eBook).
+
+[AMUG Newton Archive|http://wuarchive.wustl.edu/systems/mac/amug/files/newton/], [book section|http://wuarchive.wustl.edu/systems/mac/amug/files/newton/books]
+
+[Intertext - Online Fiction Magazine, est. 1991| http://www.intertext.com], [Newton section| ftp://ftp.etext.org/pub/Zines/InterText/newton]
+
+[UNNA - United Network of Newton Archives|http://www.unna.org], [Book Archive|http://www.unna.org/view.php?/books]
+
+[http://newted.org/users/newtonbooks]
+
+[Temporary Newton Library|http://www.stillnewt.org/library] of eBooks (and some software). Hosted by Marty Joseph, maintained by [DJ Vollkasko|DJVollkaskoSetup] with contributions from 'Kasko, Matt Kow., Ducky Howe and many others. Much non-fiction, history, fantastic literature, and plenty brandnew, CC-licensed titles! Many books new to the Newton are published here first.
+
+[Newton's Library|http://www.newtonslibrary.org/] - Back from the grave after a hiatus from late 2002 through early 2004: large collection of freely downloadable Newton books.
+
+----
+HomePage : HowTo : MakeNewtonEbooksIndex : AvailableNewtonLibraries%%%

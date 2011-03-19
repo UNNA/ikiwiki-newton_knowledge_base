@@ -1,0 +1,103 @@
+Date: Sun, 27 Mar 2005 00:10:13 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NcuOsx;
+  flags="";
+  author=69.227.163.49;
+  version=1;
+  lastmodified=1111900213;
+  created=1111900213;
+  author_id=69.227.163.49;
+  markup=2;
+  hits=2342;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Quick Guide to Using NCU with Jaguar (MacOS X)
+----
+
+''You will be using Classic to run NCU under Jaguar-- but you don't have
+to boot into MacOS 9 to do any of this.''
+----
+
+!! Install Software
+
+* Get the software
+  * 802.11 driver - http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm
+  * NCU - www.unna.org - http://philly.unna.org/unna/apple/connection_utils/
+
+* Newton: Install ethernet driver on your Newton
+  * Ensure that the Lucent driver will use Appletalk -- check the box upon insertion of card
+  * you can configure this later by launching Cards from the Extras drawer
+
+* Newton: Set up Internet Connection
+  * Choose: Setup/Internet Setup and configure for your ethernet card
+
+%%%''If you have Internet Setup, then you have NIE''
+
+* Mac: Install NCU
+  * This will start Classic, if it isn't already running.
+  * Choose a location to install to
+  * __the install will take a long while__
+  * The beach ball spins and spins-- let it finish!!!
+
+
+!! Configure Classic File Sharing & Appletalk
+
+''Make sure Classic is running, if it isn't start it up''
+
+* Mac: Start Classic Appletalk
+  * launch Classic Control Panel
+   * navigate to: /System Folder/Apple Menu Items/Chooser
+   * Launch Chooser and enable AppleTalk
+   * close Chooser
+
+* Mac: Set the Classic Sharing name of your mac
+  * navigate to: /System Folder/Control Panels/File Sharing
+  * Yes, you can do this: [http://www.dillernet.com/classic-file-sharing.jpg]
+  * set the name of your mac to something easy
+  * close File Sharing
+
+! Verify Classic Appletalk
+* Verify that appletalk is on:
+  * navigate to /System Folder/Apple Menu Items/Chooser and run it
+  *  Chooser should have Appletalk enabled already selected
+
+
+!! Configure File Sharing & Appletalk on MacOS X
+
+* Mac: Enable Appletalk in OSX
+  * Open System Preferences/Network
+  * Choose the Appletalk tab, click on ___Make Appletalk Active___
+  * click on ___apply now___ to enable Appletalk
+
+* Mac: Enable File Sharing on MacOS X
+  * Open System Preferences/Sharing
+  * Name your computer with the same name you used in Classic File Sharing
+  * Select ___Services___ tab
+  * Check Personal File Sharing
+  * Click on the Start Button to the right
+
+
+!! Enable EtherTalk on Newton
+
+* Newton needs to use Ethertalk
+  * choose Prefs App on Newton
+  * click on AppleTalk
+  * choose ___connect using ethertalk___
+  * choose your networking card
+
+!! Make The Connection
+
+* Mac: Start NCU
+  * ''Classic will launch if its not already running''
+  * In prefs, choose __Appletalk connections__
+
+* Newton: Launch Dock in Extras
+  * connect via AppleTalk
+  * connect to - choose 'Other computer'
+  * The Newton should open a chooser-like slip where you should see your Mac right away. Choose it. You should be connected.
+  * The next time you connect, you won't have to choose you mac, it will appear in the pop-up in the Dock slip
+
+%%%
+!!!__AndrewDiller__

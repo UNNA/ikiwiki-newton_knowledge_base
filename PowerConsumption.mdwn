@@ -1,0 +1,113 @@
+Date: Tue, 10 May 2005 07:01:07 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=PowerConsumption;
+  flags="";
+  author=151.49.11.59;
+  version=1;
+  lastmodified=1115722867;
+  created=1115722867;
+  author_id=151.49.11.59;
+  markup=2;
+  hits=925;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HardWare : [PowerConsumption]
+----
+
+!!Newton and Accessories Power Consumption Specs
+
+For Newton OS 2.1 devices (MessagePad 2000, MessagePad 2100 and eMate, you can easily evaluate the current consumption by using Frank Gruendel's [NewtTest|http://www.pda-soft.de/newttest.html] application. Simply install it, select the battery subtest and make sure no AC adapter is connected.%%%
+Earlier models do not allow access to the Newton's current consumption by software. For these models you will have to measure current by some different means.
+
+Add the values for each of the component you have attached to yor Newton, and you get a pretty good idea how long your setup might run, which are the power hogs, and which other accessories might be more energy efficient.%%%
+
+
+Some observations:%%%
+"My personal experience when using MP2100 with 4 x fresh/new AA NiMH 2300Ma:%%%
+ - using SerialConnection for everything (faxing, docking, text input) will let your batteries last 7 days%%%
+ - using Bluetooth for IC/VC with OBex (send-receive-install packages), receive mails everyday paired with a bluetooth enabled phone plus a weekly full backup will let your batteries last less than 4 days%%%
+- using a 56k pcmcia modem for send/receive mails, with sessions of 10minutes, will let batteries last less than 3 days%%%
+- using WiFi for docking, webbing, synching, and a couple of remote VNC sessions of 5minutes will let batteries last less than 2 days.%%%
+
+Different configurations will do different things, although so, the MessagePad batteries will always last more when using serial connectivity. Apple choose to put a serial host in the Newton for a good reason i think. The Harris Supertech, licensed by Apple to Harris Corp, had amazing wireless capabilities built-in, but fully charged batteries could last less than 4 (!) hours as on official press documentation.%%%
+
+My personal experience concerning nonstop-runtime:%%%
+ - 4 x AA 2100 NiMH being a "power user" will let your batteries last 24 hours%%%
+ - 4 x AA 2300 NiMH being a "power user" will let your batteries last 36 hours%%%
+ - 4 x AA 2500 NiMH being a "power user" will let your batteries last 48 hours" (AdrianoAngelillis)%%%
+
+
+! Newtons
+*MessagePad 2100
+**Without backlight: 50 - 60 mA
+**With backlight: 90 - 100 mA
+*MessagePad 2000
+**Without backlight: 50 - 60 mA
+**With backlight: 90 - 100 mA
+*eMate 300
+**Without backlight:
+**With backlight:
+*MessagePad 130
+**Without backlight:
+** With backlight:
+*MessagePad 120
+*MessagePad 100
+*OMP
+
+
+!Keyboards
+*Apple Newton Keyboard
+**Consumption in use:
+**Consumption unused but attached:
+*Stowaway Keyboard
+**Consumption in use:
+**Consumption unused but attached:
+
+
+!Storage Cards
+** Model
+*** Consumption
+
+
+!Communication Cards and Devices (incl. Serial Peripherals and PC Cards)
+*__Bluetooth__
+**AmbiCom Air2Net BT2000CF and BT2000E
+***mA receiving
+***mA sending
+**Conceptronic CBT100C
+***mA receiving
+*** mA sending
+**Sphinx Pico Bluetooth Card (PC Card)
+***120 mA receiving
+***150 mA sending
+**Taiyo Yuden internal UART modules
+*** mA receiving
+*** mA sending
+*__Ethernet Cards__
+**Model
+***mA
+*__Modem Cards__
+**3Com 56k Modem (PC Card)
+***up to 370 mA (!) when dialing (can drain-off a Newton in 8 hrs!)
+*__Wifi Cards___
+**Model
+*** mA receiving
+*** mA sending
+
+
+!GPS Receivers
+
+*AQ-300-U-PS (GPS mouse)
+**35 mA when accessed by GPS software
+**0 mA when attached but no GPS software running
+----
+!See also:
+
+*BluetoothCards
+*[GPSOnNewton]
+*HardWare
+
+----
+HomePage : HardWare : [PowerConsumption]

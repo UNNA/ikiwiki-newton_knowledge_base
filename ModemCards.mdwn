@@ -1,0 +1,44 @@
+Date: Sat, 18 Mar 2006 08:55:58 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=ModemCards;
+  flags="";
+  author=AllenRussell;
+  version=1;
+  lastmodified=1142690158;
+  created=1142690158;
+  author_id=204.149.80.6;
+  markup=2;
+  hits=1703;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Not all modems are recognized by all models of the Newton.
+
+Insert the modem into the PCMCIA slot and wait a second to see if the Newton pops up a window that says "A Communication card has been inserted".  If it does not say this, the modem will __not__ work.  If it does say this, the modem __may__ work.  If it does say this, try the various modem drivers built into the Newton (tap on Extras --> Prefs)
+
+----
+
+Works with the Newton Messagepad 130:
+(Please note - remember to close the little plastic latch button so the Newton knows that a card is inserted)
+* Megahertz 14.4 X-Jack modem, model  _XJ1144_  - works for send and receive, use "Hayes 28.8" in Prefs
+* Megahertz 28.8 X-Jack modem, model  _XJ2288_  - works for send and receive, use "Hayes compatible" in Prefs
+
+----
+Works with the Newton MP2x00:
+* Megahertz33.6 X-Jack, model  _XJ1336_
+* Megahertz Cruise Card 28.8, model  _XJA3288_
+* IBM Data/Fax Modem, part# 25H6420
+* Hayes Optima 33.6 EZjack, model _5347US_
+
+----
+
+These modem cards are known not to work:
+
+* Any modem marked as a "software" modem, "Winmodem", or "Requires Windows 95 or higher"
+
+----
+These modem cards do not work with the MP130
+* Megahertz 33.6 X-Jack, model _XJ1336_ - not recognized, Newton does _not_ say "a communication card has been inserted". (but it works with a MP2000)
+----
+HardWare

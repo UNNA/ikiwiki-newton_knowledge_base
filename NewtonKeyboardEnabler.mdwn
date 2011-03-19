@@ -1,0 +1,16 @@
+Date: Fri, 28 Jan 2005 17:27:17 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtonKeyboardEnabler;
+  flags="";
+  author=80.182.120.122;
+  version=1;
+  lastmodified=1106951237;
+  created=1106951237;
+  author_id=80.182.120.122;
+  markup=2;
+  hits=125;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+http://www.markus-fritze.de/newtonen/index.html

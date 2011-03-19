@@ -1,0 +1,63 @@
+Date: Mon, 23 Oct 2006 21:28:51 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_7"
+
+--=_multipart_boundary_7
+Content-Type: application/x-phpwiki;
+  pagename=NewtonMessagePad;
+  flags="";
+  author=AdeSpen;
+  version=2;
+  lastmodified=1161653331;
+  created=1161653331;
+  author_id=AdeSpen;
+  hits=13810;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!What is it?
+The NewtonMessagePad is a handheld computer designed, manufactured, and sold by Apple Computer from 1993 to 1998.  From an initially unsuccessful launch, it grew to become a powerful and feature-rich pen-based computing platform.  The MessagePad 2000 and 2100 run on 162MHz StrongARM CPUs, comparable to most PDAs on the market today.  It features ubiquitous write-anywhere handwriting recognition in either printed or cursive forms, with over 95% accuracy, as well as a 480x320 resolution screen @100DPI, an excellent EL backlight, two PCMCIA card slots, and support for flash memory, modems, and ethernet and wireless network cards for TCP/IP and AppleTalk connectivity.  With recent third-party software, it also supports [ATA flash storage | http://www.kallisys.com/newton/ata/] (CompactFlash/SmartMedia) and applications written in the [Waba | http://cs.gmu.edu/~sean/projects/newton/waba/] cross-platform language.
+
+!What models are there?
+See NewtonModels.
+
+!What happened to it?
+The Newton design is considered to have been far ahead of its time.  The initial Newton models were rushed to market mostly because of John Scully, then the CEO of Apple.  The Newton was Scully's personal vision for the future of computing.  The rush was to beat the introduction of USR's Pilot, and the Newton suffered dearly for the rush, in drawing bad reviews in the press because of its unfinished OS.  Later models quickly made up for the initial bugs and mistakes, however the 3Com PalmPilot, with far fewer features and smaller size, captured the market.  With the release of NewtonOS 2.0 in 1996, the MessagePad line received a much more polished OS with support for TCP/IP networking and a brand-new handwriting recognition engine, developed in-house at Apple.  The Newton continued to flag behind the Palm in market share, but did gain some share in the educational and vertical markets.  In 1997, the Personal Interactive Electronics division of Apple (PIE) was spun-off into an independent company: Newton, Inc.  However, by that time the Newton had already lost many of its supporters from within Apple, and the company was endangering its bottom line.  When Steve Jobs became CEO of Apple in late 1997, he brought Newton, Inc back under the Apple wing after only four months on its own.  By this time, many Newton engineers had already seen the writing on the wall and left Apple for other opportunities - many of them ending up at Palm, Inc and Microsoft's Pen Computing division.  In order to streamline its product line and cut its losses, the Newton line was axed on February 26, 1998.  Many saw the move as a vindictive one by Jobs (he and Scully had been rivals for a while), and people picketed the Apple campus in protest.
+
+!How is it still around?
+Mostly through the hard work of community members.  Many Newton software developers abandoned the platform as soon as it was cancelled; some remained to sell their remaining titles, and a few continued developing software and still do to this day.  The [NewtonTalk mailing list | http://www.newtontalk.net/] at has been going strong throughout the entire life of the Newton, and continues to be a pillar of the community.  Other efforts such as the [Newton FAQ |http://www.chuma.org/newton/faq/], the [Newted Community | http://newted.net/], and many user websites and forums such as this one have kept the community alive and flourishing.
+
+!How do I get one?
+Take a look at the BuyersGuide.
+
+--=_multipart_boundary_7
+Content-Type: application/x-phpwiki;
+  pagename=NewtonMessagePad;
+  flags="";
+  author=164.76.121.89;
+  version=1;
+  lastmodified=1129828846;
+  created=1161653331;
+  author_id=164.76.121.89;
+  markup=2;
+  hits=13810;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!What is it?
+The NewtonMessagePad is a handheld computer designed, manufactured, and sold by Apple Computer from 1993 to 1998.  From an initially unsuccessful launch, it grew to become a powerful and feature-rich pen-based computing platform.  The MessagePad 2000 and 2100 run on 162MHz StrongARM CPUs, comparable to most PDAs on the market today.  It features ubiquitous write-anywhere handwriting recognition in either printed or cursive forms, with over 95% accuracy, as well as a 480x320 resolution screen @100DPI, an excellent EL backlight, two PCMCIA card slots, and support for flash memory, modems, and ethernet and wireless network cards for TCP/IP and AppleTalk connectivity.  With recent third-party software, it also supports [ATA flash storage | http://www.kallisys.com/newton/ata/] (CompactFlash/SmartMedia) and applications written in the [Waba | http://cs.gmu.edu/~sean/projects/newton/waba/] cross-platform language.
+
+!What models are there?
+See NewtonModels.
+
+!What happened to it?
+The Newton design is considered to have been far ahead of its time.  The initial Newton models were rushed to market mostly because of John Scully, then the CEO of Apple.  The Newton was Scully's personal vision for the future of computing.  The rush was to beat the introduction of USR's Pilot, and the Newton suffered dearly for the rush, in drawing bad reviews in the press because of its unfinished OS.  Later models quickly made up for the initial bugs and mistakes, however the 3Com PalmPilot, with far fewer features and smaller size, captured the market.  With the release of NewtonOS 2.0 in 1996, the MessagePad line recieved a much more polished OS with support for TCP/IP networking and a brand-new handwriting recognition engine, developed in-house at Apple.  The Newton continued to flag behind the Palm in market share, but did gain some share in the educational and vertical markets.  In 1997, the Personal Interactive Electronics division of Apple (PIE) was spun-off into an independent company: Newton, Inc.  However, by that time the Newton had already lost many of its supporters from within Apple, and the company was endangering its bottom line.  When Steve Jobs became CEO of Apple in late 1997, he brought Newton, Inc back under the Apple wing after only four months on its own.  By this time, many Newton engineers had already seen the writing on the wall and left Apple for other opportunities - many of them ending up at Palm, Inc and Microsoft's Pen Computing division.  In order to streamline its product line and cut its losses, the Newton line was axed on February 26, 1998.  Many saw the move as a vindictive one by Jobs (he and Scully had been rivals for a while), and people picketed the Apple campus in protest.
+
+!How is it still around?
+Mostly through the hard work of community members.  Many Newton software developers abandoned the platform as soon as it was cancelled; some remained to sell their remaining titles, and a few continued developing software and still do to this day.  The [NewtonTalk mailing list | http://www.newtontalk.net/] at has been going strong throughout the entire life of the Newton, and continues to be a pillar of the community.  Other efforts such as the [Newton FAQ |http://www.chuma.org/newton/faq/], the [Newted Community | http://newted.net/], and many user websites and forums such as this one have kept the community alive and flourishing.
+
+!How do I get one?
+Take a look at the BuyersGuide.
+
+--=_multipart_boundary_7--

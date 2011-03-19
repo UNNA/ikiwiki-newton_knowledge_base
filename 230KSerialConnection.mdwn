@@ -1,0 +1,223 @@
+Date: Wed, 4 Oct 2006 02:17:02 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_3"
+
+--=_multipart_boundary_3
+Content-Type: application/x-phpwiki;
+  pagename=230KSerialConnection;
+  flags="";
+  author=LiberAlex;
+  version=3;
+  lastmodified=1159942622;
+  created=1159942622;
+  author_id=LiberAlex;
+  summary=fixed%20typo%20in%20NewtUSB%20URL;
+  hits=1909;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+----
+HomePage : HowTo
+----
+
+''__Newton Fast Serial Docking__''
+
+AdrianoAngelillis ''(29 Febbraio 2005)''
+[website|http://homepage.mac.com/adriano.angelillis/Menu10.html]
+
+Although the MessagePad could connect in a [lot of ways|http://tools.unna.org/wikiwikinewt/index.php/HowTo] with a desktop, the serial connection is the first type i tried since i had my first Newton.
+Then found this type of connection very stable on D/L mp3 songs for [MadMax | http://40hz.org/MADNewton/].
+To docking the MP on a Mac without a serial printer port you will need an USB to serial adapter. I have often used the [Keyspan USB to twin serial | http://keyspan.com/products/usb/USA28x/] (RS422) series, but sometimes these adapters are hard to find or simply more expensive than a MessagePad itself!
+Take a look at [Amazon | http://tinyurl.com/q9ylt] prices.
+
+Had the chance to try different type of USB to serial adapters, and on eBay you could find very cheap USB to RS232 adapters which will get you easily connected at the cheapest possible cost.
+
+I succesfully, stably synchronized  the MP with my Mac at 230400kbps using such a cheap usb to rs232 adapter using [Escale | http://www.kallisys.com/newton/dcl/en] on OS X / NewtonConnectionUtilities on OS X (in classic emulation) / NewtonConnectionUtilities  [(NCU) | http://download.info.apple.com/Apple_Support_Area/Apple_Software_Updates/English-North_American/Newton/For_Mac_OS/Other_Newton_Updates/NCU_1.0_Updater.img.bin] on OS 9 (with Serial Enabler locked at 230400kbps on the serial printer port).
+
+''A note to Escale for OS X: when 230400kbps is choosen in the preference panel, it could happen (very hardly) that the connection hangs-up,
+or the application crashes, and consequently fail to launch. In this case the RS232 to USB adapter will need to be unplugged and then plugged
+back to have Escale again starting up and succefully connecting to the MP2100 without rebooting.''
+
+The USB to RS232 drivers are downloadable free for both Mac OS 9 and OS X platforms from: [Ram Electronics|http://www.ramelectronics.net/html/usb_serial.htm] - [Beagle Soft|http://www.beaglesoft.com/232usb.htm] - [SerialIo|http://www.serialio.com/products/adaptors/usb_serial.htm]
+
+*To have your [Apple |http://www.apple.com] Mac communicating at 230400kbps it will need to be installed the [Serial Enabler | http://www.markus-fritze.de/serialen/Serial-Enabler-1.0.3.sit] control panel. It is compatible with any usb to rs232 adapter built on a prolific chip. Ask confirm about it to your seller before buying.
+
+*To have your MessagePad communicating at 230400kbps it will need to be installed on the [ser230400 extension | http://www.ee.cityu.edu.hk/~clli/unixnpi/Ser230400.pkg.gz]
+----
+
+DockingTricks
+
+''Escale can operate at speed of 230K when using a Keyspan Twin Serial Adapter, but it will need a "__push__"!''
+
+Here is the trick:
+*1. Phisically connect the serial cable from your MP to the keyspan adapter port 1
+*2. Open Escale preferences window, select 'advanced'
+*3. Choose the first port USA28X****P1.1
+*4. Set connection speed at 115200 and click 'apply'
+*5. Dock your MP via ser115200 to Escale, then disconnect from the MP and click the 'Disconnect' button in Escale.
+*6. Open again Escale preferences window, select again 'advanced'
+*7. Set connection speed at 230400, and click 'apply'
+*8. Dock your MP via ser230400 to Escale. Done
+----
+The Serial Enabler for Mac had been made by [Markus Fritze | webmail@markus-fritze.de] who also wrote the (free) [Newton Keyboard Enabler | http://www.markus-fritze.de/newtonen/index.html] extension which will let you use the Newton Keyboard on your Mac.
+[http://www.enfour.co.jp/newton/images/mp2100-2.gif]
+
+The Newton Keyboard Enabler will let you fully use your Mac as you i will do with an AppleExtendedKeyboard.
+
+''(i.e. you can reboot your Mac with a Newton keyboard just holding the keys Command-Option-Delete, as the same action is possible to restart your MP2100/eMate)''
+
+I would be happy to hear about a Newton Keyboard Enabler for OS X.
+Hope someone would take a look to the german [SDK|http://www.markus-fritze.de/newtonen/NKEsrc.sit].
+%%%
+----
+Newton standard serial docking infos are available [here | http://tools.unna.org/wikiwikinewt/index.php/SerialConnection]
+----
+If you are tired of all these tricks and want an easy, cheap and nice solution to sync your newton with any desktop/laptop computer running any OS, please consider that i have built the NewtUSB, available [here | http://notwen.com/newtusb]
+----
+HomePage : HowTo
+
+--=_multipart_boundary_3
+Content-Type: application/x-phpwiki;
+  pagename=230KSerialConnection;
+  flags="";
+  author=se6ciocco;
+  version=2;
+  lastmodified=1148491311;
+  created=1159942622;
+  author_id=se6ciocco;
+  hits=1909;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+----
+HomePage : HowTo
+----
+
+''__Newton Fast Serial Docking__''
+
+AdrianoAngelillis ''(29 Febbraio 2005)''
+[website|http://homepage.mac.com/adriano.angelillis/Menu10.html]
+
+Although the MessagePad could connect in a [lot of ways|http://tools.unna.org/wikiwikinewt/index.php/HowTo] with a desktop, the serial connection is the first type i tried since i had my first Newton.
+Then found this type of connection very stable on D/L mp3 songs for [MadMax | http://40hz.org/MADNewton/].
+To docking the MP on a Mac without a serial printer port you will need an USB to serial adapter. I have often used the [Keyspan USB to twin serial | http://keyspan.com/products/usb/USA28x/] (RS422) series, but sometimes these adapters are hard to find or simply more expensive than a MessagePad itself!
+Take a look at [Amazon | http://tinyurl.com/q9ylt] prices.
+
+Had the chance to try different type of USB to serial adapters, and on eBay you could find very cheap USB to RS232 adapters which will get you easily connected at the cheapest possible cost.
+
+I succesfully, stably synchronized  the MP with my Mac at 230400kbps using such a cheap usb to rs232 adapter using [Escale | http://www.kallisys.com/newton/dcl/en] on OS X / NewtonConnectionUtilities on OS X (in classic emulation) / NewtonConnectionUtilities  [(NCU) | http://download.info.apple.com/Apple_Support_Area/Apple_Software_Updates/English-North_American/Newton/For_Mac_OS/Other_Newton_Updates/NCU_1.0_Updater.img.bin] on OS 9 (with Serial Enabler locked at 230400kbps on the serial printer port).
+
+''A note to Escale for OS X: when 230400kbps is choosen in the preference panel, it could happen (very hardly) that the connection hangs-up,
+or the application crashes, and consequently fail to launch. In this case the RS232 to USB adapter will need to be unplugged and then plugged
+back to have Escale again starting up and succefully connecting to the MP2100 without rebooting.''
+
+The USB to RS232 drivers are downloadable free for both Mac OS 9 and OS X platforms from: [Ram Electronics|http://www.ramelectronics.net/html/usb_serial.htm] - [Beagle Soft|http://www.beaglesoft.com/232usb.htm] - [SerialIo|http://www.serialio.com/products/adaptors/usb_serial.htm]
+
+*To have your [Apple |http://www.apple.com] Mac communicating at 230400kbps it will need to be installed the [Serial Enabler | http://www.markus-fritze.de/serialen/Serial-Enabler-1.0.3.sit] control panel. It is compatible with any usb to rs232 adapter built on a prolific chip. Ask confirm about it to your seller before buying.
+
+*To have your MessagePad communicating at 230400kbps it will need to be installed on the [ser230400 extension | http://www.ee.cityu.edu.hk/~clli/unixnpi/Ser230400.pkg.gz]
+----
+
+DockingTricks
+
+''Escale can operate at speed of 230K when using a Keyspan Twin Serial Adapter, but it will need a "__push__"!''
+
+Here is the trick:
+*1. Phisically connect the serial cable from your MP to the keyspan adapter port 1
+*2. Open Escale preferences window, select 'advanced'
+*3. Choose the first port USA28X****P1.1
+*4. Set connection speed at 115200 and click 'apply'
+*5. Dock your MP via ser115200 to Escale, then disconnect from the MP and click the 'Disconnect' button in Escale.
+*6. Open again Escale preferences window, select again 'advanced'
+*7. Set connection speed at 230400, and click 'apply'
+*8. Dock your MP via ser230400 to Escale. Done
+----
+The Serial Enabler for Mac had been made by [Markus Fritze | webmail@markus-fritze.de] who also wrote the (free) [Newton Keyboard Enabler | http://www.markus-fritze.de/newtonen/index.html] extension which will let you use the Newton Keyboard on your Mac.
+[http://www.enfour.co.jp/newton/images/mp2100-2.gif]
+
+The Newton Keyboard Enabler will let you fully use your Mac as you i will do with an AppleExtendedKeyboard.
+
+''(i.e. you can reboot your Mac with a Newton keyboard just holding the keys Command-Option-Delete, as the same action is possible to restart your MP2100/eMate)''
+
+I would be happy to hear about a Newton Keyboard Enabler for OS X.
+Hope someone would take a look to the german [SDK|http://www.markus-fritze.de/newtonen/NKEsrc.sit].
+%%%
+----
+Newton standard serial docking infos are available [here | http://tools.unna.org/wikiwikinewt/index.php/SerialConnection]
+----
+If you are tired of all these tricks and want an easy, cheap and nice solution to sync your newton with any desktop/laptop computer running any OS, please consider that i have built the NewtUSB, available [here | http://notwen.com/newtsub]
+----
+HomePage : HowTo
+
+--=_multipart_boundary_3
+Content-Type: application/x-phpwiki;
+  pagename=230KSerialConnection;
+  flags="";
+  author=151.49.8.110;
+  version=1;
+  lastmodified=1119401008;
+  created=1148491311;
+  author_id=151.49.8.110;
+  hits=1909;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+----
+HomePage : HowTo
+----
+
+''__Newton Fast Serial Docking__''
+
+AdrianoAngelillis ''(29 Febbraio 2005)''
+[website|http://homepage.mac.com/adriano.angelillis/Menu10.html]
+
+Although the MessagePad could connect in a [lot of ways|http://tools.unna.org/wikiwikinewt/index.php/HowTo] with a desktop, the serial connection is the first type i tried since i had my first Newton.
+Then found this type of connection very stable on D/L mp3 songs for [MadMax | http://40hz.org/MADNewton/].
+Docking the MP on a Mac without a serial printer port it will need an USB to serial adapter. So on the desktop side i have always used the [Keyspan USB to twin serial | http://keyspan.com/products/usb/USA28x/] (RS422) series, but sometimes these adapters are hard to find or simply more expensive than a [used-but-not-scratch-free | http://stores.ebay.com/Macs-R-Us-Computers] MessagePad!
+
+Had the chance to try different type of USB to serial adapters, so i want to report that on [eBay|http://www.ebay.com/] you could find cheap USB to RS232 adapters which are on sale starting at 'buy it now' price of $0,76. Making a [quick search|http://search.ebay.com/USB-RS232_W0QQsofocusZbsQQsbrftogZ1QQsojsZ1QQfromZR10QQcatrefZC6QQftrtZ1QQftrvZ1QQpriceZ1QQsaprchiZ5QQsadisZ200QQfsopZ1QQfsooZ1QQcoactionZcompareQQcopagenumZ1QQcoentrypageZsearch] on ebay for "USB RS232" with prices locked under $5,00 you will read a long list of sellers from all over the world.  Although the different protocol (RS232 instead of RS422) these adaptors are very stable. The most will be sold with drivers on mini-CD installer for Windows platform starting from Win95/98.
+
+I succesfully, stably synchronized  the MP with my Mac at 230400kbps using the descripted above cheap bargain with the software utilities: [Escale | http://www.kallisys.com/newton/dcl/en] on OS X / NewtonConnectionUtilities on OS X (in classic emulation) / NewtonConnectionUtilities  [(NCU) | http://download.info.apple.com/Apple_Support_Area/Apple_Software_Updates/English-North_American/Newton/For_Mac_OS/Other_Newton_Updates/NCU_1.0_Updater.img.bin] on OS 9 (with Serial Enabler locked at 230400kbps on the serial printer port).
+
+''A note to Escale for OS X: when 230400kbps is choosen in the preference panel, it could happen (very hardly) that the connection hangs-up,
+or the application crashes, and consequently fail to launch. In this case the RS232 to USB adapter will need to be unplugged and then plugged
+back to have Escale again starting up and succefully connecting to the MP2100 without rebooting.''
+
+The USB to RS232 drivers are downloadable free for both Mac OS 9 and OS X platforms from: [Ram Electronics|http://www.ramelectronics.net/html/usb_serial.htm] - [Beagle Soft|http://www.beaglesoft.com/232usb.htm] - [SerialIo|http://www.serialio.com/products/adaptors/usb_serial.htm]
+
+*To have your [Apple |http://www.apple.com] Mac communicating at 230400kbps it will need to be installed the [Serial Enabler | http://www.markus-fritze.de/serialen/Serial-Enabler-1.0.3.sit] control panel.
+
+*To have your MessagePad communicating at 230400kbps it will need to be installed on the [ser230400 extension | http://www.ee.cityu.edu.hk/~clli/unixnpi/Ser230400.pkg.gz]
+----
+
+DockingTricks
+
+''Escale can fully operate @ 230K speed using a Keyspan Twin Serial Adapter, but it will need a "__push__"!''
+
+Here is the trick:
+*1. Phisically connect the serial cable from your MP to the keyspan adapter port 1
+*2. Open Escale preferences window, select 'advanced'
+*3. Choose the first port USA28X****P1.1
+*4. Set connection speed at 115200 and click 'apply'
+*5. Dock your MP via ser115200 to Escale, then disconnect from the MP and click the 'Disconnect' button in Escale.
+*6. Open again Escale preferences window, select again 'advanced'
+*7. Set connection speed at 230400, and click 'apply'
+*8. Dock your MP via ser230400 to Escale. Done
+----
+The Serial Enabler for Mac had been made by [Markus Fritze | webmail@markus-fritze.de] who also wrote the (free) [Newton Keyboard Enabler | http://www.markus-fritze.de/newtonen/index.html] extension which will let you use the Newton Keyboard on your Mac.
+[http://www.enfour.co.jp/newton/images/mp2100-2.gif]
+
+The Newton Keyboard Enabler will let you fully use your Mac as you i will do with an AppleExtendedKeyboard.
+
+''(i.e. you can reboot your Mac with a Newton keyboard just holding the keys Command-Option-Delete, as the same action is possible to restart your MP2100/eMate)''
+
+I would be happy to hear about a Newton Keyboard Enabler for OS X.
+Hope someone would take a look to the german [SDK|http://www.markus-fritze.de/newtonen/NKEsrc.sit].
+%%%
+----
+Newton standard serial docking infos are available [here | http://tools.unna.org/wikiwikinewt/index.php/SerialConnection]
+----
+HomePage : HowTo
+
+--=_multipart_boundary_3--

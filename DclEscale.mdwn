@@ -1,0 +1,18 @@
+Date: Sat, 11 Jun 2005 07:03:03 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=DclEscale;
+  flags="";
+  author=84.178.166.207;
+  version=1;
+  lastmodified=1118487783;
+  created=1118487783;
+  author_id=84.178.166.207;
+  markup=2;
+  hits=149;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!!!Desktop Connection Library
+
+http://www.kallisys.com/newton/dcl/en

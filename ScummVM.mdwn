@@ -1,0 +1,34 @@
+Date: Tue, 11 Jan 2005 05:57:35 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=ScummVM;
+  flags="";
+  author=212.149.48.43;
+  version=1;
+  lastmodified=1105441055;
+  created=1105441055;
+  author_id=212.149.48.43;
+  markup=2;
+  hits=825;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : NewtonWishLists : SoftwareWishlist : [ScummVM]
+----
+
+* "ScummVM is a 'virtual machine' for several classic graphical point-and-click adventure games. It is designed to run: Adventure Soft's Simon the Sorcerer 1 and 2; Revolution's Beneath A Steel Sky, Broken Sword 1 and Broken Sword 2; Flight of the Amazon Queen; and games based on LucasArts' SCUMM (Script Creation Utility for Maniac Mansion) system. SCUMM is used for many games, including Monkey Island, Day of the Tentacle, Sam and Max and more." -- From [http://www.scummvm.org]
+
+
+This wish is for a Newton port of ScummVM. I mean, they've ported it to Windows, Mac OS X,  Linux (Fedora Core, Debian in progress), Solaris 8, PalmOS, PocketPC (WinCE), Dreamcast, BeOS  -- so can't be too hard. And those beautiful games were built to run on something like 7 MHz devices (C64, Amiga, earliest PCs + Macs, etc.) so the Newton should have enough bang for those brilliant classics (maybe even the eMate could run that?). It's time to bring some more serious gaming to the Newton!
+
+Play the old games with the Newton keyboard, the digitizer screen or gamecontroller (see below - one can always wish, no? ;=} ). Hook on to display or beamer for full-colour fun. Bring your old favorite adventures back to life -- and this time, they're mobile, too!
+
+%%%
+__See also:__
+* ["Emulators Answer the Call"|http://www.wired.com/news/gizmos/0,1452,66205,00.html] (Wired) about a port to Symbian/Epoc called [EScummVM|http://dreo.org/p800/escummvm]. So this friggin' emulator moved "to Series 60 platform Nokia in just a few hours" and now runs on Nokia and Sony/Ericsson, huh?
+* [VGACards] to hook the game to a display (monitor, beamer,...)
+* GravisStingerGamePad
+
+%%%
+----
+HomePage : NewtonWishLists : SoftwareWishlist : [ScummVM]

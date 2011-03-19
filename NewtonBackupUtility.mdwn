@@ -1,0 +1,73 @@
+Date: Sat, 9 Apr 2005 10:09:26 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtonBackupUtility;
+  flags="";
+  author=84.178.152.61;
+  version=1;
+  lastmodified=1113055766;
+  created=1113055766;
+  author_id=84.178.152.61;
+  markup=2;
+  hits=1712;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!!!Newton Backup Utility (NBU) by Apple
+
+
+NBU runs in Mac OS Classic or OS7 or later, or in Microsoft Windows. It performs Backup, Restore and Package install with Newton OS 2.x devices. The backup feature also performs an incremental backup, saving the files from the last backup run an a "Previous Backups" folder.
+
+If an earlier Newton device connects to NBU it will automatically perform a backup, but restore and install features are not available.  This feature is for moving packages and data from pre-OS2.x Newtons to 2.x Newtons.
+----
+
+!!Complete Moron's Manual(TM) on Using Newton Backup Utility (NBU)
+
+# Create serial connection between desktop and Newton (i.e. plug the cables in; on legacy-free computers this may involve a USB-to-Serial adapter).
+
+# Start NBU on Desktop.
+
+# Start Dock application on Newton.
+
+# Tap "Connect" in Dock. The Newton tries to establish a connection to NBU on the desktop computer.
+
+# If no connection can be established, check the cabling if it's properly plugged in. Try again. If it still doesn't work, check the setting in Dock for the Newton's serial port speed ("Connect via"). There are several options available, try one after the other until you've found the fastest one that works. -- Tip: There are packages available for the Newton that allow faster transmission speeds than NBU's default speeds are; see below -- if you still need to do things faster, check out NewtonConnectionUtilities and [230KSerialConnection] by Adriano (Q: I wonder if this would also work with NBU...?)
+
+# When the connection is established, the grayed-out buttons aren't grayed-out anymore. ;=} Now you can pull a backup (initiate from desktop or Newton), restore a backup to your Newton, or install new packages. -- Tip: You can mark multiple packages and drag & drop them on NBU's "Install" button for automated batch installation of several packages.
+
+(DJV., 04/2005)
+----
+
+!!Speedtuning NBU Serial Connection on Windows PC
+
+The serial transmission speed of NBU for Windows can be improved to 57600 Baud. Faster speeds are currently not possible (ref. ["Speedy Serial Connections on Windows"|http://tools.unna.org/wikiwikinewt/index.php/WindowsConnection]: "While serial connections with 115200 or even 230400 Baud are doable on Linux, they have not been shown workable yet on Windows."
+
+* How to set NBU up for reliable 57600 KB:
+
+# Obtain Serial57600 package [here|http://www.stillnewt.org/library/_Software/NewtonConnectivityCD/Apple%20Newton%20Connectivity/Serial%20Speed%20Extensions]  or [here|http://toronto.unna.org/unna/utilites/system_enhancements/Ser57600] and install on Newton.
+# In Windows, go to the start menu and select "Run"
+# Type regedit into the run window and hit return
+# Now it gets complex, in the regedit window, expand the following folders, in order: HKEY_CURRENT_USER / Software / Apple / Newton Backup Utility / Communications
+# Lost yet? No? Good, here's where it gets really hairy. Remember that if you are the least bit uncomfortable using the Windows Registry, DON'T DO IT!!! you can seriously mess up your computer and cause all kinds of nasty things to happen. Still want to try it? Okay, but I warned you...
+# Look for the entry that says something like "enabled COM1:38400,n,8,1 Serial 0 : " (yours may be COM2 or COM3, that's fine, just remember to use COM2 or COM3 whenever I use COM1) Change "enabled COM1:38400,n,8,1 Serial 0 : " to "enabled COM1:57600,n,8,1 Serial 0 : " Save your changes and restart Windows.
+# The next time you use NBU, instead of using "serial" in the dock dialog on the Newton, use "Serial57600".
+
+
+(DJV., 04/2005 with props to [Ben Truesdale|http://newted.dyndns.org/users/1f2frfbf/answers.html#3.7])
+
+
+%%%
+----
+!!Download
+
+[NBU 1.0 for Macintosh|http://unna.org/view.php?/apple/connection_utils/ForMac/NewtonBackupUtility]
+
+[NBU 1.01 for Windows|http://www.stillnewt.org/library/_Software/NewtonConnectivityCD/Microsoft%20Windows%20Connectivity/Serial%20Connection/Apple%20Newton%20Backup%20Utility%201.01%20(Win)]
+----
+HomePage : [MacOS987Connection]
+
+HomePage : [MacOSXConnection]
+
+HomePage : WindowsConnection
+
+HomePage : [NewtonConnectivityCD]

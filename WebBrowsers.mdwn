@@ -1,0 +1,42 @@
+Date: Tue, 5 Jul 2005 13:16:39 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=WebBrowsers;
+  flags="";
+  author=VictorRehorst;
+  version=1;
+  lastmodified=1120583799;
+  created=1120583799;
+  author_id=204.225.173.9;
+  markup=2;
+  hits=2662;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+There are a number of web browsers available for Newton OS:
+
+[Newt's Cape | NewtsCape]
+* Only $20 or $10 for students: [http://home.comcast.net/~saweyer/newton/newtscape.htm]
+
+* Oozing with features and plugins, supports forms, cookies, HTTP authentication, tables, limited frame support, [saves pages as books|MakeNewtonEbooks], JPEG and BMP support, ZIP support....
+
+* Slow at rendering pages though.  And some people find the interface has a steep learning curve.
+
+[Courier | Courier]
+
+* Courier is darn fast and is the only browser currently in development.  It doesn't support a whole lot of HTML right now but it strips the unsupported stuff out of the page rather efficently.  Supports HTTP proxies and RSS natively but doesn't support images at all, or forms.  Caches rendered pages instead of page source so browsing through the cache is really fast.  Great for web clipping a la AvantGo.
+
+NetHopper
+
+* Oldest, no JPEG support unless you use a patch, no HTTP 1.1 support unless you use another patch, no support for tables or cookies.  Renders pages pretty fast IIRC.  You will probably have a hard time using it.
+
+LunaSuite
+
+* [http://lunasuite.lunatech.com/] Which had great support for just about everything, but pushed the Newton to the limits (of heap memory, at least) and is quite crash-prone.
+----
+
+HomePage : SoftwareReviews : WebBrowsers
+
+HomePage : HowTo : WebBrowsers
+
+HomePage : InterNet : WebBrowsers

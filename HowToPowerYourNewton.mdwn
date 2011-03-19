@@ -1,0 +1,70 @@
+Date: Sat, 5 Mar 2005 17:20:49 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=HowToPowerYourNewton;
+  flags="";
+  author=RonParker;
+  version=1;
+  lastmodified=1110061249;
+  created=1110061249;
+  author_id=64.168.12.47;
+  markup=2;
+  hits=628;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : CoolSetups : LakeTahoeHikingNewton : HowToPowerYourNewton
+
+HomePage : HowTo : [GPSOnNewton] : LakeTahoeHikingNewton : HowToPowerYourNewton
+----
+!!!The Lake Tahoe Hiking Newton - The Official Reference Guide
+!!Battery Usage And Power Options
+__Written by Ron A. Parker - February 25, 2005 - All Rights Reserved__
+%%%
+%%%
+----
+%%%
+%%%
+Several important factors come to mind when considering power sources for your Hiking Newton, but none so important as the fact of limited access to electricity for charging batteries. It is quite possible that the only power available for your Newton will be the power you bring with you. Lucky for us, the Newton can use any standard or rechargeable AA batteries. This will factor quite nicely into the whole "Hiking Newton" concept.
+
+!AA - The Universal Battery
+Considering all the facts, AA batteries are an excellent power source for camping and hiking. They are compact, efficient (especially for their size), and are available nearly everywhere at a decent price. These specific benefits also make the AA battery the most common type of battery being used in a wide variety of consumer electronics. A Hiking Newton setup will take advantage of this by limiting all other battery operated components (GPS antenna, flashlights, MP3 players, radios, etc.) to those that can use AA size batteries.
+
+!NiMH - The Everyday Rechargeable
+AA NiMH rechargeable batteries are the best choice for an everyday power source. Personal experience has shown that 2300maH NiMH AA rechargables provide nearly 3x the battery life over Alkaline batteries. NiCD's cannot even be considered in the same ballpark as Alkalines, let alone useful as "rechargeable." So throw those Newton NiCD rechargeable battery packs into a drawer and forget about them. Buy yourself several different NiMH battery chargers and always keep a  dozen or so NiMH AA batteries, fully charged and on hand.
+
+!Energizer e2 Lithium Photo - The Extreme Weather Battery
+Rechargeable batteries are notorious for failing to operate in the extreme cold temperatures. The electrolyte in NiMH batteries is water based and, at near-freezing temperatures, they will loose their ability to produce electricity. Energizer, so far the only battery manufacturer to date, has developed and now sells a 1.5v Lithium based AA battery with an operating range of -40°F to 140°F. Although not rechargeable, Energizer e2 Lithium AA's have a 10 year shelf life, ''weigh a third the weight of Alkalines'', and should be able provide performance equal to or better than NiMH. This specific ability to operate at -20°F and still provide 90% of their capacity, cannot be overlooked. I would definitely recommend carrying a few sets of these batteries (in your backpack) to use as a backup power source or as the primary power source in extreme conditions.
+
+!More Power!
+As a minimum, the Lake Tahoe Hiking Newton carries 16 AA NiMH rechargeable batteries that can be swapped around, interchangeably, depending where and when power is need. This works out to a total of three sets of 4xAA batteries (in constant use) for the Hiking Newton, and a spare set of four (or more), in the snap-open pocket on the back of the camo case.
+
+Other decisions about design were made to help enhance battery performance. The Lake Tahoe Hiking Newton uses a mouse style GPS antenna with an independent power supply, instead of a PCMCIA style GPS receiver. Providing the GPS with a separate power supply, conserves power usage on the Newton, as well as freeing up the one (and only) expansion slot. This expansion slot needs to be available for a king sized memory card, if you wish to have any type of graphic map available for the GPS Map software.
+
+!Battery Usage Expectations
+The two way radios will prove to be the biggest battery hogs in the whole setup. But the decision to go with Midland GXT-400 4 Watt radios actually made good sense. The Midland GXT-400 are designed to take either, a proprietary rechargeable battery pack or (4) standard AA batteries. The proprietary battery pack is a small, square, plastic package with special contacts to allow the radio differentiate whether standard AA's or a rechargeable battery pack is installed. Obviously a design feature borrowed from the Newton ;-). Once again, I have decided against purchasing any proprietary battery packs because they are not interchangeable and can cost more than AA rechargeables.
+
+Although handy and more compact, the battery packs appear to be custom designed, using a equivalent set AAA type batteries. AAA NiMH batteries, being half the size of AA's, are usually rated around 850maH. Considerably less than the 2300maH capacity of AA's. Although I haven't tested my assumptions, I'm sure using AA type batteries in the radios will provide far more operating time over the rechargeable battery pack. The battery pack was designed for the convenience of a drop-in charging cradle. Since I won't be charging anything using a drop-in cradle nor using any AC power adapters, the AA's will prove to be far more convenient.
+
+Initial testing shows that the Midland 4 Watt GMRS radios can remain on stand by for almost 48 hours with one set of fully charged AA batteries. That time can be expected to drop to less than a full day if the radios are used at all for transmitting. But consider this, by having a full day of moderate usage available, the performance of the GXT-400 closely matches that of commercial quality UHF walkie-talkies.
+
+As for the Newton, it will last an average of 5 - 7 days (with light usage) on one set of 2300maH rechargables. With moderate use, 3 or 4 days of run time can still be expected. Having 3 - 7 days of available power, the Hiking Newton can easily manage a weekend excursion into the wilderness.
+
+The USB battery pack, in combination with the 4-port USB micro hub, provides an independent power supply (5v) to both the LED flexible reading lamp and the GPS mouse antenna. With proper conservation of power, these can be the least of the power consumers, unless you forget to turn them off. The USB aspect of the power supply actually helps with this idea of conservation. The battery pack has a master power switch (with LED indicator) and each of the devices can be connected or disconnected independently (as needed) using the USB micro hub.
+
+Although the GPS mouse antenna is actually very efficient, it does require a minimum voltage to operate. The LED flex light is still usable for sometime longer on "low" batteries than the GPS antenna. If using the GPS antenna in day time conditions for periodic checks, the USB battery pack can be expected to last 7 days or more. Using the light for reading could reduce the power available for the GPS to half that time. "Tracking" yourself by having the GPS antenna on (constantly) and the Newton running the GPS software to "plot" your direction and set to "not sleep" is fun, but not really recommended. I have been able to drain both the Newton and the USB battery pack within 24 hours, by using this method.
+
+!Battery Enhancements
+%%%
+%%%
+%%%
+----
+!See also:
+
+* [http://www.energizer.com/products/faq.asp] - Energizer Battery FAQ
+
+%%%
+----
+HomePage : CoolSetups : LakeTahoeHikingNewton : HowToPowerYourNewton
+
+HomePage : HowTo : [GPSOnNewton] : LakeTahoeHikingNewton : HowToPowerYourNewton

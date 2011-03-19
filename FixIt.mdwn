@@ -1,0 +1,663 @@
+Date: Mon, 28 Aug 2006 08:06:07 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_30"
+
+--=_multipart_boundary_30
+Content-Type: application/x-phpwiki;
+  pagename=FixIt;
+  flags="";
+  author=FrankFromPdaSoft;
+  version=5;
+  lastmodified=1156766767;
+  created=1156766767;
+  author_id=FrankFromPdaSoft;
+  markup=2;
+  hits=3057;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HardWare : FixIt%%%
+HomePage : NewtonRepairPerson : FixIt%%%
+----
+%%%
+Most Newtons are very tough customers indeed.  But there are things that can go wrong, especially when dealing with a very small design that was manufactured seven years ago.  The most common problems and solutions have been documented by various people and we thank them very much.  Here are some descriptions of common __hardware__ problems (with solutions).
+
+__THIS INFORMATION IS PROVIDED WITHOUT WARRANTY.  THE WRITERS OF THIS PAGE OR ANY EXTERNALLY LINKED PAGE CANNOT BE HELD RESPONSIBLE FOR DAMAGE INCURRED TO YOUR PROPERTY.__  If you are not technically inclined enough to go through with one of the repairs on this page, look up a NewtonRepairPerson.
+
+
+* __eMate screen problems - aka broken hinge__
+
+ Symptoms: messed up video (lines on screen, only half of screen drawn, no image but still makes sounds...) and/or screen no longer responds to stylus input.
+
+ Cause: Springs in the eMate's hinge assembly can work their way loose over time, causing one arm of the spring to snap out of position and puncture the nearby display cable/
+
+ Prevention: modify eMate hinges __before__ damage happens to display cable.  [Joel Sciamma's site|http://www.inventors-emporium.co.uk/pages/newton-emate-hinge.html].  __This is highly recommended as fixing the cable after it has been damaged is extremely difficult!__
+
+ Fix: disassemble eMate, modify hinges, repair or replace display cable.  [Joel Sciamma's site|http://www.inventors-emporium.co.uk/pages/newton-emate-hinge.html]. [Disassembly instructions |http://www.pda-soft.de/emate_disassemble.html].
+
+ Another cable fix (an easier alternative to soldering) is to use a silver-loaded paint PCB repair pen. Tyler Smith has tried to use the ITW/ChemTronix CircuitWorx PCB repair pen with the following results:eMate works, but only for about four open/close cycles.
+
+ Another user reports using [this|http://www.mgchemicals.com/products/8420p.html] MG Chemicals pen "with excellent results". The repair has lasted "over a year". The repair follows Joel Sciamma's directions, but after you've scraped away the surface layer of insulating plastic, just carefully start painting new traces back in, no Post-Its required. Note that it's safe to paint over the other traces, as long as they're still insulated. Just re-route the new traces you're drawing "around" the hole.
+
+ Finally, it is possible to solder the pinched cable with a very fine soldering tip under a microscope.
+ [Frank Gruendel|http://www.pda-soft.de/email.html] might be able to help you if you do not dare to do this repair yourself.
+
+* __MP2000/2100 won't boot__
+
+ Symptoms: Newton will not boot into OS, backlight flashes when power is turned on.
+
+ Cause: Usually, this is caused by the internal ROM card (which contains the Newton OS) being dislodged due to extreme force, such as a fall onto a hard surface.  It ''may'' also be caused by a failed capacitor in the Newton's power manager circuitry.
+
+ Prevention: none.  (or, don't drop your Newt!)
+
+ Solution: remove the back cover and reseat the ROM board.  The ROM board uses the same type of socket as a notebook RAM module, so it will be familiar to you if you've upgraded your laptop before.  Optionally, clean the contacts on the ROM board with some contact cleaner.  [MP2x00 disassembly|http://www.pda-soft.de/2x00_disassemble.html] - only follow this up to the ROM board removal part, and then reverse to reassemble.
+
+* __MP2000/2100 keeps resetting after Newton startup screen is displayed__
+
+ Symptoms: The Newton powers up, shows the startup screen and after a moment powers off again. It does this about 10-11 times in succession, then it stays off.
+
+ Cause: Usually happens after connecting a wrong power adapter. This kills a tiny surface-mounted chip on the main logic board.
+
+ Solution: Replace the dead chip or have it replaced. For details or for help with the repair get in touch with [Frank Gruendel|http://www.pda-soft.de/email.html].
+
+* __MP2000/2100 clock is dramatically slow__
+
+ Symptoms: Newton's clock is very slow, losing an hour a day or more.
+
+ Cause: This is caused by an improperly calibrated, non-calibrated, or damaged clock oscillator on the main logic board.  Usually, this arises when a new board is installed by Apple and they forget to calibrate the oscillator before shipping it.
+
+ Solution: none, really.  Apple seems to have the only means of calibrating this, and they no longer service Newtons.
+
+ See also: [Newtontalk archived post|http://marc.theaimsgroup.com/?l=newtontalk&m=100376203905466&w=2]
+
+* __MP2000/2100 stylus input is all messed up (Jaggies!)__
+
+ See TheJaggies.
+
+* __MP2000/2100 InterConnectPort is sunken in or not there at all__
+
+ Symptoms: InterConnectPort is loose, not flush with the case, or missing.  May also be a slight rattling sound when you shake the Newton if the port is 'missing'.
+
+ Cause: Repeated insertions of the [serial dongle|AboutDongles] and the stress of cables pulling on it causes the InterConnectPort to strain.  Internally, it is only held in place by 26 tiny solder connections to the logic board - there is no extra reinforcement whatsoever.  Eventually, the connections will break and the port is toast.
+
+ Prevention: Be very careful when using the port and dongle, avoid straining the connection.  You can shave the little metal bumps off of the top and bottom of the dongle connector which will cause less stress when inserting and removing it - but, the dongle won't lock into place anymore.  Reinforcing the port may be possible with some non-conductive glue such as hot glue or 5-minute epoxy.
+
+ Solution: Fixing the port is unlikely, especially if the connector itself is damaged.  The solder points are extremely tiny and require the use of an SMD solder station - otherwise you risk damaging the logic board.  Installing a [SER-001|http://mrpcbman.tripod.com/] (OUT OF STOCK) [Dongle Destroyer Board|http://www.newtonsales.com/pcb.htm/] will get your serial port back and eliminate the need for a dongle.
+
+ See also: [Newtontalk archive thread: The Amazing Removable Interconnect Port|http://marc.theaimsgroup.com/?t=104907847400001&r=1&w=2]
+
+* __MP100 turns itself off right after you turn it on__ - ''info from [here|http://cs.gmu.edu/~sean/projects/newton/MP100Power.html]''
+
+ Symptoms: the MP100 will turn itself off right after you flick the power switch to turn it on.
+
+ Causes:
+ * the foreground applications demands a lot of system heap (RAM)
+ * an inserted card is draining power (a flash RAM card)
+ * dirt and corrosion build-up in the power switch mechanism, causing increased momentary voltage drop
+ * the Newton therefore seems to think that it doesn't have enough power for a moment, and turns off.
+
+ Workaround: hold down the power switch, and switch to an application that takes up less heap (like an application that only has a few data items).  Then release the power switch.
+
+ __OR__ plug in a serial cable before turning the Newton on.  It will bounce on, off, then on again.  You can then remove the cable.
+
+ Solution: open the MP100 and clean the switch contacts.  [Instructions from Sean Luke's page|http://cs.gmu.edu/~sean/projects/newton/MP100Power.html]
+
+* __MP 120/130 turns itself off right after you turn it on__
+
+ Symptoms: the MP120/130 will turn itself off right after you flick the power switch to turn it on.
+
+ Causes: unknown, but probably the same as the MP100 power problem above.
+
+ Solution: Install [FixTrax|http://www.config.de/Products/Newton/FixTrax/default.htm] to prevent the Newton from turning off within 3 seconds of being powered on.
+
+* __MP130 powers off when touched/twisted, or is dead__
+
+ Symptoms: the MP130 has difficulties staying on: either powers itself off immediately, or only when pressure is put on the case (ie. being held in someone's hand).  Or, the 130 is completely dead and will not power on at all.
+
+ Causes: part of the inside of the Newton's case rubs against a chip on the motherboard, causing its connections to break over time, or failure of up to four poorly-made resistors.
+
+ Solution: repair the chip's connection, trim back the inside of the Newton's case, and replace the four faulty resistors.  [MP130 fix instructions from Frank Gruendel|http://www.pda-soft.de/mp130fixes.html]
+
+* __MP130 backlight flickers or no longer works__
+
+ Symptoms: the backlight on an MP130 flickers when on, or no longer comes on.
+
+ Cause: failure of a resistor on the Newton's motherboard.
+
+ Solution: replace the resistor.  [MP130 fix instructions from Frank Gruendel|http://www.pda-soft.de/mp130fixes.html]
+
+* __eMate Power Connector failing__
+
+ I'm looking for guidance in fixing the eMate power connector. The connection inside is worn out (side tab bent back), and I can't get consistent power to my eMate. I figure i can either take the eMate apart and bend the internal connectors back into place, but I view this as a temporary fix, since it'll just happen again. Any guidance?
+
+ Even better, does anyone know details about the power connectors on the bottom of the eMate, specifically which is the positive and which the negative? I am guessing that the two silver spots on the right side of the bottom case were used when the eMate was placed on a docking station. I figure I can rig up my own station, and place an appropriate power supply to feed the two silver connectors, thus charging the eMate without having to fix the internal connector. Anyone have any insight on this plan? - Ken Hallenius (iluvatar@fusemail.com)
+
+----
+HomePage : HardWare : FixIt%%%
+HomePage : NewtonRepairPerson : FixIt%%%
+
+--=_multipart_boundary_30
+Content-Type: application/x-phpwiki;
+  pagename=FixIt;
+  flags="";
+  author=FrankFromPdaSoft;
+  version=4;
+  lastmodified=1156766734;
+  created=1156766767;
+  author_id=FrankFromPdaSoft;
+  markup=2;
+  hits=3057;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HardWare : FixIt%%%
+HomePage : NewtonRepairPerson : FixIt%%%
+----
+%%%
+Most Newtons are very tough customers indeed.  But there are things that can go wrong, especially when dealing with a very small design that was manufactured seven years ago.  The most common problems and solutions have been documented by various people and we thank them very much.  Here are some descriptions of common __hardware__ problems (with solutions).
+
+__THIS INFORMATION IS PROVIDED WITHOUT WARRANTY.  THE WRITERS OF THIS PAGE OR ANY EXTERNALLY LINKED PAGE CANNOT BE HELD RESPONSIBLE FOR DAMAGE INCURRED TO YOUR PROPERTY.__  If you are not technically inclined enough to go through with one of the repairs on this page, look up a NewtonRepairPerson.
+
+
+* __eMate screen problems - aka broken hinge__
+
+ Symptoms: messed up video (lines on screen, only half of screen drawn, no image but still makes sounds...) and/or screen no longer responds to stylus input.
+
+ Cause: Springs in the eMate's hinge assembly can work their way loose over time, causing one arm of the spring to snap out of position and puncture the nearby display cable/
+
+ Prevention: modify eMate hinges __before__ damage happens to display cable.  [Joel Sciamma's site|http://www.inventors-emporium.co.uk/pages/newton-emate-hinge.html].  __This is highly recommended as fixing the cable after it has been damaged is extremely difficult!__
+
+ Fix: disassemble eMate, modify hinges, repair or replace display cable.  [Joel Sciamma's site|http://www.inventors-emporium.co.uk/pages/newton-emate-hinge.html]. [Disassembly instructions |http://www.pda-soft.de/emate_disassemble.html].
+
+ Another cable fix (an easier alternative to soldering) is to use a silver-loaded paint PCB repair pen. Tyler Smith has tried to use the ITW/ChemTronix CircuitWorx PCB repair pen with the following results:eMate works, but only for about four open/close cycles.
+
+ Another user reports using [this|http://www.mgchemicals.com/products/8420p.html] MG Chemicals pen "with excellent results". The repair has lasted "over a year". The repair follows Joel Sciamma's directions, but after you've scraped away the surface layer of insulating plastic, just carefully start painting new traces back in, no Post-Its required. Note that it's safe to paint over the other traces, as long as they're still insulated. Just re-route the new traces you're drawing "around" the hole.
+
+ Finally, it is possible to solder the pinched cable with a very fine soldering tip under a microscope.
+[Frank Gruendel|http://www.pda-soft.de/email.html] might be able to help you if you do not dare to do this repair yourself.
+
+* __MP2000/2100 won't boot__
+
+ Symptoms: Newton will not boot into OS, backlight flashes when power is turned on.
+
+ Cause: Usually, this is caused by the internal ROM card (which contains the Newton OS) being dislodged due to extreme force, such as a fall onto a hard surface.  It ''may'' also be caused by a failed capacitor in the Newton's power manager circuitry.
+
+ Prevention: none.  (or, don't drop your Newt!)
+
+ Solution: remove the back cover and reseat the ROM board.  The ROM board uses the same type of socket as a notebook RAM module, so it will be familiar to you if you've upgraded your laptop before.  Optionally, clean the contacts on the ROM board with some contact cleaner.  [MP2x00 disassembly|http://www.pda-soft.de/2x00_disassemble.html] - only follow this up to the ROM board removal part, and then reverse to reassemble.
+
+* __MP2000/2100 keeps resetting after Newton startup screen is displayed__
+
+ Symptoms: The Newton powers up, shows the startup screen and after a moment powers off again. It does this about 10-11 times in succession, then it stays off.
+
+ Cause: Usually happens after connecting a wrong power adapter. This kills a tiny surface-mounted chip on the main logic board.
+
+ Solution: Replace the dead chip or have it replaced. For details or for help with the repair get in touch with [Frank Gruendel|http://www.pda-soft.de/email.html].
+
+* __MP2000/2100 clock is dramatically slow__
+
+ Symptoms: Newton's clock is very slow, losing an hour a day or more.
+
+ Cause: This is caused by an improperly calibrated, non-calibrated, or damaged clock oscillator on the main logic board.  Usually, this arises when a new board is installed by Apple and they forget to calibrate the oscillator before shipping it.
+
+ Solution: none, really.  Apple seems to have the only means of calibrating this, and they no longer service Newtons.
+
+ See also: [Newtontalk archived post|http://marc.theaimsgroup.com/?l=newtontalk&m=100376203905466&w=2]
+
+* __MP2000/2100 stylus input is all messed up (Jaggies!)__
+
+ See TheJaggies.
+
+* __MP2000/2100 InterConnectPort is sunken in or not there at all__
+
+ Symptoms: InterConnectPort is loose, not flush with the case, or missing.  May also be a slight rattling sound when you shake the Newton if the port is 'missing'.
+
+ Cause: Repeated insertions of the [serial dongle|AboutDongles] and the stress of cables pulling on it causes the InterConnectPort to strain.  Internally, it is only held in place by 26 tiny solder connections to the logic board - there is no extra reinforcement whatsoever.  Eventually, the connections will break and the port is toast.
+
+ Prevention: Be very careful when using the port and dongle, avoid straining the connection.  You can shave the little metal bumps off of the top and bottom of the dongle connector which will cause less stress when inserting and removing it - but, the dongle won't lock into place anymore.  Reinforcing the port may be possible with some non-conductive glue such as hot glue or 5-minute epoxy.
+
+ Solution: Fixing the port is unlikely, especially if the connector itself is damaged.  The solder points are extremely tiny and require the use of an SMD solder station - otherwise you risk damaging the logic board.  Installing a [SER-001|http://mrpcbman.tripod.com/] (OUT OF STOCK) [Dongle Destroyer Board|http://www.newtonsales.com/pcb.htm/] will get your serial port back and eliminate the need for a dongle.
+
+ See also: [Newtontalk archive thread: The Amazing Removable Interconnect Port|http://marc.theaimsgroup.com/?t=104907847400001&r=1&w=2]
+
+* __MP100 turns itself off right after you turn it on__ - ''info from [here|http://cs.gmu.edu/~sean/projects/newton/MP100Power.html]''
+
+ Symptoms: the MP100 will turn itself off right after you flick the power switch to turn it on.
+
+ Causes:
+ * the foreground applications demands a lot of system heap (RAM)
+ * an inserted card is draining power (a flash RAM card)
+ * dirt and corrosion build-up in the power switch mechanism, causing increased momentary voltage drop
+ * the Newton therefore seems to think that it doesn't have enough power for a moment, and turns off.
+
+ Workaround: hold down the power switch, and switch to an application that takes up less heap (like an application that only has a few data items).  Then release the power switch.
+
+ __OR__ plug in a serial cable before turning the Newton on.  It will bounce on, off, then on again.  You can then remove the cable.
+
+ Solution: open the MP100 and clean the switch contacts.  [Instructions from Sean Luke's page|http://cs.gmu.edu/~sean/projects/newton/MP100Power.html]
+
+* __MP 120/130 turns itself off right after you turn it on__
+
+ Symptoms: the MP120/130 will turn itself off right after you flick the power switch to turn it on.
+
+ Causes: unknown, but probably the same as the MP100 power problem above.
+
+ Solution: Install [FixTrax|http://www.config.de/Products/Newton/FixTrax/default.htm] to prevent the Newton from turning off within 3 seconds of being powered on.
+
+* __MP130 powers off when touched/twisted, or is dead__
+
+ Symptoms: the MP130 has difficulties staying on: either powers itself off immediately, or only when pressure is put on the case (ie. being held in someone's hand).  Or, the 130 is completely dead and will not power on at all.
+
+ Causes: part of the inside of the Newton's case rubs against a chip on the motherboard, causing its connections to break over time, or failure of up to four poorly-made resistors.
+
+ Solution: repair the chip's connection, trim back the inside of the Newton's case, and replace the four faulty resistors.  [MP130 fix instructions from Frank Gruendel|http://www.pda-soft.de/mp130fixes.html]
+
+* __MP130 backlight flickers or no longer works__
+
+ Symptoms: the backlight on an MP130 flickers when on, or no longer comes on.
+
+ Cause: failure of a resistor on the Newton's motherboard.
+
+ Solution: replace the resistor.  [MP130 fix instructions from Frank Gruendel|http://www.pda-soft.de/mp130fixes.html]
+
+* __eMate Power Connector failing__
+
+ I'm looking for guidance in fixing the eMate power connector. The connection inside is worn out (side tab bent back), and I can't get consistent power to my eMate. I figure i can either take the eMate apart and bend the internal connectors back into place, but I view this as a temporary fix, since it'll just happen again. Any guidance?
+
+ Even better, does anyone know details about the power connectors on the bottom of the eMate, specifically which is the positive and which the negative? I am guessing that the two silver spots on the right side of the bottom case were used when the eMate was placed on a docking station. I figure I can rig up my own station, and place an appropriate power supply to feed the two silver connectors, thus charging the eMate without having to fix the internal connector. Anyone have any insight on this plan? - Ken Hallenius (iluvatar@fusemail.com)
+
+----
+HomePage : HardWare : FixIt%%%
+HomePage : NewtonRepairPerson : FixIt%%%
+
+--=_multipart_boundary_30
+Content-Type: application/x-phpwiki;
+  pagename=FixIt;
+  flags="";
+  author=FrankFromPdaSoft;
+  version=3;
+  lastmodified=1156766662;
+  created=1156766734;
+  author_id=FrankFromPdaSoft;
+  markup=2;
+  hits=3057;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HardWare : FixIt%%%
+HomePage : NewtonRepairPerson : FixIt%%%
+----
+%%%
+Most Newtons are very tough customers indeed.  But there are things that can go wrong, especially when dealing with a very small design that was manufactured seven years ago.  The most common problems and solutions have been documented by various people and we thank them very much.  Here are some descriptions of common __hardware__ problems (with solutions).
+
+__THIS INFORMATION IS PROVIDED WITHOUT WARRANTY.  THE WRITERS OF THIS PAGE OR ANY EXTERNALLY LINKED PAGE CANNOT BE HELD RESPONSIBLE FOR DAMAGE INCURRED TO YOUR PROPERTY.__  If you are not technically inclined enough to go through with one of the repairs on this page, look up a NewtonRepairPerson.
+
+
+* __eMate screen problems - aka broken hinge__
+
+ Symptoms: messed up video (lines on screen, only half of screen drawn, no image but still makes sounds...) and/or screen no longer responds to stylus input.
+
+ Cause: Springs in the eMate's hinge assembly can work their way loose over time, causing one arm of the spring to snap out of position and puncture the nearby display cable/
+
+ Prevention: modify eMate hinges __before__ damage happens to display cable.  [Joel Sciamma's site|http://www.inventors-emporium.co.uk/pages/newton-emate-hinge.html].  __This is highly recommended as fixing the cable after it has been damaged is extremely difficult!__
+
+ Fix: disassemble eMate, modify hinges, repair or replace display cable.  [Joel Sciamma's site|http://www.inventors-emporium.co.uk/pages/newton-emate-hinge.html]. [Disassembly instructions |http://www.pda-soft.de/emate_disassemble.html].
+
+ Another cable fix (an easier alternative to soldering) is to use a silver-loaded paint PCB repair pen. Tyler Smith has tried to use the ITW/ChemTronix CircuitWorx PCB repair pen with the following results:eMate works, but only for about four open/close cycles.
+
+ Another user reports using [this|http://www.mgchemicals.com/products/8420p.html] MG Chemicals pen "with excellent results". The repair has lasted "over a year". The repair follows Joel Sciamma's directions, but after you've scraped away the surface layer of insulating plastic, just carefully start painting new traces back in, no Post-Its required. Note that it's safe to paint over the other traces, as long as they're still insulated. Just re-route the new traces you're drawing "around" the hole.
+
+Finally, it is possible to solder the pinched cable with a very fine soldering tip under a microscope.
+[Frank Gruendel|http://www.pda-soft.de/email.html] might be able to help you if you do not dare to do this repair yourself.
+
+* __MP2000/2100 won't boot__
+
+ Symptoms: Newton will not boot into OS, backlight flashes when power is turned on.
+
+ Cause: Usually, this is caused by the internal ROM card (which contains the Newton OS) being dislodged due to extreme force, such as a fall onto a hard surface.  It ''may'' also be caused by a failed capacitor in the Newton's power manager circuitry.
+
+ Prevention: none.  (or, don't drop your Newt!)
+
+ Solution: remove the back cover and reseat the ROM board.  The ROM board uses the same type of socket as a notebook RAM module, so it will be familiar to you if you've upgraded your laptop before.  Optionally, clean the contacts on the ROM board with some contact cleaner.  [MP2x00 disassembly|http://www.pda-soft.de/2x00_disassemble.html] - only follow this up to the ROM board removal part, and then reverse to reassemble.
+
+* __MP2000/2100 keeps resetting after Newton startup screen is displayed__
+
+ Symptoms: The Newton powers up, shows the startup screen and after a moment powers off again. It does this about 10-11 times in succession, then it stays off.
+
+ Cause: Usually happens after connecting a wrong power adapter. This kills a tiny surface-mounted chip on the main logic board.
+
+ Solution: Replace the dead chip or have it replaced. For details or for help with the repair get in touch with [Frank Gruendel|http://www.pda-soft.de/email.html].
+
+* __MP2000/2100 clock is dramatically slow__
+
+ Symptoms: Newton's clock is very slow, losing an hour a day or more.
+
+ Cause: This is caused by an improperly calibrated, non-calibrated, or damaged clock oscillator on the main logic board.  Usually, this arises when a new board is installed by Apple and they forget to calibrate the oscillator before shipping it.
+
+ Solution: none, really.  Apple seems to have the only means of calibrating this, and they no longer service Newtons.
+
+ See also: [Newtontalk archived post|http://marc.theaimsgroup.com/?l=newtontalk&m=100376203905466&w=2]
+
+* __MP2000/2100 stylus input is all messed up (Jaggies!)__
+
+ See TheJaggies.
+
+* __MP2000/2100 InterConnectPort is sunken in or not there at all__
+
+ Symptoms: InterConnectPort is loose, not flush with the case, or missing.  May also be a slight rattling sound when you shake the Newton if the port is 'missing'.
+
+ Cause: Repeated insertions of the [serial dongle|AboutDongles] and the stress of cables pulling on it causes the InterConnectPort to strain.  Internally, it is only held in place by 26 tiny solder connections to the logic board - there is no extra reinforcement whatsoever.  Eventually, the connections will break and the port is toast.
+
+ Prevention: Be very careful when using the port and dongle, avoid straining the connection.  You can shave the little metal bumps off of the top and bottom of the dongle connector which will cause less stress when inserting and removing it - but, the dongle won't lock into place anymore.  Reinforcing the port may be possible with some non-conductive glue such as hot glue or 5-minute epoxy.
+
+ Solution: Fixing the port is unlikely, especially if the connector itself is damaged.  The solder points are extremely tiny and require the use of an SMD solder station - otherwise you risk damaging the logic board.  Installing a [SER-001|http://mrpcbman.tripod.com/] (OUT OF STOCK) [Dongle Destroyer Board|http://www.newtonsales.com/pcb.htm/] will get your serial port back and eliminate the need for a dongle.
+
+ See also: [Newtontalk archive thread: The Amazing Removable Interconnect Port|http://marc.theaimsgroup.com/?t=104907847400001&r=1&w=2]
+
+* __MP100 turns itself off right after you turn it on__ - ''info from [here|http://cs.gmu.edu/~sean/projects/newton/MP100Power.html]''
+
+ Symptoms: the MP100 will turn itself off right after you flick the power switch to turn it on.
+
+ Causes:
+ * the foreground applications demands a lot of system heap (RAM)
+ * an inserted card is draining power (a flash RAM card)
+ * dirt and corrosion build-up in the power switch mechanism, causing increased momentary voltage drop
+ * the Newton therefore seems to think that it doesn't have enough power for a moment, and turns off.
+
+ Workaround: hold down the power switch, and switch to an application that takes up less heap (like an application that only has a few data items).  Then release the power switch.
+
+ __OR__ plug in a serial cable before turning the Newton on.  It will bounce on, off, then on again.  You can then remove the cable.
+
+ Solution: open the MP100 and clean the switch contacts.  [Instructions from Sean Luke's page|http://cs.gmu.edu/~sean/projects/newton/MP100Power.html]
+
+* __MP 120/130 turns itself off right after you turn it on__
+
+ Symptoms: the MP120/130 will turn itself off right after you flick the power switch to turn it on.
+
+ Causes: unknown, but probably the same as the MP100 power problem above.
+
+ Solution: Install [FixTrax|http://www.config.de/Products/Newton/FixTrax/default.htm] to prevent the Newton from turning off within 3 seconds of being powered on.
+
+* __MP130 powers off when touched/twisted, or is dead__
+
+ Symptoms: the MP130 has difficulties staying on: either powers itself off immediately, or only when pressure is put on the case (ie. being held in someone's hand).  Or, the 130 is completely dead and will not power on at all.
+
+ Causes: part of the inside of the Newton's case rubs against a chip on the motherboard, causing its connections to break over time, or failure of up to four poorly-made resistors.
+
+ Solution: repair the chip's connection, trim back the inside of the Newton's case, and replace the four faulty resistors.  [MP130 fix instructions from Frank Gruendel|http://www.pda-soft.de/mp130fixes.html]
+
+* __MP130 backlight flickers or no longer works__
+
+ Symptoms: the backlight on an MP130 flickers when on, or no longer comes on.
+
+ Cause: failure of a resistor on the Newton's motherboard.
+
+ Solution: replace the resistor.  [MP130 fix instructions from Frank Gruendel|http://www.pda-soft.de/mp130fixes.html]
+
+* __eMate Power Connector failing__
+
+ I'm looking for guidance in fixing the eMate power connector. The connection inside is worn out (side tab bent back), and I can't get consistent power to my eMate. I figure i can either take the eMate apart and bend the internal connectors back into place, but I view this as a temporary fix, since it'll just happen again. Any guidance?
+
+ Even better, does anyone know details about the power connectors on the bottom of the eMate, specifically which is the positive and which the negative? I am guessing that the two silver spots on the right side of the bottom case were used when the eMate was placed on a docking station. I figure I can rig up my own station, and place an appropriate power supply to feed the two silver connectors, thus charging the eMate without having to fix the internal connector. Anyone have any insight on this plan? - Ken Hallenius (iluvatar@fusemail.com)
+
+----
+HomePage : HardWare : FixIt%%%
+HomePage : NewtonRepairPerson : FixIt%%%
+
+--=_multipart_boundary_30
+Content-Type: application/x-phpwiki;
+  pagename=FixIt;
+  flags="";
+  author=FrankFromPdaSoft;
+  version=2;
+  lastmodified=1156765560;
+  created=1156766662;
+  author_id=FrankFromPdaSoft;
+  markup=2;
+  hits=3057;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HardWare : FixIt%%%
+HomePage : NewtonRepairPerson : FixIt%%%
+----
+%%%
+Most Newtons are very tough customers indeed.  But there are things that can go wrong, especially when dealing with a very small design that was manufactured seven years ago.  The most common problems and solutions have been documented by various people and we thank them very much.  Here are some descriptions of common __hardware__ problems (with solutions).
+
+__THIS INFORMATION IS PROVIDED WITHOUT WARRANTY.  THE WRITERS OF THIS PAGE OR ANY EXTERNALLY LINKED PAGE CANNOT BE HELD RESPONSIBLE FOR DAMAGE INCURRED TO YOUR PROPERTY.__  If you are not technically inclined enough to go through with one of the repairs on this page, look up a NewtonRepairPerson.
+
+
+* __eMate screen problems - aka broken hinge__
+
+ Symptoms: messed up video (lines on screen, only half of screen drawn, no image but still makes sounds...) and/or screen no longer responds to stylus input.
+
+ Cause: Springs in the eMate's hinge assembly can work their way loose over time, causing one arm of the spring to snap out of position and puncture the nearby display cable/
+
+ Prevention: modify eMate hinges __before__ damage happens to display cable.  [Joel Sciamma's site|http://www.inventors-emporium.co.uk/pages/newton-emate-hinge.html].  __This is highly recommended as fixing the cable after it has been damaged is extremely difficult!__
+
+ Fix: disassemble eMate, modify hinges, repair or replace display cable.  [Joel Sciamma's site|http://www.inventors-emporium.co.uk/pages/newton-emate-hinge.html]
+
+ Another cable fix (an easier alternative to soldering) is to use a silver-loaded paint PCB repair pen. Tyler Smith has tried to use the ITW/ChemTronix CircuitWorx PCB repair pen with the following results:eMate works, but only for about four open/close cycles.
+
+ Another user reports using [this|http://www.mgchemicals.com/products/8420p.html] MG Chemicals pen "with excellent results". The repair has lasted "over a year". The repair follows Joel Sciamma's directions, but after you've scraped away the surface layer of insulating plastic, just carefully start painting new traces back in, no Post-Its required. Note that it's safe to paint over the other traces, as long as they're still insulated. Just re-route the new traces you're drawing "around" the hole.
+
+* __MP2000/2100 won't boot__
+
+ Symptoms: Newton will not boot into OS, backlight flashes when power is turned on.
+
+ Cause: Usually, this is caused by the internal ROM card (which contains the Newton OS) being dislodged due to extreme force, such as a fall onto a hard surface.  It ''may'' also be caused by a failed capacitor in the Newton's power manager circuitry.
+
+ Prevention: none.  (or, don't drop your Newt!)
+
+ Solution: remove the back cover and reseat the ROM board.  The ROM board uses the same type of socket as a notebook RAM module, so it will be familiar to you if you've upgraded your laptop before.  Optionally, clean the contacts on the ROM board with some contact cleaner.  [MP2x00 disassembly|http://www.pda-soft.de/body_2x00_disassemble.html] - only follow this up to the ROM board removal part, and then reverse to reassemble.
+
+* __MP2000/2100 keeps resetting after Newton startup screen is displayed__
+
+ Symptoms: The Newton powers up, shows the startup screen and after a moment powers off again. It does this about 10-11 times in succession, then it stays off.
+
+ Cause: Usually happens after connecting a wrong power adapter. This kills a tiny surface-mounted chip on the main logic board.
+
+ Solution: Replace the dead chip or have it replaced. For details or for help with the repair get in touch with [Frank Gruendel|http://www.pda-soft.de/email.html].
+
+* __MP2000/2100 clock is dramatically slow__
+
+ Symptoms: Newton's clock is very slow, losing an hour a day or more.
+
+ Cause: This is caused by an improperly calibrated, non-calibrated, or damaged clock oscillator on the main logic board.  Usually, this arises when a new board is installed by Apple and they forget to calibrate the oscillator before shipping it.
+
+ Solution: none, really.  Apple seems to have the only means of calibrating this, and they no longer service Newtons.
+
+ See also: [Newtontalk archived post|http://marc.theaimsgroup.com/?l=newtontalk&m=100376203905466&w=2]
+
+* __MP2000/2100 stylus input is all messed up (Jaggies!)__
+
+ See TheJaggies.
+
+* __MP2000/2100 InterConnectPort is sunken in or not there at all__
+
+ Symptoms: InterConnectPort is loose, not flush with the case, or missing.  May also be a slight rattling sound when you shake the Newton if the port is 'missing'.
+
+ Cause: Repeated insertions of the [serial dongle|AboutDongles] and the stress of cables pulling on it causes the InterConnectPort to strain.  Internally, it is only held in place by 26 tiny solder connections to the logic board - there is no extra reinforcement whatsoever.  Eventually, the connections will break and the port is toast.
+
+ Prevention: Be very careful when using the port and dongle, avoid straining the connection.  You can shave the little metal bumps off of the top and bottom of the dongle connector which will cause less stress when inserting and removing it - but, the dongle won't lock into place anymore.  Reinforcing the port may be possible with some non-conductive glue such as hot glue or 5-minute epoxy.
+
+ Solution: Fixing the port is unlikely, especially if the connector itself is damaged.  The solder points are extremely tiny and require the use of an SMD solder station - otherwise you risk damaging the logic board.  Installing a [SER-001|http://mrpcbman.tripod.com/] (OUT OF STOCK) [Dongle Destroyer Board|http://www.newtonsales.com/pcb.htm/] will get your serial port back and eliminate the need for a dongle.
+
+ See also: [Newtontalk archive thread: The Amazing Removable Interconnect Port|http://marc.theaimsgroup.com/?t=104907847400001&r=1&w=2]
+
+* __MP100 turns itself off right after you turn it on__ - ''info from [here|http://cs.gmu.edu/~sean/projects/newton/MP100Power.html]''
+
+ Symptoms: the MP100 will turn itself off right after you flick the power switch to turn it on.
+
+ Causes:
+ * the foreground applications demands a lot of system heap (RAM)
+ * an inserted card is draining power (a flash RAM card)
+ * dirt and corrosion build-up in the power switch mechanism, causing increased momentary voltage drop
+ * the Newton therefore seems to think that it doesn't have enough power for a moment, and turns off.
+
+ Workaround: hold down the power switch, and switch to an application that takes up less heap (like an application that only has a few data items).  Then release the power switch.
+
+ __OR__ plug in a serial cable before turning the Newton on.  It will bounce on, off, then on again.  You can then remove the cable.
+
+ Solution: open the MP100 and clean the switch contacts.  [Instructions from Sean Luke's page|http://cs.gmu.edu/~sean/projects/newton/MP100Power.html]
+
+* __MP 120/130 turns itself off right after you turn it on__
+
+ Symptoms: the MP120/130 will turn itself off right after you flick the power switch to turn it on.
+
+ Causes: unknown, but probably the same as the MP100 power problem above.
+
+ Solution: Install [FixTrax|http://www.config.de/Products/Newton/FixTrax/default.htm] to prevent the Newton from turning off within 3 seconds of being powered on.
+
+* __MP130 powers off when touched/twisted, or is dead__
+
+ Symptoms: the MP130 has difficulties staying on: either powers itself off immediately, or only when pressure is put on the case (ie. being held in someone's hand).  Or, the 130 is completely dead and will not power on at all.
+
+ Causes: part of the inside of the Newton's case rubs against a chip on the motherboard, causing its connections to break over time, or failure of up to four poorly-made resistors.
+
+ Solution: repair the chip's connection, trim back the inside of the Newton's case, and replace the four faulty resistors.  [MP130 fix instructions from Frank Gruendel|http://www.pda-soft.de/mp130fixes.html]
+
+* __MP130 backlight flickers or no longer works__
+
+ Symptoms: the backlight on an MP130 flickers when on, or no longer comes on.
+
+ Cause: failure of a resistor on the Newton's motherboard.
+
+ Solution: replace the resistor.  [MP130 fix instructions from Frank Gruendel|http://www.pda-soft.de/mp130fixes.html]
+
+* __eMate Power Connector failing__
+
+ I'm looking for guidance in fixing the eMate power connector. The connection inside is worn out (side tab bent back), and I can't get consistent power to my eMate. I figure i can either take the eMate apart and bend the internal connectors back into place, but I view this as a temporary fix, since it'll just happen again. Any guidance?
+
+ Even better, does anyone know details about the power connectors on the bottom of the eMate, specifically which is the positive and which the negative? I am guessing that the two silver spots on the right side of the bottom case were used when the eMate was placed on a docking station. I figure I can rig up my own station, and place an appropriate power supply to feed the two silver connectors, thus charging the eMate without having to fix the internal connector. Anyone have any insight on this plan? - Ken Hallenius (iluvatar@fusemail.com)
+
+----
+HomePage : HardWare : FixIt%%%
+HomePage : NewtonRepairPerson : FixIt%%%
+
+--=_multipart_boundary_30
+Content-Type: application/x-phpwiki;
+  pagename=FixIt;
+  flags="";
+  author=ThomasTempelmann;
+  version=1;
+  lastmodified=1142370819;
+  created=1156765560;
+  author_id=212.202.193.236;
+  markup=2;
+  summary=Restored%20page%20that%20got%20spammed%20over;
+  hits=3057;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HardWare : FixIt%%%
+HomePage : NewtonRepairPerson : FixIt%%%
+----
+%%%
+Most Newtons are very tough customers indeed.  But there are things that can go wrong, especially when dealing with a very small design that was manufactured seven years ago.  The most common problems and solutions have been documented by various people and we thank them very much.  Here are some descriptions of common __hardware__ problems (with solutions).
+
+__THIS INFORMATION IS PROVIDED WITHOUT WARRANTY.  THE WRITERS OF THIS PAGE OR ANY EXTERNALLY LINKED PAGE CANNOT BE HELD RESPONSIBLE FOR DAMAGE INCURRED TO YOUR PROPERTY.__  If you are not technically inclined enough to go through with one of the repairs on this page, look up a NewtonRepairPerson.
+
+
+* __eMate screen problems - aka broken hinge__
+
+ Symptoms: messed up video (lines on screen, only half of screen drawn, no image but still makes sounds...) and/or screen no longer responds to stylus input.
+
+ Cause: Springs in the eMate's hinge assembly can work their way loose over time, causing one arm of the spring to snap out of position and puncture the nearby display cable/
+
+ Prevention: modify eMate hinges __before__ damage happens to display cable.  [Joel Sciamma's site|http://www.inventors-emporium.co.uk/pages/newton-emate-hinge.html].  __This is highly recommended as fixing the cable after it has been damaged is extremely difficult!__
+
+ Fix: disassemble eMate, modify hinges, repair or replace display cable.  [Joel Sciamma's site|http://www.inventors-emporium.co.uk/pages/newton-emate-hinge.html]
+
+ Another cable fix (an easier alternative to soldering) is to use a silver-loaded paint PCB repair pen. Tyler Smith has tried to use the ITW/ChemTronix CircuitWorx PCB repair pen with the following results:eMate works, but only for about four open/close cycles.
+
+ Another user reports using [this|http://www.mgchemicals.com/products/8420p.html] MG Chemicals pen "with excellent results". The repair has lasted "over a year". The repair follows Joel Sciamma's directions, but after you've scraped away the surface layer of insulating plastic, just carefully start painting new traces back in, no Post-Its required. Note that it's safe to paint over the other traces, as long as they're still insulated. Just re-route the new traces you're drawing "around" the hole.
+
+* __MP2000/2100 won't boot__
+
+ Symptoms: Newton will not boot into OS, backlight flashes when power is turned on.
+
+ Cause: Usually, this is caused by the internal ROM card (which contains the Newton OS) being dislodged due to extreme force, such as a fall onto a hard surface.  It ''may'' also be caused by a failed capacitor in the Newton's power manager circuitry.
+
+ Prevention: none.  (or, don't drop your Newt!)
+
+ Solution: remove the back cover and reseat the ROM board.  The ROM board uses the same type of socket as a notebook RAM module, so it will be familiar to you if you've upgraded your laptop before.  Optionally, clean the contacts on the ROM board with some contact cleaner.  [MP2x00 disassembly|http://www.pda-soft.de/body_2x00_disassemble.html] - only follow this up to the ROM board removal part, and then reverse to reassemble.
+
+* __MP2000/2100 clock is dramatically slow__
+
+ Symptoms: Newton's clock is very slow, losing an hour a day or more.
+
+ Cause: This is caused by an improperly calibrated, non-calibrated, or damaged clock oscillator on the main logic board.  Usually, this arises when a new board is installed by Apple and they forget to calibrate the oscillator before shipping it.
+
+ Solution: none, really.  Apple seems to have the only means of calibrating this, and they no longer service Newtons.
+
+ See also: [Newtontalk archived post|http://marc.theaimsgroup.com/?l=newtontalk&m=100376203905466&w=2]
+
+* __MP2000/2100 stylus input is all messed up (Jaggies!)__
+
+ See TheJaggies.
+
+* __MP2000/2100 InterConnectPort is sunken in or not there at all__
+
+ Symptoms: InterConnectPort is loose, not flush with the case, or missing.  May also be a slight rattling sound when you shake the Newton if the port is 'missing'.
+
+ Cause: Repeated insertions of the [serial dongle|AboutDongles] and the stress of cables pulling on it causes the InterConnectPort to strain.  Internally, it is only held in place by 26 tiny solder connections to the logic board - there is no extra reinforcement whatsoever.  Eventually, the connections will break and the port is toast.
+
+ Prevention: Be very careful when using the port and dongle, avoid straining the connection.  You can shave the little metal bumps off of the top and bottom of the dongle connector which will cause less stress when inserting and removing it - but, the dongle won't lock into place anymore.  Reinforcing the port may be possible with some non-conductive glue such as hot glue or 5-minute epoxy.
+
+ Solution: Fixing the port is unlikely, especially if the connector itself is damaged.  The solder points are extremely tiny and require the use of an SMD solder station - otherwise you risk damaging the logic board.  Installing a [SER-001|http://mrpcbman.tripod.com/] (OUT OF STOCK) [Dongle Destroyer Board|http://www.newtonsales.com/pcb.htm/] will get your serial port back and eliminate the need for a dongle.
+
+ See also: [Newtontalk archive thread: The Amazing Removable Interconnect Port|http://marc.theaimsgroup.com/?t=104907847400001&r=1&w=2]
+
+* __MP100 turns itself off right after you turn it on__ - ''info from [here|http://cs.gmu.edu/~sean/projects/newton/MP100Power.html]''
+
+ Symptoms: the MP100 will turn itself off right after you flick the power switch to turn it on.
+
+ Causes:
+ * the foreground applications demands a lot of system heap (RAM)
+ * an inserted card is draining power (a flash RAM card)
+ * dirt and corrosion build-up in the power switch mechanism, causing increased momentary voltage drop
+ * the Newton therefore seems to think that it doesn't have enough power for a moment, and turns off.
+
+ Workaround: hold down the power switch, and switch to an application that takes up less heap (like an application that only has a few data items).  Then release the power switch.
+
+ __OR__ plug in a serial cable before turning the Newton on.  It will bounce on, off, then on again.  You can then remove the cable.
+
+ Solution: open the MP100 and clean the switch contacts.  [Instructions from Sean Luke's page|http://cs.gmu.edu/~sean/projects/newton/MP100Power.html]
+
+* __MP 120/130 turns itself off right after you turn it on__
+
+ Symptoms: the MP120/130 will turn itself off right after you flick the power switch to turn it on.
+
+ Causes: unknown, but probably the same as the MP100 power problem above.
+
+ Solution: Install [FixTrax|http://www.config.de/Products/Newton/FixTrax/default.htm] to prevent the Newton from turning off within 3 seconds of being powered on.
+
+* __MP130 powers off when touched/twisted, or is dead__
+
+ Symptoms: the MP130 has difficulties staying on: either powers itself off immediately, or only when pressure is put on the case (ie. being held in someone's hand).  Or, the 130 is completely dead and will not power on at all.
+
+ Causes: part of the inside of the Newton's case rubs against a chip on the motherboard, causing its connections to break over time, or failure of up to four poorly-made resistors.
+
+ Solution: repair the chip's connection, trim back the inside of the Newton's case, and replace the four faulty resistors.  [MP130 fix instructions from Frank Gruendel|http://www.pda-soft.de/body_mp130fixes.html]
+
+* __MP130 backlight flickers or no longer works__
+
+ Symptoms: the backlight on an MP130 flickers when on, or no longer comes on.
+
+ Cause: failure of a resistor on the Newton's motherboard.
+
+ Solution: replace the resistor.  [MP130 fix instructions from Frank Gruendel|http://www.pda-soft.de/body_mp130fixes.html]
+
+* __eMate Power Connector failing__
+
+ I'm looking for guidance in fixing the eMate power connector. The connection inside is worn out (side tab bent back), and I can't get consistent power to my eMate. I figure i can either take the eMate apart and bend the internal connectors back into place, but I view this as a temporary fix, since it'll just happen again. Any guidance?
+
+ Even better, does anyone know details about the power connectors on the bottom of the eMate, specifically which is the positive and which the negative? I am guessing that the two silver spots on the right side of the bottom case were used when the eMate was placed on a docking station. I figure I can rig up my own station, and place an appropriate power supply to feed the two silver connectors, thus charging the eMate without having to fix the internal connector. Anyone have any insight on this plan? - Ken Hallenius (iluvatar@fusemail.com)
+
+----
+HomePage : HardWare : FixIt%%%
+HomePage : NewtonRepairPerson : FixIt%%%
+
+--=_multipart_boundary_30--

@@ -1,0 +1,39 @@
+Date: Mon, 23 May 2005 10:18:42 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=SerialConnection;
+  flags="";
+  author=212.149.48.44;
+  version=1;
+  lastmodified=1116857922;
+  created=1116857922;
+  author_id=212.149.48.44;
+  markup=2;
+  hits=612;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : [NewtonConnectivityCD]
+----
+
+''__Newton Serial Docking__''
+
+*Take a serial cable for Mac (MiniDIN-8 to MiniDIN-8) or Windows PC (MiniDIN-8 to DB9)
+*Connect physically your MessagePad to your desktop serial port (or to a RS-232 to USB adapter) using the above mentioned cable
+*Open your desktop-to-Newton data exchange/sync application
+*Open the 'Dock' application on your MessagePad
+*On the tab "Connect via" choose the "Serial' option
+*Click "Connect"
+*As you will see the new window appear, your experience with the MessagePad will grow-up quickly
+%%%''Some notes:''
+%%% - connecting via "Serial" will let your desktop  communicate with your MessagePad at a 'fixed speed' of 38,400bps
+%%% - at 'fixed speed' a 4MB data transfer can last 20 minutes
+%%% - a faster serial connectivity could be enabled on Mac OS computers with OS9 and/or OSX installed, with or without serial ports,
+%%% - the Mac OS is ready to carry data through the serial ports at the speed of 230,400bps.
+%%% - serial speed can be clocked to 2,000,000bps via additional equipment (external 'hardware' clocking - slightly used in industries).
+%%% - a 'software' clocking example in Mac OS was/is available upon AppleTalk connectivity: old Apple printers communications speed worked over 700,000bps
+%%% - a report about a stable 230,000bps Newton serial docking is available [here | http://tools.unna.org/wikiwikinewt/index.php/230KSerialConnection].
+%%% - WinPC serial communications can reach the speed of 115,200bps
+
+----
+HomePage : HowTo

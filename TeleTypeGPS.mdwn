@@ -1,0 +1,55 @@
+Date: Sun, 1 May 2005 14:52:05 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=TeleTypeGPS;
+  flags="";
+  author=84.178.152.254;
+  version=1;
+  lastmodified=1114973525;
+  created=1114973525;
+  author_id=84.178.152.254;
+  markup=2;
+  hits=523;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : [GPSOnNewton] : [TeleTypeGPS]%%%
+HomePage : HardWare : [GPSOnNewton] : [TeleTypeGPS]%%%
+----
+
+The formerly commercially available application TeleType GPS 2.0 has been released to the Newton community as abandonware. Sorry, no source code available.
+
+
+%%%
+![TeleTypeGPS] for Newton FAQ
+
+*Q: [GPSMap] has so many nice options, why should I also install [TeleTypeGPS]?
+*A: [TeleTypeGPS] has a very nice GPS receiver monitor that displays the data coming in ("Mode/Monitor"). Good for trouble shooting your GPS setup. -- Also the maps by TeleType are really good and well worth using this app.
+
+%%%
+*Q: TeleType GPS 2.0 always crashes on my Newton 2k after receiving GPS data for a few seconds. What can I do?
+*A: I had this behaviour on my 2100, too. It stopped after installing [GPSMap] and activated the -10061 bugfix ("i/Prefs/enable -10061 Bug Fix"). These two events seem to be unrelated, but after I did that, TeleType GPS stopped misbehaving.
+
+%%%
+*Q: TeleType GPS 2.0 only knows one serial port for a GPS receiver, what if I have a CF card or want to attach my receiver to [SER-001]?
+*A: There is the brilliant zTeleTypeHack by DanielPadilla:
+**"This hack changes the serial port that TeleType GPS will use to connect with the GPS receiver.%%%
+***To save heap, (and a bit of my time :-), two packages are provided, one for the bottom slot (slot1) and other for the upper slot (slot2). It shouldn't matter where it is installed, if Teletype is not present, it will try again in 15 seconds and, if that fails, it will tell you so. The comm port preferences slip isn't used by the program originally, so don't care about it. It's [here|http://dev.newtontalk.net/~dpadilla/progs/zTeletypeHack/zTeletypeHack.zip].
+**Another way to do this, and avoid the hack, is to edit the package file of Teletype with an Hex Editor, at address hex.  5ED5 , starts a string that reads:  e x t r   -    or 65 00 78 00 74 00 72 in hex. You can change that string using this list:
+***"e x t r " Use the external serial port (typical default).
+***"i n f r " Use the built-in infrared port. (SIR mode!,  not IrDA)
+***"m d e m " Use the built-in modem.  (That's the internal serial port)
+***"s l t 1 " Use the application card in slot 1.
+***"s l t 2 " Use the application card in slot 2.
+**Maybe, if you change "aser" at adr.hex. 5D69 for "ircm", it will try to use Eckhart Koeppen's Nitro.%%%
+**Leave the 00 between each number,  that's for unicode.
+**When edited, saved and installed, the program will use the written serial port." (From [NTLK|http://marc.theaimsgroup.com/?l=newtontalk&m=108670162910069&w=2].)%%%
+
+
+!Download:
+
+[TeleType GPS 2.0|http://www.unna.org/view.php?/applications/TeleTypeGPS2.0] for Newton%%%
+[zTeletypeHack|http://dev.newtontalk.net/~dpadilla/progs/zTeletypeHack/zTeletypeHack.zip] (mirror [here|http://www.stillnewt.org/library/_Software/_GPS%20Software/TeleType%20GPS/zTeletypeHack%20(Daniel%20Padilla)]) by Daniel Padilla%%%
+----
+HomePage : HowTo : [GPSOnNewton] : [TeleTypeGPS]%%%
+HomePage : HardWare : [GPSOnNewton] : [TeleTypeGPS]%%%

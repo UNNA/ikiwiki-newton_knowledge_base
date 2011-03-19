@@ -1,0 +1,88 @@
+Date: Tue, 19 Dec 2006 19:00:38 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_28"
+
+--=_multipart_boundary_28
+Content-Type: application/x-phpwiki;
+  pagename=E-Mail;
+  flags="";
+  author=jdueck;
+  version=2;
+  lastmodified=1166572838;
+  created=1166572838;
+  author_id=jdueck;
+  markup=2;
+  hits=810;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__How To Set Up E-Mail for NOS 1.x__
+
+*
+*
+*
+
+%%%
+__How To Set Up E-Mail for NOS 2.0__
+
+*
+*
+*
+
+%%%
+__How To Set Up E-Mail for NOS 2.1__
+
+* Complete Moron's Guide (TM) to [SimpleMail 4.3 on NOS 2.1]
+* Setting up [Mail V]
+*
+
+%%%
+* Note: Descriptions of e-mail transports can be found on the MessagingApplications page.
+
+%%%
+----
+HomePage : HowTo : [E-Mail]
+
+--=_multipart_boundary_28
+Content-Type: application/x-phpwiki;
+  pagename=E-Mail;
+  flags="";
+  author=DjVollkasko;
+  version=1;
+  lastmodified=1085148763;
+  created=1166572838;
+  author_id=80.128.174.175;
+  markup=2;
+  hits=810;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__How To Set Up E-Mail for NOS 1.x__
+
+*
+*
+*
+
+%%%
+__How To Set Up E-Mail for NOS 2.0__
+
+*
+*
+*
+
+%%%
+__How To Set Up E-Mail for NOS 2.1__
+
+* Complete Moron's Guide (TM) to [SimpleMail 4.3 on NOS 2.1]
+*
+*
+
+%%%
+* Note: Descriptions of e-mail transports can be found on the MessagingApplications page.
+
+%%%
+----
+HomePage : HowTo : [E-Mail]
+
+--=_multipart_boundary_28--

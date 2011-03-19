@@ -1,0 +1,137 @@
+Date: Wed, 19 Apr 2006 23:53:36 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_42"
+
+--=_multipart_boundary_42
+Content-Type: application/x-phpwiki;
+  pagename=Daily%20Use;
+  flags="";
+  author=MichaelWittmann;
+  version=3;
+  lastmodified=1145505216;
+  created=1145505216;
+  author_id=MichaelWittmann;
+  markup=2;
+  summary=clarified%20my%20use%20of%20a%20Palm%2C%20added%20a%20point%20about%20Markdown;
+  hits=489;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+MichaelWittmann
+
+I'm a professor in physics, doing education research on the teaching and learning of physics. I have 4 PhD students, anywhere from 3 to 5 master's degree students depending on how I'm paying attention and who is doing their work, I teach 1 to 2 classes a semester, have a few grants, and do some unfunded work that I hope will get me funding in the future. I've published a few workbooks, so know the publishing nightmares of the industry, as well.
+
+!! Dates and ToDos:
+
+My Newton serves as master calendar and task manager. If it's not in my Newton, it's not going to happen. Because I have a desktop and a laptop, I find the hassle of synchronizing calendars annoying. Also, I find the battery life of a laptop insufficient. Finally, I don't want to pull out a laptop for an appointment - what a hassle!
+
+The todos are this long flow of ideas, mostly. I "store" them in long Notes or checklists, waiting for when they are relevant. Things that actually get done on a day (or need to be done that day) are in the Agenda, nothing else. I have a zillion repeating appointments that get changed on me, so much of my work day revolves around creatively addressing my needs. The Newton lets me do that fabulously.
+
+In 2002, I tried a Palm for this, and it was nice but not nice enough. I missed the independence, and due to Graffiti's slowness, I was quickly enslaved to the desktop. I'd put off things to make entry on the desktop the primary mode of getting things into the Palm. It was too static, not fliexible, and not useful for what I needed. Also, I didn't find the management of my day as easy when using that tiny screen. I came back to the Newton in 2004.
+
+To back up my data, I use DateSum to create a weekly "after the fact" run down of what actually happened. This gets copied to Notes and sent to the desktop using NewtSync or my new and very slick bluetooth connection.
+
+!! Writing:
+
+The Newton serves as my writing platform for raw thinking. I do typing elsewhere (NewtWorks and the Newton screen have never been enough for my tastes). I do spreadsheets and browsing elsewhere, too. But I've found it impossible to collect my thoughts in outlining software when on a desktop. On a Newton, it's natural to just write. I either use the outliner or I write notes using [Markdown | http://daringfireball.net/projects/markdown/]. I think things through, collect ideas, use my moments of free time (even in public or during meetings) to just take notes. As I've said in many different places, the gesture interface of the Newton is what keeps me with it. If only I could get a touch screen sensitive laptop screen running OS X and inkwell! Oh, well, maybe never...
+
+My Newton gets my notes during meetings with students, faculty, or whatever. During any given meeting, I'm taking more notes than the grad student who SHOULD be taking the notes. I have records or minutes of things that other people never have (plus, I walk to my ethernet cable and mail them out within minutes of the meeting ending, so people have come to count on me). I plan my lectures and write notes for class time - I can't do math on the Newton, which forces me to do the math on the board and not copy it over, which is always a good thing.
+
+!! Time wasting:
+
+Man, am I addicted to that sudoku game. I rarely can't finish one, up to a point. There are some which are simply impossible to solve. Oh well. I like the logic involved, I lose myself and "relax" that way for a bit.
+
+Jig is a pretty good game, too. I hate losing to the computer...
+
+I've never really gotten into reading books on the screen. For that, I need a larger font than most people provide in books and brighter screen than the Newton has without burning batteries on the backlight. I prefer PaperBack books because they let me play with font sizes. Sure, I can't bookmark, but I rarely need that for the documents I drag into my system. Reports, quick reads, and so on, that I have. A few books of poetry, as well. Project Gutenberg has been nice.
+
+There you have it, my lengthy and possibly boring way of using my Newton.
+
+--=_multipart_boundary_42
+Content-Type: application/x-phpwiki;
+  pagename=Daily%20Use;
+  flags="";
+  author=MichaelWittmann;
+  version=2;
+  lastmodified=1145494842;
+  created=1145505216;
+  author_id=MichaelWittmann;
+  markup=2;
+  hits=489;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+MichaelWittmann
+
+I'm a professor in physics, doing education research on the teaching and learning of physics. I have 4 PhD students, anywhere from 3 to 5 master's degree students depending on how I'm paying attention and who is doing their work, I teach 1 to 2 classes a semester, have a few grants, and do some unfunded work that I hope will get me funding in the future. I've published a few workbooks, so know the publishing nightmares of the industry, as well.
+
+!! Dates and ToDos:
+
+My Newton serves as master calendar and task manager. If it's not in my Newton, it's not going to happen. Because I have a desktop and a laptop, I find the hassle of synchronizing calendars annoying. Also, I find the battery life of a laptop insufficient. Finally, I don't want to pull out a laptop for an appointment - what a hassle!
+
+The todos are this long flow of ideas, mostly. I "store" them in long Notes or checklists, waiting for when they are relevant. Things that actually get done on a day (or need to be done that day) are in the Agenda, nothing else. I have a zillion repeating appointments that get changed on me, so much of my work day revolves around creatively addressing my needs. The Newton lets me do that fabulously.
+
+I tried a Palm for this, and it was nice. I was quickly enslaved to the desktop. Also, I didn't find the management of my day as easy when using that tiny screen.
+
+To back up my data, I use DateSum to create a weekly "after the fact" run down of what actually happened. This gets copied to Notes and sent to the desktop using NewtSync or my new and very slick bluetooth connection.
+
+!! Writing:
+
+The Newton serves as my writing platform for raw thinking. I do typing elsewhere (NewtWorks and the Newton screen have never been enough for my tastes). I do spreadsheets and browsing elsewhere, too. But I've found it impossible to collect my thoughts in outlining software when on a desktop. On a Newton, it's natural to just write. Think things through, collect ideas, use my moments of free time (even in public or during meetings) to just take notes. As I've said in many different places, the gesture interface of the Newton is what keeps me with it. If only I could get a touch screen sensitive laptop screen running OS X and inkwell! Oh, well, maybe never...
+
+My Newton gets my notes during meetings with students, faculty, or whatever. During any given meeting, I'm taking more notes than the grad student who SHOULD be taking the notes. I have records or minutes of things that other people never have (plus, I walk to my ethernet cable and mail them out within minutes of the meeting ending, so people have come to count on me). I plan my lectures and write notes for class time - I can't do math on the Newton, which forces me to do the math on the board and not copy it over, which is always a good thing.
+
+!! Time wasting:
+
+Man, am I addicted to that sudoku game. I rarely can't finish one, up to a point. There are some which are simply impossible to solve. Oh well. I like the logic involved, I lose myself and "relax" that way for a bit.
+
+Jig is a pretty good game, too. I hate losing to the computer...
+
+I've never really gotten into reading books on the screen. For that, I need a larger font than most people provide in books and brighter screen than the Newton has without burning batteries on the backlight. I prefer PaperBack books because they let me play with font sizes. Sure, I can't bookmark, but I rarely need that for the documents I drag into my system. Reports, quick reads, and so on, that I have. A few books of poetry, as well. Project Gutenberg has been nice.
+
+There you have it, my lengthy and possibly boring way of using my Newton.
+
+--=_multipart_boundary_42
+Content-Type: application/x-phpwiki;
+  pagename=Daily%20Use;
+  flags="";
+  author=MichaelWittmann;
+  version=1;
+  lastmodified=1145494802;
+  created=1145494842;
+  author_id=MichaelWittmann;
+  markup=2;
+  hits=489;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+I'm a professor in physics, doing education research on the teaching and learning of physics. I have 4 PhD students, anywhere from 3 to 5 master's degree students depending on how I'm paying attention and who is doing their work, I teach 1 to 2 classes a semester, have a few grants, and do some unfunded work that I hope will get me funding in the future. I've published a few workbooks, so know the publishing nightmares of the industry, as well.
+
+!! Dates and ToDos:
+
+My Newton serves as master calendar and task manager. If it's not in my Newton, it's not going to happen. Because I have a desktop and a laptop, I find the hassle of synchronizing calendars annoying. Also, I find the battery life of a laptop insufficient. Finally, I don't want to pull out a laptop for an appointment - what a hassle!
+
+The todos are this long flow of ideas, mostly. I "store" them in long Notes or checklists, waiting for when they are relevant. Things that actually get done on a day (or need to be done that day) are in the Agenda, nothing else. I have a zillion repeating appointments that get changed on me, so much of my work day revolves around creatively addressing my needs. The Newton lets me do that fabulously.
+
+I tried a Palm for this, and it was nice. I was quickly enslaved to the desktop. Also, I didn't find the management of my day as easy when using that tiny screen.
+
+To back up my data, I use DateSum to create a weekly "after the fact" run down of what actually happened. This gets copied to Notes and sent to the desktop using NewtSync or my new and very slick bluetooth connection.
+
+!! Writing:
+
+The Newton serves as my writing platform for raw thinking. I do typing elsewhere (NewtWorks and the Newton screen have never been enough for my tastes). I do spreadsheets and browsing elsewhere, too. But I've found it impossible to collect my thoughts in outlining software when on a desktop. On a Newton, it's natural to just write. Think things through, collect ideas, use my moments of free time (even in public or during meetings) to just take notes. As I've said in many different places, the gesture interface of the Newton is what keeps me with it. If only I could get a touch screen sensitive laptop screen running OS X and inkwell! Oh, well, maybe never...
+
+My Newton gets my notes during meetings with students, faculty, or whatever. During any given meeting, I'm taking more notes than the grad student who SHOULD be taking the notes. I have records or minutes of things that other people never have (plus, I walk to my ethernet cable and mail them out within minutes of the meeting ending, so people have come to count on me). I plan my lectures and write notes for class time - I can't do math on the Newton, which forces me to do the math on the board and not copy it over, which is always a good thing.
+
+!! Time wasting:
+
+Man, am I addicted to that sudoku game. I rarely can't finish one, up to a point. There are some which are simply impossible to solve. Oh well. I like the logic involved, I lose myself and "relax" that way for a bit.
+
+Jig is a pretty good game, too. I hate losing to the computer...
+
+I've never really gotten into reading books on the screen. For that, I need a larger font than most people provide in books and brighter screen than the Newton has without burning batteries on the backlight. I prefer PaperBack books because they let me play with font sizes. Sure, I can't bookmark, but I rarely need that for the documents I drag into my system. Reports, quick reads, and so on, that I have. A few books of poetry, as well. Project Gutenberg has been nice.
+
+There you have it, my lengthy and possibly boring way of using my Newton.
+
+--=_multipart_boundary_42--

@@ -1,0 +1,46 @@
+Date: Tue, 19 Apr 2005 08:04:16 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtonSensorSuite;
+  flags="";
+  author=212.149.48.43;
+  version=1;
+  lastmodified=1113912256;
+  created=1113912256;
+  author_id=212.149.48.43;
+  markup=2;
+  hits=391;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : NewtonWishLists : SoftwareWishlist : [NewtonSensorSuite]
+
+HomePage : NewtonWishLists : HardwareWishlist : [NewtonSensorSuite]
+----
+
+!! Newton Sensor Suite
+
+* Objective
+**Attach various sensors via serial to Newton (hardware hack, DIY sensor peripherals), log sensor data in NewtonSensorSuite.
+** Provide interface/plug-in structure to evaluate/process logged sensor data.
+
+* Example: Fit a car with sensors for oil pressure and temperature and rpm. Log this data in NewtonSensorSuite, and evaluate it in external app/plug-in (warning when crossing rpm and temp. thresholds or when oil pressure sinks rapidly; correlate consumption from manually entered mileage and tank fillings with rpm to get a good idea of average consumption by rpm; output projected consumtption at given rpm).
+
+* Example: Light or other sensors, log data, trigger events (script), e.g. mechanical trigger for cameras, etc.
+
+
+----
+
+This is a wish of DJ Vollkasko:
+
+* " I'd love to have a sensor-suite app on the Newt that would be able to log data from various probes and export to other apps (temp., rpm, pressure,...).
+
+* My dream is a automotive monitor suite with a Newton-brain that would give you data back and correlate with consumption and will warn if the values go above, below certain thresholds (e.g. rpm, temperature). Would be brilliant to tie stuff like this with GeekGas or something like it, to see what driving behaviour produces which comsumption, feed that back into the app, which will learn that x rpm = y consumption in average, so the app can tell you always how much your current consumption is, and will warn you if the oil gets too hot, the oil pressure drops (!!!) or if you kick the engine into high rpm areas (bad on engine lifetime, bad on fuel efficiency). Stuff like this is built into most new cars.
+
+*I've seen the rpm/consumptio-meter in a VW Sharan I'd once borrowed, and I've noticed it actually impacted my driving on the motorway, throttling down to get consumption down by over a litre per 100 km, but losing only a few km/h (mph), saving two litres by cutting speed by 10-15 km/h. Really impressive, always wanted that for my old car, but never found it as add-on anywhere. But with a spare Newt and two or three sensors and a neat app, this setup could be installed in any older vehicle and would pay itself off within a reasonable time..." (04/2005)
+
+%%%
+----
+HomePage : NewtonWishLists : SoftwareWishlist : [NewtonSensorSuite]
+
+HomePage : NewtonWishLists : HardwareWishlist : [NewtonSensorSuite]

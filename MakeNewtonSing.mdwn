@@ -1,0 +1,88 @@
+Date: Thu, 9 Dec 2004 18:07:47 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=MakeNewtonSing;
+  flags="";
+  author=AllenRussell;
+  version=1;
+  lastmodified=1102633667;
+  created=1102633667;
+  author_id=204.149.80.4;
+  markup=2;
+  hits=619;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : MakeNewtonSing
+----
+
+
+!!"I want to make my Newton sing Christmas Carols (or anything else)!"
+
+
+!Online Resources
+
+* Newton SpeakText-HowTo http://tools.unna.org/wikiwikinewt/index.php/MakeNewtonSpeakText (the sister page to this one, read it first)
+* Charles Kelly's Macintalk Songs-Site http://aitech.ac.jp/~ckelly/songs/
+* MacInTalk Christmas songs http://www.asahi-net.or.jp/~QK6T-KJT/song.html
+* HTMList by Steve Weyer http://home.comcast.net/~saweyer/newton/htmlist.htm
+* NewtonWorks http://www.unna.org/view.php?/applications/NewtonWorks
+
+
+
+! How to make your MP 2x00 and eMate sing
+
+#. Take all the .talk-files you can find of Christmas songs and store them on yer desktop (how to save them: See description on below mentioned Wiki-page).
+#. Open them with any text editor on any platform and copy & pasted them into a open Newton Press document.
+#. Create eBook and install on Newton. (You could send me a nice email and *ask* for it. I would give it to you right away in exchange for a new Newton book you make yourself for the community. Fair 'nuff, I reckon.)
+
+
+The next steps on the Newton assume the following installed and working (again, check the Wiki-page for details):
+
+- the eBook with the Christmas songs
+- the brilliant HTMList by Steve Weyer (http://home.comcast.net/~saweyer/newton/htmlist.htm)
+- Newton Works (available from UNNA, of course)
+- the Macintalk-stuff described on the SpeakText-Wiki-page (if your Newt can already read stuff to you aloud, you got it in place).
+
+
+4. Using the Routing menu in the eBook (tap the envelope-button), define the page range of the first song (i.e. how long it is, say, page 1 to page 3).  %%%
+5. Using the Routing menu again, copy the defined page range to Newton Works.  %%%
+6.1 Change to Newton Works, tap on the document's icon and rename the document to the song's name.%%%
+6.2 Mark any surplus text at beginning and end of the actual song and delete that (e.g. fragments of another songs that starts on the page the current song end on). You can test the result now by selecting Routing menu/Speak Text. Nice, no?%%%
+6.3 Using the File-button, create a new folder in Works called "XMas Songs" and file document there. %%%
+7. Repeat 4.-6.3 until every song in the eBook has become it's own Works document in the XMas Songs-folder. %%%
+8. Open the folder in overview mode, select the songs you want to play in the order you want them to be played, tap Routing/Speak Text, and headbang away to the hard-hitting riddims of Deck the Halls with Boughs of Holly, Aber Heidschi Bummbeidschi Bumm Bumm and all dem odda faves. Joy to de World, folks, nuddin' but pure Joy to the World fer de whole fambly!  %%%
+
+
+This is somewhat tedious, but works. There may be smarter and easier ways to get the songs on the Newton, and I'd be happy to learn them from you. This ain't gospel, but it worked for me. And yes, this is 2x00- and eMate-only, sorry.
+
+Happy Jingly Bells to you,
+
+DJ Vollkasko
+%%%
+----
+
+''This is a great summary by DJV, but if I read it correctly, the objective is to get the Macintalk scripts/text cleanly into Newtworks so you can tap the Routing (envelope) button and hear the song.  So -- I suggest another way, I haven't tried this all the way through, but I think it is simpler.  It also adds steps that allow us Windoze people to do it too.  Allen ''
+
+* Go to the web pages that DJV suggests to gather songs, such as http://aitech.ac.jp/~ckelly/songs/
+* Windows users -- When you click on a "nnnnnnn.talk" link, Windows doesn't know what to do with it.  So:
+** Hover over the link with your mouse
+** Note in your browser what the  "nnnnnn.html" link says.  Type the name of the "talk" file into your browser address field.  For example if the link points to __mywebsite.jp/Ohsusanna.html__ then type in __mywebsite.jp/Ohsusanna.talk__ into Internet Explorer.
+** Internet Explorer will ask you if you want to save that text file to disc.  Click Yes.
+** Note where you saved the file.
+* Paste the Ohsusanna.talk file into the Newton:
+** Run NCU
+*** Choose the typing option.
+** On the Newton, create a new Note in Notepad or a new Document in Newt Works
+** On the PC open the Ohsusanna.talk file using Notepad (or some other plain text editor)
+*** Select all the text
+*** Copy it to the clipboard
+*** Paste it into NCU
+* Your new note or document now has the song in it
+** Tap on the Routing (envelope) button
+** Tap on Speak Text
+** Enjoy
+%%%
+Allen Russell
+----
+HomePage : HowTo : MakeNewtonSing

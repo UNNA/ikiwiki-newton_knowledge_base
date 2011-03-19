@@ -1,0 +1,30 @@
+Date: Wed, 10 Dec 2003 00:53:51 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=AboutDongles;
+  flags="";
+  author=ScottyTechnoir;
+  version=1;
+  lastmodified=1071035631;
+  created=1071035631;
+  author_id=63.138.75.78;
+  markup=2;
+  hits=3491;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+If you're talking about dongles and Newtons, you could be talking about one of two things: the serial dongle for the [MP2x00], or a dongle for a PCMCIA Ethernet card.
+
+!Serial Dongle
+
+The serial dongle looks like this: [http://www2.sunrem.com/partgifs/922-2971.gif].  It is ''usually'' required for connecting a [MP2x00] via serial or LocalTalk to a desktop PC or printer.  It is required because the 2x00 has a custom connector (known as the InterConnectPort) instead of the usual old-school Mac serial connector.  The vast majority of Newton serial cables are designed to plug into the Mac serial connection (a MiniDIN-8), not the InterConnectPort.  So Apple shipped a dongle with every 2x00 in order to bridge the gap.
+
+There are some cables that have the InterConnectPort built right in.  If you buy one of these, you don't need a dongle (give it to someone who needs it!)
+
+!Ethernet Dongle
+
+An Ethernet dongle is a short (3" / 7.5cm) cable that is needed for many PCMCIA network cards.  It allows the card to mate with common network cable with RJ45 (twisted-pair) or BNC (thinnet) connectors.  RJ45 is much more common - it looks like a phone jack, but with eight wires instead of four.
+
+Certain Ethernet cards use XJacks instead - these allow for RJ45 connectors to plug right into the card via a pop-out connector.
+----
+HardWare

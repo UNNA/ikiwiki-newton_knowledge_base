@@ -1,0 +1,46 @@
+Date: Tue, 25 Oct 2005 04:30:50 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=BullshitBingo;
+  flags="";
+  author=63.192.36.107;
+  version=1;
+  lastmodified=1130229050;
+  created=1130229050;
+  author_id=63.192.36.107;
+  markup=2;
+  summary=The%20game%20at%20perkigoth.com%20has%20now%20moved%20%28301%20redirect%29%20to%20bullshitbingo.net;
+  hits=539;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__Bullshit Bingo for the Newton (Game)__
+
+Wish inspired by http://www.bullshitbingo.net .
+
+Status: Done --- see [Chris Christensen|http://chris2x.com]'s shareware [Buzzword Bingo|http://chris2x.com/software/buzzword.html] for Newton.%%%
+%%%
+
+__Additional Features and Nice-to-Haves__
+
+- Select in Config. whether to leave center field blank (cute lizard icon as a joker field? Or Newton bulb-logo?) or also fill with a word.
+- Customizeable user wordlist, maybe even store multiple theme sets (IT speak, Newton speak, PC speak, Mac speak, UNIX/Linux speak, hacker speak, family favorites, regularly overheard train ride phrases, most obnoxious commonplaces ever, the most meaning-depleted rhetorical figures of certain politicians, regular CEO-speak,...).
+- Sound effect when a field is marked (turn off in i/Config dialogue screen) and for Bingo.
+- Stop-watch function (as "game score") - records time from start to tapping on "Bullshit!" button (which might then play sound effect, see below).
+- Maybe have ticking sound when the game is started (can be turned on in Config) to add some flavor of urgency and pressure?
+- Tapping on Bullshit!-button when five in a row (or with Auto-Bullshit enabled) also activates visual reward: Backlight flashing on and off repeatedly (any MPs where BL is available), window with large letters "Bullshit!" appears on top (something nice to hold up and wave - think shareholder meetings, keynotes, etc., would make strong visual impression in any public/mass media setting -, then set backlight behaviour in prefs to either "On Bingo Backlight On/On Bingo Flash Backlight"...).
+- Other visual reward settings: Change reward phrase in Config. to something else ("Set Bingo-Phrase to: Bullshit!/Bingo Words/Custom", where Bingo Words would show the five "winning" phrases ;=} and custom allows user modification), rotate reward display either portrait or landscape, toggle message mode between standard/flash message/scroll message across screen.
+- Save completed cards, player names, date + time, name of meeting (maybe pull from appointments in Dates app?), time scores, access via score table.
+- Round off with sound effects (must be toggleable in Config) - "Bullshit!" , either when "Bullshit!" Button is tapped and five fields are in a row, or automagically when the fifth in a row is tapped (alternatively set sound effect to cowbell or gong, or any sound the user installed on the Newt, e.g. Mac-sound package or others) - the latter bulllshit autopilot function must be a Config option ("[_] Auto-Bullshit! on/off"), or it'd spoil any serious fun.
+- Provide online help for game, option to print randomized cards for colleagues (on letter and A4 sized paper, or print even 2 different cards on one sheet), plus info on how to add new sounds. ;=}
+
+__For Release 2.0__
+- Add ASK/IrDA functionality in later version - generate cards for both Newts from one Newt's (i.e. Bullshit Server) phrase list, synch game start and stop, create + save score table for both players - maybe also do this via WLAN, Mail or serial off a server.
+- Maybe provide option to export (upload/mail) phrase lists to a Newton Bullshit Bingo Server ("nBBS"), for sharing with other users. ;=}
+- Also upload scores for certain events/meetings, like having a championship (imagine a group of people watching a box fight and playing boxing bullshit bingo, or Super Bowl-Commentator-BB, or State of the Nation-BB, or a share holders meeting, or a Steve Jobs keynote, and uploading individual time scores to a web-score board to identify the Bullshit Bingo Champion! ;=} ).
+
+(DJVollkasko 2004)
+
+%%%
+----
+HomePage : NewtonWishLists : SoftwareWishlist : BullshitBingo

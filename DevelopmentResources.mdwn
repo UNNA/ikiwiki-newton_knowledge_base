@@ -1,0 +1,194 @@
+Date: Mon, 19 Mar 2007 17:20:04 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_24"
+
+--=_multipart_boundary_24
+Content-Type: application/x-phpwiki;
+  pagename=DevelopmentResources;
+  flags="";
+  author=MatthiasMelcher;
+  version=4;
+  lastmodified=1174339204;
+  created=1174339204;
+  author_id=MatthiasMelcher;
+  markup=2;
+  hits=1625;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__Newton Software Development Resources__
+
+These links take you to places where you can learn what you need to get started developing for the Newton - what SDKs are available, any tips and tricks, where you can find samples of code and help.
+
+%%%
+Note: You're eager to start developing, but don't know what to start with? Check the NewtonWishLists for stuff that is sorely missed on the Newton.
+
+%%%
+
+* NewtonErrorCodes -- A full listing of the NOS errors.
+
+* NewtonScript -- get quickly started with your development project! Note: You can even use NewtonScript in NewtonBooks if working with BookMaker and NewtonToolKit.
+
+* MakotoNukui (aka [GNUE|mailto:gnue@so-kukan.com]) has released [NEWT/0|http://www.so-kukan.com/gnue/archives/2005/03/newt0_009_20050.html] (or look for the much more current [SVN|http://trac.so-kukan.com/newt/] archive), an open source NewtonScript compiler and interpreter for MacOS X, Linux and Windows. (Source: [Paul Guyot|http://marc.10east.com/?l=newtontalk&m=111055258718841&w=2] 2005)
+
+* [C++] for Newton
+
+* DevelopingWabaApplications (see also WabaApplications)
+
+* Some nice articles can be found at [PDA Lifestyle|http://www.pda-lifestyle.de/beitraege/newton] (sorry, German only): [Become a developer in 7 steps|http://www.pda-lifestyle.de/beitraege/newton/7steps/] (NSBasic, Newt, NTK, C++), [NewtonScript-tutorial|http://www.pda-lifestyle.de/beitraege/newton/progtut], [Object-oriented Programming and NewtonScript|http://www.pda-lifestyle.de/beitraege/newton/objekte/], [Prefs for own projects|http://www.pda-lifestyle.de/beitraege/newton/codefrag/prefs/].
+
+* There has also been at least one [course project|http://metcs.bu.edu/~feneric/cs331/Archives/Project2002/] related to developing Newton Books.
+
+* OtherProgrammingLanguages
+
+* NewtonGuts -- Very intimate details about CPU, RAM, ROM, ASIC, Interrrupts and more
+
+* InspectorProtocol - how the NTK Inspector and the Newton communicate
+
+%%%
+----
+
+HomePage : DevelopmentResources
+
+--=_multipart_boundary_24
+Content-Type: application/x-phpwiki;
+  pagename=DevelopmentResources;
+  flags="";
+  author=MatthiasMelcher;
+  version=3;
+  lastmodified=1174169837;
+  created=1174339204;
+  author_id=MatthiasMelcher;
+  markup=2;
+  hits=1625;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__Newton Software Development Resources__
+
+These links take you to places where you can learn what you need to get started developing for the Newton - what SDKs are available, any tips and tricks, where you can find samples of code and help.
+
+%%%
+Note: You're eager to start developing, but don't know what to start with? Check the NewtonWishLists for stuff that is sorely missed on the Newton.
+
+%%%
+
+* NewtonErrorCodes -- A full listing of the NOS errors.
+
+* NewtonScript -- get quickly started with your development project! Note: You can even use NewtonScript in NewtonBooks if working with BookMaker and NewtonToolKit.
+
+* MakotoNukui (aka [GNUE|mailto:gnue@so-kukan.com]) has released [NEWT/0|http://www.so-kukan.com/gnue/archives/2005/03/newt0_009_20050.html], an open source NewtonScript compiler and interpreter for MacOS X, Linux and Windows. (Source: [Paul Guyot|http://marc.10east.com/?l=newtontalk&m=111055258718841&w=2] 2005)
+
+* [C++] for Newton
+
+* DevelopingWabaApplications (see also WabaApplications)
+
+* Some nice articles can be found at [PDA Lifestyle|http://www.pda-lifestyle.de/beitraege/newton] (sorry, German only): [Become a developer in 7 steps|http://www.pda-lifestyle.de/beitraege/newton/7steps/] (NSBasic, Newt, NTK, C++), [NewtonScript-tutorial|http://www.pda-lifestyle.de/beitraege/newton/progtut], [Object-oriented Programming and NewtonScript|http://www.pda-lifestyle.de/beitraege/newton/objekte/], [Prefs for own projects|http://www.pda-lifestyle.de/beitraege/newton/codefrag/prefs/].
+
+* There has also been at least one [course project|http://metcs.bu.edu/~feneric/cs331/Archives/Project2002/] related to developing Newton Books.
+
+* OtherProgrammingLanguages
+
+* NewtonGuts -- Very intimate details about CPU, RAM, ROM, ASIC, Interrrupts and more
+
+* InspectorProtocol - how the NTK Inspector and the Newton communicate
+
+%%%
+----
+
+HomePage : DevelopmentResources
+
+--=_multipart_boundary_24
+Content-Type: application/x-phpwiki;
+  pagename=DevelopmentResources;
+  flags="";
+  author=MatthiasMelcher;
+  version=2;
+  lastmodified=1162826654;
+  created=1174169837;
+  author_id=MatthiasMelcher;
+  markup=2;
+  summary=Initial%20link%20for%20Newton%20Internals;
+  hits=1625;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__Newton Software Development Resources__
+
+These links take you to places where you can learn what you need to get started developing for the Newton - what SDKs are available, any tips and tricks, where you can find samples of code and help.
+
+%%%
+Note: You're eager to start developing, but don't know what to start with? Check the NewtonWishLists for stuff that is sorely missed on the Newton.
+
+%%%
+
+* NewtonErrorCodes -- A full listing of the NOS errors.
+
+* NewtonScript -- get quickly started with your development project! Note: You can even use NewtonScript in NewtonBooks if working with BookMaker and NewtonToolKit.
+
+* MakotoNukui (aka [GNUE|mailto:gnue@so-kukan.com]) has released [NEWT/0|http://www.so-kukan.com/gnue/archives/2005/03/newt0_009_20050.html], an open source NewtonScript compiler and interpreter for MacOS X, Linux and Windows. (Source: [Paul Guyot|http://marc.10east.com/?l=newtontalk&m=111055258718841&w=2] 2005)
+
+* [C++] for Newton
+
+* DevelopingWabaApplications (see also WabaApplications)
+
+* Some nice articles can be found at [PDA Lifestyle|http://www.pda-lifestyle.de/beitraege/newton] (sorry, German only): [Become a developer in 7 steps|http://www.pda-lifestyle.de/beitraege/newton/7steps/] (NSBasic, Newt, NTK, C++), [NewtonScript-tutorial|http://www.pda-lifestyle.de/beitraege/newton/progtut], [Object-oriented Programming and NewtonScript|http://www.pda-lifestyle.de/beitraege/newton/objekte/], [Prefs for own projects|http://www.pda-lifestyle.de/beitraege/newton/codefrag/prefs/].
+
+* There has also been at least one [course project|http://metcs.bu.edu/~feneric/cs331/Archives/Project2002/] related to developing Newton Books.
+
+* OtherProgrammingLanguages
+
+* NewtonGuts -- Very intimate details about CPU, RAM, ROM, ASIC, Interrrupts and more
+
+%%%
+----
+
+HomePage : DevelopmentResources
+
+--=_multipart_boundary_24
+Content-Type: application/x-phpwiki;
+  pagename=DevelopmentResources;
+  flags="";
+  author=24.61.102.22;
+  version=1;
+  lastmodified=1138040826;
+  created=1162826654;
+  author_id=24.61.102.22;
+  markup=2;
+  summary=Added%20reference%20to%20Newton%20book%20course%20project;
+  hits=1625;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__Newton Software Development Resources__
+
+These links take you to places where you can learn what you need to get started developing for the Newton - what SDKs are available, any tips and tricks, where you can find samples of code and help.
+
+%%%
+Note: You're eager to start developing, but don't know what to start with? Check the NewtonWishLists for stuff that is sorely missed on the Newton.
+
+%%%
+
+* NewtonErrorCodes -- A full listing of the NOS errors.
+
+* NewtonScript -- get quickly started with your development project! Note: You can even use NewtonScript in NewtonBooks if working with BookMaker and NewtonToolKit.
+
+* MakotoNukui (aka [GNUE|mailto:gnue@so-kukan.com]) has released [NEWT/0|http://www.so-kukan.com/gnue/archives/2005/03/newt0_009_20050.html], an open source NewtonScript compiler and interpreter for MacOS X, Linux and Windows. (Source: [Paul Guyot|http://marc.10east.com/?l=newtontalk&m=111055258718841&w=2] 2005)
+
+* [C++] for Newton
+
+* DevelopingWabaApplications (see also WabaApplications)
+
+* Some nice articles can be found at [PDA Lifestyle|http://www.pda-lifestyle.de/beitraege/newton] (sorry, German only): [Become a developer in 7 steps|http://www.pda-lifestyle.de/beitraege/newton/7steps/] (NSBasic, Newt, NTK, C++), [NewtonScript-tutorial|http://www.pda-lifestyle.de/beitraege/newton/progtut], [Object-oriented Programming and NewtonScript|http://www.pda-lifestyle.de/beitraege/newton/objekte/], [Prefs for own projects|http://www.pda-lifestyle.de/beitraege/newton/codefrag/prefs/].
+
+* There has also been at least one [course project|http://metcs.bu.edu/~feneric/cs331/Archives/Project2002/] related to developing Newton Books.
+
+* OtherProgrammingLanguages
+
+%%%
+----
+
+HomePage : DevelopmentResources
+
+--=_multipart_boundary_24--

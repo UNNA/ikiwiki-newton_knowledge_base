@@ -1,0 +1,22 @@
+Date: Tue, 11 Mar 2003 23:32:18 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtonXchange;
+  flags="";
+  author=64.180.125.197;
+  version=1;
+  lastmodified=1047443538;
+  created=1047443538;
+  author_id=64.180.125.197;
+  markup=2;
+  hits=416;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+nXchange is an open source program for connecting to any Newton or the eMate using Linux, via a serial connection.  It hasn't been updated in quite some time and is labeled version 0.1, but what functionality is available works quite well.  [See the nXchange site|http://www.jotabout.com/newton/nxchange/].
+
+Unlike NewtonLink, nXchange is a GUI program, and uses the Motif (Lesstif) controls.  When compiling it, you may need to add the path to your Motif or Lesstif header files in the Makefile if it can't find them.
+
+nXchange requires sloup on the Newton end.
+
+Functionality is limited to installing packages and transferring notes back and forth.  What's nice is that when selecting a note on the newton to export, you can specify a folder and it'll only show you titles of notes in that folder.  You can also save several notes at once to the hard drive as individual files or as one concatenated file.  Transferring text into the Newton is done either by selecting a text file or by pasting or typing text into a text box.

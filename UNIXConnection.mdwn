@@ -1,0 +1,68 @@
+Date: Tue, 11 Apr 2006 14:58:27 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_35"
+
+--=_multipart_boundary_35
+Content-Type: application/x-phpwiki;
+  pagename=UNIXConnection;
+  flags="";
+  author=thedarkbackward;
+  version=2;
+  lastmodified=1144781907;
+  created=1144781907;
+  author_id=thedarkbackward;
+  markup=2;
+  hits=1475;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Connecting to unix or linux with your Newton can be a little trickier a WindowsConnection or a [MacOS987Connection] since Apple never released any native connection software. There are several native programs that allow basic functionality such as installing packages, and [BasiliskII] allows you to run native Mac OS connection utilities once it is set up properly.
+
+To connect physically, you must either have a serial port and the appropriate PC/mac serial cable and dongle, or the PC/newton serial cable with integrated dongle, or an ethernet card for your Newton and appletalk enabled on your unix computer.
+
+Software called Wine has been developed for Linux that allows for the running of software developed for Microsoft Windows. __Newton Connection Utilities__ runs quite well utilizing wine - that is, backup, package installation and __NewtWorks__ export all occur without issue. (This is assuming the latest version of wine.) __Newton Tool Kit__ and __Newton Press__ both run under wine. Although NTK & Newton Press both can't connect to the Newton under wine, everything else functions properly.
+
+(__Question for those who know:__ Does the USB/serial adapter used with Mac OS X work in non-Apple unixes?)
+
+(most USB serial adapters like those from keyspan work with free UNIX clones. Solaris for example doesn't support any USB2Serial Adapters afaik)
+
+----
+!See also:
+*Some of the native programs available are in UnnaReviews, under the ConnectToComputer category. Which operating system programs work with is indicated in the listing.
+*[NewtonConnectivityCD] gives a good collection of connectivity tools for all platforms. A software archive with all freely distributable apps is linked to.
+----
+HomePage :  [UNIXConnection]
+
+--=_multipart_boundary_35
+Content-Type: application/x-phpwiki;
+  pagename=UNIXConnection;
+  flags="";
+  author=84.178.155.72;
+  version=1;
+  lastmodified=1118563332;
+  created=1144781907;
+  author_id=84.178.155.72;
+  markup=2;
+  hits=1475;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Connecting to unix or linux with your Newton can be a little trickier a WindowsConnection or a [MacOS987Connection] since Apple never released any native connection software. There are several native programs that allow basic functionality such as installing packages, and [BasiliskII] allows you to run native Mac OS connection utilities once it is set up properly.
+
+To connect physically, you must either have a serial port and the appropriate PC/mac serial cable and dongle, or the PC/newton serial cable with integrated dongle, or an ethernet card for your Newton and appletalk enabled on your unix computer.
+
+__Newton Tool Kit__ and __Newton Press__ both run under wine. Although NTK & Newton Press both can't connect to the Newton under wine, everything else functions properly.
+
+(__Question for those who know:__ Does the USB/serial adapter used with Mac OS X work in non-Apple unixes?)
+
+(most USB serial adapters like those from keyspan work with free UNIX clones. Solaris for example doesn't support any USB2Serial Adapters afaik)
+
+----
+!See also:
+*Some of the native programs available are in UnnaReviews, under the ConnectToComputer category. Which operating system programs work with is indicated in the listing.
+*[NewtonConnectivityCD] gives a good collection of connectivity tools for all platforms. A software archive with all freely distributable apps is linked to.
+----
+HomePage :  [UNIXConnection]
+
+--=_multipart_boundary_35--

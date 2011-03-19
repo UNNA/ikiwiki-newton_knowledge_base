@@ -1,0 +1,33 @@
+Date: Tue, 8 Jun 2004 18:27:11 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=WabaApplications;
+  flags="";
+  author=24.156.127.194;
+  version=1;
+  lastmodified=1086733631;
+  created=1086733631;
+  author_id=24.156.127.194;
+  markup=2;
+  hits=371;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__Cool Waba Applications for Newtons__
+
+Review Waba-stuff: What runs great on Newton-Waba? Where can it be found? What's it good for? How you rate it?
+
+
+%%%
+__Links__
+
+[Running Waba for the Newton|http://cs.gmu.edu/~sean/projects/newton/waba/docs/RunningWaba.html] -- All the stuff you need to run Waba apps!
+
+[Steve Weyer's Waba apps| http://home.comcast.net/~saweyer/waba/index.htm] offers Ellie'sCountDown, GameOfLife, PicoFermiBagels and a bunch more things.
+
+[Waba Fun and Games|http://www.wabasoft.com/fungames.shtml] -- WabaSoft's favorite 10 applications (many games, link to Steve ;=}, Waba-oscilloscope (!), timer/dice roller, drawing app).
+
+
+%%%
+----
+HomePage : DevelopmentResources : WabaApplications

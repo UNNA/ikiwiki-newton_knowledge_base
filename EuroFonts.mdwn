@@ -1,0 +1,36 @@
+Date: Mon, 22 Nov 2004 11:49:11 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=EuroFonts;
+  flags="";
+  author=PaulGuyot;
+  version=1;
+  lastmodified=1101142151;
+  created=1101142151;
+  author_id=132.227.204.75;
+  markup=2;
+  summary=Add%20a%20link%20to%20the%20Newton%20Fonts%20How-To;
+  hits=249;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+The Newton was shipped before the symbol for the new European currency "Euro" was introduced, so the system fonts don't know it.
+
+This wish is for replacement system fonts with the Euro symbol and for a nice input method for the symbol (adding to on-screen keyboard, teaching the Newton to recognizig it as HWR, ...).
+
+Please please please!
+
+%%%
+
+----
+
+Another patch might be to hack the system / provide an add-on to the system to allow changing of currencies.  What with europe expanding, and all that, a fixed euro zone patch could be out of date soon.  But a euro zone patch (beyond that provided by the 'euroland' hack out there) would be most welcome.
+
+----
+
+As far as the font is concerned, you can port MacOS X roman fonts to the Newton and get the euro symbol on the Newton.
+Cf the [How-To I wrote|http://www.kallisys.com/newton/bowels/]
+
+----
+
+HomePage : NewtonWishLists : SoftwareWishlist : EuroFonts

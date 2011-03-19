@@ -1,0 +1,79 @@
+Date: Sun, 20 Feb 2005 14:44:00 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtonCarChargingAdaptor;
+  flags="";
+  author=81.155.66.14;
+  version=1;
+  lastmodified=1108928640;
+  created=1108928640;
+  author_id=81.155.66.14;
+  markup=2;
+  summary=Page%20for%20NewtonCarChargingAdaptor;
+  hits=468;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+For those interested in powering/charging their Newton device from a 12V car, motorcycle or boat battery, Apple supplied a small adaptor for the purpose which contains a simple but accurate regulator.
+
+__It cannot be stressed enough that powering your MessagePad or Emate from a power source that is not properly regulated or current limited could be fatal for it.__
+
+Always check that the voltage cannot exceed 7.5V under all conditons and observe the correct polarity for the plug that connects with the Newton - the inner pin is positive.
+
+The best thing to use is one of the original Apple mains power supplies. The 7W or 9W versions will power all the Newton models.
+%%%
+
+%%%
+
+!!! Construction
+----
+The adaptor with its red bayonet locking ring attached and the Newton power plug.
+
+[http://www.inventors-emporium.co.uk/images/closed.jpg]
+
+The construction is rather nice for this kind of accessory with a sprung center pin, decent cable clamp and strain relief, a car type blade fuse and an LED to show the unit is receiving power from the vehicle. A bayonet locking adaptor is provided for those vehicles with a matching socket.
+%%%
+
+%%%
+
+With half of the housing removed, the circuit board is exposed. The 3A fuse is the violet object between the board and the cable clamp.
+
+[http://www.inventors-emporium.co.uk/images/opened.jpg]
+%%%
+
+%%%
+
+The circuit board folds open to reveal its foil side, the LED and the sprung center pin.
+
+[http://www.inventors-emporium.co.uk/images/foldedopen.jpg]
+%%%
+
+%%%
+
+Here is a small scan of the card that was included with the adaptor:
+
+[http://www.inventors-emporium.co.uk/images/newtoncaradaptorcard.jpg]
+%%%
+
+%%%
+
+!!! The circuit
+----
+I have disassembled the unit and determined the circuit - it’s the basic configuration for the LM317 regulator chip used in this design.
+
+Download the circuit as a PDF (12k):
+http://www.inventors-emporium.co.uk/files/car_adaptor_circuit.pdf
+
+1% resistors in the voltage setting potential divider ensure a repeatable output voltage.
+
+A datasheet for the LM317 can be found here:
+http://www.national.com/pf/LM/LM317.html
+
+I have tested the adaptor on the bench and it delivers a no-load output voltage of 6.99V for inputs of 9V to 15V (car batteries are normally charged at 14.5V)
+
+With a 400mA load the output drops to 6.75V
+
+I would have preferred that the regulator was attached to a small heatsink but, while it does get hot, it’s within the parameters for the device.
+
+Joel M. Sciamma
+http://www.inventors-emporium.co.uk/

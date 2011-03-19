@@ -1,0 +1,16 @@
+Date: Fri, 7 Feb 2003 18:44:49 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=SmartMedia;
+  flags="";
+  author=AndyBeals;
+  version=1;
+  lastmodified=1044661489;
+  created=1044661489;
+  author_id=128.107.253.39;
+  markup=2;
+  hits=829;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+SmartMedia is also known as "Solid State Floppy Disc Card", or SSFDC.  It is one of the plethora of solid-state storage formats available for digital cameras and voice recorders.  It is also the smallest as it consists of a thin wafer of plastic enclosing the flash chip itself.  SmartMedia's big downfall, aside from worries of fragility, is that its designers did not have the sense to allow for the kind of density increases we have seen in flash storage capabilities or requirements.  Thus, most SmartMedia devices tend to be limited to reading only those of a certain size or under.  Older SM devices would only accept up to 16Mb cards -- lots of photographs when shooting at 640x480 resolution, but only a hand-full of 5 Megapixel images (the top end of what you can buy for under US$1000 as of early 2003).  Subsequent SM devices have had limits of 32Mb, 64Mb and 128Mb.

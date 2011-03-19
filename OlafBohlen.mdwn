@@ -1,0 +1,27 @@
+Date: Sun, 8 Feb 2004 06:47:39 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=OlafBohlen;
+  flags="";
+  author=OlafBohlen;
+  version=1;
+  lastmodified=1076240859;
+  created=1076240859;
+  author_id=212.185.252.139;
+  markup=2;
+  hits=118;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Hello,
+
+my name is Olaf Bohlen and I do things.
+
+I'm a typical Newton user and not a programmer. I got addicted to the Newton in the year 1997 when friends of mine had some.
+I bought my first Newton (MP130) in summer 1999. Soon I decided to buy a better model, so I bought myself a MP2100 in winter 1999.
+My Newton is my "swapped out" brain and I really depend on it.
+
+I'm currently trying to find a way to synchronize the Newton with the CDE (Common Desktop Environment) bundled PIM applications like dtcal, etc.
+Also it would be cool to sync with Lotus Notes5/6...but I think that's impossible :)
+
+If you want to know more of me, you may have a look [here | http://www.sun-powered.de].

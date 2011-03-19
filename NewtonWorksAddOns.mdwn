@@ -1,0 +1,126 @@
+Date: Fri, 17 Sep 2004 12:14:44 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtonWorksAddOns;
+  flags="";
+  author=212.149.48.43;
+  version=1;
+  lastmodified=1095437684;
+  created=1095437684;
+  author_id=212.149.48.43;
+  markup=2;
+  hits=1266;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : NewtonWorksAddOns
+----
+
+For general information see NewtonWorks.
+
+
+
+
+!!Recommended Works Setups
+
+"Subject:    Re: [NTLK] Recommend A Works Set-up
+
+From:       Dan <dan () dbdigitalweb ! com>
+
+Date:       2004-09-15 16:46:23
+
+Woody Smith wrote:
+
+> Worksbetter and WriteStuff add many word processing features and fonts. Worksbetter offers free trial see Stand alone Software see <http://www.standalone.com/newtonos/index.shtml>
+
+> See archives for comments on Writestuff <http://marc.theaimsgroup.com/?l=newtontalk&m=107590231929213&w=2>
+
+> Handwriting works by SAS adds handwriting recognition to Works.
+
+> Merlin and Wordsmith add dictionary and thesaurus.
+
+> I generally prefer Writestuff but Worksbetter can import notes into Newtworks.
+
+> I also like WordNewt, a large standalone dictionary.
+
+> Woody
+
+%%%
+Those are good, but I also like Writestuff from Landware (http://www.landware.com/newton).  It has Merlin, Wordsmith, Pointpro (a caret extension), fonts, style sheets, word counting, and lots of other good tools in one package.  Definitely worth the price.  Just don't use Works Better and the HRW that comes with Writestuff at the same time. Or crashes will occur.  Also I find Writestuff less buggy than Works Better, however I keep it around frozen (in case I need it) because it
+does have a couple of tools that Writestuff lacks.
+
+-Dan"
+
+(Source: [NTLK|http://marc.theaimsgroup.com/?l=newtontalk&m=109526691019799&w=2])
+
+
+%%%
+----
+
+!!Landware Review:  WriteStuff and Merlin
+
+"Subject:    [NTLK] Landware Review:  WriteStuff and Merlin
+
+From:       "gmoody () gmx ! net" <gmoody () gmx ! net>
+
+Date:       2004-02-04 13:43:47
+
+
+I just found this review from my archives on comp.sys.newton.misc.  This covers the functionality pretty well.  I use these tools every day, worth every penny.  Most of the toolset are enhancements to Works, but ProPoint works everywhere, and the spellchecker and thesaurus can be called as standalone windows to check words either written or pasted in.
+
+This package also works and plays well with Standalone's WorksBetter, which adds different structural functionality.
+
+Hope this helps...I'll look for more reviews or write some more.
+
+Regards,
+
+Gary
+
+------------------------------------------------------------------
+
+For all you MP2000 users:
+
+I just received my copy of "the writeStuff" published by LandWare. I purchased a bundle which included Merlin (spell checker) and wordsleuth (thesaurus).
+Thought I'd give you some general impressions of the products.
+
+the writeStuff is a series of packages, add-ins for the MP2000's WP. These modules include:
+
+    1. proPoint 2.0
+    2. Style Sheets
+    3. ScribeWorks
+    4. Word Count
+    5. Tabulator
+    6. CharPicker
+
+Except for ScribeWorks, which is invisible to the user, the rest of these packages show up in the NewtWorks tool popup list. Those of you who want to hand-write in the WP should seriously consider this bundle. The functionality of Scribeworks is a huge improvement over the HWRWorks from standalone. At least it knows how to space words properly. It lets you insert use gestures to insert page breaks, double-tap on words, etc. In addition, it makes the caret functional! The only "bug" I've found so far has to do with commas -- it wants to add a space before the comma. I'll report this to them and see what they say.
+
+proPoint is similar to CaretPro and others -- it creates a "customizable" caret. This customized caret comes with an easy-to-use editor, and some pretty cool features. If you have merlin & wordsleuth, you can launch them from the caret. This is 2000 compliant and very robust, unlike freeware version I was using. I added a "my email" to the list that pops-up when I
+tap the caret, and it looks up my email address and inserts it! tres cool.
+It does more than simple text replacement/insertions. I use this thing _all_ the time. This one alone is worth the cost!
+
+Style Sheets are okay in general, as I have limited use for them. The project I'm working on requires I write some scripts, so it enables me to do the centering, indenting, left-justified pain-in-you-know-where that scripts demand, and it's somewhat automated. An option lets you add a stylesheet button to the WP button bar, and that makes it easier, but it's kind of crowded down there if you're not in landscape mode. Still, it's useful, and it beats doing all of the reformatting by hand. Nice implementation.
+
+Word Count is, essentially, instantaneous, delightful, and direct.
+
+CharPicker is just like the Insert Character table that pops up in Microsoft Word. This is great since you don't have to poke around trying to find what key combo makes the weird, upside-down omega. This is accessible directly through the caret, or through the tool menu. Very nice.
+
+Tabulator I have yet to use, but here's what they say it does: "Tabulator can quickly convert tabs to spaces and vica-versa. This tool is useful for rectifying improperly formatted documents." Well, I'll take their words for
+it. I haven't had a need for this, yet.
+
+The writeStuff package, I believe, has made the WP (almost) as functional as it needs to be. All I need now are headers and footers, with automagic page numbering. I have mentioned this in my email to landware, so we'll see.
+
+merlin is, well, it's a real spell checker -- not that stupid, dinky spell checker provided with Works. It requires nothing special to plug itself into works (it replaces the stupid, built-in one), and has lots of smart features. This has been reviewed elsewhere, but I will state that I need nothing better for real spell checking (this was written on CIM, so forgive the misspells :) )
+
+It is VERY nice to have a real thesaurus on-line. Wordsleuth is pretty clever, and nicely implemented. It, like merlin, is available from the caret as well as from the menu. This makes both products available wherever carets are sold... er... displayed.
+
+So, on a scale from 1 to 10, I'd give this package an 8.7. I am really thrilled with this bundle. If you plan to use Works, don't be without it.
+
+-- Mike Berlyn
+(No affiliation with Landware.)"
+
+(Source: [NTLK|http://marc.theaimsgroup.com/?l=newtontalk&m=107590231929213&w=2])
+
+
+%%%
+----
+HomePage : HowTo : NewtonWorksAddOns

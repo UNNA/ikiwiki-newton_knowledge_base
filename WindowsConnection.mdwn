@@ -1,0 +1,45 @@
+Date: Sun, 12 Jun 2005 04:04:09 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=WindowsConnection;
+  flags="";
+  author=84.178.155.72;
+  version=1;
+  lastmodified=1118563449;
+  created=1118563449;
+  author_id=84.178.155.72;
+  markup=2;
+  hits=7079;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+* NewtonConnectionUtilities (NCU) [ version 1.0 | http://www.unna.org/unna/apple/connection_utils/ForPC/NewtonConnectionUtilites/] runs on Windows 95/98/Me/NT/2000/XP. It can be used with any OS 2.x Newton, but __only__ with serial connections. There is a [NCU Hack|http://newted.dyndns.org/users/bsmith/NCUHack.htm] by Bradley Smith available for Windows and MacOS that speeds up things to 57600 Baud.
+** NCU allows you to transfer .RTF files back and forth between the Newton and the PC.  So you can read and write NewtWorks documents.  It will also do a passthru of your typing:  while NCU is running, you can type information directly into the Newton, including cut-and-pasting text from your PC.
+** "New" Windows PCs (i.e. faster than, say, 166 MHz) may have timing problems with the serial connection between the Newton and the PC.   Use slowdown.exe [http://www.unna.org/unna/windows/] to improve the timing problem.   Machines faster than 1 GHz needs to have 2 copies of slowdown running.
+** Several people have also reported success communicating between Windows and NCU by setting the FIFO buffers to Off, or minimum.  They did not need to use slowdown at all.  Find the FIFO buffers deep inside Windows: Start -->  Settings -->  Control Panel --> System --> Hardware --> Device Manager --> Ports, then right click on the COM port, select properties, select Port Settings, then Advanced.
+* NewtonConnectionKit, or NCK 2.0 is for the older Newton OS 1.3 machines (note the different acronyms! NCU 1.0 is newer than NCK 2.0)
+* NewtonBackupUtility (NBU) installs packages and backs up OS 2.x Newtons.  It can also back up a Newton OS 1.3 device and restore its data to a Newton OS 2.0 device. 57600 Baud transfer speed achievable -- see below.
+* If you have Windows 2000 or XP and an infrared port, you can install three extensions onto your Newton and then easily beam files and even Newton packages to your MP2x00 or eMate.  See [IrDAConnection].
+
+* There's also another third-party tool called [DILTester|http://www.tempel.org/newton/#DILplugin] which will let you install packages and browse soups on your Newton.  It supports both serial and TCP/IP connections, so you can install packages from your PC over a network!  Real Basic must be installed for DILTester to run.
+* Finally, there's a version of [UnixNPI|http://unixnpi.sf.net] {dead link? DJV - 20040428} compiled for Windows.  Richard C. Li's [UnixNPI|http://www.ee.cityu.edu.hk/~clli/unixnpi.html] is a shareware command-line serial port package installer. Note: The Serial 57600, Serial 115200 and Serial 230400 packages for your Newton can be found at Richard's site (it has not been confirmed yet if such speedy connections can be established from Windows or MacOS, would surely be worth investigating...).
+* We can also mention [X-Port], NewtDump, and others here...
+* AbiWord is an open source multiplatform word processor that reads and write Word, WordPerfect, rtf, html, etc. Providing Newton-plugins for the desktop app could improve exchangeability of Newton-generated data with Windows/Unix/Linux/MacOSX-users of AbiWord. / Porting a slimmed-down AbiWord to NewtonOS would teach the Newton all these formats and make exchange of documents with Windows/Unix/Linux/MacOSX-users of any word processor a snap.
+
+__Speedy Serial Connections on Windows__
+
+While serial connections with 115200 or even 230400 Baud are doable on Linux (see above), they have not been shown workable yet on Windows.
+
+57600 Baud are possible, but you need the [Serial 57600 package|http://www.ee.cityu.edu.hk/~clli/unixnpi.html] (also available from [UNNA|http://toronto.unna.org/unna/utilites/system_enhancements/Ser57600]) and you have to moste care-fully edite ye olde Windows registry (find detailed instructions in Ben's [Newton Connection FAQ|http://newted.dyndns.org/users/1f2frfbf/answers.html#3.7]). Perhaps even faster speeds can be set up the same way (at your own risk - your mileage may widely vary!)...
+
+__Network (sic!) Connection on Windows__
+
+The real speed is available when using the NCU Software from the Apple in conjunction with [basilisk|http://www.uni-mainz.de/~bauec002/B2Main.html]. There is already an appropriate disc-image at [UNNA|http://www.unna.org/unna/development/NewtonDev], containing all Newton-relevant tools.
+
+
+
+----
+!See also:
+*[NewtonConnectivityCD] gives another good collection of connectivity tools for all platforms. A software archive with all freely distributable apps is linked to.
+----
+HomePage : WindowsConnection

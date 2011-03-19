@@ -1,0 +1,31 @@
+Date: Tue, 16 Aug 2005 06:12:12 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NotesEnhancements;
+  flags="";
+  author=212.149.48.43;
+  version=1;
+  lastmodified=1124187132;
+  created=1124187132;
+  author_id=212.149.48.43;
+  markup=2;
+  summary=DJV%3A%20Daniel%27s%20brilliant%20NotesWordCount;
+  hits=257;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : SoftwareReviews : [NotesEnhancements]
+----
+
+!!NotesEnhancements
+
+![NotesWordCount v2|http://dev.newtontalk.net/~dpadilla/progs.htm]
+4 KB, Freeware by DanielPadilla, 2004. Adds a "Count Words" option to the routing menu of the Notes Application. Version 2 adds letter and character counts and allows to select multiple notes in overview. Only counts in plain notes - no checklists or outlines.%%%
+Great if you work on an article than needs to meet a certain size!%%%
+%%%
+
+!!???
+
+
+----
+HomePage : SoftwareReviews : [NotesEnhancements]

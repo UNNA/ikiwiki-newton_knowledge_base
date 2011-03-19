@@ -1,0 +1,162 @@
+Date: Mon, 5 Jun 2006 11:53:40 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_6"
+
+--=_multipart_boundary_6
+Content-Type: application/x-phpwiki;
+  pagename=ChangeSystemSounds;
+  flags="";
+  author=DJ%20Vollkasko;
+  version=2;
+  lastmodified=1149522820;
+  created=1149522820;
+  author_id=DJ%20Vollkasko;
+  markup=2;
+  summary=Added%20StartupSound%20by%20Tomoyoshi%20Murai.;
+  hits=880;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : [Audio] : [ChangeSystemSounds]%%%
+HomePage : HowTo : [ChangeSystemSounds]%%%
+----
+!!!Blingy Sounds
+
+How to customize your [Newton]'s sounds for...
+*Alarms (System Sound)
+*Alerts (System Sound)
+*Startup (System Sound)
+*Sleep (System Sound)
+*Package Added
+*Package Removed
+*Package Moved
+*Package Replaced
+
+(Source: Matt-the-K, David Abramowitz and DJ Vollkasko at [NTLK] [July 2005|http://marc.10east.com/?t=112111419100002&r=1&w=2])
+
+* Note: This is kinda the audio pendant to [StephanieMaks]' Blinky Lights Hacks for [eMate|http://www.felesmagus.com/newton/otheremate.html] and [MP2x00|http://www.felesmagus.com/newton/othermp2100.html], only it helps to make the Newton infinitely more annoying to third parties by talking back about every single action... ;=}
+* Recommendation: Set up all the acoustic monstrosities mentioned below, add [ScratchPad 2.0|http://www.stillnewt.org/library/_Software/_Audio] and mp3-player [Mad Max|http://40hz.org/MADNewton],improve your Newton with a batch of blinking lights, and hotglue a mirrorball to your nose. Then you'd be the first kid on your block to have a truly portable disco 'puting experience! (Offer vary while supplies last. Your mileage may good.)
+----
+
+!!"Bling different!"
+
+> Is there a piece of software that will allow the [Newton] to allocate
+> a different sound effect for different functions? For example, I'd
+> like one specific sound to play when the Newton starts, another
+> sound to play when an error is made, another sound to play
+> when the Newton is shut down, etc. Does such an animal exist?
+
+*__A.__ You can set these with on-board means:%%%
+**__Alarm Sound__ in Unfiled Icons/Prefs/Alarm%%%
+**__Alert Sound__ in Unfiled Icons/Prefs/Sound%%%
+*__B.1__ You can use __Sunrise 1.0__ by [Ray Rischpater|http://www.livejournal.com/users/kf6gpe], which allows to set sounds for __Startup__ and __Sleep__. It installs in [Preferences] (Prefs/Sunrise).%%%
+** Download available [here|http://www.stillnewt.org/library/_Software/_Audio/] and [there|http://download.planetnewton.com/download/Util/Security20.htm].%%%
+*__B.2__ Or you can use __[StartupSound 0.15 for NOS 2.x|http://tmurai-web.hp.infoseek.co.jp/computers/freeware/newton/ssound/startupsound.html]__ by [Tomoyoshi Murai|mailto:tmurai@mars.dtinet.or.jp]
+*__C.__ [Tactile]'s __[Package Beeper|http://www.tactile.com/packageBeeper.html]__ goes bling after a package has installed, been moved, replaced or deleted.%%%
+**It accepts any new sounds you've installed and gives you the option to set individualised acoustic alerts on these events:%%%
+***Package Added, Package Removed, Package Moved, Package Replaced.%%%
+**Note: Doesn't bling on transferring packages to the In Box via Bluetooth, only when putting the packages away (via __[IC/VC|http://www.40hz.org/ICVC]__). Would be handy, though, to have Newton advise of completed transfers (from/to) for BT, IR, too, esp. after lenghty book installs. ;=}%%%
+*__D.__ New Sounds
+**Tactile courteously provides new __[sets of sounds|http://www.tactile.com/downloads.html]__: Mac OS 7 sounds (makes Apple users turn their heads...), Star Wars sounds (go home, trekkies!), 2001 sounds (does this have "Hello Dave..."?)%%%
+**__[BuiltIn Sounds|http://www.tactile.com/downloads.html]__ on the same page exposes the built-in sounds to the Sounds popup list, without any new sounds having to be installed (2 k __only__!).%%%
+**What would be cool to have: Sounds from Dr Who, Battlestar Galactica, Mars Attacks...%%%
+** More [Newton Sounds|http://www.unna.org/unna/sounds] incl. original Star Trek and Start Trek Next Generation. Also __[SoundIcons|http://www.unna.org/unna/sounds/SoundIcons]__ to be used in the Sound popuplist (incl. Tricorder -- brings back memoroes of Newton's original __[Tricorder|http://www.unna.org/unna/applications/Tricorder]__ app)...%%%
+***Q: Where else are nice Newton sound packages on the web?%%%
+***Q: What's the difference between the "Sounds" and "SoundIcons" at [UNNA]?
+* __E. [SysPatch 0.5b|http://download.planetnewton.com/download/Util/Security20.htm]__ ([mirror|http://www.stillnewt.org/library/_Software/_Other%20Newton%20Applications/_System%20Patches]) by Hongkong's [Richard C.L. Li|http://www.ee.cityu.edu.hk/~clli/index.html] claims to do something regarding "Global sound functions", whatever that means.%%%
+** Q: Could somebody pls. investigate?
+**Q: What's that Patch improving, anyway?%%%
+* __F.__ [Serg Koren|http://www.visualnewt.com/Products/Newton/Newton.html]'s __[VoiceAlarm 1.0|http://mirrors.unna.org/download.planetnewton.com/download/media/addingsound2.htm]__ allows the use of different recorded sounds as an alarm.%%%
+**Neat way to put ANY sound effect into your Preferences' Sound (Alarm, Sunrise) folders, just record it and it's there!%%%
+*__G.__ SoundOff by DeepFocus.com (Thx, Woo Lee!)
+** What it do?
+----
+!More stupid Newton Audio Fun
+*[Audio]
+*MakeNewtonSpeakText with Macintalk voice synthesis. Use text-to-speech functionality with Notes, ebooks or implement voice synthesis in your development project!
+*MakeNewtonSing - if you want to make your Newton sing Christmas carols (or anything else)
+* __[ModPlayer|http://roger.trideja.com/newton/modplayer.html]__ plays music (.MOD files) at 22Khz mono. (The mod format itself is about 44Khz stereo, but the newton can't do that). A MOD file is a file containing one sample of each instrument which will be used, and a midi-like collection of note information. Alarm and sleep features allow you to use it as an alarm system!
+* [MadNewt/MadMax|Audio] play MP3s on Newton OS 2.1
+----
+HomePage : [Audio] : [ChangeSystemSounds]%%%
+HomePage : HowTo : [ChangeSystemSounds]%%%
+
+--=_multipart_boundary_6
+Content-Type: application/x-phpwiki;
+  pagename=ChangeSystemSounds;
+  flags="";
+  author=AndyVanDerRaadt;
+  version=1;
+  lastmodified=1133377742;
+  created=1149522820;
+  author_id=68.144.66.8;
+  markup=2;
+  hits=880;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : [Audio] : [ChangeSystemSounds]%%%
+HomePage : HowTo : [ChangeSystemSounds]%%%
+----
+!!!Blingy Sounds
+
+How to customize your [Newton]'s sounds for...
+*Alarms (System Sound)
+*Alerts (System Sound)
+*Startup (System Sound)
+*Sleep (System Sound)
+*Package Added
+*Package Removed
+*Package Moved
+*Package Replaced
+
+(Source: Matt-the-K, David Abramowitz and DJ Vollkasko at [NTLK] [July 2005|http://marc.10east.com/?t=112111419100002&r=1&w=2])
+
+* Note: This is kinda the audio pendant to [StephanieMaks]' Blinky Lights Hacks for [eMate|http://www.felesmagus.com/newton/otheremate.html] and [MP2x00|http://www.felesmagus.com/newton/othermp2100.html], only it helps to make the Newton infinitely more annoying to third parties by talking back about every single action... ;=}
+* Recommendation: Set up all the acoustic monstrosities mentioned below, add [ScratchPad 2.0|http://www.stillnewt.org/library/_Software/_Audio] and mp3-player [Mad Max|http://40hz.org/MADNewton],improve your Newton with a batch of blinking lights, and hotglue a mirrorball to your nose. Then you'd be the first kid on your block to have a truly portable disco 'puting experience! (Offer vary while supplies last. Your mileage may good.)
+----
+
+!!"Bling different!"
+
+> Is there a piece of software that will allow the [Newton] to allocate
+> a different sound effect for different functions? For example, I'd
+> like one specific sound to play when the Newton starts, another
+> sound to play when an error is made, another sound to play
+> when the Newton is shut down, etc. Does such an animal exist?
+
+*__A.__ You can set these with on-board means:%%%
+**__Alarm Sound__ in Unfiled Icons/Prefs/Alarm%%%
+**__Alert Sound__ in Unfiled Icons/Prefs/Sound%%%
+*__B.__ You can use __Sunrise 1.0__ by [Ray Rischpater|http://www.livejournal.com/users/kf6gpe], which allows to set sounds for __Startup__ and __Sleep__. It installs in [Preferences] (Prefs/Sunrise).%%%
+** Download available [here|http://www.stillnewt.org/library/_Software/_Audio/] and [there|http://download.planetnewton.com/download/Util/Security20.htm].%%%
+*__C.__ [Tactile]'s __[Package Beeper|http://www.tactile.com/packageBeeper.html]__ goes bling after a package has installed, been moved, replaced or deleted.%%%
+**It accepts any new sounds you've installed and gives you the option to set individualised acoustic alerts on these events:%%%
+***Package Added, Package Removed, Package Moved, Package Replaced.%%%
+**Note: Doesn't bling on transferring packages to the In Box via Bluetooth, only when putting the packages away (via __[IC/VC|http://www.40hz.org/ICVC]__). Would be handy, though, to have Newton advise of completed transfers (from/to) for BT, IR, too, esp. after lenghty book installs. ;=}%%%
+*__D.__ New Sounds
+**Tactile courteously provides new __[sets of sounds|http://www.tactile.com/downloads.html]__: Mac OS 7 sounds (makes Apple users turn their heads...), Star Wars sounds (go home, trekkies!), 2001 sounds (does this have "Hello Dave..."?)%%%
+**__[BuiltIn Sounds|http://www.tactile.com/downloads.html]__ on the same page exposes the built-in sounds to the Sounds popup list, without any new sounds having to be installed (2 k __only__!).%%%
+**What would be cool to have: Sounds from Dr Who, Battlestar Galactica, Mars Attacks...%%%
+** More [Newton Sounds|http://www.unna.org/unna/sounds] incl. original Star Trek and Start Trek Next Generation. Also __[SoundIcons|http://www.unna.org/unna/sounds/SoundIcons]__ to be used in the Sound popuplist (incl. Tricorder -- brings back memoroes of Newton's original __[Tricorder|http://www.unna.org/unna/applications/Tricorder]__ app)...%%%
+***Q: Where else are nice Newton sound packages on the web?%%%
+***Q: What's the difference between the "Sounds" and "SoundIcons" at [UNNA]?
+* __E. [SysPatch 0.5b|http://download.planetnewton.com/download/Util/Security20.htm]__ ([mirror|http://www.stillnewt.org/library/_Software/_Other%20Newton%20Applications/_System%20Patches]) by Hongkong's [Richard C.L. Li|http://www.ee.cityu.edu.hk/~clli/index.html] claims to do something regarding "Global sound functions", whatever that means.%%%
+** Q: Could somebody pls. investigate?
+**Q: What's that Patch improving, anyway?%%%
+* __F.__ [Serg Koren|http://www.visualnewt.com/Products/Newton/Newton.html]'s __[VoiceAlarm 1.0|http://mirrors.unna.org/download.planetnewton.com/download/media/addingsound2.htm]__ allows the use of different recorded sounds as an alarm.%%%
+**Neat way to put ANY sound effect into your Preferences' Sound (Alarm, Sunrise) folders, just record it and it's there!%%%
+*__G.__ SoundOff by DeepFocus.com (Thx, Woo Lee!)
+** What it do?
+----
+!More stupid Newton Audio Fun
+*[Audio]
+*MakeNewtonSpeakText with Macintalk voice synthesis. Use text-to-speech functionality with Notes, ebooks or implement voice synthesis in your development project!
+*MakeNewtonSing - if you want to make your Newton sing Christmas carols (or anything else)
+* __[ModPlayer|http://roger.trideja.com/newton/modplayer.html]__ plays music (.MOD files) at 22Khz mono. (The mod format itself is about 44Khz stereo, but the newton can't do that). A MOD file is a file containing one sample of each instrument which will be used, and a midi-like collection of note information. Alarm and sleep features allow you to use it as an alarm system!
+* [MadNewt/MadMax|Audio] play MP3s on Newton OS 2.1
+----
+HomePage : [Audio] : [ChangeSystemSounds]%%%
+HomePage : HowTo : [ChangeSystemSounds]%%%
+
+--=_multipart_boundary_6--

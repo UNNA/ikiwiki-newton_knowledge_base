@@ -1,0 +1,66 @@
+Date: Sun, 12 Jun 2005 16:10:55 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=TelNet;
+  flags="";
+  author=84.178.129.208;
+  version=1;
+  lastmodified=1118607055;
+  created=1118607055;
+  author_id=84.178.129.208;
+  markup=2;
+  hits=324;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+I managed to enable telnet access on my iBook running 10.2.8 and connected successfully from my MP2100 over WiFi, this is how I did it:
+
+Open Terminal.app
+
+Type this: ''cd /usr/libexec''
+
+Then this: ''sudo -s''
+
+Then your admin password
+
+Then this: ''./telnetd -debug''
+
+Then go to System Prefs and open port 23
+
+Then telnet to your macs IP address (port 23) and login (I've had great fun initiating applications with the open command)
+
+It's not as secure as ssh, but it'll work until someone manages to create a newton ssh client anyway.
+
+Oh, and BTW. It will stop the daemon after you disconnect. If you need to have it enabled all the time, edit the /etc/inetd.conf file so the line:
+
+''#telnet	stream	tcp	nowait	root	/usr/libexec/tcpd	telnetd''
+
+looks like this:
+
+''telnet	stream	tcp	nowait	root	/usr/libexec/tcpd	telnetd''
+
+(i.e. remove the # to uncomment it)
+
+
+You also have to edit the first line in:
+
+''/etc/xinetd.d/telnet''
+
+from:
+
+''disable = yes''
+
+to:
+
+''disable = no''
+
+
+Please note that I have not had time to test this second method so it may not work. You will need to open the port whichever method you use. (to someone with 10.3 or later: Please try this and edit this page to say if it works or not, cheers)
+
+Remember this is telnet, so the usual considerations apply as everything is in plain text!
+
+(The reason why the title says 10.1 or later is because in 10.0.4 and earlier telnet is enablable through the Sharing Prefrence Pane)
+
+Adam
+----
+HomePage : HowTo : TelNet

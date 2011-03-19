@@ -1,0 +1,40 @@
+Date: Thu, 14 Jul 2005 08:40:36 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=WirelessSerial;
+  flags="";
+  author=212.149.48.43;
+  version=1;
+  lastmodified=1121344836;
+  created=1121344836;
+  author_id=212.149.48.43;
+  markup=2;
+  hits=456;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : WirelessSerial
+----
+
+There are devices capable of converting a physical serial connection to a wireless connection.
+
+Such devices can convert a serial connection to a wireless one using a RF component, a bluetooth or a 802.11b chip, with full protocol conversion.
+
+Particularity of such devices is the "transparency" of the signals, which are recognized by more common Bluetooth/WiFi/RF receivers without matter.
+
+Although the transparency of such communications, WEP is still available.
+
+Any MessagePad can communicate through a SerialToWireless converter using default system serial link.
+
+*'Blunt' is not required on SerialToBluetooth sync
+*Some SerialToWiFi interfaces, fully configurable via AT commands, do not need the 'Wave LAN' driver
+
+Take a look to the tested devices list on the SerialToWireless page.
+
+----
+!See also:
+*SerialToWireless
+**SerialToWiFi
+**SerialToBluetooth
+----
+HomePage : HowTo : WirelessSerial

@@ -1,0 +1,53 @@
+Date: Wed, 1 Sep 2004 14:16:46 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=FunWithBooks;
+  flags="";
+  author=216.222.236.175;
+  version=1;
+  lastmodified=1094062606;
+  created=1094062606;
+  author_id=216.222.236.175;
+  markup=2;
+  hits=387;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__Make your Newton read books out loud__
+
+Check MakeNewtonSpeakText for details on how to make your Newton use Apple's MacInTalk technology to read books to you (and sing and dance and...). [NewtonOS2.1] only.
+
+%%%
+
+__Copy whole books to Works__
+
+The very same free [HTMList|http://home.comcast.net/~saweyer/newton/htmlist.htm] by Steve Weyer that reads books for free will also allow you to mark page ranges and copy them to NewtonWorks (NOS 2.1 only) or to "Save As HTML" to Newton Works, Notes or your desktop machine. Example:
+
+* Install NewtonWorks and [HTMList|http://home.comcast.net/~saweyer/newton/htmlist.htm].
+* Set page range via the book's routing menu.
+* Tap "Save to NewtWorks" in routing menu.
+* Wait a moment - for a large book this may take a moment, even on MP2k-machines.
+* Start NewtonWorks - the text will be there (if you can't see it right away, collapse the view with the collapse-dot button next to the button bars up- and down-arrows).
+* In NewtonWorks you can edit the text, export to your desktop computer and use it in other documents.
+
+(Q: Will this also work with exporting to other text editors in the Newton, e.g. AvailWorks?)
+
+%%%
+
+__Better Bookmarks__
+
+Often when you create books from etexts, you find they have not been too well edited -- there are still a lot of typos, scanpos ;=} and wrong linebreaks and whatever. Of course in the built-in book reader you can scrible in a book to e.g. mark something you'd fix and then bookmark this, but the built-in bookmark engine only supports six (6) bookmarks - which is as good as nothing in some cases. Pretty sad, actually.
+
+But there is help: Modasys' freeware [XNewtBook 1.2|http://www.modasys.de/htmls/newton] improves the bookmark functionality and adds comfort: Just scribble your remark on the page, and without even telling the Newton to bookmark that page, XNewtBook marks it by itself. This smart tool saves you three clumsy taps per bookmark, and it remembers as many bookmarks as you need - instead of only six... Reading a book and editing its master document later thus becomes much nicer and faster.
+
+XNewtBook also allows to save your bookmarks to a memory card. However, the "restore" functionality for the bookmarks and the search option are not working (R1.2 on NOS 2.0 and 2.1).  But while the search feature does not work you can use the built-in find of the Newt and by doing a selected search do the same thing.
+
+Q: Has anybody ever gotten the bookmark-backup + restore to work? Any idea how to fix it?
+
+A: It will backup but not restore (you can use a soup editor to restore the backup later if you want).  While the search option does not work, However the "clean" feature for removing old books from the Library soup (removing bookmarks, annotations, etc) only works on NOS 2.1 machines and I recamend doing this periodically if you are a avid reader because the Library soup will just keep growing with every book you install to the system until you clean it with XNewtBook or a soup editor
+
+However to remove them from a NOS 2.0 you will need to use a soup editor.   I use Soup Kitchen to backup and restore the Library soup and for cleaning on a NOS 2.0 machine (but since it only holds 10 books at a time, it is usually not necessary).
+%%%
+----
+
+HomePage : HowTo : MakeNewtonEbooksIndex : FunWithBooks

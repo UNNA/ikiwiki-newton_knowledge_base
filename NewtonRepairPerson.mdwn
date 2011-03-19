@@ -1,0 +1,69 @@
+Date: Tue, 14 Mar 2006 15:58:16 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtonRepairPerson;
+  flags="";
+  author=ThomasTempelmann;
+  version=1;
+  lastmodified=1142369896;
+  created=1142369896;
+  author_id=212.202.193.236;
+  summary=Restored%20page%20that%20got%20spammed%20over;
+  hits=2948;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__Newton Repairs__
+
+These are people who have indicated that they are able to fix Newtons.  Hopefully this information will stay up-to-date.  If you are adding yourself or someone else, please give a reference to where you got the information (link to NTLK archive, website, etc.)  Don't use this page to make remarks about quality of service.  Make a new node for that if you like.
+
+Please click on the link for each person to obtain more details about their services and their contact information.
+
+[J & K Sales, Inc.|http://www.jksalesinc.com/catalog/], Campton, Kentucky, USA - J & K Sales will fix most Newton MP2x00 problems for a reasonable fee.  The company also offers a MP2000 to MP2100 upgrade and SER-001 board installation.  They also sell MP2x00 units and accessories.
+
+[Frank Gruendel|http://www.pda-soft.de/], Germany - Frank will fix most eMate and Newton problems for a negotiable fee.  He has quite a collection of spare parts, and has also written a variety of self-repair articles for his website.
+
+[Ferdi Ozguner|http://www.angelfire.com/oz/newtonian], Alberta, Canada - Ferdi is able to do most repairs for MP2x00 machines.  He can also install white blue or stock green backlights and accelerate MP2x00s to 220 MHz.  He also will install the speed boost upgrade on eMate 300's as well as the aforementioned backlight services.  He repairs any problem with the Newton 2000 or 2100 as well as being able to install the Hinge Repair on the eMate.  Ferdi has also custom manufactured an emate ribbon display cable and offers these cables for $49 including shipping, he will also install this cable for users with this problem.  Ferdi also rebuilds battery packs for the Newton 2000/2100 and eMate.
+
+[Doug Parker |http://marc.theaimsgroup.com/?l=newtontalk&m=105233198019778&w=2], Orlando, FL, USA - MP2x00 jaggie removal, MP2x00 batteries upgraded, __[Newtway|http://www.ispinn.com/Newtway]__ stowaway keyboard connector. The battery conditioning uses a method that splits the pack down the original seams, so on reassembly, the battery pack still appears OEM.[email Doug |mailto:dougp@ispinn.com]  [ispinn pictures web site|http://www.ispinn.com]
+
+[Newtonian Paradise|http://newtonsales.com], Canada - offers some replacements parts as well as repair services.
+
+
+%%%
+%%%
+__Newton Battery Rebuilders__
+
+These people and companies offer recelling services for Newton battery packs or related stuff:
+
+[Batteries America|http://www.batteriesamerica.com] offer tabbed AA cells for recelling the 2x00 battery pack (thanks [Eric!|http://marc.theaimsgroup.com/?l=newtontalk&m=107115242630139&w=2]).
+
+[BBM Battery Specialists|http://www.bbmbattery.com] in Mississauga, Ontario (Canada) recell Newton battery packs (thanks [Ravindra!|http://marc.theaimsgroup.com/?l=newtontalk&m=106546954026920&w=2]).
+
+[eBatts.com|http://www.eBatts.com] in Newbury Park, California, [rebuild your batteries|http://marc.theaimsgroup.com/?l=newtontalk&m=104904955116573&w=2].
+
+FrankGruendel, Germany - Frank's excellent [website|http://www.pda-soft.de] gives detailed information on how to recell Newton battery packs yourself. Feeling shy about doing this? Don't worry, he also offers a [recelling service|http://marc.theaimsgroup.com/?l=newtontalk&m=107315200216318&w=2].
+
+[Interstate Battery|http://www.ibsa.com] offer a 2x00 recelling service, see [NTLK|http://marc.theaimsgroup.com/?l=newtontalk&m=106450343509242&w=2].
+
+[Stephanie Maks|http://www.felesmagus.com/newton/otheremate.html] of ["Blinky Lights"-fame|http://www.felesmagus.com/newton/othermp2100.html] tells you [how to replace the battery pack|http://www.felesmagus.com/newton/otheremate.html] of an [eMate] with a 4x AA battery tray for using either NiMH or alkaline cells. Pretty neat, if I may say so!
+
+[Josh Musket|http://marc.theaimsgroup.com/?l=newtontalk&m=108334380517819&w=2] is starting a recelling project in the US (Spring 2004).
+
+[Ferdi Ozguner|http://www.angelfire.com/oz/newtonian], Alberta, Canada, recells battery packs, too. Often sells them through Ebay.com .
+
+[Doug Parker |http://marc.theaimsgroup.com/?l=newtontalk&m=105233198019778&w=2], Orlando, FL, USA. Battery conditioning with a method that splits the pack down the original seams, so on reassembly, the battery pack still appears OEM.[email Doug |mailto:doug@ispinn.com]  [ispinn pictures web site|http://www.ispinn.com]
+
+[Power Warehouse|http://www.powerwarehouse.com] [recell yer batts|http://marc.theaimsgroup.com/?l=newtontalk&m=101855727014410&w=2].
+
+[Newtonian Paradise|http://newtonsales.com], Canada
+
+*See also BatteryPacks and BatteryReconditioning.
+
+
+%%%
+----
+FixIt%%%
+HardWare%%%
+----
+HomePage : HardWare : NewtonRepairPerson

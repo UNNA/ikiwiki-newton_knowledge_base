@@ -1,0 +1,16 @@
+Date: Tue, 4 Apr 2006 10:13:53 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=admin;
+  flags="";
+  author=admin;
+  version=1;
+  lastmodified=1144160033;
+  created=1144160033;
+  author_id=admin;
+  markup=2;
+  hits=247;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+[admin] is the administrator of this wiki.  It's VictorRehorst.

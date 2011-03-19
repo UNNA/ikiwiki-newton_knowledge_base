@@ -1,0 +1,64 @@
+Date: Fri, 15 Jul 2005 03:51:57 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=AddressBookNamesSynchronizationTcpIpEthernetICVC;
+  flags="";
+  author=168.202.70.5;
+  version=1;
+  lastmodified=1121413917;
+  created=1121413917;
+  author_id=168.202.70.5;
+  hits=470;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Maybe somebody can find my contacts synchronization scheme useful. All my searches on the subject did not throw the light I would have so much appreciated and that would have spared me quite several tests.
+
+__The Problem__
+
+To transfer/synchronyze Address Book and Names between a PowerBook G4 (i.e. no serial, no IrDA) and a Newton [MessagePad2100] through TCP/IP on a direct Ethernet connection. Entries have multiple e-mails, multiple telephones, multiple addresses.
+
+__A possible solution__ (it is more straightforward than what it looks like)
+
+After numerous tests with other synchronization/transfer applications (none of which was successful or acceptable, at least for me), this is the method I follow now with [IC/VC | http://40hz.org/ICVC/] by Eckart Köppen to transfer contacts __from__ the PowerBook __to__ the Newton on a direct Ethernet connection with [DockTCP/IP | http://www.kallisys.com/newton/dcl/] from Paul Guyot. So far I am happy with this solution and I still have to test the opposite stream (on the other hand I can only envisage some issues in merging the entries in Address Book as I do not recall it has as many options as [IC/VC | http://40hz.org/ICVC/]).
+
+Unsurprisingly: (N) is Newton and (PB) is PowerBook.
+* (N) Let's consider the Newton already prepared for Ethernet, loaded with [DockTCP/IP | http://www.kallisys.com/newton/dcl/] and [IC/VC | http://40hz.org/ICVC/], and connected to the PowerBook through an Ethernet connection.
+* (PB) For ease of use I created a "Local TCP/IP" Location that I use for any direct Ethernet connection between PB and N: in this Location I just assign an IP to the PB. Maybe you don't need to but I do.
+* (N) Again for ease of use, I created a "Local TCP/IP" Internet Setup where I set the Ethernet card and a local IP address, of course different than the PB one; this "Local TCP/IP" Internet Setup is used in my "Local TCP/IP" worksite.
+* (PB) In Address Book I prepare a single vcf ("contacts.vcf") with all my contacts: Select All-Export vCard.
+* (PB) I set the PB web sharing to active (System Preferences/Sharing/Personal Web Sharing)
+* (PB) I paste the "contacts.vcf" in /Library/!WebServer/Documents/.
+* (PB) I activate the "Local TCP/IP" Location.
+* (N) In/Out-Receive-FetchURL to !http://IP.of.PB/contacts.vcf, using the "Local TCP/IP" Internet Setup from the "Local TCP/IP" worksite, i.e. connecting to the IP of the PB.
+* (N) The vcf is transferred to In/Out, then I select the entry and Put_Away-[IC/VC | http://40hz.org/ICVC/]
+* (N) All the contacts are transferred to Names (duplications are managed according to the preferences set), maintaining the multiple telephones, multiple addresses and multiple emails of each contact. As far as I know and tested, this is *not* possible with any other synchronization/transfer system (it was not possible with me... Italian OS X and English speaking Newton?).
+* A small drawback: organizations in Address Book become "Untitled Person" under Names and their name is the first entry of the card but I can either not to use "organizations" contacts in Address Book or duplicate their name in the "Surname" field (I am going with this option and I see organizations as "persons" under Names).
+* Another small drawback (at least for me): notes entry in Address Book are not transferred. I did not investigate this issue any further.
+
+__The suggestions__
+
+Are welcome!
+
+__The stuff__
+
+* PowerBook G4 17", 1.33 GHz, 512 MB, OS X 10.3.9, Address Book 3.1.2
+* Newton [MessagePad2100] with OS 2.1 (717260-1)
+* Ethernet 3Com Megahertz 3CCE589ET
+* The "Ethernet cable that was coming with the PowerBook G3 Series 233MHz in '98"
+* [IC/VC | http://40hz.org/ICVC/] Version: 2.4.1
+* [DockTCP/IP | http://www.kallisys.com/newton/dcl/] Version 1.2
+* contacts.vcf is 156kB with 179 entries
+
+Many, many details and other tests are still to be studied, I know, but I hope this may help for the meanwhile.
+Many, many thanks to Eckart Köppen and Paul Guyot for [IC/VC | http://40hz.org/ICVC/] and [DockTCP/IP | http://www.kallisys.com/newton/dcl/] respectively!
+
+Greetings and salutations from Italy
+%%%
+----
+Editor
+
+20050715 Giulio emfdb_at_tiscali_dot_it
+
+----
+HomePage : HowTo

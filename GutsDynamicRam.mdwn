@@ -1,0 +1,18 @@
+Date: Mon, 6 Nov 2006 16:28:32 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=GutsDynamicRam;
+  flags="";
+  author=MatthiasMelcher;
+  version=1;
+  lastmodified=1162848512;
+  created=1162848512;
+  author_id=MatthiasMelcher;
+  markup=2;
+  hits=47;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Not much to say here: The 32bit wide 4MB RAM is mapped to the physical address 04000000 etc. . It will however be divided into many little blocks and mapped all over the place by the MMU. It will also be read and written constantly by the CPU, DMA (Audio, Serial Ports, Screen) and the MMU.
+
+The dynamic RAM loses all its contents when the power is interrupted. NewtonOS takes care that you won't lose data and store stuff in the Flash.

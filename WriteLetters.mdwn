@@ -1,0 +1,27 @@
+Date: Tue, 17 May 2005 20:33:54 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=WriteLetters;
+  flags="";
+  author=165.121.147.148;
+  version=1;
+  lastmodified=1116376434;
+  created=1116376434;
+  author_id=165.121.147.148;
+  summary=added%20my%20tips%2C%20feel%20free%20to%20integrate%20it%20into%20the%20wiki%20if%20you%20wish.%20-%20Hardy%20Machia;
+  hits=578;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+You can get an idea of what the Newt is looking for in print recognition if you ask the Newt nicely. %%%
+From Notepad, select the "A" in the lower left hand corner and select Preferences. From the next window, select Options. Then click on the "Cursive" Button (yeah, I know, but you need this to get the Newt to tell you how to make the letters).%%%
+From this window select Options again and from the pop-up select Letter Shapes.%%%
+From here, you can fine tune the Newt to recognize your particular writing style or if you click on the letter at the top of the screen (after you've selected the problem letter) it will draw the letter. Observe how the Newt draws the letter. If you draw the letter (after you return back to printed mode) in the same manner as the Newt did, you will improve the accuracy by quite a bit!%%%
+I don't know if selecting the letter drawing style in cursive will affect the print recognizer, but I did it anyway...besides, it's interesting to go through all the characters and see exactly how the Newt does it...%%%
+Posted to NTLK by
+Ed
+web/gadget guru
+
+!External tips for handwriting recognition
+
+[Handwriting Tips for Newton Power Users  | http://www.catamount.com/HWRTips/HWRTips.html]

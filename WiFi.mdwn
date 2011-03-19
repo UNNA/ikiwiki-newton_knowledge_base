@@ -1,0 +1,128 @@
+Date: Thu, 30 Mar 2006 13:58:39 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=WiFi;
+  flags="";
+  author=VictorRehorst;
+  version=1;
+  lastmodified=1143745119;
+  created=1143745119;
+  author_id=204.225.173.9;
+  hits=14257;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!!!Wifi.
+!!It's a beautiful thing. %%%
+The ability to connect our devices wirelessly to complex networks of vast data has been a dream since we first saw Star Trek. By the time 802.11b (Airport, as Apple likes to call it) had hit the streets, the Newton had been thrown out the door. Wireless connectivity didn't seem possible for the Newton, but it was, and it is.
+
+Hiroshi Noguchi has [developed a suite | http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] of EthernetDrivers (currently unavailable for purchase) which enable the Newton to utilize any one of the readily [ available | http://www.pricewatch.com/1/211/3550-1.htm], [inexpensive | http://search.ebay.com/ws/search/SaleSearch?sacategory=44995&ht=1&from=R10&satitle=wavelan&sospellrecommendation=0&catref=C1&basicsearch=&sosortproperty=1] Wireless 802.11b compatible cards.
+
+!!Which Cards?
+* Generally
+**Hiroshi's [ page | http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] contains the compatibility list. Briefly, any 5 volt Lucent/Orinoco/Agere WaveLAN (Turbo bronze, silver, and gold) card will work (Avaya Wireless ETS card Gold (by Lucent) works). Also, certain Farallon Skyline, Elsa !AirLancer, Tekram, Dell, Intel, and Linksys cards have been reported to work. Make sure the card is rated for __5V__!!! Other voltages, like 3.3V, can kill your Newton
+
+A number of Newton users have reported problems with the Lucent Turbo Bronze card.  It is not WEP capable but has been reported to work with the Airport Graphite.  Success was reported with P/N: 011498/ A.
+Bronze card does not work in the Newton.
+
+!!Setting it Up
+
+Assuming you have installed all necessary EthernetDrivers, the Internet Setup package, and Hiroshi's Driver itself, you are ready to set up your connection.
+* Open Internet Setup, tap New menu, select Generic Setup
+* Select "Ethernet" from the "Connect Using" menu, tap Continue
+* Give the set-up a name (eg ''wireless'')
+* Select "DHCP" from the "Configuration" menu
+**''(this assumes you are using DHCP of course. Enter a static address if you know what to use. Most Wireless routers are running DHCP)''
+* Next select your card from the "Card" menu (eg ''D-Link DWL-650''), tap continue
+* Domain Name is normally left blank, so tap "Done"
+* Close Internet Setup
+%%%
+* Open Owner Info, choose or create a Work Site (eg ''Home'')
+* Tap the "Add" menu, select "802.11b WaveLAN Setup"
+* Enter the SSID (name) of the wireless network (eg ''Hillview'')
+** make sure the "Mode" is set to "Infrastructure"
+* If you are not using WEP encryption, then you're done! If you are using WEP, read on...
+
+!!WEP
+WEP encryption is in place on many wireless netowrks. The encryption attempts to ensure that only authourized users can access the network resources. To gain access to the network, your client (in this case, the Newt) must provide the authentication password (WEP Key) to the access point or wireless router. WEP is supported in the current (registered) version of the driver, but getting the card working with wep may cause headaches. There are many types of wireless access points and routers, and there are several flavours (or more accurately, strengths) of WEP. And of course 802.11''g'' throws everything into confusion. Just remember: WEP comes in 40-, 64-, and 128-bit encryption. Your card might support one, many, or all of these different encryptions.
+%%% To set up WEP, go to your Owner Info/!WorkSites info to view or edit WEP settings. Most WEP keys are in hex; if this is the case make sure the "WEP Key" menu is set to "Hex". In the line provided, enter the key. Also be sure the "use WEP" box is checked.%%%
+Until someone more experienced (I don't use wep) finishes up this section for me, please search the NewtonTalk [ Archives | http://marc.10east.com/?l=newtontalk&r=1&w=2] for information on WEP or wireless Newting in general.%%%
+Note added by different user: my card is labelled 'Encryption 128RC4' (Avaya Gold ETS card). It works without encryption as well as with 128 WEP. But NOT with 40 WEP.%%%
+
+Hiroshis driver works in demo mode with WEP - so you can try out WEP as well as connection as such.%%%
+
+Setup instructions for sharing your network connection on a Macintosh running Mac OS X can be found at [newtenlightenment | http://www.newtenlightment.de/support.html]
+
+----
+
+Here's some more hints / tips.
+
+First off, you will need to solve the bootstrapping problem for your newt to get this working.  See the bootstrapping page for more on that particular can of worms.
+
+You need the following installed on the newt (I'm assuming a MP2x00 / eMate here, wireless may be possible with the older newts but I'm not sure)
+
+NIE 2.0 parts (available from [unna | http://www.unna.org/unna/apple/software/Internet/NIE2/] in the enetsup and regpkgs directories).  These provide the basic ability to talk to a generic pcmcia etherent card, and give you a tcp/ip stack.  A good start, I'm sure you'll agree.
+*inetstup.pkg
+*inetenbl.pkg
+*newtdev.pkg
+*enetsup.pkg
+
+Now we need a driver for the wifi card itself.  for the moment, there's only one of these - Hiroshi's driver, linked at the top of the page.
+
+Depending on your card, you may or may not need !LanternPatch and / or !MoreWiFiCards, available from [Kallisys | http://www.kallisys.com/newton/rustines/en]
+
+NIE is buggy with respect to DNS (and doesn't support rendezvous / zeroconf).  There is a patch for this, unsurprisingly enough called NIE-Patch.  It's also available from [Kallisys | http://www.kallisys.com/newton/rustines/en]
+
+And that should be enough to get the newt to talk to the card itself.
+
+Now you need to make some settings, and thus, networking decisions.  Some of these, depending on your network, may have already been made for you.  Most of these settings are made on a 'per worksite' basis, which means you can have multiple worksites for multiple connections.  Gotta love the way the newton's sorted, really.
+
+There are basically two settings you need to worry about.
+
+#The first is the the card setup itself.  This is the little slip that pops up when you wham the card into the newton, and it defines the card mode, network ssid, wep settings, etc.  For a start, and unless you know a load more about wireless than me, I'd suggest leaving the card in infrastructure mode, putting in the ssid, leaving wep turned off and leaving it at that.  In certain cases (i.e. mine, where I'm linking to my powerbook, which is a machine to machine network), you don't even need an ssid
+
+#The next one is the internet setup.  This is extremely similar to the basic internet setup used on any computer.  The main question here is, 'How is my newton going to get its IP address?', and this is a question with 2 possible answers:  Static, or DHCP.
+
+*DHCP is where your newton pops onto the newtwork and asks for an IP address, along with a bunch of other stuff.  A friendly DHCP server gives it that information, and you're on your way without entering a single IP manually.  Most access points provide DHCP servers.  There are a few cases where this can go wrong, normally on private big company networks where the MAC id (which is nothing to do with Apple, it's just the card's unique identifier) of your network card has to be approved before you can get DHCP'd.  If you're in this case, I'd suggest noting down the MAC (it's a 12 digit hex number) and talking to your friendly network admin, carefully not mentioning it's for your newton.  Network admins are notoriously unhelpful unless the piece of equipment in question is on their approved list, which I can almost guarantee your newton isn't...
+
+*If you're using a machine-machine network, or don't have a dhcp server, or just don't believe in DHCP magic, you'll need to set up a static IP address for the newton.   This must be on the same subnet as the bridge/router/access point/computer you're talking to, or you're going to be SOL when you try to connect.  Typically, the subnet is the first 3 numbers of the machine's IP address.  If, for example, your router is on IP address 192.168.1.1, your subnet is 192.168.1.  Now we need to pick an IP address for the newton.  this must be on the aforementioned subnet, and should not already be in use, lest very bad voodoo occurs.  So, we will enter our IP address, the router's IP address, our subnet mask (which is made up by replacing the numbers in the subnet with 255, and everything else with 0 - in the above, and indeed, most, cases this is 255.255.255.0).  And then we need the IP of a friendly DNS server.  this might be a cacheing dns proxy on your net, your ISP's DNS server, or just some random DNS server out on the net somewhere.
+
+In both cases, you can also put a domain name in, this is used to help dns queries but is non-mandatory.
+
+Now you have a newton ready to connect to the 'net.  Get some mail or web browsing software, set that up, and away you go.  enjoy.
+
+And here's a few details on my home setup, just for giggles.
+
+*The newt is a 2100 using a Cabletron !RoamAbout card, static IP of 192.168.1.65, set to infrastructure mode, no wep, no ssid set.
+
+*It talks to the net through a PBG4 with airport card, running 10.3.4 set up to provide a machine-machine network called 'turboslab'.  Don't ask.  The powerbook has an IP of 192.168.1.3
+
+*also on the powerbook is my dialup connection, which has a dynamic IP provided by my ISP
+
+*also also on the powerbook is a hookup to my wired ned, with an IP of 192.168.0.3.  Note the 0, as opposed to the 1 in the wireless setup.  Different subnets, innit.  On this subnet are my file server, 3 other macs, 2 printers and (ugh) a PC.
+
+*And finally on the powerbook is !BrickWall, a rather wonderful piece of firewall and routing software.  Actually, all it does is provide a nice interface to the stuff already in the OS, but it's damn good.  This is set to do NAT and firewalling on ppp0 (dialup) and route to both wired and wireless networks.  With the exception of the PC.  the PC isn't allowed anywhere near the internet.  This turns the powerbook into a handy 3 - way bridge, but leaves everyone else in the cold when I'm away on business.
+
+Oh, and I've also got Dock TCP/IP installed on the newt, which happily talks to escale for package installation, and NewtSync for syncing.  I am a happy bunny.
+----
+!See also
+
+EtherNet
+
+EthernetDrivers
+
+[NewtonEthernet | http://www.chuma.org/newton/ethernet/]
+
+HardWare
+----
+HomePage : WiFi
+
+HomePage : AirPort : WiFi
+
+HomePage : BootStrapping : WiFi
+
+HomePage : HardWare : WiFi
+
+HomePage : InterNet : WiFi
+
+HomePage : NewtonNewbieGuide : DesktopConnectionHardware : WiFi

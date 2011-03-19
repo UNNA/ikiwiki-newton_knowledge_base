@@ -1,0 +1,175 @@
+Date: Sun, 27 Aug 2006 08:34:25 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_11"
+
+--=_multipart_boundary_11
+Content-Type: application/x-phpwiki;
+  pagename=BluetoothCards;
+  flags="";
+  author=se6ciocco;
+  version=3;
+  lastmodified=1156682065;
+  created=1156682065;
+  author_id=se6ciocco;
+  markup=2;
+  hits=3201;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : UsingBluetoothIndex : BluetoothCards%%%
+HomePage : HardWare : BluetoothCards%%%
+----
+
+!!Bluetooth
+
+Bluetooth is a medium to short distance (1m up to 100m) wireless standard. It can be used for serial connections, as a cable replacement. It also allows Object Exchange (OBEX) like IrDA and web-sharing (TCP via BT).
+
+[Blunt|http://www.40hz.org/Blunt] is a Bluetooth-driver for the Newton.
+
+
+
+%%%
+!!Blunt-supported Bluetooth Hardware
+
+The NewtonMessagePad can make use of Bluetooth with a driver from [Eckhart Köppen|http://www.40hz.org/]. There are some cards, both PCMCIA and CompactFlash, which are supported:
+
+* Sphinx PICO Bluetooth PCMCIA card (available here: [http://NewtonSales.com]) and on [Adriano's website|http://notwen.com/bluetooth]
+* Taiyo Yuden internal UART modules
+* AmbiCom Air2Net BT2000CF and BT2000E
+* Conceptronic CBT100C with UpdatedFirmware (ask DanielPadilla)
+
+
+Not working is the following hardware:
+
+* Belkin Bluetooth PC Card (a CardBus card)
+* 3com Wireless PC Card (incompatible serial chip)
+* IBM Bluetooth PC Card (incompatible serial chip)
+
+----
+
+!See also:
+
+*The [Blunt|http://www.40hz.org/Blunt] webpage for more details and the Blunt driver packages%%%
+*BluntSetup for "The Complete Moron's Manual(TM) to Blunt Setup"%%%
+*PowerConsumption%%%
+
+
+----
+HomePage : HowTo : UsingBluetoothIndex : BluetoothCards%%%
+HomePage : HardWare : BluetoothCards%%%
+
+--=_multipart_boundary_11
+Content-Type: application/x-phpwiki;
+  pagename=BluetoothCards;
+  flags="";
+  author=danielpadilla;
+  version=2;
+  lastmodified=1144435707;
+  created=1156682065;
+  author_id=danielpadilla;
+  markup=2;
+  hits=3201;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : UsingBluetoothIndex : BluetoothCards%%%
+HomePage : HardWare : BluetoothCards%%%
+----
+
+!!Bluetooth
+
+Bluetooth is a medium to short distance (1m up to 100m) wireless standard. It can be used for serial connections, as a cable replacement. It also allows Object Exchange (OBEX) like IrDA and web-sharing (TCP via BT).
+
+[Blunt|http://www.40hz.org/Blunt] is a Bluetooth-driver for the Newton.
+
+
+
+%%%
+!!Blunt-supported Bluetooth Hardware
+
+The NewtonMessagePad can make use of Bluetooth with a driver from [Eckhart Köppen|http://www.40hz.org/]. There are some cards, both PCMCIA and CompactFlash, which are supported:
+
+* Sphinx PICO Bluetooth PCMCIA card (available here: [http://NewtonSales.com])
+* Taiyo Yuden internal UART modules
+* AmbiCom Air2Net BT2000CF and BT2000E
+* Conceptronic CBT100C with UpdatedFirmware (ask DanielPadilla)
+
+
+Not working is the following hardware:
+
+* Belkin Bluetooth PC Card (a CardBus card)
+* 3com Wireless PC Card (incompatible serial chip)
+* IBM Bluetooth PC Card (incompatible serial chip)
+
+----
+
+!See also:
+
+*The [Blunt|http://www.40hz.org/Blunt] webpage for more details and the Blunt driver packages%%%
+*BluntSetup for "The Complete Moron's Manual(TM) to Blunt Setup"%%%
+*PowerConsumption%%%
+
+
+----
+HomePage : HowTo : UsingBluetoothIndex : BluetoothCards%%%
+HomePage : HardWare : BluetoothCards%%%
+
+--=_multipart_boundary_11
+Content-Type: application/x-phpwiki;
+  pagename=BluetoothCards;
+  flags="";
+  author=ThomasTempelmann;
+  version=1;
+  lastmodified=1142177460;
+  created=1144435707;
+  author_id=212.202.193.236;
+  markup=2;
+  summary=added%20link%20to%20%22NewtonSales.com%22;
+  hits=3201;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : UsingBluetoothIndex : BluetoothCards%%%
+HomePage : HardWare : BluetoothCards%%%
+----
+
+!!Bluetooth
+
+Bluetooth is a medium to short distance (1m up to 100m) wireless standard. It can be used for serial connections, as a cable replacement. It also allows Object Exchange (OBEX) like IrDA and web-sharing (TCP via BT).
+
+[Blunt|http://www.40hz.org/Blunt] is a Bluetooth-driver for the Newton.
+
+
+
+%%%
+!!Blunt-supported Bluetooth Hardware
+
+The NewtonMessagePad can make use of Bluetooth with a driver from [Eckhart Köppen|http://www.40hz.org/]. There are some cards, both PCMCIA and CompactFlash, which are supported:
+
+* Sphinx PICO Bluetooth PCMCIA card (available here: [http://NewtonSales.com])
+* Taiyo Yuden internal UART modules
+* AmbiCom Air2Net BT2000CF and BT2000E
+* Conceptronic CBT100C with Updated Firmware (ask DanielPadilla)
+
+
+Not working is the following hardware:
+
+* Belkin Bluetooth PC Card (a CardBus card)
+* 3com Wireless PC Card (incompatible serial chip)
+* IBM Bluetooth PC Card (incompatible serial chip)
+
+----
+
+!See also:
+
+*The [Blunt|http://www.40hz.org/Blunt] webpage for more details and the Blunt driver packages%%%
+*BluntSetup for "The Complete Moron's Manual(TM) to Blunt Setup"%%%
+*PowerConsumption%%%
+
+
+----
+HomePage : HowTo : UsingBluetoothIndex : BluetoothCards%%%
+HomePage : HardWare : BluetoothCards%%%
+
+--=_multipart_boundary_11--

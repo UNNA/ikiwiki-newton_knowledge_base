@@ -1,0 +1,109 @@
+Date: Tue, 27 Jun 2006 13:05:55 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_44"
+
+--=_multipart_boundary_44
+Content-Type: application/x-phpwiki;
+  pagename=EckhartKoppen;
+  flags="";
+  author=EckhartKoeppen;
+  version=4;
+  lastmodified=1151427955;
+  created=1151427955;
+  author_id=EckhartKoeppen;
+  markup=2;
+  hits=113;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+This page is here in case you couldn't figure out what to do with the ö character in my last name. This is my actual page: EckhartKoeppen.
+
+--=_multipart_boundary_44
+Content-Type: application/x-phpwiki;
+  pagename=EckhartKoppen;
+  flags="";
+  author=EckhartKoppen;
+  version=3;
+  lastmodified=1151426749;
+  created=1151427955;
+  author_id=EckhartKoppen;
+  markup=2;
+  hits=113;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Here's my setup... the most important use cases for my Newton are:
+
+* My Newton is for most information I keep my main data storage, I like to have all important things in one place - synchronizing never works properly anyway
+* It is my main address book
+* It keeps all important notes
+* I use it in a GtdSetup for tracking tasks and projects
+
+And this is what I don't use my Newton for (that somehow implies that I also won't be working much on software in these areas):
+
+* EMail: I just get too much email, and most of it also has attachments which I can't read on the Newton anyway.
+* Web browsing: The Newton is not powerful enough for a true web browsing experience, mostly due to the limited amount of RAM. But things like JavaScript or SSL don't make things easier either.
+* Entering calendar data: This is very similar to email, I'm using Outlook, and so do the people I work with, so the only way I use the Newton for calendar information is to have a snapshot of upcoming appointments
+* True synchronizing with either a Mac or a PC. However, SyncML is something I have been looking into time and again, maybe I'll get around to doing something with it at some point!
+* MP3 playback: Even though I implemented MadMax, I also have an iPod and listen usually to Internet radio.
+
+--=_multipart_boundary_44
+Content-Type: application/x-phpwiki;
+  pagename=EckhartKoppen;
+  flags="";
+  author=EckhartKoppen;
+  version=2;
+  lastmodified=1151426720;
+  created=1151426749;
+  author_id=EckhartKoppen;
+  markup=2;
+  hits=113;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Here's my setup... the most important use cases for my Newton are:
+
+* My Newton is for most information I keep my main data storage, I like to have all important things in one place - synchronizing never works properly anyway
+* It is my main address book
+* It keeps all important notes
+* I use it in a GtdSetup for tracking tasks and projects
+
+And this is what I don't use my Newton for (that somehow implies that I also won't be working much on software in these areas):
+
+* EMail: I just get too much email, and most of it also has attachments which I can't read on the Newton anyway.
+* Web browsing: The Newton is not powerful enough for a true web browsing experience, mostly due to the limited amount of RAM. But things like JavaScript or SSL don't make things easier either.
+* Entering calendar data: This is very similar to email, I'm using Outlook, and so do the people I work with, so the only way I use the Newton for calendar information is to have a snapshot of upcoming appointments
+* True synchronizing with either a Mac or a PC. However, SyncML is something I have been looking into time and again, maybe I'll get around to doing something with it at some point!
+* MP3 playback: Even though I implemented MADMax, I also have an iPod and listen usually to Internet radio.
+
+--=_multipart_boundary_44
+Content-Type: application/x-phpwiki;
+  pagename=EckhartKoppen;
+  flags="";
+  author=EckhartKoppen;
+  version=1;
+  lastmodified=1151426693;
+  created=1151426720;
+  author_id=EckhartKoppen;
+  markup=2;
+  hits=113;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Here's my setup... the most important use cases for my Newton are:
+
+* My Newton is for most information I keep my main data storage, I like to have all important things in one place - synchronizing never works properly anyway
+* It is my main address book
+* It keeps all important notes
+* I use it in a GTDSetup for tracking tasks and projects
+
+And this is what I don't use my Newton for (that somehow implies that I also won't be working much on software in these areas):
+
+* EMail: I just get too much email, and most of it also has attachments which I can't read on the Newton anyway.
+* Web browsing: The Newton is not powerful enough for a true web browsing experience, mostly due to the limited amount of RAM. But things like JavaScript or SSL don't make things easier either.
+* Entering calendar data: This is very similar to email, I'm using Outlook, and so do the people I work with, so the only way I use the Newton for calendar information is to have a snapshot of upcoming appointments
+* True synchronizing with either a Mac or a PC. However, SyncML is something I have been looking into time and again, maybe I'll get around to doing something with it at some point!
+* MP3 playback: Even though I implemented MADMax, I also have an iPod and listen usually to Internet radio.
+
+--=_multipart_boundary_44--

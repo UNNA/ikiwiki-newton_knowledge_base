@@ -1,0 +1,73 @@
+Date: Wed, 10 Dec 2003 01:25:00 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=TechnoirSetup;
+  flags="";
+  author=ScottyTechnoir;
+  version=1;
+  lastmodified=1071037500;
+  created=1071037500;
+  author_id=63.138.75.78;
+  hits=3173;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Scotty Technoir's (incomplete) kool setup, humbly submitted...
+----
+
+%%%
+!!__EthernetDrivers and InterNet Stuff:__
+*Newton Devices
+*Newton Internet Enabler
+*NIE Ethernet Module
+*NIE Modem & Serial Module
+*NIE Patch:Kallisys
+*Dock ZC & TCP/IP:Kallisys ''(for escale)''
+*Farallon Enet ''(for my 3com card)''
+*z3ComDrv:clli ''(for my 3com card)''
+*Lucent WaveLAN:Noguchi ''(Wifi driver for several cards)''
+*NHttpLib:40Hz ''(Eck's library for fetching URLs)''
+
+%%%
+!!__Pretty Much Must-Have:__
+*Dash Board ''(enormously enhances the newton button dock)''
+*MI:SilverWARE ''(MoreInfo, one of the greatest newt apps ever)''
+*Card Eject:SBM ''(unmounts flash cards for easy removal)''
+*Freeze Utils:SAS ''(enables freezing & pkg info)''
+*EDSelect:SBM ''(extras drawer select-all)''
+*IOSelect:SBM ''(In-Out Box select all)''
+*Optionen:SBM ''(SBM Options, adds a new pref category, tres useful)''
+*!HyperNewt:ATOW ''(linking and directories for notes, etc)''
+*Clock:ATOW ''(alarm clock)''
+*Keep Time:SAS ''(keeps Newton clock accurate between reboots)''
+*!KonfigPatch:SBM ''(allows scrolling in the Prefs screen)''
+*Minimizer:AviD ''(minimizes apps to the "star")''
+*Styles+:ATOW ''(enhances the styles pallette)''
+*BB Editor:Way ''(Way Wong's excellent editor, replaces the button dock with configurable text edit buttons)''
+*Courier ''(Eck's mega-speedy web browser)''
+*NotePad Converter:SAS ''(convert any note into any other kind of note)''
+*NewtonWorks ''(the premier word processor on the newton)''
+*Route to Works:SAS ''(adds a routing method to send a note into NewtonWorks)''
+
+
+%%%
+!!__Good to Have, Space Permitting:__
+
+*Graph Paper:SAS (extra Notepad format)
+*IOB:JoBS (adds a backdrop button for the InOutBox)
+*KBBacklight (enables a cmd-L keyboard shortcut for toggling the backlight)
+*HTML:ATOW (Adam Tow's newton html editing pallette, wicked cool)
+*Macintalk (part of SpeakText, enables text-to-speech)
+*Phoney (useless nowadays, but still fun: generates all the tones you crave)
+*PT100:Scrawl (vt100 terminal emulator)
+*!ShowMate:SofT (multi-function remote control emulator)
+
+%%%
+!!__Fonts:__
+*eWorldTight:!LeeMoon
+*Minico:Scawl
+*!OriginalMe
+*Techno
+*Wipeout
+----
+CoolSetups

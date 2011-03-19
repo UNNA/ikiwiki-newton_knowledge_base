@@ -1,0 +1,16 @@
+Date: Wed, 11 May 2005 18:24:48 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=GaryMoody;
+  flags="";
+  author=148.87.1.170;
+  version=1;
+  lastmodified=1115850288;
+  created=1115850288;
+  author_id=148.87.1.170;
+  markup=2;
+  hits=145;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Gary Moody is a long-time Newton curmudgeon, known for bits of readily-available information and nasty rants on NewtonTalk.

@@ -1,0 +1,54 @@
+Date: Wed, 29 Oct 2003 18:00:05 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtonGestures;
+  flags="";
+  author=RonParker;
+  version=1;
+  lastmodified=1067468405;
+  created=1067468405;
+  author_id=64.165.68.189;
+  markup=2;
+  hits=1138;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+* Tap and hold on a piece of text to get the 'squish' sound. Now drag the stylus to the end of the text you want to select. Now pick up the stylus.
+
+* When you have a selection like that, you can tap and drag (tapdrag) the selection to the edge of the screen to make it sit on the 'clipboard'. Then you can switch pages or apps and drag it to some place new.
+
+* Or when you have a selection you can tap-tapdrag and you will drag a copy of the text off to the clipboard or to any other location.
+
+* Once a piece of text is on the clipboard, you still have access to the same "move with tapdrag or copy with tap-tapdrag" options.
+
+* Tapping twice (taptap) in any text area will bring up the keyboard! Note: this does not work in NewtonWorks.
+
+* Tap on the ^ (carret) to bring up a short menu of punctuation and editing.
+
+* Scubbing is drawing a zig-zag line back and forth 4 or more times over the top of something you want to delete. If you want to delete a single letter, you can just scrub up and down over that one letter. Scrubbing over a whole area can delete everything you scrub over. just be sure to scrub up and down at least 4 times so that the Newton doesn't think you're trying to write a W or a M.
+
+* To insert a space in between two characters (or anywhere on a line really) just draw a small carat (^) with the point in the place where you want the space added. You can add more spaces by continuing the carat into a horizontal line.
+
+* To remove an unwanted space, draw an inverted carat (v) under the two letters on both sides of the space. Don't draw it too high, or the Newton will think you actually wanted to write a 'v'.
+
+* To insert a space vertically (ie: move a block of text down so that more text can be added in between) draw a greater-than sign (>) except instead of lifting the pen at the bottom of the >, extend it down as far as you would like space added.
+
+* To capitalize the first letter of a word, select it and draw a vertical line (bottom to top) on top of the first letter.  To capitalize the entire word, draw the line in the middle.
+
+* To add a carriage return at the end of a line of text while writing, or to insert a newline in between two lines of text, drag the pen down and back to the left, like a slightly tall backwards L.
+
+RonParker noted about the carriage return gesture:
+
+# Make the gesture the exact corner of a square
+# Pause a half-a-micro-second in the corner of the square
+# The inside corner of the square should be just TOUCHING the right and bottom edges of the last word or character where you want to insert the line break, NOT on top of that character nor floating in the space after or below it. This really improves the accuracy, helping your Newton see the gesture as a "gesture" instead of the insertion of a "J".
+
+
+VictorRehorst noted about the carriage return gesture:
+
+# Try starting the stroke on the lower half of the line
+# Bring the pen down to below the bottom edge of the line
+# Pause slightly without lifting the pen
+# Then bring the pen left underneath the line.
+
+That's what works for me.  If you angle the second part of the stroke up towards the line of text, you'll get a J.

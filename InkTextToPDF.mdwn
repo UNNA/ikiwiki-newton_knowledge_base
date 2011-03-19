@@ -1,0 +1,55 @@
+Date: Tue, 12 Sep 2006 15:31:29 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=InkTextToPDF;
+  flags="";
+  author=jonathandueck%40yahoo.com;
+  version=1;
+  lastmodified=1158089489;
+  created=1158089489;
+  author_id=jonathandueck%40yahoo.com;
+  markup=2;
+  hits=316;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+I've just figured out how to create a Newton ink notes / sketch --> PDF RIP for my eMate 300, and I thought I'd share this with the Wiki. This might be useful to you if you want to preserve ink text as real line art, and / or take a lot of ink text notes that you don't intend to recognize.
+
+(For me, the below was much faster than the LPR driver over WiFi [PrintingInOSXUsingLPR], which can also be set up to print to a PDF RIP such as CUPS-PDF [http://www.codepoetry.net/projects/cups-pdf-for-mosx], and it didn't require me to take out my storage card either. If you have a 2100, the LPR driver option is probably a better bet for you, and if you use a pre-OS X Mac, you can do the below more easily by printing to a Desktop Printer over Localtalk, I believe.)
+
+Here's what I did:
+
+First, I installed the Newton Print Pack 2 drivers ([http://mirrors.unna.org/ftp.amug.org/pub/newton/utilities/2.x/newton-print-pack-2.0.sit.hqx]) on my Newton.
+
+Then, I downloaded and installed the Sytek Soft Print Pack ([http://www.sytek.ca/products/newton/spp/license.htm]) and installed it on my Windows XP Pro PC.
+
+Soft Print Pack required two files that weren't on my PC to run, so I Googled and installed them as well. First, =MSSTDFMT.dll= (I searched my Office 2004 CD for the file, but you can also google for a link to it), a Microsoft format library. I copied this file to my =WINDOWS/SYSTEM= directory and entered this into the command-line: =regsvr32.exe msstdfmt.dll=. Secondly, it needed =MSCOMM32.ocx= (an ActiveX control), which I downloaded from [http://www.keyghost.com/keyghostml/MSCOMM32.OCX] and then copied the file to my =WINDOWS/SYSTEM32= directory.
+
+With these two files installed, Soft Print Pack started on my PC. I opened up the "Registration Code" file (in the =Program Files/Soft Print= Pack directory) and entered the registration code, and the program ran very nicely.
+
+Then, I created a PCL printer (since Postscript requires network printing) using the Windows Control Panel / Add Printers: an HP LaserJet 4, set to print to a file rather than a "real" serial / parallel port.
+
+I set the Soft Print Pack to print to my "LaserJet" by clicking "Settings," picking "Windows Printer" and selecting "HP Laserjet 4"
+
+Then I downloaded and installed the (GPL'ed) PDF Creator ([http://sourceforge.net/projects/pdfcreator/]) and a PCL Viewer called Downloader2006, which includes PCL6, an otherwise hard-to-find binary of the GPL'ed GhostPCL ([http://www.cyrtech.de/progs/dl2006/Downloader51302.msi] and [http://www.cyrtech.de/progs/dl2006/PCL6.msi]).
+
+This was all the software I needed (enough though, ain't it?)
+
+To make this actually work, I:
+
+*Started Soft Print Pack on the PC.
+
+*Connected the Newt to the PC with a serial cable (COM1).
+
+*Selected my ink (or other) documents from the Newt, hit print, and selected "Other Printer" / "HP Laserjet" as my printer.
+
+*Saved the ink documents when prompted, on the PC, to the Desktop as "filename.pcl"
+
+*Started Downloader2006 on the PC, and chose the PCL Previewer. I opened the "filename.pcl" file and viewed it (opens your Windows image viewer).
+
+*I then printed the image from the Windows Image Viewer to the "PDF Creator" virtual printer, creating lovely, cross-platform-friendly line art.
+
+Sounds complicated, no? However, it isn't difficult after the first time or so. And it's the fastest way I've found (including LPR, X-Port, and NCU) to transfer lots of ink text, intact, to the Desktop.
+
+----------------
+[PrintingInOSXUsingLPR]

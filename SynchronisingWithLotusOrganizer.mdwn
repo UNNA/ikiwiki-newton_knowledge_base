@@ -1,0 +1,48 @@
+Date: Mon, 5 Apr 2004 07:25:23 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=SynchronisingWithLotusOrganizer;
+  flags="";
+  author=TonyKan;
+  version=1;
+  lastmodified=1081164323;
+  created=1081164323;
+  author_id=218.101.92.206;
+  markup=2;
+  hits=238;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+NCU comes with a number of translators for various Windows PIM applications.  One of them is Lotus Organizer v2.1.  It can be downloaded from UNNA.
+
+Here is the procedure:
+
+1.  Install Lotus Organiser 2.1 and restart the PC.
+
+2.  Create a new data file and save it in your directory of choice eg. D:\data\allan.or2
+
+3.  Close LO2
+
+4.  Start NCU and run as many Slowdown sessions as you can without seizing up your PC
+
+5.  Click file-synchronisation settings
+
+6.  Click which applications you want synchronised eg names, dates, notes
+
+7.  Click the right hand box for each app and it will give you a list of translators
+
+8.  Click the LO2 translator in each case and browse to the LO2 data file location you set up earlier; you should see your file
+
+9.  Click your file and click OK
+
+10.  Repeat for each app you want to synch
+
+11.  Click OK and return to the main NCU screen
+
+12.  Start Dock on your Newton
+
+13.  Click connect
+
+14.  Click synchronise on NCU; be patient it could take a while.
+
+15.  If you get the (-1) error then add another session of Slowdown and start again.

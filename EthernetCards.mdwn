@@ -1,0 +1,38 @@
+Date: Tue, 1 Nov 2005 17:27:45 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=EthernetCards;
+  flags="";
+  author=24.177.53.232;
+  version=1;
+  lastmodified=1130884065;
+  created=1130884065;
+  author_id=24.177.53.232;
+  summary=3CXE589EC%20works%20too;
+  hits=3973;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!!Card Compatability%%%
+According to the [ FAQ | http://www.splorp.com/newton/faq/], the following EtherNet cards are supported by 2x00 Newtons and eMates (OS 2.1):
+
+*Farallon PN895 !EtherWave
+*3Com 3c589, 3C589B (according to Harri Hohteri), 3c589C, 3c589D (including -TP), 3CXE589DT, 3CXE589ET, 3CXE589EC
+*Proxim RangeLAN2 wireless Ethernet ''*note* card not compatible with AirPort or any other 802.11-based technology''
+*!AmbiCom AMB8010 !PowerSaver
+*TDK Combo cards: DFL5610, DFL3410, DFL3200, DFL9610
+*TDK Ethernet cards: LAK-CD021, LAK-CD021AX, LAK-CD021BX
+*D-Link DE-650, DE-660 (can be found at zones.com for US$43.99 plus shipping) (Thanks to Kent Wong) DE-660+
+*Fujitsu FMV-J182, FMV-J182A
+*RATOC REX-R280
+*Contec C-NET(PC)C
+*MELCO LPC2-T
+*Longshine LCS-8534TB
+*Correga EtherII PCC-T
+
+%%%If it's not listed here, then it's not compatible. Period.
+----
+EthernetDrivers%%%
+EtherNet%%%
+[NewtonEthernet | http://www.chuma.org/newton/ethernet]%%%
+HardWare%%%

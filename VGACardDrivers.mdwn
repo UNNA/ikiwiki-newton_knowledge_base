@@ -1,0 +1,37 @@
+Date: Tue, 11 Jan 2005 05:51:29 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=VGACardDrivers;
+  flags="";
+  author=212.149.48.43;
+  version=1;
+  lastmodified=1105440689;
+  created=1105440689;
+  author_id=212.149.48.43;
+  markup=2;
+  hits=1025;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__Driver for VGA Cards__
+
+
+__What:__ Driver for more VGA PC Cards
+
+__Background:__ Two PC Card-format VGA-adapters have drivers for the Newton. One of these cards has a tendency to blow under certain conditions and both are pretty rare nowadays (2004). There are quite a bunch of other VGA cards on the market, and it would be great to have drivers available for more of these cards.
+
+__Benefit:__ Use Newton w/ VGA & keyboard as "desktop" computer, or turn it with a [game pad|GravisStingerGamePad] to the ultimate video game console. Run presentations off the Newton. Display on computer display, video beamer, maybe even tv. Plus it would be way cool. ;=}
+
+__Additional Data:__
+
+__See also:__
+
+* [VGACards]
+* GravisStingerGamePad
+* [ScummVM]
+
+__Any Takers?__%%%
+%%%
+%%%
+----
+HomePage : NewtonWishLists : SoftwareWishlist : VariousDrivers : [VGACardDrivers]

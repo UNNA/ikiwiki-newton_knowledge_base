@@ -1,0 +1,28 @@
+Date: Wed, 31 Mar 2004 09:21:13 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=MindMapApplication;
+  flags="";
+  author=212.149.48.43;
+  version=1;
+  lastmodified=1080742873;
+  created=1080742873;
+  author_id=212.149.48.43;
+  markup=2;
+  hits=127;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__Newton Mind Map (Application)__
+
+
+__What:__ A intuitive mind mapping application, works with branch-structures and connects to Notes/Dates/Cards.
+
+__Background:__ Quickly sketch a project in it's individual parts and milestone-segments using a very intuitive tree-branch interface. Select people out of address book, create dates and dependencies in your mind map and transfer those to the calendar app. Print/mail/beam mind maps.
+
+__Benefit:__ Very intuitive to create and read, excellent tool for decision making and drafting projects.
+
+__Additional Data:__ Any additional input appreciated.
+
+
+__Any Takers?__

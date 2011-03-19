@@ -1,0 +1,31 @@
+Date: Tue, 16 Aug 2005 06:21:34 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NamesEnhancements;
+  flags="";
+  author=212.149.48.43;
+  version=1;
+  lastmodified=1124187694;
+  created=1124187694;
+  author_id=212.149.48.43;
+  markup=2;
+  summary=DJV%3A%20Added%20RH%27s%20CardMedia%20from%20OrganiseInformation%20page.;
+  hits=221;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : SoftwareReviews : [NamesEnhancements]%%%
+----
+
+!![CardMEDIA | http://www.unna.org/view.php?/utilites/stationary/CardMEDIA ] (***1/2)
+A names enhancement that expands the functionality of Names by adding cards for types of media, such as movies, books, CD's and magazine articles. It works well on an MP2100, with two caveats: The overview function is funky, and all media cards appear above the other cards. If that was ironed out, I'd give it four stars. (RhondaHyslop)%%%
+%%%
+
+
+
+!!???
+
+
+
+----
+HomePage : SoftwareReviews : [NamesEnhancements]%%%

@@ -1,0 +1,29 @@
+Date: Thu, 10 Jun 2004 14:19:30 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=Software;
+  flags="";
+  author=24.156.127.194;
+  version=1;
+  lastmodified=1086891570;
+  created=1086891570;
+  author_id=24.156.127.194;
+  markup=2;
+  hits=193;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+So you've got your PCMCIA Card and connection of choice.. Now it's time to put them to good use:
+
+* Email
+
+
+ Email on the Newt is one of the simple joys in life and there is no shortage of applictions out there to facillitate its use.
+
+  [Simplemail |  http://dialspace.dial.pipex.com/town/road/aah66/] has to be the first candidate, if only for the slightly pedantic view that its the only email suite which is still currently supported and actively updated. The application is written and maintained by Simon Bell and runs through the I/O Box application of NOS 2.0 . Its simple to configure and supports image viewing, MP3 attachments, V-Cards and a whole host of many other file-types through many plug-ins, such are the advantages of having an actively developed email client
+
+* Web Browsers
+
+  See WebBrowsers
+
+    _Please Wiki Wiki more folks =]_

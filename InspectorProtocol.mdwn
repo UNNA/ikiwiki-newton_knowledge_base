@@ -1,0 +1,271 @@
+Date: Mon, 19 Mar 2007 17:52:35 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_53"
+
+--=_multipart_boundary_53
+Content-Type: application/x-phpwiki;
+  pagename=InspectorProtocol;
+  flags="";
+  author=MatthiasMelcher;
+  version=4;
+  lastmodified=1174341155;
+  created=1174341155;
+  author_id=MatthiasMelcher;
+  markup=2;
+  hits=115;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+This little article describes the protocol that the Newton Toolkit uses to communicate with NTK's Inspector. All information was gathered by looking at the bytes that were exchanged over the serial port plus some trial and error. All this information es purely for educational purposes.
+
+!! Peeling the onion
+
+The Inspector protocol (and probably all other serial port protocols which I didn't bother to look at) is based on MNP4/V.42, a block based protocol using checksums for error detection and sequence numbers and block acknowledgement for error correction. "Toolbox" also suggests data compression using MNP5/V.42bis, a format heavily plastered with patents and licenses in the 50kUS$ range. Luckily, we can negotiate V.42bis away, sticking with pure binary data.
+
+Below V.42, "Toolkit" uses a chunk based control and data system, utilizing the Apple typical four-character-codes (fourcc). The actual data is then mostly transmitted in the Newton Sreamed Object Format which is explained in detail in "Newton Formats 1.1", available on UNNA.
+
+!!! Error detection and correction
+
+The top level blocks in serial communication are easy to spot. They always start with a 0x16, 0x10, 0x02 and end with 0x10, 0x03, followed by a 16 bit CRC checksum. The CRC16 is calculated using all the bytes in between those two sequences, but including the trailing 0x03. The first byte of the checksum is the low byte, as opposed to the Newton high-byte-first convention.
+
+But hey, you say, what if my binary data in the middle contains the sequence 0x10, 0x03? No problem, we just double up the 0x10 (but checksum it only once), so be aware of double 0x10's when receiving.
+
+There is yet another trap door to be aware of. Even though we disable compression, sending the right sequence of bytes inside the data package will reenable compression. To make things more tricky, this sequence changes over time. After the connection is established, 0x33 (or 51 decimal) will initiate a special commend sequence, and if followed by 0x00, will enable compression. To avoid this, we must convert the 0x33 into the sequence 0x33 0x01. Every time we escape this sequence, the special byte will be incremented by 0x33 (51d), and now the special character is 0x66 (102d), then 0x99 (153d) and so on, wrapping around at 256. Hooray! This is true for data that is sent from Inspector to Toolkit, but not the other way around.
+
+!! Block types
+
+"Toolbox" uses four block types, described in the second byte after the header described above. These types are 0x01 to request and negotiate a connection, 0x02 to end a connection, 0x04 to transfer data, and 0x05 to acknowledge a correct data block and to keep the connection alive.
+
+!! 0x01: negotiating a connection
+
+"Toolbox" is always the one to initiate a connection. It will send the header, 0x20 for the length of this block, 0x01 for the negotiation block type, and a lot of data that we will simply ignore. (16 10 02 20 01 ... 10 03 chkLo chkHi). Sure, sure, all those bytes are really important, tell us what connection we will service and how the compression will work. But the block that we will return in our evil minds wil disable compression anyways, so why bother.
+
+What we need to do is return more or less the same block to acknoledge the connection request and deliver our demands on the protocol. So we can send this for example:
+
+=16 10 02 1D 01 02 01 06 01 00 00 00 00 FF 02 01=
+=02 03 01 08 04 02 40 00 08 01 03 0E 04 02 04 00=
+=FA 10 03 B7 EE=
+
+I am sure you reconized the header, the length byte, the ID, the end sequence, and the checksum by now. The rest is all a copy of the block that "Toolbox" sent us, with two changes: we took a parameter out (09 01 01) which is not needed, and we changed the request for compression into a request for no compression (0e 04 03 04 00 fa changes to 0e 04 02 04 00 fa).
+
+!! 0x04: sending data
+
+All data blocks start with (16 10 02 02 04 seq). We see the header, the length of 02, the ID 04 and "seq" which is simply a sequence number, a byte that is incrementd for each new block that is sent from "toolkit". All data blocks send from "Inspector" have also a sequence number, counting the outgoing data packages. Then follow up to 250 bytes of data (which can swell to twice that size if you send all 0x10's, remember!), the ending bytes and the checksum.
+
+!! 0x05: acknowledging data
+
+Whenever we receive a data bloack with a correct checksum, we reply with an acknowledge block. Just send the header, the length, the ID, the last received and correct sequence number, the overlap count, the footer, and the checksum. Sounds bad? It's not: 16 10 02 03 05 09 08 10 03 D3 0F
+would be a perfectly fine reply for data block number 9.
+
+!! transmission errors
+
+But what do we do if the checksum was wrong, or the seqence number was not in sequence, or heck, we are not even sure if should have received anything? We just set everything back to the last known state by sending another acknowledge block for the last correct block we received. If we don't receive anything, we still have to resend the last acknowledge block roughly every three seconds to make sure that the connection still exists.
+
+The reverse is also true now. If we send a package with seqence 11, but receive an acknowledge for block 10, our partner obviously never received out block 11, so we must resend it. We also know that we will receive the last acknowledge block again after rought ly three seconds, so if we do not receive any ack's for, say, 9 seconds, our connection was lost and we should tell our user about it.
+
+!! overlapping
+
+The above is nice, but hold us back. Imagine you are on the phone and after every sentence yousya, you pause until your partner says "uh-huh". You'd be rid of your free minutes plan after two calls. That's why this protocol supports overlapping, indicate din the 4th block byte of an acknowledge block. Let's say we want to send 12 very short blocks rapidly one after the other. Sending the first block will give us an acknowledge with an overlap count of 8. This tells us that we can send eight more blocks without waiting for another acknowledge. The receiver promises to buffer that many blocks and then send only an acknowledge for the eighth block, telling us that the previous seven blocks were just fine as well.
+
+Now on to the Newton data chunks in [InspectorProtocol2]
+
+--=_multipart_boundary_53
+Content-Type: application/x-phpwiki;
+  pagename=InspectorProtocol;
+  flags="";
+  author=MatthiasMelcher;
+  version=3;
+  lastmodified=1174339360;
+  created=1174341155;
+  author_id=MatthiasMelcher;
+  markup=2;
+  hits=115;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+This little article describes the protocol that the Newton Toolkit uses to communicate with NTK's Inspector. All information was gathered by looking at the bytes that were exchanged over the serial port plus some trial and error. All this information es purely for educational purposes.
+
+!! Peeling the onion
+
+The Inspector protocol (and probably all other serial port protocols which I didn't bother to look at) is based on MNP4/V.42, a block based protocol using checksums for error detection and sequence numbers and block acknowledgement for error correction. "Toolbox" also suggests data compression using MNP5/V.42bis, a format heavily plastered with patents and licenses in the 50kUS$ range. Luckily, we can negotiate V.42bis away, sticking with pure binary data.
+
+Below V.42, "Toolkit" uses a chunk based control and data system, utilizing the Apple typical four-character-codes (fourcc). The actual data is then mostly transmitted in the Newton Sreamed Object Format which is explained in detail in "Newton Formats 1.1", available on UNNA.
+
+!!! Error detection and correction
+
+The top level blocks in serial communication are easy to spot. They always start with a 0x16, 0x10, 0x02 and end with 0x10, 0x03, followed by a 16 bit CRC checksum. The CRC16 is calculated using all the bytes in between those two sequences, but including the trailing 0x03. The first byte of the checksum is the low byte, as opposed to the Newton high-byte-first convention.
+
+But hey, you say, what if my binary data in the middle contains the sequence 0x10, 0x03? No problem, we just double up the 0x10 (but checksum it only once), so be aware of double 0x10's when receiving.
+
+
+!! Block types
+
+"Toolbox" uses four block types, described in the second byte after the header described above. These types are 0x01 to request and negotiate a connection, 0x02 to end a connection, 0x04 to transfer data, and 0x05 to acknowledge a correct data block and to keep the connection alive.
+
+!! 0x01: negotiating a connection
+
+"Toolbox" is always the one to initiate a connection. It will send the header, 0x20 for the length of this block, 0x01 for the negotiation block type, and a lot of data that we will simply ignore. (16 10 02 20 01 ... 10 03 chkLo chkHi). Sure, sure, all those bytes are really important, tell us what connection we will service and how the compression will work. But the block that we will return in our evil minds wil disable compression anyways, so why bother.
+
+What we need to do is return more or less the same block to acknoledge the connection request and deliver our demands on the protocol. So we can send this for example:
+
+=16 10 02 1D 01 02 01 06 01 00 00 00 00 FF 02 01=
+=02 03 01 08 04 02 40 00 08 01 03 0E 04 02 04 00=
+=FA 10 03 B7 EE=
+
+I am sure you reconized the header, the length byte, the ID, the end sequence, and the checksum by now. The rest is all a copy of the block that "Toolbox" sent us, with two changes: we took a parameter out (09 01 01) which is not needed, and we changed the request for compression into a request for no compression (0e 04 03 04 00 fa changes to 0e 04 02 04 00 fa).
+
+!! 0x04: sending data
+
+All data blocks start with (16 10 02 02 04 seq). We see the header, the length of 02, the ID 04 and "seq" which is simply a sequence number, a byte that is incrementd for each new block that is sent from "toolkit". All data blocks send from "Inspector" have also a sequence number, counting the outgoing data packages. Then follow up to 250 bytes of data (which can swell to twice that size if you send all 0x10's, remember!), the ending bytes and the checksum.
+
+!! 0x05: acknowledging data
+
+Whenever we receive a data bloack with a correct checksum, we reply with an acknowledge block. Just send the header, the length, the ID, the last received and correct sequence number, the overlap count, the footer, and the checksum. Sounds bad? It's not: 16 10 02 03 05 09 08 10 03 D3 0F
+would be a perfectly fine reply for data block number 9.
+
+!! transmission errors
+
+But what do we do if the checksum was wrong, or the seqence number was not in sequence, or heck, we are not even sure if should have received anything? We just set everything back to the last known state by sending another acknowledge block for the last correct block we received. If we don't receive anything, we still have to resend the last acknowledge block roughly every three seconds to make sure that the connection still exists.
+
+The reverse is also true now. If we send a package with seqence 11, but receive an acknowledge for block 10, our partner obviously never received out block 11, so we must resend it. We also know that we will receive the last acknowledge block again after rought ly three seconds, so if we do not receive any ack's for, say, 9 seconds, our connection was lost and we should tell our user about it.
+
+!! overlapping
+
+The above is nice, but hold us back. Imagine you are on the phone and after every sentence yousya, you pause until your partner says "uh-huh". You'd be rid of your free minutes plan after two calls. That's why this protocol supports overlapping, indicate din the 4th block byte of an acknowledge block. Let's say we want to send 12 very short blocks rapidly one after the other. Sending the first block will give us an acknowledge with an overlap count of 8. This tells us that we can send eight more blocks without waiting for another acknowledge. The receiver promises to buffer that many blocks and then send only an acknowledge for the eighth block, telling us that the previous seven blocks were just fine as well.
+
+Now on to the Newton data chunks in [InspectorProtocol2]
+
+--=_multipart_boundary_53
+Content-Type: application/x-phpwiki;
+  pagename=InspectorProtocol;
+  flags="";
+  author=MatthiasMelcher;
+  version=2;
+  lastmodified=1174173343;
+  created=1174339360;
+  author_id=MatthiasMelcher;
+  markup=2;
+  hits=115;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+This little article describes the protocol that the Newton Toolkit uses to communicate with NTK's Inspector. All information was gathered by looking at the bytes that were exchanged over the serial port plus some trial and error. All this information es purely for educational purposes.
+
+!! Peeling the onion
+
+The Inspector protocol (and probably all other serial port protocols which I didn't bother to look at) is based on MNP4/V.42, a block based protocol using checksums for error detection and sequence numbers and block acknowledgement for error correction. "Toolbox" also suggests data compression using MNP5/V.42bis, a format heavily plastered with patents and licenses in the 50kUS$ range. Luckily, we can negotiate V.42bis away, sticking with pure binary data.
+
+Below V.42, "Toolkit" uses a chunk based control and data system, utilizing the Apple typical four-character-codes (fourcc). The actual data is then mostly transmitted in the Newton Sreamed Object Format which is explained in detail in "Newton Formats 1.1", available on UNNA.
+
+!!! Error detection and correction
+
+The top level blocks in serial communication are easy to spot. They always start with a 0x16, 0x10, 0x02 and end with 0x10, 0x03, followed by a 16 bit CRC checksum. The CRC16 is calculated using all the bytes in between those two sequences, but including the trailing 0x03. The first byte of the checksum is the low byte, as opposed to the Newton high-byte-first convention.
+
+But hey, you say, what if my binary data in the middle contains the sequence 0x10, 0x03? No problem, we just double up the 0x10 (but checksum it only once), so be aware of double 0x10's when receiving.
+
+
+!! Block types
+
+"Toolbox" uses four block types, described in the second byte after the header described above. These types are 0x01 to request and negotiate a connection, 0x02 to end a connection, 0x04 to transfer data, and 0x05 to acknowledge a correct data block and to keep the connection alive.
+
+!! 0x01: negotiating a connection
+
+"Toolbox" is always the one to initiate a connection. It will send the header, 0x20 for the length of this block, 0x01 for the negotiation block type, and a lot of data that we will simply ignore. (16 10 02 20 01 ... 10 03 chkLo chkHi). Sure, sure, all those bytes are really important, tell us what connection we will service and how the compression will work. But the block that we will return in our evil minds wil disable compression anyways, so why bother.
+
+What we need to do is return more or less the same block to acknoledge the connection request and deliver our demands on the protocol. So we can send this for example:
+
+=16 10 02 1D 01 02 01 06 01 00 00 00 00 FF 02 01=
+=02 03 01 08 04 02 40 00 08 01 03 0E 04 02 04 00=
+=FA 10 03 B7 EE=
+
+I am sure you reconized the header, the length byte, the ID, the end sequence, and the checksum by now. The rest is all a copy of the block that "Toolbox" sent us, with two changes: we took a parameter out (09 01 01) which is not needed, and we changed the request for compression into a request for no compression (0e 04 03 04 00 fa changes to 0e 04 02 04 00 fa).
+
+!! 0x04: sending data
+
+All data blocks start with (16 10 02 02 04 seq). We see the header, the length of 02, the ID 04 and "seq" which is simply a sequence number, a byte that is incrementd for each new block that is sent from "toolkit". All data blocks send from "Inspector" have also a sequence number, counting the outgoing data packages. Then follow up to 1024 bytes of data (which can swell to 2k if you send all 0x10's, remember!), the ending bytes and the checksum.
+
+!! 0x05: acknowledging data
+
+Whenever we receive a data bloack with a correct checksum, we reply with an acknowledge block. Just send the header, the length, the ID, the last received and correct sequence number, the overlap count, the footer, and the checksum. Sounds bad? It's not: 16 10 02 03 05 09 08 10 03 D3 0F
+would be a perfectly fine reply for data block number 9.
+
+!! transmission errors
+
+But what do we do if the checksum was wrong, or the seqence number was not in sequence, or heck, we are not even sure if should have received anything? We just set everything back to the last known state by sending another acknowledge block for the last correct block we received. If we don't receive anything, we still have to resend the last acknowledge block roughly every three seconds to make sure that the connection still exists.
+
+The reverse is also true now. If we send a package with seqence 11, but receive an acknowledge for block 10, our partner obviously never received out block 11, so we must resend it. We also know that we will receive the last acknowledge block again after rought ly three seconds, so if we do not receive any ack's for, say, 9 seconds, our connection was lost and we should tell our user about it.
+
+!! overlapping
+
+The above is nice, but hold us back. Imagine you are on the phone and after every sentence yousya, you pause until your partner says "uh-huh". You'd be rid of your free minutes plan after two calls. That's why this protocol supports overlapping, indicate din the 4th block byte of an acknowledge block. Let's say we want to send 12 very short blocks rapidly one after the other. Sending the first block will give us an acknowledge with an overlap count of 8. This tells us that we can send eight more blocks without waiting for another acknowledge. The receiver promises to buffer that many blocks and then send only an acknowledge for the eighth block, telling us that the previous seven blocks were just fine as well.
+
+Now on to the Newton data chunks in [InspectorProtocol2]
+
+--=_multipart_boundary_53
+Content-Type: application/x-phpwiki;
+  pagename=InspectorProtocol;
+  flags="";
+  author=MatthiasMelcher;
+  version=1;
+  lastmodified=1174173286;
+  created=1174173343;
+  author_id=MatthiasMelcher;
+  markup=2;
+  hits=115;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+This little article describes the protocol that the Newton Toolkit uses to communicate with NTK's Inspector. All information was gathered by looking at the bytes that were exchanged over the serial port plus some trial and error. All this information es purely for educational purposes.
+
+!! Peeling the onion
+
+The Inspector protocol (and probably all other serial port protocols which I didn't bother to look at) is based on MNP4/V.42, a block based protocol using checksums for error detection and sequence numbers and block acknowledgement for error correction. "Toolbox" also suggests data compression using MNP5/V.42bis, a format heavily plastered with patents and licenses in the 50kUS$ range. Luckily, we can negotiate V.42bis away, sticking with pure binary data.
+
+Below V.42, "Toolkit" uses a chunk based control and data system, utilizing the Apple typical four-character-codes (fourcc). The actual data is then mostly transmitted in the Newton Sreamed Object Format which is explained in detail in "Newton Formats 1.1", available on UNNA.
+
+!!! Error detection and correction
+
+The top level blocks in serial communication are easy to spot. They always start with a 0x16, 0x10, 0x02 and end with 0x10, 0x03, followed by a 16 bit CRC checksum. The CRC16 is calculated using all the bytes in between those two sequences, but including the trailing 0x03. The first byte of the checksum is the low byte, as opposed to the Newton high-byte-first convention.
+
+But hey, you say, what if my binary data in the middle contains the sequence 0x10, 0x03? No problem, we just double up the 0x10 (but checksum it only once), so be aware of double 0x10's when receiving.
+
+
+!! Block types
+
+"Toolbox" uses four block types, described in the second byte after the header described above. These types are 0x01 to request and negotiate a connection, 0x02 to end a connection, 0x04 to transfer data, and 0x05 to acknowledge a correct data block and to keep the connection alive.
+
+!! 0x01: negotiating a connection
+
+"Toolbox" is always the one to initiate a connection. It will send the header, 0x20 for the length of this block, 0x01 for the negotiation block type, and a lot of data that we will simply ignore. (16 10 02 20 01 ... 10 03 chkLo chkHi). Sure, sure, all those bytes are really important, tell us what connection we will service and how the compression will work. But the block that we will return in our evil minds wil disable compression anyways, so why bother.
+
+What we need to do is return more or less the same block to acknoledge the connection request and deliver our demands on the protocol. So we can send this for example:
+
+=16 10 02 1D 01 02 01 06 01 00 00 00 00 FF 02 01=
+=02 03 01 08 04 02 40 00 08 01 03 0E 04 02 04 00=
+=FA 10 03 B7 EE=
+
+I am sure you reconized the header, the length byte, the ID, the end sequence, and the checksum by now. The rest is all a copy of the block that "Toolbox" sent us, with two changes: we took a parameter out (09 01 01) which is not needed, and we changed the request for compression into a request for no compression (0e 04 03 04 00 fa changes to 0e 04 02 04 00 fa).
+
+!! 0x04: sending data
+
+All data blocks start with (16 10 02 02 04 seq). We see the header, the length of 02, the ID 04 and "seq" which is simply a sequence number, a byte that is incrementd for each new block that is sent from "toolkit". All data blocks send from "Inspector" have also a sequence number, counting the outgoing data packages. Then follow up to 1024 bytes of data (which can swell to 2k if you send all 0x10's, remember!), the ending bytes and the checksum.
+
+!! 0x05: acknowledging data
+
+Whenever we receive a data bloack with a correct checksum, we reply with an acknowledge block. Just send the header, the length, the ID, the last received and correct sequence number, the overlap count, the footer, and the checksum. Sounds bad? It's not: 16 10 02 03 05 09 08 10 03 D3 0F
+would be a perfectly fine reply for data block number 9.
+
+!! transmission errors
+
+But what do we do if the checksum was wrong, or the seqence number was not in sequence, or heck, we are not even sure if should have received anything? We just set everything back to the last known state by sending another acknowledge block for the last correct block we received. If we don't receive anything, we still have to resend the last acknowledge block roughly every three seconds to make sure that the connection still exists.
+
+The reverse is also true now. If we send a package with seqence 11, but receive an acknowledge for block 10, our partner obviously never received out block 11, so we must resend it. We also know that we will receive the last acknowledge block again after rought ly three seconds, so if we do not receive any ack's for, say, 9 seconds, our connection was lost and we should tell our user about it.
+
+!! overlapping
+
+The above is nice, but hold us back. Imagine you are on the phone and after every sentence yousya, you pause until your partner says "uh-huh". You'd be rid of your free minutes plan after two calls. That's why this protocol supports overlapping, indicate din the 4th block byte of an acknowledge block. Let's say we want to send 12 very short blocks rapidly one after the other. Sending the first block will give us an acknowledge with an overlap count of 8. This tells us that we can send eight more blocks without waiting for another acknowledge. The receiver promises to buffer that many blocks and then send only an acknowledge for the eighth block, telling us that the previous seven blocks were just fine as well.
+
+Now on to the Newton data chunks in InspectorProtocol2
+
+--=_multipart_boundary_53--

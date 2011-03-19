@@ -1,0 +1,90 @@
+Date: Mon, 6 Oct 2003 10:03:58 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=eMate300;
+  flags="";
+  author=128.150.103.153;
+  version=1;
+  lastmodified=1065449038;
+  created=1065449038;
+  author_id=128.150.103.153;
+  markup=2;
+  hits=2398;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+From an Apple product announcement ca. 1996, put into past tense:
+
+The Apple eMate(tm) 300 was the first of a new class of affordable mobile computer that worked as a companion to Mac OS- and Windows software- based computers in a Distributed Learning Environment.
+
+Developed in collaboration with educators to meet the specific needs of education, the eMate 300's unique industrial design was rugged enough to withstand the rigors of being carried, shared, and used in a variety of environments. The eMate 300 was easily portable for even the youngest students-it weighed only 4 pounds and was small enough to fit in a backpack. And it let users enter data by keyboard, or with a stylus, so students could work theway that was best for them. The eMate 300 featured the powerful and easy-to-use Newton 2.1 operating system.
+
+It came with built-in software applications that are important for learning-including word processing, drawing, spreadsheet, a graphing calculator, address book, calendar functions, and more.
+
+In addition, the eMate 300 could take advantage of hundreds of applications that had been developed for Newton 2.0, as well as applications designed specifically for education.
+
+!Gave more students access to the technology they needed.
+While there are more computers in the classroom today than ever before, there are still not enough to go around. At an affordable price and with personalized workspace for multiple students, the eMate 300 made technology accessible to a greater number of students than was possible with desktop computers.
+
+!Allowed students to learn wherever learning took them.
+The versatile functionality of the eMate 300 let students do the majority of their critical learning wherever it was most appropriate-in the classroom, in libraries, in a lab, outdoors, or at home. With its incredibly long battery life and backlit screen that displays the width of a full written page, the eMate 300 made it possible for students to work wherever they wanted, for as long as they wanted.
+
+!Easy communication and networking.
+Robust communications capabilities made the eMate 300 an especially useful tool in a Distributed Learning Environment. Students could share data and files they created on the eMate 300, with both Mac OS-and Windows software- based computers. By doing preliminary work on the eMate 300 and then enhancing it on a desktop computer, students could use the eMate 300 as a perfect companion to the computers that already existed in the classroom or at home. The serial port, Newton InterConnect Port, and PC Card slot made it easy to print, share, and backup any work done on the eMate 300. TCP/IP capabilities-the protocol of the Internet-gave students access to materials on the World Wide Web, and let them send and receive e-mail so they could conduct research and keep on top of lessons. And with built-in infrared technology, the eMate 300 let educators and students "beam" their work to one another for quick, easy file sharing.
+
+!What is a Distributed Learning Environment?
+A Distributed Learning Environment provides learning for anyone, anytime, anywhere. It extends the reach of learning from the classroom to the library, lab, home, local communities, and the world. In the best Distributed Learning Environments, educators and students are able to take full advantage of a range of technology to make the extended learning environment more meaningful, effective, and engaging.
+
+!Four elements for successful learning
+Apple's support of the Distributed Learning Environment concept was based on its commitment to four critical elements of successful learning experiences:
+*Information access: Students and teachers need convenient access to information no matter where it resides.
+*Communication and collaboration: Students and teachers need to be able to communicate and collaborate with other students, colleagues, and experts, anytime, anywhere.
+*Multisensory experiences: Students and teachers need multimedia tools for understanding and expression, in addition to traditional educational methods, to help them communicate ideas in the way that is most appropriate to the task and compatible with diverse learning styles.
+*Convenient, mobile tools: Students and teachers need personal learning materials (pencils, books, calculators, etc.) that are convenient, creative, and mobile support tools.
+
+!Building on schools' investments
+As learning extends from the classroom to the home, local community, and the world, students and educators require a range of technology tools. Many schools already have some of the core technology components of a Distributed Learning Environment.
+
+*Desktop computers (either Mac OS- or Windows software-based): ...this includes multimedia computers that are dedicated to letting students experience powerful, creative, multi-sensory learning by integrating text, video, sound, and graphics in their work.
+*Peripheral products: ...such as printers, scanners, and digital cameras.
+*Networks: ...which could range from a simple connection to a printer, to a local network of personal computers, to a connection to a server.
+*Affordable, mobile computer technologies: ...that function as a personal companion to existing desktop technologies in the classroom, school, and home. Until now, few schools have had all of the core components of a Distributed Learning Environment because low-cost, mobile technologies were not available. The missing technology link in supporting the learning process was found in the Apple eMate 300-the first in a new class of truly affordable, mobile computers that acted as companions and extensions to schools' existing desktop computers.
+
+!Giving more students access to the technology they needed
+The Apple eMate 300 fulfilled the vision of a Distributed Learning Environment. It was an affordable mobile computer that let teachers create a learning environment in which students had the appropriate tools to gather data, access the information they needed, express their thoughts, communicate with one another, and collaborate on solving problems.
+
+Designed in collaboration with leading educators all across the country, the eMate 300 was the perfect companion to existing technology in the classroom,school, or home, with capabilities that made it an excellent tool of discovery and productivity. It was lightweight and rugged, and came with built-in applications and communications capabilities that let students work anyplace, anytime. What's more, it was available at a price that made it possible to provide more students than ever access to the technology they needed to get their work done and acquire skills that prepared them for lifelong success.
+
+
+!!Key features: The Apple eMate 300
+
+!Built-in applications:
+*Word processor, drawing program, spreadsheet, graphing calculator, address book, calendar functions and more
+
+!Power and speed:
+*25-MHz ARM 710a RISC processor
+*High-speed infrared (IrDA) port for transferring data wirelessly at up to 115 kilobits per second within 3.3 feet (1 meter)
+
+!Memory and storage:
+*3MB of RAM (1MB of DRAM and 2MB of flash memory); 8MB of ROM
+
+!Display:
+*480- by 320-pixel gray-scale LCD with back- lighting; displays up to 16 shades of gray
+
+!Sound:
+*Built-in speaker and sound input/output ports
+
+!Expansion:
+*PC Card slot for Type I, Type II, or Type III PC Cards (PCMCIA)
+*Slots for upgrading software, operating system, and memory
+*Serial port for connecting to printers and AppleTalk networks
+*Newton InterConnect serial port for LocalTalk and RS-232-compatible serial connections, modem, power input/output, sound input/output, and automatic docking to personal computers
+
+!Size, weight and battery:
+*Dimensions: 12.0 by 11.4 by 2.1 inches (305 by 290 by 53 millimeters)
+*Weight: 4 pounds (1.8 kilograms)
+*Battery: Up to 24 hours of continuous use without recharging, depending on usage
+
+!Printer support:
+*Worked with the following Apple printers: Personal LaserWriter LS, Personal LaserWriter 300, and StyleWriter printers; PostScript-equipped LaserWriter printers
+*Worked with most popular PC printers using the optional Newton Print Pack.

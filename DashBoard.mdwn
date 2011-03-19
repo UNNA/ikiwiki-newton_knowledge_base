@@ -1,0 +1,32 @@
+Date: Wed, 30 Nov 2005 15:40:55 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=DashBoard;
+  flags="";
+  author=198.209.225.230;
+  version=1;
+  lastmodified=1133383255;
+  created=1133383255;
+  author_id=198.209.225.230;
+  markup=2;
+  summary=Changed%20name%20of%20Script%20Repository.;
+  hits=920;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Dashboard is an application which runs in an area of screen real estate rarely touched by Newton Apps; The ButtonBar on MP2X00's. It is perhaps the most versatile and useful application writen to completment the Newton OS.
+
+It acts both as a Newton "Startbar" equivilant by displaying full listings of all packages and data stored on internal and card memory and allowing easy application launching and as a Newton "control strip" like the one found in Mac OS 9, giving instant feeback and access to several key system controls (eg; screen rotation, memory, backlight etc).
+
+If the app's sole prerogative was merely to provide such services it would already be a thoroughly justifiable purchase however it does far more than just this.
+
+The "Newton" button not only acts as a heirarchical menu for the purposes of launching packages but can also be fully customised and scripted to the highest degree affording the user a veritable cousin to Apple Script on the Mac OS. The scripts are of great help as, along with being easily written by the user they are capable of performing a great multitude of tasks from as menial as moving Dates information to completing complex "macro" like tasks.
+
+In addition to the "Newton" button Dashboard can also launch applications and scripts from a single letter/digit command field. This is as easily scripted as every other part of the application and allows the user to launch a specific application or script with one letter drawn in the box using Newton's HWR. This is a massive advantage which saves time both on having to search through your Extra's Draw or even  going to the application through the "Newton" Button.
+
+[A Dashboard scripting repository can be found here.|DashBoardScriptRepository]
+
+This is, by no means, an exhaustive review of Dashboard's capabilities but if you like what you've read here I'd recommend you download it and give it a try, I reckon you'll be pleasantly surprised at just how much better your Newton can be!
+
+John Swaine
+http://www.plastic-rabbit.co.uk/wafflings.html

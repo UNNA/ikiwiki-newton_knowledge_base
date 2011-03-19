@@ -1,0 +1,18 @@
+Date: Mon, 10 Feb 2003 15:29:39 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtonConnectionKit;
+  flags="";
+  author=VictorRehorst;
+  version=1;
+  lastmodified=1044908979;
+  created=1044908979;
+  author_id=142.245.193.10;
+  markup=2;
+  hits=2429;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+NewtonConnectionKit, or NCK is desktop connection software for the older NewtonOS 1.x machines. This includes the OriginalMessagePad, [MessagePad100], [MessagePad110], and older revisions of the [MessagePad120].  It cannot be used on any Newton that runs NewtonOS 2.0 or greater.
+
+NCK syncronized the data between the Newton and NCK's own databases on the PC, allowing one to edit and update information on the Newton from their PC.  It could also install packages and make backups.

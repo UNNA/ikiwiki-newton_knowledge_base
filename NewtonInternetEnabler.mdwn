@@ -1,0 +1,32 @@
+Date: Tue, 11 Nov 2003 01:18:01 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtonInternetEnabler;
+  flags="";
+  author=ScottyTechnoir;
+  version=1;
+  lastmodified=1068531481;
+  created=1068531481;
+  author_id=24.192.34.170;
+  markup=2;
+  hits=1286;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!!The Web, to Go
+
+''from the NIE2 readme...''%%%
+NIE is TCP/IP software for Newton devices.  NIE 2.0 represents a major upgrade and includes several important new features:
+
+* Ethernet PC Card support
+* Support for both AppleTalk and TCP/IP over ethernet
+* Support for TCP/IP tunneled in AppleTalk
+* Support for DHCP and MacIP servers
+* Support for multiple DNS servers
+* Improved modem and serial connection features
+
+NIE 2.0 will __only__ work on __Newton 2.1__ based devices, specifically:
+*Newton MessagePad 2000 and follow-on products
+*Apple eMate 300 and follow-on products
+*NIE 2.0 will __not__ work on MessagePad 130 or earlier devices.
+*NIE 2.0 will __not__ work with "combo" cards (dual function PC Cards, e.g. modem & ethernet cards).

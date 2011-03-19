@@ -1,0 +1,96 @@
+Date: Sun, 4 Mar 2007 15:15:30 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: multipart/mixed;
+  boundary="=_multipart_boundary_52"
+
+--=_multipart_boundary_52
+Content-Type: application/x-phpwiki;
+  pagename=ScholarlyWriting;
+  flags="";
+  author=jdueck;
+  version=2;
+  lastmodified=1173039330;
+  created=1173039330;
+  author_id=jdueck;
+  markup=2;
+  hits=183;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!Use Newton for ScholarlyWriting (Footnotes and references)
+
+The Newton is a great platform for scholarly writing (and of course for other tasks that academics do often, like note-taking!). However, two problems present themselves to the academic writer: NewtonWorks has no facility for real footnotes, and Newton doesn't come with bibliographic software.
+
+I use the Newton for academic writing, and I use both footnotes and a bibliiographic manager, through the judicious use of a few handy packages on the Macintosh side.
+
+Here's what I do:
+
+!References
+I use Bookends 9 (a great program!) as my bibliography manager, and Nisus Writer Express 2.7 as my word processor on the Mac.
+
+I export the entire Bookends database in its citation format (which basically looks like this: {Author Unique Details} ) to a text file. I sort this file alphabetically, add "chapter markers" (example "CHAPTER A") for each letter of the alphabet to the file, and then use PaperBack to make a copy of this file for the Newton. I install this Paperback book, containing all of my references, on the Newton.
+
+I use SBM's Tasks utility (see unna.org) to run that Paperback book in the background while I edit my document with NewtonWorks in the foreground. I just switch to the book and copy and paste references as needed, in citation manager format.
+
+On the Mac side, I process the file with Bookends 9, and produce beautifully formatted in-text citations and reference lists easily from these NewtonWorks edited files.
+
+
+!Footnotes
+I enter footnotes into NewtonWorks as follows: <fn>Footnote</fn>.
+
+Then, on the Mac side, I use Nisus Writer Express and Nobumi's Footnote macros to convert these to real footnotes (or endnotes, as the journal would like). You can download Nobumi's macros here: [http://www.bekkoame.ne.jp/~n-iyanag/nisus/note_macros_forNWE2.html].
+
+!Submitting a publication
+For both footnotes and references, I wait until I've completed my final editing before converting in-text footnote tags and citation-manager format citations to "the real thing," suitable for viewing  by editors and so on. This makes it easy to transfer files with little loss of formatting between the Newton and the Mac.
+
+!Other reference software to try:
+There's one obvious link missing in my system: I can't create a new bibliographic record on the Newton side and upload it to the Mac. NewtNotes can do this if you've got a PowerPC Mac and Endnote.
+
+There's also the free CardMedia Academic package (see unna.org), which works with the Newton's Address Book. If someone were to develop a VCF card filter for Bookends 9, it might be possible to use IC/VC, Blunt and the Address Book to exchange references (including new ones, generated on the Newton using CardMedia) to exchange references with the Desktop.
+
+--=_multipart_boundary_52
+Content-Type: application/x-phpwiki;
+  pagename=ScholarlyWriting;
+  flags="";
+  author=jdueck;
+  version=1;
+  lastmodified=1173039281;
+  created=1173039330;
+  author_id=jdueck;
+  markup=2;
+  hits=183;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!Use Newton for ScholarlyWriting (Footnotes and references)
+
+The Newton is a great platform for scholarly writing (and of course for other tasks that academics do often, like note-taking!). However, two problems present themselves to the academic writer: NewtonWorks has no facility for real footnotes, and Newton doesn't come with bibliographic software.
+
+I use the Newton for academic writing, and I use both footnotes and a bibliiographic manager, through the judicious use of a few handy packages on the Macintosh side.
+
+Here's what I do:
+
+!!References
+I use Bookends 9 (a great program!) as my bibliography manager, and Nisus Writer Express 2.7 as my word processor on the Mac.
+
+I export the entire Bookends database in its citation format (which basically looks like this: {Author Unique Details} ) to a text file. I sort this file alphabetically, add "chapter markers" (example "CHAPTER A") for each letter of the alphabet to the file, and then use PaperBack to make a copy of this file for the Newton. I install this Paperback book, containing all of my references, on the Newton.
+
+I use SBM's Tasks utility (see unna.org) to run that Paperback book in the background while I edit my document with NewtonWorks in the foreground. I just switch to the book and copy and paste references as needed, in citation manager format.
+
+On the Mac side, I process the file with Bookends 9, and produce beautifully formatted in-text citations and reference lists easily from these NewtonWorks edited files.
+
+
+!!Footnotes
+I enter footnotes into NewtonWorks as follows: <fn>Footnote</fn>.
+
+Then, on the Mac side, I use Nisus Writer Express and Nobumi's Footnote macros to convert these to real footnotes (or endnotes, as the journal would like). You can download Nobumi's macros here: [http://www.bekkoame.ne.jp/~n-iyanag/nisus/note_macros_forNWE2.html].
+
+!!Submitting a publication
+For both footnotes and references, I wait until I've completed my final editing before converting in-text footnote tags and citation-manager format citations to "the real thing," suitable for viewing  by editors and so on. This makes it easy to transfer files with little loss of formatting between the Newton and the Mac.
+
+!!Other reference software to try:
+There's one obvious link missing in my system: I can't create a new bibliographic record on the Newton side and upload it to the Mac. NewtNotes can do this if you've got a PowerPC Mac and Endnote.
+
+There's also the free CardMedia Academic package (see unna.org), which works with the Newton's Address Book. If someone were to develop a VCF card filter for Bookends 9, it might be possible to use IC/VC, Blunt and the Address Book to exchange references (including new ones, generated on the Newton using CardMedia) to exchange references with the Desktop.
+
+--=_multipart_boundary_52--

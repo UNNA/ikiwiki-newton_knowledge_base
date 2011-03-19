@@ -1,0 +1,16 @@
+Date: Fri, 28 Jan 2005 17:22:50 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=BeagleSoft;
+  flags="";
+  author=80.182.120.122;
+  version=1;
+  lastmodified=1106950970;
+  created=1106950970;
+  author_id=80.182.120.122;
+  markup=2;
+  hits=103;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+http://www.beaglesoft.com/232usb.htm

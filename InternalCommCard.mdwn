@@ -1,0 +1,23 @@
+Date: Thu, 15 Apr 2004 08:18:11 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=InternalCommCard;
+  flags="";
+  author=DjVollkasko;
+  version=1;
+  lastmodified=1082031491;
+  created=1082031491;
+  author_id=212.149.48.43;
+  markup=2;
+  hits=481;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+I would like to see one card with Bluetooth/802.11b&g/serial/USB/Stereo in\out/ placed on a daughter card where the original modem was to be placed. I would also want each of the capabilities to be hot, meaning that they can be turned on and off via software, preferably a pop-up menu and without restarting the Message Pad.
+
+This would also require a set of drivers to enable such a piece of hardware.
+
+Additional Data: There's been a [prototype by Apple|AppleMultifunctionInterconnectAdapter] that replaced the [Interconnect] port on MP 2x00 wth Audio In/Out, Power In and two (!) serial ports.
+%%%
+----
+Homepage : NewtonWishLists : HardwareWishList : InternalCommCard

@@ -1,0 +1,42 @@
+Date: Mon, 25 Oct 2004 06:48:43 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=InstallNewtonPressOnMacOSX;
+  flags="";
+  author=80.128.171.96;
+  version=1;
+  lastmodified=1098701323;
+  created=1098701323;
+  author_id=80.128.171.96;
+  markup=2;
+  hits=425;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+HomePage : HowTo : MakeNewtonEbooksIndex : [InstallNewtonPressOnMacOSX]
+----
+
+>>  When I try to install the version i've downloaded off the web,
+>> it keeps asking for disk 1!
+>...
+>I assume that you're on a mac and downloaded the .sea version.
+>Try the .hqx.  I think there's something wrong with the .sea.
+
+(Source: [Betty|http://marc.theaimsgroup.com/?l=newtontalk&m=109030342310717&w=2])
+
+%%%
+>I tried installing under OSX from the .hqx installer. After all,
+>if it *does* start Classic, it should work right?! But it didn't.
+>
+>Rebooted my Powerbook into MacOS 9.2.2 and installed there,
+>which worked like a charm. Now Press runs under 9.2.2 and in
+>Classic mode on OSX.
+>
+>Any pointers for those unfortunate souls who can't boot into
+>MacOS 9.x anymore? How can it be done all within OSX?
+(Source: [DJ Vollkasko|http://marc.10east.com/?l=newtontalk&m=109870058410763&w=2])
+
+
+%%%
+----
+HomePage : HowTo : MakeNewtonEbooksIndex : [InstallNewtonPressOnMacOSX]

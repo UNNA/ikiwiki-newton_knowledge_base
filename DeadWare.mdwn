@@ -1,0 +1,214 @@
+Date: Thu, 1 Dec 2005 11:17:00 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=DeadWare;
+  flags="";
+  author=AndyVanDerRaadt;
+  version=1;
+  lastmodified=1133453820;
+  created=1133453820;
+  author_id=68.145.111.222;
+  hits=519;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Re: Newton packages no longer supported but users need license codes
+....in response to Paul Jerry's post:
+
+As for the "deadware" issue, it's a witches brew to be sure.
+
+....... To put this all in context, I would have to say that the case now
+exists whereby an application which, having been created, developed, and
+marketed, by an Apple "partner", e.g. a small-business vendor, in good
+faith, then suddenly faced with the reality of Newton's demise, may have:
+
+#. gone out of business and been irreparably harmed in the the process
+#. cut their losses and run, shifting to another platform
+#. continued marketing their existing Newton Software
+
+.... etc., etc., and the litany of havoc leaving only a faint trail of
+dust for the consumer to track down in good faith.
+
+Remember, in the overall scheme of things, for whatever reason(s) the
+entire Newton initiative was rather abruptly cut short in August of 1998
+when Apple formally announced it's end of production. Lots of balls were
+still up in the air and to this day have still not landed.
+
+So, there exist numerous Newton packages in a state of
+limbo which have lost support by their developers for one reason or
+another. The applications run the gamut from junkware to  geniusware and
+from freeware to full version commmercialware. The sad thing is, one of
+the ramifications of the abrupt termination of Apple's support and
+production for the Newton is that there exist some very high quality,
+usable Newton packages which were developed during the late 1990's in
+good faith by vendors heavily investing in the process to build
+outstanding best-of-breed software, in various states of versioning, but
+must quit fine-tuned over the few years they were rolled out. Being high-
+end or commercial in nature the developers of these apps needed to
+protect their property by all of the normal licensing routines, and
+here's the crux of the issue, some of which entailed interaction between
+the vendor and the consumer at point of sale to generate and then use
+the unlocking codes which seem normally to be based on the "owner's"
+name or the motherboard serial number, or some such method whereby the
+vendor could at least exert "some" degree of control over pirating.
+
+So if you are in a situation where you either already own, or want to
+purchase a license for such a Newton application from a vendor who has
+long since vanished and moved on, how do you activate the application?
+You still are going to need some kind of unlocking code.  Try as you may
+to legitimately track down the few remaining online Newton software
+vendors to fulfill this requirement, in some cases the vendors no longer
+exist.
+
+Fortunately for me, in the case of [TimeTrax | http://config.de/], by Config
+Informationstechnik eG in Rottenbach, Germany, this group of software
+engineers at the Friedrich-Alexander University Erlangen-N=FCrnberg has
+been active since May 1995 and remains active today.
+
+So, with [TimeTrax | http://config.de/] for example, the procedure to install this application
+on your Newton is as follows. You first download their free demo. Try it
+use it, and if you want then to register and license it you click the
+about [TimeTrax | http://config.de/] item on your Newton which brings up a screen which
+displays a "seed" number.  This number presumably is either plucked
+directly out of the motherboard somewhere, or further manipulated based
+on some physical link to your Newton's identity, i.e. it's motherboard.
+The, you go back to [TimeTrax's | http://config.de/] online registration page, enter the
+"seed" number, your name, billing info etc. and click on finish. The
+info gets sent to Germany. Someone there reviewed the incoming orders
+manually each day, sends you back the activation code via email which
+you then enter into the Newton [TimeTrax | http://config.de/] about dialog and your demo
+version becomes the full commercial version. All fine and dandy as long
+as the kind folks in Germany continue to support this scheme.
+
+But when they, and others no longer do, there are at least two very
+unpleasant ramifications to end-users.
+
+The first is that new users of, again just as one example, say [TimeTrax | http://config.de/]
+will be able to download the demo version expires after 30 days, then
+have no chance to register and unlock it into the commercial version for
+perpetual use.
+
+The second is the case of an existing user who, for whatever reason,
+chooses or is forced to move from Newton A to Newton B, and in so doing
+is plunged into the inextricable quagmire of having no way to unlock the
+application on the new Newton because the new Newton has a different ID
+so the application rejects the licensing and will not function as a
+commercial full version.
+
+Hence the trap.
+
+Funny you mention this. I had searched for and found an expense
+reporting Newton application called !ExpensePlus (which BTW is EXCELLENT)
+for entering line item costs to manage and manipulate them on my Newton
+and after having run the demo version for about 10 minutes I knew I
+wanted to register and pay for the commercial full version so I went
+back to the !WalletWare Web page to
+order which instructed me to CALL by PHONE [no on line automated
+licensing for this package, you have to download it, then call or email
+them] to do so, which I did. The funny thing was that the people at
+!WalletWare did not even KNOW the aforreferenced URL page for !ExpensePlus
+for Newton even existed on their own site, LOLOLOL. I had to tell read
+the URL, letter for letter,  and they were surprised when it came up on
+their screen. Anyway they finally gave me the phone number for their
+tech support department and I spoke with a VERY helpful tech named Gary
+who knew immediately of the Newton !ExpensePlus software as he had
+originally been on the coding team. He personally put together a
+compressed folder of all the files I would need [it took him almost an
+hour to do all this at his end] and he emailed it all to me. Gary was
+busy, but he did me the favor and got me up and running, for which I am
+grateful. His only caveat was that I needed to be aware that no
+conventional phone or email "support exists for this truly amazing
+application, which I totally agreed to and understand from a business
+perspective.  I thanked him. He also processed the payment and
+registration.  But this points out a problem which will only worsen in
+the future, i.e. as time goes on less and less support will exist for
+Newton applications, thank God for UNNA, what a wealth of information
+all in one place and well archived for all of us to benefit from. I
+donated financially to the cause and all of us should do the same as
+there's no free lunch and we need UNNA to stay strong and remain in
+healthy in perpetuity.
+
+But back to the question at hand, I guess you just need to do your
+homework up front and do a little research on whatever the app is that
+you are testing out. e.g. Does the vendor still have a Web presence?
+
+I think "some" apps have officially been formally granted to the public
+domain by their authors as they were aware of just the issue you speak.
+Other apps probably have slid off the edge by neglect of their creators
+and may languish in the demo-version 4th dimension never to return to
+our world, sad. Other vendors such as the developers of !TimeTrax at
+<http://config.de/> are still up and running their storefronts on the
+web and I just ordered and paid for my registration from them. I believe
+they are in Rottenback, Germany. Damn Germans <G>  .....leave it to them
+to make the best damn software for the Newton, or anything for that
+matter ;-)  What a crafty bunch they are.
+
+To make matters worse, some Newton apps tie their license to the Newton
+"owner's" name, yet others tie it to the Newton serial number of the
+motherboard.  Aaarrggghhh!   So where does that leave you if your
+motherboard goes south and the vendor does too ?  You're sunk.
+
+I am at present in the process of contacting Config Informationstecknik
+in Germany over just this very issue as the [TimeTrax | http://config.de/] license is tied to
+the motherboard.  Not good, for the honest consumer, that is.
+
+I am aware that there is a "universal" license key that one could use in
+this specific scenario, with for example [TimeTrax | http://config.de/] which is in this
+category, to enter which would unlock the demo version into the
+commercial version.  It so happened I was in this exact situation. I
+have ten newtons. They are all 2000's and 2100's. They all work and I'll
+use them as needed for parts until I die, but need to be certain I can
+always keep using my Newton for the next 10-20-30 years, or as long as
+I'm alive, hence the stockpile of Newtons.  As for the universal license
+key thing, a friend on this list sent me something to try and I tried it
+but it was such that the last four characters were non alpha-numeric,
+they were high-ascii or something weird and could not tell visually how
+to enter them so I never was able to even see of the key actually worked
+or not.  I'm not going to say any more about the universal key thing
+because even though I'm sure 999 of the 1,000 users on this list are
+honest and ethical, there's always that one who wants their free lunch
+and leeches off the rest of us.  Anyway, you can contact me off list if
+you need help in this regard, but I won't give out the key even if you
+do as I do not have that right, and would never want to compromise the
+developer's business.  'nuf said.
+
+If I had no qualms about jeopardizing the developers rights I'd post a
+screen print of the characters of which I speak and someone on the list
+would probably know right away exactly what they are. But the need to
+protect the developers universal license exceeds my need as a single
+user so I will not ever do this.  If you had the ignition key to unlock
+the doors of every car in America and start the engine would you
+duplicate and distribute them to everyone on the street? I certainly
+hope not. If you did everyone would be at risk, not to mention no police
+force in the world could outnumber the people with all the keys, nor
+could the manufacturer of the car undo you giving the keys out in the
+first place.
+
+So, Long story short, guess it's the old Caveat Emptor deal. The final
+responsibility lies with each one of us.
+
+Maybe it would be a good thing, or perhaps it already exists somewhere
+on UNNA or elsewhere, to compile a list of known software which is no
+longer supported, nor does the vendor want to or care any more, of
+license numbers that could be used in such cases of applications that
+are valid, needed, but can't be licensed in perpetuity simply because
+the vendor died or went out of business or does not care any more.
+
+If such a list of "deadware" [I herby proclaim my trademark rights to
+the word "deadware" if this has any merit] exists would someone please
+post it's URL.
+
+If not then someone, maybe me, should start one.  Of course, in the
+world we live there are also the legal issues of making public such a
+list. I know that there is at least one very well informed and capable
+legal professional on this list that could clarify the finer points of
+the public domain licensing issue for us and please email me off list if
+you are willing to help at [mailto:OceanCity@mac.com]
+
+If needed, we, me, I, someone, a committee could/can try to track down
+and contact the deadware vendors to obtain written legal releases to
+post such license codes publicly in a manageable and organized fashion,
+without stepping on anyone's toes.  If need be, I'll do this myself. On
+the other hand I would imagine that UNNA has already addressed this
+issue long ago and I just am not aware of where the list would be. The
+clock keeps ticking.  Entropy, etc. John [mailto:OceanCity@mac.com]!

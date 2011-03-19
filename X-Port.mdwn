@@ -1,0 +1,29 @@
+Date: Thu, 3 Jun 2004 16:33:34 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=X-Port;
+  flags="";
+  author=AllenRussell;
+  version=1;
+  lastmodified=1086294814;
+  created=1086294814;
+  author_id=204.149.80.4;
+  markup=2;
+  summary=X-Port%20by%20Dan%20Rowley;
+  hits=756;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+X-Port is an application written by Dan Rowley, it was distributed by ICS [http://www.newts.com/newton].  It is now available on Kagi from Dan [https://order.kagi.com/cgi-bin/store.cgi?storeID=IC&&].  It works with Windows and Macintosh computers.
+
+From the package, the features are:
+* Transfer Multiple Notes, Outlines, Lists, and Packages to and from your PC
+* Import all contacts from any desktop PIM with ASCII text exporting
+* Upload Newton screen shots as PICT or BMP files
+* Download black-and-white PICT and BMP files for viewing/editing with Newtpaint
+
+Requirements:
+* Messagepad with Newton OS 2.0 or later
+* 48k storage on the Newton
+* Macintosh System 7.01 or later, uses Localtalk or serial connection
+* PC with Windows 3.1 or later, compatible with Windows 95

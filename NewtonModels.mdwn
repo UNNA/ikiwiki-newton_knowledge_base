@@ -1,0 +1,36 @@
+Date: Thu, 25 Mar 2004 09:16:11 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtonModels;
+  flags="";
+  author=194.25.90.9;
+  version=1;
+  lastmodified=1080224171;
+  created=1080224171;
+  author_id=194.25.90.9;
+  markup=2;
+  hits=6011;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+The NewtonMessagePad models released by Apple were:
+
+* OriginalMessagePad (model H1000)
+* [MessagePad100] (also model H1000)
+* [MessagePad110]
+* [MessagePad120] (1MB or 2MB, also OS 1.3 or 2.0)
+* [MessagePad130]
+* [MessagePad2000]
+* [MessagePad2100]
+* [eMate300]
+
+Models released by Apple licencees were:
+
+* SharpExpertPad
+* MotorolaMarco
+* DigitalOceanTarpon
+* DigitalOceanSeaHorse
+* [HarrisSuperTech2000]
+* SiemensNotephone
+----
+HardWare

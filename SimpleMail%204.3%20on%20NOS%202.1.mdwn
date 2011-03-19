@@ -1,0 +1,87 @@
+Date: Fri, 21 May 2004 14:07:43 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=SimpleMail%204.3%20on%20NOS%202.1;
+  flags="";
+  author=DjVollkasko;
+  version=1;
+  lastmodified=1085162863;
+  created=1085162863;
+  author_id=80.128.163.108;
+  markup=2;
+  hits=1263;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__Complete Moron's Guide(TM) to [SimpleMail 4.3 on NOS 2.1]__
+
+>SimpleMail is a freeware mail transport by SimonBell and can be found [here|http://www.simple.dial.pipex.com].
+
+Note: This short walkthrough is for NOS 2.1 and SimpleMail 4.3. Some parts may also be appropriate for other mail transports and other versions of NOS, but your mileage will vastly vary, enter at your own risk, post no bills. Be welcome to post your own walkthrough for other transport/NOS-combinations over at [E-Mail], just hit "Edit" at the bottom of that page  and create a new WikiName to get started!
+
+
+Also note: If things don't work the first time round, try again, exactly as described below. If that doesn't do it, go back to the NIE and SimpleMail manuals. Always remember: If a complete moron could, so can you!
+
+
+%%%
+__A. Setting Up SimpleMail 4.3__
+
+* 0. Back up Newton. Do this. Really. Trust me. You want to do this. It's good.
+
+* 1. Install NIE 2.0 (NewtonInternetEnabler -- available from [UNNA|http://www.unna.org/view.php?/apple/software/Internet]). Create Internet Setup (Extras/Setup/Internet Setup/New) for your internet service provider and add this to a Worksite in Extras/Unfiled/Owner Info). See [NIE-documentation|http://www.unna.org/unna/apple/software/Internet/NIE2/nie20_ug.pdf] for details if needed.
+
+* 2. Install SimpleMail's SimpleMail.pkg and TextStationary.pkg (all other packages are add-ons and nice-to-haves, add later whatever your needs demand). If in doubt, always check the excellent 23 page manual [SM Guide|http://www.simple.dial.pipex.com/SM%20Guide.pdf].
+
+* 3. Add your mail adress: Extras/Unfiled/Owner Info, tap the Owner you want to modify and Add/E-Mail. Enter the mailadress that will appear in the "From" field of the mails you send out and close slip.
+>(???Is this syntax also allowed: "Firstname Lastname" <mymailaddress@myISP.net>???)
+
+* 4. Add mail service provider -- Extras/Unfiled/Owner Info, tap the Owner you want to modify and Add/SimpleMail. Fill in fields:
+** 4.1 User Name will be your mailaccounts login (e.g. with German provider GMX the account/customer number; other providers use e.g. the mailadress or whatever);
+** 4.2 tap POP Host, set to "POP" and enter host name (e.g. pop.gmx.de - wherever you pull your mail from) -- if you want to use IMAP, you'd better use Mail V, also by Simon Bell;
+** 4.3 tap "Set Password", enter your mail account's password, tap "Set";
+
+Note: You won't look like a [wet donkey without a tent|http://www.newtontalk.net/archive/newtontalk.2004-05/1863.html] if you manage to enter the right password. Think this is funny? Well, I don't! ;=}
+
+** 4.4 for SMTP Host enter host name (e.g. mail.gmx.net - whatever you send your mails through);
+** 4.5 close SimpleMail-slip (tap "x").
+*5. Done. SimpleMail 4.3 is set up and ready to use.
+
+Note: You can set up multiple mailaccounts and worksite-specific SMTP servers, refer to [SM Guide|http://www.simple.dial.pipex.com/SM%20Guide.pdf] for this.
+
+----
+
+%%%
+__B. Sending Mail with SimpleMail 4.3__
+
+* 1. Go to NotePad, create new note and write your message text.
+* 2. Tap routing button (envelope)/Mail.
+* 3. Select the Worksite and mailadress you want to use (if multiple worksites and addresses are configured).
+* 4. Tap "To",  "CC." or "BCC.", tap "Other Names" to look up addresses in Names app or "Individual" to enter a recipient who's not in your address book.
+* 5. Tap Mail/Now.
+* 6. The NIE transport slip opens, choose the Internet Setup you want to use (ISP and card, e.g. your router, DHCP and ethernet card), hit "Connect". Your Newton should now connect to the Internet and send the mail.
+
+----
+
+%%%
+__C. Receiving Mail with SimpleMail 4.3__
+
+* 1. Open InOut Box.
+* 2. Configure if SimpleMail will download mails off the server (and delete or leave them there) or just download the titles for online-browsing of mail: Open InOutBox, tap i/SimpleMail Prefs/Page/Basic and set...
+** 2.1 ..."Leave Mail on Server", if you don't want the mails to be deleted after downloading.
+** 2.2 ..."Delete From Inbox and Server" if you want mails deleted on the Newton also to be deleted on the server.
+** 2.3 ..."Disconnect after Sending", if you don't want to check for mails after sending.
+** 2.4 ..."When Connecting" to either "Download Mail" for offline reading or "Browse Mail" to read the mail on the server.
+** For all other options see [SM Guide|http://www.simple.dial.pipex.com/SM%20Guide.pdf].
+* 3. Tap Receive/SimpleMail.
+* 4. Tap Connect. The Newton connects to the mail server and either downloads the mails or displays the server's mailbox.
+
+
+%%%
+Contributors:
+
+[DJVollkasko], May 2004
+
+----
+HomePage: HowTo: [E-Mail] : [SimpleMail 4.3 on NOS 2.1]
+
+HomePage: SoftwareReviews : MessagingApplications : [SimpleMail 4.3 on NOS 2.1]

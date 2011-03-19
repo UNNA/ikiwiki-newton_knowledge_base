@@ -1,0 +1,32 @@
+Date: Thu, 1 Apr 2004 07:04:39 -0500
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=MpCaseMods;
+  flags="";
+  author=212.149.48.43;
+  version=1;
+  lastmodified=1080821079;
+  created=1080821079;
+  author_id=212.149.48.43;
+  markup=2;
+  hits=599;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+__MP 2x00 Case Mods__
+
+
+__What:__ Clear case for MP 2x00. - Smaller form-factor case for MP 2x00. - Maybe both rolled in one. ;=}
+
+__Background:__ A clear case made to the original MP 2x00 specs would simply look way cool. Some people have already looked into this, some Newtonians have successfully done this in the past, since then, even the original case blueprints have been found - why should it be impossible to reanimate this project? - On another note, people on NTLK have mentioned that it might be possible to produce a new case for MP 2x00 with a smaller form factor, e.g. by using the pen silo for rechargeables.
+
+__Benefit:__ Would bring stunning styling to the Newton. - Would much improve the takealongability of the Messagepad, and that'd even more improve the value of the Newton in the users daily life.
+
+__Additional Data:__ Any additional input appreciated.
+
+
+__Any Takers?__%%%
+%%%
+%%%
+----
+HomePage : NewtonWishLists : HardwareWishList : MpCaseMods

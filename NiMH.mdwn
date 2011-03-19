@@ -1,0 +1,29 @@
+Date: Mon, 31 May 2004 21:31:34 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NiMH;
+  flags="";
+  author=24.18.251.243;
+  version=1;
+  lastmodified=1086053494;
+  created=1086053494;
+  author_id=24.18.251.243;
+  markup=2;
+  hits=553;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+Nickel Metal Hydride.  A type of rechargable battery, available in many sizes.  NiMH cells are used in the [eMate300], [MessagePad2000], and [MessagePad2100] BatteryPacks.
+
+Four sources of cells for rebuilding these older spent packs: You'll want AA's  :~)
+
+1) http://batteriesamerica.com
+
+2) http://www.amondotech.com
+
+3) http://www.batteryspace.com
+
+4) http://www.batterysupply.com
+
+----
+BatteryPacks

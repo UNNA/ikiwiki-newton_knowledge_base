@@ -1,0 +1,50 @@
+Date: Wed, 26 Oct 2005 17:22:14 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=HackNewton;
+  flags="";
+  author=210.9.33.123;
+  version=1;
+  lastmodified=1130361734;
+  created=1130361734;
+  author_id=210.9.33.123;
+  hits=4367;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+!!!Since the dawn of time...
+...man has yearned to hack his hardware. The Newton platform is no different. Some ingenious souls in the Newton Community have engineered some mighty clever hacks.
+
+*Almost any conceivable hack will require you to disassemble your newton. For help, head on [ over | http://www.pda-soft.de/2x00_disassemble.html ] to Frank G's [ pda-soft | http://www.pda-soft.de/index.html] site for the ''de facto'' disassembly tutorial
+
+*One of the easiest and most useful hacks for the 2x00 Newtons is the installation of a true serial port. Find out how to order and install the [ SER-001 | http://mrpcbman.tripod.com/SER-001.htm]
+
+*Alternative to the SER-001 as it is no longer produced, look for the Dongle Destroyer offered on   Knowledgenavigators website.  The price includes shipping anywhere in the world and the board comes with a 1 year warranty.[Dongle Destroyer| http://www.geocities.com/newtonwares/pcb.htm]
+
+*alternative to the SER-001 a lower priced version of the product is for sale called the [ Dongle destroyer | http://www.angelfire.com/oz/newtonian]
+
+*Eventually, every Newton backlight will grow too dim to use. Want to keep your Newt working into the next decade? Me too! That's why i bookmarked PCBMan's [backlight replacement page | http://mrpcbman.tripod.com/Backlight.htm] or look here for a 3rd party solution at [Adago.NET | http://www.adago.net].
+
+*For eMate users, finding the elusive 4MB DRAM upgrade was an exercise in futility (or pleading, or shelling out huge bucks). Once again Mr. PCBMan comes through with his freshest and most daring upgrade yet, the fabulous [ EM-300 | http://mrpcbman.tripod.com/EM300.htm] (listed as sold out for some time now; April, 2005)
+
+*Eckhart is working on Bluetooth support for the Newton. Read all about it, and his other hacks, over on the [Mottek | http://40hz.org/mottek/] page
+
+*Philz is working on plumbing the depths of the Newton Storage architecture. Keep a close eye on his work over at [Hammering Newton | http://philz.freezope.org/newton]
+
+*Many new users wonder about the addition of an audio jack to the Newton. The eMate has one, but the rest of the Newton line lack this basic feature. There are a couple of ways to work an earphone jack into the Newt. See how to use the stylus silo for an audio port [ here | http://www.venus.dti.ne.jp/~yos/newton/newtonhacks.html]. Another way is to fit a very small jack under the interconnect port, as described by Daniel Padilla [ here | http://dev.newtontalk.net/~dpadilla/audio.htm]. [HandMedia|http://www.hand-media.com] sells such an upgrade.
+
+*[HandMedia|http://www.hand-media.com] also sells an upgrade service for Newton 2000 and 2100 Messagepads.
+
+*Another fine hacker is Stephanie Maks. She has info on overclocking hacks for the [MP2x00 | http://www.felesmagus.com/newton/2100fast.html] as well as for the [Emate 300 | http://www.felesmagus.com/newton/ematefast.html]. Her page also sports [other hacks | http://www.felesmagus.com/newton/otheremate.html] for the eMate, and of course the famous page on making your MessagePad [ blinky! | http://www.felesmagus.com/newton/othermp2100.html]
+
+*You are looking for ideas of what you could hack? The [Newton Hardware Wishlist | http://tools.unna.org/wikiwikinewt/index.php/HardwareWishList] has lists some stuff that would be great to have, from the neat to the nutty. New ideas and any takers appreciated!
+
+*Maybe unrelated, maybe better left to the NewtonToolkit page, but added for completeness: the [Newton Bowels Project | http://www.kallisys.com/newton/bowels/] is an attempt at documenting the ins & outs of the Newton OS APIs, including How-Tos and downloads.
+
+
+__See also:__
+
+*HardwareWishList - for all the hacks you ever dreamt about but were afraid to ask. ;=}
+
+----
+HomePage : HardWare : HackNewton

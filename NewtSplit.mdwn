@@ -1,0 +1,28 @@
+Date: Tue, 19 Apr 2005 13:53:26 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtSplit;
+  flags="";
+  author=84.178.164.12;
+  version=1;
+  lastmodified=1113933206;
+  created=1113933206;
+  author_id=84.178.164.12;
+  markup=2;
+  hits=578;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+[NewtSplit website|http://homepage.mac.com/adriano.angelillis/PhotoAlbum5.html]
+
+----
+!See also these fabulous products from AdrianoAngelillis:
+
+* [NewtLight] -- Mini-DIN 9-to-USB adapter for use with MP 2x00's InterConnectPort and the InterConnectDongle, draws power from InterConnectPort (NO USB connection!).
+
+* [NewtNav] -- Serial adapter to power GPS receiver from MP2k's InterConnectPort and transfer data simultaneously. All you need now is a GPS receiver, no external power supply, hub, adapters or cables -- nothing besides besides InterConnectDongle and NewtNav.
+
+* [NewtEye] -- A 10.000mcd blue led that directly plugs into the Newton's serial port.
+
+----
+HomePage : HardWare : [NewtNav]

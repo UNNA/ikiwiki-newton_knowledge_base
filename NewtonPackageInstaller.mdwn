@@ -1,0 +1,29 @@
+Date: Sat, 14 Jun 2003 10:07:35 -0400
+Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
+Content-Type: application/x-phpwiki;
+  pagename=NewtonPackageInstaller;
+  flags="";
+  author=PaulGuyot;
+  version=1;
+  lastmodified=1055599655;
+  created=1055599655;
+  author_id=212.198.0.94;
+  markup=2;
+  hits=912;
+  charset=iso-8859-1
+Content-Transfer-Encoding: binary
+
+A one trick pony that Apple made. It installs packages.
+
+!!Mac OS 9, Mac OS 8, System 7
+It uses serial connections or AppleTalk connections (LocalTalk (MacOS < 9) and EtherTalk).
+Hint: LocalTalk (AppleTalk over serial) connections are usually faster than serial connections.
+
+!!Mac OS X
+It works in Classic on Mac OS X. It uses serial connections or AppleTalk connections (EtherTalk only, LocalTalk is not available in Classic).
+
+!!Windows/PC version.
+Serial Connection Only
+
+----
+In case you're interested in this sort of things (previous author wrote that NPI could be used to reverse engineer the protocol): the protocol used by Newton Package Installer is completely documented in Newton Formats. It is the load package Newton docking protocol subset. Serial connections are done at 38400 bauds with MNP compression for error checking (it doesn't really compresses data, instead, more bytes are transfered than necessary). LocalTalk connection are done at 57600 with ADSP frames, hence the faster speed.

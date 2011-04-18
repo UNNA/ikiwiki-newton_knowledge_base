@@ -1,37 +1,22 @@
-Date: Mon, 9 May 2005 04:10:29 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=BrainWipe;
-  flags="";
-  author=84.178.142.68;
-  version=1;
-  lastmodified=1115626229;
-  created=1115626229;
-  author_id=84.178.142.68;
-  markup=2;
-  hits=1424;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : BrainWipe%%%
-HomePage : ... : [MacOSXConnection] : BrainWipe%%%
-HomePage : ... : VictorSetup : BrainWipe%%%
+[[HomePage]] : [[HowTo]] : [[BrainWipe]]%%%
+[[HomePage]] : ... : [[MacOSXConnection]] : [[BrainWipe]]%%%
+[[HomePage]] : ... : [[VictorSetup]] : [[BrainWipe]]%%%
 ----
 
-A BrainWipe is a procedue that clears out all of the memory of a Newton, right down to the last little bit.
+A [[BrainWipe]] is a procedue that clears out all of the memory of a Newton, right down to the last little bit.
 
 
-*"Hard Reset ("BrainWipe")%%%
+*"Hard Reset ("[[BrainWipe]]")%%%
 Before you perform a hard reset, first remove all PCMCIA cards from the Newton (this is really important, otherwise you may destroy the card!).%%%
 This hard reset WILL ERASE EVERYTHING ON YOUR NEWTON. Use it with caution, and usually only as a last resort. If you are performing a Backup and Restore Cycle, you will want to perform a hard reset after the backup and before the restore. Other than that, you will probably never perform one; unless you have major data corruption, or are selling your Newton.%%%
 To perform a Hard reset, tap the reset button, while holding down the power switch. You will be presented with a dialog box asking "Do you want to erase data completely" . Tap Yes if you want to perform the Hard reset and erase everything on the Newton. You will be asked to reconfirm your selection, and then the data will be erased.%%%
-Note that doing a backup/hard reset/restore cycle might speed up your Newton. See [question IIIB9|http://www.pda-soft.de/newton-faq-nos.html#IIIB9] about defragmentation." (From the [Newton FAQ|http://www.pda-soft.de/newton-faq-nos.html#IIIB2])
+Note that doing a backup/hard reset/restore cycle might speed up your Newton. See [question IIIB9|http://www.pda-soft.de/newton-faq-nos.html#IIIB9] about defragmentation." (From the [Newton FAQ](http://www.pda-soft.de/newton-faq-nos.html#IIIB2))
 
 
 %%%
-The Newton FAQ has a whole great section about this and other Newton Reset modes [right here|http://www.chuma.org/newton/faq/newton-faq-nos.html#IIIB2].
+The Newton FAQ has a whole great section about this and other Newton Reset modes [right here](http://www.chuma.org/newton/faq/newton-faq-nos.html#IIIB2).
 
 ----
-HomePage : HowTo : BrainWipe%%%
-HomePage : ... : [MacOSXConnection] : BrainWipe%%%
-HomePage : ... : VictorSetup : BrainWipe%%%
+[[HomePage]] : [[HowTo]] : [[BrainWipe]]%%%
+[[HomePage]] : ... : [[MacOSXConnection]] : [[BrainWipe]]%%%
+[[HomePage]] : ... : [[VictorSetup]] : [[BrainWipe]]%%%

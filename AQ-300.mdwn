@@ -1,38 +1,23 @@
-Date: Mon, 23 May 2005 11:44:57 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=AQ-300;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1116863097;
-  created=1116863097;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=820;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : [GPSOnNewton] : [GPSHardware] : [AQ-300]%%%
-HomePage : HardWare : [GPSOnNewton] : [GPSHardware] : [AQ-300]%%%
+[[HomePage]] : [[HowTo]] : [[GPSOnNewton]] : [[GPSHardware]] : [AQ-300]%%%
+[[HomePage]] : [[HardWare]] : [[GPSOnNewton]] : [[GPSHardware]] : [AQ-300]%%%
 ----
 
-!!![AQ-Max|http://www.aqmax.com] AQ-300-U-PS2 (GPS mouse)
+### [AQ-Max](http://www.aqmax.com) AQ-300-U-PS2 (GPS mouse)
 
 
-*SiRF Star II chipset, dual-channel communications via RS-232 or TTL, 12 channel, WAAS, rechargeable Lithium cell battery (stores setting 32 days, recharges in normal operation), built-in magnet (clonks to car top!), PS/2 female connector. 1 m waterproof, GREEN (!!!) flashing LED when unit has position fix.
+*[[SiRF]] Star II chipset, dual-channel communications via RS-232 or TTL, 12 channel, WAAS, rechargeable Lithium cell battery (stores setting 32 days, recharges in normal operation), built-in magnet (clonks to car top!), PS/2 female connector. 1 m waterproof, GREEN (!!!) flashing LED when unit has position fix.
 *Draws 35 mA stably (the same as a PICO bluetooth card when in Receive mode). Quality made in Taiwan.
-*Acquisition of satellites in 100 ms, cold start 45 sec. (average), updates GPS data per default every second (change this to two or five seconds!), sleep mode between updates (saves power!), selectable Baud rates (4800-Default, 9600, 19200, 38400), other defaults:  8 data bits/stop bit/no parity, FLASH memory (device can be updated), NMEA-0183 Version 2.2 ASCII output (GPGGA, GPGLL, GPGSA,  GPGSV, GPRMC, GPVTG -- shut off all but GGA, RMC, VTG), Real-time Differential Correction input (RTCM SC-104 message types  1, 5 and 9) and DGPS (default communication parameters for DGPS Input: 9600  Baud, 8 data bits, stop bit, no parity), SiRF protocol.
-*Car adapter, USB adapter, COM-port adapter available from distributors (ask [AQ-Max|mailto:info@aqmax.com] for contacts). The Manual also lists pinouts for various connectors (PS/2, DB9, USB, high power connector +6 to 30 Volt DC),  (Source: [AQ-300 Manual|http://www.stillnewt.org/library/_Software/_GPS%20Software/AQ%20max%20AQ-300%20Manual%20(GPS%20Mouse)/AQ-300%20Manual%20English.pdf])
-*Approx. EUR 50,-- incl. car charger/Y-adaptor at [Ebay|http://search-desc.ebay.de/aq-300_W0QQcatrefZC5QQfbdZ1QQfclZ3QQfromZR14QQfrppZ100QQfsooZ1QQfsopZ1QQftrtZ1QQftrvZ1QQftsZ2QQga10244Z10425QQpfidZ0QQsaatcZ999QQsacatZQ2d1QQsacurZ0QQsadisZ200QQsaslopZ1QQsatitleZaqQ2d300QQsofocusZbsQQsojsZ1QQsorefinesearchZ1].
-*Used by DJ Vollkasko with NewtNav on MessagePad2100 and with manufacturer-supplied USB-to-serial bridge C3001 (with Prolific PL-2303 chipset) on Apple G4 Powerbook.
+*Acquisition of satellites in 100 ms, cold start 45 sec. (average), updates GPS data per default every second (change this to two or five seconds!), sleep mode between updates (saves power!), selectable Baud rates (4800-Default, 9600, 19200, 38400), other defaults:  8 data bits/stop bit/no parity, FLASH memory (device can be updated), NMEA-0183 Version 2.2 ASCII output (GPGGA, GPGLL, GPGSA,  GPGSV, GPRMC, GPVTG -- shut off all but GGA, RMC, VTG), Real-time Differential Correction input (RTCM SC-104 message types  1, 5 and 9) and DGPS (default communication parameters for DGPS Input: 9600  Baud, 8 data bits, stop bit, no parity), [[SiRF]] protocol.
+*Car adapter, USB adapter, COM-port adapter available from distributors (ask [AQ-Max|mailto:info@aqmax.com] for contacts). The Manual also lists pinouts for various connectors (PS/2, DB9, USB, high power connector +6 to 30 Volt DC),  (Source: [AQ-300 Manual](http://www.stillnewt.org/library/_Software/_GPS%20Software/AQ%20max%20AQ-300%20Manual%20(GPS%20Mouse)/AQ-300%20Manual%20English.pdf))
+*Approx. EUR 50,-- incl. car charger/Y-adaptor at [Ebay](http://search-desc.ebay.de/aq-300_W0QQcatrefZC5QQfbdZ1QQfclZ3QQfromZR14QQfrppZ100QQfsooZ1QQfsopZ1QQftrtZ1QQftrvZ1QQftsZ2QQga10244Z10425QQpfidZ0QQsaatcZ999QQsacatZQ2d1QQsacurZ0QQsadisZ200QQsaslopZ1QQsatitleZaqQ2d300QQsofocusZbsQQsojsZ1QQsorefinesearchZ1).
+*Used by DJ Vollkasko with [[NewtNav]] on MessagePad2100 and with manufacturer-supplied USB-to-serial bridge C3001 (with Prolific PL-2303 chipset) on Apple G4 Powerbook.
 
-!!See also:
+## See also:
 
-*[AQ-Max|http://www.aqmax.com] (Manufacturer in Taiwan)
-*[AQ-300 Manual|http://www.stillnewt.org/library/_Software/_GPS%20Software/AQ%20max%20AQ-300%20Manual%20(GPS%20Mouse)/AQ-300%20Manual%20English.pdf]
-*[GPSHardwareConfiguration]
+*[AQ-Max](http://www.aqmax.com) (Manufacturer in Taiwan)
+*[AQ-300 Manual](http://www.stillnewt.org/library/_Software/_GPS%20Software/AQ%20max%20AQ-300%20Manual%20(GPS%20Mouse)/AQ-300%20Manual%20English.pdf)
+*[[GPSHardwareConfiguration]]
 
 ----
-HomePage : HowTo : [GPSOnNewton] : [GPSHardware] : [AQ-300]%%%
-HomePage : HardWare : [GPSOnNewton] : [GPSHardware] : [AQ-300]%%%
+[[HomePage]] : [[HowTo]] : [[GPSOnNewton]] : [[GPSHardware]] : [AQ-300]%%%
+[[HomePage]] : [[HardWare]] : [[GPSOnNewton]] : [[GPSHardware]] : [AQ-300]%%%

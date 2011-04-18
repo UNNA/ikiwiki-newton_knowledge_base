@@ -1,56 +1,42 @@
-Date: Wed, 10 Dec 2003 01:02:42 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=WaveLan;
-  flags="";
-  author=ScottyTechnoir;
-  version=1;
-  lastmodified=1071036162;
-  created=1071036162;
-  author_id=63.138.75.78;
-  hits=3019;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-!!!Wifi.
-!!It's a beautiful thing. %%%
+### Wifi.
+## It's a beautiful thing. %%%
 The ability to connect our devices wirelessly to complex networks of vast data has been a dream since we first saw Star Trek. By the time 802.11b (Airport, as Apple likes to call it) had hit the streets, the Newton had been thrown out the door. Wireless connectivity didn't seem possible for the Newton, but it was, and it is.
 
-Hiroshi Noguchi has [developed a suite | http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] of EthernetDrivers which enable the Newton to utilize any one of the readily [ available | http://www.pricewatch.com/1/211/3550-1.htm], [inexpensive | http://search.ebay.com/ws/search/SaleSearch?sacategory=44995&ht=1&from=R10&satitle=wavelan&sospellrecommendation=0&catref=C1&basicsearch=&sosortproperty=1] Wireless 802.11b compatible cards.
+Hiroshi Noguchi has [developed a suite | http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] of [[EthernetDrivers]] which enable the Newton to utilize any one of the readily [ available | http://www.pricewatch.com/1/211/3550-1.htm], [inexpensive ](http://search.ebay.com/ws/search/[[SaleSearch]]?sacategory=44995&ht=1&from=R10&satitle=wavelan&sospellrecommendation=0&catref=C1&basicsearch=&sosortproperty=1) Wireless 802.11b compatible cards.
 
-!!Which Cards?
+## Which Cards?
 * Generally
-**Hiroshi's [ page | http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] contains the compatibility list. Briefly, any 5 volt Lucent/Orinoco/Agere WaveLAN (bronze, silver, and gold) card will work. Also, certain Farallon Skyline, Elsa !AirLancer, Tekram, Dell, Intel, and Linksys cards have been reported to work. Make sure the card is rated for __5V__!!! Other voltages, like 3.3V, can kill your Newton
+**Hiroshi's [ page ](http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] contains the compatibility list. Briefly, any 5 volt Lucent/Orinoco/Agere [[WaveLAN]] (bronze, silver, and gold) card will work. Also, certain Farallon Skyline, Elsa ![[AirLancer]), Tekram, Dell, Intel, and Linksys cards have been reported to work. Make sure the card is rated for __5V__!!! Other voltages, like 3.3V, can kill your Newton
 * Personally
 ** I believe I am the only Newton owner using a D-Link DWL-650 card. This card was initially in the compatible list, but has since been struck off by Hiroshi as it uses 3.3V, an incompatible voltage that can cause Permanent Newton Death. To confuse the issue with DWL-650s, there have been many revisions over time such that now a DWL-650 refers to an array of totally different cards. The new cards are cardbus, for example, and therefor completely incompatible with Newton. Mine is one of the oldest revisions (grey "crescent moon" antenna) and indeed says 3.3V on the back sticker. I am sure i read on D-Link's website, however, that this card is dual-voltage, that is, it can sense and switch between 5 and 3.3 V systems. The bottom line: I have used this card without problem for over a year now, but you probably shouldn't. As soon as my Newton melts down while I'm checking my mail, I'll march right back here and update this page :)
 
-!!Setting it Up
+## Setting it Up
 
-Assuming you have installed all necessary EthernetDrivers, the Internet Setup package, and Hiroshi's Driver itself, you are ready to set up your connection.
+Assuming you have installed all necessary [[EthernetDrivers]], the Internet Setup package, and Hiroshi's Driver itself, you are ready to set up your connection.
 * Open Internet Setup, tap New menu, select Generic Setup
 * Select "Ethernet" from the "Connect Using" menu, tap Continue
-* Give the set-up a name (eg ''wireless'')
+* Give the set-up a name (eg _wireless_)
 * Select "DHCP" from the "Configuration" menu
-**''(this assumes you are using DHCP of course. Enter a static address if you know what to use. Most Wireless routers are running DHCP)''
-* Next select your card from the "Card" menu (eg ''D-Link DWL-650''), tap continue
+**_(this assumes you are using DHCP of course. Enter a static address if you know what to use. Most Wireless routers are running DHCP)_
+* Next select your card from the "Card" menu (eg _D-Link DWL-650_), tap continue
 * Domain Name is normally left blank, so tap "Done"
 * Close Internet Setup
 %%%
-* Open Owner Info, choose or create a WorkSite (eg ''Home'')
-* Tap the "Add" menu, select "802.11b WaveLAN Setup"
-* Enter the SSID (name) of the wireless network (eg ''Hillview'')
+* Open Owner Info, choose or create a [[WorkSite]] (eg _Home_)
+* Tap the "Add" menu, select "802.11b [[WaveLAN]] Setup"
+* Enter the SSID (name) of the wireless network (eg _Hillview_)
 ** make sure the "Mode" is set to "Infrastructure"
 * If you are not using WEP encryption, then you're done! If you are using WEP, read on...
 
-!!WEP
-WEP encryption is in place on many wireless netowrks. The encryption attempts to ensure that only authourized users can access the network resources. To gain access to the network, your client (in this case, the Newt) must provide the authentication password (WEP Key) to the access point or wireless router. WEP is supported in the current (registered) version of the driver, but getting the card working with wep may cause headaches. There are many types of wireless access points and routers, and there are several flavours (or more accurately, strengths) of WEP. And of course 802.11''g'' throws everything into confusion. Just remember: WEP comes in 40-, 64-, and 128-bit encryption. Your card might support one, many, or all of these different encryptions.
-%%% To set up WEP, go to your Owner Info/WorkSites info to view or edit WEP settings. Most WEP keys are in hex; if this is the case make sure the "WEP Key" menu is set to "Hex". In the line provided, enter the key. Also be sure the "use WEP" box is checked.%%%
-Until someone more experienced (i don't use wep) finishes up this section for me, please search the NewtonTalk [ Archives | http://marc.10east.com/?l=newtontalk&r=1&w=2] for information on WEP or wireless Newting in general.
+## WEP
+WEP encryption is in place on many wireless netowrks. The encryption attempts to ensure that only authourized users can access the network resources. To gain access to the network, your client (in this case, the Newt) must provide the authentication password (WEP Key) to the access point or wireless router. WEP is supported in the current (registered) version of the driver, but getting the card working with wep may cause headaches. There are many types of wireless access points and routers, and there are several flavours (or more accurately, strengths) of WEP. And of course 802.11_g_ throws everything into confusion. Just remember: WEP comes in 40-, 64-, and 128-bit encryption. Your card might support one, many, or all of these different encryptions.
+%%% To set up WEP, go to your Owner Info/[[WorkSites]] info to view or edit WEP settings. Most WEP keys are in hex; if this is the case make sure the "WEP Key" menu is set to "Hex". In the line provided, enter the key. Also be sure the "use WEP" box is checked.%%%
+Until someone more experienced (i don't use wep) finishes up this section for me, please search the [[NewtonTalk]] [ Archives ](http://marc.10east.com/?l=newtontalk&r=1&w=2) for information on WEP or wireless Newting in general.
 
-Setup instructions for sharing your network connection on a Macintosh running Mac OS X can be found at [newtenlightenment | http://www.newtenlightment.de/support.html]
+Setup instructions for sharing your network connection on a Macintosh running Mac OS X can be found at [newtenlightenment ](http://www.newtenlightment.de/support.html)
 
 ----
-EtherNet%%%
-EthernetDrivers%%%
-[NewtonEthernet | http://www.chuma.org/newton/ethernet/]%%%
-HardWare
+[[EtherNet]]%%%
+[[EthernetDrivers]]%%%
+[NewtonEthernet ](http://www.chuma.org/newton/ethernet/)%%%
+[[HardWare]]

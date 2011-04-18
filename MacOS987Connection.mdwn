@@ -1,38 +1,22 @@
-Date: Fri, 18 Mar 2005 16:47:47 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MacOS987Connection;
-  flags="";
-  author=212.202.193.26;
-  version=1;
-  lastmodified=1111182467;
-  created=1111182467;
-  author_id=212.202.193.26;
-  markup=2;
-  summary=Added%20info%20about%20%22IrDA%20Package%20Installer%22%2C%20edited%20by%20Thomas%20Tempelmann;
-  hits=1552;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+### [[MacOS]] 9, [[MacOS]] 8, System 7
 
-!!!MacOS 9, MacOS 8, System 7
+_Notes for making a [[MacOSXConnection]] are also available._
 
-''Notes for making a [MacOSXConnection] are also available.''
+Almost all of the connection software for the Newton was written for Pre-X Mac OS versions. It is also written to use [[AppleTalk]] or serial connections. [[AppleTalk]] can be run over either [[LocalTalk]] (via a serial cable, or [[PhoneTalk]]) or [[EtherNet]].
 
-Almost all of the connection software for the Newton was written for Pre-X Mac OS versions. It is also written to use AppleTalk or serial connections. AppleTalk can be run over either LocalTalk (via a serial cable, or PhoneTalk) or EtherNet.
+If you have a Mac with serial ports (modem or printer), and a MessagePad1x0 all you need is a normal Newton serial cable to connect your Newton. (This is also known as a Mac printer cable). If you have a [[MessagePad2000]] or [[MessagePad2100]], then you'll need the Interconnect port adapter - see [[AboutDongles]].
 
-If you have a Mac with serial ports (modem or printer), and a MessagePad1x0 all you need is a normal Newton serial cable to connect your Newton. (This is also known as a Mac printer cable). If you have a [MessagePad2000] or [MessagePad2100], then you'll need the Interconnect port adapter - see AboutDongles.
-
-You can also use a wired EtherNet card or wireless network card to connect your Newton to your desktop.  This requires that you have configured AppleTalk to run over your Mac's network interface (EtherNet or AirPort) and that you have NIE 2.0 and the right Ethernet drivers installed on your Newton, unless you use DIL Tester (below).  [See the chuma.org ethernet page|http://www.chuma.org/newton/ethernet/].
+You can also use a wired [[EtherNet]] card or wireless network card to connect your Newton to your desktop.  This requires that you have configured [[AppleTalk]] to run over your Mac's network interface ([[EtherNet]] or [[AirPort]]) and that you have NIE 2.0 and the right Ethernet drivers installed on your Newton, unless you use DIL Tester (below).  [See the chuma.org ethernet page](http://www.chuma.org/newton/ethernet/).
 
 As for connection software, there's a few main tools that you'll be using:
-* NewtonConnectionUtilities was the final desktop communications tool released by Apple for the NewtonMessagePad.  With it, you can install packages, import and export data from the main built-in applications, sync with some very old PIMs, and import and export documents with Newton Works (if installed).  You can also backup your Newton and its memory cards to your desktop, and use your desktop keyboard as a Newton keyboard.
-* NewtonBackupUtility is like NewtonConnectionUtilities but only does package installs, backups, and the keyboard thing.  Also by Apple.
-* NewtonConnectionKit is a package installer and mini-PIM for OS 1.x Newtons only.
-* NewtonBackupExpress is a third-party backup tool for the Newton.
-* [IrDA Package Installer|http://perso.wanadoo.fr/jerome.vernet/newton.htm] is a new (2005) tool to install packages via IrDA. It works more reliable than DIL Tester.
-* [DIL Tester|http://www.tempel.org/newton/#DILtester] can be used to browse the data on your Newton and install packages.  It also supports TCP/IP and IrDA (infrared!) connections in addition to AppleTalk and Serial.
-* eMate Classroom Exchange is a utility from Apple that can be used to transfer NewtonWorks files to and from the Newton and includes a converter to the NewtonWorks format accessible to programmes that use the Claris XTND system (such as ClarisWorks version < 6).
+* [[NewtonConnectionUtilities]] was the final desktop communications tool released by Apple for the [[NewtonMessagePad]].  With it, you can install packages, import and export data from the main built-in applications, sync with some very old PIMs, and import and export documents with Newton Works (if installed).  You can also backup your Newton and its memory cards to your desktop, and use your desktop keyboard as a Newton keyboard.
+* [[NewtonBackupUtility]] is like [[NewtonConnectionUtilities]] but only does package installs, backups, and the keyboard thing.  Also by Apple.
+* [[NewtonConnectionKit]] is a package installer and mini-PIM for OS 1.x Newtons only.
+* [[NewtonBackupExpress]] is a third-party backup tool for the Newton.
+* [IrDA Package Installer](http://perso.wanadoo.fr/jerome.vernet/newton.htm] is a new (2005) tool to install packages via [[IrDA]). It works more reliable than DIL Tester.
+* [DIL Tester](http://www.tempel.org/newton/#DILtester] can be used to browse the data on your Newton and install packages.  It also supports TCP/IP and [[IrDA]] (infrared!) connections in addition to [[AppleTalk]) and Serial.
+* eMate Classroom Exchange is a utility from Apple that can be used to transfer [[NewtonWorks]] files to and from the Newton and includes a converter to the [[NewtonWorks]] format accessible to programmes that use the Claris XTND system (such as [[ClarisWorks]] version < 6).
 
 %%%
 ----
-HomePage : [MacOSConnection] : [MacOS987Connection]
+[[HomePage]] : [[MacOSConnection]] : [[MacOS987Connection]]

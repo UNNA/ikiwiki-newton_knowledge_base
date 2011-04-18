@@ -1,17 +1,2 @@
-Date: Thu, 5 May 2005 10:23:33 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MpRamUpgrade;
-  flags="";
-  author=151.49.11.44;
-  version=1;
-  lastmodified=1115303013;
-  created=1115303013;
-  author_id=151.49.11.44;
-  markup=2;
-  hits=247;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-MessagePad 2000 - 4MB DRAM upgrade [webpage | http://web.archive.org/web/20010408084235/http://www.pixsolution.com/produkte.html#DRAM]
-%%%NOTE: the above link take to a backup page. The product is not online anymore. [Adriano | http://homepage.mac.com/adriano.angelillis/]
+[[MessagePad]] 2000 - 4MB DRAM upgrade [webpage ](http://web.archive.org/web/20010408084235/http://www.pixsolution.com/produkte.html#DRAM)
+%%%NOTE: the above link take to a backup page. The product is not online anymore. [Adriano ](http://homepage.mac.com/adriano.angelillis/)

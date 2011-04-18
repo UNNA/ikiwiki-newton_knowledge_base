@@ -1,16 +1,1 @@
-Date: Tue, 8 Jun 2004 18:09:54 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=UnnaReviewBlurbs;
-  flags="";
-  author=24.156.127.194;
-  version=1;
-  lastmodified=1086732594;
-  created=1086732594;
-  author_id=24.156.127.194;
-  summary=All%20data%20moved%20to%20UNNA;
-  hits=239;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-•UNNA now has space for package descriptions.  All information that was previously here is now on UNNA. For full reviews use UnnaReviews and SoftwareReviews.•
+•UNNA now has space for package descriptions.  All information that was previously here is now on UNNA. For full reviews use [[UnnaReviews]] and [[SoftwareReviews]].•

@@ -1,20 +1,5 @@
-Date: Sat, 14 Jun 2003 10:08:42 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=LocalTalk;
-  flags="";
-  author=PaulGuyot;
-  version=1;
-  lastmodified=1055599722;
-  created=1055599722;
-  author_id=212.198.0.94;
-  markup=2;
-  hits=707;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+[[LocalTalk]] is [[Apple]]'s name for [[AppleTalk]] protocol running on an ad-hoc RS-422 serial-bus network.  Speed is limited to some 200kbps, but the Newton actually does [[LocalTalk]] at 57600 bauds.
 
-[LocalTalk] is [Apple]'s name for [AppleTalk] protocol running on an ad-hoc RS-422 serial-bus network.  Speed is limited to some 200kbps, but the Newton actually does LocalTalk at 57600 bauds.
+[[LocalTalk]]'s inital use was to connect and network to expensive laser printers.  It quickly found other uses, from file sharing onwards.
 
-[LocalTalk]'s inital use was to connect and network to expensive laser printers.  It quickly found other uses, from file sharing onwards.
-
-Old Mac hands will remember when [AppleTalk] meant both the protocol and the hardware it ran on.  One early plug-compatible was Farralon's [PhoneTalk] hardware which used inexpensive telephone wiring to pass the signals around.
+Old Mac hands will remember when [[AppleTalk]] meant both the protocol and the hardware it ran on.  One early plug-compatible was Farralon's [[PhoneTalk]] hardware which used inexpensive telephone wiring to pass the signals around.

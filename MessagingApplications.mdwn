@@ -1,17 +1,3 @@
-Date: Thu, 25 Aug 2005 18:27:45 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MessagingApplications;
-  flags="";
-  author=207.194.133.9;
-  version=1;
-  lastmodified=1125008865;
-  created=1125008865;
-  author_id=207.194.133.9;
-  hits=865;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 > Q: Do I get that right that NOS doesn't have it's own mail app?%%%
 > I always thought the In/Out Box was just that -- a very basic built-in,%%%
 > onboard mail app, but I can't find where to set any pwd or anything to log%%%
@@ -26,22 +12,22 @@ built-in transports are Fax, Beaming, and Update. All others are add-ons.
 
 It boils down to:
 
-If you're using POP3, use !SimpleMail 4.3. http://www.simple.dial.pipex.com/
+If you're using POP3, use ![[SimpleMail]] 4.3. http://www.simple.dial.pipex.com/
 
 If you're using IMAP, use Mail V. http://www.newtonmail.dsl.pipex.com/
 
 If you're using POP3 on a machine with little heap and don't need SMTP auth,
-use !SimpleMail 3 (available on UNNA). It's smaller and uses less heap.  That means MP120 and MP2000 users should use Simplemail 3.
+use ![[SimpleMail]] 3 (available on UNNA). It's smaller and uses less heap.  That means MP120 and MP2000 users should use Simplemail 3.
 
 Other older transports which you may have heard of which are inferior to the
 above are:
 
 -enRoute Mail%%%
--!LunaMail (part of LunaSuite)%%%
+-![[LunaMail]] (part of [[LunaSuite]])%%%
 -Eudora Lite / Eudora Pro%%%
 
-All of the above are available on [UNNA|http://www.unna.org/view.php?/internet/email].
-(VictorRehorst, http://www.newtontalk.net/archive/newtontalk.2004-05/1744.html)
+All of the above are available on [UNNA](http://www.unna.org/view.php?/internet/email).
+([[VictorRehorst]], http://www.newtontalk.net/archive/newtontalk.2004-05/1744.html)
 ----
 
 __Reviews of Messaging Applications__
@@ -50,14 +36,14 @@ E-Mail Applications
 
 * Mail V
 ** Mail V rocks! I can do txt, html, JPEG, GIF--both in an out. It can mail notepad sketches as GIFs and route incomming JPEGS to Tibet. Only works with an IMAP server.
-* !SimpleMail 4.3
+* ![[SimpleMail]] 4.3
 ** See "Complete Moron's Guide(TM) to [SimpleMail 4.3 on NOS 2.1]" for basic step-by-step setup.
-* !SimpleMail 3
+* ![[SimpleMail]] 3
 * enRoute Mail
 ** enRoute is the email program that came originally in the NOS 2.1 Newtons.  It is a good, quick, useful program.  It handles multiple POP3 account names.  It lets you schedule email retrieval.  It lets you set size filters.  It lets you browse message topics and delete individual messages, and retrieve only the messages you are interested in.
-** "Enroute does not do authentication and is not useable for smtp servers that require it. I am not able to use Enroute with copper.net for that reason." [Bill Ove|http://www.newtontalk.net/archive/newtontalk.2004-05/1809.html]
+** "Enroute does not do authentication and is not useable for smtp servers that require it. I am not able to use Enroute with copper.net for that reason." [Bill Ove](http://www.newtontalk.net/archive/newtontalk.2004-05/1809.html)
 * Eudora Lite / Eudora Pro
-* !LunaMail (part of LunaSuite)
+* ![[LunaMail]] (part of [[LunaSuite]])
 
 %%%
 SMS Applications
@@ -67,6 +53,6 @@ Other Messaging Applications
 
 %%%
 ----
-HomePage : SoftwareReviews : MessagingApplications
+[[HomePage]] : [[SoftwareReviews]] : [[MessagingApplications]]
 
-HomePage : HowTo : [E-Mail] : MessagingApplications
+[[HomePage]] : [[HowTo]] : [E-Mail] : [[MessagingApplications]]

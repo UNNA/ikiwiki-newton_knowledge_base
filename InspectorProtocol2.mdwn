@@ -1,25 +1,6 @@
-Date: Mon, 19 Mar 2007 17:21:53 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_54"
-
---=_multipart_boundary_54
-Content-Type: application/x-phpwiki;
-  pagename=InspectorProtocol2;
-  flags="";
-  author=MatthiasMelcher;
-  version=2;
-  lastmodified=1174339313;
-  created=1174339313;
-  author_id=MatthiasMelcher;
-  markup=2;
-  hits=50;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 Part two of this article describes the Inspector/Toolkit specific parts of the protocol. This article will be relatively short because I have yet to find all aspects of the communication. But here we go for now.
 
-This protocol layer relies on the data transmission to be error free which is acheived by using the overlaying protocol described in InspectorProtocol. No more error detection is done on this level.
+This protocol layer relies on the data transmission to be error free which is acheived by using the overlaying protocol described in [[InspectorProtocol]]. No more error detection is done on this level.
 
 Communication is separated into chunks. A chunk always starts with two fourcc's: ='newt'= and ='ntp '= (yes, there is a space (0x20) following the 'ntp'. The third fourcc tells us about the data that may follow, and a fouth four-byte-block usually gives the size of the following free form data block.
 
@@ -37,42 +18,4 @@ Some possible chunk ID's:
 
 The above description is sufficient to run objects containing byte code on a remote Newton and displaying a result code.
 
-[InspectorProtocol3] will eventually give an example of a simple bytecode call.
-
---=_multipart_boundary_54
-Content-Type: application/x-phpwiki;
-  pagename=InspectorProtocol2;
-  flags="";
-  author=MatthiasMelcher;
-  version=1;
-  lastmodified=1174174807;
-  created=1174339313;
-  author_id=MatthiasMelcher;
-  markup=2;
-  hits=50;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-Part two of this article describes the Inspector/Toolkit specific parts of the protocol. This article will be relatively short because I have yet to find all aspects of the communication. But here we go for now.
-
-This protocol layer relies on the data transmission to be error free which is acheived by using the overlaying protocol described in InspectorProtocol. No more error detection is done on this level.
-
-Communication is separated into chunks. A chunk always starts with two fourcc's: ='newt'= and ='ntp '= (yes, there is a space (0x20) following the 'ntp'. The third fourcc tells us about the data that may follow, and a fouth four-byte-block usually gives the size of the following free form data block.
-
-Please note that the outer error correction blocks and the Newton chunks described here do _not neccessarily_ share bounds! This means that it is very well possible that one block contains multiple chunks, or that one chunk may very well be split across multiple blocks (if that wasn't the case, we could never transmit any structures larger tahn 1024 bytes)! It is important to always understand this serial connection as a _stream_ of data, even if it contains blocks and chunks.
-
-Some possible chunk ID's:
-
-* ='cnnt'= : sent by Toolkit, requesting an ntp style connection
-* ='okln'= : sent by Inspector as a response to =cnnt=. This code is not followed by a size indicator!
-* ='fobj'= : a Newton object in Streamed Object Format follows. This object may contain among other data some byte code that can be run on the Newton immediately.
-* ='rslt'= : tells us the result of the previous operation as an unsigned int
-* ='code'= : followed by ff ff ff ff, the four bytes giving the size, then a code block
-* ='text'= : sends an ASCII text to the other side. This is used to give a human readable message from the "Toolbox" to be displayed in the "Inspector" window as a result of running a streamed object
-* ='lscb'= : and probably many others that I have not explored yet
-
-The above description is sufficient to run objects containing byte code on a remote Newton and displaying a result code.
-
-[InspectorProtocol3] will eventually give an example of a simple bytecode call.
-
---=_multipart_boundary_54--
+[[InspectorProtocol3]] will eventually give an example of a simple bytecode call.

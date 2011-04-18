@@ -1,36 +1,16 @@
-Date: Wed, 4 Oct 2006 03:09:53 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_9"
+The [[MessagePad]] 2000, 2100, and the eMate all have [[IrDA]] compatible infrared ports.  Using this and some additional software you can send files from any PC, Mac, [[PalmOS]] device, or even cell phone that supports the [[IrOBEX]] protocol.
 
---=_multipart_boundary_9
-Content-Type: application/x-phpwiki;
-  pagename=IrDAConnection;
-  flags="";
-  author=LiberAlex;
-  version=2;
-  lastmodified=1159945793;
-  created=1159945793;
-  author_id=LiberAlex;
-  markup=2;
-  summary=removed%20404%20IrDA%20link;
-  hits=3755;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-The MessagePad 2000, 2100, and the eMate all have IrDA compatible infrared ports.  Using this and some additional software you can send files from any PC, Mac, PalmOS device, or even cell phone that supports the IrOBEX protocol.
-
-To use this on the Newton, you must first install the Neo, Nitro, and IC/VC packages available at [http://40hz.org/].
+To use this on the Newton, you must first install the Neo, Nitro, and IC/VC packages available at <http://40hz.org/>.
 
 Then you can beam PKG files or any other file to the Newton by:
 
-; __Windows 2000/XP__ : Run 'irftp' from the Start->Run... box, browse to the file you want to send but don't send it yet!  Line up the Newton's IR port with the PC.  Open the In/Out box on the Newton and tap 'Recieve -> IrOBEX'.  In a second you should get a notification in the taskbar on the PC that it has detected the IR connection.  __NOW__ click Send on the PC and the file will be sent.
+; __Windows 2000/XP__ : Run 'irftp' from the Start->Run... box, browse to the file you want to send but don't send it yet!  Line up the Newton's IR port with the PC.  Open the In/Out box on the Newton and tap 'Recieve -> [[IrOBEX]]'.  In a second you should get a notification in the taskbar on the PC that it has detected the IR connection.  __NOW__ click Send on the PC and the file will be sent.
 * Note: When using Windows XP, if you open the In/Out box, and click "receive", then line up the IR ports the Wireless Connection dialog box should automatically open (no need to run 'irftp')
 
 %%%
-__How to install Newton packages via IrDA without extra software__
+__How to install Newton packages via [[IrDA]] without extra software__
 %%%
- If you have an IrDA-capable Macintosh computer (most older PowerBooks and some iMacs) running MacOS 9.x, you can use JeromeVernet's software [IrDAPackageInstaller].
+If you have an [[IrDA]]-capable Macintosh computer (most older [[PowerBooks]] and some iMacs) running [[MacOS]] 9.x, you can use [[JeromeVernet]]'s software [[IrDAPackageInstaller]].
 
 %%%
 __How to beam stuff between Newtons__
@@ -48,73 +28,14 @@ What is required? What are the steps? What additional packages improve the beami
 __Additional Resources__
 
 
-[Newton IR FAQ 1.17 (1998)| http://homepage.mac.com/g3head/newtonirfaq.html] - a mirror of this outdated FAQ. Still, the best we got... Sorely needs updating, though (what with EckhartKoeppen's IR drivers and all) -- any takers?
+[Newton IR FAQ 1.17 (1998)](http://homepage.mac.com/g3head/newtonirfaq.html] - a mirror of this outdated FAQ. Still, the best we got... Sorely needs updating, though (what with [[EckhartKoeppen])'s IR drivers and all) -- any takers?
 
-[Connect to iMac or PowerBook via Sloup|http://mywebpages.comcast.net/saweyer/newton/sloup/connect.htm#IrDA] - thanks, Bill Moser!
+[Connect to iMac or [[PowerBook]] via Sloup](http://mywebpages.comcast.net/saweyer/newton/sloup/connect.htm#IrDA) - thanks, Bill Moser!
 
-[Connect to iMac via EETransfer|http://web.ukonline.co.uk/kieran.miller/newton/irda.html] - Cheers, Bill & Kieran! Now whole files can be exchanged. Note: "Both the Keyspan Serial adaptor and Griffin iPort card will disable the IR software when they're in use, so make sure you unplug them before trying the IrDA connection."
+[Connect to iMac via EETransfer](http://web.ukonline.co.uk/kieran.miller/newton/irda.html] - Cheers, Bill & Kieran! Now whole files can be exchanged. Note: "Both the Keyspan Serial adaptor and Griffin iPort card will disable the IR software when they're in use, so make sure you unplug them before trying the [[IrDA]) connection."
 
-[Infrared and IrDA connections in Palmtops and Computers|http://www.ericlindsay.com/computer/irda.htm] - general background on Ir-technology, pretty good stuff. Short chapter "InfraRed and [IrDA] drivers for Apple Newton" - could use some updating. Anybody knowlegeable pls. contact webmaster@ericlindsay.com (who is Australian and has a [MP 110 review online|http://www.ericlindsay.com/palmtop/new110.htm]!)
-
-%%%
-----
-HomePage : [IrDAConnection ]
-
---=_multipart_boundary_9
-Content-Type: application/x-phpwiki;
-  pagename=IrDAConnection;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1114439711;
-  created=1159945793;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=3755;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-The MessagePad 2000, 2100, and the eMate all have IrDA compatible infrared ports.  Using this and some additional software you can send files from any PC, Mac, PalmOS device, or even cell phone that supports the IrOBEX protocol.
-
-To use this on the Newton, you must first install the Neo, Nitro, and IC/VC packages available at [http://40hz.org/].
-
-Then you can beam PKG files or any other file to the Newton by:
-
-; __Windows 2000/XP__ : Run 'irftp' from the Start->Run... box, browse to the file you want to send but don't send it yet!  Line up the Newton's IR port with the PC.  Open the In/Out box on the Newton and tap 'Recieve -> IrOBEX'.  In a second you should get a notification in the taskbar on the PC that it has detected the IR connection.  __NOW__ click Send on the PC and the file will be sent.
-* Note: When using Windows XP, if you open the In/Out box, and click "receive", then line up the IR ports the Wireless Connection dialog box should automatically open (no need to run 'irftp')
-
-%%%
-__How to install Newton packages via IrDA without extra software__
-%%%
- If you have an IrDA-capable Macintosh computer (most older PowerBooks and some iMacs) running MacOS 9.x, you can use JeromeVernet's software [IrDAPackageInstaller].
-
-%%%
-__How to beam stuff between Newtons__
-
-What is required? What are the steps? What additional packages improve the beaming-experience?
-
-
-* Beam stuff between MP 1x0 and older
-
-* Beam stuff between MP 2x00 or eMates ([NewtonOS2.1])
-
-* Beam stuff between MP 1x0 and NOS 2.1-Newtons
-
-%%%
-__Additional Resources__
-
-[Newton IR FAQ|http://www.pobox.com/~davida/newton/ir-faq.html] {dead link? - DJV} - possibly not very current (possibly even dead).
-
-[Newton IR FAQ 1.17 (1998)| http://homepage.mac.com/g3head/newtonirfaq.html] - a mirror of this outdated FAQ. Still, the best we got... Sorely needs updating, though (what with EckhartKoeppen's IR drivers and all) -- any takers?
-
-[Connect to iMac or PowerBook via Sloup|http://mywebpages.comcast.net/saweyer/newton/sloup/connect.htm#IrDA] - thanks, Bill Moser!
-
-[Connect to iMac via EETransfer|http://web.ukonline.co.uk/kieran.miller/newton/irda.html] - Cheers, Bill & Kieran! Now whole files can be exchanged. Note: "Both the Keyspan Serial adaptor and Griffin iPort card will disable the IR software when they're in use, so make sure you unplug them before trying the IrDA connection."
-
-[Infrared and IrDA connections in Palmtops and Computers|http://www.ericlindsay.com/computer/irda.htm] - general background on Ir-technology, pretty good stuff. Short chapter "InfraRed and [IrDA] drivers for Apple Newton" - could use some updating. Anybody knowlegeable pls. contact webmaster@ericlindsay.com (who is Australian and has a [MP 110 review online|http://www.ericlindsay.com/palmtop/new110.htm]!)
+[Infrared and [[IrDA]] connections in Palmtops and Computers|http://www.ericlindsay.com/computer/irda.htm] - general background on Ir-technology, pretty good stuff. Short chapter "[[InfraRed]] and [[IrDA]] drivers for Apple Newton" - could use some updating. Anybody knowlegeable pls. contact webmaster@ericlindsay.com (who is Australian and has a [MP 110 review online](http://www.ericlindsay.com/palmtop/new110.htm)!)
 
 %%%
 ----
-HomePage : [IrDAConnection ]
-
---=_multipart_boundary_9--
+[[HomePage]] : [IrDAConnection ]

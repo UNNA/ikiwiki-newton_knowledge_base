@@ -1,54 +1,40 @@
-Date: Fri, 30 Sep 2005 22:26:48 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NewtNav;
-  flags="";
-  author=151.49.11.118;
-  version=1;
-  lastmodified=1128133608;
-  created=1128133608;
-  author_id=151.49.11.118;
-  hits=957;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HardWare : [NewtNav]%%%
-HomePage : HardWare : [GPSOnNewton] : [NewtNav]%%%
+[[HomePage]] : [[HardWare]] : [[NewtNav]]%%%
+[[HomePage]] : [[HardWare]] : [[GPSOnNewton]] : [[NewtNav]]%%%
 ----
 %%%
 Adapter by Adriano Angelillis (Italy) for attaching a serial GPS device (e.g. Polstar or AQ-Max AQ-300 GPS mice) to the Newton. It allows transmission of GPS data from receiver to Newton and also to power the GPS receiver from the Newton's internal battery pack.
 
-In this, it is a much easier and less cluttered solution that the one proposed by Ron Parker for his LakeTahoeHikingNewton (note that his solution is __perfect__ for his needs, though: running GPS Map off a [MessagePad120] w/o backlight; also using external power sources will mean the Newton's runtime is not being shortened by the receiver's consumption...).
+In this, it is a much easier and less cluttered solution that the one proposed by Ron Parker for his [[LakeTahoeHikingNewton]] (note that his solution is __perfect__ for his needs, though: running GPS Map off a [[MessagePad120]] w/o backlight; also using external power sources will mean the Newton's runtime is not being shortened by the receiver's consumption...).
 
 
-[NewtNAV website|http://homepage.mac.com/adriano.angelillis/PhotoAlbum8.html]
+[NewtNAV website](http://homepage.mac.com/adriano.angelillis/PhotoAlbum8.html)
 
-[NewtNAV presented|http://marc.theaimsgroup.com/?t=111377162800001&r=1&w=2] on NTLK
+[NewtNAV presented](http://marc.theaimsgroup.com/?t=111377162800001&r=1&w=2) on NTLK
 
 
-!NewtNav FAQ:
+# [[NewtNav]] FAQ:
 
-* Q: Does NewtNav also work with Mr PCBMan's SER-001?
+* Q: Does [[NewtNav]] also work with Mr PCBMan's SER-001?
 ** A: Yes, sure.
 
-* Q: Does NewtNav also work with an MP 1x0's serial port?
-** A: In a word: No. NewtNAV connect to a 9pin serial port (as the one present on eMate and/or MP2k via interconnect). As you could read above, a cool GPS configuration for the MP1x0 series already exist, and i think that Ron Parker's solution is the very best for MP1x0 series, because it will not drain energy from the Newton internal battery.
+* Q: Does [[NewtNav]] also work with an MP 1x0's serial port?
+** A: In a word: No. [[NewtNAV]] connect to a 9pin serial port (as the one present on eMate and/or MP2k via interconnect). As you could read above, a cool GPS configuration for the MP1x0 series already exist, and i think that Ron Parker's solution is the very best for MP1x0 series, because it will not drain energy from the Newton internal battery.
 
-* Q: Which GPS receiver is NewtNav compatible with?
-** A: NewtNAV is compatible with the AQ-300 GPS antenna only. (Seemlessy) every GPS serial antenna on the market has its own pinout, so a specific NewtNAV have to be made. A quick note: the first NewtNAV was made compatible for the Polstar GPS receiver pinout, but it has never been tested.
+* Q: Which GPS receiver is [[NewtNav]] compatible with?
+** A: [[NewtNAV]] is compatible with the AQ-300 GPS antenna only. (Seemlessy) every GPS serial antenna on the market has its own pinout, so a specific [[NewtNAV]] have to be made. A quick note: the first [[NewtNAV]] was made compatible for the Polstar GPS receiver pinout, but it has never been tested.
 
 ----
-!See also these Newton GPS-Ressources:
+# See also these Newton GPS-Ressources:
 
-* [GPSOnNewton]
-* LakeTahoeHikingNewton
+* [[GPSOnNewton]]
+* [[LakeTahoeHikingNewton]]
 
 %%%
-!See also these fabulous products from AdrianoAngelillis:
+# See also these fabulous products from [[AdrianoAngelillis]]:
 
-* [NewtLight] -- Mini-DIN 9-to-USB adapter for use with MP 2x00's InterConnectPort and the InterConnectDongle, draws power from InterConnectPort (NO USB connection!).
-* [NewtSplit] -- Y-adapter: Newton-to-PC serial with male USB plug that provides power from the MessagePad.
-* [NewtEye] -- A 10.000mcd blue led that directly plugs into the Newton's serial port.
+* [[NewtLight]] -- Mini-DIN 9-to-USB adapter for use with MP 2x00's [[InterConnectPort]] and the [[InterConnectDongle]], draws power from [[InterConnectPort]] (NO USB connection!).
+* [[NewtSplit]] -- Y-adapter: Newton-to-PC serial with male USB plug that provides power from the [[MessagePad]].
+* [[NewtEye]] -- A 10.000mcd blue led that directly plugs into the Newton's serial port.
 ----
-HomePage : HardWare : [NewtNav]%%%
-HomePage : HardWare : [GPSOnNewton] : [NewtNav]%%%
+[[HomePage]] : [[HardWare]] : [[NewtNav]]%%%
+[[HomePage]] : [[HardWare]] : [[GPSOnNewton]] : [[NewtNav]]%%%

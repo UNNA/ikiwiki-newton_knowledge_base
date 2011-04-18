@@ -1,25 +1,10 @@
-Date: Wed, 31 Mar 2004 17:45:11 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=ecasemodlist;
-  flags="";
-  author=198.110.192.97;
-  version=1;
-  lastmodified=1080773111;
-  created=1080773111;
-  author_id=198.110.192.97;
-  markup=2;
-  hits=360;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 __An informal list__
 
 Basically I'm looking for suggestions, hints, lists, etc for modding the eMate.
 
 So far:
 
-*[Wee emate | weemate]
-*[Cooler shell | coolmate]
+*[Wee emate ](weemate)
+*[Cooler shell ](coolmate)
 
-email me: jmusket (at) nmu.edu
+email me: jmusket (at) nmu.edu

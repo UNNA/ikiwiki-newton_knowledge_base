@@ -1,26 +1,11 @@
-Date: Fri, 7 Feb 2003 13:50:17 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NcuOsxWithOsNineBoot;
-  flags="";
-  author=RossOlson;
-  version=1;
-  lastmodified=1044643817;
-  created=1044643817;
-  author_id=63.227.218.225;
-  markup=2;
-  hits=985;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-NewtonConnectionUtilities only operates in Classic, OS X's way of running old Macintosh programs.
+[[NewtonConnectionUtilities]] only operates in Classic, OS X's way of running old Macintosh programs.
 
 1) Activate Appletalk in the OS X "Network" Preferences Panel
 
 2) Boot Up in OS 9 and install and use NCU. (I have slot loading 350mhz iMac, OS 10.2.3, crossover cable.)
 
 3) FIND YOUR MACs APPLE TALK NETWORK NAME
-Start in OS 9.2 and connect. You need to find your computers network name and get it into the pop up menu in the Newton's AppleTalk Prefs. Use the connect to other computer to make sure you have it correct (you may have this already)
+Start in OS 9.2 and connect. You need to find your computers network name and get it into the pop up menu in the Newton's [[AppleTalk]] Prefs. Use the connect to other computer to make sure you have it correct (you may have this already)
 
 4) RESTART IN OSX
 Boot into x again
@@ -30,7 +15,7 @@ I opened the "classic chooser" by looking on
 hard drive/ (9) System folder/ apple menue items/ chooser
 Click on it and then keep the chooser as the front window
 
- ***The next steps takes a bit of finnesse and timing (kinda like the iTunes plugin)
+***The next steps takes a bit of finnesse and timing (kinda like the iTunes plugin)
 
 6) MAKING AN APPLE TALK CONNECTION THAT WILL LAST
 the problem here is OSX's apple talk shuts off if there is any minute pause in the connection. You have to create a connection long enough to launch NCU. here is the trick: On the newton side launch the dock and pick "other computer" (yes you need to do this again. Not to actually find the computer name. (You know that.)  Its because  the Newtons searching activity will prevent OSX from closing the connection long enough to do the next steps.
@@ -41,4 +26,4 @@ the problem here is OSX's apple talk shuts off if there is any minute pause in t
 
 9) Hit dock's connect button on the newt (using the computer name found in step 3)
 
-10) You should be golden
+10) You should be golden

@@ -1,47 +1,32 @@
-Date: Thu, 14 Jul 2005 10:36:35 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=HikingNewtonSoftware;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1121351795;
-  created=1121351795;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=612;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : CoolSetups : LakeTahoeHikingNewton : HikingNewtonSoftware%%%
-HomePage : HowTo : [GPSOnNewton] : LakeTahoeHikingNewton : HikingNewtonSoftware%%%
+[[HomePage]] : [[CoolSetups]] : [[LakeTahoeHikingNewton]] : [[HikingNewtonSoftware]]%%%
+[[HomePage]] : [[HowTo]] : [[GPSOnNewton]] : [[LakeTahoeHikingNewton]] : [[HikingNewtonSoftware]]%%%
 ----
 
-!!!The Lake Tahoe Hiking Newton - The Official Reference Guide
-!!Useful Software, Downloads, Hints, And Other Documentation
+### The Lake Tahoe Hiking Newton - The Official Reference Guide
+## Useful Software, Downloads, Hints, And Other Documentation
 
 __Written by Ron A. Parker - February 25, 2005 - All Rights Reserved__%%%
-Added outdoor apps Moon, SunUpDown, SunPos - [DJ Vollkasko|http://www.stillnewt.org/library]%%%
+Added outdoor apps Moon, [[SunUpDown]], [[SunPos]] - [DJ Vollkasko](http://www.stillnewt.org/library)%%%
 ----
-!Software Packages
-* [GPS Map v2.1|http://www.unna.org/view.php?/applications/GPSMap2.1] (requires NOS 2.0)
-* [GPS Map Lite v1.29|http://mirrors.unna.org/www.soaring.de/gps/gmlt129.sit] (for NOS 1.3)
-* [Teletype GPS|http://www.unna.org/view.php?/applications/TeleTypeGPS2.0] (requires NOS 2.0)
-* [Star Chart v2.1|http://www.gaehrken.de/starchart/] (for NOS 2.0 or higher)
-* [SunPos 03.01.98|http://download.planetnewton.com/download/education/edusci.htm]
+# Software Packages
+* [GPS Map v2.1](http://www.unna.org/view.php?/applications/GPSMap2.1) (requires NOS 2.0)
+* [GPS Map Lite v1.29](http://mirrors.unna.org/www.soaring.de/gps/gmlt129.sit) (for NOS 1.3)
+* [Teletype GPS](http://www.unna.org/view.php?/applications/TeleTypeGPS2.0) (requires NOS 2.0)
+* [Star Chart v2.1](http://www.gaehrken.de/starchart/) (for NOS 2.0 or higher)
+* [SunPos 03.01.98](http://download.planetnewton.com/download/education/edusci.htm)
 **With 3D shadow view. Shows graphical representation of the sun's position at any given time, in any given city. Change pitch, yaw and zoom in and out with interactive sliders. (The line on the base is North.) Credit: Allan Beihl, 1998.
-*[SunUpDown 1.13|http://www.stillnewt.org/library/_Software/_Other%20Newton%20Applications/SunUpDown%201.13%20(NOS%202.x)]
+*[SunUpDown 1.13](http://www.stillnewt.org/library/_Software/_Other%20Newton%20Applications/[[SunUpDown]]%201.13%20(NOS%202.x))
 **For NOS 2.x. Gives the time of sunrise and sunset for every day, inkl. earliest/latest/shortest/longest daylight. Great for planning trips (e.g. by what time must you reach camp so you can pitch tent in daylight?).
-*[Moon 1.0d3|http://www.unna.org/unna/applications/Moon1.0d3]
-**Shows the moon phases. Combine this with SunUpDown and find the travel days with the most moonlight or the darkest nights. Or glorious full moon nights.
+*[Moon 1.0d3](http://www.unna.org/unna/applications/Moon1.0d3)
+**Shows the moon phases. Combine this with [[SunUpDown]] and find the travel days with the most moonlight or the darkest nights. Or glorious full moon nights.
 
-!E-books and Field Manuals
-* U.S. Army Survival Training Manual FM-27-76-1 ([PDF|http://www.globalsecurity.org/military/library/policy/army/fm/21-76-1/fm_21-76-1survival.pdf])([MP2x00|http://www.unna.org/unna/books/Misc_Non-Fiction/USArmySurvivalGuide/Army%20Survival%20Guide2x00.pkg]) ([eMate|http://www.unna.org/unna/books/Misc_Non-Fiction/USArmySurvivalGuide/Army%20Survival%20Guide_eMate.pkg])%%%
-  Universal version w/illustrations (Coming Soon!)
-* U.S. Army Map Reading and Land Navigation FM-3-25-26 ([HTML|http://www.globalsecurity.org/military/library/policy/army/fm/3-25-26/index.html]) ([Classic 10pt w/Illustrations|http://www.stillnewt.org/library/_nonfiction/_Natural%20Sciences%20&%20Technology/_Navigation%20and%20Woodcraft/US%20Army%20Field%20Manual%20-%20FM%203-25.26%20Map%20Reading%20and%20Land%20Navigation/])
+# E-books and Field Manuals
+* U.S. Army Survival Training Manual FM-27-76-1 ([PDF|http://www.globalsecurity.org/military/library/policy/army/fm/21-76-1/fm_21-76-1survival.pdf])([MP2x00|http://www.unna.org/unna/books/Misc_Non-Fiction/USArmySurvivalGuide/Army%20Survival%20Guide2x00.pkg]) ([eMate](http://www.unna.org/unna/books/Misc_Non-Fiction/USArmySurvivalGuide/Army%20Survival%20Guide_eMate.pkg))%%%
+Universal version w/illustrations (Coming Soon!)
+* U.S. Army Map Reading and Land Navigation FM-3-25-26 ([HTML|http://www.globalsecurity.org/military/library/policy/army/fm/3-25-26/index.html]) ([Classic 10pt w/Illustrations](http://www.stillnewt.org/library/_nonfiction/_Natural%20Sciences%20&%20Technology/_Navigation%20and%20Woodcraft/US%20Army%20Field%20Manual%20-%20FM%203-25.26%20Map%20Reading%20and%20Land%20Navigation/))
 * Call of the Wild (Jack London)
 * Hitchhikers Guide to the Galaxy (Douglas Adams)
-* [Mag-7 Star Atlas|http://www.cloudynights.com/item.php?item_id=1052] by Andrew L. Johnson (2005): Print full-color CC-licensed star charts, laminate + bind 'em, and your DIY star atlas is complete (use as backup for [Star Chart v2.1|http://www.gaehrken.de/starchart] or if you prefer hardcopy). This Atlas is more detailed and contains more objects than Star Chart (might perhaps be worth to make a Newton eBook of it...).
+* [Mag-7 Star Atlas|http://www.cloudynights.com/item.php?item_id=1052] by Andrew L. Johnson (2005): Print full-color CC-licensed star charts, laminate + bind 'em, and your DIY star atlas is complete (use as backup for [Star Chart v2.1](http://www.gaehrken.de/starchart) or if you prefer hardcopy). This Atlas is more detailed and contains more objects than Star Chart (might perhaps be worth to make a Newton eBook of it...).
 ----
-HomePage : CoolSetups : LakeTahoeHikingNewton : HikingNewtonSoftware%%%
-HomePage : HowTo : [GPSOnNewton] : LakeTahoeHikingNewton : HikingNewtonSoftware%%%
+[[HomePage]] : [[CoolSetups]] : [[LakeTahoeHikingNewton]] : [[HikingNewtonSoftware]]%%%
+[[HomePage]] : [[HowTo]] : [[GPSOnNewton]] : [[LakeTahoeHikingNewton]] : [[HikingNewtonSoftware]]%%%

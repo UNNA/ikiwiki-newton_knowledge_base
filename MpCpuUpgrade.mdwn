@@ -1,21 +1,6 @@
-Date: Thu, 5 May 2005 10:29:14 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MpCpuUpgrade;
-  flags="";
-  author=151.49.11.44;
-  version=1;
-  lastmodified=1115303354;
-  created=1115303354;
-  author_id=151.49.11.44;
-  markup=2;
-  hits=213;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 MessagePad2k CPU upgrade
-%%%[2k online page | http://shop.pixsolution.com/catalog/product_info.php?products_id=29&language=en]
-%%%[2k online install instructions | http://www.pixsolution.com/install2k.html]
+%%%[2k online page ](http://shop.pixsolution.com/catalog/product_info.php?products_id=29&language=en)
+%%%[2k online install instructions ](http://www.pixsolution.com/install2k.html)
 %%%
 %%%The above links take to the Pixsolutions webpages. They produced the only one MP130 CPU upgrade ever made. As the 1x0 series boost is longer available from them, instead the 2k boost implant series continue to be sold, and its price gained of 20eur in the last months, passing from 99eur to 119eur (May/05).
-[Adriano | http://homepage.mac.com/adriano.angelillis/]
+[Adriano ](http://homepage.mac.com/adriano.angelillis/)

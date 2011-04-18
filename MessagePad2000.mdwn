@@ -1,16 +1,1 @@
-Date: Thu, 30 Jan 2003 15:25:38 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MessagePad2000;
-  flags="";
-  author=AndyBeals;
-  version=1;
-  lastmodified=1043958338;
-  created=1043958338;
-  author_id=128.107.253.39;
-  markup=2;
-  hits=1338;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-The penultimate Newton, quickly superceded by the [MessagePad2100].  Many were upgraded to [MessagePad2100] status by adding more RAM, either by Apple or third-party vendors.
+The penultimate Newton, quickly superceded by the [[MessagePad2100]].  Many were upgraded to [[MessagePad2100]] status by adding more RAM, either by Apple or third-party vendors.

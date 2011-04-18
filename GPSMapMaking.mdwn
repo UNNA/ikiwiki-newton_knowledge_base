@@ -1,41 +1,26 @@
-Date: Sat, 7 May 2005 03:53:33 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=GPSMapMaking;
-  flags="";
-  author=84.178.151.203;
-  version=1;
-  lastmodified=1115452413;
-  created=1115452413;
-  author_id=84.178.151.203;
-  markup=2;
-  hits=619;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : [GPSOnNewton] : [GPSMapMaking]
+[[HomePage]] : [[HowTo]] : [[GPSOnNewton]] : [[GPSMapMaking]]
 ----
 
 Not much here yet.
 
 *"Map making is possible, although one has to read the manual twice, better thrice. The biggest problem there is to get good maps with fine enough LON/LAT lines and scan them properly. I had a company doing this for me with a A0-scanner and got stuck later with that huge 80MB TIFF file. It choked my Mac at home (only 256MB RAM) and it needed a two Pentium LINUX machine with 1GB RAM to get in a first step the resolution down. All later processing was done on my Mac at home but then 128MB where sufficient. My advice here: Avoid large TIFF's exept you've got suitable computers to get the maps smaller.
-*Another good source of maps is Route planning programs. Some of them include a feature to use GPS and draw LON/LAT lines. I made a map with such a program using the Macintosh screen copy into PICT files (CMD-SHIFT-3) and got a nice map of UK including Scotland and EIRE." ([Marco Mailand|http://marc.theaimsgroup.com/?l=newtontalk&m=101757274432112&w=2] 2002)%%%
+*Another good source of maps is Route planning programs. Some of them include a feature to use GPS and draw LON/LAT lines. I made a map with such a program using the Macintosh screen copy into PICT files (CMD-SHIFT-3) and got a nice map of UK including Scotland and EIRE." ([Marco Mailand](http://marc.theaimsgroup.com/?l=newtontalk&m=101757274432112&w=2) 2002)%%%
 
 
 %%%
 ----
-!See also
-*Dr. Michael Briley's excellent tutorial [Making Newton GPSMaps|http://www.phys.uwosh.edu/mike/newt-maps.html] (hey, if an astrophysicist can, so can ''you''! ;=} )
+# See also
+*Dr. Michael Briley's excellent tutorial [Making Newton GPSMaps](http://www.phys.uwosh.edu/mike/newt-maps.html) (hey, if an astrophysicist can, so can _you_! ;=} )
 *__Online Mapping Resources__
-**[Map-O-Rama|http://www.maporama.com/share/default.asp]
+**[Map-O-Rama](http://www.maporama.com/share/default.asp)
 ***Not only allows routing, but will also show you a map if you enter just __one__ spot... And will give you the places coordinates! Valuable tool to get coordinates of places you have never been (e.g. for making maps for GPS Map! ;=} ).
-**[Map24|http://www.map24.com]
+**[Map24](http://www.map24.com)
 ***Maps and routing for South and North Americas, Europe, Middle East. Very good map interface!
-**[MSN Maps & Directions|http://www.mapblast.com/map.aspx]
+**[MSN Maps & Directions](http://www.mapblast.com/map.aspx)
 ***"A 16 shades map that you tailor yourself. note that the W/H values in the URL can be adjusted to what you think is more suitable. use [Cmd+Shift+4] to get a haircross option for the screenshot, so that you will not have to do more post-processing work than necessary.
-***also note that this way you can use newtscape to download maps directly to the newton. dont ask me how to save them, but im sure there is a smart way somehow..." ([Roman Pixell|http://marc.theaimsgroup.com/?l=newtontalk&m=101826905719572&w=2] 2002)
-**[TerraServer-USA|http://terraserver.homeadvisor.msn.com]
+***also note that this way you can use newtscape to download maps directly to the newton. dont ask me how to save them, but im sure there is a smart way somehow..." ([Roman Pixell](http://marc.theaimsgroup.com/?l=newtontalk&m=101826905719572&w=2) 2002)
+**[TerraServer-USA](http://terraserver.homeadvisor.msn.com)
 ***Free satellite maps of the USA, courtesy of Microsoft.
 
 ----
-HomePage : HowTo : [GPSOnNewton] : [GPSMapMaking]
+[[HomePage]] : [[HowTo]] : [[GPSOnNewton]] : [[GPSMapMaking]]

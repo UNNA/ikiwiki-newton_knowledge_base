@@ -1,25 +1,9 @@
-Date: Sun, 17 Jul 2005 04:42:14 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NewtonConnectivityCD;
-  flags="";
-  author=84.178.152.163;
-  version=1;
-  lastmodified=1121589734;
-  created=1121589734;
-  author_id=84.178.152.163;
-  markup=2;
-  summary=DJV%3A%20Added%20IndexFixer%20and%20DataRescue;
-  hits=4154;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : [NewtonConnectivityCD]
+[[HomePage]] : [[NewtonConnectivityCD]]
 ----
 
-!!NewtonConnectivityCD R0.0.5
+## [[NewtonConnectivityCD]] R0.0.5
 
-A project [suggested by DJ Vollkasko|http://marc.theaimsgroup.com/?l=newtontalk&m=111306156629839&w=2] on [NewtonTalk]. This is a collection of tools needed on various platforms to connect the Newton to them, synch data, etc., to help to get the Newton more easily in touch with the world. The idea is that this collection of suggestions will be compiled as an archive of about 150 to 200 MB size, so it fits on a 3 in./8 cm Mini-CD and a CD image will be available as download.
+A project [suggested by DJ Vollkasko](http://marc.theaimsgroup.com/?l=newtontalk&m=111306156629839&w=2] on [[NewtonTalk]). This is a collection of tools needed on various platforms to connect the Newton to them, synch data, etc., to help to get the Newton more easily in touch with the world. The idea is that this collection of suggestions will be compiled as an archive of about 150 to 200 MB size, so it fits on a 3 in./8 cm Mini-CD and a CD image will be available as download.
 
 * __Note:__ This project assumes that you already have all drivers and everything you need on your Newton installed + configured, and now suddenly have to cuddle up to some other computer and need specific drivers or tools to do this.
 
@@ -27,40 +11,40 @@ Please feel free to add and suggest anything that you think is missing in the "N
 pages.
 
 %%%
-* Apple MacOS 9 Connectivity
-**AppleTalk
-***[DILTester] (see below)
+* Apple [[MacOS]] 9 Connectivity
+**[[AppleTalk]]
+***[[DILTester]] (see below)
 **Bluetooth
 ***???
 **Ethernet (LAN)
-***[DIL Tester|http://www.tempel.org/newton/#DILtester] by Thomas Tempelmann can be used to browse the data on your Newton and install packages. It also supports TCP/IP and IrDA (infrared!) connections in addition to AppleTalk and Serial.
-**IrDA Connection
-***[IrDAPackageInstaller] by JeromeVernet lets a OS 9.x-Macintosh beam packages to a 2x00 Newton.
-***[DILTester]
-***__Note:__ "If you want to upload packages via IrDA (infrared) to your Newton from a Mac with IrDA (e.g. PowerBook, some iMacs), try the new IrDA Package Installer from Jerome Vernet, which may give you better results than my software." ([Thomas Tempelmann|http://www.tempel.org/newton/#DILplugin])
+***[DIL Tester](http://www.tempel.org/newton/#DILtester] by Thomas Tempelmann can be used to browse the data on your Newton and install packages. It also supports TCP/IP and [[IrDA]] (infrared!) connections in addition to [[AppleTalk]) and Serial.
+**[[IrDA]] Connection
+***[[IrDAPackageInstaller]] by [[JeromeVernet]] lets a OS 9.x-Macintosh beam packages to a 2x00 Newton.
+***[[DILTester]]
+***__Note:__ "If you want to upload packages via [[IrDA]] (infrared) to your Newton from a Mac with [[IrDA]] (e.g. [[PowerBook]], some iMacs), try the new [[IrDA]] Package Installer from Jerome Vernet, which may give you better results than my software." ([Thomas Tempelmann](http://www.tempel.org/newton/#DILplugin))
 **Serial Connection
-***NewtonBackupUtility (NBU)
-***[230KSerialConnection] with NewtonConnectionUtilities (NCU).
-***[DILTester]
+***[[NewtonBackupUtility]] (NBU)
+***[[230KSerialConnection]] with [[NewtonConnectionUtilities]] (NCU).
+***[[DILTester]]
 **USB Connection
 ***Use USB-to-Serial adapter and use Serial Connection technique.
 ***No direct USB connection available to Newton (04/2005).
 **WLAN Connection
-***[DILTester]
+***[[DILTester]]
 
 %%%
-* Apple MacOS X Connectivity
+* Apple [[MacOS]] X Connectivity
 ** Bluetooth
 *** OS X supports certain (which?) D-Link Bluetooth-USB-dongles and internal Bluetooth adapters. Nothing required.
-*** Powerbooks can also use one specific Bluetooth-PC Card adapter, see [MacOSXBluetooth], requires [Card Blues Suite|http://www.versiontracker.com/dyn/moreinfo/macosx/21902&mode=info] driver.
+*** Powerbooks can also use one specific Bluetooth-PC Card adapter, see [[MacOSXBluetooth]], requires [Card Blues Suite](http://www.versiontracker.com/dyn/moreinfo/macosx/21902&mode=info) driver.
 ** Ethernet (LAN)
-*** [Escale] supports both TCP/IP and AppleTalk
+*** [[Escale]] supports both TCP/IP and [[AppleTalk]]
 *** ???
-** IrDA Connection
+** [[IrDA]] Connection
 *** ???
 ** Serial Connection
-*** [230KSerialConnection] with [Escale].
-*** [NewTen|http://www.stevenf.com/index.php?node=NewTen] is an OS X native interface for [UnixNPI].
+*** [[230KSerialConnection]] with [[Escale]].
+*** [NewTen](http://www.stevenf.com/index.php?node=NewTen] is an OS X native interface for [[UnixNPI]).
 ** USB Connection
 *** Use USB-to-Serial adapter and use Serial Connection-technique.
 *** No direct USB connection available to Newton (04/2005).
@@ -70,13 +54,13 @@ pages.
 %%%
 * Apple Newton Connectivity
 ** Bluetooth
-*** [Blunt|BluntSetup] is EckhartKöppen's excellent Newton-Bluetooth driver (Blunt 2 is currently under development, 04/2005).
+*** [Blunt](BluntSetup) is EckhartKöppen's excellent Newton-Bluetooth driver (Blunt 2 is currently under development, 04/2005).
 ** Ethernet (LAN)
 *** ???
-** IrDA Connection
+** [[IrDA]] Connection
 *** ???
 ** Serial Connection
-*** Serial Speed extensions [Ser57600|http://www.stillnewt.org/library/_Software/NewtonConnectivityCD/Apple%20Newton%20Connectivity/Serial%20Speed%20Extensions/ser57600.pkg], [Ser115200|http://www.stillnewt.org/library/_Software/NewtonConnectivityCD/Apple%20Newton%20Connectivity/Serial%20Speed%20Extensions/Ser115200.pkg], [Ser230400|http://www.stillnewt.org/library/_Software/NewtonConnectivityCD/Apple%20Newton%20Connectivity/Serial%20Speed%20Extensions/Ser230400.pkg]
+*** Serial Speed extensions [Ser57600|http://www.stillnewt.org/library/_Software/[[NewtonConnectivityCD]]/Apple%20Newton%20Connectivity/Serial%20Speed%20Extensions/ser57600.pkg], [Ser115200|http://www.stillnewt.org/library/_Software/[[NewtonConnectivityCD]]/Apple%20Newton%20Connectivity/Serial%20Speed%20Extensions/Ser115200.pkg], [Ser230400](http://www.stillnewt.org/library/_Software/[[NewtonConnectivityCD]]/Apple%20Newton%20Connectivity/Serial%20Speed%20Extensions/Ser230400.pkg)
 ** USB Connection
 *** n/a (04/2005)
 ** WLAN Connection
@@ -85,8 +69,8 @@ pages.
 %%%
 * Apple Newton Survival Tools
 ** All sorts of stuff your Green Buddy needs to bash desktop computers and other villains into submission and get his way with 'em.
-***[IndexFixer 1.1|http://www.stillnewt.org/library/_Software/NewtonConnectivityCD/Apple%20Newton%20Survival%20Tools/IndexFixer%201.1%20(NOS%202.x)] (NOS 2.x) by Modasys
-***[DataRescue|http://www.stillnewt.org/library/_Software/NewtonConnectivityCD/Apple%20Newton%20Survival%20Tools/DataRescue%20(NOS%201.x,%202.x)] (NOS 1.x, 2.x) by André Meyer (1996)
+***[IndexFixer 1.1](http://www.stillnewt.org/library/_Software/[[NewtonConnectivityCD]]/Apple%20Newton%20Survival%20Tools/[[IndexFixer]]%201.1%20(NOS%202.x)) (NOS 2.x) by Modasys
+***[DataRescue](http://www.stillnewt.org/library/_Software/[[NewtonConnectivityCD]]/Apple%20Newton%20Survival%20Tools/[[DataRescue]]%20(NOS%201.x,%202.x)) (NOS 1.x, 2.x) by André Meyer (1996)
 
 %%%
 * Linux Connectivity
@@ -94,10 +78,10 @@ pages.
 *** ???
 ** Ethernet (LAN)
 *** ???
-** IrDA Connection
+** [[IrDA]] Connection
 *** ???
 ** Serial Connection
-*** [UnixNPI|http://unixnpi.sourceforge.net/] is a free command-line serial package installer.
+*** [UnixNPI](http://unixnpi.sourceforge.net/) is a free command-line serial package installer.
 ** USB Connection
 *** ???
 ** WLAN Connection
@@ -108,28 +92,28 @@ pages.
 **Bluetooth
 ***???
 **TCP/IP
-***[DILTester]
-**IrDA Connection
+***[[DILTester]]
+**[[IrDA]] Connection
 ***???
 **Serial Connection
-***NewtonBackupUtility (NBU)
-***[DILTester]
-***[UnixNPI] (see above) also offers a [Win32-version|http://unixnpi.sourceforge.net/UnixNPI-1.1.4-win32.zip].
+***[[NewtonBackupUtility]] (NBU)
+***[[DILTester]]
+***[[UnixNPI]] (see above) also offers a [Win32-version](http://unixnpi.sourceforge.net/[[UnixNPI]]-1.1.4-win32.zip).
 **USB Connection
 ***???
 **WLAN Connection
-***[DILTester]
+***[[DILTester]]
 
 %%%
-*NeXT Connectivity
+*[[NeXT]] Connectivity
 **Bluetooth
 ***???
 **Ethernet (LAN)
 ***???
-**IrDA Connection
+**[[IrDA]] Connection
 ***???
 **Serial Connection
-***[UnixNPI] (see above) also offers a [NeXT-version|http://unixnpi.sourceforge.net/unixnpi-1.1.4-NeXT.tar.gz] (compiled by JeromeVernet).
+***[[UnixNPI]] (see above) also offers a [NeXT-version](http://unixnpi.sourceforge.net/unixnpi-1.1.4-[[NeXT]].tar.gz] (compiled by [[JeromeVernet])).
 **USB Connection
 ***???
 **LAN Connection
@@ -137,11 +121,11 @@ pages.
 
 %%%
 *Any other devices (mobile phones, PDAs, etc. -- which manufacturer, which OS?)
-   ** Bluetooth
+** Bluetooth
 *** ???
 ** Ethernet (LAN)
 *** ???
-** IrDA Connection
+** [[IrDA]] Connection
 *** ???
 ** Serial Connection
 *** ???
@@ -152,11 +136,11 @@ pages.
 
 %%%
 ----
-!See also:
+# See also:
 
 *whatelse? Connectivity
-* NewtonConnectivityCD on [Temporary Newton Library|http://www.stillnewt.org/library/_Software/NewtonConnectivityCD] -- find all publicly distributable software mentioned on this page collected there.
-*ConnectToComputer
-*[UNIXConnection]
+* [[NewtonConnectivityCD]] on [Temporary Newton Library](http://www.stillnewt.org/library/_Software/NewtonConnectivityCD) -- find all publicly distributable software mentioned on this page collected there.
+*[[ConnectToComputer]]
+*[[UNIXConnection]]
 ----
-HomePage : [NewtonConnectivityCD]%%%
+[[HomePage]] : [[NewtonConnectivityCD]]%%%

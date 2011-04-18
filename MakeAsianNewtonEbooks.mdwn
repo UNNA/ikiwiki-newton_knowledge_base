@@ -1,22 +1,7 @@
-Date: Mon, 24 Jan 2005 08:58:11 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MakeAsianNewtonEbooks;
-  flags="";
-  author=80.128.167.207;
-  version=1;
-  lastmodified=1106575091;
-  created=1106575091;
-  author_id=80.128.167.207;
-  markup=2;
-  hits=344;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : MakeNewtonEbooksIndex : MakeAsianNewtonEbooks
+[[HomePage]] : [[HowTo]] : [[MakeNewtonEbooksIndex]] : [[MakeAsianNewtonEbooks]]
 ----
 %%%
-Of course the Newton can also handle ebooks with Asian characters. Learn on this page how to do it! For an introduction to Newton bookmaking see MakeNewtonEbooks.
+Of course the Newton can also handle ebooks with Asian characters. Learn on this page how to do it! For an introduction to Newton bookmaking see [[MakeNewtonEbooks]].
 
 
 
@@ -24,13 +9,13 @@ Of course the Newton can also handle ebooks with Asian characters. Learn on this
 %%%
 __Making Newton eBooks with Asian Characters using Newt's Cape__
 
-* "it's possible to read web sites and create Newton books in Chinese, Japanese, Korean, Russian,... using Newt's Cape -- assuming you've got the proper encodings installed to read the sites, and fonts to display the sites and the books." -- Source: [Steve Weyer|http://marc.10east.com/?l=newtontalk&m=110651433112277&w=2]
+* "it's possible to read web sites and create Newton books in Chinese, Japanese, Korean, Russian,... using Newt's Cape -- assuming you've got the proper encodings installed to read the sites, and fonts to display the sites and the books." -- Source: [Steve Weyer](http://marc.10east.com/?l=newtontalk&m=110651433112277&w=2)
 
 
 %%%
 __Making Newton Paperbacks with Asian Characters__
 
-* "PBBookMaker from the DCL can convert to books any document in UTF-8. http://tools.unna.org/paperback" -- Source: [Paul Guyot|http://marc.10east.com/?l=newtontalk&m=110648136202377&w=2]
+* "PBBookMaker from the DCL can convert to books any document in UTF-8. http://tools.unna.org/paperback" -- Source: [Paul Guyot](http://marc.10east.com/?l=newtontalk&m=110648136202377&w=2)
 
 * Paul shows a demo with the Japanese ebook Rashomon on his website. "I didn't handle the endlines very well, but Rashomon could be read on a Newton: http://www.kallisys.com/newton/einstein/screenshots/einstein_dp4-rashomon.png"
 
@@ -41,7 +26,7 @@ __Making Newton Paperbacks with Asian Characters__
 ----
 __See also:__
 
-__How to [MakeNewtonEbooks]__
+__How to [[MakeNewtonEbooks]]__
 
 ----
-HomePage : HowTo : MakeNewtonEbooksIndex : MakeAsianNewtonEbooks
+[[HomePage]] : [[HowTo]] : [[MakeNewtonEbooksIndex]] : [[MakeAsianNewtonEbooks]]

@@ -1,18 +1,3 @@
-Date: Wed, 29 Jan 2003 12:33:55 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NiCad;
-  flags="";
-  author=VictorRehorst;
-  version=1;
-  lastmodified=1043861635;
-  created=1043861635;
-  author_id=142.245.193.119;
-  markup=2;
-  hits=335;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-Nickel Cadmium.  A type of rechargable battery.  Very common and comes in many different sizes.  Used in the [MessagePad110], [MessagePad120], and [MessagePad130] BatteryPacks.  Has been largely replaced by [NiMH] rechargables.
+Nickel Cadmium.  A type of rechargable battery.  Very common and comes in many different sizes.  Used in the [[MessagePad110]], [[MessagePad120]], and [[MessagePad130]] [[BatteryPacks]].  Has been largely replaced by [[NiMH]] rechargables.
 ----
-BatteryPacks
+[[BatteryPacks]]

@@ -1,28 +1,13 @@
-Date: Fri, 26 Mar 2004 12:47:47 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=DesktopConnectionHardware;
-  flags="";
-  author=ScottyTechnoir;
-  version=1;
-  lastmodified=1080323267;
-  created=1080323267;
-  author_id=69.196.225.226;
-  markup=2;
-  hits=1654;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 There are 3 more orthodox ways to connect your Newton to the Internet.
 
 * Ethernet
 
-  For those who enjoy the absurd joys of Broadband internet access and run OS2, you'll be happy to know your Newt can join in too!  See related WiFi and EtherNet pages for guidelines on what cards are available to work with your Newt.
+For those who enjoy the absurd joys of Broadband internet access and run OS2, you'll be happy to know your Newt can join in too!  See related [[WiFi]] and [[EtherNet]] pages for guidelines on what cards are available to work with your Newt.
 
 * Modem
 
-  Modem cards are also inexpensive and tend to be the favoured low-end approach. The 56k dialup is universally accepted in all countries on all terrestrial phone-lines, it  ''is'' civilization. All you need is a PCMCIA card and a driver. A lot of Generic modem cards run natively through Newton Internet Enabler (See the DesktopConnectionSoftware page) under the "28k or faster" choice and for a complete view of the Modem Cards that work with the Newton try Len Lutz's [big list 'o Newton PCMCIA Modem Cards | http://www.dca.net/cgi-bin/cgiwrap/lenlutz/newton.cgi].  See ModemCards for more in-depth information about picking a modem card.
+Modem cards are also inexpensive and tend to be the favoured low-end approach. The 56k dialup is universally accepted in all countries on all terrestrial phone-lines, it  _is_ civilization. All you need is a PCMCIA card and a driver. A lot of Generic modem cards run natively through Newton Internet Enabler (See the [[DesktopConnectionSoftware]] page) under the "28k or faster" choice and for a complete view of the Modem Cards that work with the Newton try Len Lutz's [big list 'o Newton PCMCIA Modem Cards ](http://www.dca.net/cgi-bin/cgiwrap/lenlutz/newton.cgi].  See [[ModemCards]) for more in-depth information about picking a modem card.
 
 * Wireless
 
-  The cadillac of Internet Access, the Newton's shining point, blasting all other PDA's asunder with its mighty WaveLan drivers the Newton shows it is mighty in the realm of wireless internet access supporting the 802.11 or "Airport" internet standard. Ahem... Maybe a quick trip to the WiFi page is in order.
+The cadillac of Internet Access, the Newton's shining point, blasting all other PDA's asunder with its mighty [[WaveLan]] drivers the Newton shows it is mighty in the realm of wireless internet access supporting the 802.11 or "Airport" internet standard. Ahem... Maybe a quick trip to the [[WiFi]] page is in order.

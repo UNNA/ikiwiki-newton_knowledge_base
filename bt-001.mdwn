@@ -1,28 +1,13 @@
-Date: Tue, 27 Sep 2005 08:04:13 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=bt-001;
-  flags="";
-  author=69.249.83.212;
-  version=1;
-  lastmodified=1127822653;
-  created=1127822653;
-  author_id=69.249.83.212;
-  markup=2;
-  hits=160;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 __BT-001__:
 
-Not the [first | http://40hz.org/mottek/archives/2004_01.html], but a bluetooth module for the MP2x00 designed to connect to the internal serial connector.
+Not the [first ](http://40hz.org/mottek/archives/2004_01.html), but a bluetooth module for the MP2x00 designed to connect to the internal serial connector.
 
 You can find information about the BT-001 at http://www.allaboutjake.com/newton/bt-001.html
 
-The first incarnation was designed using the [BlueRadios | http://www.blueradios.com] [BR-C30F | http://www.blueradios.com/BR-C30.pdf] which has the advantage of having an AT command set (just like a modem).
+The first incarnation was designed using the [BlueRadios | http://www.blueradios.com] [BR-C30F ](http://www.blueradios.com/BR-C30.pdf) which has the advantage of having an AT command set (just like a modem).
 
 The initial prototype had hardware flow control, but due to an error in the design, it did not work.  This was bypassed.
 
 The initial prototype also had the bluetooth module connected to Serial0.  Subsequent designs will connect to Serial3, which is the modem port.  This will make it possible to access the module with little-to-no software-side support (it will act just like the never released internal modem for which the internal serial connector was originally envisioned.)
 
-The BT-001 is not Blunt compatible, or more accurately Neo compatible.  However, Eckhart has indicated that it might be possible to make them compatible.  I am also exploring making a Blunt2 compatible module with Eckhart, but as of yet there is no progress to report.  (And may never be.)
+The BT-001 is not Blunt compatible, or more accurately Neo compatible.  However, Eckhart has indicated that it might be possible to make them compatible.  I am also exploring making a Blunt2 compatible module with Eckhart, but as of yet there is no progress to report.  (And may never be.)

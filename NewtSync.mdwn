@@ -1,30 +1,10 @@
-Date: Sun, 16 Apr 2006 04:31:53 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_19"
-
---=_multipart_boundary_19
-Content-Type: application/x-phpwiki;
-  pagename=NewtSync;
-  flags="";
-  author=ThomasTempelmann;
-  version=4;
-  lastmodified=1145176313;
-  created=1145176313;
-  author_id=ThomasTempelmann;
-  markup=2;
-  summary=fixed%20a%20few%20typos;
-  hits=3866;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-NewtSync (sometimes known as nSync) is a Mac OS X native application, coupled with a connection package on the Newton. It is built as an easily extendable transfer-and-sync solution for OS X users via TCP/IP or serial. Out-of-the-box, it supports AddressBook, iCal, and clock syncing. John Anderson, the original developer, released it as open source after stopping working on it. Currently, there is a [NewtSync homepage on SourceForge|http://sourceforge.net/projects/newtsync/] as well as a more up-to-date page from the current maintainer, Chris Hagedorn. Steven Frank, the author of [NewTen|http://www.panic.com/~stevenf/index.php?node=NewTen], has started exploring additional development of NewtSync. Huzzah!
+[[NewtSync]] (sometimes known as nSync) is a Mac OS X native application, coupled with a connection package on the Newton. It is built as an easily extendable transfer-and-sync solution for OS X users via TCP/IP or serial. Out-of-the-box, it supports [[AddressBook]], iCal, and clock syncing. John Anderson, the original developer, released it as open source after stopping working on it. Currently, there is a [NewtSync homepage on SourceForge|http://sourceforge.net/projects/newtsync/] as well as a more up-to-date page from the current maintainer, Chris Hagedorn. Steven Frank, the author of [NewTen](http://www.panic.com/~stevenf/index.php?node=NewTen], has started exploring additional development of [[NewtSync]). Huzzah!
 
 http://thenowhereman.com/hacks/newton/
 
 http://www.newtsync.com/ (as of 2005-12-05, this site is offline)
 
-Several third-party plugins* for NewtSync: are also available from Chris's site.
+Several third-party plugins* for [[NewtSync]]: are also available from Chris's site.
 
 http://thenowhereman.com/hacks/newton/
 
@@ -32,98 +12,6 @@ http://thenowhereman.com/hacks/newton/
 
 ---
 
-ConnectToComputer
+[[ConnectToComputer]]
 
-UnnaReviews
-
---=_multipart_boundary_19
-Content-Type: application/x-phpwiki;
-  pagename=NewtSync;
-  flags="";
-  author=splorp;
-  version=3;
-  lastmodified=1145137787;
-  created=1145176313;
-  author_id=splorp;
-  markup=2;
-  summary=Cleaned%20up%20obsolete%20links%20and%20clarified%20who%20the%20current%20involved%20developers%20are.;
-  hits=3866;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-NewtSync (sometimes know as nSync) is a Mac OS X native application, coupled with a connection package on the Newton. It is being built as an easily extendable transfer-and-sync solution for OS X users via TCP/IP or serial. Out-of-the-box, it supports AddressBook, iCal, and clock syncing. John Anderson, the original developer, released it as open source after stopping development. Currently, there is a [NewtSync homepage on SourceForge|http://sourceforge.net/projects/newtsync/] as well as a more up-to-date page from the current maintainer, Chris Hagedorn. Steven Frank, the author of [NewTen|http://www.panic.com/~stevenf/index.php?node=NewTen], has started exploring additional development of NewtSync. Huzzah!
-
-http://thenowhereman.com/hacks/newton/
-
-http://www.newtsync.com/ (as of 2005-12-05, this site is offline)
-
-Several third-party plugins* for NewtSync: are also available from Chris's site.
-
-http://thenowhereman.com/hacks/newton/
-
-* Plugins for syncing todos, notes, and enhanced address book support
-
----
-
-ConnectToComputer
-
-UnnaReviews
-
---=_multipart_boundary_19
-Content-Type: application/x-phpwiki;
-  pagename=NewtSync;
-  flags="";
-  author=splorp;
-  version=2;
-  lastmodified=1145137534;
-  created=1145137787;
-  author_id=splorp;
-  markup=2;
-  summary=Cleaned%20up%20obsolete%20links%20and%20clarified%20who%20the%20current%20involved%20developers%20are.;
-  hits=3866;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-NewtSync (sometimes know as nSync) is a Mac OS X native application, coupled with a connection package on the Newton. It is being built as an easily extendable transfer-and-sync solution for OS X users via TCP/IP or serial. Out-of-the-box, it supports AddressBook, iCal, and clock syncing. John Anderson, the original developer, released it as open source after stopping development. Currently, there is a [NewtSync homepage on SourceForge|http://sourceforge.net/projects/newtsync/] as well as a more up-to-date page from the current maintainer, Chris Hagedorn. Steven Frank, the author of NewTen, has started exploring additional development of NewtSync. Huzzah!
-
-http://thenowhereman.com/hacks/newton/
-http://www.newtsync.com/ (as of 2005-12-05, this site is offline)
-
-Several third-party plugins* for NewtSync: are also available from Chris's site.
-
-http://thenowhereman.com/hacks/newton/
-
-* Plugins for syncing todos, notes, and enhanced address book support
-
----
-
-ConnectToComputer
-
-UnnaReviews
-
---=_multipart_boundary_19
-Content-Type: application/x-phpwiki;
-  pagename=NewtSync;
-  flags="";
-  author=207.6.182.200;
-  version=1;
-  lastmodified=1142147027;
-  created=1145137534;
-  author_id=207.6.182.200;
-  markup=2;
-  hits=3866;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-NewtSync is a OS X.2 native application, coupled with a connection package on the Newton.  It is being built to be an easily extendable transfer-and-sync solution for OS X users via TCP/IP or serial.  Out-of-the-box, it supports AddressBook, iCal, and clock syncing.  John Anderson, the developer, has released it as open source.  [Visit the NewtSync homepage on SourceForge|http://sourceforge.net/projects/newtsync/] or the more up-to-date web page from the current maintainer [http://www.newtsync.com] (as of 2005-12-05, http://www.newtsync.com returns a blank page with no content, but you can go here: http://thenowhereman.com/hacks/newton/).
-
-There are also some third-party plugins available for NewtSync:
-
-* [Plugins for todos, notes, and enhanced address book support|http://homepage.mac.com/nowhereman77/hacks/newton/index.html] - Not responding as of 2005-12-05
-
-----
-ConnectToComputer
-
-UnnaReviews
-
---=_multipart_boundary_19--
+[[UnnaReviews]]

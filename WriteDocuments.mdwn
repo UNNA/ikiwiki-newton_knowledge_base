@@ -1,28 +1,13 @@
-Date: Thu, 8 Apr 2004 17:54:48 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=WriteDocuments;
-  flags="";
-  author=RhondaHyslop;
-  version=1;
-  lastmodified=1081461288;
-  created=1081461288;
-  author_id=64.180.125.197;
-  markup=2;
-  hits=1302;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 Thinking of a little light reading? The newton is perhaps the finest ebook reader ever, its vast screen size making it perfect for huddling up with on a large sofa. But if you want to put a little more into the community for all those great free ebooks available at unna.org and newton libraries then why not write a document, transcribe a keynote speech, or pen a guide to something as mundane as putting up some ikea shelves. It'll probably be used by someone, at some time..
 
-The granddaddy app of all book makers has to be [Newton Press| http://www.unna.org/unna/apple/software/NewtonPress/] . This application is available for windows and for mac and is ideal for creating engaging newton-native books with graphics and interactive elements.. It is not however terribly speedy, nor suited to the rigours of regular use as it is predisposed to crashing without notice if you do something it doesn't like.
+The granddaddy app of all book makers has to be [Newton Press](http://www.unna.org/unna/apple/software/[[NewtonPress]]/) . This application is available for windows and for mac and is ideal for creating engaging newton-native books with graphics and interactive elements.. It is not however terribly speedy, nor suited to the rigours of regular use as it is predisposed to crashing without notice if you do something it doesn't like.
 
 Here are a few other applications to fill the void if Newton Press isn't for you
 
-* [Paperback 2.0 | http://www.unna.org/unna/applications/Paperback/] - Available for Mac/PC.  This application takes plain text documents and converts them into nice books which can be read with the petit Bookreader application. You can choose to have the application bound into one of the books you use so they can be read but as long as you have one "bookreader equipped" book you can bind others without it. Also included is a superb Chapter Listings feature which lets you specify easily linkable chapters to easy reference whilst reading, using a simple keyword written into the document. Well worth it if you don't need any graphical content in your book.
+* [Paperback 2.0 ](http://www.unna.org/unna/applications/Paperback/) - Available for Mac/PC.  This application takes plain text documents and converts them into nice books which can be read with the petit Bookreader application. You can choose to have the application bound into one of the books you use so they can be read but as long as you have one "bookreader equipped" book you can bind others without it. Also included is a superb Chapter Listings feature which lets you specify easily linkable chapters to easy reference whilst reading, using a simple keyword written into the document. Well worth it if you don't need any graphical content in your book.
 
-* [Bookmaker|http://www.unna.org/unna/apple/development/Bookmaker/] - Available for Mac/PC.  Like Newton Press, lets you create Newton-native book packages from plain-text and RTF source, but the comparisons end there.  BookMaker actually has its own ''language'' which can be exploited to embed anything from chapter headings to applying text and layout styles to blocks of text to embedding NewtonScript code.  Insanely powerful, and also rather buggy.  But when it works...
+* [Bookmaker](http://www.unna.org/unna/apple/development/Bookmaker/] - Available for Mac/PC.  Like Newton Press, lets you create Newton-native book packages from plain-text and RTF source, but the comparisons end there.  [[BookMaker]] actually has its own _language_ which can be exploited to embed anything from chapter headings to applying text and layout styles to blocks of text to embedding [[NewtonScript]) code.  Insanely powerful, and also rather buggy.  But when it works...
 
-* [Newt's Cape|http://www.kagi.com/weyer/#NewtsCape] - Available for Newton. Newt's Cape is hybrid web browser/bookmaking utility with great potential. Beside mature browsing capabilities (cookies, authentication, bookmark scheduling, cache, GIF, JPEG, some frames support, etc.) it can import HTML from Notes (you can utilize HTMList or nHTML to turn your text swiftly into HTML), [NewtonWorks|http://www.unna.org/unna/applications/NewtonWorks/], InOutBox, etc. It can recognizes special tags to define book information, ISBN, Extras name, and more, offers ''complete'' control over the text flow & appearance utilizing per element preferences. In short, you can create moderate-sized books with advanced layouts and graphics right on your Newton.
+* [Newt's Cape|http://www.kagi.com/weyer/#NewtsCape] - Available for Newton. Newt's Cape is hybrid web browser/bookmaking utility with great potential. Beside mature browsing capabilities (cookies, authentication, bookmark scheduling, cache, GIF, JPEG, some frames support, etc.) it can import HTML from Notes (you can utilize HTMList or nHTML to turn your text swiftly into HTML), [NewtonWorks](http://www.unna.org/unna/applications/[[NewtonWorks]]/], [[InOutBox]), etc. It can recognizes special tags to define book information, ISBN, Extras name, and more, offers _complete_ control over the text flow & appearance utilizing per element preferences. In short, you can create moderate-sized books with advanced layouts and graphics right on your Newton.
 
-For more information on creating newtonbooks, see MakeNewtonEbooks
+For more information on creating newtonbooks, see [[MakeNewtonEbooks]]

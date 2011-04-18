@@ -1,32 +1,17 @@
-Date: Thu, 20 Oct 2005 19:41:43 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=BuyersGuide;
-  flags="";
-  author=216.75.154.241;
-  version=1;
-  lastmodified=1129851703;
-  created=1129851703;
-  author_id=216.75.154.241;
-  markup=2;
-  hits=3384;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+__What:__ Excellent and inexpensive starter models are [[MessagePad]] 120 (w/o backlight, 1 PC Card slot, NOS 2.0 - older OS upgradeable) and 130 (backlight, 1 PC Card slot, NOS 2.0). The eMate is appreciated for its integrated keyboard - basically it's an ancestor of the iBooks.
+The top of the line are MP 2000 and especially the last model, MP 2100 (backlight, 2 PC Card slots, 162 MHz [[StrongARM]] CPU, Voyager Chipset, NOS 2.1).
 
-__What:__ Excellent and inexpensive starter models are MessagePad 120 (w/o backlight, 1 PC Card slot, NOS 2.0 - older OS upgradeable) and 130 (backlight, 1 PC Card slot, NOS 2.0). The eMate is appreciated for its integrated keyboard - basically it's an ancestor of the iBooks.
-The top of the line are MP 2000 and especially the last model, MP 2100 (backlight, 2 PC Card slots, 162 MHz StrongARM CPU, Voyager Chipset, NOS 2.1).
-
-__How Much:__ See [Rich Lindsay|http://www.thisoldnewt.net/index2.html]'s excellent and strongly recommended [Newton Used Price Guide|http://www.thisoldnewt.net/html/used.html] for pricing information.%%%
+__How Much:__ See [Rich Lindsay|http://www.thisoldnewt.net/index2.html]'s excellent and strongly recommended [Newton Used Price Guide](http://www.thisoldnewt.net/html/used.html) for pricing information.%%%
 Checked it on 10/20/05 and both links don't work.
 
-__Where:__ There are several ways to get your own Newton. Besides checking local classified ads or Apple boards (or - in the US - school sales, thrift shops and flea markets), there is always [Ebay | http://www.ebay.com].
+__Where:__ There are several ways to get your own Newton. Besides checking local classified ads or Apple boards (or - in the US - school sales, thrift shops and flea markets), there is always [Ebay ](http://www.ebay.com).
 
-Some mailorders also sell Newtons, such as [J&K Sales, Inc. | http://www.jksalesinc.com/catalog/] (who also offer [PCBMan| http://mrpcbman.tripod.com]'s [SER001 board|http://jksalesinc.com/catalog/index.php?cPath=272] and installation of this) or [GEM Enterprises | http://www.gementerprises.com].
+Some mailorders also sell Newtons, such as [J&K Sales, Inc. | http://www.jksalesinc.com/catalog/] (who also offer [PCBMan| http://mrpcbman.tripod.com]'s [SER001 board|http://jksalesinc.com/catalog/index.php?cPath=272] and installation of this) or [GEM Enterprises ](http://www.gementerprises.com).
 
-A few Newtonians also occasionally have Newtons on offer, e.g. [Frank Gruendel|http://www.pda-soft.de/] in Germany. Also it may be worth to check NewtonTalk for current sales offers.%%%
+A few Newtonians also occasionally have Newtons on offer, e.g. [Frank Gruendel](http://www.pda-soft.de/] in Germany. Also it may be worth to check [[NewtonTalk]) for current sales offers.%%%
 
 %%%
 ----
 
-HomePage: NewtonMessagePad : BuyersGuide%%%
+[[HomePage]]: [[NewtonMessagePad]] : [[BuyersGuide]]%%%
 ----

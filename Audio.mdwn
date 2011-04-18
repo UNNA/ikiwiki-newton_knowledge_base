@@ -1,62 +1,46 @@
-Date: Thu, 3 Nov 2005 15:29:12 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=Audio;
-  flags="";
-  author=84.178.145.123;
-  version=1;
-  lastmodified=1131049752;
-  created=1131049752;
-  author_id=84.178.145.123;
-  markup=2;
-  summary=DJV%3A%20Added%20working%20VoiceMonitor%20link.;
-  hits=1824;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+## Audio-Out (Speaker/Headphones)
 
-!!Audio-Out (Speaker/Headphones)
+# [[MacInTalk]]
 
-!MacInTalk
-
-[MacInTalk | http://www.unna.org/unna/apple/software/TextToSpeech/] is a text-to-speech package for all Newton OS 2.1 devices.  It can sometimes be handy to have lists of documents read to you whether you're in the grocery store figuring out what to buy next or you're in the car and want a book read aloud, [MacInTalk | http://www.unna.org/unna/apple/software/TextToSpeech/] is a useful tool.%%%
-For more information see MakeNewtonSpeakText and SpeakText.%%%
-You can also MakeNewtonSing Christmas carols and anything else!%%%
+[MacInTalk | http://www.unna.org/unna/apple/software/[[TextToSpeech]]/] is a text-to-speech package for all Newton OS 2.1 devices.  It can sometimes be handy to have lists of documents read to you whether you're in the grocery store figuring out what to buy next or you're in the car and want a book read aloud, [MacInTalk ](http://www.unna.org/unna/apple/software/[[TextToSpeech]]/) is a useful tool.%%%
+For more information see [[MakeNewtonSpeakText]] and [[SpeakText]].%%%
+You can also [[MakeNewtonSing]] Christmas carols and anything else!%%%
 * Note to developers: You can include spoken messages in your software projects (e.g. for a synch tool audible feedback "connection failed", "operation aborted" and "synchronization completed").
 
-!ModPlayer
+# [[ModPlayer]]
 
-[ModPlayer | http://roger.trideja.com/newton/modplayer.html] is a freeware application that allows the playing of .mod music files on any Newton with Newton OS 2.0 or up.  For some nice background music or as an alarm to get you up in the morning, [ModPlayer | http://roger.trideja.com/newton/modplayer.html] is a great audio tool for your Newton. [Download | http://roger.trideja.com/downloads/modplayer20b1.zip].
+[ModPlayer | http://roger.trideja.com/newton/modplayer.html] is a freeware application that allows the playing of .mod music files on any Newton with Newton OS 2.0 or up.  For some nice background music or as an alarm to get you up in the morning, [ModPlayer | http://roger.trideja.com/newton/modplayer.html] is a great audio tool for your Newton. [Download ](http://roger.trideja.com/downloads/modplayer20b1.zip).
 
-!MadNewt
+# [[MadNewt]]
 
-With Eckhart Köppen's MadNewt based on MadPlayer you can play MP3's on your Newton OS 2.1 Newton! It's actually not just MP3's, but internet radio too.  To get the MP3's on your Newton you'll need either Daniel Padilla's [MP3Builder for Windows | http://dev.newtontalk.net/~dpadilla/progs.htm] or Eric Schneck's iTunes [plugin | http://www.pixell.net/doppler/newton/] ([Download iTunes 2 | http://www.versiontracker.com/dyn/moreinfo/macos/9688&vid=29391]). Note that it's best to convert your MP3's to 32k or 64kbps more, 44.1hz or 22.1hz for best performance. (In iTunes this can be set in preferences.)
+With Eckhart Köppen's [[MadNewt]] based on [[MadPlayer]] you can play MP3's on your Newton OS 2.1 Newton! It's actually not just MP3's, but internet radio too.  To get the MP3's on your Newton you'll need either Daniel Padilla's [MP3Builder for Windows | http://dev.newtontalk.net/~dpadilla/progs.htm] or Eric Schneck's iTunes [plugin | http://www.pixell.net/doppler/newton/] ([Download iTunes 2 ](http://www.versiontracker.com/dyn/moreinfo/macos/9688&vid=29391)). Note that it's best to convert your MP3's to 32k or 64kbps more, 44.1hz or 22.1hz for best performance. (In iTunes this can be set in preferences.)
 
 Some Newton Quality Internet Radio Stations:
-[Radio Free Newton | http://www.stonehopper.com/radio/]
+[Radio Free Newton ](http://www.stonehopper.com/radio/)
 
-!Alarms
+# Alarms
 
-On the road a need to get up in the morning? Just click on the time in the extras drawer for the option to set an alarm. Not loud or annoying enough? Try Adam Tow's "Alarm Clock" for all versions of the Newton OS. [Download | http://www.tow.com/software/newton.shtml]
+On the road a need to get up in the morning? Just click on the time in the extras drawer for the option to set an alarm. Not loud or annoying enough? Try Adam Tow's "Alarm Clock" for all versions of the Newton OS. [Download ](http://www.tow.com/software/newton.shtml)
 
-!Customize your Newton's System Sounds
-See ChangeSystemSounds for where to find new sounds (Mac OS 7, Star Wars,...) and how to set them up as your new system sounds.
+# Customize your Newton's System Sounds
+See [[ChangeSystemSounds]] for where to find new sounds (Mac OS 7, Star Wars,...) and how to set them up as your new system sounds.
 
 %%%
-!!Audio-In (Microphone)
+## Audio-In (Microphone)
 
-!Voice Recognition
+# Voice Recognition
 
-With Dragon Software's [DragonDemo | http://www.unna.org/view.php?/applications/DragonDemo] and Daniel Padilla's [DragonHack 2 | http://www.unna.org/unna/applications/DragonDemo/DragonHack2-readme.txt] you can add voice recognition to your Newton OS 2.1 Newton.%%%
-Daniel also wrote [VoiceTurn | http://dev.newtontalk.net/~dpadilla/progs.htm] so, rather than pulling out your stylus every time you want to flip pages you can just tap your fingernail on the Newton case. This requires first installation of [VoiceMonitor|http://www.clubnewton.com:8080/newton/clubnewton/VoiceMonitor/VoiceMonitor.html] (freeware) by the Japanese Newton developer Yos (of [Club Newton Software|http://www.clubnewton.com:8080/newton/clubnewton/index.html] fame).%%%
+With Dragon Software's [DragonDemo | http://www.unna.org/view.php?/applications/DragonDemo] and Daniel Padilla's [DragonHack 2 ](http://www.unna.org/unna/applications/[[DragonDemo]]/DragonHack2-readme.txt) you can add voice recognition to your Newton OS 2.1 Newton.%%%
+Daniel also wrote [VoiceTurn | http://dev.newtontalk.net/~dpadilla/progs.htm] so, rather than pulling out your stylus every time you want to flip pages you can just tap your fingernail on the Newton case. This requires first installation of [VoiceMonitor|http://www.clubnewton.com:8080/newton/clubnewton/[[VoiceMonitor]]/[[VoiceMonitor]].html] (freeware) by the Japanese Newton developer Yos (of [Club Newton Software](http://www.clubnewton.com:8080/newton/clubnewton/index.html) fame).%%%
 
-!Notes - Recording Stationary
+# Notes - Recording Stationary
 
-With "Notes" you can record conversations or music for later playback. To create a new recording, tap 'New' and then 'Recording' in "Notes". With [VoiceMonitor|http://www.clubnewton.com:8080/newton/clubnewton/VoiceMonitor/VoiceMonitor.html] you can adjust the gain of the internal microphone.
+With "Notes" you can record conversations or music for later playback. To create a new recording, tap 'New' and then 'Recording' in "Notes". With [VoiceMonitor](http://www.clubnewton.com:8080/newton/clubnewton/[[VoiceMonitor]]/[[VoiceMonitor]].html) you can adjust the gain of the internal microphone.
 ----
 Edited by:
 
-Jeffrey McMurtrie, CEO [HandMedia | http://www.hand-media.com] - October 21, 2004%%%
-[DJ Vollkasko|http://www.stillnewt.org/library] - July 14th, 2005; Nov. 3rd 2005%%%
+Jeffrey [[McMurtrie]], CEO [HandMedia ](http://www.hand-media.com) - October 21, 2004%%%
+[DJ Vollkasko](http://www.stillnewt.org/library) - July 14th, 2005; Nov. 3rd 2005%%%
 ----
 
-[HomePage] : [Audio]
+[[HomePage]] : [[Audio]]

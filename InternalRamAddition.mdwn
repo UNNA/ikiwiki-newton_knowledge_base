@@ -1,18 +1,3 @@
-Date: Mon, 5 Apr 2004 17:43:31 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=InternalRamAddition;
-  flags="";
-  author=63.105.29.30;
-  version=1;
-  lastmodified=1081201411;
-  created=1081201411;
-  author_id=63.105.29.30;
-  markup=2;
-  hits=456;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 Make use of the empty ram slots!
 
-It would be nice to reverse engineer or to have access to the board scheme of the main logic board to make use of the additional ram spaces. I've read of one instance where there was a Newton 2100 that had more than the "standard" amount of ram in a proto-type.
+It would be nice to reverse engineer or to have access to the board scheme of the main logic board to make use of the additional ram spaces. I've read of one instance where there was a Newton 2100 that had more than the "standard" amount of ram in a proto-type.

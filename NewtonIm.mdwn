@@ -1,29 +1,14 @@
-Date: Thu, 27 Nov 2003 14:48:20 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NewtonIm;
-  flags="";
-  author=ScottyTechnoir;
-  version=1;
-  lastmodified=1069962500;
-  created=1069962500;
-  author_id=24.192.34.170;
-  markup=2;
-  hits=876;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-!!Newton Instant Messaging
+## Newton Instant Messaging
 
 From: Chris Chapman <pan1k@earthlink.net>
 Date: Mon Oct 6, 2003  8:42:08  PM Canada/Eastern
-Subject: [NTLK] Getting AIM to work on a MP2x00
+Subject: [[NTLK]] Getting AIM to work on a MP2x00
 
 Here's my walk-thru as promised.
 
 Things You'll Need:
 
-- NewtonIM (http://www.allaboutjake.com/newton/NIM.pkg)
+- [[NewtonIM]] (http://www.allaboutjake.com/newton/NIM.pkg)
 - AIM Account (http://www.aim.com)
 - Jabber Client (http://www.jabber.org)
 
@@ -36,9 +21,9 @@ name and password. Login to the server and add the AIM transport agent
 Next,  add your AIM Buddies to the AIM transport and logout of the
 jabber server.
 
-Now install NewtonIM and tap on the icon and the jabber server account
+Now install [[NewtonIM]] and tap on the icon and the jabber server account
 info, (username, password and server name..) Resource doesn't seem to
 affect anything.. tap connect and away you go..
 
 
-'' thanks to Chris Chapman of LANUG for posting this explanantion to NewtonTalk ''
+_ thanks to Chris Chapman of LANUG for posting this explanantion to [[NewtonTalk]] _

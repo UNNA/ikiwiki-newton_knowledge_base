@@ -1,30 +1,15 @@
-Date: Sun, 9 Nov 2003 16:37:20 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NewtonBlog;
-  flags="";
-  author=ScottyTechnoir;
-  version=1;
-  lastmodified=1068413840;
-  created=1068413840;
-  author_id=24.192.34.170;
-  markup=2;
-  hits=192;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-nBlog is a Newton app written by Adam Tow for working with sites such as [ blogger | http://new.blogger.com/home.pyra ]. nBlog allows you to update your weblog from wherever you and your Newton might be. You man download Adam's nBlog, XML-RPC, and the totally kick-ass nHTML 2 all in one archive via  [ tow.com | http://www.tow.com/weblog/newton_web_apps.zip].
+nBlog is a Newton app written by Adam Tow for working with sites such as [ blogger | http://new.blogger.com/home.pyra ]. nBlog allows you to update your weblog from wherever you and your Newton might be. You man download Adam's nBlog, XML-RPC, and the totally kick-ass nHTML 2 all in one archive via  [ tow.com ](http://www.tow.com/weblog/newton_web_apps.zip).
 %%%
 Some users have reported problems publishing with nBlog, but whether this was a fault in the app or a broken feature on the Blogger site was up for debate. For completeness, here is an excerpt from the newtontalk list, quoting the clairvoyant Peter Cameron:
 
- ''My prefs for nBlog 1.0a9 are:'' %%%
+_My prefs for nBlog 1.0a9 are:_ %%%
 
-    ''Host: api.blogger.com'' %%%
-    ''Path: /api/RPC2'' %%%
-    ''Port: 80'' %%%
-    ''Blogger 1.0'' %%%
-    ''username: xxxx'' %%%
-    ''password: xxxx'' %%%
-    ''always publish is checked.''
+_Host: api.blogger.com_ %%%
+_Path: /api/RPC2_ %%%
+_Port: 80_ %%%
+_Blogger 1.0_ %%%
+_username: xxxx_ %%%
+_password: xxxx_ %%%
+_always publish is checked._
 %%%
-    ''I have found that nBlog will no longer work through my DSL connection. However, it works fine via dialup.''
+_I have found that nBlog will no longer work through my DSL connection. However, it works fine via dialup._

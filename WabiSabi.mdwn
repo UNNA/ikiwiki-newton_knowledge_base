@@ -1,18 +1,3 @@
-Date: Tue, 4 Apr 2006 09:42:48 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=WabiSabi;
-  flags="";
-  author=The%20PhpWiki%20programming%20team;
-  version=1;
-  lastmodified=1144158168;
-  created=1144158168;
-  author_id=The%20PhpWiki%20programming%20team;
-  markup=2;
-  hits=414;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 Since wabi-sabi represents a comprehensive Japanese world view or
 aesthetic system, it is difficult to explain precisely in western
 terms.  According to Leonard Koren, wabi-sabi is the most conspicuous
@@ -28,7 +13,7 @@ _"It is the beauty of things modest and humble._
 
 _"It is the beauty of things unconventional."_
 
-(quoted from "[WABI-SABI: FOR ARTISTS,DESIGNERS, POETS & PHILOSOPHERS | http://www.amazon.com/exec/obidos/tg/detail/-/1880656124/qid=1054098290/sr=1-1/ref=sr_1_1/104-9834820-5562358?v=glance&s=books]," 1994, Leonard Koren)
+(quoted from "<WABI-SABI: FOR ARTISTS,DESIGNERS, POETS & PHILOSOPHERS >(http://www.amazon.com/exec/obidos/tg/detail/-/1880656124/qid=1054098290/sr=1-1/ref=sr_1_1/104-9834820-5562358?v=glance&s=books)," 1994, Leonard Koren)
 
 The concepts of wabi-sabi correlate with the concepts of Zen Buddhism,
 as the first Japanese involved with wabi-sabi were tea masters,
@@ -57,8 +42,8 @@ _Material characteristics of wabi-sabi:_
 
 
 
-For more about wabi-sabi, see [http://c2.com/cgi/wiki?WabiSabi].
+For more about wabi-sabi, see <http://c2.com/cgi/wiki?WabiSabi>.
 
 ----
 
-PhpWikiDocumentation
+[[PhpWikiDocumentation]]

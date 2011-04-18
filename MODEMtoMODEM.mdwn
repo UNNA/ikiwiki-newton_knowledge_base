@@ -1,18 +1,3 @@
-Date: Mon, 3 Jan 2005 22:03:34 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MODEMtoMODEM;
-  flags="";
-  author=207.34.68.34;
-  version=1;
-  lastmodified=1104807814;
-  created=1104807814;
-  author_id=207.34.68.34;
-  markup=2;
-  hits=2449;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 _Alternative Newton Connection Method_
 
 Version 2
@@ -67,4 +52,4 @@ I had it set to the highest speed.  I also used "Alternate modem 2" on the newto
 
 I also had to have 2 copies of "slowdown" set to max slowness to be able to download big files.
 
-Once I got 'bootstrapped' I got a PCMCIA NE2K network card to work with NIE and was able to use FTP, etc.
+Once I got 'bootstrapped' I got a PCMCIA NE2K network card to work with NIE and was able to use FTP, etc.

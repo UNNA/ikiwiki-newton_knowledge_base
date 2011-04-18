@@ -1,22 +1,7 @@
-Date: Sun, 20 Nov 2005 15:52:44 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=USBtoSerialAdapter;
-  flags="";
-  author=AshBean;
-  version=1;
-  lastmodified=1132519964;
-  created=1132519964;
-  author_id=198.6.33.32;
-  markup=2;
-  hits=1752;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+This problem applies mainly to people using Apple computers. I'm one of them. You can buy various USB to Serial Adapters, but there are only few models that actually work under [[MacOS]] X 10.2 and higher, includes 10.3 .
 
-This problem applies mainly to people using Apple computers. I'm one of them. You can buy various USB to Serial Adapters, but there are only few models that actually work under MacOS X 10.2 and higher, includes 10.3 .
-
-# [Keyspan USB Twin Serial Adapter|http://keyspan.com/products/usb/USA28x/]. Works great with Mac OS 9 and X. List price is high (US $79) but much better prices can be found on eBay.
-# [IOGear USB to Serial/PDA Converter Cable|http://iogear.com/products/product.php?Item=GUC232A] - you will need PC serial to Mac serial adapter for one these. If happens that you live in the U.S.A or Canada and Best Buy neat you can get it there for $29.95 . Drivers are on their website.
-# [BAFO BF-810 USB to Serial DB9|http://www.bafo.com/pro01.asp?idno=81]. You'll need a DB-9F to mini DIN-8M null-modem adaptor to make this work, but work it does. Drivers for OS X 10.3.4 on the [BAFO driver page|http://www.bafo.com/bafo/prodrivers.asp]. The driver package contains a bunch of files, but just install all of them and it seems to work.  Serial port shows up as a /dev/tty.<name> device. I got mine at Fry's Electronics in Campbell, CA for $19.95. (contributed by MVH/2004-08-10)
-# [Sewell USB to Serial Adapter|http://SewellDirect.com/USBtoSerial.asp]. The Sewell USB to Serial Adapter now works with Mac OS X 10.2 and higher. The latest chipset, a Prolific chipset, supports the latest Macs and is included with the adapter. The adapter is $17.95 and I got mine up and working on my new PowerBook in about ten minutes.
-# [NewtSplit|http://homepage.mac.com/adriano.angelillis/PhotoAlbum5.html] was designed by AdrianoAngelillis to connect Newtons to Windows, Mac OS X, Mac OS and Linux. It consists of a 8pin minidin-to DB9 adapter with USB port and a high speed USB-to-Serial converter.
+# [Keyspan USB Twin Serial Adapter](http://keyspan.com/products/usb/USA28x/). Works great with Mac OS 9 and X. List price is high (US $79) but much better prices can be found on eBay.
+# [IOGear USB to Serial/PDA Converter Cable](http://iogear.com/products/product.php?Item=GUC232A) - you will need PC serial to Mac serial adapter for one these. If happens that you live in the U.S.A or Canada and Best Buy neat you can get it there for $29.95 . Drivers are on their website.
+# [BAFO BF-810 USB to Serial DB9|http://www.bafo.com/pro01.asp?idno=81]. You'll need a DB-9F to mini DIN-8M null-modem adaptor to make this work, but work it does. Drivers for OS X 10.3.4 on the [BAFO driver page](http://www.bafo.com/bafo/prodrivers.asp). The driver package contains a bunch of files, but just install all of them and it seems to work.  Serial port shows up as a /dev/tty.<name> device. I got mine at Fry's Electronics in Campbell, CA for $19.95. (contributed by MVH/2004-08-10)
+# [Sewell USB to Serial Adapter](http://[[SewellDirect]].com/USBtoSerial.asp]. The Sewell USB to Serial Adapter now works with Mac OS X 10.2 and higher. The latest chipset, a Prolific chipset, supports the latest Macs and is included with the adapter. The adapter is $17.95 and I got mine up and working on my new [[PowerBook]) in about ten minutes.
+# [NewtSplit](http://homepage.mac.com/adriano.angelillis/PhotoAlbum5.html] was designed by [[AdrianoAngelillis]) to connect Newtons to Windows, Mac OS X, Mac OS and Linux. It consists of a 8pin minidin-to DB9 adapter with USB port and a high speed USB-to-Serial converter.

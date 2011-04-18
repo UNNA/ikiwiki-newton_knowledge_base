@@ -1,23 +1,7 @@
-Date: Thu, 2 Feb 2006 15:49:57 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MobileWand;
-  flags="";
-  author=VictorRehorst;
-  version=1;
-  lastmodified=1138913397;
-  created=1138913397;
-  author_id=204.225.173.9;
-  markup=2;
-  summary=fixed%20link%20to%20InPath2%20package;
-  hits=495;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HardWare : MobileWand%%%
+[[HomePage]] : [[HardWare]] : [[MobileWand]]%%%
 ----
 
-!!! MobileWand 400 Bar Code Scanner by InPath Devices, Inc.
+###  [[MobileWand]] 400 Bar Code Scanner by [[InPath]] Devices, Inc.
 
 This interesting peripheral for the Newton has attracted some interest recently and so this page aims to expose what we know about it.
 
@@ -26,17 +10,17 @@ I bought one purely on a whim but subsequently found it very handy for recording
 The wand is very neat and compact and is supplied with 72cm (28 inches) of cable. It plugs directly into the Newton serial port and gets its power from there. No other hardware is required.
 A green LED near the tip indicates good scans (one flash) and various other conditions (multiple flashes).
 
-[http://www.inventors-emporium.co.uk/images/MW400-MP2K-manual.jpg] (41k)
+<http://www.inventors-emporium.co.uk/images/MW400-MP2K-manual.jpg> (41k)
 %%%
 
 No mention is made in the wand’s manual as to the Newton models supported, but as our only driver is supplied by Victor Rehorst (see below) it means that any Newton running NOS 2.0 or later should be fine.
 
-I have used it successfully with the MessagePad 2000/2100, 130 and eMate.
+I have used it successfully with the [[MessagePad]] 2000/2100, 130 and eMate.
 %%%
 
 %%%
 
-!!! Installation and operation
+###  Installation and operation
 ----
 First download Victor’s InPath2 package: http://www.chuma.org/index.php/newton/inpath/
 
@@ -46,10 +30,10 @@ Turn the Newton off, plug in the wand then wake it again.
 
 Tap the InPath2 icon and you will see this:
 
-[http://www.inventors-emporium.co.uk/images/inpath2ss.gif]
+<http://www.inventors-emporium.co.uk/images/inpath2ss.gif>
 %%%
 
-Tap a checkbox to insert either a tab or a return character after the code. A tab will help you to advance through the fields of a database and a return makes it easy to create a list of codes in the NotePad or other text application.
+Tap a checkbox to insert either a tab or a return character after the code. A tab will help you to advance through the fields of a database and a return makes it easy to create a list of codes in the [[NotePad]] or other text application.
 
 Tap the connect button and you should observe a faint red light at the tip of the wand which indicates it’s powered up and ready to scan.
 
@@ -57,7 +41,7 @@ Open the Notepad, tap to place the caret and you are ready to scan.
 
 (You can minimise InPath2 while you scan by tapping the star button.)
 
-Holding the wand at 30 degrees from the vertical and with the LED facing you, draw the tip across the barcode with an even, brisk stroke. The green LED should flash once to confirm the barcode was successfully read and the code should then immediately appear in the NotePad.
+Holding the wand at 30 degrees from the vertical and with the LED facing you, draw the tip across the barcode with an even, brisk stroke. The green LED should flash once to confirm the barcode was successfully read and the code should then immediately appear in the [[NotePad]].
 
 Barcodes can be read in either direction.
 
@@ -69,7 +53,7 @@ Note that this type of wand has a very shallow depth of field - only barcodes th
 
 %%%
 
-!!! Configuration
+###  Configuration
 ----
 The wand can be further configured by scanning barcodes in the manual but I suspect that, given the small fragments of data being transferred and the benefit of keeping the wand as versatile as possible, the default settings are probably the right ones. More investigation is required.
 
@@ -79,11 +63,11 @@ http://www.inventors-emporium.co.uk/files/mw400-users-manual.pdf
 
 The barcodes will scan successfully if you print out the pages.
 
-Thanks go to InPath Devices for their permission to reproduce the manual in this form and you can see what they are producing now at: http://www.inpath.com/
+Thanks go to [[InPath]] Devices for their permission to reproduce the manual in this form and you can see what they are producing now at: http://www.inpath.com/
 
 Please add your experiences and knowledge to this page.
 
 Joel M. Sciamma
 http://www.inventors-emporium.co.uk/
 ----
-HomePage : HardWare : MobileWand%%%
+[[HomePage]] : [[HardWare]] : [[MobileWand]]%%%

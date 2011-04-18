@@ -1,65 +1,50 @@
-Date: Sun, 12 Jun 2005 03:38:21 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MakeNewtonEbooks;
-  flags="";
-  author=203.220.116.116;
-  version=1;
-  lastmodified=1118561901;
-  created=1118561901;
-  author_id=203.220.116.116;
-  markup=2;
-  hits=1958;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : MakeNewtonEbooksIndex : MakeNewtonEbooks%%%
+[[HomePage]] : [[HowTo]] : [[MakeNewtonEbooksIndex]] : [[MakeNewtonEbooks]]%%%
 ----
 
 So you're a Newton user with some curious ideas on what you'd like to read. And now you want to make you own Newton ebooks - excellent! This page is here to help you!
 
-There are four programs you can use to make books for the Newton. NewtonPress and NewtonBookMaker both make books that are readable with the built-in NewtonBookReader, while PaperBack uses its own format. The fourth option is NewtsCape, the excellent Newton web browser. NewtsCape can convert HTML pages created on the Newton of found on the web directly into Newton eBooks (see description of process below).
+There are four programs you can use to make books for the Newton. [[NewtonPress]] and [[NewtonBookMaker]] both make books that are readable with the built-in [[NewtonBookReader]], while [[PaperBack]] uses its own format. The fourth option is [[NewtsCape]], the excellent Newton web browser. [[NewtsCape]] can convert HTML pages created on the Newton of found on the web directly into Newton eBooks (see description of process below).
 
 Depending on what your goals for the book are, you will choose one of these applications. Read the pages for descriptions of each of the book creation programs to learn more about them.
 
-Both NewtonPress and NewtonBookMaker read formatted word processor files and have very little formatting capability of their own. Both can make a Table of Contents for your book and produce books that can take advantage of the NewtonBookReader features, such as annotations and bookmarking. NewtonBookMaker also allows you to include NewtonScript in your book, for an interactive book. PaperBack allows you to change the font face and size on your Newton, and re-paginates on the fly. The PaperBack reader is not built in to the Newton; either the PaperBack format book must include the reader in the book package, or another PaperBack book on your Newton must have the reader included.
+Both [[NewtonPress]] and [[NewtonBookMaker]] read formatted word processor files and have very little formatting capability of their own. Both can make a Table of Contents for your book and produce books that can take advantage of the [[NewtonBookReader]] features, such as annotations and bookmarking. [[NewtonBookMaker]] also allows you to include [[NewtonScript]] in your book, for an interactive book. [[PaperBack]] allows you to change the font face and size on your Newton, and re-paginates on the fly. The [[PaperBack]] reader is not built in to the Newton; either the [[PaperBack]] format book must include the reader in the book package, or another [[PaperBack]] book on your Newton must have the reader included.
 
-NewtonPress is probably the easiest for first time users.
-
-----
-
-!!Newton Bookmaking 101
-
-Check out Digital Dan's excellent [tutorial|http://www.unna.org/view.php?/windows/NewtonBookmaking101], freely available from UNNA.
-
-Dan shows you how to super-speedily remove hard linebreaks, how to make a book with Press and how to make books with BookMaker and NewtonToolKit (NTK), which again will be faster than Press, once you got the knack of it. He tells you all about doing tables of content, including images and especially the exciting secret of how multi-format Newton eBooks can be created (only 100b additional size per format). Thanks, Dan!
+[[NewtonPress]] is probably the easiest for first time users.
 
 ----
 
-!!Project Gutenberg etexts to Newton: Fixing the line-breaks Woody-Style
+## Newton Bookmaking 101
+
+Check out Digital Dan's excellent [tutorial](http://www.unna.org/view.php?/windows/NewtonBookmaking101), freely available from UNNA.
+
+Dan shows you how to super-speedily remove hard linebreaks, how to make a book with Press and how to make books with [[BookMaker]] and [[NewtonToolKit]] (NTK), which again will be faster than Press, once you got the knack of it. He tells you all about doing tables of content, including images and especially the exciting secret of how multi-format Newton eBooks can be created (only 100b additional size per format). Thanks, Dan!
+
+----
+
+## Project Gutenberg etexts to Newton: Fixing the line-breaks Woody-Style
 
 "For Project Gutenberg books I use the "find and replace" & "replace all" features most word processors have.
 
 Most true paragraph changes have double carriage returns(CR) and the line breaks have one, so I replace all double CRs with zzzzz.  I then replace all single CRs with a space.  Now replace all zzzzz with a double CR and you should be close to ready for newton press.
 
-For many books I find it also helpful to use the spell check before going to Newton Press.  I do my final editing as I create the Table of contents because the page advance in NP is slow enough to allow scanning for weird characters or unusual line breaks." ([Woody Smith|http://marc.theaimsgroup.com/?l=newtontalk&m=108100251522814&w=2])
+For many books I find it also helpful to use the spell check before going to Newton Press.  I do my final editing as I create the Table of contents because the page advance in NP is slow enough to allow scanning for weird characters or unusual line breaks." ([Woody Smith](http://marc.theaimsgroup.com/?l=newtontalk&m=108100251522814&w=2))
 
 ----
 
-!!DJ Vollkasko's Quick Primer to Bookmaking with Apple's [Newton Press|http://www.unna.org/view.php?/apple/software/NewtonPress]
+## DJ Vollkasko's Quick Primer to Bookmaking with Apple's [Newton Press](http://www.unna.org/view.php?/apple/software/NewtonPress)
 
-# Get raw text from [somewhere|http://tools.unna.org/wikiwikinewt/index.php/EtextSources].
+# Get raw text from [somewhere](http://tools.unna.org/wikiwikinewt/index.php/EtextSources).
 # Preprocess text in text editor, save as .rtf; steps here typically include fixing breaks (for ALL Gutenberg-texts, I do this Woody-style, see above), I enter page breaks before new chapters start and give the chapter titles some formatting (centered + bold). Then I save the whole file and...
 # Upload into Newton Press (File/Add).  The nice thing doing it this way is that you can format and edit texts faster in a text editor, and Newton Press will convert many of the formatted things into its own format when it imports that Rich Text-file.
 # Add new chapter headers, edit document title.
 # Save .np!-file, you might need it at some later time again (e.g. to fix problems if your book doesn't work...)
 # Create Newton ebook. Note that in Preferences you can choose many formats (sizes) for all Newton Platforms. It is nice to make several formats of one book so readers can pick their favorite one... (MP2000 Portrait, Emate Landscape and Classic are probably the three most important formats).
-# Upload Newton book to [UNNA|http://www.unna.org/unnasearch/submit.php] and announce the new book at [NTLK|http://www.newtontalk.net]. Also you may want to mail it to me (DJ_Vollkasko*@*gmx.net - remove the *'s) for uploading it to the [Temporary Newton Library|http://www.matthewreidsma.com/~ebooks] (UNNA submissions take AGES to get published...).
+# Upload Newton book to [UNNA|http://www.unna.org/unnasearch/submit.php] and announce the new book at [NTLK|http://www.newtontalk.net]. Also you may want to mail it to me (DJ_Vollkasko*@*gmx.net - remove the *'s) for uploading it to the [Temporary Newton Library](http://www.matthewreidsma.com/~ebooks) (UNNA submissions take AGES to get published...).
 
 -- DJ Vollkasko, 2005
 ----
 
-!! Ron Parker's Tips for Avoiding Crashes in Newton Press
+##  Ron Parker's Tips for Avoiding Crashes in Newton Press
 
 I almost can't believe it! I think I've found a predictable pattern for when (and how) Newton Press crashes while pasting a graphic into the source. That also means (drum roll please): I've found a fail-proof solution for avoiding it.
 
@@ -69,30 +54,30 @@ I'm using a Power Mac G4/500AGP running OS X 10.2.8 with Newton Press running un
 With the tips below, I have been able to completely avoid any crashing all together under OS X while using Newton Press.
 
 Here's the first secret: %%%
-Newton Press crashes (consistently, but randomly) when pasting a picture into the source, ''__if you are NOT at the END OF LINE__'' for that page when you paste the graphic. It has something to do with Newton Press getting confused when trying to figure out how to page break, at that exact moment, when you paste.
+Newton Press crashes (consistently, but randomly) when pasting a picture into the source, ___if you are NOT at the END OF LINE___ for that page when you paste the graphic. It has something to do with Newton Press getting confused when trying to figure out how to page break, at that exact moment, when you paste.
 
 There is an exception: %%%
-If there is no text on the page, technically, you are at the ''first line'' and the ''last line'' and it will also randomly crash.
+If there is no text on the page, technically, you are at the _first line'' and the ''last line_ and it will also randomly crash.
 
 The solution to avoid crashing:
-* ''__DO NOT paste__'' the graphic ''__into the top__'' or ''__into the middle__'' of any page.
-* ''__ONLY paste__'' when the cursor is __at the very end, of the very last line__, on a page.
+* ___DO NOT paste__'' the graphic ''__into the top__'' or ''__into the middle___ of any page.
+* ___ONLY paste___ when the cursor is __at the very end, of the very last line__, on a page.
 * If you wish to paste a graphic into a blank page, add a carriage return (at the top of the page first) before you paste. Again, make sure that you’re pasting at the end of line and not the top of the page.
-* Another example:  Insert a Page Break at the point where you’re going to paste the graphic and then click back one page. __Note:__ The insertion cursor will default to the beginning of the first line at the top of the page. DO NOT PASTE! First, click the mouse onto the last blank line, below all the text, at bottom of the page. Your insertion cursor should now be at the ''END OF LINE'' on that page. Now paste your graphic.
+* Another example:  Insert a Page Break at the point where you’re going to paste the graphic and then click back one page. __Note:__ The insertion cursor will default to the beginning of the first line at the top of the page. DO NOT PASTE! First, click the mouse onto the last blank line, below all the text, at bottom of the page. Your insertion cursor should now be at the _END OF LINE_ on that page. Now paste your graphic.
 
 Take a look the following screenshot here, it shows where to click the cursor, prior to pasting: %%%
-[Click Here To Zoom|http://www.flickr.com/photos/raparker/13884828/] %%%
-[http://photos10.flickr.com/13884828_92a3cc0023_m.jpg] %%%
+[Click Here To Zoom](http://www.flickr.com/photos/raparker/13884828/) %%%
+<http://photos10.flickr.com/13884828_92a3cc0023_m.jpg> %%%
 
 
-My experience has also shown that when Newton Press does crash, it sometimes allows you to Cancel and/or Save. Saving is not recommended; saving after a crash has corrupted a few of my graphics. If it crashes: ''__Don't Save.__'' Simply re-examine "where" you pasted the graphic, review the instructions above, and then make sure that you paste at the very end of line for that page where you are inserting the graphic.
+My experience has also shown that when Newton Press does crash, it sometimes allows you to Cancel and/or Save. Saving is not recommended; saving after a crash has corrupted a few of my graphics. If it crashes: ___Don't Save.___ Simply re-examine "where" you pasted the graphic, review the instructions above, and then make sure that you paste at the very end of line for that page where you are inserting the graphic.
 
 Yet another type of random crash:%%%
 I’ve also experience another type of crash that is related to line breaks (and page breaks) around an area with styled text (bold, italic, etc.). Sometimes Newton Press will incorrectly break a line (between words in the middle of a paragraph) and then create (what appears) to be an extra carriage return. This is not really a carriage return and you should be careful when trying to fix it. If there is any styled text (bold, italic, etc.) on the next couple of pages, this funky line break will create unpredictable results including crashes, if you try to delete it directly.
 
 Take a look at this series of pictures for an example of what I referring to: %%%
- http://www.flickr.com/photos/raparker/13884829/  %%%
- http://www.flickr.com/photos/raparker/13884830/  %%%
+http://www.flickr.com/photos/raparker/13884829/  %%%
+http://www.flickr.com/photos/raparker/13884830/  %%%
 
 The solution for this type of instability:
 * The first (and most important) step is to reset any styled text that follows (on the current page and probably the next couple of pages) to Plain Text; you will be able to fix these later. Do this by dragging over the entire page and press Command-T.
@@ -108,13 +93,13 @@ Other helpful tips:
 * Try to do most of your graphic conversions in Graphic Converter first, before pasting them. Don’t paste any color images or incorrect bit types where they don’t belong. Although Newton Press will convert the images, this is asking for trouble.
 
 
-RonParker, 2005
+[[RonParker]], 2005
 ----
-!!Ron Parker's Tips for Converting Large PDF's to Newton Press:
+## Ron Parker's Tips for Converting Large PDF's to Newton Press:
 
 PDF’s are easy to transform into Newton eBooks. Most PDF documents contain a combination of selectable text and scalable graphics. Both elements are easily dealt with using the right tools.
 
-# Use Adobe Acrobat and the text selection tool to "Select All" and "Copy" the text (only the text) and then "Paste" it into a new word processing document in AppleWorks or Microsoft Word. This will be your master text document.
+# Use Adobe Acrobat and the text selection tool to "Select All" and "Copy" the text (only the text) and then "Paste" it into a new word processing document in [[AppleWorks]] or Microsoft Word. This will be your master text document.
 
 # Edit and modify the formatting within the master text document, using place holders for where you want graphics to be placed later. Do not place the graphics in this document, they will not import and will have to be pasted later.
 
@@ -144,52 +129,52 @@ PDF’s are easy to transform into Newton eBooks. Most PDF documents contain a com
 # You can start pasting your graphics. Although using "File" "Add..." will work, it will only add your graphics to the very end of your eBook and not inline (within) the source.
 
 
--- RonParker, 2005
+-- [[RonParker]], 2005
 
 
 ----
 
 
-!!Create Newton ebooks __on the Newton__ with NewtsCape
+## Create Newton ebooks __on the Newton__ with [[NewtsCape]]
 
 
-"Subject:    Playing Around with Book-Making Function in NewtsCape
+"Subject:    Playing Around with Book-Making Function in [[NewtsCape]]
 
 From:       mkow1234 () aol ! com
 
 Date:       2005-04-21 12:53:03
 
-(...) One of the things I started looking at was the book-making function within NewtsCape. I remember reading that one could theoretically create small eBooks with Newtscape. "Okay", I thought, "seems simple enough."
+(...) One of the things I started looking at was the book-making function within [[NewtsCape]]. I remember reading that one could theoretically create small eBooks with Newtscape. "Okay", I thought, "seems simple enough."
 
 First, I needed to write something in an editing program -- one that would allow the document to be saved as HTML so it could be imported into Newtscape for the book-making conversion process. Surprisingly, 'Works' did not have a command to save the output as HTML! Rather strange we both thought, as 'Works' seems to be the 'MS Word' of the Newton, as opposed to the 'Notepad' of 'Notes' (e.g. I'm comparing a heavy-duty editing program to a basic text file application). Thankfully, 'Notes' allows for saving documents as HTML. Kule!
 
-I started writing out a simple 'Read Me' file for the 'VideoPhone' application and saved the output as HTML. Then, I tried to open 'NewtsCape'.  Oops!  Have to close 'Notes' first, open 'NewtsCape', and then re-open 'Notes'. No problemo.
+I started writing out a simple 'Read Me' file for the '[[VideoPhone]]' application and saved the output as HTML. Then, I tried to open '[[NewtsCape]]'.  Oops!  Have to close 'Notes' first, open '[[NewtsCape]]', and then re-open 'Notes'. No problemo.
 
-It took me a few minutes to stumble around and figure out how to open the 'Notes' HTML file through 'NewtsCape'. Still not sure exactly how THAT works. Once I got to that point, I chose the 'Create package' option in 'NewtsCape'. Took a moment or two of crunching to produce a simple eBook in my unfiled icons folder. It was labeled as 'Untitled', but I'm sure that could be remedied with a bit of foresight and practice.
+It took me a few minutes to stumble around and figure out how to open the 'Notes' HTML file through '[[NewtsCape]]'. Still not sure exactly how THAT works. Once I got to that point, I chose the 'Create package' option in '[[NewtsCape]]'. Took a moment or two of crunching to produce a simple eBook in my unfiled icons folder. It was labeled as 'Untitled', but I'm sure that could be remedied with a bit of foresight and practice.
 
 My initial eBook creation had all of the text running together. Doh! I dimly recall learning very simple HTML code many years ago, but my reference book is on loan still. No problemo. Stuck in a few paragraph breaks <P> and everything came out looking much better! Nice. Now, I almost know enough to be dangerous...
 
-What's the point? (...) Folks who have Internet access on their Newtons could theoretically create Newton eBooks from HTML source code. I say theoretically, because I'm not sure how 'NewtsCape' would handle scrolling web pages. Perhaps a page break  or something has to be inserted every thirty lines of code or so? Not sure yet. But, this technique seems promising, from what I can see. A Newton user in Portugal, or France, or Russia, or wherever, could take a source file from the Internet (try to obey copyright laws, but I'm not to run screaming if you decide to copy Hemingway or Steinbeck to Newton eBook format) and create an eBook, no muss, no fuss!
+What's the point? (...) Folks who have Internet access on their Newtons could theoretically create Newton eBooks from HTML source code. I say theoretically, because I'm not sure how '[[NewtsCape]]' would handle scrolling web pages. Perhaps a page break  or something has to be inserted every thirty lines of code or so? Not sure yet. But, this technique seems promising, from what I can see. A Newton user in Portugal, or France, or Russia, or wherever, could take a source file from the Internet (try to obey copyright laws, but I'm not to run screaming if you decide to copy Hemingway or Steinbeck to Newton eBook format) and create an eBook, no muss, no fuss!
 
 The coolest thing is that the entire eBook production process takes place entirely on the Newton. (...)
 
-So... If you're stuck on a long airplane flight, train trip, stranded in the doctor's waiting room, the DMV, or you're waiting for your wife to try on 'just one more pair of shoes', put your time to good use. Give the Newtscape / Notes eBook conversion process a try." (Source: [Matt K.|http://marc.10east.com/?l=newtontalk&m=111408811009959&w=2])
+So... If you're stuck on a long airplane flight, train trip, stranded in the doctor's waiting room, the DMV, or you're waiting for your wife to try on 'just one more pair of shoes', put your time to good use. Give the Newtscape / Notes eBook conversion process a try." (Source: [Matt K.](http://marc.10east.com/?l=newtontalk&m=111408811009959&w=2))
 
-*Q: How can NewtsCape create a table of contents?
-*Q: How is NewtsCape dealing with pictures on a webpage (e.g. illustrations in HTML-formatted ProjectGutenberg-eBook...)
+*Q: How can [[NewtsCape]] create a table of contents?
+*Q: How is [[NewtsCape]] dealing with pictures on a webpage (e.g. illustrations in HTML-formatted [[ProjectGutenberg]]-eBook...)
 
 ----
-!Sizes for images in MP2k Portrait format
+# Sizes for images in MP2k Portrait format
 
 *Width max. 290 pix at 38 pix/cm
 *Height max. 385 pix
 *Heigth with 2 lines 12 pt text: 350 pix at 38 pix/cm
 
 ----
-!See also:
+# See also:
 
-*__How to [MakeAsianNewtonEbooks]__%%%
-*__NewtsCape__%%%
+*__How to [[MakeAsianNewtonEbooks]]__%%%
+*__[[NewtsCape]]__%%%
 
 ----
-HomePage : HowTo : MakeNewtonEbooksIndex : MakeNewtonEbooks%%%
+[[HomePage]] : [[HowTo]] : [[MakeNewtonEbooksIndex]] : [[MakeNewtonEbooks]]%%%

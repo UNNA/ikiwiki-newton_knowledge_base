@@ -1,16 +1,1 @@
-Date: Fri, 31 Jan 2003 19:53:49 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=WebClipping;
-  flags="";
-  author=AndyBeals;
-  version=1;
-  lastmodified=1044060829;
-  created=1044060829;
-  author_id=128.107.253.39;
-  markup=2;
-  hits=345;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-A WebClipping application gathers data from various parts of the web for later perusal.  AvantGo is one well-known version of this for PDAs, but the capability has been in browsers such as [InternetExploder | http://www.microsoft.com/windows/ie/default.asp] for quite some time now.  IE calls this "Off-line Browsing".
+A [[WebClipping]] application gathers data from various parts of the web for later perusal.  [[AvantGo]] is one well-known version of this for PDAs, but the capability has been in browsers such as [InternetExploder ](http://www.microsoft.com/windows/ie/default.asp) for quite some time now.  IE calls this "Off-line Browsing".

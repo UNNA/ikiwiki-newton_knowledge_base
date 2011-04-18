@@ -1,19 +1,4 @@
-Date: Mon, 4 Apr 2005 15:53:40 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=BatteryBooster;
-  flags="";
-  author=84.178.142.234;
-  version=1;
-  lastmodified=1112644420;
-  created=1112644420;
-  author_id=84.178.142.234;
-  markup=2;
-  hits=991;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HardWare : BatteryPacks : BatteryBooster
+[[HomePage]] : [[HardWare]] : [[BatteryPacks]] : [[BatteryBooster]]
 ----
 
 The Battery Booster Pack is basically a battery cage for the Newton that is always outside.  It was made by Apple for the MP1x0 series, holds 8aa batteries and are hard to find anymore.  The idea is if you are running low on power, you plug this into your Newton's power port and run for many hours that way.  If you are using alkaline batteries it would work fine.  I don't know how well it would work if you have a rechargeable pack in the Newton as I would think it will try to charge the pack.  So I would recommend pulling the pack inside the Newton before you plug in the battery booster pack.  Since the voltage is the same with a MP200 as MP1x0 it should work, however I would make sure the rechargeable battery was removed before plugging it in.  Just to be safe.
@@ -21,14 +6,14 @@ The Battery Booster Pack is basically a battery cage for the Newton that is alwa
 (By ???)
 ----
 
-!!!Apple Newton Battery Booster Pack
+### Apple Newton Battery Booster Pack
 
-!! __Safety__
+##  __Safety__
 
 * Please follow these safety instructions to prevent hazards and to avoid damaging the Booster Pack or Newton:
 ** Use only AA batteries in the Booster Pack.
 ** Don't mix new and old batteries.
-** Don't mix different types of batteries in the Booster Pack. Use eight alkaline batteries, eight carbon batteries, or eight NiCad batteries.
+** Don't mix different types of batteries in the Booster Pack. Use eight alkaline batteries, eight carbon batteries, or eight [[NiCad]] batteries.
 ** Install the batteries so that the +/- polarity matches what is shown on the Booster Pack case.
 ** Keep the Booster Pack dry.
 
@@ -37,7 +22,7 @@ The Battery Booster Pack is basically a battery cage for the Newton that is alwa
 ** Don't use the Booster Pack while there's a Rechargeable Battery Pack inside Newton. The Rechargeable Battery Pack shortens the life of the Booster Pack batteries.
 
 * How do I know when to change the Booster Pack batteries?
-**The battery gauge (inside the [Extras] Drawer) tells you the status of the batteries. When the batteries need to be replaced, you see a warning message on the Newton's screen. If you have batteries installed inside Newton while you're using the Booster Pack, the gauge reports the status of both the Booster Pack batteries and Newton's own batteries. When you see the warning messing, you must charge all eight Booster Pack batteries and all four of Newton's own batteries.
+**The battery gauge (inside the [[Extras]] Drawer) tells you the status of the batteries. When the batteries need to be replaced, you see a warning message on the Newton's screen. If you have batteries installed inside Newton while you're using the Booster Pack, the gauge reports the status of both the Booster Pack batteries and Newton's own batteries. When you see the warning messing, you must charge all eight Booster Pack batteries and all four of Newton's own batteries.
 
 Apple Computer, Inc.
 
@@ -55,4 +40,4 @@ ZM030-4351-A
 
 (From the original manual by DJ Vollkasko.)
 ----
-HomePage : HardWare : BatteryPacks : BatteryBooster
+[[HomePage]] : [[HardWare]] : [[BatteryPacks]] : [[BatteryBooster]]

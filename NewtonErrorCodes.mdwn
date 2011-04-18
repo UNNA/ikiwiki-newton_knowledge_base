@@ -1,22 +1,6 @@
-Date: Tue, 22 Feb 2005 16:49:54 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NewtonErrorCodes;
-  flags="";
-  author=81.155.66.14;
-  version=1;
-  lastmodified=1109108994;
-  created=1109108994;
-  author_id=81.155.66.14;
-  markup=2;
-  summary=Addition%20of%20the%20error%20code%20page%20v1.0%20-%20Joel.;
-  hits=2243;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+###  Newton OS System Errors
 
-!!! Newton OS System Errors
-
-!! (From the Newton Programmers Guide 2.0)
+##  (From the Newton Programmers Guide 2.0)
 
 This section lists the different kinds of Newton system software errors.
 
@@ -180,7 +164,7 @@ __Package Errors__
 
 ----
 
-!! __Newton Hardware Errors__
+##  __Newton Hardware Errors__
 
 This section lists the different kinds of Newton hardware errors.
 
@@ -281,11 +265,11 @@ __Heap Errors__
 
 ----
 
-!! __Communications Errors__
+##  __Communications Errors__
 
 This section lists the different kinds of Newton communications errors.
 
-__Generic AppleTalk Errors__
+__Generic [[AppleTalk]] Errors__
 
 –12001 = Buffer too small or corrupted%%%
 –12002 = Event is pending%%%
@@ -293,14 +277,14 @@ __Generic AppleTalk Errors__
 –12004 = Attempt to cancel failed%%%
 –12005 = No handler for cancel%%%
 –12006 = Unknown message receiver%%%
-–12007 = Cannot create AppleTalk port%%%
-–12008 = Cannot create AppleTalk task%%%
+–12007 = Cannot create [[AppleTalk]] port%%%
+–12008 = Cannot create [[AppleTalk]] task%%%
 –12009 = Not implemented%%%
 –12010 = Data length error%%%
 –12011 = No such subject available to open%%%
 –12012 = Not opened%%%
-–12013 = AppleTalk is not open%%%
-–12014 = AppleTalk is already open%%%
+–12013 = [[AppleTalk]] is not open%%%
+–12014 = [[AppleTalk]] is already open%%%
 –12015 = Duration is too small%%%
 –12016 = Duration is too large
 
@@ -606,7 +590,7 @@ __Docker Desktop DIL Errors__
 
 ----
 
-!! __System Services Errors__%%%
+##  __System Services Errors__%%%
 This section lists the different kinds of Newton system services errors.
 
 __Sound Errors__
@@ -724,9 +708,9 @@ __Newton Connection Errors__
 
 ----
 
-!! __NewtonScript Environment Errors__
+##  __[[NewtonScript]] Environment Errors__
 
-This section lists the different kinds of NewtonScript error codes.
+This section lists the different kinds of [[NewtonScript]] error codes.
 
 __Store and Soup Errors__
 
@@ -745,7 +729,7 @@ These errors are related to stores and soups.%%%
 –48012 = Soup index has an unknown key structure%%%
 –48013 = Soup index does not exist%%%
 –48014 = A soup with this name already exists%%%
-–48015 = Tried to CopyEntries to a union soup%%%
+–48015 = Tried to [[CopyEntries]] to a union soup%%%
 –48016 = Soup is invalid (probably from a removed store)%%%
 –48017 = Soup is invalid (probably from a removed store)%%%
 –48018 = Entry is invalid (probably from a removed store)%%%
@@ -753,7 +737,7 @@ These errors are related to stores and soups.%%%
 –48020 = Store is in ROM%%%
 –48021 = Soup already has an index with this path%%%
 –48022 = Internal error–something unexpected happened%%%
-–48023 = Tried to call RemoveIndex on the _uniqueID index%%%
+–48023 = Tried to call [[RemoveIndex]] on the _uniqueID index%%%
 –48024 = Query type missing or unknown%%%
 –48025 = Discovered index inconsistency%%%
 –48026 = Maximum number of soup tags reached%%%
@@ -893,7 +877,7 @@ __Communications Endpoint Errors__
 
 ----
 
-!! __Device Driver Errors__
+##  __Device Driver Errors__
 
 This section lists the device driver error codes.%%%
 
@@ -918,7 +902,7 @@ __Battery Driver Errors__
 
 ----
 
-!! __Other Services Errors__
+##  __Other Services Errors__
 
 This section lists the error codes for other services.%%%
 

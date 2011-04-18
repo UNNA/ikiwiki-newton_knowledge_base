@@ -1,22 +1,7 @@
-Date: Thu, 1 Jul 2004 07:53:04 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=SoftwarePaleontology;
-  flags="";
-  author=DjVollkasko;
-  version=1;
-  lastmodified=1088682784;
-  created=1088682784;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=416;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-__Software Paleontology__ - the sick urge to obtain and execute outdated code ("software") on obsolete platforms. Term also expresses a certain closeness to the [Dead Media Project|http://www.deadmedia.org] (formerly maintained by SF-author [Bruce Sterling |http://www.well.com/conf/mirrorshades/]).
+__Software Paleontology__ - the sick urge to obtain and execute outdated code ("software") on obsolete platforms. Term also expresses a certain closeness to the [Dead Media Project|http://www.deadmedia.org] (formerly maintained by SF-author [Bruce Sterling ](http://www.well.com/conf/mirrorshades/)).
 
 Software paleontologists are especially interested in obtaining original softwares in the boxes they were commercially distributed with, complete with manuals, registration cards, serial numbers and electronic media (floppy disks, tapes, cartridges, Compact Discs, Laser Discs, DVDs...). They usually are quite nerdy, pathetic lost souls with greyish skin and poorly maintained haircuts, but would in most cases describe themselves rather as "the Indiana Jones of Computing, dude!"
 
 %%%
 ----
-HomePage : SoftwareReviews : SoftwarePaleontology
+[[HomePage]] : [[SoftwareReviews]] : [[SoftwarePaleontology]]

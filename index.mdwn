@@ -1,268 +1,67 @@
-Date: Tue, 10 Oct 2006 11:10:37 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_1"
+Welcome to [[WikiWikiNewt]], a Wiki site created for the [[NewtonMessagePad]].
 
---=_multipart_boundary_1
-Content-Type: application/x-phpwiki;
-  pagename=HomePage;
-  flags="";
-  author=fireproof;
-  version=4;
-  lastmodified=1160493037;
-  created=1160493037;
-  author_id=fireproof;
-  markup=2;
-  summary=added%20manybooks.net%20link;
-  hits=69131;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do what you like with it.  Just keep it clean and play nice.  Please view [[TheGuidelines]] as well.
 
-Welcome to WikiWikiNewt, a Wiki site created for the NewtonMessagePad.
+## Entry Points:
 
-__''Go forth, and make pages!''__  This is a sandbox for the Newton Community.  Do what you like with it.  Just keep it clean and play nice.  Please view TheGuidelines as well.
-
-!!Entry Points:
-
-* __NewtonNewbieGuide__ New to the Newton?  Check it out , or find places to __TalkAboutNewton__
-* GettingSoftware for and onto your Newton
-* BootStrapping Solving the  problem
+* __[[NewtonNewbieGuide]]__ New to the Newton?  Check it out , or find places to __[[TalkAboutNewton]]__
+* [[GettingSoftware]] for and onto your Newton
+* [[BootStrapping]] Solving the  problem
 *Connectivity
- * [MacOSConnection],
- *WindowsConnection,
- *[UNIXConnection],
- *[IrDAConnection],
- *[BluetoothConnection|UsingBluetoothIndex]
-* [NewtonConnectivityCD] combines the most important connectivity tools for many platforms.
-* IntraNet, InterNet, WiFi and [Bluetooth|UsingBluetoothIndex] (Wireless) Getting Newton On The Network.
-* HowTo The collected list of articles, pointers, and general software tips
-* HardWare tips, tricks, drivers & repairs
-* [Audio] Want to know what sort of audio tricks your Newton can play? Check out .
-* CoolSetups - how do you setup your Newton?  Visit this page and see some examples, or write your own page
+* [[MacOSConnection]],
+*[[WindowsConnection]],
+*[[UNIXConnection]],
+*[[IrDAConnection]],
+*[BluetoothConnection](UsingBluetoothIndex)
+* [[NewtonConnectivityCD]] combines the most important connectivity tools for many platforms.
+* [[IntraNet]], [[InterNet]], [[WiFi]] and [Bluetooth](UsingBluetoothIndex) (Wireless) Getting Newton On The Network.
+* [[HowTo]] The collected list of articles, pointers, and general software tips
+* [[HardWare]] tips, tricks, drivers & repairs
+* [[Audio]] Want to know what sort of audio tricks your Newton can play? Check out .
+* [[CoolSetups]] - how do you setup your Newton?  Visit this page and see some examples, or write your own page
 
-* WhatAreSoups? The structure of the information on the Newton explained:
-* DevelopmentResources -- Programming for Newton ain't Rocket Science!
+* [[WhatAreSoups]]? The structure of the information on the Newton explained:
+* [[DevelopmentResources]] -- Programming for Newton ain't Rocket Science!
 
-* __SoftwareReviews__. __DeadWare__ There's still commercial stuff being marketed or occasionally found in the original shrinkwrap and lots of non-UNNA free- and sharewares. Links and packages can be found here.
-*  __UnnaReviews__ The [UNNA archives|http://www.unna.org] are 'raw'.  Come and read or write some Reviews.
-* NewtonSightings in movies, on tv and other media.
-* NewtonWishLists What'd you like to see happen for the Newton?
-* NewtonCreations See what people have made with their Newts.
-* PrototypesAndMockups of what Newton could have been...
-* [Webservers running on Newtons|http://npds-tracker.continuity.cx:3680/]The newton makes a great webserver!
+* __[[SoftwareReviews]]__. __[[DeadWare]]__ There's still commercial stuff being marketed or occasionally found in the original shrinkwrap and lots of non-UNNA free- and sharewares. Links and packages can be found here.
+*  __[[UnnaReviews]]__ The [UNNA archives](http://www.unna.org) are 'raw'.  Come and read or write some Reviews.
+* [[NewtonSightings]] in movies, on tv and other media.
+* [[NewtonWishLists]] What'd you like to see happen for the Newton?
+* [[NewtonCreations]] See what people have made with their Newts.
+* [[PrototypesAndMockups]] of what Newton could have been...
+* [Webservers running on Newtons](http://npds-tracker.continuity.cx:3680/)The newton makes a great webserver!
 * .... add your entry point here or edit more links into those above
 
-* Perform a FullTextSearch of this entire wiki
+* Perform a [[FullTextSearch]] of this entire wiki
 
-!!Exit Points (other sources of Newton info and news):
-* [Newtontalk.net|http://www.newtontalk.net/] - the Premiere Newton discussion forum
-* [The Newton FAQ|http://www.chuma.org/newton/faq/]
-* Newton Glossary: [view|http://www.splorp.com/newton/glossary/] or [search|http://guelph.unna.org/glossary/].
-* [Newton Does It!|http://dettmer.maclab.org/newton/] - Newton news and links, updated regularly.
-* [Newton Enlightenment|http://www.newtenlightment.de/] - Newton news and links, updated regularly.
-* [Newton Dose|http://dev.newtontalk.net/~dpadilla/newtondose.htm] - Newton news, updated daily.
-* [MacMac newton page|http://mac.plonter.co.il/plonwiki/Newton] - The Israeli (In Hebrew) Newton page.
-* [Messagepad.org|http://www.messagepad.org/] - Korean Newton Users Group - has Newton news in Korean.
-* [United Network of Newton Archives |http://www.unna.org] - Consolidated Newton software and eBook repository.
-* [NewtonSearch|http://www.newtonsearch.net/] - Searchable index of Newton Websites. Linklist is reindexed regularly.
-* [pda-soft|http://www.pda-soft.de/] - Disassembly, repair and battery rebuild instructions along with some (mostly hardware-related) software.
-* [http://tools.unna.org/glossary/]
-* [http://www.splorp.com/newton/glossary/] - Grant H's comprehensive glossary
-* [http://www.info.apple.com/support/oldersoftwarelist.html#newton] - Newton downloads at Apple
-* [Newton's Library|http://www.newtonslibrary.org/] - A large collection of freely downloadable Newton books
-* [Temporary Newton Library|http://www.stillnewt.org/library] - Actively maintained Newton eBook repository
-* [manybooks.net|http://manybooks.net/] - Project Gutenberg texts pre-converted to Newton Paperback format.
+## Exit Points (other sources of Newton info and news):
+* [Newtontalk.net](http://www.newtontalk.net/) - the Premiere Newton discussion forum
+* [The Newton FAQ](http://www.chuma.org/newton/faq/)
+* Newton Glossary: [view|http://www.splorp.com/newton/glossary/] or [search](http://guelph.unna.org/glossary/).
+* [Newton Does It!](http://dettmer.maclab.org/newton/) - Newton news and links, updated regularly.
+* [Newton Enlightenment](http://www.newtenlightment.de/) - Newton news and links, updated regularly.
+* [Newton Dose](http://dev.newtontalk.net/~dpadilla/newtondose.htm) - Newton news, updated daily.
+* [MacMac newton page](http://mac.plonter.co.il/plonwiki/Newton) - The Israeli (In Hebrew) Newton page.
+* [Messagepad.org](http://www.messagepad.org/) - Korean Newton Users Group - has Newton news in Korean.
+* [United Network of Newton Archives ](http://www.unna.org) - Consolidated Newton software and eBook repository.
+* [NewtonSearch](http://www.newtonsearch.net/) - Searchable index of Newton Websites. Linklist is reindexed regularly.
+* [pda-soft](http://www.pda-soft.de/) - Disassembly, repair and battery rebuild instructions along with some (mostly hardware-related) software.
+* <http://tools.unna.org/glossary/>
+* <http://www.splorp.com/newton/glossary/> - Grant H's comprehensive glossary
+* <http://www.info.apple.com/support/oldersoftwarelist.html#newton> - Newton downloads at Apple
+* [Newton's Library](http://www.newtonslibrary.org/) - A large collection of freely downloadable Newton books
+* [Temporary Newton Library](http://www.stillnewt.org/library) - Actively maintained Newton eBook repository
+* [manybooks.net](http://manybooks.net/) - Project Gutenberg texts pre-converted to Newton Paperback format.
 Below here is just the usual default Wiki stuff.
 
 ----
 
-* What is WikiWikiWeb? A description of this application.
-* Learn HowToUseWiki and learn about AddingPages.
-* Use the SandBox page to experiment with Wiki pages.
-* Please sign your name in RecentVisitors.
-* See RecentChanges for the latest page additions and changes.
-* Find out which pages are MostPopular.
-* Read the ReleaseNotes.
-* Administer this wiki via PhpWikiAdministration.
-* See more PhpWikiDocumentation.
-
---=_multipart_boundary_1
-Content-Type: application/x-phpwiki;
-  pagename=HomePage;
-  flags="";
-  author=MacSimski;
-  version=3;
-  lastmodified=1159819204;
-  created=1160493037;
-  author_id=MacSimski;
-  markup=2;
-  hits=69131;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-Welcome to WikiWikiNewt, a Wiki site created for the NewtonMessagePad.
-
-__''Go forth, and make pages!''__  This is a sandbox for the Newton Community.  Do what you like with it.  Just keep it clean and play nice.  Please view TheGuidelines as well.
-
-!!Entry Points:
-
-* __NewtonNewbieGuide__ New to the Newton?  Check it out , or find places to __TalkAboutNewton__
-* GettingSoftware for and onto your Newton
-* BootStrapping Solving the  problem
-*Connectivity
- * [MacOSConnection],
- *WindowsConnection,
- *[UNIXConnection],
- *[IrDAConnection],
- *[BluetoothConnection|UsingBluetoothIndex]
-* [NewtonConnectivityCD] combines the most important connectivity tools for many platforms.
-* IntraNet, InterNet, WiFi and [Bluetooth|UsingBluetoothIndex] (Wireless) Getting Newton On The Network.
-* HowTo The collected list of articles, pointers, and general software tips
-* HardWare tips, tricks, drivers & repairs
-* [Audio] Want to know what sort of audio tricks your Newton can play? Check out .
-* CoolSetups - how do you setup your Newton?  Visit this page and see some examples, or write your own page
-
-* WhatAreSoups? The structure of the information on the Newton explained:
-* DevelopmentResources -- Programming for Newton ain't Rocket Science!
-
-* __SoftwareReviews__. __DeadWare__ There's still commercial stuff being marketed or occasionally found in the original shrinkwrap and lots of non-UNNA free- and sharewares. Links and packages can be found here.
-*  __UnnaReviews__ The [UNNA archives|http://www.unna.org] are 'raw'.  Come and read or write some Reviews.
-* NewtonSightings in movies, on tv and other media.
-* NewtonWishLists What'd you like to see happen for the Newton?
-* NewtonCreations See what people have made with their Newts.
-* PrototypesAndMockups of what Newton could have been...
-* [Webservers running on Newtons|http://npds-tracker.continuity.cx:3680/]The newton makes a great webserver!
-* .... add your entry point here or edit more links into those above
-
-* Perform a FullTextSearch of this entire wiki
-
-!!Exit Points (other sources of Newton info and news):
-* [Newtontalk.net|http://www.newtontalk.net/] - the Premiere Newton discussion forum
-* [The Newton FAQ|http://www.chuma.org/newton/faq/]
-* Newton Glossary: [view|http://www.splorp.com/newton/glossary/] or [search|http://guelph.unna.org/glossary/].
-* [Newton Does It!|http://dettmer.maclab.org/newton/] - Newton news and links, updated regularly.
-* [Newton Enlightenment|http://www.newtenlightment.de/] - Newton news and links, updated regularly.
-* [Newton Dose|http://dev.newtontalk.net/~dpadilla/newtondose.htm] - Newton news, updated daily.
-* [MacMac newton page|http://mac.plonter.co.il/plonwiki/Newton] - The Israeli (In Hebrew) Newton page.
-* [Messagepad.org|http://www.messagepad.org/] - Korean Newton Users Group - has Newton news in Korean.
-* [United Network of Newton Archives |http://www.unna.org] - Consolidated Newton software and eBook repository.
-* [NewtonSearch|http://www.newtonsearch.net/] - Searchable index of Newton Websites. Linklist is reindexed regularly.
-* [pda-soft|http://www.pda-soft.de/] - Disassembly, repair and battery rebuild instructions along with some (mostly hardware-related) software.
-* [http://tools.unna.org/glossary/]
-* [http://www.splorp.com/newton/glossary/] - Grant H's comprehensive glossary
-* [http://www.info.apple.com/support/oldersoftwarelist.html#newton] - Newton downloads at Apple
-* [Newton's Library|http://www.newtonslibrary.org/] - A large collection of freely downloadable Newton books
-* [Temporary Newton Library|http://www.stillnewt.org/library] - Actively maintained Newton eBook repository
-Below here is just the usual default Wiki stuff.
-
-----
-
-* What is WikiWikiWeb? A description of this application.
-* Learn HowToUseWiki and learn about AddingPages.
-* Use the SandBox page to experiment with Wiki pages.
-* Please sign your name in RecentVisitors.
-* See RecentChanges for the latest page additions and changes.
-* Find out which pages are MostPopular.
-* Read the ReleaseNotes.
-* Administer this wiki via PhpWikiAdministration.
-* See more PhpWikiDocumentation.
-
---=_multipart_boundary_1
-Content-Type: application/x-phpwiki;
-  pagename=HomePage;
-  flags="";
-  author=admin;
-  version=2;
-  lastmodified=1144159176;
-  created=1159819204;
-  author_id=admin;
-  markup=2;
-  summary=Restoring%20HomePage...;
-  hits=69131;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-Welcome to WikiWikiNewt, a Wiki site created for the NewtonMessagePad.
-
-__''Go forth, and make pages!''__  This is a sandbox for the Newton Community.  Do what you like with it.  Just keep it clean and play nice.  Please view TheGuidelines as well.
-
-!!Entry Points:
-
-* New to the Newton?  Check out the __NewtonNewbieGuide__, or find places to __TalkAboutNewton__
-* GettingSoftware for and onto your Newton
-* Solving the BootStrapping problem
-* [MacOSConnection], WindowsConnection, [UNIXConnection], [IrDAConnection], [BluetoothConnection|UsingBluetoothIndex]
-* The [NewtonConnectivityCD] combines the most important connectivity tools for many platforms.
-* Getting Newton On The Network -- IntraNet, InterNet, WiFi and [Bluetooth|UsingBluetoothIndex] (Wireless)
-* The collected list of HowTo articles, pointers, and general software tips
-* Newton HardWare tips, tricks, drivers & repairs
-* Want to know what sort of audio tricks your Newton can play? Check out [Audio].
-* CoolSetups - how do you setup your Newton?  Visit this page and see some examples, or write your own page
-* The structure of the information on the Newton explained: WhatAreSoups?
-* Newton software DevelopmentResources -- Programming for Newton ain't Rocket Science!
-* There's still commercial stuff being marketed or occasionally found in the original shrinkwrap and lots of non-UNNA free- and sharewares - so let's have some __SoftwareReviews__. __DeadWare__ links and packages can be found here.
-* The [UNNA archives|http://www.unna.org] are 'raw'.  Come and read or write some __UnnaReviews__.
-* Perform a FullTextSearch of the entire wiki
-* NewtonSightings in movies, on tv and other media.
-* What'd you like to see happen for the Newton? Tell it to the NewtonWishLists.
-* See what people have made with their Newts in NewtonCreations.
-* PrototypesAndMockups of what Newton could have been...
-* The newton makes a great webserver! Go [here|http://npds-tracker.continuity.cx:3680/] to see some newton webservers.
-* .... add your entry point here or edit more links into those above
-
-!!Exit Points (other sources of Newton info and news):
-* [Newtontalk.net|http://www.newtontalk.net/] - the Premiere Newton discussion forum
-* [The Newton FAQ|http://www.chuma.org/newton/faq/]
-* Newton Glossary: [view|http://www.splorp.com/newton/glossary/] or [search|http://guelph.unna.org/glossary/].
-* [Newton Does It!|http://dettmer.maclab.org/newton/] - Newton news and links, updated regularly.
-* [Newton Enlightenment|http://www.newtenlightment.de/] - Newton news and links, updated regularly.
-* [Newton Dose|http://dev.newtontalk.net/~dpadilla/newtondose.htm] - Newton news, updated daily.
-* [MacMac newton page|http://mac.plonter.co.il/plonwiki/Newton] - The Israeli (In Hebrew) Newton page.
-* [Messagepad.org|http://www.messagepad.org/] - Korean Newton Users Group - has Newton news in Korean.
-* [United Network of Newton Archives |http://www.unna.org] - Consolidated Newton software and eBook repository.
-* [NewtonSearch|http://www.newtonsearch.net/] - Searchable index of Newton Websites. Linklist is reindexed regularly.
-* [pda-soft|http://www.pda-soft.de/] - Disassembly, repair and battery rebuild instructions along with some (mostly hardware-related) software.
-* [http://tools.unna.org/glossary/]
-* [http://www.splorp.com/newton/glossary/] - Grant H's comprehensive glossary
-* [http://www.info.apple.com/support/oldersoftwarelist.html#newton] - Newton downloads at Apple
-* [Newton's Library|http://www.newtonslibrary.org/] - A large collection of freely downloadable Newton books
-* [Temporary Newton Library|http://www.stillnewt.org/library] - Actively maintained Newton eBook repository
-Below here is just the usual default Wiki stuff.
-
-----
-
-* What is WikiWikiWeb? A description of this application.
-* Learn HowToUseWiki and learn about AddingPages.
-* Use the SandBox page to experiment with Wiki pages.
-* Please sign your name in RecentVisitors.
-* See RecentChanges for the latest page additions and changes.
-* Find out which pages are MostPopular.
-* Read the ReleaseNotes.
-* Administer this wiki via PhpWikiAdministration.
-* See more PhpWikiDocumentation.
-
---=_multipart_boundary_1
-Content-Type: application/x-phpwiki;
-  pagename=HomePage;
-  flags="";
-  author=The%20PhpWiki%20programming%20team;
-  version=1;
-  lastmodified=1144158169;
-  created=1144159176;
-  author_id=The%20PhpWiki%20programming%20team;
-  markup=2;
-  hits=69131;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-* What is a WikiWikiWeb? A description of this application.
-* Learn HowToUseWiki and learn about AddingPages.
-* Use the SandBox page to experiment with Wiki pages.
-* Please sign your name in RecentVisitors.
-* See RecentChanges for the latest page additions and changes.
-* Find out which pages are MostPopular.
-* Read the ReleaseNotes and RecentReleases.
-* Administer this wiki via PhpWikiAdministration.
-* See more PhpWikiDocumentation.
-
---=_multipart_boundary_1--
+* What is [[WikiWikiWeb]]? A description of this application.
+* Learn [[HowToUseWiki]] and learn about [[AddingPages]].
+* Use the [[SandBox]] page to experiment with Wiki pages.
+* Please sign your name in [[RecentVisitors]].
+* See [[RecentChanges]] for the latest page additions and changes.
+* Find out which pages are [[MostPopular]].
+* Read the [[ReleaseNotes]].
+* Administer this wiki via [[PhpWikiAdministration]].
+* See more [[PhpWikiDocumentation]].

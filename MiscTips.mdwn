@@ -1,21 +1,6 @@
-Date: Sat, 29 May 2004 17:21:10 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MiscTips;
-  flags="";
-  author=ScottyTechnoir;
-  version=1;
-  lastmodified=1085865670;
-  created=1085865670;
-  author_id=69.196.225.226;
-  markup=2;
-  hits=355;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 Unclassifiable Tips:
 
 *_Tip:_ I bought some 5"x7" clear plastic picture frames at Walmart for under $2.00. If you lay them down and put the base at the top, you have an easy and cheap desk stand for your Newton. I like the angle it puts my Newton at for writing and they are cheap enough that I have one at home and one on my desk at work.
 
-*_Tip:_ ChangeBatteryWarning level (NOS 2.x)
-*_Tip:_ Hide the ButtonBar
+*_Tip:_ [[ChangeBatteryWarning]] level (NOS 2.x)
+*_Tip:_ Hide the [[ButtonBar]]

@@ -1,21 +1,6 @@
-Date: Wed, 31 Mar 2004 14:24:56 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NewtonPgp;
-  flags="";
-  author=80.128.162.51;
-  version=1;
-  lastmodified=1080761096;
-  created=1080761096;
-  author_id=80.128.162.51;
-  markup=2;
-  hits=200;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 "This was started but never finished:
 
-http://www.pgpi.org/products/pgp/versions/freeware/newton" ([Victor Rehorst|http://www.newtontalk.net/archive/newtontalk.2004-03/0491.html])%%%
+http://www.pgpi.org/products/pgp/versions/freeware/newton" ([Victor Rehorst](http://www.newtontalk.net/archive/newtontalk.2004-03/0491.html))%%%
 %%%
 ----
-HomePage : NewtonWishLists : SoftwareWishlist : NewtonPgp
+[[HomePage]] : [[NewtonWishLists]] : [[SoftwareWishlist]] : [[NewtonPgp]]

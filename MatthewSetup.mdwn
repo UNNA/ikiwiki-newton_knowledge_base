@@ -1,28 +1,8 @@
-Date: Fri, 16 Mar 2007 22:42:53 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_22"
+### Matthew Reidsma's [[MessagePad2100]] Setup:
 
---=_multipart_boundary_22
-Content-Type: application/x-phpwiki;
-  pagename=MatthewSetup;
-  flags="";
-  author=reidsrow;
-  version=14;
-  lastmodified=1174099373;
-  created=1174099373;
-  author_id=reidsrow;
-  markup=2;
-  summary=Modified%20installed%20application%2C%20added%20links.;
-  hits=2171;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+I primarily use my Newton for [[DoingAcademicResearch]], as a PIM manager, and for working with text.
 
-!!!Matthew Reidsma's [MessagePad2100] Setup:
-
-I primarily use my Newton for DoingAcademicResearch, as a PIM manager, and for working with text.
-
-!!Index
+## Index
 * [PIM Functions|#PIMFunctions]
 * [Notes Enhancements|#NPEnhancements]
 * [Connectivity|#Connectivity]
@@ -30,446 +10,40 @@ I primarily use my Newton for DoingAcademicResearch, as a PIM manager, and for w
 * [Programs|#Programs]
 
 
-!!#[PIM functions|PIMFunctions]:
-* [MoreInfo] - this turns my Newton into a linking machine. [Download Demo|http://www.silverware.com/MoreInfo.shtml] ''Commercial $80''
-* [AvisBackdrop] - I use this both because it is a great backdrop and because it reminds me of all of those birthdays and anniversaries. [Download|http://www.drissman.com/avi/newton/AvisBackdrop/] ''Freeware''
-* [FlashPoint] - [Eckhart Köppen's|EckhartKoeppen] great [GTD|http://en.wikipedia.org/wiki/Gtd] project/task management tool. [Download|http://40hz.org/wiki/index.php/Flashpoint] ''Freeware''
-* [NewtonWorks] - Word Processor for the Newton [Download|http://www.unna.org/view.php?/applications/NewtonWorks] ''Freeware''
+## #[PIM functions](PIMFunctions):
+* [[MoreInfo]] - this turns my Newton into a linking machine. [Download Demo](http://www.silverware.com/[[MoreInfo]].shtml) _Commercial $80_
+* [[AvisBackdrop]] - I use this both because it is a great backdrop and because it reminds me of all of those birthdays and anniversaries. [Download](http://www.drissman.com/avi/newton/[[AvisBackdrop]]/) _Freeware_
+* [[FlashPoint]] - [Eckhart Köppen's](EckhartKoeppen) great [GTD|http://en.wikipedia.org/wiki/Gtd] project/task management tool. [Download](http://40hz.org/wiki/index.php/Flashpoint) _Freeware_
+* [[NewtonWorks]] - Word Processor for the Newton [Download](http://www.unna.org/view.php?/applications/NewtonWorks) _Freeware_
 
-!!#[Notes and Newton Works Enhancements|NPEnhancements]:
-* *Clip Hoard* - Adds multiple clipboards [Download|http://www.unna.org/unna/utilites/cliphoard.pkg] ''Freeware''
-* *Hilite 2000* - A Byte Size Software extension for ease in editing - brings up a pop-up menu for copy, paste, etc when text is selected. [Download|http://home.earthlink.net/~firstvln/bytesize/software.html] ''$5 Honorware''
-* *BBEditor* - A Byte Size Software extension that places a complete editing palette over your button bar [Download|http://home.earthlink.net/~firstvln/bytesize/software.html] ''$5 Honorware''
+## #[Notes and Newton Works Enhancements](NPEnhancements):
+* *Clip Hoard* - Adds multiple clipboards [Download](http://www.unna.org/unna/utilites/cliphoard.pkg) _Freeware_
+* *Hilite 2000* - A Byte Size Software extension for ease in editing - brings up a pop-up menu for copy, paste, etc when text is selected. [Download](http://home.earthlink.net/~firstvln/bytesize/software.html) _$5 Honorware_
+* *BBEditor* - A Byte Size Software extension that places a complete editing palette over your button bar [Download](http://home.earthlink.net/~firstvln/bytesize/software.html) _$5 Honorware_
 * *Pro point* -
 * *Styles +* -
-* *Notes Count* - A Daniel Padilla hack to count words in the [NotePad] [Download|http://dev.newtontalk.net/~dpadilla/progs.htm] ''Freeware''
+* *Notes Count* - A Daniel Padilla hack to count words in the [[NotePad]] [Download](http://dev.newtontalk.net/~dpadilla/progs.htm) _Freeware_
 * *Proof Read* -
 * *Works Better* -
 * *Word Sleuth* -
 * *Merlin* -
 
-!!#[Connectivity]:
-* [WaveLan|WiFi] - Extension that allows 802.11b [WiFi] cards [Download Demo|http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] ''Registration Closed''
-* *More WiFi Cards* - A [Paul Guyot|PaulGuyot] project that enables additional WiFi cards to work with the Newton (including my own Compaq WL110) [Download|http://www.kallisys.com/newton/morewifi/] ''Freeware''
-* EthernetDrivers - Need these for the WiFi drivers to work. Also used with my wired 3Com card
-* [Blunt] - Bluetooth stack by [Eckhart Köppen|EckhartKoeppen], useful for moving files with BluetoothOBEX [Download|http://40hz.org/wiki/index.php/Blunt] ''Freeware''
-* [IC/VC|ICVC] -
+## #[[Connectivity]]:
+* [WaveLan](WiFi) - Extension that allows 802.11b [[WiFi]] cards [Download Demo](http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm) _Registration Closed_
+* *More [[WiFi]] Cards* - A [Paul Guyot](PaulGuyot) project that enables additional [[WiFi]] cards to work with the Newton (including my own Compaq WL110) [Download](http://www.kallisys.com/newton/morewifi/) _Freeware_
+* [[EthernetDrivers]] - Need these for the [[WiFi]] drivers to work. Also used with my wired 3Com card
+* [[Blunt]] - Bluetooth stack by [Eckhart Köppen](EckhartKoeppen), useful for moving files with [[BluetoothOBEX]] [Download](http://40hz.org/wiki/index.php/Blunt) _Freeware_
+* [IC/VC](ICVC) -
 * *LPR Driver* -
-* *Dock ~TCP/IP* - Allows the Dock to work through ~TCP/IP (Ethernet, WiFi) to connect with Escale or NCX.
+* *Dock ~TCP/IP* - Allows the Dock to work through ~TCP/IP (Ethernet, [[WiFi]]) to connect with Escale or NCX.
 
-!!#[System Enhancements|SysEnhancements]:
+## #[System Enhancements](SysEnhancements):
 * *Daylight Savings* -
 * *EEUnprotect* -
 * *Soup Mover* -
 * *Card Eject* -
 * *Backlight Control* -
 
-!!#[Programs]:
-* [CardMedia] - Enhances the Names application with bibliographic cards for [DoingAcademicResearch]. [Download|http://www.sineware.com/products/CardMedia/] ''Freeware''
-* *Alarm Clock* - A full-featured alarm clock from Adam Tow [Download|http://www.tow.com/software/newton.shtml] ''Freeware''
-
---=_multipart_boundary_22
-Content-Type: application/x-phpwiki;
-  pagename=MatthewSetup;
-  flags="";
-  author=reidsrow;
-  version=13;
-  lastmodified=1173905961;
-  created=1174099373;
-  author_id=reidsrow;
-  markup=2;
-  hits=2171;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-!!!Matthew Reidsma's [MessagePad2100] Setup:
-
-I primarily use my Newton for DoingAcademicResearch, as a PIM manager, and for working with text.
-
-!!Index
-* [PIM Functions|#PIMFunctions]
-* [Notes Enhancements|#NPEnhancements]
-* [Connectivity|#Connectivity]
-* [System Enhancements|#SysEnhancements]
-* [Programs|#Programs]
-
-
-!!#[PIM functions|PIMFunctions]:
-* [MoreInfo] - this turns my Newton into a linking machine. [Download Demo|http://www.silverware.com/MoreInfo.shtml] ''Commercial $80''
-* [AvisBackdrop] - I use this both because it is a great backdrop and because it reminds me of all of those birthdays and anniversaries. [Download|http://www.drissman.com/avi/newton/AvisBackdrop/] ''Freeware''
-* [FlashPoint] - [Eckhart Köppen's|EckhartKoeppen] great [GTD|http://en.wikipedia.org/wiki/Gtd] project/task management tool. [Download|http://40hz.org/wiki/index.php/Flashpoint] ''Freeware''
-* [NewtonWorks] - Word Processor for the Newton [Download|http://www.unna.org/view.php?/applications/NewtonWorks] ''Freeware''
-
-!!#[Notes and Newton Works Enhancements|NPEnhancements]:
-* *Big Notes* - Bypasses the 4k limit in the [NotePad] - Allows notes up to 32k in size [Download|http://www.unna.org/view.php?/utilites/notes_enhancements/BigNotes] ''Freeware''
-* *Clip Hoard* - Adds multiple clipboards [Download|http://www.unna.org/unna/utilites/cliphoard.pkg] ''Freeware''
-* *Hilite 2000* - A Byte Size Software extension for ease in editing - brings up a pop-up menu for copy, paste, etc when text is selected. [Download|http://home.earthlink.net/~firstvln/bytesize/software.html] ''$5 Honorware''
-* *BBEditor* - A Byte Size Software extension that places a complete editing palette over your button bar [Download|http://home.earthlink.net/~firstvln/bytesize/software.html] ''$5 Honorware''
-* *Pro point* -
-* *Styles +* -
-* *Notes Count* - A Daniel Padilla hack to count words in the [NotePad] [Download|http://dev.newtontalk.net/~dpadilla/progs.htm] ''Freeware''
-* *Proof Read* -
-* *Works Better* -
-* *Word Sleuth* -
-* *Merlin* -
-
-!!#[Connectivity]:
-* [WaveLan|WiFi] - Extension that allows 802.11b [WiFi] cards [Download Demo|http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] ''Registration Closed''
-* *More WiFi Cards* - A [Paul Guyot|PaulGuyot] project that enables additional WiFi cards to work with the Newton (including my own Compaq WL110) [Download|http://www.kallisys.com/newton/morewifi/] ''Freeware''
-* EthernetDrivers - Need these for the WiFi drivers to work. Also used with my wired 3Com card
-* [Blunt] - Bluetooth stack by [Eckhart Köppen|EckhartKoeppen], useful for moving files with BluetoothOBEX [Download|http://40hz.org/wiki/index.php/Blunt] ''Freeware''
-* [IC/VC|ICVC] -
-* *LPR Driver* -
-* *Dock ~TCP/IP* - Allows the Dock to work through ~TCP/IP (Ethernet, WiFi) to connect with Escale or NCX.
-
-!!#[System Enhancements|SysEnhancements]:
-* [DashBoard] -
-* [ATA Support|FlashCards] -
-* *Daylight Savings* -
-
-!!#[Programs]:
-* [CardMedia] - Enhances the Names application with bibliographic cards for [DoingAcademicResearch].
-* [Courier] - [Eckhart Köppen's|EckhartKoeppen] fast text-only web browser. [Download|http://40hz.org/Courier/] ''Freeware''
-* *Alarm Clock* - A full-featured alarm clock from Adam Tow [Download|http://www.tow.com/software/newton.shtml] ''Freeware''
-
---=_multipart_boundary_22
-Content-Type: application/x-phpwiki;
-  pagename=MatthewSetup;
-  flags="";
-  author=reidsrow;
-  version=12;
-  lastmodified=1173903547;
-  created=1173905961;
-  author_id=reidsrow;
-  markup=2;
-  hits=2171;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-!!!Matthew Reidsma's [MessagePad2100] Setup:
-
-I primarily use my Newton for DoingAcademicResearch, as a PIM manager, and for working with text. I have a few "web" applications installed, but I rarely use them.
-
-!!Index
-* [PIM Functions|#PIMFunctions]
-* [Notes Enhancements|#NPEnhancements]
-* [Connectivity|#Connectivity]
-* [System Enhancements|#SysEnhancements]
-* [Programs|#Programs]
-
-
-!!#[PIM functions|PIMFunctions]:
-* [MoreInfo] - this turns my Newton into a linking machine. [Download Demo|http://www.silverware.com/MoreInfo.shtml] ''Commercial $80''
-* [AvisBackdrop] - I use this both because it is a great backdrop and because it reminds me of all of those birthdays and anniversaries. [Download|http://www.drissman.com/avi/newton/AvisBackdrop/] ''Freeware''
-* [FlashPoint] - [Eckhart Köppen's|EckhartKoeppen] great [GTD|http://en.wikipedia.org/wiki/Gtd] project/task management tool. [Download|http://40hz.org/wiki/index.php/Flashpoint] ''Freeware''
-* [NewtonWorks] - Word Processor for the Newton [Download|http://www.unna.org/view.php?/applications/NewtonWorks] ''Freeware''
-
-!!#[Notes and Newton Works Enhancements|NPEnhancements]:
-* *Big Notes* - Bypasses the 4k limit in the [NotePad] - Allows notes up to 32k in size [Download|http://www.unna.org/view.php?/utilites/notes_enhancements/BigNotes] ''Freeware''
-* *Clip Hoard* - Adds multiple clipboards [Download|http://www.unna.org/unna/utilites/cliphoard.pkg] ''Freeware''
-* *Hilite 2000* - A Byte Size Software extension for ease in editing - brings up a pop-up menu for copy, paste, etc when text is selected. [Download|http://home.earthlink.net/~firstvln/bytesize/software.html] ''$5 Honorware''
-* *BBEditor* - A Byte Size Software extension that places a complete editing palette over your button bar [Download|http://home.earthlink.net/~firstvln/bytesize/software.html] ''$5 Honorware''
-* *Pro point* -
-* *Styles +* -
-* *Notes Count* - A Daniel Padilla hack to count words in the [NotePad] [Download|http://dev.newtontalk.net/~dpadilla/progs.htm] ''Freeware''
-* *Proof Read* -
-* *Works Better* -
-* *Word Sleuth* -
-* *Merlin* -
-
-!!#[Connectivity]:
-* [WaveLan|WiFi] - Extension that allows 802.11b [WiFi] cards [Download Demo|http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] ''Registration Closed''
-* *More WiFi Cards* - A [Paul Guyot|PaulGuyot] project that enables additional WiFi cards to work with the Newton (including my own Compaq WL110) [Download|http://www.kallisys.com/newton/morewifi/] ''Freeware''
-* EthernetDrivers - Need these for the WiFi drivers to work. Also used with my wired 3Com card
-* [Blunt] - Bluetooth stack by [Eckhart Köppen|EckhartKoeppen], useful for moving files with BluetoothOBEX [Download|http://40hz.org/wiki/index.php/Blunt] ''Freeware''
-* [IC/VC|ICVC] -
-* *SimpleMail* -
-* *LPR Driver* -
-* *Dock ~TCP/IP* -
-
-!!#[System Enhancements|SysEnhancements]:
-* [DashBoard] -
-* [ATA Support|FlashCards] -
-* *Daylight Savings* -
-
-!!#[Programs]:
-* [CardMedia] - Enhances the Names application with bibliographic cards for [DoingAcademicResearch].
-* [Courier] - [Eckhart Köppen's|EckhartKoeppen] fast text-only web browser. [Download|http://40hz.org/Courier/] ''Freeware''
-* *Alarm Clock* - A full-featured alarm clock from Adam Tow [Download|http://www.tow.com/software/newton.shtml] ''Freeware''
-* *Geek Safe* -
-
---=_multipart_boundary_22
-Content-Type: application/x-phpwiki;
-  pagename=MatthewSetup;
-  flags="";
-  author=reidsrow;
-  version=11;
-  lastmodified=1173903331;
-  created=1173903547;
-  author_id=reidsrow;
-  markup=2;
-  hits=2171;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-!!!Matthew Reidsma's [MessagePad2100] Setup:
-
-!!Index
-* [PIM Functions|#PIMFunctions]
-* [Notes Enhancements|#NPEnhancements]
-* [Connectivity|#Connectivity]
-* [System Enhancements|#SysEnhancements]
-* [Programs|#Programs]
-
-
-!!#[PIM functions|PIMFunctions]:
-* [MoreInfo] - this turns my Newton into a linking machine. [Download Demo|http://www.silverware.com/MoreInfo.shtml] ''Commercial $80''
-* [AvisBackdrop] - I use this both because it is a great backdrop and because it reminds me of all of those birthdays and anniversaries. [Download|http://www.drissman.com/avi/newton/AvisBackdrop/] ''Freeware''
-* [FlashPoint] - [Eckhart Köppen's|EckhartKoeppen] great [GTD|http://en.wikipedia.org/wiki/Gtd] project/task management tool. [Download|http://40hz.org/wiki/index.php/Flashpoint] ''Freeware''
-* [NewtonWorks] - Word Processor for the Newton [Download|http://www.unna.org/view.php?/applications/NewtonWorks] ''Freeware''
-
-!!#[Notes and Newton Works Enhancements|NPEnhancements]:
-* *Big Notes* - Bypasses the 4k limit in the [NotePad] - Allows notes up to 32k in size [Download|http://www.unna.org/view.php?/utilites/notes_enhancements/BigNotes] ''Freeware''
-* *Clip Hoard* - Adds multiple clipboards [Download|http://www.unna.org/unna/utilites/cliphoard.pkg] ''Freeware''
-* *Hilite 2000* - A Byte Size Software extension for ease in editing - brings up a pop-up menu for copy, paste, etc when text is selected. [Download|http://home.earthlink.net/~firstvln/bytesize/software.html] ''$5 Honorware''
-* *BBEditor* - A Byte Size Software extension that places a complete editing palette over your button bar [Download|http://home.earthlink.net/~firstvln/bytesize/software.html] ''$5 Honorware''
-* *Pro point* -
-* *Styles +* -
-* *Notes Count* - A Daniel Padilla hack to count words in the [NotePad] [Download|http://dev.newtontalk.net/~dpadilla/progs.htm] ''Freeware''
-* *Proof Read* -
-* *Works Better* -
-* *Word Sleuth* -
-* *Merlin* -
-
-!!#[Connectivity]:
-* [WaveLan|WiFi] - Extension that allows 802.11b [WiFi] cards [Download Demo|http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] ''Registration Closed''
-* *More WiFi Cards* - A [Paul Guyot|PaulGuyot] project that enables additional WiFi cards to work with the Newton (including my own Compaq WL110) [Download|http://www.kallisys.com/newton/morewifi/] ''Freeware''
-* EthernetDrivers - Need these for the WiFi drivers to work. Also used with my wired 3Com card
-* [Blunt] - Bluetooth stack by [Eckhart Köppen|EckhartKoeppen], useful for moving files with BluetoothOBEX [Download|http://40hz.org/wiki/index.php/Blunt] ''Freeware''
-* [IC/VC|ICVC] -
-* *SimpleMail* -
-* *LPR Driver* -
-* *Dock ~TCP/IP* -
-
-!!#[System Enhancements|SysEnhancements]:
-* [DashBoard] -
-* [ATA Support|FlashCards] -
-* *Daylight Savings* -
-
-!!#[Programs]:
-* [CardMedia] - Enhances the Names application with bibliographic cards for [DoingAcademicResearch].
-* [Courier] - [Eckhart Köppen's|EckhartKoeppen] fast text-only web browser. [Download|http://40hz.org/Courier/] ''Freeware''
-* *Alarm Clock* - A full-featured alarm clock from Adam Tow [Download|http://www.tow.com/software/newton.shtml] ''Freeware''
-* *Geek Safe* -
-
---=_multipart_boundary_22
-Content-Type: application/x-phpwiki;
-  pagename=MatthewSetup;
-  flags="";
-  author=reidsrow;
-  version=10;
-  lastmodified=1173903279;
-  created=1173903331;
-  author_id=reidsrow;
-  markup=2;
-  hits=2171;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-!!!Matthew Reidsma's [MessagePad2100] Setup:
-
-!!Index
-* [PIM Functions|#PIMFunctions]
-* [Notes Enhancements|#NPEnhancements]
-* [Connectivity|#Connectivity]
-* [System Enhancements|#SysEnhancements]
-* [Programs|#Programs]
-
-
-!!#[PIM functions|PIMFunctions]:
-* [MoreInfo] - this turns my Newton into a linking machine. [Download Demo|http://www.silverware.com/MoreInfo.shtml] ''Commercial $80''
-* [AvisBackdrop] - I use this both because it is a great backdrop and because it reminds me of all of those birthdays and anniversaries. [Download|http://www.drissman.com/avi/newton/AvisBackdrop/] ''Freeware''
-* [FlashPoint] - [Eckhart Köppen's|EckhartKoeppen] great [GTD|http://en.wikipedia.org/wiki/Gtd] project/task management tool. [Download|http://40hz.org/wiki/index.php/Flashpoint] ''Freeware''
-* [NewtonWorks] - Word Processor for the Newton [Download|http://www.unna.org/view.php?/applications/NewtonWorks] ''Freeware''
-
-!!#[Notes and Newton Works Enhancements|NPEnhancements]:
-* *Big Notes* - Bypasses the 4k limit in the [NotePad] - Allows notes up to 32k in size [Download|http://www.unna.org/view.php?/utilites/notes_enhancements/BigNotes] ''Freeware''
-* *Clip Hoard* - Adds multiple clipboards [Download|http://www.unna.org/unna/utilites/cliphoard.pkg] ''Freeware''
-* *Hilite 2000* - A Byte Size Software extension for ease in editing - brings up a pop-up menu for copy, paste, etc when text is selected. [Download|http://home.earthlink.net/~firstvln/bytesize/software.html] ''$5 Honorware''
-* *BBEditor* - A Byte Size Software extension that places a complete editing palette over your button bar [Download|http://home.earthlink.net/~firstvln/bytesize/software.html] ''$5 Honorware''
-* *Pro point* -
-* *Styles +* -
-* *Notes Count* - A Daniel Padilla hack to count words in the [NotePad] [Download|http://dev.newtontalk.net/~dpadilla/progs.htm] ''Freeware''
-* *Proof Read* -
-* *Works Better* -
-* *Word Sleuth* -
-* *Merlin* -
-
-!!#[Connectivity]:
-* [WaveLan|WiFi] - Extension that allows 802.11b [WiFi] cards [Download Demo|http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] ''Registration Closed''
-* *More WiFi Cards* - A [Paul Guyot|PaulGuyot] project that enables additional WiFi cards to work with the Newton (including my own Compaq WL110) [Download|http://www.kallisys.com/newton/morewifi/] ''Freeware''
-* EthernetDrivers - Need these for the WiFi drivers to work. Also used with my wired 3Com card
-* [Blunt] - Bluetooth stack by [Eckhart Köppen|EckhartKoeppen], useful for moving files with BluetoothOBEX [Download|http://40hz.org/wiki/index.php/Blunt] ''Freeware''
-* [IC/VC|ICVC] -
-* *SimpleMail* -
-* *LPR Driver* -
-* *Dock ~TCP/IP* -
-
-!!#[System Enhancements|SysEnhancements]:
-* [DashBoard] -
-* [ATA Support|FlashCards] -
-* *Daylight Savings* -
-
-!!#[Programs]:
-* [CardMedia] - Enhances the [Names] application with bibliographic cards for [DoingAcademicResearch].
-* [Courier] - [Eckhart Köppen's|EckhartKoeppen] fast text-only web browser. [Download|http://40hz.org/Courier/] ''Freeware''
-* *Alarm Clock* - A full-featured alarm clock from Adam Tow [Download|http://www.tow.com/software/newton.shtml] ''Freeware''
-* *Geek Safe* -
-
---=_multipart_boundary_22
-Content-Type: application/x-phpwiki;
-  pagename=MatthewSetup;
-  flags="";
-  author=reidsrow;
-  version=9;
-  lastmodified=1173902766;
-  created=1173903279;
-  author_id=reidsrow;
-  markup=2;
-  hits=2171;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-!!!Matthew Reidsma's [MessagePad2100] Setup:
-
-!!Index
-* [PIM Functions|#PIMFunctions]
-* [Notes Enhancements|#NPEnhancements]
-* [Connectivity|#Connectivity]
-* [System Enhancements|#SysEnhancements]
-* [Programs|#Programs]
-
-
-!!#[PIM functions|PIMFunctions]:
-* [MoreInfo] - this turns my Newton into a linking machine. [Download Demo|http://www.silverware.com/MoreInfo.shtml] ''Commercial $80''
-* [AvisBackdrop] - I use this both because it is a great backdrop and because it reminds me of all of those birthdays and anniversaries. [Download|http://www.drissman.com/avi/newton/AvisBackdrop/] ''Freeware''
-* [FlashPoint] - [Eckhart Köppen's|EckhartKoeppen] great [GTD|http://en.wikipedia.org/wiki/Gtd] project/task management tool. [Download|http://40hz.org/wiki/index.php/Flashpoint] ''Freeware''
-* [NewtonWorks] - Word Processor for the Newton [Download|http://www.unna.org/view.php?/applications/NewtonWorks] ''Freeware''
-
-!!#[Notes and Newton Works Enhancements|NPEnhancements]:
-* *Big Notes* - Bypasses the 4k limit in the [NotePad] - Allows notes up to 32k in size [Download|http://www.unna.org/view.php?/utilites/notes_enhancements/BigNotes] ''Freeware''
-* *Clip Hoard* - Adds multiple clipboards [Download|http://www.unna.org/unna/utilites/cliphoard.pkg] ''Freeware''
-* *Hilite 2000* - A Byte Size Software extension for ease in editing - brings up a pop-up menu for copy, paste, etc when text is selected. [Download|http://home.earthlink.net/~firstvln/bytesize/software.html] ''$5 Honorware''
-* *Notes Count* - A Daniel Padilla hack to count words in the [NotePad] [Download|http://dev.newtontalk.net/~dpadilla/progs.htm] ''Freeware''
-* *Proof Read* -
-* *Works Better* -
-* *Word Sleuth* -
-* *Merlin* -
-
-!!#[Connectivity]:
-* [WaveLan|WiFi] - Extension that allows 802.11b [WiFi] cards [Download Demo|http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] ''Registration Closed''
-* *More WiFi Cards* - A [Paul Guyot|PaulGuyot] project that enables additional WiFi cards to work with the Newton (including my own Compaq WL110) [Download|http://www.kallisys.com/newton/morewifi/] ''Freeware''
-* EthernetDrivers - Need these for the WiFi drivers to work. Also used with my wired 3Com card
-* [Blunt] - Bluetooth stack by [Eckhart Köppen|EckhartKoeppen], useful for moving files with BluetoothOBEX [Download|http://40hz.org/wiki/index.php/Blunt] ''Freeware''
-* [IC/VC] -
-*
-
-!!#[System Enhancements|SysEnhancements]:
-* [DashBoard] -
-* [ATA Support|FlashCards] -
-
-!!#[Programs]:
-* [CardMedia] - Enhances the [Names] application with bibliographic cards for [DoingAcademicResearch].
-* [Courier] - [Eckhart Köppen's|EckhartKoeppen] fast text-only web browser. [Download|http://40hz.org/Courier/] ''Freeware''
-* *Alarm Clock* - A full-featured alarm clock from Adam Tow [Download|http://www.tow.com/software/newton.shtml] ''Freeware''
-* *Geek Safe* -
-
---=_multipart_boundary_22
-Content-Type: application/x-phpwiki;
-  pagename=MatthewSetup;
-  flags="";
-  author=reidsrow;
-  version=2;
-  lastmodified=1173898186;
-  created=1173902766;
-  author_id=reidsrow;
-  markup=2;
-  summary=Major%20Updates;
-  hits=2171;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-!!!Matthew Reidsma's [MessagePad2100] Setup:
-
-!!Index
-* [PIM Functions|#PIMFunctions]
-* [Notes Enhancements|#NPEnhancements]
-* [Connectivity|#Connectivity]
-* [System Enhancements|#SysEnhancements]
-* [Programs|#Programs]
-
-
-!!#[PIM functions|PIMFunctions]:
-* [MoreInfo] - this turns my Newton into a linking machine. [Download Demo|http://www.silverware.com/MoreInfo.shtml] ''Commercial $80''
-* [AvisBackdrop] - I use this both because it is a great backdrop and because it reminds me of all of those birthdays and anniversaries. [Download|http://www.drissman.com/avi/newton/AvisBackdrop/] ''Freeware''
-* [FlashPoint] - [Eckhart Köppen's|EckhartKoeppen] great [GTD|http://en.wikipedia.org/wiki/Gtd] project/task management tool. [Download|http://40hz.org/wiki/index.php/Flashpoint] ''Freeware''
-* [NewtonWorks] - Word Processor for the Newton, used in conjunction with [NewtonWorksAddOns] like Worksbetter. [Download|http://www.unna.org/view.php?/applications/NewtonWorks] ''Freeware''
-
-!!#[Notes Enhancements|NPEnhancements]:
-* *Big Notes* - Bypasses the 4k limit in the [NotePad] - Allows notes up to 32k in size [Download|http://www.unna.org/view.php?/utilites/notes_enhancements/BigNotes] ''Freeware''
-* *Clip Hoard* - Adds multiple clipboards [Download|http://www.unna.org/unna/utilites/cliphoard.pkg] ''Freeware''
-* ~*HiLite 2000* - A Byte Size Software extension for ease in editing - brings up a pop-up menu for copy, paste, etc when text is selected. [Download|http://home.earthlink.net/~firstvln/bytesize/software.html] ''$5 Honorware''
-* *Notes Count* - A Daniel Padilla hack to count words in the [NotePad] [Download|http://dev.newtontalk.net/~dpadilla/progs.htm] ''Freeware''
-
-!!#[Connectivity]:
-* [WaveLan|WiFi] - Extension that allows 802.11b [WiFi] cards [Download Demo|http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] ''Registration Closed''
-* *More WiFi Cards* - A [Paul Guyot|PaulGuyot] project that enables additional WiFi cards to work with the Newton (including my own Compaq WL110) [Download|http://www.kallisys.com/newton/morewifi/] ''Freeware''
-
-!!#[System Enhancements|SysEnhancements]:
-* [DashBoard] -
-* [ATA Support|FlashCards] -
-
-!!#[Programs]:
-* [CardMedia] - Enhances the [Names] application with bibliographic cards for [DoingAcademicResearch].
-* [Courier] - [Eckhart Köppen's|EckhartKoeppen] fast text-only web browser. [Download|http://40hz.org/Courier/] ''Freeware''
-* *Alarm Clock* - A full-featured alarm clock from Adam Tow [Download|http://www.tow.com/software/newton.shtml] ''Freeware''
-
---=_multipart_boundary_22
-Content-Type: application/x-phpwiki;
-  pagename=MatthewSetup;
-  flags="";
-  author=MatthewReidsma;
-  version=1;
-  lastmodified=1105737083;
-  created=1173898186;
-  author_id=24.147.177.65;
-  markup=2;
-  hits=2171;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-My Newton is more than just a calender, or a notepad - It is more even then a portable brain. In some strange way, my Newton is like a limb, naturally an extension of myself. Now that I've completely made myself sound like a complete lame-O, I'll tell you what is on my Newton!
-
-For my PIM functions:
-* [MoreInfo |http://www.silverware.com/MoreInfo.shtml] - this turns my Newton into a linking machine.
-* [AvisBackdrop |http://www.drissman.com/avi/newton/AvisBackdrop/] - I use this both because it is a great backdrop and because it reminds me of all of those birthdays and anniversaries.
-* [Project80 |http://www.40hz.org/Project80/] - Eckhart Köppen's great Time tracking tool.
-
-System Enhancements:
-* BigNotes - Bypasses the 4k limit on Notes - Allows notes up to 32k in size.
-* ClipHoard - Gives the ability to have multiple clipboards.
-* FreezeUtilities - Allows the freezing of packages (freeware!)
-* HiLite2000 - ByteSizeSoftware extension for ease in editing - brings up a pop-up menu for copy, paste, etc when text is selected.
-* WaveLAN - Extension that allows 802.11b WiFi cards (in conjunction with [NewtonEthernet |http://www.chuma.org/newton/ethernet])
-* NotesCount - A Daniel Padilla hack to count words in the NotePad
-* SoftCharge - Allows you to select the type of battery you have in the tray for accurate readings.
-
-Programs:
-* CardMedia - Enhances the Built-in Names application with bibliographic cards for DoingAcademicResearch.
-
-PlayGames:
-* [Jig |http://www.dublclick.com/Jig.html] - An addictive strategy/tile game.
-* DeepGreen - Hands down the best chess game for the Newton.
-* [Jumble] - Make as many words as you can from the letters in 2 minutes. From [DumbStart |http://www.dumbstart.com/].
-
---=_multipart_boundary_22--
+## #[[Programs]]:
+* [[CardMedia]] - Enhances the Names application with bibliographic cards for [[DoingAcademicResearch]]. [Download](http://www.sineware.com/products/[[CardMedia]]/) _Freeware_
+* *Alarm Clock* - A full-featured alarm clock from Adam Tow [Download](http://www.tow.com/software/newton.shtml) _Freeware_

@@ -1,16 +1,1 @@
-Date: Fri, 16 May 2003 01:00:14 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MicroDrives;
-  flags="";
-  author=129.110.39.39;
-  version=1;
-  lastmodified=1053061214;
-  created=1053061214;
-  author_id=129.110.39.39;
-  markup=2;
-  hits=249;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-Tiny hard drives in the CompactFlash form factor.  They come in several sizes and cost quite a bit.  There have been several reports of these drives working with Paul's ATA driver.
+Tiny hard drives in the [[CompactFlash]] form factor.  They come in several sizes and cost quite a bit.  There have been several reports of these drives working with Paul's ATA driver.

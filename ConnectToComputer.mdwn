@@ -1,32 +1,17 @@
-Date: Thu, 18 Dec 2003 14:13:48 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=ConnectToComputer;
-  flags="";
-  author=RhondaHyslop;
-  version=1;
-  lastmodified=1071774828;
-  created=1071774828;
-  author_id=64.180.125.197;
-  markup=2;
-  hits=2324;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+[[NewtonConnectionUtilities]] (NCU)is the program that shipped with the MessagePad2000 and MessagePad2100.  It's only available for Windows and Mac OS <= 9, and as it was written by Apple, so it hasn't been updated in years.  That having been said, [[NewtonConnectionUtilities]] will run very happily in Classic mode under Mac OS X 10.2. [[NewtonConnectionUtilities]] only connects to OS 2.x machines, and only via serial, [[LocalTalk]], or [[EtherTalk]].  For OS 1.x machines, use [[NewtonConnectionKit]].
 
-NewtonConnectionUtilities (NCU)is the program that shipped with the MessagePad2000 and MessagePad2100.  It's only available for Windows and Mac OS <= 9, and as it was written by Apple, so it hasn't been updated in years.  That having been said, NewtonConnectionUtilities will run very happily in Classic mode under Mac OS X 10.2. NewtonConnectionUtilities only connects to OS 2.x machines, and only via serial, LocalTalk, or EtherTalk.  For OS 1.x machines, use NewtonConnectionKit.
-
-* NCU for Windows people: New machines (i.e. faster than, say, 166 MHz) have timing problems with the serial connection between the Newton and the PC.   Use slowdown.exe [http://www.unna.org/unna/windows/] to improve the timing problem.   Machines faster than 1 GHz needs to have 2 copies of slowdown running.
+* NCU for Windows people: New machines (i.e. faster than, say, 166 MHz) have timing problems with the serial connection between the Newton and the PC.   Use slowdown.exe <http://www.unna.org/unna/windows/> to improve the timing problem.   Machines faster than 1 GHz needs to have 2 copies of slowdown running.
 
 Some newer programs are available as well, and so are programs for other platforms.
 
-* NewtSync: extensible sync tool for OS X.2 (Jaguar) via TCP/IP or serial.  Currently supports AddressBook, iCal.
-* NewtonBackupExpress: third-party backup-only program for Classic MacOS - connects via Newton Dock/Connection.
-* NewTen: native OS X package installer - only supports serial connections (based on [UnixNPI] below)
+* [[NewtSync]]: extensible sync tool for OS X.2 (Jaguar) via TCP/IP or serial.  Currently supports [[AddressBook]], iCal.
+* [[NewtonBackupExpress]]: third-party backup-only program for Classic [[MacOS]] - connects via Newton Dock/Connection.
+* [[NewTen]]: native OS X package installer - only supports serial connections (based on [[UnixNPI]] below)
 
-* NewtonLink for Linux/UN*X: installs programs, import/exports, syncs with a few linux contact managers. Requires [Sloup].
-* [UnixNPI]: a package installer for many UN*X operating systems - serial only (up to 230400)
-* NewtonXchange (nXchange) for Linux/UN*X: installs programs, get selected notes (text only), import text files to notepad. Requires [Sloup].
+* [[NewtonLink]] for Linux/UN*X: installs programs, import/exports, syncs with a few linux contact managers. Requires [[Sloup]].
+* [[UnixNPI]]: a package installer for many UN*X operating systems - serial only (up to 230400)
+* [[NewtonXchange]] (nXchange) for Linux/UN*X: installs programs, get selected notes (text only), import text files to notepad. Requires [[Sloup]].
 
-* LookOut: synchronizes with MSOutlook (old and crufty, though)
-* OutLink: also synchronizes with MSOutlook (also old and crufty)
-* NewtDump: exports data from many Newton apps to various formats on the PC - serial only, requires [Sloup]
+* [[LookOut]]: synchronizes with MSOutlook (old and crufty, though)
+* [[OutLink]]: also synchronizes with MSOutlook (also old and crufty)
+* [[NewtDump]]: exports data from many Newton apps to various formats on the PC - serial only, requires [[Sloup]]

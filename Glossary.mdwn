@@ -1,18 +1,3 @@
-Date: Fri, 16 Sep 2005 01:59:43 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=Glossary;
-  flags="";
-  author=222.152.100.34;
-  version=1;
-  lastmodified=1126850383;
-  created=1126850383;
-  author_id=222.152.100.34;
-  markup=2;
-  hits=285;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 This is the beginning of a glossary.  I don't have the technical skill or background to provide decent definitions so if you see this and have the confidence to put one in then please do!
 
 Grant Hutchinson's Glossary:  http://www.splorp.com/newton/glossary/
@@ -29,7 +14,7 @@ Linear memory card%%%
 NBU%%%
 NCU%%%
 Newton Press%%%
-NTK - Newton ToolKit%%%
+NTK - Newton [[ToolKit]]%%%
 Packages%%%
 Put away%%%
 SER-001%%%
@@ -63,6 +48,6 @@ Put Away:  definition required
 
 SER-001:  A serial interface card for the MP2000/MP2100 designed and built by PCBMan that provides a normal Apple serial connector so that a Newton serial dongle is not required for exchanging data.
 Both the existing port and the SER-001 port are active simultaneously but only one or the other should be used when making a connection. Unlike the built-in connector, the SER-001 cannot be used to wake the Newton or route audio signals.
-Installation of the SER-001 requires opening the case of the MessagePad but does not require soldering.
+Installation of the SER-001 requires opening the case of the [[MessagePad]] but does not require soldering.
 
-Soups:  definition required
+Soups:  definition required

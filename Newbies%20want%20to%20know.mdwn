@@ -1,17 +1,3 @@
-Date: Mon, 24 May 2004 04:52:56 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=Newbies%20want%20to%20know;
-  flags="";
-  author=DjVollkasko;
-  version=1;
-  lastmodified=1085388776;
-  created=1085388776;
-  author_id=80.128.177.74;
-  hits=1014;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 __Frequently Asked Newbie-Questions__
 
 
@@ -19,24 +5,24 @@ __Frequently Asked Newbie-Questions__
 
 >A: For starters, you may want to check these sites:
 
-* [UNNA|http://www.unna.org] has a lot of Newton manuals for download. VERY recommended! Many questions can be answered by some simple [RTFM]. And it is very rewarding - at first glance, Newtons look like a pretty basic device -- only after reading the manual you'll find all the cool features implemented in [NewtonOS]!
+* [UNNA](http://www.unna.org] has a lot of Newton manuals for download. VERY recommended! Many questions can be answered by some simple [[RTFM]]. And it is very rewarding - at first glance, Newtons look like a pretty basic device -- only after reading the manual you'll find all the cool features implemented in [[NewtonOS])!
 
-* [Official Newton FAQ|http://www.chuma.org/newton/faq]
+* [Official Newton FAQ](http://www.chuma.org/newton/faq)
 ** The FAQ is very instructive.
 
-* [WikiWikiNewt for all kinds of articles| http://tools.unna.org/wikiwikinewt]
-** The Wiki is general-to-special, much recommended. You can add articles, too, and esp. the newbies are strongly encouraged to do so: When you discover for yourself something new, post a Howto and help the next newbie. Post software reviews, HowTos and tips, e.g. when you've had a real problem, asked NTLK and got a satisfying answer that might help others in the future, post it at the Wiki.
+* [WikiWikiNewt for all kinds of articles](http://tools.unna.org/wikiwikinewt)
+** The Wiki is general-to-special, much recommended. You can add articles, too, and esp. the newbies are strongly encouraged to do so: When you discover for yourself something new, post a Howto and help the next newbie. Post software reviews, [[HowTos]] and tips, e.g. when you've had a real problem, asked NTLK and got a satisfying answer that might help others in the future, post it at the Wiki.
 
-* [NewtonTalk Mailing List|http://www.newtontalk.net]
+* [NewtonTalk Mailing List](http://www.newtontalk.net)
 ** Here http://marc.10east.com/?l=newtontalk&r=1&w=2 you can run searches against NTLK -- a very useful ressource.
 ----
 
 %%%
 >Q: Where can I find packages that work with (enter your Newton model here)?
 
->A: Check the SoftwareReviews and UnnaReviews here at the Wiki for some pointers.
+>A: Check the [[SoftwareReviews]] and [[UnnaReviews]] here at the Wiki for some pointers.
 
-Then there is [UNNA|http://www.unna.org], the central repository of Newton software.
+Then there is [UNNA](http://www.unna.org), the central repository of Newton software.
 Shareware, charityware, postcardware, abandonware, freeware - heaps of
 software for NOS 1.x, 2.x and 2.1, plus manuals, Newton-relevant Mac- and PC-software, Newton commercials, developer tools, etc. ...
 UNNA wants your help, too: Whenever you find an app that's not available at
@@ -55,9 +41,9 @@ the Wayback Machine at http://www.archive.org. Very valuable!
 ----
 
 %%%
->Q: How do I sync my Newton with MacOS X (Windows, Unix, Linux)?
+>Q: How do I sync my Newton with [[MacOS]] X (Windows, Unix, Linux)?
 
->A: See [MacOSConnection] (WindowsConnection, [UNIXConnection]). Also check the [Official Newton FAQ|http://www.chuma.org/newton/faq].
+>A: See [[MacOSConnection]] ([[WindowsConnection]], [[UNIXConnection]]). Also check the [Official Newton FAQ](http://www.chuma.org/newton/faq).
 
 ----
 %%%
@@ -66,4 +52,4 @@ the Wayback Machine at http://www.archive.org. Very valuable!
 
 %%%
 ----
-HomePage : NewtonNewbieGuide : [Newbies want to know]
+[[HomePage]] : [[NewtonNewbieGuide]] : [Newbies want to know]

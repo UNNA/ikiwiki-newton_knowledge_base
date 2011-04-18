@@ -1,18 +1,3 @@
-Date: Tue, 13 Apr 2004 10:07:51 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=InstallationLog;
-  flags="";
-  author=DjVollkasko;
-  version=1;
-  lastmodified=1081865271;
-  created=1081865271;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=197;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 __Installation Log (Tool)__
 
 
@@ -29,4 +14,4 @@ __Any Takers?__%%%
 %%%
 %%%
 ----
-HomePage : NewtonWishLists : SoftwareWishlist : InstallationLog
+[[HomePage]] : [[NewtonWishLists]] : [[SoftwareWishlist]] : [[InstallationLog]]

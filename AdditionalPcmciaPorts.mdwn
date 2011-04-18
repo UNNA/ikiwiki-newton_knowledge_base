@@ -1,34 +1,19 @@
-Date: Mon, 19 Apr 2004 04:08:08 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=AdditionalPcmciaPorts;
-  flags="";
-  author=DjVollkasko;
-  version=1;
-  lastmodified=1082362088;
-  created=1082362088;
-  author_id=80.128.167.162;
-  markup=2;
-  hits=611;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 __Additional PCMCIA Ports__
 
 
 __What:__ Two additional internal PC Card ports for MP 2x00.
 
-__Background:__ MP2x00's Voyager Chipset allows up to "4 cascadable PC Card 2.01-compliant ports". See documentation available at http://www.unna.org/view.php?/apple/documentation/n2platform and [Voyager discussions|http://marc.theaimsgroup.com/?l=newtontalk&w=2&r=1&s=%22voyager+chipset%22&q=b] at NewtonTalk, also "The PS7030 PCMCIA Controller, meanwhile, offers a cascadable architecture with support for up to four PCMCIA slots" ([manufacturer press release |http://web.archive.org/web/19980111224604/http://www.cirrus.com/news/archive/fy1997/96.1028p.voyager.html]).  It seems that there are two things needed to really do this: (1) more ports than Apple installed must be allowed by [NewtonOS], and (b) it must be resolved if CL-PS7030 can support more than one slot, or if additional controllers (CL-PS7030 or maybe even others?) would be needed and how they could be squeezed into the available hardware.
+__Background:__ MP2x00's Voyager Chipset allows up to "4 cascadable PC Card 2.01-compliant ports". See documentation available at http://www.unna.org/view.php?/apple/documentation/n2platform and [Voyager discussions|http://marc.theaimsgroup.com/?l=newtontalk&w=2&r=1&s=%22voyager+chipset%22&q=b] at [[NewtonTalk]], also "The PS7030 PCMCIA Controller, meanwhile, offers a cascadable architecture with support for up to four PCMCIA slots" ([manufacturer press release ](http://web.archive.org/web/19980111224604/http://www.cirrus.com/news/archive/fy1997/96.1028p.voyager.html]).  It seems that there are two things needed to really do this: (1) more ports than Apple installed must be allowed by [[NewtonOS]), and (b) it must be resolved if CL-PS7030 can support more than one slot, or if additional controllers (CL-PS7030 or maybe even others?) would be needed and how they could be squeezed into the available hardware.
 
 __Benefit:__ Run large storage and Bluetooth cards internally and still have both outside-slots available for stuff that may be exchanged at will to adapt to other uses (WLAN/Ethernet/GPRS/GPS/GSM/Audio/VGA/additional storage). / eMate users desperate because of single PC Card slot.../ Plus it'd be way cool.
 
 __Additional Data:__
-* [NOS] issue resolved - "The ROM of the MP2x00 expects to have four PCMCIA slots but realizes it only has two. I don't think it is different with the ROM of the eMate. FYI, when I saw that, I designed [ATA Support|http://www.kallisys.com/newton/ata/?lg=en] so it would work with 4 PCMCIA slots. I expect Lantern to also work with 4 PCMCIA slots (ethernet drivers work with 4 PCMCIA slots for free since they are plugged into Lantern layer)." PaulGuyot at [NTLK|http://www.newtontalk.net/archive/newtontalk.2004-04/1178.html]
-* Controller-issue possibly in progress - The marvelous [Mr. PCBMan|http://mrpcbman.tripod.com] started R&D on an internal ROM board that's going to be a storage upgrade and will also allow for adding programmable chips - perhaps with this board additional controllers (e.g. CL-PS 7030 from salvaged 2x00 mainboards - or maybe even more current off-the-shelf controllers) could be tested (http://www.newtontalk.net/archive/newtontalk.2004-04/0977.html).
+* [[NOS]] issue resolved - "The ROM of the MP2x00 expects to have four PCMCIA slots but realizes it only has two. I don't think it is different with the ROM of the eMate. FYI, when I saw that, I designed [ATA Support|http://www.kallisys.com/newton/ata/?lg=en] so it would work with 4 PCMCIA slots. I expect Lantern to also work with 4 PCMCIA slots (ethernet drivers work with 4 PCMCIA slots for free since they are plugged into Lantern layer)." [[PaulGuyot]] at [NTLK](http://www.newtontalk.net/archive/newtontalk.2004-04/1178.html)
+* Controller-issue possibly in progress - The marvelous [Mr. PCBMan](http://mrpcbman.tripod.com) started R&D on an internal ROM board that's going to be a storage upgrade and will also allow for adding programmable chips - perhaps with this board additional controllers (e.g. CL-PS 7030 from salvaged 2x00 mainboards - or maybe even more current off-the-shelf controllers) could be tested (http://www.newtontalk.net/archive/newtontalk.2004-04/0977.html).
 
 __Additonal related request:__ How about additional ports for the eMate.
 
 __Any Takers?__%%%
 %%%
 ----
-HomePage : NewtonWishLists : HardwareWishList : AdditionalPcmciaPorts
+[[HomePage]] : [[NewtonWishLists]] : [[HardwareWishList]] : [[AdditionalPcmciaPorts]]

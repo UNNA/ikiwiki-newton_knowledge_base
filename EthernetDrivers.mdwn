@@ -1,50 +1,31 @@
-Date: Wed, 8 Nov 2006 08:45:36 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_5"
-
---=_multipart_boundary_5
-Content-Type: application/x-phpwiki;
-  pagename=EthernetDrivers;
-  flags="";
-  author=MatthiasMelcher;
-  version=2;
-  lastmodified=1162993536;
-  created=1162993536;
-  author_id=MatthiasMelcher;
-  summary=Added%20lazy%20links%20for%20file%20downloads;
-  hits=6191;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-!!About
-Drivers allow an operating system to access and control physical devices. To use EthernetCards, your Newton will need to be loaded with driver files. These files contain the instruction the OS needs to handle various devices. Depending on your card, you will need to install several small modules.
+## About
+Drivers allow an operating system to access and control physical devices. To use [[EthernetCards]], your Newton will need to be loaded with driver files. These files contain the instruction the OS needs to handle various devices. Depending on your card, you will need to install several small modules.
 ----
-!!Which Cards?
-*see EthernetCards
+## Which Cards?
+*see [[EthernetCards]]
 
-!!Which Files?
+## Which Files?
 
 Required Packages
-*INETSTUP.PKG ([here|http://www.unna.org/view.php?/apple/software/Internet/NIE2/REGPKGS])
-*INETENBL.PKG ([here|http://www.unna.org/view.php?/apple/software/Internet/NIE2/REGPKGS], see also: NewtonInternetEnabler)
+*INETSTUP.PKG ([here](http://www.unna.org/view.php?/apple/software/Internet/NIE2/REGPKGS))
+*INETENBL.PKG ([here](http://www.unna.org/view.php?/apple/software/Internet/NIE2/REGPKGS], see also: [[NewtonInternetEnabler]))
 
 Modem-Serial Support
-*MODMSUP.PKG ([here|http://www.unna.org/view.php?/apple/software/Internet/NIE2/MODMSER])
-*ISPTMPLT.PKG ([here|http://www.unna.org/view.php?/apple/software/Internet/NIE2/MODMSER])
+*MODMSUP.PKG ([here](http://www.unna.org/view.php?/apple/software/Internet/NIE2/MODMSER))
+*ISPTMPLT.PKG ([here](http://www.unna.org/view.php?/apple/software/Internet/NIE2/MODMSER))
 
-LocalTalk Support
-*LOCTSUP.PKG ([here|http://www.unna.org/view.php?/apple/software/Internet/NIE2/LOCTSUP])
+[[LocalTalk]] Support
+*LOCTSUP.PKG ([here](http://www.unna.org/view.php?/apple/software/Internet/NIE2/LOCTSUP))
 
-Ethernet Support, WiFi
-*NEWTDEV.PKG ([here|http://www.unna.org/view.php?/apple/software/Internet/NIE2/ENETSUP])
-*ENETSUP.PKG ([here|http://www.unna.org/view.php?/apple/software/Internet/NIE2/ENETSUP])
-*NOTE:  To use EtherNet, you’ll need one of the supported EthernetCards and the correct Ethernet Drivers (see [Chuma Driver downloads| http://www.chuma.org/newton/ethernet]) for this card.
+Ethernet Support, [[WiFi]]
+*NEWTDEV.PKG ([here](http://www.unna.org/view.php?/apple/software/Internet/NIE2/ENETSUP))
+*ENETSUP.PKG ([here](http://www.unna.org/view.php?/apple/software/Internet/NIE2/ENETSUP))
+*NOTE:  To use [[EtherNet]], you’ll need one of the supported [[EthernetCards]] and the correct Ethernet Drivers (see [Chuma Driver downloads](http://www.chuma.org/newton/ethernet)) for this card.
 
-!!Installing NIE 2.0:%%%
+## Installing NIE 2.0:%%%
 
 __The official version:__%%%
-*Use any Newton package installation program (e.g. NewtonConnectionUtilities).%%%
+*Use any Newton package installation program (e.g. [[NewtonConnectionUtilities]]).%%%
 *Install the "Required Packages" first.%%%
 *Install other packages as necessary (see the sub-folders).%%%
 *If you install ethernet support, it is important that you install the "NEWTDEV.PKG" before you install the Farallon driver.%%%
@@ -54,7 +35,7 @@ __Victor's Advice:__%%%
 *Using your favourite package installer, install the packages from NIE 2.0 (Newton Internet, Newton Devices, NIE Ethernet, Internet Setup) followed by your ethernet driver(s).  I suggest you install all of these packages onto the internal store.
 *Insert your ethernet card.  Depending on your card and driver, a number of things may happen:%%%- Nothing. This is normal for the 3Com cards. %%%- A slip will appear identifying your card.  This will happen for the Farallon, TDK and ATLAN drivers.
 
-*Now open up !InternetSetup and create a new setup based on "Generic".
+*Now open up ![[InternetSetup]] and create a new setup based on "Generic".
 *Tap on the "Connect Using" picker. Choose Ethernet. Tap Continue, Give the setup a name.
 *Choose either DHCP (automatic config) or manual config.
 %%%
@@ -63,80 +44,10 @@ Now, the moment of truth ... tap on "Card".  If you see your ethernet card liste
 __Ian's Advice:__%%%
 *It was not obvious to me that the Farallon Driver is required for the 3Com Megahertz driver to work. If the Farallon driver is not installed, the 3Com cards will be available in all the configuration screens, but they will not function.  If you are experiencing troubles with the 3Com Megahertz cards, make sure you have installed the Farallon driver "farallon.pkg" from UNNA.
 
-!!Catch-22
-Many users have found it to be troublesome to load network drivers onto their Newtons. This problem is known as the bootstrapping problem, and is common enough that it is covered on the BootStrapping page.
+## Catch-22
+Many users have found it to be troublesome to load network drivers onto their Newtons. This problem is known as the bootstrapping problem, and is common enough that it is covered on the [[BootStrapping]] page.
 ----
-InterNet %%%
-EtherNet %%%
-EthernetCards %%%
-HardWare %%%
-
---=_multipart_boundary_5
-Content-Type: application/x-phpwiki;
-  pagename=EthernetDrivers;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1130930953;
-  created=1162993536;
-  author_id=212.149.48.43;
-  summary=DJV%3A%20Fixed%20typo;
-  hits=6191;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-!!About
-Drivers allow an operating system to access and control physical devices. To use EthernetCards, your Newton will need to be loaded with driver files. These files contain the instruction the OS needs to handle various devices. Depending on your card, you will need to install several small modules.
-----
-!!Which Cards?
-*see EthernetCards
-
-!!Which Files?
-
-Required Packages
-*INETSTUP.PKG
-*INETENBL.PKG (NewtonInternetEnabler)
-
-Modem-Serial Support
-*MODMSUP.PKG
-*ISPTMPLT.PKG
-
-LocalTalk Support
-*LOCTSUP.PKG
-
-Ethernet Support
-*NEWTDEV.PKG
-*ENETSUP.PKG
-*NOTE:  To use EtherNet, you’ll need one of the supported EthernetCards and the correct Ethernet Drivers (see [Chuma Driver downloads| http://www.chuma.org/newton/ethernet]) for this card.
-
-!!Installing NIE 2.0:%%%
-
-__The official version:__%%%
-*Use any Newton package installation program (e.g. NewtonConnectionUtilities).%%%
-*Install the "Required Packages" first.%%%
-*Install other packages as necessary (see the sub-folders).%%%
-*If you install ethernet support, it is important that you install the "NEWTDEV.PKG" before you install the Farallon driver.%%%
-
-__Victor's Advice:__%%%
-*I suggest removing your ethernet card or modem before installing any packages.
-*Using your favourite package installer, install the packages from NIE 2.0 (Newton Internet, Newton Devices, NIE Ethernet, Internet Setup) followed by your ethernet driver(s).  I suggest you install all of these packages onto the internal store.
-*Insert your ethernet card.  Depending on your card and driver, a number of things may happen:%%%- Nothing. This is normal for the 3Com cards. %%%- A slip will appear identifying your card.  This will happen for the Farallon, TDK and ATLAN drivers.
-
-*Now open up !InternetSetup and create a new setup based on "Generic".
-*Tap on the "Connect Using" picker. Choose Ethernet. Tap Continue, Give the setup a name.
-*Choose either DHCP (automatic config) or manual config.
-%%%
-Now, the moment of truth ... tap on "Card".  If you see your ethernet card listed, congrats!  You've successfully installed ethernet support!  Select your card and finish the setup. If you only see one or none of the above, you probably forgot to install a package. Go back and make sure they're all there.
-
-__Ian's Advice:__%%%
-*It was not obvious to me that the Farallon Driver is required for the 3Com Megahertz driver to work. If the Farallon driver is not installed, the 3Com cards will be available in all the configuration screens, but they will not function.  If you are experiencing troubles with the 3Com Megahertz cards, make sure you have installed the Farallon driver "farallon.pkg" from UNNA.
-
-!!Catch-22
-Many users have found it to be troublesome to load network drivers onto their Newtons. This problem is known as the bootstrapping problem, and is common enough that it is covered on the BootStrapping page.
-----
-InterNet %%%
-EtherNet %%%
-EthernetCards %%%
-HardWare %%%
-
---=_multipart_boundary_5--
+[[InterNet]] %%%
+[[EtherNet]] %%%
+[[EthernetCards]] %%%
+[[HardWare]] %%%

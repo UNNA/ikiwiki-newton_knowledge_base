@@ -1,34 +1,18 @@
-Date: Mon, 1 Aug 2005 06:02:09 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=BlueTooth;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1122890529;
-  created=1122890529;
-  author_id=212.149.48.43;
-  markup=2;
-  summary=DJV%3A%20Added%20Breadcrumbs%20and%20linked%20off%20UsingBluetoothIndex.;
-  hits=1313;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage: InterNet : BlueTooth%%%
-HomePage : HowTo : UsingBluetoothIndex : BlueTooth%%%
+[[HomePage]]: [[InterNet]] : [[BlueTooth]]%%%
+[[HomePage]] : [[HowTo]] : [[UsingBluetoothIndex]] : [[BlueTooth]]%%%
 ----
 
-!!Setup Newton-Webbrowsing via BT-enabled mobile phone
+## Setup Newton-Webbrowsing via BT-enabled mobile phone
 
 
 # Get the following packages (no other packages are needed! Start with the minimal set of packages and add later packages later):
-** [NIE]: Newton Devices, Newton Internet Enabler, NIE Modem & Serial Module, Internet Setup
-** [Blunt|http://www.40hz.org/Blunt/]
-** [NIENitroBlunt|http://www.40hz.org/NIENitroBlunt/]
-# After installing the packages, make sure that the "Connect using: Bluetooth" option is available when creating a new Internet setup. Note that NIENitroBlunt waits for twenty seconds before patching [NIE] to enable Bluetooth for PPP! There is no restriction where the packages are installed, internal or card as storage are fine.
+** [[NIE]]: Newton Devices, Newton Internet Enabler, NIE Modem & Serial Module, Internet Setup
+** [Blunt](http://www.40hz.org/Blunt/)
+** [NIENitroBlunt](http://www.40hz.org/NIENitroBlunt/)
+# After installing the packages, make sure that the "Connect using: Bluetooth" option is available when creating a new Internet setup. Note that NIENitroBlunt waits for twenty seconds before patching [[NIE]] to enable Bluetooth for PPP! There is no restriction where the packages are installed, internal or card as storage are fine.
 # In addition to that, the following packages are recommended, but not essential for PPP:
-** [Neo|http://www.40hz.org/Neo/] for [OBEX] connections
-** [IC/VC|http://40hz.org/ICVC] to [PutAway] downloaded or received items
+** [Neo](http://www.40hz.org/Neo/] for [[OBEX]) connections
+** [IC/VC](http://40hz.org/ICVC] to [[PutAway]) downloaded or received items
 # Discover your phone
 # Create a new Generic Internet Setup with the following characteristics:
 ** Connect using: Bluetooth
@@ -79,9 +63,9 @@ HomePage : HowTo : UsingBluetoothIndex : BlueTooth%%%
 # Choose the new T-Mobile GPRS connection, and choose your phone as peer
 # Should be it!
 ----
-!See also:
+# See also:
 
-*UsingBluetoothIndex for all matters Bluetooth and Newton
+*[[UsingBluetoothIndex]] for all matters Bluetooth and Newton
 ----
-HomePage: InterNet : BlueTooth%%%
-HomePage : HowTo : UsingBluetoothIndex : BlueTooth
+[[HomePage]]: [[InterNet]] : [[BlueTooth]]%%%
+[[HomePage]] : [[HowTo]] : [[UsingBluetoothIndex]] : [[BlueTooth]]

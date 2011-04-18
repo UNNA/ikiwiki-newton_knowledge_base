@@ -1,31 +1,11 @@
-Date: Sun, 11 Feb 2007 23:00:52 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_18"
-
---=_multipart_boundary_18
-Content-Type: application/x-phpwiki;
-  pagename=MacOSXConnection;
-  flags="";
-  author=bklang;
-  version=2;
-  lastmodified=1171252852;
-  created=1171252852;
-  author_id=bklang;
-  markup=2;
-  summary=Add%20NCX%20link;
-  hits=8308;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 OS X native software is under development by some sources. Apple has never released any Mac OS X native software or UNIX software for the Newton. All OS X software is being developed by Third Parties.
 
-!!Hardware
+## Hardware
 
 The Newton has the following methods of connecting to other computers or the Internet:
 
-* Serial Port, via the InterConnectPort and an InterConnectDongle
-* !InfraRed Port
+* Serial Port, via the [[InterConnectPort]] and an [[InterConnectDongle]]
+* ![[InfraRed]] Port
 * Ethernet via PCMCIA card (PCCard) (*)
 * Wireless Ethernet (WI-FI) via PCMCIA card (*)
 * Modem via PCMCIA card or Serial Port (*)
@@ -34,129 +14,50 @@ The Newton has the following methods of connecting to other computers or the Int
 
 __Package transfers to a Completely Reset Newton:__
 
-A Newton has the following connections supported after a complete BrainWipe:
+A Newton has the following connections supported after a complete [[BrainWipe]]:
 
-* Serial Ports: Since most OS X capable machines lack serial ports, you will have to invest in a USB to Serial adapter to use this hardware. You will also need an InterConnectDongle.
-* IrDA: use an !InfraRed (IrDA) capable Powerbook, or use a USB to IrDA adapter on a Mac without built-in IrDA (you won't be able to use any native MacOS X application for that transfer and you might actually need to reboot on MacOS 9 to use Jerome Vernet's [IrDAPackageInstaller]).
-* PCMCIA Linear Flash Card: From someone in the Newton community, get a Linear Flash Card that has the additional drivers and software you need. You will want to transfer the driver packages and probably the NewtonInternetEnabler (NIE) pkgs. People on the !NewtonTalk list are willing to do this for the cost of shipping.
+* Serial Ports: Since most OS X capable machines lack serial ports, you will have to invest in a USB to Serial adapter to use this hardware. You will also need an [[InterConnectDongle]].
+* [[IrDA]]: use an ![[InfraRed]] ([[IrDA]]) capable Powerbook, or use a USB to [[IrDA]] adapter on a Mac without built-in [[IrDA]] (you won't be able to use any native [[MacOS]] X application for that transfer and you might actually need to reboot on [[MacOS]] 9 to use Jerome Vernet's [[IrDAPackageInstaller]]).
+* PCMCIA Linear Flash Card: From someone in the Newton community, get a Linear Flash Card that has the additional drivers and software you need. You will want to transfer the driver packages and probably the [[NewtonInternetEnabler]] (NIE) pkgs. People on the ![[NewtonTalk]] list are willing to do this for the cost of shipping.
 
 __Package transfers to a Newton that has additional drivers on it:__
 
-Use the methods listed above or use EtherNet or AirPort. To use EtherNet, remember that you have to install EtherNet drivers on the Newton first, if they aren't already there. To use an Internet connection to transfer packages (Via e-mail or via a Web Browser) you will also need the NewtonInternetEnabler (NIE) pkgs.
+Use the methods listed above or use [[EtherNet]] or [[AirPort]]. To use [[EtherNet]], remember that you have to install [[EtherNet]] drivers on the Newton first, if they aren't already there. To use an Internet connection to transfer packages (Via e-mail or via a Web Browser) you will also need the [[NewtonInternetEnabler]] (NIE) pkgs.
 
-!!Package Transfer Software
+## Package Transfer Software
 
-!In Classic
-* NewtonConnectionUtilities (From Apple)
-* NewtonBackupUtility (From Apple)
-* NewtonPackageInstaller (From Apple)
+# In Classic
+* [[NewtonConnectionUtilities]] (From Apple)
+* [[NewtonBackupUtility]] (From Apple)
+* [[NewtonPackageInstaller]] (From Apple)
 
-All of the above run under OS X, but in Classic mode. You must have Classic installed, and both OS X and Classic configured to use AppleTalk properly.
+All of the above run under OS X, but in Classic mode. You must have Classic installed, and both OS X and Classic configured to use [[AppleTalk]] properly.
 
-!Native
+# Native
 There are also some OS X native package installation utils:
 
-* [NewTen|http://www.panic.com/~stevenf/index.php?node=NewTen] is a serial-only package installer.
-* [PkgInstall-OSX|http://anrp.irulethe.net/newton/] is a TCP/IP based package installer, that uses the TCP/IP Dock transport from the [DILTester|http://www.tempel.org/newton/#DILplugin]. Note: The transport must be installed on the Newton before this can be used. This software supports Ethernet and Wi-Fi connections. It is run from the Command Line (Terminal)  (*)
-* [Delivery|http://www.kallisys.com/newton/dcl/] is a DesktopConnectionLibrary-based TCP/IP, Rendezvous and AppleTalk package installer (uses [DILTester|http://www.tempel.org/newton/#DILplugin] Dock transport or the provided TCP/IP Dock Transport)
-* E-mail with Enroute or !SimpleMail over Ethernet or Wi-Fi (*)
-* Via Web using NetHopper or NewtsCape or LunaSuite over Ethernet or Wi-Fi (*)
+* [NewTen](http://www.panic.com/~stevenf/index.php?node=NewTen) is a serial-only package installer.
+* [PkgInstall-OSX|http://anrp.irulethe.net/newton/] is a TCP/IP based package installer, that uses the TCP/IP Dock transport from the [DILTester](http://www.tempel.org/newton/#DILplugin). Note: The transport must be installed on the Newton before this can be used. This software supports Ethernet and Wi-Fi connections. It is run from the Command Line (Terminal)  (*)
+* [Delivery|http://www.kallisys.com/newton/dcl/] is a [[DesktopConnectionLibrary]]-based TCP/IP, Rendezvous and [[AppleTalk]] package installer (uses [DILTester](http://www.tempel.org/newton/#DILplugin) Dock transport or the provided TCP/IP Dock Transport)
+* E-mail with Enroute or ![[SimpleMail]] over Ethernet or Wi-Fi (*)
+* Via Web using [[NetHopper]] or [[NewtsCape]] or [[LunaSuite]] over Ethernet or Wi-Fi (*)
 
 (The * means that this method requires software to be installed on the Newton.)
 
-!!Information Synchronization Software
+## Information Synchronization Software
 
 Known OS X native connection/synchronization utils:
 
-* NewtSync is a OS X Jaguar (10.2+) sync tool that boasts a plugin-style architecture.  It currently supports syncing Dates and Names from the Newton, and looks very promising.  It is capable of using both Serial and TCP/IP connections. There are also some additional 3rd-party plugins for NewtSync that lets you sync todos, notes, and other things.
-* [Escale|http://www.kallisys.com/newton/dcl/] is another DesktopConnectionLibrary-based application. It provides Package Installation, Keyboard use and Synchronization.
-* [NCX|http://homepage.mac.com/simonbell/connection/] is a rewrite of the Newton Connection Utilities for OS X.  Created by Simon Bell, it is currently capable of backups and package installation with the ultimate goal of full data synchronization.
-* AbiWord is an open source multiplatform word processor that reads and write Word, WordPerfect, rtf, html, etc. Providing Newton-plugins for the desktop app could improve exchangeability of Newton-generated data with Windows/Unix/Linux/MacOSX-users of AbiWord. / Porting a slimmed down AbiWord to NewtonOS would teach the Newton all these formats and make exchange of documents with Windows/Unix/Linux/MacOSX-users of any word processor a snap. (*)
+* [[NewtSync]] is a OS X Jaguar (10.2+) sync tool that boasts a plugin-style architecture.  It currently supports syncing Dates and Names from the Newton, and looks very promising.  It is capable of using both Serial and TCP/IP connections. There are also some additional 3rd-party plugins for [[NewtSync]] that lets you sync todos, notes, and other things.
+* [Escale](http://www.kallisys.com/newton/dcl/] is another [[DesktopConnectionLibrary])-based application. It provides Package Installation, Keyboard use and Synchronization.
+* [NCX](http://homepage.mac.com/simonbell/connection/) is a rewrite of the Newton Connection Utilities for OS X.  Created by Simon Bell, it is currently capable of backups and package installation with the ultimate goal of full data synchronization.
+* [[AbiWord]] is an open source multiplatform word processor that reads and write Word, [[WordPerfect]], rtf, html, etc. Providing Newton-plugins for the desktop app could improve exchangeability of Newton-generated data with Windows/Unix/Linux/[[MacOSX]]-users of [[AbiWord]]. / Porting a slimmed down [[AbiWord]] to [[NewtonOS]] would teach the Newton all these formats and make exchange of documents with Windows/Unix/Linux/[[MacOSX]]-users of any word processor a snap. (*)
 
 (The * means that this method requires software to be installed on the Newton.)
 ----
 __See also:__
-[230KSerialConnection]
+[[230KSerialConnection]]
 
 %%%
 ----
-HomePage : [MacOSConnection] : [MacOSXConnection]
-
---=_multipart_boundary_18
-Content-Type: application/x-phpwiki;
-  pagename=MacOSXConnection;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1114442100;
-  created=1171252852;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=8308;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-OS X native software is under development by some sources. Apple has never released any Mac OS X native software or UNIX software for the Newton. All OS X software is being developed by Third Parties.
-
-!!Hardware
-
-The Newton has the following methods of connecting to other computers or the Internet:
-
-* Serial Port, via the InterConnectPort and an InterConnectDongle
-* !InfraRed Port
-* Ethernet via PCMCIA card (PCCard) (*)
-* Wireless Ethernet (WI-FI) via PCMCIA card (*)
-* Modem via PCMCIA card or Serial Port (*)
-
-(The * means that using this method requires software to be installed on the Newton.)
-
-__Package transfers to a Completely Reset Newton:__
-
-A Newton has the following connections supported after a complete BrainWipe:
-
-* Serial Ports: Since most OS X capable machines lack serial ports, you will have to invest in a USB to Serial adapter to use this hardware. You will also need an InterConnectDongle.
-* IrDA: use an !InfraRed (IrDA) capable Powerbook, or use a USB to IrDA adapter on a Mac without built-in IrDA (you won't be able to use any native MacOS X application for that transfer and you might actually need to reboot on MacOS 9 to use Jerome Vernet's [IrDAPackageInstaller]).
-* PCMCIA Linear Flash Card: From someone in the Newton community, get a Linear Flash Card that has the additional drivers and software you need. You will want to transfer the driver packages and probably the NewtonInternetEnabler (NIE) pkgs. People on the !NewtonTalk list are willing to do this for the cost of shipping.
-
-__Package transfers to a Newton that has additional drivers on it:__
-
-Use the methods listed above or use EtherNet or AirPort. To use EtherNet, remember that you have to install EtherNet drivers on the Newton first, if they aren't already there. To use an Internet connection to transfer packages (Via e-mail or via a Web Browser) you will also need the NewtonInternetEnabler (NIE) pkgs.
-
-!!Package Transfer Software
-
-!In Classic
-* NewtonConnectionUtilities (From Apple)
-* NewtonBackupUtility (From Apple)
-* NewtonPackageInstaller (From Apple)
-
-All of the above run under OS X, but in Classic mode. You must have Classic installed, and both OS X and Classic configured to use AppleTalk properly.
-
-!Native
-There are also some OS X native package installation utils:
-
-* [NewTen|http://www.panic.com/~stevenf/index.php?node=NewTen] is a serial-only package installer.
-* [PkgInstall-OSX|http://anrp.irulethe.net/newton/] is a TCP/IP based package installer, that uses the TCP/IP Dock transport from the [DILTester|http://www.tempel.org/newton/#DILplugin]. Note: The transport must be installed on the Newton before this can be used. This software supports Ethernet and Wi-Fi connections. It is run from the Command Line (Terminal)  (*)
-* [Delivery|http://www.kallisys.com/newton/dcl/] is a DesktopConnectionLibrary-based TCP/IP, Rendezvous and AppleTalk package installer (uses [DILTester|http://www.tempel.org/newton/#DILplugin] Dock transport or the provided TCP/IP Dock Transport)
-* E-mail with Enroute or !SimpleMail over Ethernet or Wi-Fi (*)
-* Via Web using NetHopper or NewtsCape or LunaSuite over Ethernet or Wi-Fi (*)
-
-(The * means that this method requires software to be installed on the Newton.)
-
-!!Information Synchronization Software
-
-Known OS X native connection/synchronization utils:
-
-* NewtSync is a OS X Jaguar (10.2+) sync tool that boasts a plugin-style architecture.  It currently supports syncing Dates and Names from the Newton, and looks very promising.  It is capable of using both Serial and TCP/IP connections. There are also some additional 3rd-party plugins for NewtSync that lets you sync todos, notes, and other things.
-* [Escale|http://www.kallisys.com/newton/dcl/] is another DesktopConnectionLibrary-based application. It provides Package Installation, Keyboard use and Synchronization.
-* AbiWord is an open source multiplatform word processor that reads and write Word, WordPerfect, rtf, html, etc. Providing Newton-plugins for the desktop app could improve exchangeability of Newton-generated data with Windows/Unix/Linux/MacOSX-users of AbiWord. / Porting a slimmed down AbiWord to NewtonOS would teach the Newton all these formats and make exchange of documents with Windows/Unix/Linux/MacOSX-users of any word processor a snap. (*)
-
-(The * means that this method requires software to be installed on the Newton.)
-----
-__See also:__
-[230KSerialConnection]
-
-%%%
-----
-HomePage : [MacOSConnection] : [MacOSXConnection]
-
---=_multipart_boundary_18--
+[[HomePage]] : [[MacOSConnection]] : [[MacOSXConnection]]

@@ -1,21 +1,7 @@
-Date: Sun, 13 Jun 2004 14:21:10 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=AirPort;
-  flags="";
-  author=24.156.127.194;
-  version=1;
-  lastmodified=1087150870;
-  created=1087150870;
-  author_id=24.156.127.194;
-  hits=1128;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+[[AirPort]] is Apple's trade name for 802.11b ([[WiFi]]) wireless ethernet standard. The [driver ](http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] from Hiroshi allows some [[WiFi]] cards to work in the Newton. [[WaveLan]) Silver cards (by Lucent or other companies) are very popular and can be found for as little as $30.
 
-AirPort is Apple's trade name for 802.11b (WiFi) wireless ethernet standard. The [driver | http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm] from Hiroshi allows some WiFi cards to work in the Newton. WaveLan Silver cards (by Lucent or other companies) are very popular and can be found for as little as $30.
+Note that Apple-branded [[AirPort]] cards (such as those made for iBooks) will NOT work in a Newton - they are not PCMCIA compatible.
 
-Note that Apple-branded AirPort cards (such as those made for iBooks) will NOT work in a Newton - they are not PCMCIA compatible.
+[[AirPortExtreme]] is available on Macs made since January 2003. This is the emerging 802.11g standard, a faster version that operates on the same frequency as 802.11b. 802.11a is not compatible with either b or g as it operates on a different frequency. The [[AirPort]] Extreme base stations support both the 'g' and the 'b' versions of the standard.
 
-AirPortExtreme is available on Macs made since January 2003. This is the emerging 802.11g standard, a faster version that operates on the same frequency as 802.11b. 802.11a is not compatible with either b or g as it operates on a different frequency. The AirPort Extreme base stations support both the 'g' and the 'b' versions of the standard.
-
-Newtons will not get much use out of 802.11g cards because they require faster connections than what the Newton's PCMCIA connection allows.
+Newtons will not get much use out of 802.11g cards because they require faster connections than what the Newton's PCMCIA connection allows.

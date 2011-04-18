@@ -1,19 +1,3 @@
-Date: Mon, 6 Nov 2006 10:17:02 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MatthiasMelcher;
-  flags="";
-  author=MatthiasMelcher;
-  version=1;
-  lastmodified=1162826222;
-  created=1162826222;
-  author_id=MatthiasMelcher;
-  markup=2;
-  summary=About%20Matthias%20Melcher;
-  hits=57;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 Software engineer and nerd, loves to hack, feels he must understand the most secret internals of his MP2100. I also know, which end of the soldering iron is hot, and I don't hesitate to use this knowledge.
 
-In real life, I am building robotic kits which also rely on PDA's or microcontrollers to walk about (http://robowerk.com).
+In real life, I am building robotic kits which also rely on PDA's or microcontrollers to walk about (http://robowerk.com).

@@ -1,18 +1,3 @@
-Date: Tue, 14 Jan 2003 13:55:12 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=CompactFlash;
-  flags="";
-  author=63.227.218.225;
-  version=1;
-  lastmodified=1042570512;
-  created=1042570512;
-  author_id=63.227.218.225;
-  markup=2;
-  hits=1165;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+Compact Flash Cards are 1.69 inches (42.8 mm) wide, 1.22 inches (31 mm) deep and .13 inches (3.3 mm) thick. Compact Flash cards are about the size of a matchbook. Epinions has a [Review of Compact Flash Cards with a picture](http://www.epinions.com/elec_Cameras-Digital-Accessories-Storage_Media_[[CompactFlashCardss]]-[[CompactFlash]]_Memory_Card).
 
-Compact Flash Cards are 1.69 inches (42.8 mm) wide, 1.22 inches (31 mm) deep and .13 inches (3.3 mm) thick. Compact Flash cards are about the size of a matchbook. Epinions has a [Review of Compact Flash Cards with a picture|http://www.epinions.com/elec_Cameras-Digital-Accessories-Storage_Media_CompactFlashCardss-CompactFlash_Memory_Card].
-
-To use these in a Newton, you will need a PcCardAdapter.
+To use these in a Newton, you will need a [[PcCardAdapter]].

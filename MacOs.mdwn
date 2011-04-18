@@ -1,16 +1,1 @@
-Date: Sun, 11 Sep 2005 14:32:35 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MacOs;
-  flags="";
-  author=83.114.138.145;
-  version=1;
-  lastmodified=1126463555;
-  created=1126463555;
-  author_id=83.114.138.145;
-  markup=2;
-  hits=74;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-MacOs is the operating system for macintosh (tm) systems.
+[[MacOs]] is the operating system for macintosh (tm) systems.

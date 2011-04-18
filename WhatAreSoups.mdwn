@@ -1,17 +1,3 @@
-Date: Wed, 23 Jun 2004 15:15:14 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=WhatAreSoups;
-  flags="";
-  author=212.242.203.228;
-  version=1;
-  lastmodified=1088018114;
-  created=1088018114;
-  author_id=212.242.203.228;
-  hits=2047;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 Lifted from a NTLK post by Richard Davis:%%%
 
 ...a few observations about Newton Soups:%%%
@@ -75,7 +61,7 @@ information systems design.%%%
 Now, dropping down a level, just briefly.....%%%
 
 Newton long-term storage is really NAMED long term system storage, something
-that is NOT true in classical systems like Windows, UNIX, and MacOS.%%%
+that is NOT true in classical systems like Windows, UNIX, and [[MacOS]].%%%
 
 What does that mean?  Well, all computer programs at some point operate not
 on data per se, but operate on NAMES that are bound to data.  The power of
@@ -95,7 +81,7 @@ program itself does not have to change.%%%
 
 Now, in classical programs using classical directory storage, these
 assignments of NAMES to DATA do not PERSIST after the program that initially
-makes the assignments has been terminated.  In Windows, UNIX and MacOS, the
+makes the assignments has been terminated.  In Windows, UNIX and [[MacOS]], the
 associations of names with data do not persist in long-term system storage.
 Every time a Windows program wants to print out the data value of the NAME
 "ALPHA", the program has to resurrect the whole process of assignment of the
@@ -130,4 +116,4 @@ Richard.%%%
 
 --
 Richard Davis%%%
-Mformation SYStems Company%%%
+Mformation SYStems Company%%%

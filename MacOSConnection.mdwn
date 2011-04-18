@@ -1,33 +1,18 @@
-Date: Sun, 12 Jun 2005 04:05:29 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MacOSConnection;
-  flags="";
-  author=84.178.155.72;
-  version=1;
-  lastmodified=1118563529;
-  created=1118563529;
-  author_id=84.178.155.72;
-  markup=2;
-  hits=7359;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 Mac OS connections can be considered in two categories:
 
-* OS X: [MacOSXConnection] with Native and Classic software
-* OS 9, 8 and 7: [MacOS987Connection]
+* OS X: [[MacOSXConnection]] with Native and Classic software
+* OS 9, 8 and 7: [[MacOS987Connection]]
 
 ----
 
-''Please note:'' the term __Classic__ is used to talk about the Classic Application environment that is available in Mac OS X. The term Classic should not be used to refer to Mac OS 9, Mac OS 8 or System 7. For the purposed of this documentation we should refer to this as ''Mac OS 987'' or some other term to denote the older system releases.
+_Please note:'' the term __Classic__ is used to talk about the Classic Application environment that is available in Mac OS X. The term Classic should not be used to refer to Mac OS 9, Mac OS 8 or System 7. For the purposed of this documentation we should refer to this as ''Mac OS 987_ or some other term to denote the older system releases.
 
-''The reasons for this'' are based on the fact that there are significant hurdles that vary widely when it comes to connection and synchronization issues in each of the three environments: Mac OS X, Classic (running on top of MacOS X), and Mac OS 9, 8 and 7. Each one of these environments has specific methods for troubleshooting, specific applications that can be run, and specific needs to be met.
+_The reasons for this_ are based on the fact that there are significant hurdles that vary widely when it comes to connection and synchronization issues in each of the three environments: Mac OS X, Classic (running on top of [[MacOS]] X), and Mac OS 9, 8 and 7. Each one of these environments has specific methods for troubleshooting, specific applications that can be run, and specific needs to be met.
 
-(Side note: I (RossOlson) chose the term MacOS987 because I think that more people might use search engines to look for MacOS9 more often than MacOS8 or MacOS7. Hence the term MacOS987. If you have an alternative, please post it and we'll see if it works better and then update the wikipages to use that term.)
+(Side note: I ([[RossOlson]]) chose the term MacOS987 because I think that more people might use search engines to look for MacOS9 more often than MacOS8 or MacOS7. Hence the term MacOS987. If you have an alternative, please post it and we'll see if it works better and then update the wikipages to use that term.)
 
 ----
-!See also:
-*[NewtonConnectivityCD] gives a good collection of connectivity tools for all platforms. A software archive with all freely distributable apps is linked to.
+# See also:
+*[[NewtonConnectivityCD]] gives a good collection of connectivity tools for all platforms. A software archive with all freely distributable apps is linked to.
 ----
-HomePage : [MacOSConnection]
+[[HomePage]] : [[MacOSConnection]]

@@ -1,22 +1,8 @@
-Date: Mon, 19 Jul 2004 10:38:30 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=WifiConnection;
-  flags="";
-  author=212.242.203.228;
-  version=1;
-  lastmodified=1090247910;
-  created=1090247910;
-  author_id=212.242.203.228;
-  hits=265;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 From an NTLK post by Simon Stapelton:%%%
 
 Here's my setup, which uses a direct tcp airport connection, rather than appletalk, and seems to work rather well. %%%
 
-''Powerbook''%%%
+_Powerbook_%%%
 The powerbook is set up to provide a computer-computer network. %%%
 Powerbook's IP on airport is 192.168.1.3, %%%
 subnet mask 255.255.255.0, %%%
@@ -24,8 +10,8 @@ router 192.168.1.3 (machine routes ip using brickwall). %%%
 Appletalk is off on airport. %%%
 'by default join' is set to automatic. %%%
 
-''Newton''%%%
-Newt has Paul's TCP/IP [dock module |http://www.kallisys.com/newton/dcl/en] installed. %%%
+_Newton_%%%
+Newt has Paul's TCP/IP [dock module ](http://www.kallisys.com/newton/dcl/en) installed. %%%
 Worksite wavelan setup in infrastructure mode, no WEP, no roaming, no power management. %%%
 Worksite internet setup uses manual configuration using the wavelan card, subnet 255.255.255.0, ip 192.168.1.64, gateway 192.168.1.3, dns
 and domain as per my ISP. %%%
@@ -35,4 +21,4 @@ When I insert the card in the newt, I uncheck 'use for appletalk' %%%
 Dock setup as follows: manual settings, connect to 192.168.1.3 port 3679. I could probably zeroconf here, but I've not been able to find the magic incantation to make that work. %%%
 
 
-It's rare that the connection times out.
+It's rare that the connection times out.

@@ -1,16 +1,1 @@
-Date: Thu, 1 Apr 2004 11:01:41 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=LifeSim;
-  flags="";
-  author=198.110.192.97;
-  version=1;
-  lastmodified=1080835301;
-  created=1080835301;
-  author_id=198.110.192.97;
-  markup=2;
-  hits=180;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-Simulates some kind of life, such as bacterial growth or populations in a community.
+Simulates some kind of life, such as bacterial growth or populations in a community.

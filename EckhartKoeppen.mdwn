@@ -1,62 +1,8 @@
-Date: Mon, 5 Jun 2006 09:22:07 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_23"
-
---=_multipart_boundary_23
-Content-Type: application/x-phpwiki;
-  pagename=EckhartKoeppen;
-  flags="";
-  author=DJ%20Vollkasko;
-  version=3;
-  lastmodified=1149513727;
-  created=1149513727;
-  author_id=DJ%20Vollkasko;
-  markup=2;
-  summary=Filled%20out%20w%2F%20some%20details.;
-  hits=323;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-Eckhart is the developer of many useful Newton packages, such as The Fish (Notes encryption), Courier (text-based webbrowser) and MAD Newton (MAD-based MP3 decoder for Newton). He is best known for his work on Newton communication interfaces with  Nitro (which brings the IrCOMM Communications Protocol to Newton) and most of all Blunt, the Newton [Bluetooth] driver. As of Spring 2006, a major redesign of the Bluetooth driver is underway (Blunt 2).
+Eckhart is the developer of many useful Newton packages, such as The Fish (Notes encryption), Courier (text-based webbrowser) and MAD Newton (MAD-based MP3 decoder for Newton). He is best known for his work on Newton communication interfaces with  Nitro (which brings the [[IrCOMM]] Communications Protocol to Newton) and most of all Blunt, the Newton [[Bluetooth]] driver. As of Spring 2006, a major redesign of the Bluetooth driver is underway (Blunt 2).
 
 His software is open source (GPL- or LGPL-licensed) and available with source code from his website 40Hz.org.
 
-You can follow the progress of Eckhart's projects at his [web log|http://www.40hz.org/mottek/].
+You can follow the progress of Eckhart's projects at his [web log](http://www.40hz.org/mottek/).
 
 ----
-See also [40Hz|http://www.40Hz.org].
-
---=_multipart_boundary_23
-Content-Type: application/x-phpwiki;
-  pagename=EckhartKoeppen;
-  flags="";
-  author=EckhartKoppen;
-  version=2;
-  lastmodified=1149454491;
-  created=1149513727;
-  author_id=EckhartKoppen;
-  markup=2;
-  hits=323;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-See also [40Hz].
-
---=_multipart_boundary_23
-Content-Type: application/x-phpwiki;
-  pagename=EckhartKoeppen;
-  flags="";
-  author=EckhartKoppen;
-  version=1;
-  lastmodified=1149454472;
-  created=1149454491;
-  author_id=EckhartKoppen;
-  markup=2;
-  hits=323;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-See also [Eckhart Köppen].
-
---=_multipart_boundary_23--
+See also [40Hz](http://www.40Hz.org).

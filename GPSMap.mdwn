@@ -1,23 +1,8 @@
-Date: Fri, 6 May 2005 17:57:35 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=GPSMap;
-  flags="";
-  author=84.178.147.246;
-  version=1;
-  lastmodified=1115416655;
-  created=1115416655;
-  author_id=84.178.147.246;
-  markup=2;
-  hits=1633;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : [GPSOnNewton] : [GPSMap]%%%
-HomePage : HardWare : [GPSOnNewton] : [GPSMap]%%%
+[[HomePage]] : [[HowTo]] : [[GPSOnNewton]] : [[GPSMap]]%%%
+[[HomePage]] : [[HardWare]] : [[GPSOnNewton]] : [[GPSMap]]%%%
 ----
 
-!!!GPS Map
+### GPS Map
 
 __Moving Map Application by Gerd Staudenmaier, Germany__%%%
 
@@ -25,27 +10,27 @@ __Released as Freeware__%%%
 
 
 %%%
-*[Mirror of GPS Map website|http://mirrors.unna.org/www.soaring.de/gps]
+*[Mirror of GPS Map website](http://mirrors.unna.org/www.soaring.de/gps)
 *GPS Map for NOS 2.x
-**[GPS Map v2.1|http://www.unna.org/view.php?/applications/GPSMap2.1] -- Very powerful moving map system.
-***"GPS Map 2.0 runs only on Newtons running OS version 2.0 or 2.1. It is highly optimized for the MessagePad 2x00 family, although it should also run on MessagePad 130. The (upgraded) MessagePad 120 has too little heap space for running the 2.0 version. Use the 1.x version instead." (From the [Version 2.0 Supplement Manual|http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%202.1%20(Full%20Version,%20NOS%202.x))/GM20SUP.PDF])
-**[GPS Monitor 2.0b9|http://www.unna.org/unna/applications/GPSMonitor2.0b9/] -- checks GPS receivers for compatibility with GPS Map and GPS Map Lite. Many options (e.g. see communication from receiver, copy to clipboard, etc.).
+**[GPS Map v2.1](http://www.unna.org/view.php?/applications/GPSMap2.1) -- Very powerful moving map system.
+***"GPS Map 2.0 runs only on Newtons running OS version 2.0 or 2.1. It is highly optimized for the [[MessagePad]] 2x00 family, although it should also run on [[MessagePad]] 130. The (upgraded) [[MessagePad]] 120 has too little heap space for running the 2.0 version. Use the 1.x version instead." (From the [Version 2.0 Supplement Manual](http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%202.1%20(Full%20Version,%20NOS%202.x))/GM20SUP.PDF))
+**[GPS Monitor 2.0b9](http://www.unna.org/unna/applications/GPSMonitor2.0b9/) -- checks GPS receivers for compatibility with GPS Map and GPS Map Lite. Many options (e.g. see communication from receiver, copy to clipboard, etc.).
 *GPS Map for NOS 1.x
-**[GPS Map Lite v1.29|http://mirrors.unna.org/www.soaring.de/gps/gmlt129.sit]
-**[GPS Map Tools 1.0|http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%20Tools%201.0%20(NOS%201.x%20only)/] (for GPS Map 1.x and GPS Map Lite 1.x)
-*[Map Preparation Package 1.5 (Win & Mac)|http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/Map%20Preparation%20Package%201.5%20(Win%20&%20Mac)]
+**[GPS Map Lite v1.29](http://mirrors.unna.org/www.soaring.de/gps/gmlt129.sit)
+**[GPS Map Tools 1.0](http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%20Tools%201.0%20(NOS%201.x%20only)/) (for GPS Map 1.x and GPS Map Lite 1.x)
+*[Map Preparation Package 1.5 (Win & Mac)](http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/Map%20Preparation%20Package%201.5%20(Win%20&%20Mac))
 
 
-!!How to make your own GPS maps
+## How to make your own GPS maps
 
-* See the __Complete Moron's Manual(TM) to [GPSMapMaking]__ (if a moron can, so can you)
-* __GPS Map [Map-Making Support|http://mirrors.unna.org/www.soaring.de/gps/Maps_e.html]__ by Gerd Staudenmaier.
-* See also Dr. Michael Briley's excellent __[Making Newton GPSMaps|http://www.phys.uwosh.edu/mike/newt-maps.html]__ (hey, if an astrophysicist can, so can ''you'', too! ;=} )
+* See the __Complete Moron's Manual(TM) to [[GPSMapMaking]]__ (if a moron can, so can you)
+* __GPS Map [Map-Making Support](http://mirrors.unna.org/www.soaring.de/gps/Maps_e.html)__ by Gerd Staudenmaier.
+* See also Dr. Michael Briley's excellent __[Making Newton GPSMaps](http://www.phys.uwosh.edu/mike/newt-maps.html)__ (hey, if an astrophysicist can, so can _you_, too! ;=} )
 
 
-!!GPS Map FAQ
+## GPS Map FAQ
 
-__Note:__ Application- or hardware-specific questions may also be answered on the respective Wiki page, e.g. NewtNav, [TeleTypeGPS],...
+__Note:__ Application- or hardware-specific questions may also be answered on the respective Wiki page, e.g. [[NewtNav]], [[TeleTypeGPS]],...
 
 *Q: My GPS receiver sends a lot of different sentences. Are these all necessary?%%%
 *A: "The Newton CPU performance was quite limited and so all applications had trouble with decoding NMEA sentences, if the GPS device sends a lot of them without gaps between. Especially Garmin receivers tend to overload GPS Map with lots of useless NMEA sentences.
@@ -56,37 +41,37 @@ __Note:__ Application- or hardware-specific questions may also be answered on th
 %%%
 *Q: Which GPS device (GPS receiver, GPS antenna) works with GPS Map?%%%
 *A: "In principle any GPS will do, as long as it gives you the data on a serial port in the NMEA format (4800 Baud, 8, N, 1). Nice to have would be RS232 output (a bare GPS receiver board has mostly only TTL output which has to be transformed into RS232 by a level shifter) and a battery buffered clock.%%%
-*Also nice to have is 12 channels or may be more as well as a handbook with commands, especially commands to set the position acquistion time interval. This is normally 1s but if you plan to use GPSmap it is recommended to use less frequent updates. About 2 or 5sec is already very good for GPSmap on a MP2k1. And there's another amazing thing: The memory bug -10061 might cause GPSmap to crash, if its private bug fix isn't enabled. With bug fix on GPSmap becomes as slow as it is on a MP130. But on a non-upgraded MP2000 the 61 bug doesn't exist and the bug fix must thus not be enabled and on these machines GPSmap will run on its full speed." [Marco Mailand|http://marc.theaimsgroup.com/?l=newtontalk&m=99789656411546&w=2]%%%
+*Also nice to have is 12 channels or may be more as well as a handbook with commands, especially commands to set the position acquistion time interval. This is normally 1s but if you plan to use GPSmap it is recommended to use less frequent updates. About 2 or 5sec is already very good for GPSmap on a MP2k1. And there's another amazing thing: The memory bug -10061 might cause GPSmap to crash, if its private bug fix isn't enabled. With bug fix on GPSmap becomes as slow as it is on a MP130. But on a non-upgraded MP2000 the 61 bug doesn't exist and the bug fix must thus not be enabled and on these machines GPSmap will run on its full speed." [Marco Mailand](http://marc.theaimsgroup.com/?l=newtontalk&m=99789656411546&w=2)%%%
 
 %%%
-*Q: I've written down the coordinates I saw in [NewTerm|http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%20Lite%201.2.9%20(NOS%201.x)] (like 1234.5678,N and 1234,6789,E) and tried to enter them in GPS Map's "Go to position"-popup window. This got me an "Invalid data format"-error. How can I enter these position strings?%%%
+*Q: I've written down the coordinates I saw in [NewTerm](http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%20Lite%201.2.9%20(NOS%201.x)) (like 1234.5678,N and 1234,6789,E) and tried to enter them in GPS Map's "Go to position"-popup window. This got me an "Invalid data format"-error. How can I enter these position strings?%%%
 *A: "That's NMEA format only. Please look into the GPS Map documentation for valid position entry formats." (Gerd Staudenmaier)%%%
 
 %%%
-*Q: How can I configure my GPS receiver via Init strings? Is there a difference between Init strings for NMEA and for specific chipsets (e.g. SiRF II)?
+*Q: How can I configure my GPS receiver via Init strings? Is there a difference between Init strings for NMEA and for specific chipsets (e.g. [[SiRF]] II)?
 *A: ??? No clue, all help appreciated, pls. post HERE! ???
 
 
-!!GPS Map Init Strings
+## GPS Map Init Strings
 
 __Note:__ These are Init strings taken from various sources. Some are tested, some are not -- see comments. Any additional Init strings that will work with GPS Map much appreciated.
 
 %%%
 *__Query sentences.__
 *A query sentence is a means for a listener to request a particular sentence from a talker. The general format is:
-**$ttllQ,sss,[CR][LF]
+**$ttllQ,sss,[[CR]][[LF]]
 *The first two characters of the address field are the talker identifier of the requester and the next two characters are the talker identifier of the device being queried (listener). The fifth character is always a "Q" defining the message as a query. The next field (sss) contains the three letter mnemonic of the sentence being requested. An example query sentence is:
 **$CCGPQ,GGA<CR><LF>
-*where the "CC" device (computer) is requesting from the "GP" device (a GPS unit) the "GGA" sentence. The GPS will then transmit this sentence once per second until a different query is requested." (Klaus Betke: ["The NMEA Protocol"|http://nmeatool.nmea2000.de/download/0183.pdf], 2001)
+*where the "CC" device (computer) is requesting from the "GP" device (a GPS unit) the "GGA" sentence. The GPS will then transmit this sentence once per second until a different query is requested." (Klaus Betke: ["The NMEA Protocol"](http://nmeatool.nmea2000.de/download/0183.pdf), 2001)
 
 %%%
 *"An initialisation string may be needed by some GPS receivers to enable them for outputting NMEA data. You may enter both ASCII and binary data into the input field. Each binary byte must be prefixed by a # sign, followed by two hexadecimal digits. If the # sign should occur as an ASCII character within the string you must type it twice.
-**Example 1: Entering „$ASTRAL#0D#0A“ represents the string „$ASTRAL“, followed by a return and a linefeed character as needed for initialising the TripMate active GPS antenna.%%%
+**Example 1: Entering „$ASTRAL#0D#0A“ represents the string „$ASTRAL“, followed by a return and a linefeed character as needed for initialising the [[TripMate]] active GPS antenna.%%%
 *"Please note: As it is difficult to recognise hexadecimal data (e.g. to distinguish between a O and a 0) you should use the keyboard by double-tapping into the input field instead of handwriting.%%%
-*Some receivers, e.g. the Centennial PCMCIA SatNav GPS Card offer an option for initialising them with the actual date and time for speeding up the time until getting the first fix. You may insert the strings #UD for Universal Date and #UT for Universal Time (UTC) into the initialisation string.%%%
+*Some receivers, e.g. the Centennial PCMCIA [[SatNav]] GPS Card offer an option for initialising them with the actual date and time for speeding up the time until getting the first fix. You may insert the strings #UD for Universal Date and #UT for Universal Time (UTC) into the initialisation string.%%%
 **Example 2: The string:%%%
 ***$PRWIINIT,V,A,A,,,,,,,,,,#UT,#UD#0D#0A$PRWILOG,GGA,A,5#0D#0A$PRWILOG,VTG,A,5#0D#0A%%%
-**as shown within the screen shot above will initialise the NMEA version of the Centennial PCMCIA SatNav GPS Card with date and time, and set its update rate for both the $GPGGA and $GPVTG messages to once per five seconds for reducing power consumption. If you have the binary protocol version of that card please note that you will need to install and select the special GPS driver included with this delivery!" ([Version 2.0 Supplement Manual|http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%202.1%20(Full%20Version,%20NOS%202.x))/GM20SUP.PDF])%%%
+**as shown within the screen shot above will initialise the NMEA version of the Centennial PCMCIA [[SatNav]] GPS Card with date and time, and set its update rate for both the $GPGGA and $GPVTG messages to once per five seconds for reducing power consumption. If you have the binary protocol version of that card please note that you will need to install and select the special GPS driver included with this delivery!" ([Version 2.0 Supplement Manual](http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%202.1%20(Full%20Version,%20NOS%202.x))/GM20SUP.PDF))%%%
 
 %%%
 >I tried GPS Lite, but the program is only looking for GPS...
@@ -95,36 +80,36 @@ __Note:__ These are Init strings taken from various sources. Some are tested, so
 *Try that:
 **1. Check the serial port output with the GPS monitor program.
 **2. It might be possible that the GPS dumps to much data onto the serial port and the buffer goes into overflow. Standard GPS behaviour is to send up to 7 GPS strings each second and I would recommend you to increase that to 2...5 seconds and get rid of the redundant information.
-**3. Increasing the update rate of your GPS requires bi-directional communication which I found not reliable with the Newton. Then I did it on a PEECEE with a standard terminal program (HyperTerm or Kermit).
+**3. Increasing the update rate of your GPS requires bi-directional communication which I found not reliable with the Newton. Then I did it on a PEECEE with a standard terminal program ([[HyperTerm]] or Kermit).
 **4. Send e.g. these 3 strings for a Zodiac chip set from Rockwell:
 ***$PRWIILOG,???,V,,,#0D#0A  -> (disable all output msgs)
 ***$PRWIILOG,GGA,A,T,2,0#0D#0A  -> (enable GGA string, each 2 seconds)
 ***$PRWIILOG,RMC,A,T,2,0#0D#0A  -> (enable RMC string, each 2 seconds)
 **5. You might enter these strings also into the GPSmap init string fields, but I don't know whether they will work. I had no success with my set-up/cable/GPS.
 **6. Your GPS might need completely different init strings which you should find out from the manual for the used chipset.
-**7. This "#0D#0A" means append CRLF at the end of the string or set the terminal program to append it automagically." ([Marco Mailand|http://marc.theaimsgroup.com/?l=newtontalk&m=101757171031526&w=2] 2002)%%%
+**7. This "#0D#0A" means append CRLF at the end of the string or set the terminal program to append it automagically." ([Marco Mailand](http://marc.theaimsgroup.com/?l=newtontalk&m=101757171031526&w=2) 2002)%%%
 
 
 %%%
 *__NMEA 183__
 **$PRWIINIT,V,A,A,,,,,,,,,,#UT,#UD#0D#0A
 *** ??? Funktion ???
-***Source: [Version 2.0 Supplement Manual|http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%202.1%20(Full%20Version,%20NOS%202.x))/GM20SUP.PDF]
+***Source: [Version 2.0 Supplement Manual](http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%202.1%20(Full%20Version,%20NOS%202.x))/GM20SUP.PDF)
 **$PRWILOG,GGA,A,5,#0D#0A
 *** ??? Funktion ???
-***Source: [Version 2.0 Supplement Manual|http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%202.1%20(Full%20Version,%20NOS%202.x))/GM20SUP.PDF]
+***Source: [Version 2.0 Supplement Manual](http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%202.1%20(Full%20Version,%20NOS%202.x))/GM20SUP.PDF)
 **$PRWILOG,VTG,A,5#0D#0A
 *** ??? Funktion ???
-***Source: [Version 2.0 Supplement Manual|http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%202.1%20(Full%20Version,%20NOS%202.x))/GM20SUP.PDF]
+***Source: [Version 2.0 Supplement Manual](http://www.stillnewt.org/library/_Software/_GPS%20Software/GPS%20Map/GPS%20Map%202.1%20(Full%20Version,%20NOS%202.x))/GM20SUP.PDF)
 
 
 %%%
-*__SiRF__
-** SiRF Technologies: ["SiRF Binary Protocoll Reference Manual"|http://gpsd.berlios.de/sirf_binary.pdf]
+*__[[SiRF]]__
+** [[SiRF]] Technologies: ["[[SiRF]] Binary Protocoll Reference Manual"](http://gpsd.berlios.de/sirf_binary.pdf)
 
 
 %%%
-*__DJV: Stuff I've tried that didn't convince my AQ-300 (NMEA 183, SiRF II) to work with GPS Map__
+*__DJV: Stuff I've tried that didn't convince my AQ-300 (NMEA 183, [[SiRF]] II) to work with GPS Map__
 **$CCGPQ,GGA<CR><LF>
 **$CCGPQ,VTG<CR><LF>
 ***Result: "Waiting for GPS data!", then "GPS: n/a".
@@ -140,5 +125,5 @@ __Note:__ These are Init strings taken from various sources. Some are tested, so
 ***Result: LED flashes (=has position fix); "GPS: 0" and full black bar, then "GPS: n/a".
 
 ----
-HomePage : HowTo : [GPSOnNewton] : [GPSMap]%%%
-HomePage : HardWare : [GPSOnNewton] : [GPSMap]%%%
+[[HomePage]] : [[HowTo]] : [[GPSOnNewton]] : [[GPSMap]]%%%
+[[HomePage]] : [[HardWare]] : [[GPSOnNewton]] : [[GPSMap]]%%%

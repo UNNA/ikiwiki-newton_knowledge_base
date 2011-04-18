@@ -1,32 +1,16 @@
-Date: Sat, 12 Mar 2005 02:21:33 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NewtonScript;
-  flags="";
-  author=84.178.160.43;
-  version=1;
-  lastmodified=1110612093;
-  created=1110612093;
-  author_id=84.178.160.43;
-  markup=2;
-  summary=DJV%3A%20Added%20NEWT%2F0;
-  hits=1733;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-"NewtonScript is a state-of-the-art, dynamic, object-oriented programming language, developed for the Newton platform." - ''[The NewtonScript Programming Language|http://www.unna.org/unna/apple/documentation/developer/NewtonScriptProgLanguage.pdf]'', page 1-1
+"[[NewtonScript]] is a state-of-the-art, dynamic, object-oriented programming language, developed for the Newton platform." - _[The [[NewtonScript]] Programming Language](http://www.unna.org/unna/apple/documentation/developer/[[NewtonScriptProgLanguage]].pdf)_, page 1-1
 
 
 %%%
 __More Links and Developer Documentation__
 
-[The NewtonScript Programming Language|http://web.archive.org/web/20040218051158/http://www.cc.gatech.edu/~schoedl/projects/NewtonScript/], by Arno Schoedel -- a good introduction to starters (compares NS with other programming languages)
+[The [[NewtonScript]] Programming Language](http://web.archive.org/web/20040218051158/http://www.cc.gatech.edu/~schoedl/projects/[[NewtonScript]]/), by Arno Schoedel -- a good introduction to starters (compares NS with other programming languages)
 
-[NewtonScript ByteCode|http://www.unna.org/unna/development/documentation/NSBytecode/bytecode.html] by Matthew Faupel is covering how compiled NewtonScript bytecode looks like.
+[NewtonScript ByteCode](http://www.unna.org/unna/development/documentation/NSBytecode/bytecode.html] by Matthew Faupel is covering how compiled [[NewtonScript]) bytecode looks like.
 
-[NEWT/0|http://www.so-kukan.com/gnue/archives/2005/03/newt0_009_20050.html] is an open source NewtonScript compiler and interpreter for MacOS X, Linux and Windows, released by
-MakotoNukui (aka [GNUE|mailto:gnue@so-kukan.com]). (Source: [Paul Guyot|http://marc.10east.com/?l=newtontalk&m=111055258718841&w=2] 2005)
+[NEWT/0](http://www.so-kukan.com/gnue/archives/2005/03/newt0_009_20050.html] is an open source [[NewtonScript]] compiler and interpreter for [[MacOS]) X, Linux and Windows, released by
+[[MakotoNukui]] (aka [GNUE|mailto:gnue@so-kukan.com]). (Source: [Paul Guyot](http://marc.10east.com/?l=newtontalk&m=111055258718841&w=2) 2005)
 
 %%%
 ----
-HomePage : DevelopmentResources : NewtonScript
+[[HomePage]] : [[DevelopmentResources]] : [[NewtonScript]]

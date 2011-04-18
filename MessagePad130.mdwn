@@ -1,26 +1,11 @@
-Date: Fri, 13 Aug 2004 15:20:57 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MessagePad130;
-  flags="";
-  author=199.206.254.69;
-  version=1;
-  lastmodified=1092424857;
-  created=1092424857;
-  author_id=199.206.254.69;
-  markup=2;
-  hits=1043;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+_From the Original 1996 Apple Product Announcement_ "(with credit to <http://www.msu.edu/~luckie/gallery/mp130.htm>)"
 
-_From the Original 1996 Apple Product Announcement_ "(with credit to [http://www.msu.edu/~luckie/gallery/mp130.htm])"
-
-!Description
-The MessagePad 130 personal digital assistant (PDA) makes your information as mobile as you are. It makes your information easy to communicate and easy to view. The MessagePad 130 runs the award-winning Newton 2.0 operating system, and features user-controllable back-lighting for on-demand use and a nonglare screen that works in any lighting condition. With its additional system memory, the MessagePad 130 offers improved performance with communications solutions such as Internet Protocol (IP) applications and wireless LANs, as well as improved multitasking support.
+# Description
+The [[MessagePad]] 130 personal digital assistant (PDA) makes your information as mobile as you are. It makes your information easy to communicate and easy to view. The [[MessagePad]] 130 runs the award-winning Newton 2.0 operating system, and features user-controllable back-lighting for on-demand use and a nonglare screen that works in any lighting condition. With its additional system memory, the [[MessagePad]] 130 offers improved performance with communications solutions such as Internet Protocol (IP) applications and wireless LANs, as well as improved multitasking support.
 
 It has a built-in notepad, to-do list, datebook, telephone log, and address file for organizing personal and business affairs, as well as Pocket Quicken (U.S. only) to help organize personal and business expenses. You can enter information in many ways: as digital ink, printed text, hand-drawn graphics, or with an on-screen keyboard. Improved recognition soft-ware quickly transforms your hand-writing into typed text. There's even an optional external keyboard.
 
-Pen-based navigation and data entry make finding information easy and fast. The MessagePad 130 can receive wireless messages and alphanumeric pages, and can send and receive faxes and electronic mail. It also lets you exchange information with either Mac OS- or Windows-based computers using the included Newton Backup Utility, or optional Newton Connection Utilities and Newton Press software. Your MessagePad 130 can also be customized with software applications that put critical information at your fingertips, no matter where you are.
+Pen-based navigation and data entry make finding information easy and fast. The [[MessagePad]] 130 can receive wireless messages and alphanumeric pages, and can send and receive faxes and electronic mail. It also lets you exchange information with either Mac OS- or Windows-based computers using the included Newton Backup Utility, or optional Newton Connection Utilities and Newton Press software. Your [[MessagePad]] 130 can also be customized with software applications that put critical information at your fingertips, no matter where you are.
 
 
 _Built-in organization functions:_
@@ -34,7 +19,7 @@ _Built-in organization functions:_
 *Uses an optional wired or wireless modem to send and receive faxes and electronic mail
 *Prints formatted letters and notes using Apple printers or serial or parallel printers with the optional Print Pack
 *Lets you beam notes, messages, packages, schedules, and business cards via built-in infrared communications
-*Backs up all data onto your personal computer and installs software on your MessagePad 130 using the included Newton Backup Utility
+*Backs up all data onto your personal computer and installs software on your [[MessagePad]] 130 using the included Newton Backup Utility
 
 _Expandable functions:_
 *Using the optional Newton Connection Utilities, lets you import and export infor-mation from your Mac OS- or Windows-based computer, and backs up and synchronizes files with your computer
@@ -65,7 +50,7 @@ _Intelligent Assistance Architecture:_
 *Works in and between applications
 *Supports third-party extensions
 
-_MessagePad Hardware Architecture:_
+_[[MessagePad]] Hardware Architecture:_
 *ARM 610 RISC processor at 20 MHz
 *Apple custom system ASIC
 *Low-power, transflective LCD display with EL backlight (320 by 240 pixels) 3.8 in. by 2.8 in. (9.6 cm by 7.2 cm)
@@ -73,7 +58,7 @@ _MessagePad Hardware Architecture:_
 *Telescoping pen
 *8MB of ROM; 2.5MB RAM (1,199K of system RAM; 1,361K of nonvolatile user RAM)
 *One PC Card Type II slot with 325 mA capacity
-*LocalTalk and RS-232-compatible serial port
+*[[LocalTalk]] and RS-232-compatible serial port
 *Low-power, half-duplex, infrared transceiver that works at up to 38.4 Kbits/sec within 3.28 ft. (1 m)
 *Protective, removable lid
 
@@ -102,24 +87,24 @@ _Power requirements:_
 *Power adapter
 *Universal, 100 to 240 V AC, 50/60 Hz
 *Four plug configurations: U.S., U.K., Europe, and Australia
-*Battery type: AA (LR6) alkaline or NiCd Battery Pack
+*Battery type: AA (LR6) alkaline or [[NiCd]] Battery Pack
 *Lithium cell: DL2032 (3 V nominal)
-*Built-in fast charger for optional NiCd Battery Pack
-*Power source: four AA alkaline batteries (included), optional power adapter, and *optional NiCd Rechargeable Battery Pack
+*Built-in fast charger for optional [[NiCd]] Battery Pack
+*Power source: four AA alkaline batteries (included), optional power adapter, and *optional [[NiCd]] Rechargeable Battery Pack
 
 _Computer connectivity requirements:_
 *Works with PC-compatible computers with 80386DX or later processors running Windows version 3.0 or later
 *Works with Mac OS-based computers with 68030 or later processors and system software version 7.1 or later
 *Printer support
-*Offers built-in printer support for Apple LaserWriter Plus (and other PostScript-equipped LaserWriter printers), Personal LaserWriter LS, and Personal LaserWriter 300, as well as StyleWriter I and II printers
-*Works with most popular PC printers, including the Hewlett-Packard LaserJet II DeskJet 500, Canon BubbleJet 10e, and Epson LQ and FX, using the optional Newton Print Pack
+*Offers built-in printer support for Apple [[LaserWriter]] Plus (and other [[PostScript]]-equipped [[LaserWriter]] printers), Personal [[LaserWriter]] LS, and Personal [[LaserWriter]] 300, as well as [[StyleWriter]] I and II printers
+*Works with most popular PC printers, including the Hewlett-Packard [[LaserJet]] II [[DeskJet]] 500, Canon [[BubbleJet]] 10e, and Epson LQ and FX, using the optional Newton Print Pack
 *Fax machine support
 *Supports Group 3 and Class II Fax machines
 *This service may not be available in all countries.
 
 _Accessories:_
 
-*The MessagePad 130 with Newton 2.0 operating system is compatible with most accessories available for the MessagePad 110 and MessagePad 120 with Newton 1.x or 2.0 operating system.
+*The [[MessagePad]] 130 with Newton 2.0 operating system is compatible with most accessories available for the [[MessagePad]] 110 and [[MessagePad]] 120 with Newton 1.x or 2.0 operating system.
 
 
 .

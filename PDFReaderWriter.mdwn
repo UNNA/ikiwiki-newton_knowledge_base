@@ -1,18 +1,3 @@
-Date: Thu, 1 Apr 2004 09:26:53 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=PDFReaderWriter;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1080829613;
-  created=1080829613;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=361;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 __PDF Reader/Writer (Tool)__
 
 
@@ -23,10 +8,10 @@ __Background:__ There's some stuff available to convert PDFs to Newton-friendly 
 __Benefit:__ Makes Newtons more compatible with ever-present PDF-based document workflows. Read PDFs without any conversion hustle. Create PDFs from any Newton app.
 
 __Additional Data:__
-* [Some threads|http://marc.theaimsgroup.com/?l=newtontalk&w=2&r=1&s=xpdf&q=b] at NTLK might find people well worth to talk to.
-* See [nPDF| http://dev.newtontalk.net/~martinw/Ideas%20pages/nPDF.html] at Newton's Bulb which also names a contact person for this topic.
+* [Some threads](http://marc.theaimsgroup.com/?l=newtontalk&w=2&r=1&s=xpdf&q=b) at NTLK might find people well worth to talk to.
+* See [nPDF](http://dev.newtontalk.net/~martinw/Ideas%20pages/nPDF.html) at Newton's Bulb which also names a contact person for this topic.
 * Jim Witte has also looked into this matter (http://www.ghostscript.com/pipermail/gs-devel/2002-August/001923.html).
-* [Xpdf|http://www.foolabs.com/xpdf/] is publicly available under the GNU General Public License (GPL).
+* [Xpdf](http://www.foolabs.com/xpdf/) is publicly available under the GNU General Public License (GPL).
 * Any additional input appreciated.
 
 
@@ -34,4 +19,4 @@ __Any Takers?__%%%
 %%%
 %%%
 ----
-HomePage : NewtonWishLists : SoftwareWishlist : PDFReaderWriter
+[[HomePage]] : [[NewtonWishLists]] : [[SoftwareWishlist]] : PDFReaderWriter

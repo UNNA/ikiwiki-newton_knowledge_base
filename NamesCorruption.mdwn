@@ -1,18 +1,3 @@
-Date: Sun, 20 Jun 2004 17:54:40 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NamesCorruption;
-  flags="";
-  author=ScottyTechnoir;
-  version=1;
-  lastmodified=1087768480;
-  created=1087768480;
-  author_id=69.196.225.226;
-  markup=2;
-  hits=433;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 Sometimes, 'Names' becomes corrupted. I have experienced a situation where the Notes field in Names could not be opened for editing any more (error message:  'Sorry, a problem has occurred. (View missing
 viewClass)'). With the help of an NTLK list member I managed to fix my names soup by exporting-deleting-importing it (not backup-restoring).%%%
 
@@ -24,9 +9,9 @@ I connect to my Mac via wireless. Exporting-deleting-importing results, in the d
 First do a backup of Names,  to a card, or via NCU to your Mac/PC for keeping the information in-spite-of-the-problem you might have%%%
 
 1. Export (text delimited) all Names via NCU%%%
-	If relevant, copy WEP hex key from the wireless Card Setup to notes....%%%
+If relevant, copy WEP hex key from the wireless Card Setup to notes....%%%
 2. Remove Names soup with soupKitchen.%%%
-	Everything (dock, wireless card setup, owner) now complains - must be lost owner connection%%%
+Everything (dock, wireless card setup, owner) now complains - must be lost owner connection%%%
 3. Reset Newton (owner now OK, wireless card setup accessible)%%%
 4. Fill in WEP stuff on card setup if applicable, 'cause it has disappeared...%%%
 5. Connect to NCU%%%
@@ -36,4 +21,4 @@ First do a backup of Names,  to a card, or via NCU to your Mac/PC for keeping th
 8. Tap Notes in a Name Card previously frozen with the viewClass  complaint: it opens up for editing!%%%
 
 Then:%%%
-"Also after all of this, make sure you keep that old backup from before the fix for a while.  I doubt you will need it, but if you find one important name missing somehow (again I really doubt it but better to be safe than sorry) you can backup, restore the old version with the error to get the name info, then restore your fixed version and add the missing name in question."%%%
+"Also after all of this, make sure you keep that old backup from before the fix for a while.  I doubt you will need it, but if you find one important name missing somehow (again I really doubt it but better to be safe than sorry) you can backup, restore the old version with the error to get the name info, then restore your fixed version and add the missing name in question."%%%

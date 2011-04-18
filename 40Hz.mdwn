@@ -1,16 +1,1 @@
-Date: Sat, 30 Apr 2005 15:10:07 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=40Hz;
-  flags="";
-  author=151.49.4.164;
-  version=1;
-  lastmodified=1114888207;
-  created=1114888207;
-  author_id=151.49.4.164;
-  markup=2;
-  hits=175;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-Echart Köppen [website | http://40hz.org/]
+Echart Köppen [website ](http://40hz.org/)

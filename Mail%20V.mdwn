@@ -1,97 +1,17 @@
-Date: Mon, 26 Mar 2007 12:06:57 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_50"
+# Mail V
+*Mail V* is the premiere IMAP and POP client for NOS 2.1. I highly recommend its use. You can download it [here ](http://homepage.mac.com/simonbell/mailv/product_info.html).
 
---=_multipart_boundary_50
-Content-Type: application/x-phpwiki;
-  pagename=Mail%20V;
-  flags="";
-  author=ismh;
-  version=3;
-  lastmodified=1174925217;
-  created=1174925217;
-  author_id=ismh;
-  markup=2;
-  summary=.Mac%20mail%20within%20Mail%20V;
-  hits=149;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+# Setup
+[Simon Bell's page | http://homepage.mac.com/simonbell/mailv/] also contains an excellent [manual ](http://homepage.mac.com/simonbell/mailv/MailV/[[MailVGuide]].pdf), describing how to set up the program.
 
-!Mail V
-*Mail V* is the premiere IMAP and POP client for NOS 2.1. I highly recommend its use. You can download it [here | http://homepage.mac.com/simonbell/mailv/product_info.html].
-
-!Setup
-[Simon Bell's page | http://homepage.mac.com/simonbell/mailv/] also contains an excellent [manual | http://homepage.mac.com/simonbell/mailv/MailV/MailVGuide.pdf], describing how to set up the program.
-
-!Troubleshooting Setup
-It is possible to set up Mail V incorrectly, however: the program's setup depends on the Owner Card for all of its information. The manual guides the user carefully through setting up accounts for use with Mail V on the "Email Access" slip on the Owner Card. The manual also mentions that the user must fill in the "Email" slip on the Mail V card, which specifies the user's return email address for the NewtonOS generally (not only for the Mail V transport).
+# Troubleshooting Setup
+It is possible to set up Mail V incorrectly, however: the program's setup depends on the Owner Card for all of its information. The manual guides the user carefully through setting up accounts for use with Mail V on the "Email Access" slip on the Owner Card. The manual also mentions that the user must fill in the "Email" slip on the Mail V card, which specifies the user's return email address for the [[NewtonOS]] generally (not only for the Mail V transport).
 
 If, however, the user fails to fill in the "Email" (not "Email Access") slip, and manually fills in their name in the "Email Access" section of the owner card as a return address, some emails will be sent without a return address.
 
 If Mail V displays this behavior (sending messages without a return address), simply fill in your email address in the "Email" slip of the Owner Card, and choose this address in the "Email Access" slip as the return (email) address. The program will then send email normally.
 
-!Using .Mac's IMAP in Mail V
+# Using .Mac's IMAP in Mail V
 Apple's .Mac email has been found to work very well with Mail V. To set it up, you must have a .Mac membership, which is $99 a year.
 The incoming server would be _mail.mac.com_
-Outgoing would be _smtp.mac.com:587_
-
---=_multipart_boundary_50
-Content-Type: application/x-phpwiki;
-  pagename=Mail%20V;
-  flags="";
-  author=jdueck;
-  version=2;
-  lastmodified=1166573673;
-  created=1174925217;
-  author_id=jdueck;
-  markup=2;
-  hits=149;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-!Mail V
-*Mail V* is the premiere IMAP and POP client for NOS 2.1. I highly recommend its use. You can download it [here | http://homepage.mac.com/simonbell/mailv/product_info.html].
-
-!Setup
-[Simon Bell's page | http://homepage.mac.com/simonbell/mailv/] also contains an excellent [manual | http://homepage.mac.com/simonbell/mailv/MailV/MailVGuide.pdf], describing how to set up the program.
-
-!Troubleshooting Setup
-It is possible to set up Mail V incorrectly, however: the program's setup depends on the Owner Card for all of its information. The manual guides the user carefully through setting up accounts for use with Mail V on the "Email Access" slip on the Owner Card. The manual also mentions that the user must fill in the "Email" slip on the Mail V card, which specifies the user's return email address for the NewtonOS generally (not only for the Mail V transport).
-
-If, however, the user fails to fill in the "Email" (not "Email Access") slip, and manually fills in their name in the "Email Access" section of the owner card as a return address, some emails will be sent without a return address.
-
-If Mail V displays this behavior (sending messages without a return address), simply fill in your email address in the "Email" slip of the Owner Card, and choose this address in the "Email Access" slip as the return (email) address. The program will then send email normally.
-
---=_multipart_boundary_50
-Content-Type: application/x-phpwiki;
-  pagename=Mail%20V;
-  flags="";
-  author=jdueck;
-  version=1;
-  lastmodified=1166573497;
-  created=1166573673;
-  author_id=jdueck;
-  markup=2;
-  summary=Mail%20V%3A%20Recommended%20email%20program%2C%20setup%2C%20and%20troubleshooting;
-  hits=149;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-*Mail V*
-
-*Mail V* is the premiere IMAP and POP client for NOS 2.1. I highly recommend its use. You can download it [here | http://homepage.mac.com/simonbell/mailv/product_info.html].
-
-*Setup*
-
-[Simon Bell's page | http://homepage.mac.com/simonbell/mailv/] also contains an excellent [manual | http://homepage.mac.com/simonbell/mailv/MailV/MailVGuide.pdf], describing how to set up the program.
-
-*Troubleshooting*
-
-It is possible to set up Mail V incorrectly, however: the program's setup depends on the Owner Card for all of its information. The manual guides the user carefully through setting up accounts for use with Mail V on the "Email Access" slip on the Owner Card. The manual also mentions that the user must fill in the "Email" slip on the Mail V card, which specifies the user's return email address for the NewtonOS generally (not only for the Mail V transport).
-
-If, however, the user fails to fill in the "Email" (not "Email Access") slip, and manually fills in their name in the "Email Access" section of the owner card as a return address, some emails will be sent without a return address.
-
-If Mail V displays this behavior (sending messages without a return address), simply fill in your email address in the "Email" slip of the Owner Card, and choose this address in the "Email Access" slip as the return (email) address. The program will then send email normally.
-
---=_multipart_boundary_50--
+Outgoing would be _smtp.mac.com:587_

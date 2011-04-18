@@ -1,18 +1,3 @@
-Date: Sat, 27 Mar 2004 13:35:46 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=SiemensNotephone;
-  flags="";
-  author=VictorRehorst;
-  version=1;
-  lastmodified=1080412546;
-  created=1080412546;
-  author_id=216.138.231.101;
-  markup=2;
-  hits=978;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+A [[MessagePad]] Model H1000 integrated into a Phone with fax capabilities and phone dialing via Names Application.
 
-A MessagePad Model H1000 integrated into a Phone with fax capabilities and phone dialing via Names Application.
-
-OS 1.11 only and available only in a german version.
+OS 1.11 only and available only in a german version.

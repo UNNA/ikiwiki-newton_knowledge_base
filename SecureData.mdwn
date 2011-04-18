@@ -1,59 +1,44 @@
-Date: Tue, 8 Jun 2004 18:33:19 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=SecureData;
-  flags="";
-  author=24.156.127.194;
-  version=1;
-  lastmodified=1086733999;
-  created=1086733999;
-  author_id=24.156.127.194;
-  markup=2;
-  hits=556;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 __Various Methods to Protect your Data__
 
 * Set your Newton Password. Some ideas:
-** "I have mine set to log in once per day. This means if I lose it somewhere, after a day, the finder is locked out. This seems like a good balance to me, and isn't to big a pain." ([Marty|http://marc.theaimsgroup.com/?l=newtontalk&m=107427807607266&w=2])
-** "My owner info is also password protected, but I don't remember if that's a part of the main password feature or not... But in any case, I think it's a good idea..." [Jon|http://marc.theaimsgroup.com/?l=newtontalk&m=107433450119073&w=2] - reply by [Dan|http://marc.theaimsgroup.com/?l=newtontalk&m=107435084029817&w=2]: "Yes that is a standard part of the Newton OS and yes it is the same password. Unless you have a package installed that changes that. It is useful in that someone can't change the owner data without the PIN. If they manage to get in, they can of course change it."
-** "The built in PIN feature is a good start, but there are ways around that. So the best method is still encryption.  One thing about the PIN feature, with so many people not even knowing what a Newton is, or how to use it, I doubt they would know how to get past the PIN.  So unless they already had one, the only thing they could do with it is wipe your data (IF they figured out how to do that... removing the batteries won't do it in a 2000, but they probably would figgure out how to remove all the batteries in a earlier model and wipe it that way).  But probably your data would be safe from unauthorized use, however to be 100% safe, use encryption." [Dan|http://marc.theaimsgroup.com/?l=newtontalk&m=107427965209497&w=2]
+** "I have mine set to log in once per day. This means if I lose it somewhere, after a day, the finder is locked out. This seems like a good balance to me, and isn't to big a pain." ([Marty](http://marc.theaimsgroup.com/?l=newtontalk&m=107427807607266&w=2))
+** "My owner info is also password protected, but I don't remember if that's a part of the main password feature or not... But in any case, I think it's a good idea..." [Jon|http://marc.theaimsgroup.com/?l=newtontalk&m=107433450119073&w=2] - reply by [Dan](http://marc.theaimsgroup.com/?l=newtontalk&m=107435084029817&w=2): "Yes that is a standard part of the Newton OS and yes it is the same password. Unless you have a package installed that changes that. It is useful in that someone can't change the owner data without the PIN. If they manage to get in, they can of course change it."
+** "The built in PIN feature is a good start, but there are ways around that. So the best method is still encryption.  One thing about the PIN feature, with so many people not even knowing what a Newton is, or how to use it, I doubt they would know how to get past the PIN.  So unless they already had one, the only thing they could do with it is wipe your data (IF they figured out how to do that... removing the batteries won't do it in a 2000, but they probably would figgure out how to remove all the batteries in a earlier model and wipe it that way).  But probably your data would be safe from unauthorized use, however to be 100% safe, use encryption." [Dan](http://marc.theaimsgroup.com/?l=newtontalk&m=107427965209497&w=2)
 %%%
 
 * Newtie come home!
-** "In the owner card, I put the text "reward for return" in the phone extension field, and my phone number where it belongs. Then I tell my newt to ask for a passcode on reset and if a passcode hasn't been entered in 24 hours. (Passcode every time the newt wakes up is just a bit excessive; I can handle once a day.) The passcode screen displays the name and phone number (plus extension) from the owner card... so if I lose the newt somebody who picks it up and turns it on will see the passcode screen, and my name and phone number and "reward for return"." ([Rhonda|http://marc.theaimsgroup.com/?l=newtontalk&m=107427858608121&w=2])
-** Questions: "Since I 'lost' quite a few Newts in the last years, I'm extremely interested in this... I entered 'PHONE FOR REWARD !' in the extension field, but I'm wondering how I can get rid of the little 'x' between the phone number  and this message. Also wondering how I can get the number displayed in international formatting (as in + 31 (0)70 345 etc. in my case). In a weird way the owner info doesn't even seem to know where I am, while the Names application is..." ([Robert|http://marc.theaimsgroup.com/?l=newtontalk&m=107441844413023&w=2])
-** The app [IfFound|http://download.planetnewton.com/download/Util/Security5.htm] by Arnold Kim of Nemesis Productions "produces a tap-dismiss Owner Info screen which runs on startup. The idea is not to provide a security layer similar to PIN entry, but to help your Newton find its way home should you lose it."
+** "In the owner card, I put the text "reward for return" in the phone extension field, and my phone number where it belongs. Then I tell my newt to ask for a passcode on reset and if a passcode hasn't been entered in 24 hours. (Passcode every time the newt wakes up is just a bit excessive; I can handle once a day.) The passcode screen displays the name and phone number (plus extension) from the owner card... so if I lose the newt somebody who picks it up and turns it on will see the passcode screen, and my name and phone number and "reward for return"." ([Rhonda](http://marc.theaimsgroup.com/?l=newtontalk&m=107427858608121&w=2))
+** Questions: "Since I 'lost' quite a few Newts in the last years, I'm extremely interested in this... I entered 'PHONE FOR REWARD !' in the extension field, but I'm wondering how I can get rid of the little 'x' between the phone number  and this message. Also wondering how I can get the number displayed in international formatting (as in + 31 (0)70 345 etc. in my case). In a weird way the owner info doesn't even seem to know where I am, while the Names application is..." ([Robert](http://marc.theaimsgroup.com/?l=newtontalk&m=107441844413023&w=2))
+** The app [IfFound](http://download.planetnewton.com/download/Util/Security5.htm) by Arnold Kim of Nemesis Productions "produces a tap-dismiss Owner Info screen which runs on startup. The idea is not to provide a security layer similar to PIN entry, but to help your Newton find its way home should you lose it."
 
 
 %%%
 
 __Applications that Help Securing Your data__
 
-* [DinoCrypt 1.1|http://www.dinoware.com/software.html] by DinoWare's Marcel Strittmatter: "Simple package which allows Newton users to en- and decrypt text on the MessagePad. Users simply select the text to encrypt, then click Encrypt Selection on the Button Bar. Decryption is just as simple, and is password enabled. In the latest release, the window where the decrypted text is shown closes after 20 seconds automatically." ([Planet Newton| http://download.planetnewton.com/download/Util/Security4.htm] -- Note: Dinoware hosts V1.0, PlanetNewton claims to host 1.1.
+* [DinoCrypt 1.1|http://www.dinoware.com/software.html] by [[DinoWare]]'s Marcel Strittmatter: "Simple package which allows Newton users to en- and decrypt text on the [[MessagePad]]. Users simply select the text to encrypt, then click Encrypt Selection on the Button Bar. Decryption is just as simple, and is password enabled. In the latest release, the window where the decrypted text is shown closes after 20 seconds automatically." ([Planet Newton](http://download.planetnewton.com/download/Util/Security4.htm] -- Note: Dinoware hosts V1.0, [[PlanetNewton]) claims to host 1.1.
 
-* [GeekSafe|http://nemesys2.dyndns.org:8080/GeekSafe_EN.html] was written by [Michael Pohl|http://www.newtopia.com] and improved by [Laurent Daudelin|http://nemesys2.dyndns.org:8080/NemesysSoftware_EN.html]. There's a companion package by Laurent called [DragNDrop GeekSafe v1.0b1|DragNDrop GeekSafe v1.0b1 ] based on [DragNDropNames|http://www.tow.com/software/newton.shtml] by [Adam Tow|http://www.tow.com].
+* [GeekSafe|http://nemesys2.dyndns.org:8080/[[GeekSafe]]_EN.html] was written by [Michael Pohl|http://www.newtopia.com] and improved by [Laurent Daudelin|http://nemesys2.dyndns.org:8080/[[NemesysSoftware]]_EN.html]. There's a companion package by Laurent called [DragNDrop [[GeekSafe]] v1.0b1|DragNDrop [[GeekSafe]] v1.0b1 ] based on [DragNDropNames|http://www.tow.com/software/newton.shtml] by [Adam Tow](http://www.tow.com).
 
-* "[The Fish|http://www.40hz.org/TheFish] is an encryption utility for the Notes application for Newton MessagePads. It can encrypt and decrypt any note, providing a secure data storage for sensitive data by using the proven Blowfish algorithm. The goal is an application which is very easy and fast to use." (From http://www.40hz.org/TheFish)
+* "[The Fish](http://www.40hz.org/TheFish] is an encryption utility for the Notes application for Newton [[MessagePads]]. It can encrypt and decrypt any note, providing a secure data storage for sensitive data by using the proven Blowfish algorithm. The goal is an application which is very easy and fast to use." (From http://www.40hz.org/[[TheFish]))
 
 * [Nick's Fort Knox|]
 
-* [NoPasswordInk 2.0|http://download.planetnewton.com/download/Util/Security9.htm] -- "NoPasswordInk turns off the pen's ink when you enter the password into the Newton's builtin password screen. This allows for more security because you don't have to worry about people looking over your shoulder while the Newton translates the ink into your password."
+* [NoPasswordInk 2.0](http://download.planetnewton.com/download/Util/Security9.htm] -- "[[NoPasswordInk]) turns off the pen's ink when you enter the password into the Newton's builtin password screen. This allows for more security because you don't have to worry about people looking over your shoulder while the Newton translates the ink into your password."
 
-* [Passkeep 1.5|http://download.planetnewton.com/download/Util/Security11.htm] for NOS 1.x *and* 2.x comes from Sine of the Times: "The software's easy and consistent interface make password storage and retrieval as painless as possible. Along with passwords, users may store software serial numbers to assist when calling tech support or upgrading."
+* [Passkeep 1.5](http://download.planetnewton.com/download/Util/Security11.htm) for NOS 1.x *and* 2.x comes from Sine of the Times: "The software's easy and consistent interface make password storage and retrieval as painless as possible. Along with passwords, users may store software serial numbers to assist when calling tech support or upgrading."
 
-* SBM [Secret 2.2|http://www.sbm.nu/englisch/newton/secretnewt/index.htm] -- "Add the ability of encrypting to the 'Notes' application and/or to HyperNewt."
+* SBM [Secret 2.2](http://www.sbm.nu/englisch/newton/secretnewt/index.htm] -- "Add the ability of encrypting to the 'Notes' application and/or to [[HyperNewt])."
 
-* SBM [Secret Cards 1.0|http://www.sbm.nu/englisch/newton/secretcards/index.htm] -- "Protect storage cards using a password. The protection will remain intact even if you remove the program Secret Cards or if you insert the storage card in another Newton OS device."
+* SBM [Secret Cards 1.0](http://www.sbm.nu/englisch/newton/secretcards/index.htm) -- "Protect storage cards using a password. The protection will remain intact even if you remove the program Secret Cards or if you insert the storage card in another Newton OS device."
 
-* SBM [Secret Names 1.0.4|http://www.sbm.nu/englisch/newton/secretnames/index.htm] -- "Add the ability of encrypting to the 'Cardfile' application."
+* SBM [Secret Names 1.0.4](http://www.sbm.nu/englisch/newton/secretnames/index.htm) -- "Add the ability of encrypting to the 'Cardfile' application."
 
-* [SuperNotePad|http://standalone.com/newtonos] by Standalone Software: "Does anyone know how strong the encryption is with SuperNotepad? I am sure TheFish would be better, but would SuperNotepad it be "good enough"?" [Dan|http://marc.theaimsgroup.com/?l=newtontalk&m=107427965209497&w=2]
+* [SuperNotePad|http://standalone.com/newtonos] by Standalone Software: "Does anyone know how strong the encryption is with [[SuperNotepad]]? I am sure [[TheFish]] would be better, but would [[SuperNotepad]] it be "good enough"?" [Dan](http://marc.theaimsgroup.com/?l=newtontalk&m=107427965209497&w=2)
 
-* Catamount Software's [Timelock|http://www.catamount.com/NewtonApps/TimeLock2.html] "TimeLock allows you to have the PIN set to Always require password without having to enter it everytime you turn on your Newton. You choose a delay setting then you can turn off an on your Newton as often as you like within that delay. After the Newton has been off for longer than the delay then it will require you to enter the PIN again. This makes working with your Newton thru out the day less cumbersome." -- Thanks for the [pointer|http://marc.theaimsgroup.com/?l=newtontalk&m=107427965209497&w=2], Dan!
+* Catamount Software's [Timelock|http://www.catamount.com/[[NewtonApps]]/TimeLock2.html] "[[TimeLock]] allows you to have the PIN set to Always require password without having to enter it everytime you turn on your Newton. You choose a delay setting then you can turn off an on your Newton as often as you like within that delay. After the Newton has been off for longer than the delay then it will require you to enter the PIN again. This makes working with your Newton thru out the day less cumbersome." -- Thanks for the [pointer](http://marc.theaimsgroup.com/?l=newtontalk&m=107427965209497&w=2), Dan!
 
-* ??? "I seem to remember a app I saw somwhere that could encrypt soups.  So very sensitive data you could encrypt, then decrypt it when needed, even if the original app that created the soup did not support encryption." [Dan|http://marc.theaimsgroup.com/?l=newtontalk&m=107427965209497&w=2]
+* ??? "I seem to remember a app I saw somwhere that could encrypt soups.  So very sensitive data you could encrypt, then decrypt it when needed, even if the original app that created the soup did not support encryption." [Dan](http://marc.theaimsgroup.com/?l=newtontalk&m=107427965209497&w=2)
 
 %%%
 
@@ -63,7 +48,7 @@ __Ultimate Security, Tech-Ed Style__
 outside and pulls them off.
 
 As far as the data on the Newt goes, all password and notes and names are stored internally. All 3rd party
-apps are on one card (32mb)and all my books are on a second card (16mb). All passwords and secure information is stored in GeekSafe. Sure, it's not encrypted, but since most people wouldn't know how to navigate the Newt anyway, I feel relatively safe with most of my non-secure data.
+apps are on one card (32mb)and all my books are on a second card (16mb). All passwords and secure information is stored in [[GeekSafe]]. Sure, it's not encrypted, but since most people wouldn't know how to navigate the Newt anyway, I feel relatively safe with most of my non-secure data.
 
 So, with all data being stored internally, I have a series of 4mb cards that I use for backing up the
 internal stores. They are dated and color coded. 2-3 times a week I create a backup using the now classic
@@ -71,23 +56,23 @@ internal stores. They are dated and color coded. 2-3 times a week I create a bac
 with me. Additionally, I have a backup on my 16mb book card (the one I use for Newt books) This way, no
 matter where I am, I will have some kind of backup available to me if there is a problem. Additionally, I
 have a spare Newt in case there is a physical issue. Call me paranoid, but I am a firm believer in backups,
-and backing up to a memory card seems to be the safest method!" ([Tech Ed|http://marc.theaimsgroup.com/?l=newtontalk&m=107428127611669&w=2])
+and backing up to a memory card seems to be the safest method!" ([Tech Ed](http://marc.theaimsgroup.com/?l=newtontalk&m=107428127611669&w=2))
 
-"Geeksafe is password protected and I also use a code for all my secure information (its a simple character replacement... kinda like "Pig Latin", but I've been doing the conversion since the '70s for all my computer logins it's automatic to me now... but will not work for anyone who doesn't have the transpose key calculation I have in my head...." [Ed again|http://marc.theaimsgroup.com/?l=newtontalk&m=107440076104057&w=2]
+"Geeksafe is password protected and I also use a code for all my secure information (its a simple character replacement... kinda like "Pig Latin", but I've been doing the conversion since the '70s for all my computer logins it's automatic to me now... but will not work for anyone who doesn't have the transpose key calculation I have in my head...." [Ed again](http://marc.theaimsgroup.com/?l=newtontalk&m=107440076104057&w=2)
 
 %%%
 
 __Additional Resources__
 
-* ["Geheimnisse und Verschlüsselungen"|http://www.pda-lifestyle.de/beitraege/newton/geheim/] ("Secrets and Encrypting") is a very good review by Ronald Ramlow of eight Newton data protection solutions (german only, published 1998?). He shows that a bunch of the apps are not very secure or may even damage your data. Favorites are SBM Secret, Nick's Fort Knox and SuperNotepad. The weakest programs are NDcrypt Version 2.0, DinoCrypt, PrivateAccess 2.1 and the original GeekSafe 1.02.
+* ["Geheimnisse und Verschlüsselungen"](http://www.pda-lifestyle.de/beitraege/newton/geheim/] ("Secrets and Encrypting") is a very good review by Ronald Ramlow of eight Newton data protection solutions (german only, published 1998?). He shows that a bunch of the apps are not very secure or may even damage your data. Favorites are SBM Secret, Nick's Fort Knox and [[SuperNotepad]]. The weakest programs are NDcrypt Version 2.0, [[DinoCrypt]], [[PrivateAccess]] 2.1 and the original [[GeekSafe]) 1.02.
 
-* Clay Irving's [Newton Reference|http://www.panix.com/~clay/newton/index.cgi] lists [11 security-related apps|http://www.panix.com/~clay/newton/query.cgi?security+index], among others MasterKey (dead link), nCrypt, PassKey (dead link), PrivateAcess (dead link), Protektor (dead link). -- If you happen to have any of the apps emntioned, pls. upload to UNNA and enter link here.
+* Clay Irving's [Newton Reference|http://www.panix.com/~clay/newton/index.cgi] lists [11 security-related apps](http://www.panix.com/~clay/newton/query.cgi?security+index], among others [[MasterKey]] (dead link), nCrypt, [[PassKey]] (dead link), [[PrivateAcess]) (dead link), Protektor (dead link). -- If you happen to have any of the apps emntioned, pls. upload to UNNA and enter link here.
 
 
 %%%
 
-Note: Originally inspired by [this thread|http://marc.theaimsgroup.com/?l=newtontalk&m=107410619818767&w=2] on [NTLK].
+Note: Originally inspired by [this thread](http://marc.theaimsgroup.com/?l=newtontalk&m=107410619818767&w=2] on [[NTLK]).
 
 %%%
 ----
-HomePage : HowTo: SecureData
+[[HomePage]] : [[HowTo]]: [[SecureData]]

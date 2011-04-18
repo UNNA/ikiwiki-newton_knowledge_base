@@ -1,83 +1,67 @@
-Date: Mon, 17 May 2004 09:17:11 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=EtextSources;
-  flags="";
-  author=DjVollkasko;
-  version=1;
-  lastmodified=1084799831;
-  created=1084799831;
-  author_id=80.128.163.26;
-  markup=2;
-  summary=Added%20Alex%20Catalogue.;
-  hits=747;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+So you're a Newton user who's looking for a certain etext. Of course you've checked the sites listed on [[AvailableNewtonLibraries]] if the book is already available somewhere (would be a shame to do a book that's already available, wouldn't it? One might as well read the existing book and contribute the effort scheduled for making this to another one that hasn't been Newtonized yet).
 
-So you're a Newton user who's looking for a certain etext. Of course you've checked the sites listed on AvailableNewtonLibraries if the book is already available somewhere (would be a shame to do a book that's already available, wouldn't it? One might as well read the existing book and contribute the effort scheduled for making this to another one that hasn't been Newtonized yet).
-
-On this page, you'll find an index of good etext sites. Note that there is going to be some fluctuation with these archives, so it might be advised to check any dead-but-promising-sounding links against the [Wayback Machine(tm)|http://www.archive.org/]. Also websearches may take you to sites not yet listed here (in which case we'd be more than glad if you'd be so kind as to add them below ;=} ), or maybe you'd start from one of many other [link collections|http://www.e-book.com.au/freebooks.htm] - there's treasure everywhere!
+On this page, you'll find an index of good etext sites. Note that there is going to be some fluctuation with these archives, so it might be advised to check any dead-but-promising-sounding links against the [Wayback Machine(tm)|http://www.archive.org/]. Also websearches may take you to sites not yet listed here (in which case we'd be more than glad if you'd be so kind as to add them below ;=} ), or maybe you'd start from one of many other [link collections](http://www.e-book.com.au/freebooks.htm) - there's treasure everywhere!
 
 ----
 
-[Alex Catalogue of Electronic Texts|http://www.infomotions.com/alex] by Eric Morgan offers English texts in many digital formats (Newton Paperback, Palm DOC, Palm Reader, PDF, Rocket eBook).
+[Alex Catalogue of Electronic Texts](http://www.infomotions.com/alex) by Eric Morgan offers English texts in many digital formats (Newton Paperback, Palm DOC, Palm Reader, PDF, Rocket eBook).
 
-[Baen Free Library |http://www.baen.com/library]
+[Baen Free Library ](http://www.baen.com/library)
 "Baen Books is now making available — for free — a number of its titles in electronic format."
 
-[Books-On-Line |http://www.books-on-line.com/bol/default.cfm]
+[Books-On-Line ](http://www.books-on-line.com/bol/default.cfm)
 Directory of over 25000 books that are posted on the net and available for downloading at no charge, incl. 2500 United States Air Force Publications.
 
-[Chinese Philosophical Etext Archive| http://sangle.web.wesleyan.edu/etext]
+[Chinese Philosophical Etext Archive](http://sangle.web.wesleyan.edu/etext)
 "Electronic versions of Chinese philosophical texts" - Actual Chinese texts, not translations.
 
-[Clandestine E-Texts From the 18. Century|http://www.vc.unipmn.it/~mori/e-texts]
+[Clandestine E-Texts From the 18. Century](http://www.vc.unipmn.it/~mori/e-texts)
 "French clandestine manuscripts are one of the most interesting phenomena of early Enlightenment. (...) We offer here a limited but representative selection of texts, hoping to increase for the future the extent and quality of our electronic corpus." - Early Age-of-Reason manuscripts.
 
-[Dumbarton Oaks Electronic Texts |http://www.doaks.org/etexts.html]
+[Dumbarton Oaks Electronic Texts ](http://www.doaks.org/etexts.html)
 "Selected Dumbarton Oaks publications are being presented on the web in an effort to increase access to the material. The full text and illustrations are available using Acrobat Reader." - Byzantium, crusades, landscape architecture, pre-columbian studies
 
-[Electronic Text Center, University of Virginia |http://etext.lib.virginia.edu/ebooks/ebooklist.html]
+[Electronic Text Center, University of Virginia ](http://etext.lib.virginia.edu/ebooks/ebooklist.html)
 "Each text on this list can be accessed in HTML (web version) for online viewing, and can be downloaded as both a MS Reader E-book for the Microsoft Reader and a Palm-readable text for the Palm Reader. (...) 1,800 publicly-available e-books including classic British and American fiction, major authors, children's literature, the Bible, Shakespeare, American history, African-American documents, and much more. Thousands more titles (currently web versions only) can be found in the Electronic Text Center's collections and projects, many of which are publicly accessible."
 
-[Gaslight |http://gaslight.mtroyal.ab.ca]
+[Gaslight ](http://gaslight.mtroyal.ab.ca)
 "Reviews one story a week from the genres of mystery, adventure and The Weird, written between 1800 and 1919. The current readings and selected ones from the past are available here." - Excellent collection of Napoleonic texts w/chronology.
 
-[J.F. Ptak Books, Maps & Prints |http://www.thesciencebookstore.com/etextlist.asp]
+[J.F. Ptak Books, Maps & Prints ](http://www.thesciencebookstore.com/etextlist.asp)
 Aeronautics, physics, mathematics, ethics, photography.
 
-[Mad Cybrarian's Library|http://www.fortunecity.com/victorian/richmond/88]
+[Mad Cybrarian's Library](http://www.fortunecity.com/victorian/richmond/88)
 Loads of stuff, incl. Biblioteca Mundi Antiquitati - Texts of the Ancient World.
 
-[Manybooks.net |http://manybooks.net]
-"Free eBooks for your PDA. This site contains more than 10,000 eBooks from Project Gutenberg and other sources, formatted for reading on your Palm, PocketPC, Zaurus, Rocketbook, or PDA." - plus read-online-versions and PDF. Nice uncluttered interface, solid categorization.
+[Manybooks.net ](http://manybooks.net)
+"Free eBooks for your PDA. This site contains more than 10,000 eBooks from Project Gutenberg and other sources, formatted for reading on your Palm, [[PocketPC]], Zaurus, Rocketbook, or PDA." - plus read-online-versions and PDF. Nice uncluttered interface, solid categorization.
 
-[Mazina'iganan|http://www.kstrom.net/isk/stories/ebooks.html]
+[Mazina'iganan](http://www.kstrom.net/isk/stories/ebooks.html)
 Native American books and stories.
 
-[Oxford Text Archive |http://ota.ahds.ac.uk/]
+[Oxford Text Archive ](http://ota.ahds.ac.uk/)
 "The OTA works closely with members of the Arts and Humanities academic community to collect, catalogue, and preserve high-quality electronic texts for research and teaching. The OTA currently distributes more than 2000 resources in over 20 different languages"
 
-[Project Gutenberg |http://www.gutenberg.net]
+[Project Gutenberg ](http://www.gutenberg.net)
 "The Internet's oldest producer of free electronic books (eBooks or etexts). Our present collection of more than 10.000 eBooks was produced by hundreds of volunteers. Most of the Project Gutenberg eBooks are older literary works that are in the public domain in the United States. All may be freely downloaded and read, and redistributed for non-commercial use."
-The latest Gutenberg-releases (new books and new editions of previously released titles) can be found [here|http://www.gutenberg.net/browse/recent/today].
+The latest Gutenberg-releases (new books and new editions of previously released titles) can be found [here](http://www.gutenberg.net/browse/recent/today).
 
-[Project Gutenberg of Australia|http://gutenberg.net.au/]
+[Project Gutenberg of Australia](http://gutenberg.net.au/)
 "Under Australian copyright law, literary, dramatic, & musical work published, performed, communicated, or recorded and offered for sale in an author's lifetime are protected for the life of the author plus fifty years from the end of the year of the author's death. After this time they enter into the public domain. EBooks on this page may be still copyright in the US and are therefore not available from the US site."
 
-[Project Runeberg|http://www.lysator.liu.se/runeberg]
+[Project Runeberg](http://www.lysator.liu.se/runeberg)
 "The Internet's biggest center for Nordic literature comes to you from Linköping University in Sweden."
 
-[Public Domain Science Fiction|http://purple.home.texas.net]
+[Public Domain Science Fiction](http://purple.home.texas.net)
 Public-domain science fiction novels from 150 AD to 1921.
 
-[Textz.com|http://www.textz.com]
+[Textz.com](http://www.textz.com)
 "we are the & in copy & paste, and plain ascii is still the format of our choice. it shouldn't require a plug-in to read a book on the net, nor should it require a credit card."
 
-[The Great Books |http://www.anova.org/gb.html]
+[The Great Books ](http://www.anova.org/gb.html)
 "From the ancient classics to the masterpieces of the twentieth century, the Great Books are all the introduction you’ll ever need to the ideas, stories and discoveries that have shaped modern civilization. Hammurabi (18th c. BCE) to John Milton (1608), La Rochefoucauld (1613) to Emily Brontë (1818), Karl Marx (1818) to Arthur Miller (1915), Saul Bellow (1915) to Annie Dillard (1945)"
 
-[Victorian Prose Archive | http://www.victorianprose.org]
+[Victorian Prose Archive ](http://www.victorianprose.org)
 "Victorian Texts of Scholarly Interest"
 
 %%%
@@ -85,4 +69,4 @@ __Contributors:__ DJ Vollkasko, April 7th 2004
 
 %%%
 ----
-HomePage : HowTo : MakeNewtonEbooksIndex : EtextSources
+[[HomePage]] : [[HowTo]] : [[MakeNewtonEbooksIndex]] : [[EtextSources]]

@@ -1,48 +1,32 @@
-Date: Mon, 5 Dec 2005 05:32:31 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=DJVollkaskoSetup;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1133778751;
-  created=1133778751;
-  author_id=212.149.48.43;
-  markup=2;
-  summary=DJV%3A%20Added%20some%20Wikipedia-links;
-  hits=1142;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : CoolSetups : [DJVollkaskoSetup]
+[[HomePage]] : [[CoolSetups]] : [[DJVollkaskoSetup]]
 ----
-!!!Who is the mystery boy?
+### Who is the mystery boy?
 
 %%%
 Nobody knows, but then nobody really cares, either.%%%
 
-I hate ''kewl'' and '''hip''' stuff. I ''love'' old crap and weird and odd things. I do things my way, and more often than not the result is, ehem, ''peculiar''. Not pretty. But who cares? So my setup is perhaps a bit rough and somewhat braindead if compared to the Newton-hotshots. Most fitting, considering the unique hardware I'm using...%%%
+I hate _kewl'' and __hip__ stuff. I ''love'' old crap and weird and odd things. I do things my way, and more often than not the result is, ehem, ''peculiar_. Not pretty. But who cares? So my setup is perhaps a bit rough and somewhat braindead if compared to the Newton-hotshots. Most fitting, considering the unique hardware I'm using...%%%
 
 DJ Vollkasko, 2005%%%
 
 %%%
-!!Hardware
-* [Dr. Gruendelstein MessagePad 2g00|] - a ''veeeery'' rare beast!
-* Mr. PCBMan's [Ser-001] internal serial adapter card (aka [DongleKiller])
+## Hardware
+* [Dr. Gruendelstein [[MessagePad]] 2g00|] - a _veeeery_ rare beast!
+* Mr. PCBMan's [Ser-001] internal serial adapter card (aka [[DongleKiller]])
 * [Smitheroni Ethernet Card|]
-* SphinxPicoCard - built-for-Newton BlueTooth.
-* [AQ300]
+* [[SphinxPicoCard]] - built-for-Newton [[BlueTooth]].
+* [[AQ300]]
 * Newton Keyboard
-* Double-Gruendelized Apple MessagePad 130
-* Couple large LinearFlashRamCards from Dr. Gruendelstein, brilliant for shlepping massive Newton ebooks around.
+* Double-Gruendelized Apple [[MessagePad]] 130
+* Couple large [[LinearFlashRamCards]] from Dr. Gruendelstein, brilliant for shlepping massive Newton ebooks around.
 
 %%%
-!!Software%%%
+## Software%%%
 
 * EBook Reader Tuning
 ** X-Newtbook
 ** HTMList
-** RotateBook
+** [[RotateBook]]
 
 * Communication
 ** Blunt
@@ -52,46 +36,46 @@ DJ Vollkasko, 2005%%%
 
 * Apps
 ** GPS Map
-** TeleType GPS
-** NewtTest by Dr. Gruendelstein. Brilliant Newton Diagnostics. Don't leave home without it!
+** [[TeleType]] GPS
+** [[NewtTest]] by Dr. Gruendelstein. Brilliant Newton Diagnostics. Don't leave home without it!
 
 * Games
-** WordSquare -- a real must-have!
-** DeepGreen
-** SpeedBump
+** [[WordSquare]] -- a real must-have!
+** [[DeepGreen]]
+** [[SpeedBump]]
 
 * Extras tools
-** SmallExtras by EckhartKoeppen--in theory a brilliant app, but somehow it didn't work for me, so I had to kick it off.
+** [[SmallExtras]] by [[EckhartKoeppen]]--in theory a brilliant app, but somehow it didn't work for me, so I had to kick it off.
 
 * Neat hacks and extensions
-** ICS SleepAid (part of ICS NewtCase)
-** NotesWordCount
+** ICS [[SleepAid]] (part of ICS [[NewtCase]])
+** [[NotesWordCount]]
 ** HWR
 ** TWT
 
 ----
-!Some WikiWikiNewt-Pages I've worked on
-* [DJVollkaskoSetup]
-* ChangeSystemSounds
-* [NewtonConnectivityCD]
-* [GPSOnNewton]
-* BluntSetup
-* MakeNewtonEbooksIndex
-* NewtonWishLists--added stuff to both hardware and software wishlists. It would really be great if the Newton would see new, useful and original applications again, stuff that makes you want to get one just for the sake of this one app or tool...
+# Some [[WikiWikiNewt]]-Pages I've worked on
+* [[DJVollkaskoSetup]]
+* [[ChangeSystemSounds]]
+* [[NewtonConnectivityCD]]
+* [[GPSOnNewton]]
+* [[BluntSetup]]
+* [[MakeNewtonEbooksIndex]]
+* [[NewtonWishLists]]--added stuff to both hardware and software wishlists. It would really be great if the Newton would see new, useful and original applications again, stuff that makes you want to get one just for the sake of this one app or tool...
 
-!Some [Wikipedia|http://www.wikipedia.org]-Pages I've worked on
-* [iPod Hacks|http://en.wikipedia.org/wiki/IPod_hacks]
-* [Monster Island (Novel)|http://en.wikipedia.org/wiki/Monster_Island_%28Novel%29]
-* [Monster Nation (Novel)|http://en.wikipedia.org/wiki/Monster_Nation_%28Novel%29]
+# Some [Wikipedia](http://www.wikipedia.org)-Pages I've worked on
+* [iPod Hacks](http://en.wikipedia.org/wiki/IPod_hacks)
+* [Monster Island (Novel)](http://en.wikipedia.org/wiki/Monster_Island_%28Novel%29)
+* [Monster Nation (Novel)](http://en.wikipedia.org/wiki/Monster_Nation_%28Novel%29)
 
 %%%
 ----
-!See also
-* [40Hz.org|http://www.40Hz.org] -- EckhartKoeppen's excellent software site: Blunt, Neo, IC/VC, SmallExtras,...
-* [Daniel Padilla's Soft|http://dev.newtontalk.net/~dpadilla/progs.htm] -- quite a lot of excellent hacks and extensions.
-* [The Sensational Dr. Gruendelstein Experience|http://www.pda-soft.de] -- Newton hardware galore! Good how-tos and apps, too.
+# See also
+* [40Hz.org](http://www.40Hz.org] -- [[EckhartKoeppen]]'s excellent software site: Blunt, Neo, IC/VC, [[SmallExtras]),...
+* [Daniel Padilla's Soft](http://dev.newtontalk.net/~dpadilla/progs.htm) -- quite a lot of excellent hacks and extensions.
+* [The Sensational Dr. Gruendelstein Experience](http://www.pda-soft.de) -- Newton hardware galore! Good how-tos and apps, too.
 * [Mr. PCBMan's Newton Solutions|] -- brilliant new hardware for Newton!
-* [The Temporary Newton Library|http://www.stillnewt.org/library] -- the only actively maintained and growing Newton eBook archive (as of 2005). Really good stuff to read. Feed yer brains only the finest quality crap!
+* [The Temporary Newton Library](http://www.stillnewt.org/library) -- the only actively maintained and growing Newton eBook archive (as of 2005). Really good stuff to read. Feed yer brains only the finest quality crap!
 
 ----
-HomePage : CoolSetups : [DJVollkaskoSetup]
+[[HomePage]] : [[CoolSetups]] : [[DJVollkaskoSetup]]

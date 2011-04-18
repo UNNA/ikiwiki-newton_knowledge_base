@@ -1,20 +1,5 @@
-Date: Wed, 10 Dec 2003 01:31:57 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=InOutBox;
-  flags="";
-  author=ScottyTechnoir;
-  version=1;
-  lastmodified=1071037917;
-  created=1071037917;
-  author_id=63.138.75.78;
-  markup=2;
-  hits=378;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-The InOutBox is the application that serves as a central repository for all incoming and outgoing data handled by the Routing and Transport interfaces. The In/Out Box application is specifically part of NOS 2.x, In NOS 1.x, there are separate applications for the In Box and Out Box.
-Emails, images, mp3s, documents, and other data may be received through the IO Box. Once there, the files may be "put away" to their respective application soup. Text may be put away to either the NotePad or NewtonWorks, for example.%%%
+The [[InOutBox]] is the application that serves as a central repository for all incoming and outgoing data handled by the Routing and Transport interfaces. The In/Out Box application is specifically part of NOS 2.x, In NOS 1.x, there are separate applications for the In Box and Out Box.
+Emails, images, mp3s, documents, and other data may be received through the IO Box. Once there, the files may be "put away" to their respective application soup. Text may be put away to either the [[NotePad]] or [[NewtonWorks]], for example.%%%
 Preferences for applications that utilize the IO Box can usually be found in the i menu of the IO Box view.
 
-InOutBox [transport discussion | http://www.unna.org/unna/apple/documentation/developer/QAs-2.x/html/transpor.htm] for NewtonToolkit developers.
+[[InOutBox]] [transport discussion ](http://www.unna.org/unna/apple/documentation/developer/QAs-2.x/html/transpor.htm] for [[NewtonToolkit]) developers.

@@ -1,24 +1,9 @@
-Date: Wed, 21 Apr 2004 09:13:45 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NewtCase;
-  flags="";
-  author=DjVollkasko;
-  version=1;
-  lastmodified=1082553225;
-  created=1082553225;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=848;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-__ICS NewtCase 3.1__
+__ICS [[NewtCase]] 3.1__
 
 
-This [ICS|http://www.newts.com] product by [Dan Rowley|http://www.newts.com/dan] and Tom Collins was commercially distributed through [Power Media|http://www.powermedia.com/newton/newton.shtml] in a shrinkwrapped cardbord box with manual and everything, featuring Windows and Mac floppy disks. There's no manufacturer website up for 3.1, but for [NewtCase 3.0 | http://www.newts.com/newton/nc30.html], and the NewtCase 3.0 manual is [here |ftp://ftp.newts.com///newton-2x/NewtCase-Docs.pdf].
+This [ICS|http://www.newts.com] product by [Dan Rowley|http://www.newts.com/dan] and Tom Collins was commercially distributed through [Power Media|http://www.powermedia.com/newton/newton.shtml] in a shrinkwrapped cardbord box with manual and everything, featuring Windows and Mac floppy disks. There's no manufacturer website up for 3.1, but for [NewtCase 3.0 | http://www.newts.com/newton/nc30.html], and the [[NewtCase]] 3.0 manual is [here ](ftp://ftp.newts.com///newton-2x/[[NewtCase]]-Docs.pdf).
 
-NewtCase 3.1 is a suite of apps that make life with your NOS 2.x-Newton better (NewtCase-suites for NOS 1.x available). There's whole bunch of packages that do wonderful things for you:
+[[NewtCase]] 3.1 is a suite of apps that make life with your NOS 2.x-Newton better ([[NewtCase]]-suites for NOS 1.x available). There's whole bunch of packages that do wonderful things for you:
 
 %%%
 * __Newton Extension Manager__ - heavy-duty freezing-tool
@@ -26,7 +11,7 @@ NewtCase 3.1 is a suite of apps that make life with your NOS 2.x-Newton better (
 -- Allows to freeze/thaw all packages
 -- Allows creating "sets" of packages to be frozen and thawed together
 -- Any package can be a member of several sets (I think)
--- Allows creating icon for set (like an Alias in MacOS-speak)
+-- Allows creating icon for set (like an Alias in [[MacOS]]-speak)
 -- Configure icon to freeze/thaw/reverse set
 -- Directly tapping a frozen package (e.g. a book) automagically thaws (activates) it, close the package, and it'll be refrozen - this is really nice!
 -- Choose (frozen) key packages for sets that when started thaw other stuff, too, and will refreeze itself and the other packages again when closing.
@@ -37,23 +22,23 @@ With this you could have an icon "Web Browser" which unfreezes your fave webbrow
 
 You'll see the difference in the time a reboot and mounting all stores takes - after a reboot, NOS mounts (or whatevers) everything it can find. Inactive packages (aka frozen) aren't found, so no time spent on mounting (whatevering) them.
 
-* __GestureLaunch__ - start stuff fast by scribbling instead of clicking through folders
+* __[[GestureLaunch]]__ - start stuff fast by scribbling instead of clicking through folders
 
-* __SoupKitchen__ - soup browser
+* __[[SoupKitchen]]__ - soup browser
 
-* __SleepAid__ - sleep settings
--- Adds a prefs window in which very detailed sleep settings can be configured (display/backlight, low power or batteries/AC power). Also provides a heap-info button (doesn't work in NOS 2.1???) and a SleepAid menu. Tapping the heap button, you get the used and available heap displayed. The SleepAid menu gives access to Prefs, toggles the backlight, reboots or sleeps the Newton WITHOUT using the power switch (reduces wear on the switches!).
+* __[[SleepAid]]__ - sleep settings
+-- Adds a prefs window in which very detailed sleep settings can be configured (display/backlight, low power or batteries/AC power). Also provides a heap-info button (doesn't work in NOS 2.1???) and a [[SleepAid]] menu. Tapping the heap button, you get the used and available heap displayed. The [[SleepAid]] menu gives access to Prefs, toggles the backlight, reboots or sleeps the Newton WITHOUT using the power switch (reduces wear on the switches!).
 
-* __QuickPicker__ - fast Extras browser
--- It's something like EckhartKoeppen's [SmallExtras|http://www.40hz.org/SmallExtras] but with different strenghts, e.g. the power to launch books and frozen packages... Also allows to switch menu to large + bold font and a wider menu display, and display the current content of folders (SmallExtras displays folder contents faster but updates indizes only during reboot or needs to be manually refreshed).
+* __[[QuickPicker]]__ - fast Extras browser
+-- It's something like [[EckhartKoeppen]]'s [SmallExtras](http://www.40hz.org/SmallExtras] but with different strenghts, e.g. the power to launch books and frozen packages... Also allows to switch menu to large + bold font and a wider menu display, and display the current content of folders ([[SmallExtras]) displays folder contents faster but updates indizes only during reboot or needs to be manually refreshed).
 
 * __Package Manager__
 -- Lists all installed packages and gives plenty information about them (install date, memory usage,...), allows deleting, freezing, thawing, controls which packages are included in backups, etc.
 
 %%%
 
-NewtCase - really a nice suite that makes a Newtonian's live easier. Thanks, Dan and Tom!
+[[NewtCase]] - really a nice suite that makes a Newtonian's live easier. Thanks, Dan and Tom!
 
 %%%
 ----
-HomePage : SoftwareReviews : CommercialMiscellaneousStuff : NewtCase
+[[HomePage]] : [[SoftwareReviews]] : [[CommercialMiscellaneousStuff]] : [[NewtCase]]

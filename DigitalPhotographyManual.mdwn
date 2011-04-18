@@ -1,35 +1,20 @@
-Date: Thu, 3 Mar 2005 07:53:04 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=DigitalPhotographyManual;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1109854384;
-  created=1109854384;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=444;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : DigitalPhotography : [DigitalPhotographyManual]
+[[HomePage]] : [[HowTo]] : [[DigitalPhotography]] : [[DigitalPhotographyManual]]
 ----
 
-!!Complete Moron's Guide(TM) to Newton Digital Photography with Tibet
+## Complete Moron's Guide(TM) to Newton Digital Photography with Tibet
 
-1. Make sure you use a [compatible digital camera|DigitalCameras].
+1. Make sure you use a [compatible digital camera](DigitalCameras).
 
 2. Download the neccessary software packages:
-* [Tibet|http://www.unna.org/view.php?/applications/Tibet] by Compass Info/USA.
-* [Tibet115200|http://dev.newtontalk.net/~dpadilla/progs.htm] by Daniel Padilla/Spain.
+* [Tibet](http://www.unna.org/view.php?/applications/Tibet) by Compass Info/USA.
+* [Tibet115200](http://dev.newtontalk.net/~dpadilla/progs.htm) by Daniel Padilla/Spain.
 ** "This little hack will change the speed at which Tibet communicates with your Digital Camera to the amazing speed of 115200 bps!!  The speed Tibet uses is 34800 bps.  The tests I've made show that a picture which took 1 min 30 sec to download, takes 35 sec with the hack installed.
-    It has been tested with a MP2100 and a Sanyo VPC-X350.  Please report if you have problems with your camera when you install the hack.  Also, let me know if you think that your camera can reach 230400 bps.  The newton can, but my camera doesn't." ([Daniel Padilla|http://marc.theaimsgroup.com/?l=newtontalk&m=102945149229898&w=2])
+It has been tested with a MP2100 and a Sanyo VPC-X350.  Please report if you have problems with your camera when you install the hack.  Also, let me know if you think that your camera can reach 230400 bps.  The newton can, but my camera doesn't." ([Daniel Padilla](http://marc.theaimsgroup.com/?l=newtontalk&m=102945149229898&w=2))
 
 3. Setup and configure Tibet
-* Registration: "This software is no longer supported, but Russell Tait (the editor of Tibet) gave away some registration codes you can use: 02FDAA084142, 02FDAA090E49, 02FDAA0A1390" ([NewtonFAQ|http://www.chuma.org/newton/faq/newton-faq-hardware.html#IIB9])
+* Registration: "This software is no longer supported, but Russell Tait (the editor of Tibet) gave away some registration codes you can use: 02FDAA084142, 02FDAA090E49, 02FDAA0A1390" ([NewtonFAQ](http://www.chuma.org/newton/faq/newton-faq-hardware.html#IIB9))
 
-''what else?''
+_what else?_
 
 
 x. Shoot at will!
@@ -37,9 +22,9 @@ x. Shoot at will!
 %%%
 ----
 
-!!Complete Moron's Guide(TM) to Newton Digital Photography with RoboPicture
+## Complete Moron's Guide(TM) to Newton Digital Photography with [[RoboPicture]]
 
-* RoboPicture connects to any Tibet/Sierra Imaging compatible camera and allows to take photos from the Newton. You can also use ANY IR-remote control to make the camera shoot. It will tell you also how many photos are left in the camera.
+* [[RoboPicture]] connects to any Tibet/Sierra Imaging compatible camera and allows to take photos from the Newton. You can also use ANY IR-remote control to make the camera shoot. It will tell you also how many photos are left in the camera.
 * Tested with a UMP2000 and a sanyo VPC-X350 camera. Should work with any 2.0 Newton.
 
 
@@ -47,9 +32,9 @@ x. Shoot at will!
 
 Q: Is Tibet actually a requirement? Would this work without Tibet, too?
 
-2. Get [RoboPicture and RoboPic|http://www.unna.org/unna/applications/RoboPicture/].
+2. Get [RoboPicture and RoboPic](http://www.unna.org/unna/applications/[[RoboPicture]]/).
 
-3. Install RoboPic.pkg first, then install RoboPicture.pkg. RoboPicture.pkg won't install if RoboPic.pkg is not present.
+3. Install [[RoboPic]].pkg first, then install [[RoboPicture]].pkg. [[RoboPicture]].pkg won't install if [[RoboPic]].pkg is not present.
 
 4. Configure your camera
 * The camera must have the lenses opened.
@@ -57,14 +42,14 @@ Q: Is Tibet actually a requirement? Would this work without Tibet, too?
 
 5. Connect camera with your Newton.
 
-6. Launch RoboPicture and push the "Take a picture now" button.
+6. Launch [[RoboPicture]] and push the "Take a picture now" button.
 
 * Option: You can also check the "Allow Infrared Control" box and, pointing at your newton's IR port, push any button of any IR capable device. You can use a tv remote, a mobile phone, a palm, etc., -- great for family photos or on solo trips!
 
-''what else?''
+_what else?_
 
-(Source:  Daniel Padilla's RoboPicture-[Readme|http://www.unna.org/unna/applications/RoboPicture/Readme.txt])
+(Source:  Daniel Padilla's [[RoboPicture]]-[Readme](http://www.unna.org/unna/applications/[[RoboPicture]]/Readme.txt))
 
 %%%
 ----
-HomePage : HowTo : DigitalPhotography : [DigitalPhotographyManual]
+[[HomePage]] : [[HowTo]] : [[DigitalPhotography]] : [[DigitalPhotographyManual]]

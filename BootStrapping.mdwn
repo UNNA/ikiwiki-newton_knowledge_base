@@ -1,39 +1,24 @@
-Date: Thu, 30 Mar 2006 14:01:38 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=BootStrapping;
-  flags="";
-  author=VictorRehorst;
-  version=1;
-  lastmodified=1143745298;
-  created=1143745298;
-  author_id=204.225.173.9;
-  markup=2;
-  hits=6464;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+The [[BootStrapping]] problem occurs when you have no way of connecting the Newton to your computer without installing additional software onto the Newton.  But you can't install the software without connecting, and you can't connect... etc etc.  This situation is commonly known as a Catch-22.
 
-The BootStrapping problem occurs when you have no way of connecting the Newton to your computer without installing additional software onto the Newton.  But you can't install the software without connecting, and you can't connect... etc etc.  This situation is commonly known as a Catch-22.
-
-"BootStrapping" is act of doing something special so that you can connect your Newton to your PC, by first doing something else.  Common scenarios where BootStrapping is required:
+"[[BootStrapping]]" is act of doing something special so that you can connect your Newton to your PC, by first doing something else.  Common scenarios where [[BootStrapping]] is required:
 
 You start out with a stock Newton 2000/2100 with no special connection software installed on it.
-!!You have the following options to install software:
-!Via IrDA (infrared)
-This requires a Macintosh computer running Mac OS 8 or 9 with an IrDA port (e.g., most older PowerBooks and some iMacs), and the [IrDA Package Installer|http://perso.wanadoo.fr/jerome.vernet/newton.htm]. The installer lets you install any other package from which you can then go further.
-!Via direct Serial connection to your computer
-This can be done from both a Mac and a Windows computer. You need the so-called Dongle which provides you with a serial "Mini-DIN 8" connector on the Newton and a serial connection cable to your computer. You should then be able to use the [DILTester|http://www.tempel.org/newton/#DILplugin] to connect to the Newton and upload packages.
-!Via a modem connection
-If you have a PCMCIA modem card then use the [MODEMtoMODEM] method, it works!
-!Via a memory card
+## You have the following options to install software:
+# Via [[IrDA]] (infrared)
+This requires a Macintosh computer running Mac OS 8 or 9 with an [[IrDA]] port (e.g., most older [[PowerBooks]] and some iMacs), and the [IrDA Package Installer](http://perso.wanadoo.fr/jerome.vernet/newton.htm). The installer lets you install any other package from which you can then go further.
+# Via direct Serial connection to your computer
+This can be done from both a Mac and a Windows computer. You need the so-called Dongle which provides you with a serial "Mini-DIN 8" connector on the Newton and a serial connection cable to your computer. You should then be able to use the [DILTester](http://www.tempel.org/newton/#DILplugin) to connect to the Newton and upload packages.
+# Via a modem connection
+If you have a PCMCIA modem card then use the [[MODEMtoMODEM]] method, it works!
+# Via a memory card
 Use another Newton to copy packages to the card, then place that card into the virgin Newton and move the package(s) onto it.%%%
-If you don't have a second Newton yourself, or no Newton friend in your vicinity to help you, the CardLending Service offered by FrankGruendel (Germany) and PaulCurtis (USA) will help you.
-!Via beaming
-Use another Newton to beam a package over. You'll have to have a special tool for beaming packages installed on the sending Newton. (Sorry, I don't have the link handy, try the Newton FAQ to find it). The receiving Newton will then find the package in its InOut box from which it can be installed (I believe, TT).%%%
-Also you can beam packages from your PowerBook or many other devices with IR capabilitites, see [IrDAConnection].
+If you don't have a second Newton yourself, or no Newton friend in your vicinity to help you, the [[CardLending]] Service offered by [[FrankGruendel]] (Germany) and [[PaulCurtis]] (USA) will help you.
+# Via beaming
+Use another Newton to beam a package over. You'll have to have a special tool for beaming packages installed on the sending Newton. (Sorry, I don't have the link handy, try the Newton FAQ to find it). The receiving Newton will then find the package in its [[InOut]] box from which it can be installed (I believe, TT).%%%
+Also you can beam packages from your [[PowerBook]] or many other devices with IR capabilitites, see [[IrDAConnection]].
 
-!!Further steps
-Once you can install packages on your Newton, you have the option to transfer more data via TCP/IP or AppleTalk using a Ethernet or WiFi card, which may be faster and more convenient. Another alternative is to use [Bluetooth|UsingBluetoothIndex]
-*To use a EtherNet or WiFi cards in the Newton, you will have to install a suitable driver on your Newton to support the specific hardware.
-*To use TCP/IP (but not AppleTalk), you also need to install "NIE" (Newton Internet Enabler).
-*Visit Frank Gruendel's [ PDA-Soft |http://www.pda-soft.de] page for [details | http://www.pda-soft.de/ethernetconnectivity.html] on installing EthernetDrivers and the CardLending Service.
+## Further steps
+Once you can install packages on your Newton, you have the option to transfer more data via TCP/IP or [[AppleTalk]] using a Ethernet or [[WiFi]] card, which may be faster and more convenient. Another alternative is to use [Bluetooth](UsingBluetoothIndex)
+*To use a [[EtherNet]] or [[WiFi]] cards in the Newton, you will have to install a suitable driver on your Newton to support the specific hardware.
+*To use TCP/IP (but not [[AppleTalk]]), you also need to install "NIE" (Newton Internet Enabler).
+*Visit Frank Gruendel's [ PDA-Soft |http://www.pda-soft.de] page for [details ](http://www.pda-soft.de/ethernetconnectivity.html] on installing [[EthernetDrivers]] and the [[CardLending]) Service.

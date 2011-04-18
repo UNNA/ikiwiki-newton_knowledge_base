@@ -1,22 +1,3 @@
-Date: Mon, 2 Oct 2006 16:23:23 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_34"
-
---=_multipart_boundary_34
-Content-Type: application/x-phpwiki;
-  pagename=PaperBack;
-  flags="";
-  author=MacSimski;
-  version=2;
-  lastmodified=1159820603;
-  created=1159820603;
-  author_id=MacSimski;
-  markup=2;
-  hits=153;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 Paperback is a easy way to make Newton Books from plain text files (.txt)
 
 
@@ -24,10 +5,10 @@ You don't need to format the text. Pages don't exists in Paperback. Actually it 
 Images are not supported.
 In your Paperback book on the newton, you can select what type to use, and what size, and screen rotation is also supported. Your text will simply fill the screen.
 
-If you plan to make a PaperBack book, keep in mind the folowing things:
+If you plan to make a [[PaperBack]] book, keep in mind the folowing things:
 
 -save with Mac or DOS linebreaks. With unix line breaks, funny things happen with your empty lines in a text.
--check your files for non ascii caracters. (use zap gremlins in BBedit) They will crash PaperBack.
+-check your files for non ascii caracters. (use zap gremlins in BBedit) They will crash [[PaperBack]].
 -don't end your text with a double quote, it will crash Paperback. The best way is to use a period as the last caracter in a text.
 -make a test text to experiment with TOC markers.
 
@@ -90,46 +71,9 @@ Chapter 2.
 Of course you can use anything for xxx as long as it not used in the text as a regular word at the beginning of a line...
 
 
-!Nice settings in the Paperback program:
+# Nice settings in the Paperback program:
 
 -Default Font: Fancy 12
--Include PaperBack reader in the package (adds a few K of data to the package)
+-Include [[PaperBack]] reader in the package (adds a few K of data to the package)
 
-look at http://www.thefedors.com/pobox/ for more info and to get the application.
-
---=_multipart_boundary_34
-Content-Type: application/x-phpwiki;
-  pagename=PaperBack;
-  flags="";
-  author=MacSimski;
-  version=1;
-  lastmodified=1159818287;
-  created=1159820603;
-  author_id=MacSimski;
-  markup=2;
-  summary=How%20to%20make%20the%20best%20with%20PaperBack;
-  hits=153;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-Paperback is a easy way to make Newton Books from plain text files (.txt)
-
-
-You don't need to format the text. Pages don't exists in Paperback. Actually it is one long roll of text. To help you find your way, you can make markers for a Table of Contents (TOC). You can decide what marker to use: you can use the word Chapter for example. Entries in a TOC cannot be nested so be carefull with their amount. Concider making multiple paperbacks for a large document.
-Images are not supported.
-In your Paperback book on the newton, you can select what type to use, and what size, and screen rotation is also supported. Your text will simply fill the screen.
-
-If you plan to make a PaperBack book, keep in mind the folowing things:
-
--save with Mac or DOS linebreaks. With unix line breaks, funny things happen with your empty lines in a text.
--check your files for non ascii caracters. (use zap gremlins in BBedit) They will crash PaperBack.
--don't end your text with a double quote, it will crash Paperback. The best way is to use a period as the last caracter in a text.
-
-Nice settings in the Paperback program:
-
--Default Font: Fancy 12
--Include PaperBack reader in the package (adds a few K of data to the package)
-
-look at http://www.thefedors.com/pobox/ for more info and to get the application.
-
---=_multipart_boundary_34--
+look at http://www.thefedors.com/pobox/ for more info and to get the application.

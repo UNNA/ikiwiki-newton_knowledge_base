@@ -1,39 +1,24 @@
-Date: Tue, 8 Jun 2004 18:15:30 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=UnnaReviews;
-  flags="";
-  author=24.156.127.194;
-  version=1;
-  lastmodified=1086732930;
-  created=1086732930;
-  author_id=24.156.127.194;
-  summary=Added%20a%20note;
-  hits=2610;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+[UNNA](http://www.unna.org/] is the largest repository of software for the [[NewtonMessagePad]).  Because it's so huge, it's sometimes hard to determine if some program is available there; similarly, it's a lot of work to read through the terse package descriptions to figure out which package has some functionality that you're looking for. __Note: Basic 2-4 line reviews can be put on UNNA rather than here as descriptions__
 
-[UNNA|http://www.unna.org/] is the largest repository of software for the NewtonMessagePad.  Because it's so huge, it's sometimes hard to determine if some program is available there; similarly, it's a lot of work to read through the terse package descriptions to figure out which package has some functionality that you're looking for. __Note: Basic 2-4 line reviews can be put on UNNA rather than here as descriptions__
-
-Note: Additional reviews of commercial applications can be found [here|SoftwareReviews].
+Note: Additional reviews of commercial applications can be found [here](SoftwareReviews).
 ----
 Reviews and descriptions of the software in UNNA are here, organised by the type of thing the software does.
 
-* ConnectToComputer
-* ConnectToInternet
-* PlayGames
-* ReadBooks
-* MakePrograms
-* WriteDocuments
-* MakeCalculations
-* OrganiseInformation
-* MiscellaneousStuff
-* AviationSoftware
-* [Drivers]
-* TakePhotos
-* PersonalInformationManager
+* [[ConnectToComputer]]
+* [[ConnectToInternet]]
+* [[PlayGames]]
+* [[ReadBooks]]
+* [[MakePrograms]]
+* [[WriteDocuments]]
+* [[MakeCalculations]]
+* [[OrganiseInformation]]
+* [[MiscellaneousStuff]]
+* [[AviationSoftware]]
+* [[Drivers]]
+* [[TakePhotos]]
+* [[PersonalInformationManager]]
 ----
 * add more functional categories...
 %%%
 ----
-HomePage : UnnaReviews
+[[HomePage]] : [[UnnaReviews]]

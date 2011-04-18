@@ -1,22 +1,7 @@
-Date: Wed, 5 Mar 2003 00:21:12 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=InterConnectPort;
-  flags="";
-  author=RossOlson;
-  version=1;
-  lastmodified=1046841672;
-  created=1046841672;
-  author_id=216.99.213.165;
-  markup=2;
-  hits=1717;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 The wide, thin connector that is at the top of the MessagePad2000, MessagePad2100 and the eMate.
 
 It has connections for Serial, Audio In, Audio Out and Power all bundled up inside of it.
 
 The Male versions of this connector are tough to get in bulk for homebrew projects.
 
-Most of the time the InterConnectPort is used with a [Dongle] to connect with a desktop computer.
+Most of the time the [[InterConnectPort]] is used with a [[Dongle]] to connect with a desktop computer.

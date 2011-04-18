@@ -1,18 +1,3 @@
-Date: Tue, 30 Nov 2004 13:59:21 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=TakePhotos;
-  flags="";
-  author=208.210.49.60;
-  version=1;
-  lastmodified=1101841161;
-  created=1101841161;
-  author_id=208.210.49.60;
-  markup=2;
-  hits=347;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 The Newton did not come with any imaging accessories. The following software is available to transfer digital photos from certain digital cameras to your Newton.
 
-* TibetSoftware
+* [[TibetSoftware]]

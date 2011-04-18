@@ -1,23 +1,8 @@
-Date: Tue, 14 Mar 2006 16:14:11 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=PublicHoliday;
-  flags="";
-  author=ThomasTempelmann;
-  version=1;
-  lastmodified=1142370851;
-  created=1142370851;
-  author_id=212.202.193.236;
-  summary=Restored%20page%20that%20got%20spammed%20over;
-  hits=366;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-NB: There is a solution for getting Holidays and other important dates for 2006 now, [Holidays Redux|http://www.chuma.org/index.php/newton/holidays-redux/].
+NB: There is a solution for getting Holidays and other important dates for 2006 now, [Holidays Redux](http://www.chuma.org/index.php/newton/holidays-redux/).
 
 Public Holidays to be added to the Holiday program are:
 
-!2006
+# 2006
 
 * "1/1/2006",   "New Years Day",
 * "6/1/2006",   "Hl. Drei Könige (D)",
@@ -102,7 +87,7 @@ Public Holidays to be added to the Holiday program are:
 * "31/12/2006", "Silvester (D)",
 
 
-!2007
+# 2007
 
 * "1/1/2007",   "New Years Day",
 * "6/1/2007",   "Hl. Drei Könige (D)",
@@ -126,11 +111,11 @@ Public Holidays to be added to the Holiday program are:
 
 ----
 
-!Missing:
+# Missing:
 
 * Chinese, Hindu and Persian New Year.
 * Ramadan and other internationally relevant holidays.
 * International anniversaries...
 * Ground Hog's Day, Talk-like-a-pirate-Day, Sysadmin Appreciation Day,...
 * Newton Anniversaries (Release Dates for OMP-110-120-130-2000-2100-eMate 300 and cousins, Newton Inc. Day, Newton Memorial Day)
-* Distinction between moving and fixed holidays ("Repeat ever year on this date")...
+* Distinction between moving and fixed holidays ("Repeat ever year on this date")...

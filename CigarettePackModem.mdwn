@@ -1,18 +1,3 @@
-Date: Sat, 18 Mar 2006 08:49:40 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=CigarettePackModem;
-  flags="";
-  author=AllenRussell;
-  version=1;
-  lastmodified=1142689780;
-  created=1142689780;
-  author_id=204.149.80.6;
-  markup=2;
-  hits=149;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 This is a 2400 data modem [9600 bps facsimile] that is roughly the size of a pack of cigarettes.  It has an RJ-11 telephone jack, is powered by 2 x AA size batteries ["accu"], or can also be powered by the Newton AC adapter.
 
- (note that many internet service providers no longer accept connections at 2400 bps)
+(note that many internet service providers no longer accept connections at 2400 bps)

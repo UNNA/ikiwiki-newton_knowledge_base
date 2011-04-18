@@ -1,17 +1,3 @@
-Date: Thu, 1 Dec 2005 11:17:00 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=DeadWare;
-  flags="";
-  author=AndyVanDerRaadt;
-  version=1;
-  lastmodified=1133453820;
-  created=1133453820;
-  author_id=68.145.111.222;
-  hits=519;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 Re: Newton packages no longer supported but users need license codes
 ....in response to Paul Jerry's post:
 
@@ -60,30 +46,30 @@ to legitimately track down the few remaining online Newton software
 vendors to fulfill this requirement, in some cases the vendors no longer
 exist.
 
-Fortunately for me, in the case of [TimeTrax | http://config.de/], by Config
+Fortunately for me, in the case of [TimeTrax ](http://config.de/), by Config
 Informationstechnik eG in Rottenbach, Germany, this group of software
 engineers at the Friedrich-Alexander University Erlangen-N=FCrnberg has
 been active since May 1995 and remains active today.
 
-So, with [TimeTrax | http://config.de/] for example, the procedure to install this application
+So, with [TimeTrax ](http://config.de/) for example, the procedure to install this application
 on your Newton is as follows. You first download their free demo. Try it
 use it, and if you want then to register and license it you click the
-about [TimeTrax | http://config.de/] item on your Newton which brings up a screen which
+about [TimeTrax ](http://config.de/) item on your Newton which brings up a screen which
 displays a "seed" number.  This number presumably is either plucked
 directly out of the motherboard somewhere, or further manipulated based
 on some physical link to your Newton's identity, i.e. it's motherboard.
-The, you go back to [TimeTrax's | http://config.de/] online registration page, enter the
+The, you go back to [TimeTrax's ](http://config.de/) online registration page, enter the
 "seed" number, your name, billing info etc. and click on finish. The
 info gets sent to Germany. Someone there reviewed the incoming orders
 manually each day, sends you back the activation code via email which
-you then enter into the Newton [TimeTrax | http://config.de/] about dialog and your demo
+you then enter into the Newton [TimeTrax ](http://config.de/) about dialog and your demo
 version becomes the full commercial version. All fine and dandy as long
 as the kind folks in Germany continue to support this scheme.
 
 But when they, and others no longer do, there are at least two very
 unpleasant ramifications to end-users.
 
-The first is that new users of, again just as one example, say [TimeTrax | http://config.de/]
+The first is that new users of, again just as one example, say [TimeTrax ](http://config.de/)
 will be able to download the demo version expires after 30 days, then
 have no chance to register and unlock it into the commercial version for
 perpetual use.
@@ -98,20 +84,20 @@ commercial full version.
 Hence the trap.
 
 Funny you mention this. I had searched for and found an expense
-reporting Newton application called !ExpensePlus (which BTW is EXCELLENT)
+reporting Newton application called ![[ExpensePlus]] (which BTW is EXCELLENT)
 for entering line item costs to manage and manipulate them on my Newton
 and after having run the demo version for about 10 minutes I knew I
 wanted to register and pay for the commercial full version so I went
-back to the !WalletWare Web page to
+back to the ![[WalletWare]] Web page to
 order which instructed me to CALL by PHONE [no on line automated
 licensing for this package, you have to download it, then call or email
 them] to do so, which I did. The funny thing was that the people at
-!WalletWare did not even KNOW the aforreferenced URL page for !ExpensePlus
+![[WalletWare]] did not even KNOW the aforreferenced URL page for ![[ExpensePlus]]
 for Newton even existed on their own site, LOLOLOL. I had to tell read
 the URL, letter for letter,  and they were surprised when it came up on
 their screen. Anyway they finally gave me the phone number for their
 tech support department and I spoke with a VERY helpful tech named Gary
-who knew immediately of the Newton !ExpensePlus software as he had
+who knew immediately of the Newton ![[ExpensePlus]] software as he had
 originally been on the coding team. He personally put together a
 compressed folder of all the files I would need [it took him almost an
 hour to do all this at his end] and he emailed it all to me. Gary was
@@ -136,7 +122,7 @@ I think "some" apps have officially been formally granted to the public
 domain by their authors as they were aware of just the issue you speak.
 Other apps probably have slid off the edge by neglect of their creators
 and may languish in the demo-version 4th dimension never to return to
-our world, sad. Other vendors such as the developers of !TimeTrax at
+our world, sad. Other vendors such as the developers of ![[TimeTrax]] at
 <http://config.de/> are still up and running their storefronts on the
 web and I just ordered and paid for my registration from them. I believe
 they are in Rottenback, Germany. Damn Germans <G>  .....leave it to them
@@ -149,11 +135,11 @@ motherboard.  Aaarrggghhh!   So where does that leave you if your
 motherboard goes south and the vendor does too ?  You're sunk.
 
 I am at present in the process of contacting Config Informationstecknik
-in Germany over just this very issue as the [TimeTrax | http://config.de/] license is tied to
+in Germany over just this very issue as the [TimeTrax ](http://config.de/) license is tied to
 the motherboard.  Not good, for the honest consumer, that is.
 
 I am aware that there is a "universal" license key that one could use in
-this specific scenario, with for example [TimeTrax | http://config.de/] which is in this
+this specific scenario, with for example [TimeTrax ](http://config.de/) which is in this
 category, to enter which would unlock the demo version into the
 commercial version.  It so happened I was in this exact situation. I
 have ten newtons. They are all 2000's and 2100's. They all work and I'll
@@ -203,7 +189,7 @@ world we live there are also the legal issues of making public such a
 list. I know that there is at least one very well informed and capable
 legal professional on this list that could clarify the finer points of
 the public domain licensing issue for us and please email me off list if
-you are willing to help at [mailto:OceanCity@mac.com]
+you are willing to help at <mailto:[[OceanCity]]@mac.com>
 
 If needed, we, me, I, someone, a committee could/can try to track down
 and contact the deadware vendors to obtain written legal releases to
@@ -211,4 +197,4 @@ post such license codes publicly in a manageable and organized fashion,
 without stepping on anyone's toes.  If need be, I'll do this myself. On
 the other hand I would imagine that UNNA has already addressed this
 issue long ago and I just am not aware of where the list would be. The
-clock keeps ticking.  Entropy, etc. John [mailto:OceanCity@mac.com]!
+clock keeps ticking.  Entropy, etc. John <mailto:[[OceanCity]]@mac.com>!

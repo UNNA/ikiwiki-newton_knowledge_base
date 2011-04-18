@@ -1,58 +1,42 @@
-Date: Tue, 14 Mar 2006 16:11:23 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=DigitalPhotography;
-  flags="";
-  author=ThomasTempelmann;
-  version=1;
-  lastmodified=1142370683;
-  created=1142370683;
-  author_id=212.202.193.236;
-  markup=2;
-  summary=Restored%20page%20that%20got%20spammed%20over;
-  hits=513;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : [DigitalPhotography]
+[[HomePage]] : [[HowTo]] : [[DigitalPhotography]]
 ----
 
-!Digital Photography and the Newton
+# Digital Photography and the Newton
 
 * short description Newton
 
-* [Tibet]: "The TIBET software (http://www.compassinfo.com) on the Newton talks to AGFA digital cameras (and some Olympus cameras). This software enables MessagePad 2X00 and eMate users to take a digital photo, view it (including zoom and pan), make notes associated with it, and email the text (in the body of the message) and the photo (as a JPEG attachment)." Source: [Michigan State Newton User's Group, January 1998|http://www.msu.edu/~luckie/letters/msnug10.htm]
+* [[Tibet]]: "The TIBET software (http://www.compassinfo.com) on the Newton talks to AGFA digital cameras (and some Olympus cameras). This software enables [[MessagePad]] 2X00 and eMate users to take a digital photo, view it (including zoom and pan), make notes associated with it, and email the text (in the body of the message) and the photo (as a JPEG attachment)." Source: [Michigan State Newton User's Group, January 1998](http://www.msu.edu/~luckie/letters/msnug10.htm)
 
-* [RoboPicture & RoboPic|http://www.unna.org/unna/applications/RoboPicture]: "Connects to any Tibet/Sierra Imaging compatible camera and allows you to take photos from the newton. You can also use ANY remote control to make the camera shoot. It will tell you also how many photos are left in the camera." (By [Daniel Padilla with Ken Whitcomb|http://www.newtontalk.net/archive/newtontalk.2001-12/0567.html])
+* [RoboPicture & RoboPic|http://www.unna.org/unna/applications/RoboPicture]: "Connects to any Tibet/Sierra Imaging compatible camera and allows you to take photos from the newton. You can also use ANY remote control to make the camera shoot. It will tell you also how many photos are left in the camera." (By [Daniel Padilla with Ken Whitcomb](http://www.newtontalk.net/archive/newtontalk.2001-12/0567.html))
 
-* [QV-Lab|http://babel.altavista.com/urltrurl?url=http://www.factory-1987.co.jp/Factory/QV-Lab_Folder/QV-Lab.html&lp=ja_en&tt=url&urltext=&doit=done]  It takes the graphics data of the CAM format and store them to the Newton.
-
-%%%
-__Complete Moron's Guide(TM) to [Newton Digital Photography|DigitalPhotographyManual]__
+* [QV-Lab](http://babel.altavista.com/urltrurl?url=http://www.factory-1987.co.jp/Factory/QV-Lab_Folder/QV-Lab.html&lp=ja_en&tt=url&urltext=&doit=done)  It takes the graphics data of the CAM format and store them to the Newton.
 
 %%%
-__List of compatible and incompatible DigitalCameras__
+__Complete Moron's Guide(TM) to [Newton Digital Photography](DigitalPhotographyManual)__
+
+%%%
+__List of compatible and incompatible [[DigitalCameras]]__
 
 %%%
 __Examples__
 * __The Newton Takes A Trip To The Mountains__
-** "Logica has developed the world's first mobile Internet photo journalism system using an Apple Newton, an Agfa ePhoto 307 digital camera, and special Logica software. This system will be used by Sir Christian Bonington to send real time pictures back to the UK direct from the site of his upcoming expedition; Sepu Kangri - a 6950 metre unclimbed peak in a previously uncharted region of Tibet. Pictures will be displayed, starting tomorrow, on [this Web site|http://www.bonington.com/sepuweb/sepupictures.html]." (Source: [The Mac Observer, April 1997|http://themacobserver.com/archive/1997/april.shtml])
+** "Logica has developed the world's first mobile Internet photo journalism system using an Apple Newton, an Agfa ePhoto 307 digital camera, and special Logica software. This system will be used by Sir Christian Bonington to send real time pictures back to the UK direct from the site of his upcoming expedition; Sepu Kangri - a 6950 metre unclimbed peak in a previously uncharted region of Tibet. Pictures will be displayed, starting tomorrow, on [this Web site|http://www.bonington.com/sepuweb/sepupictures.html]." (Source: [The Mac Observer, April 1997](http://themacobserver.com/archive/1997/april.shtml))
 
 %%%
 ----
-!See also:
-*[Hacking the Olympus D-360L|http://homepage.mac.com/mguzzo/newton/d360Lhack.html] -- transfering pics to the Newton.
-* TIBET JPEG ==> NewtsCape: use [NewtsCape|http://home.comcast.net/~saweyer/newton/newtscape.htm]-webbrowser as a [viewer for TIBET JPEGs|http://home.comcast.net/~saweyer/newton/newtscape/exs/tibetjpg.htm]
-* [RoboPicture-Patch Requests|http://tools.unna.org/wikiwikinewt/index.php/SoftwareWishlist]
-
-
-%%%
-----
-!Sources
-* [Newton FAQ|http://www.chuma.org/newton/faq/] (as of this writing -- March 2005 -- two years old and partially outdated...)
-* Andree Dettmer's brilliant [Newton Does it!|http://dettmer.maclab.org/newton/150.html#digi]
+# See also:
+*[Hacking the Olympus D-360L](http://homepage.mac.com/mguzzo/newton/d360Lhack.html) -- transfering pics to the Newton.
+* TIBET JPEG ==> [[NewtsCape]]: use [NewtsCape|http://home.comcast.net/~saweyer/newton/newtscape.htm]-webbrowser as a [viewer for TIBET JPEGs](http://home.comcast.net/~saweyer/newton/newtscape/exs/tibetjpg.htm)
+* [RoboPicture-Patch Requests](http://tools.unna.org/wikiwikinewt/index.php/SoftwareWishlist)
 
 
 %%%
 ----
-HomePage : HowTo : [DigitalPhotography]
+# Sources
+* [Newton FAQ](http://www.chuma.org/newton/faq/) (as of this writing -- March 2005 -- two years old and partially outdated...)
+* Andree Dettmer's brilliant [Newton Does it!](http://dettmer.maclab.org/newton/150.html#digi)
+
+
+%%%
+----
+[[HomePage]] : [[HowTo]] : [[DigitalPhotography]]

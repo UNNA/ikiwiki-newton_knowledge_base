@@ -1,53 +1,38 @@
-Date: Mon, 23 May 2005 11:41:25 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=GPSHardware;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1116862885;
-  created=1116862885;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=985;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : [GPSOnNewton] : [GPSHardware]%%%
-HomePage : HardWare : [GPSOnNewton] : [GPSHardware]%%%
+[[HomePage]] : [[HowTo]] : [[GPSOnNewton]] : [[GPSHardware]]%%%
+[[HomePage]] : [[HardWare]] : [[GPSOnNewton]] : [[GPSHardware]]%%%
 ----
 
-!!!GPS Hardware
+### GPS Hardware
 
-*__[Polstar|http://www.polstargps.com] [PGM-111 GPS Mouse Receiver|http://www.polstargps.com.tw/products/pgm-111.htm] (GPS mouse)__
-*[Polstar High Sensitivity Mouse Receiver|http://www.polstargps.com/images/pgm.gif]
-** Sony-chipset, 12 channel, waterproof, consumption 120mW. Manufacturer's specs [here|http://www.polstargps.com/products/pgm-111.htm].
-** Used by Ron in his LakeTahoeHikingNewton setup.
-*__[AQ-Max|http://www.aqmax.com] [AQ-300]-U-PS2 (GPS mouse)__
-**SiRF Star II chipset, dual-channel communications via RS-232 or TTL, 12 channel, WAAS, RTMC/DGPS. Draws 35 mA -- GREEN (!!!) flashing LED when unit has position fix.
+*__[Polstar|http://www.polstargps.com] [PGM-111 GPS Mouse Receiver](http://www.polstargps.com.tw/products/pgm-111.htm) (GPS mouse)__
+*[Polstar High Sensitivity Mouse Receiver](http://www.polstargps.com/images/pgm.gif)
+** Sony-chipset, 12 channel, waterproof, consumption 120mW. Manufacturer's specs [here](http://www.polstargps.com/products/pgm-111.htm).
+** Used by Ron in his [[LakeTahoeHikingNewton]] setup.
+*__[AQ-Max](http://www.aqmax.com] [AQ-300)-U-PS2 (GPS mouse)__
+**[[SiRF]] Star II chipset, dual-channel communications via RS-232 or TTL, 12 channel, WAAS, RTMC/DGPS. Draws 35 mA -- GREEN (!!!) flashing LED when unit has position fix.
 **Approx. EUR 50,-- incl. car charger/Y-adaptor.
-** See more details on Wiki-Page [AQ-300] and article "Baud Rate and Output Sentences Setting" on [GPSHardwareConfiguration].
-**Used by DJ Vollkasko with NewtNav on MessagePad2100 and with C3001 USB-to-serial bridge cable (Prolific PL-2303 chipset) on Apple G4 Powerbook.
-* __NewtNav__ (Adriano Angelillis' brilliant Newton-to-GPS Adapter)
+** See more details on Wiki-Page [AQ-300] and article "Baud Rate and Output Sentences Setting" on [[GPSHardwareConfiguration]].
+**Used by DJ Vollkasko with [[NewtNav]] on MessagePad2100 and with C3001 USB-to-serial bridge cable (Prolific PL-2303 chipset) on Apple G4 Powerbook.
+* __[[NewtNav]]__ (Adriano Angelillis' brilliant Newton-to-GPS Adapter)
 ** Connects GPS mice to Newton's serial port and powers them, too!
 * __Haicom HI-303E (low-power CF Card)__
-**[Image by Dr. Michael Briley|http://www.phys.uwosh.edu/mike/newt-gps.jpg]
+**[Image by Dr. Michael Briley](http://www.phys.uwosh.edu/mike/newt-gps.jpg)
 ** 12 channel, WAAS capable, approx US$ 85 (www.storagemedia.com),-- (with adapters + cables), needs ~US$ 12 CF adapter to fit the Newton. Comes with DB-9, USB, and firewire cables for use as a GPS mouse as well as a CF Card.  Power consumption rated at 120mA.  Typical use:  Newton powered on, GPS running continuous: 138mA total draw.  Plus backlight, 175mA total draw.  A bluetooth "slipper" is also available ($74) which lets this GPS device be a solution for anything with a serial port or PCMCIA slot, or Bluetooth.
-** Used by [Brian McEwen|http://marc.theaimsgroup.com/?l=newtontalk&m=108680916800770&w=2]. Maybe also by Doug Parker.
-** Used by [Michael Briley|http://marc.theaimsgroup.com/?l=newtontalk&m=107272416923766&w=2] (of [Making Newton GPSMaps|http://www.phys.uwosh.edu/mike/newt-maps.html]-fame), who also posted above picture of it in use and confirms it works nicely in his G4 Titanium PowerBook (hmh, definitely a pro for this solution...!).
+** Used by [Brian McEwen](http://marc.theaimsgroup.com/?l=newtontalk&m=108680916800770&w=2). Maybe also by Doug Parker.
+** Used by [Michael Briley|http://marc.theaimsgroup.com/?l=newtontalk&m=107272416923766&w=2] (of [Making Newton GPSMaps](http://www.phys.uwosh.edu/mike/newt-maps.html]-fame), who also posted above picture of it in use and confirms it works nicely in his G4 Titanium [[PowerBook]) (hmh, definitely a pro for this solution...!).
 * __Haicom HI-303S (CF Card, newer model)__
 ** 12 channel, WAAS capable, US$ 110 to 150,--, needs ~US$ 12 CF adapter.   Can also be used as a GPS Mouse (cables supplied as with the 303E? should be, not known for sure).
-* __Centennial SatNav GPS Card (PCMCIA Card)__
-** Works with GPS Map 1.8.5, GPS Map Lite  1.2.5 or later (NOS 2.x only!) with [special SatNav driver|http://www.unna.org/view.php?/applications/GPSMap2.1] by Gerd Staudenmaier.
-* __DeLorme TripMate__
+* __Centennial [[SatNav]] GPS Card (PCMCIA Card)__
+** Works with GPS Map 1.8.5, GPS Map Lite  1.2.5 or later (NOS 2.x only!) with [special [[SatNav]] driver](http://www.unna.org/view.php?/applications/GPSMap2.1) by Gerd Staudenmaier.
+* __[[DeLorme]] [[TripMate]]__
 **???
 
 
-!!Configure GPS hardware
+## Configure GPS hardware
 
-*__See [GPSHardwareConfiguration]__
+*__See [[GPSHardwareConfiguration]]__
 
 
 ----
-HomePage : HowTo : [GPSOnNewton] : [GPSHardware]%%%
-HomePage : HardWare : [GPSOnNewton] : [GPSHardware]%%%
+[[HomePage]] : [[HowTo]] : [[GPSOnNewton]] : [[GPSHardware]]%%%
+[[HomePage]] : [[HardWare]] : [[GPSOnNewton]] : [[GPSHardware]]%%%

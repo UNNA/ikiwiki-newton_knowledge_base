@@ -1,42 +1,26 @@
-Date: Wed, 9 Nov 2005 08:52:56 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=SynchableWiki;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1131544376;
-  created=1131544376;
-  author_id=212.149.48.43;
-  markup=2;
-  summary=DJV%3A%20Added%20Owen%27s%20idea;
-  hits=238;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : NewtonWishLists : SoftwareWishlist : SynchableWiki
+[[HomePage]] : [[NewtonWishLists]] : [[SoftwareWishlist]] : [[SynchableWiki]]
 ----
 
 * A hot-rodded personal Wiki on your Newton.
 * Allows synching via LAN/serial/Bluetooth/modem with instances on other Newtons as well as with a Wiki on desktop and a webserver.
-* Gives graphic representation of Wiki-structure (like MindMap).
+* Gives graphic representation of Wiki-structure (like [[MindMap]]).
 * Gives keywords and general topics to every page, provides a list view of all entries by keywords and topics ("chapters", general subject areas).
 * Also lists entries by date.
 
 
 Use the Wiki on your Newton to sketch ideas on the go, collect data (e.g. articles from the web and their URLs), edit & put that into context (tree structure, cross-linking). Replicate data + structure to desktop computer or publish directly to online Wiki on a webserver.
 
-The overall-functionality of the complete solution for Newton, desktop and webserver would be a bit of a Wiki crossed with MindMap and a blog.
+The overall-functionality of the complete solution for Newton, desktop and webserver would be a bit of a Wiki crossed with [[MindMap]] and a blog.
 ----
 
-!Neat Idea by OwenCollins
+# Neat Idea by [[OwenCollins]]
 
-"Subject:    [NTLK] [Syncable wiki||http://marc.10east.com/?l=newtontalk&m=113147984210840&w=2] %%%
-From:       [Owen Collins|mailto:collinso@wlu.edu]%%%
+"Subject:    [[NTLK]] [Syncable wiki|](http://marc.10east.com/?l=newtontalk&m=113147984210840&w=2) %%%
+From:       [Owen Collins](mailto:collinso@wlu.edu)%%%
 Date:       2005-11-08 19:54:23%%%
 %%%
 Just thinking about the Syncable wiki that was talked about while ago.
-If NewtWiki puts it's wiki into a soup, couldn't a plug-in for Newtsync
+If [[NewtWiki]] puts it's wiki into a soup, couldn't a plug-in for Newtsync
 that syncs info from  that soup to a specified file/folder on the Mac?
 
 Just a thought
@@ -46,4 +30,4 @@ Owen"
 
 %%%
 ----
-HomePage : NewtonWishLists : SoftwareWishlist : SynchableWiki
+[[HomePage]] : [[NewtonWishLists]] : [[SoftwareWishlist]] : [[SynchableWiki]]

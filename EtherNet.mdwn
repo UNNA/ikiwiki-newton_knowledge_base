@@ -1,20 +1,5 @@
-Date: Thu, 30 Mar 2006 13:59:25 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=EtherNet;
-  flags="";
-  author=VictorRehorst;
-  version=1;
-  lastmodified=1143745165;
-  created=1143745165;
-  author_id=204.225.173.9;
-  markup=2;
-  hits=2108;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-The page of all things [NewtonEthernet | http://www.chuma.org/index.php/newton/ethernet/].%%%
-''also see EthernetCards''
+The page of all things [NewtonEthernet ](http://www.chuma.org/index.php/newton/ethernet/).%%%
+_also see [[EthernetCards]]_
 ----
 
 Historical rambling follows:
@@ -31,4 +16,4 @@ In 2002 the hot happening technology was gigabit ethernet.
 
 ----
 
-To you, the average Newton user, the best thing to come out of these speed boosts has been the massive price drops in the old 10Mbps ethernet gear, which your Newton will never ever be able to outpace.
+To you, the average Newton user, the best thing to come out of these speed boosts has been the massive price drops in the old 10Mbps ethernet gear, which your Newton will never ever be able to outpace.

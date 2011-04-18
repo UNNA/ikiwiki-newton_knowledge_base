@@ -1,18 +1,3 @@
-Date: Tue, 8 Jun 2004 18:30:02 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=DevelopingWabaApplications;
-  flags="";
-  author=24.156.127.194;
-  version=1;
-  lastmodified=1086733802;
-  created=1086733802;
-  author_id=24.156.127.194;
-  markup=2;
-  hits=558;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 __What is Waba?__
 
 "Waba is its own programming platform, including a language, virtual machine, class file format, and set of base classes. Waba is distributed under GNU and the WVM is available at no cost from Wabasoft.
@@ -20,29 +5,29 @@ __What is Waba?__
 Advantages of using Waba
 One advantage of developing in Waba is that you can use a standard IDE for the Java platform. A Waba application will run under the Java platform, but not vice versa.
 
-The Waba environment has its own Virtual Machine (WVM) available per specific device. Waba's greatest advantage is that it lets you write an application or program in Java code, compile it, and then create an application using Waba to run on either a Palm OS or a Windows CE device. So, write it once and run it under various OSs." [IBM|http://www-106.ibm.com/developerworks/wireless/library/wi-tip13.html#N10031]
+The Waba environment has its own Virtual Machine (WVM) available per specific device. Waba's greatest advantage is that it lets you write an application or program in Java code, compile it, and then create an application using Waba to run on either a Palm OS or a Windows CE device. So, write it once and run it under various OSs." [IBM](http://www-106.ibm.com/developerworks/wireless/library/wi-tip13.html#N10031)
 
 
 %%%
 __Developing Waba for Newton__
 
-At [Waba for the Newton|http://cs.gmu.edu/~sean/projects/newton/waba] you'll find everything needed for running Waba, also "Tools for Waba Developers".
+At [Waba for the Newton](http://cs.gmu.edu/~sean/projects/newton/waba) you'll find everything needed for running Waba, also "Tools for Waba Developers".
 
-Steve Weyer's ["Use/Create Newton Waba Applications!"|http://home.comcast.net/~saweyer/waba/dev/wabanewton_usecreate.htm] (2001) gives additional pointers.
+Steve Weyer's ["Use/Create Newton Waba Applications!"](http://home.comcast.net/~saweyer/waba/dev/wabanewton_usecreate.htm) (2001) gives additional pointers.
 
 %%%
 __General Waba Development Resources__
 
-["Waba in wireless - Increasing portability of your applications"|http://www-106.ibm.com/developerworks/wireless/library/wi-tip13.html#N10031] -- nice introduction
+["Waba in wireless - Increasing portability of your applications"](http://www-106.ibm.com/developerworks/wireless/library/wi-tip13.html#N10031) -- nice introduction
 
-["Building handheld applications with Waba"|http://www-106.ibm.com/developerworks/edu/wi-dw-waba-i.html] -- free introductory-level one hour tutorial, registration required.
+["Building handheld applications with Waba"](http://www-106.ibm.com/developerworks/edu/wi-dw-waba-i.html) -- free introductory-level one hour tutorial, registration required.
 
-Maybe these free IBM-tutorials ["Introduction to GPS, Part 1"|http://www-106.ibm.com/developerworks/edu/wi-dw-wigps-i.html], ["Part 2"|http://www-106.ibm.com/developerworks/edu/wi-dw-wigps2-i.html] and ["Part 3"|http://www-106.ibm.com/developerworks/wireless/edu/wi-dw-wigps3-i.html]for developing mobile GPS-solutions with Java can be helpful in any GPS-with Waba-project ("learn how to communicate with a GPS device with byte oriented data packets")?
+Maybe these free IBM-tutorials ["Introduction to GPS, Part 1"|http://www-106.ibm.com/developerworks/edu/wi-dw-wigps-i.html], ["Part 2"|http://www-106.ibm.com/developerworks/edu/wi-dw-wigps2-i.html] and ["Part 3"](http://www-106.ibm.com/developerworks/wireless/edu/wi-dw-wigps3-i.html)for developing mobile GPS-solutions with Java can be helpful in any GPS-with Waba-project ("learn how to communicate with a GPS device with byte oriented data packets")?
 
 ----
 
-See also WabaApplications for Waba stuff that works great on Newtons.
+See also [[WabaApplications]] for Waba stuff that works great on Newtons.
 
 %%%
 ----
-HomePage : DevelopmentResources : DevelopingWabaApplications
+[[HomePage]] : [[DevelopmentResources]] : [[DevelopingWabaApplications]]

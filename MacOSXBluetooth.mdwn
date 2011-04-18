@@ -1,32 +1,12 @@
-Date: Thu, 13 Apr 2006 14:40:40 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_15"
-
---=_multipart_boundary_15
-Content-Type: application/x-phpwiki;
-  pagename=MacOSXBluetooth;
-  flags="";
-  author=tempel;
-  version=3;
-  lastmodified=1144953640;
-  created=1144953640;
-  author_id=tempel;
-  markup=2;
-  summary=typo%20fix;
-  hits=1259;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : UsingBluetoothIndex : [MacOSXBluetooth]
+[[HomePage]] : [[HowTo]] : [[UsingBluetoothIndex]] : [[MacOSXBluetooth]]
 ----
-!!Setting up Bluetooth on Macintosh computers running Mac OS X for use with [Blunt]
+## Setting up Bluetooth on Macintosh computers running Mac OS X for use with [[Blunt]]
 
 First, you need to make sure your computer is equipped with the necessary Bluetooth hardware.
-* If you have an iBook, PowerBook or Desktop computer not equipped with internal Bluetooth capabilities, you can get a compatible Bluetooth USB dongle:
+* If you have an iBook, [[PowerBook]] or Desktop computer not equipped with internal Bluetooth capabilities, you can get a compatible Bluetooth USB dongle:
 ** While there are manyUSB Bluetooth adapters, only few are known to work with the Mac and without 3rd party drivers: One is the D-LINK DBT-120 adapter. If you plug it for the first time into a Mac OS X computer, a new "Bluetooth" item should automatically appear in the System Preferences. If not, you may have to run the Mac OS Installer from CD/DVD to have the Bluetooth software installed. Mac OS might then also suggest to update your Bluetooth adapter. Allow this, presuming that you won't plan to use this adapter on a Windows PC as well. If you do not get asked to do this update, you may have to run the "Bluetooth Firmware Updater.app" manually. You can find it in your Mac's Utilities folder.
 * If you have an older Powerbook not equipped with internal Bluetooth capabilities, you have another option besides the USB dongle: Get a Bluetooth PC Card for the Powerbooks' PCMCIA slot:
-** A PC-Card known to work (according to [DJ Vollkasko|DJVollkaskoSetup]) is the 3Com Wireless Bluetooth PC Card Version 3.0 (Model Number 3CRWB6096B). Brand-new price about EUR 90, can be found at Ebay for EUR 40-50 (note: ONLY V3.0 works with the PowerBook!). You will then also need get Alexander Traub's [CardBluesSuite|http://www.versiontracker.com/dyn/moreinfo/macosx/21902&mode=info] software for this PC-Card.
+** A PC-Card known to work (according to [DJ Vollkasko](DJVollkaskoSetup)) is the 3Com Wireless Bluetooth PC Card Version 3.0 (Model Number 3CRWB6096B). Brand-new price about EUR 90, can be found at Ebay for EUR 40-50 (note: ONLY V3.0 works with the [[PowerBook]]!). You will then also need get Alexander Traub's [CardBluesSuite](http://www.versiontracker.com/dyn/moreinfo/macosx/21902&mode=info) software for this PC-Card.
 
 Assuming your Mac is now having a Bluetooth adapter installed, we can go on with the software setup:
 
@@ -34,7 +14,7 @@ Assuming your Mac is now having a Bluetooth adapter installed, we can go on with
 # In the __Settings__ panel, enable "Discoverable".
 # In the __Sharing__ panel, turn on "Bluetooth File __Exchange__" (not Transfer!). It is also advisable (but not necessary) to enable "Require Paring".
 
-The above setup should allow the Newton to discover and pair with the Mac (as explained in BluntSetup) and then to send items (such as Notes) to it as well as the Mac being able to send files to the Newton -- see [BluetoothOBEX].
+The above setup should allow the Newton to discover and pair with the Mac (as explained in [[BluntSetup]]) and then to send items (such as Notes) to it as well as the Mac being able to send files to the Newton -- see [[BluetoothOBEX]].
 
 ----
 
@@ -42,127 +22,17 @@ Here's is an (outdated) alternative way of pairing the devices which can be used
 # In the Bluetooth preferences, change to "Devices" ("Geräte").
 # Select "Configure new Devices" ("Neues Gerät konfigurieren").
 # Choose "Other Device" ("Anderes Gerät") and "Continue" ("Fortfahren").
-# The PowerBook is now trying to discover the other device. If your other device is a Apple MessagePad 2000, 2100 or Apple eMate (i.e. any NewtonOS 2.1-device), install Eckhart Koeppen's Bluetooth driver package [Blunt] on the Newton, launch Bluetooth Setup and tap "Discover". If the PowerBook didn't discover anything, use the Back-button in the Bluetooth Assistant and start the discovery cycle again while the Newton is trying to discover Bluetooth devices, too.
-# The PowerBook has discovered a device and lists it with its host name/device name. Click on Continue ("Fortfahren"). Enter a number and click continue.
+# The [[PowerBook]] is now trying to discover the other device. If your other device is a Apple [[MessagePad]] 2000, 2100 or Apple eMate (i.e. any [[NewtonOS]] 2.1-device), install Eckhart Koeppen's Bluetooth driver package [[Blunt]] on the Newton, launch Bluetooth Setup and tap "Discover". If the [[PowerBook]] didn't discover anything, use the Back-button in the Bluetooth Assistant and start the discovery cycle again while the Newton is trying to discover Bluetooth devices, too.
+# The [[PowerBook]] has discovered a device and lists it with its host name/device name. Click on Continue ("Fortfahren"). Enter a number and click continue.
 
 ----
-! See also:
+#  See also:
 
-* [BluetoothTroubleShooting] for what to do when things go wrong.
-* [BluntSetup] for setting up the Newton for Bluetooth
-* "[Configuration Bluetooth (Blunt)|http://messagepad.chez-alice.fr/Bluetooth/Bluetooth.html]" for a complete illustrated setup-manual by Andreas Nijenhuis. Despite it being in french, it contains a lot of pictures that show the english dialogs on the Newton. So, even if you can't read french, this web page can still show you quite well what to do.
-
-----
-HomePage : HowTo : UsingBluetoothIndex : [MacOSXBluetooth]
-
-HomePage : [NewtonConnectivityCD] : [MacOSXBluetooth]
-
---=_multipart_boundary_15
-Content-Type: application/x-phpwiki;
-  pagename=MacOSXBluetooth;
-  flags="";
-  author=tempel;
-  version=2;
-  lastmodified=1144953615;
-  created=1144953640;
-  author_id=tempel;
-  markup=2;
-  summary=made%20it%20more%20clear%20that%20one%20has%20to%20enable%20%22BT%20File%20Exchange%22%2C%20not%20BT%20File%20Transfer;
-  hits=1259;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : UsingBluetoothIndex : [MacOSXBluetooth]
-----
-!!Setting up Bluetooth on Macintosh computers running Mac OS X for use with [Blunt]
-
-First, you need to make sure your computer is equipped with the necessary Bluetooth hardware.
-* If you have an iBook, PowerBook or Desktop computer not equipped with internal Bluetooth capabilities, you can get a compatible Bluetooth USB dongle:
-** While there are manyUSB Bluetooth adapters, only few are known to work with the Mac and without 3rd party drivers: One is the D-LINK DBT-120 adapter. If you plug it for the first time into a Mac OS X computer, a new "Bluetooth" item should automatically appear in the System Preferences. If not, you may have to run the Mac OS Installer from CD/DVD to have the Bluetooth software installed. Mac OS might then also suggest to update your Bluetooth adapter. Allow this, presuming that you won't plan to use this adapter on a Windows PC as well. If you do not get asked to do this update, you may have to run the "Bluetooth Firmware Updater.app" manually. You can find it in your Mac's Utilities folder.
-* If you have an older Powerbook not equipped with internal Bluetooth capabilities, you have another option besides the USB dongle: Get a Bluetooth PC Card for the Powerbooks' PCMCIA slot:
-** A PC-Card known to work (according to [DJ Vollkasko|DJVollkaskoSetup]) is the 3Com Wireless Bluetooth PC Card Version 3.0 (Model Number 3CRWB6096B). Brand-new price about EUR 90, can be found at Ebay for EUR 40-50 (note: ONLY V3.0 works with the PowerBook!). You will then also need get Alexander Traub's [CardBluesSuite|http://www.versiontracker.com/dyn/moreinfo/macosx/21902&mode=info] software for this PC-Card.
-
-Assuming your Mac is now having a Bluetooth adapter installed, we can go on with the software setup:
-
-# Open Systems Preferences/Bluetooth (In German: "Systemeinstellungen/Bluetooth").
-# In the __Settings__ panel, enable "Discoverable".
-# In the __Sharing__ panel, turn on "Bluetooth File __Exchange__" (not Tranfer!). It is also advisable (but not necessary) to enable "Require Paring".
-
-The above setup should allow the Newton to discover and pair with the Mac (as explained in BluntSetup) and then to send items (such as Notes) to it as well as the Mac being able to send files to the Newton -- see [BluetoothOBEX].
+* [[BluetoothTroubleShooting]] for what to do when things go wrong.
+* [[BluntSetup]] for setting up the Newton for Bluetooth
+* "[Configuration Bluetooth (Blunt)](http://messagepad.chez-alice.fr/Bluetooth/Bluetooth.html)" for a complete illustrated setup-manual by Andreas Nijenhuis. Despite it being in french, it contains a lot of pictures that show the english dialogs on the Newton. So, even if you can't read french, this web page can still show you quite well what to do.
 
 ----
+[[HomePage]] : [[HowTo]] : [[UsingBluetoothIndex]] : [[MacOSXBluetooth]]
 
-Here's is an (outdated) alternative way of pairing the devices which can be used as a work-around if the discovery process does not work (it it happens with the Bluetooth Setup package from Blunt 0.7.7):
-# In the Bluetooth preferences, change to "Devices" ("Geräte").
-# Select "Configure new Devices" ("Neues Gerät konfigurieren").
-# Choose "Other Device" ("Anderes Gerät") and "Continue" ("Fortfahren").
-# The PowerBook is now trying to discover the other device. If your other device is a Apple MessagePad 2000, 2100 or Apple eMate (i.e. any NewtonOS 2.1-device), install Eckhart Koeppen's Bluetooth driver package [Blunt] on the Newton, launch Bluetooth Setup and tap "Discover". If the PowerBook didn't discover anything, use the Back-button in the Bluetooth Assistant and start the discovery cycle again while the Newton is trying to discover Bluetooth devices, too.
-# The PowerBook has discovered a device and lists it with its host name/device name. Click on Continue ("Fortfahren"). Enter a number and click continue.
-
-----
-! See also:
-
-* [BluetoothTroubleShooting] for what to do when things go wrong.
-* [BluntSetup] for setting up the Newton for Bluetooth
-* "[Configuration Bluetooth (Blunt)|http://messagepad.chez-alice.fr/Bluetooth/Bluetooth.html]" for a complete illustrated setup-manual by Andreas Nijenhuis. Despite it being in french, it contains a lot of pictures that show the english dialogs on the Newton. So, even if you can't read french, this web page can still show you quite well what to do.
-
-----
-HomePage : HowTo : UsingBluetoothIndex : [MacOSXBluetooth]
-
-HomePage : [NewtonConnectivityCD] : [MacOSXBluetooth]
-
---=_multipart_boundary_15
-Content-Type: application/x-phpwiki;
-  pagename=MacOSXBluetooth;
-  flags="";
-  author=ThomasTempelmann;
-  version=1;
-  lastmodified=1142176729;
-  created=1144953615;
-  author_id=212.202.193.236;
-  markup=2;
-  summary=added%20more%20%22see%20also%22%20links;
-  hits=1259;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : UsingBluetoothIndex : [MacOSXBluetooth]
-----
-!!Setting up Bluetooth on Macintosh computers running Mac OS X for use with [Blunt]
-
-First, you need to make sure your computer is equipped with the necessary Bluetooth hardware.
-* If you have an iBook, PowerBook or Desktop computer not equipped with internal Bluetooth capabilities, you can get a compatible Bluetooth USB dongle:
-** While there are manyUSB Bluetooth adapters, only few are known to work with the Mac and without 3rd party drivers: One is the D-LINK DBT-120 adapter. If you plug it for the first time into a Mac OS X computer, a new "Bluetooth" item should automatically appear in the System Preferences. If not, you may have to run the Mac OS Installer from CD/DVD to have the Bluetooth software installed. Mac OS might then also suggest to update your Bluetooth adapter. Allow this, presuming that you won't plan to use this adapter on a Windows PC as well. If you do not get asked to do this update, you may have to run the "Bluetooth Firmware Updater.app" manually. You can find it in your Mac's Utilities folder.
-* If you have an older Powerbook not equipped with internal Bluetooth capabilities, you have another option besides the USB dongle: Get a Bluetooth PC Card for the Powerbooks' PCMCIA slot:
-** A PC-Card known to work (according to [DJ Vollkasko|DJVollkaskoSetup]) is the 3Com Wireless Bluetooth PC Card Version 3.0 (Model Number 3CRWB6096B). Brand-new price about EUR 90, can be found at Ebay for EUR 40-50 (note: ONLY V3.0 works with the PowerBook!). You will then also need get Alexander Traub's [CardBluesSuite|http://www.versiontracker.com/dyn/moreinfo/macosx/21902&mode=info] software for this PC-Card.
-
-Assuming your Mac is now having a Bluetooth adapter installed, we can go on with the software setup:
-
-# Open Systems Preferences/Bluetooth (In German: "Systemeinstellungen/Bluetooth").
-# In the __Settings__ panel, enable "Discoverable".
-# In the __Sharing__ panel, turn on "Bluetooth File Exchange". It is also advisable (but not necessary) to enable "Require Paring".
-
-The above setup should allow the Newton to discover and pair with the Mac (as explained in BluntSetup) and then to send items (such as Notes) to it as well as the Mac being able to send files to the Newton -- see [BluetoothOBEX].
-
-----
-
-Here's is an (outdated) alternative way of pairing the devices which can be used as a work-around if the discovery process does not work (it it happens with the Bluetooth Setup package from Blunt 0.7.7):
-# In the Bluetooth preferences, change to "Devices" ("Geräte").
-# Select "Configure new Devices" ("Neues Gerät konfigurieren").
-# Choose "Other Device" ("Anderes Gerät") and "Continue" ("Fortfahren").
-# The PowerBook is now trying to discover the other device. If your other device is a Apple MessagePad 2000, 2100 or Apple eMate (i.e. any NewtonOS 2.1-device), install Eckhart Koeppen's Bluetooth driver package [Blunt] on the Newton, launch Bluetooth Setup and tap "Discover". If the PowerBook didn't discover anything, use the Back-button in the Bluetooth Assistant and start the discovery cycle again while the Newton is trying to discover Bluetooth devices, too.
-# The PowerBook has discovered a device and lists it with its host name/device name. Click on Continue ("Fortfahren"). Enter a number and click continue.
-
-----
-! See also:
-
-* [BluetoothTroubleShooting] for what to do when things go wrong.
-* [BluntSetup] for setting up the Newton for Bluetooth
-* "[Configuration Bluetooth (Blunt)|http://messagepad.chez-alice.fr/Bluetooth/Bluetooth.html]" for a complete illustrated setup-manual by Andreas Nijenhuis. Despite it being in french, it contains a lot of pictures that show the english dialogs on the Newton. So, even if you can't read french, this web page can still show you quite well what to do.
-
-----
-HomePage : HowTo : UsingBluetoothIndex : [MacOSXBluetooth]
-
-HomePage : [NewtonConnectivityCD] : [MacOSXBluetooth]
-
---=_multipart_boundary_15--
+[[HomePage]] : [[NewtonConnectivityCD]] : [[MacOSXBluetooth]]

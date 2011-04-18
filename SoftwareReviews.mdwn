@@ -1,73 +1,58 @@
-Date: Tue, 16 Aug 2005 06:23:36 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=SoftwareReviews;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1124187816;
-  created=1124187816;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=2170;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : SoftwareReviews
+[[HomePage]] : [[SoftwareReviews]]
 ----
 
-Besides all the free-, share- and abandonwares at [UNNA|http://www.unna.org], the largest repository of software for the NewtonMessagePad, there are still a bunch of commercial application suites out there being actively marketed. Also through your auction platform of choice, NTLK or other ways you may occasionally stumble over actual shrinkwrapped applications once commercially marketed (ref. SoftwarePaleontology). Plus there are still a lot of folks out there offering free- and shareware through their own websites. So often you'll ask yourself: Does the app I need now already exist? What's a package I find exactly for? Is it any good? What's it about?
+Besides all the free-, share- and abandonwares at [UNNA](http://www.unna.org], the largest repository of software for the [[NewtonMessagePad]], there are still a bunch of commercial application suites out there being actively marketed. Also through your auction platform of choice, NTLK or other ways you may occasionally stumble over actual shrinkwrapped applications once commercially marketed (ref. [[SoftwarePaleontology])). Plus there are still a lot of folks out there offering free- and shareware through their own websites. So often you'll ask yourself: Does the app I need now already exist? What's a package I find exactly for? Is it any good? What's it about?
 
-This page wants to help. Find reviews and descriptions of all sorts of non-UNNA packages here, free or commercial. Any additional contribution most welcome, either of your own or credited quotes from others (e.g. culled from NewtonTalk).
+This page wants to help. Find reviews and descriptions of all sorts of non-UNNA packages here, free or commercial. Any additional contribution most welcome, either of your own or credited quotes from others (e.g. culled from [[NewtonTalk]]).
 %%%
 %%%
-Note: Many shareware apps or demos of commercial wares can also be found at [UNNA|http://www.unna.org/], so be sure to also pay UnnaReviews a visit.
+Note: Many shareware apps or demos of commercial wares can also be found at [UNNA](http://www.unna.org/], so be sure to also pay [[UnnaReviews]) a visit.
 
 ----
 
-!!Software by Category
+## Software by Category
 
-* ButtonBarEnhancements
-* ExtrasEnhancements
-* DatesEnhancements
-* InOutBoxEnhancements
-* NamesEnhancements
-* NotesEnhancements
-* WorksEnhancements%%%
+* [[ButtonBarEnhancements]]
+* [[ExtrasEnhancements]]
+* [[DatesEnhancements]]
+* [[InOutBoxEnhancements]]
+* [[NamesEnhancements]]
+* [[NotesEnhancements]]
+* [[WorksEnhancements]]%%%
 %%%
 
 
-* ReadBooks
-* WriteDocuments
-* OrganiseInformation%%%
+* [[ReadBooks]]
+* [[WriteDocuments]]
+* [[OrganiseInformation]]%%%
 %%%
 
-* ConnectToComputer
-* ConnectToInternet
-* WebBrowsers
-* MessagingApplications - E-Mail Clients, SMS and related wares%%%
+* [[ConnectToComputer]]
+* [[ConnectToInternet]]
+* [[WebBrowsers]]
+* [[MessagingApplications]] - E-Mail Clients, SMS and related wares%%%
 %%%
 
-* CommercialMiscellaneousStuff
-* MiscellaneousStuff
-* MakePrograms
-* PlayGames
-* DoCalculations
-* AviationSoftware
-* FinancialSoftware
+* [[CommercialMiscellaneousStuff]]
+* [[MiscellaneousStuff]]
+* [[MakePrograms]]
+* [[PlayGames]]
+* [[DoCalculations]]
+* [[AviationSoftware]]
+* [[FinancialSoftware]]
 * add more functional categories...
 ----
 
 __Software in Alphabetical Order__
 
-* [ICS NewtCase 3.1|NewtCase]
+* [ICS [[NewtCase]] 3.1](NewtCase)
 
 * add more commercial software...
 
 ----
-!See also:
-* HomePage
-* HowTo
-* [NewtonConnectivityCD]
+# See also:
+* [[HomePage]]
+* [[HowTo]]
+* [[NewtonConnectivityCD]]
 ----
-HomePage : SoftwareReviews
+[[HomePage]] : [[SoftwareReviews]]

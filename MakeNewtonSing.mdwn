@@ -1,36 +1,21 @@
-Date: Thu, 9 Dec 2004 18:07:47 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MakeNewtonSing;
-  flags="";
-  author=AllenRussell;
-  version=1;
-  lastmodified=1102633667;
-  created=1102633667;
-  author_id=204.149.80.4;
-  markup=2;
-  hits=619;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : MakeNewtonSing
+[[HomePage]] : [[HowTo]] : [[MakeNewtonSing]]
 ----
 
 
 !!"I want to make my Newton sing Christmas Carols (or anything else)!"
 
 
-!Online Resources
+# Online Resources
 
-* Newton SpeakText-HowTo http://tools.unna.org/wikiwikinewt/index.php/MakeNewtonSpeakText (the sister page to this one, read it first)
+* Newton [[SpeakText]]-[[HowTo]] http://tools.unna.org/wikiwikinewt/index.php/[[MakeNewtonSpeakText]] (the sister page to this one, read it first)
 * Charles Kelly's Macintalk Songs-Site http://aitech.ac.jp/~ckelly/songs/
-* MacInTalk Christmas songs http://www.asahi-net.or.jp/~QK6T-KJT/song.html
+* [[MacInTalk]] Christmas songs http://www.asahi-net.or.jp/~QK6T-KJT/song.html
 * HTMList by Steve Weyer http://home.comcast.net/~saweyer/newton/htmlist.htm
-* NewtonWorks http://www.unna.org/view.php?/applications/NewtonWorks
+* [[NewtonWorks]] http://www.unna.org/view.php?/applications/[[NewtonWorks]]
 
 
 
-! How to make your MP 2x00 and eMate sing
+#  How to make your MP 2x00 and eMate sing
 
 #. Take all the .talk-files you can find of Christmas songs and store them on yer desktop (how to save them: See description on below mentioned Wiki-page).
 #. Open them with any text editor on any platform and copy & pasted them into a open Newton Press document.
@@ -42,7 +27,7 @@ The next steps on the Newton assume the following installed and working (again, 
 - the eBook with the Christmas songs
 - the brilliant HTMList by Steve Weyer (http://home.comcast.net/~saweyer/newton/htmlist.htm)
 - Newton Works (available from UNNA, of course)
-- the Macintalk-stuff described on the SpeakText-Wiki-page (if your Newt can already read stuff to you aloud, you got it in place).
+- the Macintalk-stuff described on the [[SpeakText]]-Wiki-page (if your Newt can already read stuff to you aloud, you got it in place).
 
 
 4. Using the Routing menu in the eBook (tap the envelope-button), define the page range of the first song (i.e. how long it is, say, page 1 to page 3).  %%%
@@ -62,7 +47,7 @@ DJ Vollkasko
 %%%
 ----
 
-''This is a great summary by DJV, but if I read it correctly, the objective is to get the Macintalk scripts/text cleanly into Newtworks so you can tap the Routing (envelope) button and hear the song.  So -- I suggest another way, I haven't tried this all the way through, but I think it is simpler.  It also adds steps that allow us Windoze people to do it too.  Allen ''
+_This is a great summary by DJV, but if I read it correctly, the objective is to get the Macintalk scripts/text cleanly into Newtworks so you can tap the Routing (envelope) button and hear the song.  So -- I suggest another way, I haven't tried this all the way through, but I think it is simpler.  It also adds steps that allow us Windoze people to do it too.  Allen _
 
 * Go to the web pages that DJV suggests to gather songs, such as http://aitech.ac.jp/~ckelly/songs/
 * Windows users -- When you click on a "nnnnnnn.talk" link, Windows doesn't know what to do with it.  So:
@@ -85,4 +70,4 @@ DJ Vollkasko
 %%%
 Allen Russell
 ----
-HomePage : HowTo : MakeNewtonSing
+[[HomePage]] : [[HowTo]] : [[MakeNewtonSing]]

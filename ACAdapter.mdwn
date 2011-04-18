@@ -1,20 +1,5 @@
-Date: Fri, 23 Apr 2004 17:33:15 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=ACAdapter;
-  flags="";
-  author=216.222.224.250;
-  version=1;
-  lastmodified=1082755995;
-  created=1082755995;
-  author_id=216.222.224.250;
-  markup=2;
-  hits=291;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 The Newton AC adapter came mainly in two versions.  The first one which was a small transformer that charged the MP1x0 if you had rechargeable, or just supplied power if you didn't.  Recharging a fully drained battery pack in a MP1x0 took several hours.  This version was also made in several "flavors" of plugs and voltages (110 or 220 input) depending on the country you were in (or wanted to go to and power your Newton as the case may be).  This adapter will also power and charge a MP2000, just more slowly than the newer adapter.
 
 The newer AC adapter (also called the 9watt adapter) is the same voltage as the previous model, however the it had 1 amp output and can charge a MP2000's battery pack in a hour.  It was also backward compatible with the MP1x0 series (however it will not fast charge a MP1x0, they still charge at the same rate).
 
-PLEASE NOTE: While some people have used non-Newton adapters, I do not recommend it!  Many people have fried there Newts by using adapters of dubious quality.  And considering you can get a nice adapter on ebay for $10.00 USD, it is certainly not worth risking your Newton over.
+PLEASE NOTE: While some people have used non-Newton adapters, I do not recommend it!  Many people have fried there Newts by using adapters of dubious quality.  And considering you can get a nice adapter on ebay for $10.00 USD, it is certainly not worth risking your Newton over.

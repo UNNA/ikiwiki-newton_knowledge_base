@@ -1,17 +1,2 @@
-Date: Sat, 26 Mar 2005 07:49:11 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=ClarisWorks;
-  flags="";
-  author=69.232.34.129;
-  version=1;
-  lastmodified=1111841351;
-  created=1111841351;
-  author_id=69.232.34.129;
-  summary=Defines%20ClarisWorks;
-  hits=173;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-Describe [ClarisWorks] here.
-ClarisWorks is Apple's office suite program that provides the user with functionality similar to, but not as extensive as, Microsoft's Office suite of programs. While extensive, Clarisworks often required 3rd party translator programs to stay compatible with MS Office's document standards. Very good program for home user that wants the functionality of an office suite program without the need for MS Office features and compatibility. Note that Clarisworks will import and export to several basic standards such as Rich-Text-Format (RTF) or Text without 3rd party translators.
+Describe [[ClarisWorks]] here.
+[[ClarisWorks]] is Apple's office suite program that provides the user with functionality similar to, but not as extensive as, Microsoft's Office suite of programs. While extensive, Clarisworks often required 3rd party translator programs to stay compatible with MS Office's document standards. Very good program for home user that wants the functionality of an office suite program without the need for MS Office features and compatibility. Note that Clarisworks will import and export to several basic standards such as Rich-Text-Format (RTF) or Text without 3rd party translators.

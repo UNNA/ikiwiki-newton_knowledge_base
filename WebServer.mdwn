@@ -1,55 +1,40 @@
-Date: Tue, 16 Dec 2003 13:59:45 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=WebServer;
-  flags="";
-  author=ScottyTechnoir;
-  version=1;
-  lastmodified=1071601185;
-  created=1071601185;
-  author_id=63.138.75.78;
-  markup=2;
-  hits=1518;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 !!Serve Different, Serve Green!
 
 Perhaps you were not aware that the Newton makes a very competent webserver? Or maybe you have heard about it, but were overwhelmed by the plethora of packages and settings. Fear not! Like most things Newton, the NPDS is simple yet powerful, and hours of fun.%%%
-With Newton Personal Data Sharing, not only can you serve up standard HTML text pages, you can also allow access to your vast collection of Newton data. With the appropriate extensions installed, web visitors can search and browse through your notes, dates, names, and binaries. With NPDS Script-Editor, you can embed NewtonScript in your web pages to create dynamic content on the fly. With the White Board or the optional Web-Pager, visitors can leave you notes of encouragemnet (or critique!).%%%
+With Newton Personal Data Sharing, not only can you serve up standard HTML text pages, you can also allow access to your vast collection of Newton data. With the appropriate extensions installed, web visitors can search and browse through your notes, dates, names, and binaries. With NPDS Script-Editor, you can embed [[NewtonScript]] in your web pages to create dynamic content on the fly. With the White Board or the optional Web-Pager, visitors can leave you notes of encouragemnet (or critique!).%%%
 
 Let's rundown the available packages and briefly outline their purpose. %%%
 
-[nHTTPd | http://npds.free.fr/] This is the main server package. It allows you to stop/start the server, set prefs, access plugins, and view the server status and number of hits. As of this writing the latest version is 2.104. The 2.0 release boasts an inproved HTML engine and CSS support. 2.1 release brought multiple connections and stability improvements. The source code and the packages are available @ [http://npds.free.fr/]. Credit Rischpater, Matthew Vaughn, PaulGuyot, and Adam Tow. *Required*
+[nHTTPd ](http://npds.free.fr/] This is the main server package. It allows you to stop/start the server, set prefs, access plugins, and view the server status and number of hits. As of this writing the latest version is 2.104. The 2.0 release boasts an inproved HTML engine and CSS support. 2.1 release brought multiple connections and stability improvements. The source code and the packages are available @ <http://npds.free.fr/]. Credit Rischpater, Matthew Vaughn, [[PaulGuyot>), and Adam Tow. *Required*
 
-[Config | http://www.unna.org/unna/internet/servers/npds202pc/package/Config.pkg] This is the 'prefs' package for nHTTPd, including settings for colour and text, the default path (/html/index.html, etc), the server TCP port (80, 8080, 8088), remote admin, and logs. *Required for the setup, can be frozen afterwards*
+[Config ](http://www.unna.org/unna/internet/servers/npds202pc/package/Config.pkg) This is the 'prefs' package for nHTTPd, including settings for colour and text, the default path (/html/index.html, etc), the server TCP port (80, 8080, 8088), remote admin, and logs. *Required for the setup, can be frozen afterwards*
 
-[Notepad-Server | http://npds.free.fr/modules/datebookserver/] This plugin allows users to search and browse through your Newton's Notepad. It can also create a default editable "index.html" in the chosen folder to help get you started. Latest version is 2.11. Credit Matthew Vaughn and more recently PaulGuyot. __Hint__:Create a 'www' folder and drop selected notes into that folder to limit what web users can view. Cf Josh Burker's doc here [http://npds.free.fr/docs/new/NoteServConfiguration.html] *Optional but Recommended*
+[Notepad-Server ](http://npds.free.fr/modules/datebookserver/] This plugin allows users to search and browse through your Newton's Notepad. It can also create a default editable "index.html" in the chosen folder to help get you started. Latest version is 2.11. Credit Matthew Vaughn and more recently [[PaulGuyot]]. __Hint__:Create a 'www' folder and drop selected notes into that folder to limit what web users can view. Cf Josh Burker's doc here <http://npds.free.fr/docs/new/[[NoteServConfiguration]>.html) *Optional but Recommended*
 
-[Datebook-Server | http://npds.free.fr/modules/datebookserver/] Plugin which enables users to check out your schedule. You can choose to share Events, Meetings, and To-Dos. Latest version is 2.11. Credit Matthew Vaughn. *Optional but Recommended*
+[Datebook-Server ](http://npds.free.fr/modules/datebookserver/) Plugin which enables users to check out your schedule. You can choose to share Events, Meetings, and To-Dos. Latest version is 2.11. Credit Matthew Vaughn. *Optional but Recommended*
 
-[Cardfile-Server | http://npds.free.fr/modules/cardfileserver/]  Allows users to search and browse your Names database. Latest version is 2.12. Credit Matthew Vaughn. __Hint__: You may want to select the option to keep notes attached to the Name files private. *Optional but Recommended*
+[Cardfile-Server ](http://npds.free.fr/modules/cardfileserver/)  Allows users to search and browse your Names database. Latest version is 2.12. Credit Matthew Vaughn. __Hint__: You may want to select the option to keep notes attached to the Name files private. *Optional but Recommended*
 
-[GIF-Server | http://npds.free.fr/modules/gifserver/] This plugin package enables the Newton to serve screenshots. Web visitors can view an instant snapshot of your Newton's screen. Cool! Latest version is 1.2. Credit PaulGuyot. __Hint__: You don't need the GIFMaker package, it was for earlier versions of the GIF Server. To allow users access to the screenshot, you will need to add a screen link to the homepage, ie <a href "/screen">screenshot!</a> *Optional but good for the Coolness Factor*
+[GIF-Server ](http://npds.free.fr/modules/gifserver/] This plugin package enables the Newton to serve screenshots. Web visitors can view an instant snapshot of your Newton's screen. Cool! Latest version is 1.2. Credit [[PaulGuyot]). __Hint__: You don't need the GIFMaker package, it was for earlier versions of the GIF Server. To allow users access to the screenshot, you will need to add a screen link to the homepage, ie <a href "/screen">screenshot!</a> *Optional but good for the Coolness Factor*
 
-[Web-Pager | http://npds.free.fr/modules/webpager/] This extension allows visitors to send you an instant pop-up message directly to the Newton's screen. Current release is 2.1. Credit Matthew Vaughn and PaulGuyot. __Hint__: if you have  SpeakText and Macintalk installed, the webpager can read the messages aloud! *Optional*
+[Web-Pager ](http://npds.free.fr/modules/webpager/] This extension allows visitors to send you an instant pop-up message directly to the Newton's screen. Current release is 2.1. Credit Matthew Vaughn and [[PaulGuyot]]. __Hint__: if you have  [[SpeakText]) and Macintalk installed, the webpager can read the messages aloud! *Optional*
 
-[Tracker-Client | http://npds.free.fr/modules/trackerclient/] This client lets you register your server on the NPDS Tracker Servers. Current release is 2.1.
+[Tracker-Client ](http://npds.free.fr/modules/trackerclient/) This client lets you register your server on the NPDS Tracker Servers. Current release is 2.1.
 
-[Misc Add-ons | http://www.unna.org/unna/internet/servers/npds202pc/readme.html]
-*Script-Editor 2.1: scripting environment for creating dynamic content, for example displaying your Newt's current battery level on your page. Download the 'Scripts' package from VictorRehorst 's site or check the WebServerScripts page for some examples to get you started.
+[Misc Add-ons ](http://www.unna.org/unna/internet/servers/npds202pc/readme.html)
+*Script-Editor 2.1: scripting environment for creating dynamic content, for example displaying your Newt's current battery level on your page. Download the 'Scripts' package from [[VictorRehorst]] 's site or check the [[WebServerScripts]] page for some examples to get you started.
 *NPDS-Watcher: a daemon that monitors the state of NPDS. It 'ensures that your Newton Web Server is always running by launching it after restarts and handling server crashes'.
 *urlCop: what does that do again?
 
 %%%
-''__Required Reading__''%%%
-*[http://npds.free.fr/] The main NPDS project page
-*[http://npds.free.fr/docs/] The official documentation (Note: Portions are obsolete, a good introduction though)
-*[http://www.unna.org/unna/internet/servers/npds202pc/readme.html] Another Readme from unna, outlines most of the above packages with links (but the versions are a bit older)
-*[http://newton.splorp.com:8080/] GrantHutchinson 's inspirational Newton server
-*[http://newton.nsf.gov/] PaulFilmer 's incredibly informational dense Newton server
+___Required Reading___%%%
+*<http://npds.free.fr/> The main NPDS project page
+*<http://npds.free.fr/docs/> The official documentation (Note: Portions are obsolete, a good introduction though)
+*<http://www.unna.org/unna/internet/servers/npds202pc/readme.html> Another Readme from unna, outlines most of the above packages with links (but the versions are a bit older)
+*<http://newton.splorp.com:8080/] [[GrantHutchinson]> 's inspirational Newton server
+*<http://newton.nsf.gov/] [[PaulFilmer]> 's incredibly informational dense Newton server
 
-''__Trackers__''%%%
+___Trackers___%%%
 Tracker servers are where Newton servers are registered and listed. Register your connected Newt today!
-*[http://npds-tracker.continuity.cx:3680]
-*[http://npds-traq.xonxion.net:3680] or [http://npds-traq.xonxion.net:8080]
+*<http://npds-tracker.continuity.cx:3680>
+*<http://npds-traq.xonxion.net:3680] or [http://npds-traq.xonxion.net:8080>

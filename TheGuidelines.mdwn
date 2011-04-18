@@ -1,26 +1,11 @@
-Date: Wed, 8 Jan 2003 10:05:26 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=TheGuidelines;
-  flags="";
-  author=VictorRehorst;
-  version=1;
-  lastmodified=1042038326;
-  created=1042038326;
-  author_id=142.245.193.214;
-  markup=2;
-  hits=936;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 Hey y'all!  I'm so glad to see people reading and writing here.  (Far fewer are writing than reading, but I guess that's to be expected).  Anyways, I don't want to be an evil dictator or anything, but I wanted to put down some quickie suggestions and guidelines I'd hope people could follow if you're writing here.
 
 * USE PREVIEW!  It's fast and fun, and it'll make you see errors before they happen!
 
-* Try to make all links within the wiki in the form of WordsSmashedTogether, instead of having to have single words in square brackets.  The former type of link is just easier to type when you're cruising along writing a page and want to make a link.  Square brackets should really only be necessary for linking to external sites or when you __need__ more than one capital letter together in a link - like [MP2x00].
+* Try to make all links within the wiki in the form of [[WordsSmashedTogether]], instead of having to have single words in square brackets.  The former type of link is just easier to type when you're cruising along writing a page and want to make a link.  Square brackets should really only be necessary for linking to external sites or when you __need__ more than one capital letter together in a link - like [[MP2x00]].
 
-* Make links descriptive!  For example, someone made two pages called Hardware and Software that described the connection hardware and software required for a Newton <-> Desktop connection.  That's great, but those links are confusing, because they imply that the pages talk about __all__ hardware or software.  You see?  A better name would have been DesktopConnectionHardware and DesktopConnectionSoftware (which is where I'm going to move those pages to).  It seems far longer and more complicated, but for a WikiWiki it makes perfect sense.
+* Make links descriptive!  For example, someone made two pages called Hardware and Software that described the connection hardware and software required for a Newton <-> Desktop connection.  That's great, but those links are confusing, because they imply that the pages talk about __all__ hardware or software.  You see?  A better name would have been [[DesktopConnectionHardware]] and [[DesktopConnectionSoftware]] (which is where I'm going to move those pages to).  It seems far longer and more complicated, but for a [[WikiWiki]] it makes perfect sense.
 
-* If a page should be associated with an "index" page, link the child page back to its parent.  The suggested way is to make a horizontal line at the bottom of the page, and then put the link(s) to its parent pages.  See OriginalMessagePad for an example of this.
+* If a page should be associated with an "index" page, link the child page back to its parent.  The suggested way is to make a horizontal line at the bottom of the page, and then put the link(s) to its parent pages.  See [[OriginalMessagePad]] for an example of this.
 
---VictorRehorst
+--[[VictorRehorst]]

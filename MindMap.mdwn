@@ -1,18 +1,3 @@
-Date: Thu, 9 Dec 2004 07:05:28 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=MindMap;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1102593928;
-  created=1102593928;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=359;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 __Newton Mind Map (Application)__
 
 
@@ -28,10 +13,10 @@ __Additional Data:__ Any additional input appreciated.
 __Any Takers?__%%%
 
 
-Note: Some features of MindMap also show up in this software wish: SynchableWiki .
+Note: Some features of [[MindMap]] also show up in this software wish: [[SynchableWiki]] .
 
 
 %%%
 %%%
 ----
-HomePage : NewtonWishLists : SoftwareWishlist : MindMap
+[[HomePage]] : [[NewtonWishLists]] : [[SoftwareWishlist]] : [[MindMap]]

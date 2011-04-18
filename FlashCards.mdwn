@@ -1,37 +1,22 @@
-Date: Wed, 11 May 2005 10:03:07 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=FlashCards;
-  flags="";
-  author=84.178.158.200;
-  version=1;
-  lastmodified=1115820187;
-  created=1115820187;
-  author_id=84.178.158.200;
-  markup=2;
-  hits=2217;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HardWare : FlashCards
+[[HomePage]] : [[HardWare]] : [[FlashCards]]
 ----
 
-The NewtonMessagePad supports only two kinds of memory card out of the box:  Linear flash, and SRAM.  In addition, with a third-party driver the NewtonMessagePad can make use of ATA flash memory: devices like PCMCIA ATA flash cards, CompactFlash, SmartMedia, Sony MemoryStick, or even IBM MicroDrives (with the appropriate PCMCIA adaptors, of course).
+The [[NewtonMessagePad]] supports only two kinds of memory card out of the box:  Linear flash, and SRAM.  In addition, with a third-party driver the [[NewtonMessagePad]] can make use of ATA flash memory: devices like PCMCIA ATA flash cards, [[CompactFlash]], [[SmartMedia]], Sony [[MemoryStick]], or even IBM [[MicroDrives]] (with the appropriate PCMCIA adaptors, of course).
 
-!Linear flash cards
+# Linear flash cards
 
 Linear flash is a rather old flash standard.  These cards are barely produced anymore.  Other than Newtons, they were also used in older PDAs and certain Cisco network routers.  Linear cards can still be had on the used market, but new cards are rare, and extremely expensive.
 
-!SRAM (Static RAM) cards
+# SRAM (Static RAM) cards
 
 SRAM is also an old standard.  These cards require an internal battery (a lithium coin cell usually) in order to keep the contents intact when the card is removed.  They are the fastest of the three, but the largest known card is 4MB.  SRAM cards are pretty hard to find, so don't bother going looking for them.
 
-!ATA-style cards
+# ATA-style cards
 
-ATA-style refers to a collection of memory standards that use the AT-Attachment protocol for storage.  Included are such common formats as CompactFlash, SmartMedia, and MMC (SDs are ATA cards with proprietary extensions).  With a third-party driver, any OS 2.x Newton can use a wide variety of ATA devices as Newton storage.  [See the kallisys.com ATA Support page for more information|http://www.kallisys.com/newton/ata/].
+ATA-style refers to a collection of memory standards that use the AT-Attachment protocol for storage.  Included are such common formats as [[CompactFlash]], [[SmartMedia]], and MMC (SDs are ATA cards with proprietary extensions).  With a third-party driver, any OS 2.x Newton can use a wide variety of ATA devices as Newton storage.  [See the kallisys.com ATA Support page for more information](http://www.kallisys.com/newton/ata/).
 ----
-!See also:
+# See also:
 
-*EraseCards
+*[[EraseCards]]
 ----
-HomePage : HardWare : FlashCards
+[[HomePage]] : [[HardWare]] : [[FlashCards]]

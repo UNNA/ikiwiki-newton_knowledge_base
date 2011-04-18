@@ -1,29 +1,14 @@
-Date: Tue, 11 Jan 2005 05:50:05 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=VGACards;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1105440605;
-  created=1105440605;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=1719;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 There are two __PCMCIA-VGA adaptors__ known to exist for the Newton, both manufactured under the EZShow brand. These cards, the EZ2VGA and later EZ2TV card, mirror the newton's greyscale screen on any VGA-equipped monitor, or, as in the case of the EZ2TV Card, pretty much anything with VGA, S-video or RCA video-in. These cards are very rare on the used market, often going for upwards of $200 at eBay auctions. Their form factor is that of a PCMCIA card connected by thick cable to a [[breakout box]]
 
 Other VGA cards manufactured at this time for use with PCMCIA-equipped powerbooks are not known to work with Newtons.
 
-For more info on the EZShow cards, visit [this page|http://www.geocities.com/doctor_clu/EZ2TV.html].
+For more info on the EZShow cards, visit [this page](http://www.geocities.com/doctor_clu/EZ2TV.html).
 
 
 %%%
 __See also:__
-* [VGACardDrivers] in the SoftwareWishlist section.
+* [[VGACardDrivers]] in the [[SoftwareWishlist]] section.
 
 %%%
 ----
-HomePage : HardWare : [VGACards]
+[[HomePage]] : [[HardWare]] : [[VGACards]]

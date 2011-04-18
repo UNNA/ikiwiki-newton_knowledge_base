@@ -1,30 +1,15 @@
-Date: Tue, 23 Nov 2004 04:59:00 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=CreateNewtonFonts;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1101203940;
-  created=1101203940;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=123;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : CreateNewtonFonts
+[[HomePage]] : [[HowTo]] : [[CreateNewtonFonts]]
 ----
 
-Paul Guyot published a brilliant manual called ["How To Build a Newton Font on MacOS X"|http://www.kallisys.com/newton/bowels], which doesn't require any technical knowledge. Go forth and make fonts!
+Paul Guyot published a brilliant manual called ["How To Build a Newton Font on [[MacOS]] X"](http://www.kallisys.com/newton/bowels), which doesn't require any technical knowledge. Go forth and make fonts!
 
-(Disclaimer: Fonts are usually copyrighted. Use copyrighted fonts only for personal purposes. Search the web for freeware font collection and use these to create Newton fonts you can share with others and upload to [UNNA|http://www.unna.org/view.php?/fonts].)
+(Disclaimer: Fonts are usually copyrighted. Use copyrighted fonts only for personal purposes. Search the web for freeware font collection and use these to create Newton fonts you can share with others and upload to [UNNA](http://www.unna.org/view.php?/fonts).)
 
 %%%
 This could also at last bring fonts with the Euro-symbol to the Newton:
 
-* "As far as the font is concerned, you can port MacOS X roman fonts to the Newton and get the euro symbol on the Newton." ([Paul Guyot|http://tools.unna.org/wikiwikinewt/index.php/EuroFonts])
+* "As far as the font is concerned, you can port [[MacOS]] X roman fonts to the Newton and get the euro symbol on the Newton." ([Paul Guyot](http://tools.unna.org/wikiwikinewt/index.php/EuroFonts))
 
 %%%
 ----
-HomePage : HowTo : CreateNewtonFonts
+[[HomePage]] : [[HowTo]] : [[CreateNewtonFonts]]

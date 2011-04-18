@@ -1,36 +1,21 @@
-Date: Wed, 7 Apr 2004 08:33:46 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=AbiWord;
-  flags="";
-  author=DjVollkasko;
-  version=1;
-  lastmodified=1081341226;
-  created=1081341226;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=1003;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-__AbiWord (Application)__
+__[[AbiWord]] (Application)__
 
 
 __What:__ (a) Create Newton-Plugins for multi-platform open source word processor.
-           Or (b) port AbiWord to NewtonOS.
+Or (b) port [[AbiWord]] to [[NewtonOS]].
 
-__Background:__ "AbiWord is unique among word processors in its drive to become a fully cross-platform word processor. Our source code is carefully written so that AbiWord will run on virtually any operating system with a minimum of time spent on porting. This combined with our support for internationalization (the ability to run AbiWord in many languages) gives AbiWord a massive potential user-base." ([About AbiWord|http://www.abisource.com/information/about])
+__Background:__ "[[AbiWord]] is unique among word processors in its drive to become a fully cross-platform word processor. Our source code is carefully written so that [[AbiWord]] will run on virtually any operating system with a minimum of time spent on porting. This combined with our support for internationalization (the ability to run [[AbiWord]] in many languages) gives [[AbiWord]] a massive potential user-base." ([About AbiWord](http://www.abisource.com/information/about))
 
-__Benefit:__ "AbiWord is a cross-platform, open-source word-processor that reads and writes Word, OpenOffice, Word Perfect, RTF, Palm and HTML documents" - and now (a) imagine teaching it the Newton-formats for Notes, books, paperbacks, etc. The Newton-plugins would give Newtonia immediate access to a modern multiplatform word processor which could work with any documents originating on the Newton. -- This idea ties in with the projects working on producing an environment that integrates NOS devices with modern desktops (see [DesktopConnectionLibrary and others).
+__Benefit:__ "[[AbiWord]] is a cross-platform, open-source word-processor that reads and writes Word, [[OpenOffice]], Word Perfect, RTF, Palm and HTML documents" - and now (a) imagine teaching it the Newton-formats for Notes, books, paperbacks, etc. The Newton-plugins would give Newtonia immediate access to a modern multiplatform word processor which could work with any documents originating on the Newton. -- This idea ties in with the projects working on producing an environment that integrates NOS devices with modern desktops (see [DesktopConnectionLibrary and others).
 
-Or (b) replace the commercial word processors for the Newton with modern AbiWord, which would create a free and seamless productivity solution from Newton-to-desktop, while teaching the Newton Word and other formats: "The main AbiWord program is very small and requires very little resources to run. This allows AbiWord to be used on systems that are not considered "State of the Art" anymore, which comes all too quickly in the IT world. Our plugin system was designed to give AbiWord all the functionality you might expect from a modern Word Processor. A variety of plugins can be used to extend the number AbiWord's functionality and range from Document Importers to a Thesaurus, Image Importers and a Text Summarizer." ([AbiWord Tour|http://www.abisource.com/tour])
+Or (b) replace the commercial word processors for the Newton with modern [[AbiWord]], which would create a free and seamless productivity solution from Newton-to-desktop, while teaching the Newton Word and other formats: "The main [[AbiWord]] program is very small and requires very little resources to run. This allows [[AbiWord]] to be used on systems that are not considered "State of the Art" anymore, which comes all too quickly in the IT world. Our plugin system was designed to give [[AbiWord]] all the functionality you might expect from a modern Word Processor. A variety of plugins can be used to extend the number [[AbiWord]]'s functionality and range from Document Importers to a Thesaurus, Image Importers and a Text Summarizer." ([AbiWord Tour](http://www.abisource.com/tour))
 
 
-__Additional Data:__ AbiWord runs on Windows, plenty UNIX and Linux-flavors, plus native on MacOS X. There used to be a BeOS port. See http://www.abisource.com for details.
+__Additional Data:__ [[AbiWord]] runs on Windows, plenty UNIX and Linux-flavors, plus native on [[MacOS]] X. There used to be a [[BeOS]] port. See http://www.abisource.com for details.
 
 
 __Any Takers?__%%%
 %%%
 %%%
 ----
-HomePage : NewtonWishLists : SoftwareWishlist : AbiWord
+[[HomePage]] : [[NewtonWishLists]] : [[SoftwareWishlist]] : [[AbiWord]]

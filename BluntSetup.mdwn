@@ -1,35 +1,15 @@
-Date: Mon, 5 Jun 2006 17:07:14 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_12"
-
---=_multipart_boundary_12
-Content-Type: application/x-phpwiki;
-  pagename=BluntSetup;
-  flags="";
-  author=DJ%20Vollkasko;
-  version=2;
-  lastmodified=1149541634;
-  created=1149541634;
-  author_id=DJ%20Vollkasko;
-  markup=2;
-  summary=Started%20De-Install%20chapter.;
-  hits=4268;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : UsingBluetoothIndex : [BluntSetup]
+[[HomePage]] : [[HowTo]] : [[UsingBluetoothIndex]] : [[BluntSetup]]
 ----
 
-!!!Setting up [Blunt] to have a Newton 2x00 device communicate via Bluetooth
+### Setting up [[Blunt]] to have a Newton 2x00 device communicate via Bluetooth
 
-1. Get [Newton-compatible Bluetooth-Compact Flash- or PC Card|http://tools.unna.org/wikiwikinewt/index.php/BluetoothCards] (e.g. Sphinx Pico Card, from EUR 15,-- at Ebay).
+1. Get [Newton-compatible Bluetooth-Compact Flash- or PC Card](http://tools.unna.org/wikiwikinewt/index.php/BluetoothCards) (e.g. Sphinx Pico Card, from EUR 15,-- at Ebay).
 
-2. Get the free Newton Bluetooth driver [Blunt|http://www.40hz.org/Blunt] and install it:
+2. Get the free Newton Bluetooth driver [Blunt](http://www.40hz.org/Blunt) and install it:
 
-* On an US-MessagePad install EckhartKoeppen's BluntMP2x00US.pkg and Bluetooth Setup.pkg.
-* On a German MessagePad install BluntMP2100D.pkg and Bluetooth Setup.pkg.
-* __Important note__: The Bluetooth Setup program included in Blunt 0.7.7 may not be able to __discover__ anything (at least this is the case with the Pico card). Until this gets fixed, use the Bluetooth Setup.pkg from Blunt 0.7.6 instead. You can download version 0.7.6 of the Setup program here: [as a pkg file|http://www.tempel.org/ftp/pub/Newton/Blunt-Bluetooth-Setup-0.7.6.pkg] or [as a zip file|http://www.tempel.org/ftp/pub/Newton/Blunt-Bluetooth-Setup-0.7.6.pkg.zip]
+* On an US-[[MessagePad]] install [[EckhartKoeppen]]'s BluntMP2x00US.pkg and Bluetooth Setup.pkg.
+* On a German [[MessagePad]] install BluntMP2100D.pkg and Bluetooth Setup.pkg.
+* __Important note__: The Bluetooth Setup program included in Blunt 0.7.7 may not be able to __discover__ anything (at least this is the case with the Pico card). Until this gets fixed, use the Bluetooth Setup.pkg from Blunt 0.7.6 instead. You can download version 0.7.6 of the Setup program here: [as a pkg file|http://www.tempel.org/ftp/pub/Newton/Blunt-Bluetooth-Setup-0.7.6.pkg] or [as a zip file](http://www.tempel.org/ftp/pub/Newton/Blunt-Bluetooth-Setup-0.7.6.pkg.zip)
 
 Install both packages to the Internal Store.
 File the setup-package in the Setup-folder (not a requisite, but nice practice).
@@ -46,8 +26,8 @@ File the setup-package in the Setup-folder (not a requisite, but nice practice).
 *Note:* "Test" also resets the BT-Card, so if it ever hangs, you may try getting it back that way without having to reset the Newton
 
 5. Next you've got to "discover" what devices are out there and "pair" them. That's nothing unhealthy, but good, clean fun for the whole family and it goes like this:
-* Make sure you have at least one device (or computer) with Bluetooth activated and set to "discoverable" (instead of hidden). If you want to connect to a Macintosh computer, see here for setting it up: [MacOSXBluetooth])
-* Tap "Discover". Whatever else you got there that's talking Bluetooth should show up now, e.g. the host name of your Powerbook. (If nothing shows up, see [BluetoothTroubleShooting])
+* Make sure you have at least one device (or computer) with Bluetooth activated and set to "discoverable" (instead of hidden). If you want to connect to a Macintosh computer, see here for setting it up: [[MacOSXBluetooth]])
+* Tap "Discover". Whatever else you got there that's talking Bluetooth should show up now, e.g. the host name of your Powerbook. (If nothing shows up, see [[BluetoothTroubleShooting]])
 * Tap the item of the device that's been discovered. Tap on the routing slip (that's the envelope icon), you see three options: Pair, Services, Delete. Tap "Pair", and enter a small number (I suggest a 4-digit number, e.g. "4444", and not "0000" to avoid that the Newton misinterprets the digits as the letters "o"), then tap "Initiate".
 * Check for response on the paired computer - it should ask you to enter the same number there now. When you have entered it, the Newton should take a second or two until it will show that the two devices are now paired. The successful pairing will also be known to the other computer. Both devices will remember this pairing setting even when you restart them.
 
@@ -57,12 +37,12 @@ File the setup-package in the Setup-folder (not a requisite, but nice practice).
 
 *Note:* It appears that Blunt does not support encryption, so avoid turning that on for pairing with a Newton.
 
-8. Now your Bluetooth configuration is complete and you can start to [transfer data|BluetoothOBEX].
+8. Now your Bluetooth configuration is complete and you can start to [transfer data](BluetoothOBEX).
 ----
 
-!!!Deinstalling [Blunt] and related packages
+### Deinstalling [[Blunt]] and related packages
 
-Now, why would one want to do this? Well, maybe your [Blunt]-installation is outdated, or you have been experiencing problems with transferring data that couldn't be solved with standard [BluetoothTroubleShooting]. If removing all traces of Blunt and partners and a fresh install might seem worth a try to you, then these are the steps you want to take:
+Now, why would one want to do this? Well, maybe your [[Blunt]]-installation is outdated, or you have been experiencing problems with transferring data that couldn't be solved with standard [[BluetoothTroubleShooting]]. If removing all traces of Blunt and partners and a fresh install might seem worth a try to you, then these are the steps you want to take:
 
 #
 #
@@ -70,81 +50,12 @@ Now, why would one want to do this? Well, maybe your [Blunt]-installation is out
 
 
 ----
-!!See also:
+## See also:
 
-* [BluetoothOBEX] for transferring data between your Newton and another device
-* [BluetoothTroubleShooting] for what to do when things go wrong.
-* [MacOSXBluetooth] for setting up a Macintosh computer for Bluetooth
-* "[Configuration Bluetooth (Blunt)|http://messagepad.chez-alice.fr/Bluetooth/Bluetooth.html]" for a complete illustrated setup-manual by Andreas Nijenhuis. Despite it being in french, it contains a lot of pictures that show the english dialogs on the Newton. So, even if you can't read french, this web page can still show you quite well what to do.
-
-----
-HomePage : HowTo : UsingBluetoothIndex : [BluntSetup]
-
---=_multipart_boundary_12
-Content-Type: application/x-phpwiki;
-  pagename=BluntSetup;
-  flags="";
-  author=ThomasTempelmann;
-  version=1;
-  lastmodified=1142177201;
-  created=1149541634;
-  author_id=212.202.193.236;
-  markup=2;
-  summary=more%20%22see%20also%22%20links;
-  hits=4268;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : UsingBluetoothIndex : [BluntSetup]
-----
-
-Setting up [Blunt] to have a Newton 2x00 device communicate via Bluetooth
-
-1. Get [Newton-compatible Bluetooth-Compact Flash- or PC Card|http://tools.unna.org/wikiwikinewt/index.php/BluetoothCards] (e.g. Sphinx Pico Card, from EUR 15,-- at Ebay).
-
-2. Get the free Newton Bluetooth driver [Blunt|http://www.40hz.org/Blunt] and install it:
-
-* On an US-MessagePad install Eckart Koeppen's BluntMP2x00US.pkg and Bluetooth Setup.pkg.
-* On a German MessagePad install BluntMP2100D.pkg and Bluetooth Setup.pkg.
-* __Important note__: The Bluetooth Setup program included in Blunt 0.7.7 may not be able to __discover__ anything (at least this is the case with the Pico card). Until this gets fixed, use the Bluetooth Setup.pkg from Blunt 0.7.6 instead. You can download version 0.7.6 of the Setup program here: [as a pkg file|http://www.tempel.org/ftp/pub/Newton/Blunt-Bluetooth-Setup-0.7.6.pkg] or [as a zip file|http://www.tempel.org/ftp/pub/Newton/Blunt-Bluetooth-Setup-0.7.6.pkg.zip]
-
-Install both packages to the Internal Store.
-File the setup-package in the Setup-folder (not a requisite, but nice practice).
-
-3. Also install Eckart's NIE Nitro & Blunt Support and Neo packages, see http://www.40hz.org/NIENitroBlunt and http://www.40hz.org/Neo .
-
-4. After installing those four packages, open Bluetooth Setup (find it either inside the "Setup" or the "Unfiled" folder):
-
-* In i/Prefs, enter a Name (= the name under which the Messagepad will visible to other devices) and set the location of the Bluetooth device installed (top or bottom PC Card slot, serial port, internal).
-* For Speed take the max speed and tap "Test" - if you don't get "Test successful", just go back and set the speed one setting lower and try again. Got it? If not, ask yo' mama to explain it to you!
-* For Driver, select the card you have. If your card isn't listed, take the Generic driver. C'ome on now, that ain't too hard now!
-* Close the Preferences-window.
-
-Note: "Test" also resets the BT-Card, so if it ever hangs, you may try getting it back that way without having to reset the Newton
-
-5. Next you've got to "discover" what devices are out there and "pair" them. That's nothing unhealthy, but good, clean fun for the whole family and it goes like this:
-* Make sure you have at least one device (or computer) with Bluetooth activated and set to "discoverable" (instead of hidden). If you want to connect to a Macintosh computer, see here for setting it up: [MacOSXBluetooth])
-* Tap "Discover". Whatever else you got there that's talking Bluetooth should show up now, e.g. the host name of your Powerbook. (If nothing shows up, see [BluetoothTroubleShooting])
-* Tap the item of the device that's been discovered. Tap on the routing slip (that's the envelope icon), you see three options: Pair, Services, Delete. Tap "Pair", and enter a small number (I suggest a 4-digit number, e.g. "4444", and not "0000" to avoid that the Newton misinterprets the digits as the letters "o"), then tap "Initiate".
-* Check for response on the paired computer - it should ask you to enter the same number there now. When you have entered it, the Newton should take a second or two until it will show that the two devices are now paired. The successful pairing will also be known to the other computer. Both devices will remember this pairing setting even when you restart them.
-
-6. After successful pairing, open the device-config for the device you have just paired with and tap Routing (=envelope)/Get Services. With the current version of Blunt, you'll get a Modem Port and an OBEX Port.
-
-7. Optionally turn on authentication on other device, e.g. on your OSX Powerbook System Settings/Bluetooth/Settings/Authenticate (Systemeinstellungen/Bluetooth/Einstellungen/Identifizierung verlangen).
-
-Note: It appears that Blunt does not support encryption, so avoid turning that on for pairing with a Newton.
-
-8. Now your Bluetooth configuration is complete and you can start to [transfer data|BluetoothOBEX].
+* [[BluetoothOBEX]] for transferring data between your Newton and another device
+* [[BluetoothTroubleShooting]] for what to do when things go wrong.
+* [[MacOSXBluetooth]] for setting up a Macintosh computer for Bluetooth
+* "[Configuration Bluetooth (Blunt)](http://messagepad.chez-alice.fr/Bluetooth/Bluetooth.html)" for a complete illustrated setup-manual by Andreas Nijenhuis. Despite it being in french, it contains a lot of pictures that show the english dialogs on the Newton. So, even if you can't read french, this web page can still show you quite well what to do.
 
 ----
-! See also:
-
-* [BluetoothOBEX] for transferring data between your Newton and another device
-* [BluetoothTroubleShooting] for what to do when things go wrong.
-* [MacOSXBluetooth] for setting up a Macintosh computer for Bluetooth
-* "[Configuration Bluetooth (Blunt)|http://messagepad.chez-alice.fr/Bluetooth/Bluetooth.html]" for a complete illustrated setup-manual by Andreas Nijenhuis. Despite it being in french, it contains a lot of pictures that show the english dialogs on the Newton. So, even if you can't read french, this web page can still show you quite well what to do.
-
-----
-HomePage : HowTo : UsingBluetoothIndex : [BluntSetup]
-
---=_multipart_boundary_12--
+[[HomePage]] : [[HowTo]] : [[UsingBluetoothIndex]] : [[BluntSetup]]

@@ -1,38 +1,23 @@
-Date: Tue, 16 Aug 2005 06:18:01 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=OrganiseInformation;
-  flags="";
-  author=212.149.48.43;
-  version=1;
-  lastmodified=1124187481;
-  created=1124187481;
-  author_id=212.149.48.43;
-  markup=2;
-  hits=866;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : SoftwareReviews : OrganiseInformation%%%
-HomePage : UnnaReviews : OrganiseInformation
+[[HomePage]] : [[SoftwareReviews]] : [[OrganiseInformation]]%%%
+[[HomePage]] : [[UnnaReviews]] : [[OrganiseInformation]]
 ----
 
-If you want to organize personal information such as contacts, to-dos, and meetings, then you want PersonalInformationManager instead.
+If you want to organize personal information such as contacts, to-dos, and meetings, then you want [[PersonalInformationManager]] instead.
 
 This is for organization of other information - any other information. In short, lists and databases.
 
-* [Notion | http://www.unna.org/view.php?/applications/database/Notion2Demo ] seems to display all fields at once in the list view, so it seems better suited to custom lists with only a few fields. (Could a Notion user fill this in?)
+* [Notion ](http://www.unna.org/view.php?/applications/database/Notion2Demo ) seems to display all fields at once in the list view, so it seems better suited to custom lists with only a few fields. (Could a Notion user fill this in?)
 
-* [EBase | http://www.unna.org/view.php?/applications/database/EBase ] is a database for NewtonWorks. It offers you four data types: date, text, number, and a pick list; the list allows you to specify which items should be available. It lays out the data entry form with one field per line, so if you have a lot of fields you can end up doing a lot of scrolling, especially if you start collecting data out of order. Seems overall quite useful, but I noticed the following disadvantages: I couldn't find a way to re-order the fields, so you can't add a field near the top of a long set; and text fields only give you an extra line if you overflow the line you're writing on, which is annoying because then you have to write over top of existing text to make enough words to get a new line. The automatic formatting of the fields for data entry is nice, because you don't have to fuss with layout, so it's good for a quick database setup.
+* [EBase ](http://www.unna.org/view.php?/applications/database/EBase ] is a database for [[NewtonWorks]). It offers you four data types: date, text, number, and a pick list; the list allows you to specify which items should be available. It lays out the data entry form with one field per line, so if you have a lot of fields you can end up doing a lot of scrolling, especially if you start collecting data out of order. Seems overall quite useful, but I noticed the following disadvantages: I couldn't find a way to re-order the fields, so you can't add a field near the top of a long set; and text fields only give you an extra line if you overflow the line you're writing on, which is annoying because then you have to write over top of existing text to make enough words to get a new line. The automatic formatting of the fields for data entry is nice, because you don't have to fuss with layout, so it's good for a quick database setup.
 
-* [FilePad | http://www.unna.org/view.php?/applications/database/FilePad1.61-FREE ] has lots of types of data (but no dates), and loads of flexibility in display layout. It'll let you make a multi-page input form so you can group types of data if you have a lot to collect. You can place your entry fields anywhere on the page, but that means you have to lay out the page yourself, which can be finicky and take a long time if you have a lot of data to collect. Multi-line text fields don't appear to have scroll arrows if you overflow them, but you can make them whatever size you want, subject to screen space. Navigation can take some getting used to, as do the saving conventions. Remember, if you're modifying something that's already in the database, press "Mod", not "Save"... "Save" creates and saves a new record. The overview button brings up the "browser"; if you tap on the headings you can choose which fields are displayed, but there seems to be a limit of two at a time. This is where you do sorting and searching, then scroll through the results one at a time in the main screen.
+* [FilePad ](http://www.unna.org/view.php?/applications/database/FilePad1.61-FREE ) has lots of types of data (but no dates), and loads of flexibility in display layout. It'll let you make a multi-page input form so you can group types of data if you have a lot to collect. You can place your entry fields anywhere on the page, but that means you have to lay out the page yourself, which can be finicky and take a long time if you have a lot of data to collect. Multi-line text fields don't appear to have scroll arrows if you overflow them, but you can make them whatever size you want, subject to screen space. Navigation can take some getting used to, as do the saving conventions. Remember, if you're modifying something that's already in the database, press "Mod", not "Save"... "Save" creates and saves a new record. The overview button brings up the "browser"; if you tap on the headings you can choose which fields are displayed, but there seems to be a limit of two at a time. This is where you do sorting and searching, then scroll through the results one at a time in the main screen.
 
-* [Leverage | http://www.unna.org/view.php?/applications/database/Leverage3.1 ] is a relational database, the only one of the lot. If you need multiple tables with relationships, this is the one you want. According to the [company's website | http://www.balconessoftware.com/html/how_to_buy.html ], it's US$139.
+* [Leverage | http://www.unna.org/view.php?/applications/database/Leverage3.1 ] is a relational database, the only one of the lot. If you need multiple tables with relationships, this is the one you want. According to the [company's website ](http://www.balconessoftware.com/html/how_to_buy.html ), it's US$139.
 
-* [CardMEDIA | http://www.unna.org/view.php?/utilites/stationary/CardMEDIA ] (***1/2) is a names enhancement that expands the functionality of Names by adding cards for types of media, such as movies, books, CD's and magazine articles. It works well on an MP2100, with two caveats: The overview function is funky, and all media cards appear above the other cards. If that was ironed out, I'd give it four stars.
+* [CardMEDIA ](http://www.unna.org/view.php?/utilites/stationary/[[CardMEDIA]] ) (***1/2) is a names enhancement that expands the functionality of Names by adding cards for types of media, such as movies, books, CD's and magazine articles. It works well on an MP2100, with two caveats: The overview function is funky, and all media cards appear above the other cards. If that was ironed out, I'd give it four stars.
 
-(The above are my observations after testing these programs out for creating a sortable, searchable list with a large number of fields and data types that I would use over several months. Feel free to add your own observations and/or correct any errors I may have made. PS: for these needs, FilePad seemed the best. --RhondaHyslop)
+(The above are my observations after testing these programs out for creating a sortable, searchable list with a large number of fields and data types that I would use over several months. Feel free to add your own observations and/or correct any errors I may have made. PS: for these needs, [[FilePad]] seemed the best. --[[RhondaHyslop]])
 
 ----
-HomePage : SoftwareReviews : OrganiseInformation%%%
-HomePage : UnnaReviews : OrganiseInformation
+[[HomePage]] : [[SoftwareReviews]] : [[OrganiseInformation]]%%%
+[[HomePage]] : [[UnnaReviews]] : [[OrganiseInformation]]

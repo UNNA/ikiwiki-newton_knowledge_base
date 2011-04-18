@@ -1,20 +1,5 @@
-Date: Sun, 12 Mar 2006 10:35:09 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=Blunt;
-  flags="";
-  author=ThomasTempelmann;
-  version=1;
-  lastmodified=1142177709;
-  created=1142177709;
-  author_id=212.202.193.236;
-  markup=2;
-  hits=194;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+### Blunt - a Bluetooth driver for Newton 2x00 devices
 
-!!!Blunt - a Bluetooth driver for Newton 2x00 devices
+Blunt is software written by Eckhart Köppen. You can find it here: <http://40hz.org>
 
-Blunt is software written by Eckhart Köppen. You can find it here: [http://40hz.org]
-
-See here for [additional information about using Bluetooth and Blunt|UsingBluetoothIndex].
+See here for [additional information about using Bluetooth and Blunt](UsingBluetoothIndex).

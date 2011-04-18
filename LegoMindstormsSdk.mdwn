@@ -1,44 +1,28 @@
-Date: Tue, 14 Mar 2006 15:58:44 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=LegoMindstormsSdk;
-  flags="";
-  author=ThomasTempelmann;
-  version=1;
-  lastmodified=1142369924;
-  created=1142369924;
-  author_id=212.202.193.236;
-  markup=2;
-  summary=Restored%20page%20that%20got%20spammed%20over;
-  hits=593;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-!!LEGO Mindstorms SDK (Software Development Kit)
+## LEGO Mindstorms SDK (Software Development Kit)
 
 __What:__ GUI-based SDK for Mindstorms Robotics Invention kits by Lego.
 
-__Background:__ [Lego Mindstorms|http://www.mindstorms.com] is a very popular rapid-development robotics kit for nerds from nine to ninety. ;=} There are some alternative SDKs around beside the original Lego SDK, now this will come (hopefully) to the Newton at last. Program and store code, beam code to and data from the RCX (the Lego robot brain), export code to desktop, mail it, mail, print or fax "listings"... Maybe use Java-based solution like [LeJOS | http://lejos.sourceforge.net] instead of VisualBasic or C/C++.
+__Background:__ [Lego Mindstorms|http://www.mindstorms.com] is a very popular rapid-development robotics kit for nerds from nine to ninety. ;=} There are some alternative SDKs around beside the original Lego SDK, now this will come (hopefully) to the Newton at last. Program and store code, beam code to and data from the RCX (the Lego robot brain), export code to desktop, mail it, mail, print or fax "listings"... Maybe use Java-based solution like [LeJOS ](http://lejos.sourceforge.net] instead of [[VisualBasic]) or C/C++.
 
 __Benefit:__ The RCX is portable. The whole Mindstorms stuff is portable. Now, the Newton will at last provide a highly portable and intuitive development environment. No more need for IR-towers and 9v blocks, no more need for clumsy desktops or lugging notebooks plus power supply around.
 
 __Additional Data:__
-* [Lego Mindstorms - Available programming languages |http://en.wikipedia.org/wiki/Lego_Mindstorms#Available_programming_languages] from Wikipedia.
+* [Lego Mindstorms - Available programming languages ](http://en.wikipedia.org/wiki/Lego_Mindstorms#Available_programming_languages) from Wikipedia.
 * RCX-Hardware and programming internals (plus loads of cool Mindstorms-related stuff): http://www.esva.net/~byoung/robotics/robbook.htm
 * Any additional input appreciated.
 ----
 %%%
-!Update (Jan 2006)
+# Update (Jan 2006)
 
 *Lego Mindstorms announced a new release, __LEGO® MINDSTORMS™ NXT__, which will be available from August 2006. The hippest part is that besides USB-connectivity, you will be able to upload to and even remote-control your robot via Bluetooth. Also the SDK will be available for Macs, too.
-*Portable development for the (current) RCX is possible on PalmOS (e.g. with OmniRemote Development Kit and RobotRemote from http://www.pacificneotek.com/), and now that you won't even need line-of-sight anymore for in-time transmission of code, I come back to think how cool it would be to use the Newton as portable drag-and-drop development slab/remote control device. It is portable with any bag/case packing the Mindstorms gear, packs loooong hours of runtime, brings Bluetooth to talk to the RCX and any laptop/desktop device, and could even run wifi with BT--perfect for Mindstorms hacking parties or competitions.
+*Portable development for the (current) RCX is possible on [[PalmOS]] (e.g. with [[OmniRemote]] Development Kit and [[RobotRemote]] from http://www.pacificneotek.com/), and now that you won't even need line-of-sight anymore for in-time transmission of code, I come back to think how cool it would be to use the Newton as portable drag-and-drop development slab/remote control device. It is portable with any bag/case packing the Mindstorms gear, packs loooong hours of runtime, brings Bluetooth to talk to the RCX and any laptop/desktop device, and could even run wifi with BT--perfect for Mindstorms hacking parties or competitions.
 *It would be sure to get a lot Newtons broken out of deep hibernation and put back to active duty, and would probably also make a lot of younger folks check out this older gear...
-*Maybe that would be a nice project for the new Waba SDK SeanLuke is working on (perhaps employing Java-based LeJos http://lejos.sourceforge.net/)...
-* See also DevelopingWabaApplications .
+*Maybe that would be a nice project for the new Waba SDK [[SeanLuke]] is working on (perhaps employing Java-based [[LeJos]] http://lejos.sourceforge.net/)...
+* See also [[DevelopingWabaApplications]] .
 ----
 
-!Any Takers?%%%
+# Any Takers?%%%
 %%%
 %%%
 ----
-HomePage : NewtonWishLists : SoftwareWishlist : LegoMindstormsSdk
+[[HomePage]] : [[NewtonWishLists]] : [[SoftwareWishlist]] : [[LegoMindstormsSdk]]

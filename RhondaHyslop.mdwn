@@ -1,18 +1,3 @@
-Date: Tue, 11 Mar 2003 23:39:36 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=RhondaHyslop;
-  flags="";
-  author=RhondaHyslop;
-  version=1;
-  lastmodified=1047443976;
-  created=1047443976;
-  author_id=64.180.125.197;
-  markup=2;
-  hits=201;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 Bought a Newt 2100 just as they were being discontinued.  I'm told I got the last one, or one of the last, in the Lower Mainland - had to drive out to Burnaby to get it, and at the store they said if I hadn't showed up for another couple of hours they'd have sold it to somebody else.  They also apologized for opening the package, but they just had to ogle that fine piece of technology.
 
-Always faithful to my little green friend, and always wowed my classmates with its power.  Memorable quotes include, "wow, that's way easier to use than my friend's (brand new) palm pilot!" and "are you sure you don't work for apple?" (after me expounding on the joys of the newton...)
+Always faithful to my little green friend, and always wowed my classmates with its power.  Memorable quotes include, "wow, that's way easier to use than my friend's (brand new) palm pilot!" and "are you sure you don't work for apple?" (after me expounding on the joys of the newton...)

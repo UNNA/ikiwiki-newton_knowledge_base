@@ -1,16 +1,1 @@
-Date: Thu, 5 May 2005 10:55:01 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=BlinkTest;
-  flags="";
-  author=151.49.11.44;
-  version=1;
-  lastmodified=1115304901;
-  created=1115304901;
-  author_id=151.49.11.44;
-  markup=2;
-  hits=109;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-[http://www.felesmagus.com/newton/blink.jpg]
+<http://www.felesmagus.com/newton/blink.jpg>

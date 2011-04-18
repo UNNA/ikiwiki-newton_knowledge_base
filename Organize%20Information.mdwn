@@ -1,40 +1,20 @@
-Date: Wed, 19 Apr 2006 23:54:32 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_41"
+[[MichaelWittmann]]
 
---=_multipart_boundary_41
-Content-Type: application/x-phpwiki;
-  pagename=Organize%20Information;
-  flags="";
-  author=MichaelWittmann;
-  version=3;
-  lastmodified=1145505272;
-  created=1145505272;
-  author_id=MichaelWittmann;
-  markup=2;
-  summary=Clarified%20that%20I%20%2Awas%2A%20linking%20to%20the%20tools%20to%20make%20this%20work.;
-  hits=511;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-MichaelWittmann
-
-!!! Gathering information
+###  Gathering information
 
 My Newton functions primarily to collect and link information together in my life. I use it to WRITE and to PLAN, plain and simple. The gesture driven interface is like nothing else out there, and I love it. I have tried to move on; I have always come back to the Newton. Now, I don't try to leave anymore.
 
 I use multiple ways of entering information in the Newton, depending on my needs.
 
-! Linking Soups
+#  Linking Soups
 
-Gathering information is the name of the game for me. Notes is my primary entry interface, though I plan my life using Dates. I have an old version of MoreInfo running, so I can link Names and Notes together. That way, I can look up people in my Names, assign ToDos or Meetings with them, and look up when I'll be seeing them or working with them next.
+Gathering information is the name of the game for me. Notes is my primary entry interface, though I plan my life using Dates. I have an old version of [[MoreInfo]] running, so I can link Names and Notes together. That way, I can look up people in my Names, assign [[ToDos]] or Meetings with them, and look up when I'll be seeing them or working with them next.
 
-This gets far more important when working with a project in Names. I have a series of projects, either courses I teach or grants I'm working on or research I'm doing. Often, my graduate students are linked to specific projects, often they exist within many projects. Each student, course, grant, or research project is its own Name. I use the TapBar Names button to launch Names in the right place ("500" launches SMT 500, my educational psychology course, "238" gets me to my physics course, and "IMT" gets me to the research project dealing with the mechanics course I teach). From there, I either launch a linked note or put in an appointment or todo.
+This gets far more important when working with a project in Names. I have a series of projects, either courses I teach or grants I'm working on or research I'm doing. Often, my graduate students are linked to specific projects, often they exist within many projects. Each student, course, grant, or research project is its own Name. I use the [[TapBar]] Names button to launch Names in the right place ("500" launches SMT 500, my educational psychology course, "238" gets me to my physics course, and "IMT" gets me to the research project dealing with the mechanics course I teach). From there, I either launch a linked note or put in an appointment or todo.
 
 Using this approach, I can "surf" across my soups by using the routing button. In a Note, I can click on the name of the student working on a project, head to that students Name card, see when I have my next meeting with that student, and create a new linked note that contains my planning thoughts for that meeting. When the meeting happens, I use the Name soup to find the Note with the right date on it, and I'm off. (I don't like linking Notes to appointments, for whatever reason, though I know it can be useful...)
 
-! Filing in Notes: Naming conventions
+#  Filing in Notes: Naming conventions
 
 Back when I was working on my dissertation and using a heavily keyboard centered filing system, I came up with numbers to preced my folder names. Two strokes and I was in a folder, on the desktop. I still use the same numbers, and do so across all my computers, including the Newton. These are:
 
@@ -49,7 +29,7 @@ Back when I was working on my dissertation and using a heavily keyboard centered
 
 I also had letters at one point... whatever. Each of these categories could have subfolders. On the Newton, where I only have one layer of folders, that's it. I have multiple "4" folders, though: 4-projects and 4-someday. Projects is for ongoing things, while Someday is for brainstorming, big lists, and so on.
 
-! Coded titles
+#  Coded titles
 
 To facilitate finding things, I use one last system. Every Note (and every meeting and todo and event) comes coded. "H:" means it's a "5-personal" thing. (Why not use the number? because I merged two systems, and the coded entries came from my use of the Newton while the numbers were on my desktop first.) Here are all my codes, just as examples:
 
@@ -64,181 +44,21 @@ These codes can be repeated, though that's usually redundant. Jeff is in PERL, w
 
 The codes are most useful in Notes. I need to see in the titles what's actually going on. In Dates, I can actually have the project names and the people involved listed under "Invitees." In the process, everything gets linked together.
 
-! Dates in titles
+#  Dates in titles
 
-One last thing about Notes, I use a 6 digit date convention. When I dumpt files on the desktop using NewtSync or bluetooth, the data comes in all wrong. The download date is often not the date of the Note data. I need to sort according to the date, most often - I can search for projects or names or file in subfolders depending on the codes in the titles. But the date, that I need. So I use YYMMDD. That sorts correctly and easily. Was it a pain in 2000? Why yes, yes it was. But now that's past. Do the database guys I know get mad at me for not using YYYYMMDD? Why yes, yes they do, because they point out how annoying I will be to anyone in 2100. But, see, I'll be dead by then. So there.
+One last thing about Notes, I use a 6 digit date convention. When I dumpt files on the desktop using [[NewtSync]] or bluetooth, the data comes in all wrong. The download date is often not the date of the Note data. I need to sort according to the date, most often - I can search for projects or names or file in subfolders depending on the codes in the titles. But the date, that I need. So I use YYMMDD. That sorts correctly and easily. Was it a pain in 2000? Why yes, yes it was. But now that's past. Do the database guys I know get mad at me for not using YYYYMMDD? Why yes, yes they do, because they point out how annoying I will be to anyone in 2100. But, see, I'll be dead by then. So there.
 
-! Putting it all together
+#  Putting it all together
 
 A typical note title has this form: "060415 500: Tannen framing discussion." This note would be filed in "3-teaching" because it's for my ed psych class. It would be linked to SMT 500 in my Names soup. If one of my graduate students were leading the class discussion, the Note would be linked to that person, too.
 
-!! Tools to make this work
+##  Tools to make this work
 
 Here's a brief start on the tools I use the most:
 
-* [DateBar | http://members.tripod.com/SDHEngSoft/#NewtStuff] helps me do day/week/month views and switch from todo to agenda view in Dates
-* [TapBar | http://saryo.org/basuke/tapbar/] is indispendsible in my life. Buttons for Notes, Names, restarting, style sets, ejecting cards, and more. A GREAT utility.
-* [BBEditor | http://home.earthlink.net/~firstvln/bytesize/bbeditor.html] is from Byte-Size software. I have arrow buttons, a set of custom tools for using Markdown editing in Notes, and more
-* [OneTap Scroller | http://deepfocus.com/newton/OneTapScroller.shtml] lets me move note by note or to the first or the last note in a folder
-* [SimpleMail | http://homepage.mac.com/simonbell/simplemail/] is Simon Bell's fabulous program. I use it for emailing when I'm close to a wireless network that actually works or my ethernet connection
-* [NoteSlider | http://www.tek-ed.com/readme.cfm?id=93] was a program created by "Yos" in Japan. It's for dragging incremental amounts in a Note. The motion is oddly counterintuitive or exactly intuitive, depending on if you've been working on a word processor on your desktop...
-
---=_multipart_boundary_41
-Content-Type: application/x-phpwiki;
-  pagename=Organize%20Information;
-  flags="";
-  author=MichaelWittmann;
-  version=2;
-  lastmodified=1145494868;
-  created=1145505272;
-  author_id=MichaelWittmann;
-  markup=2;
-  hits=511;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-MichaelWittmann
-
-!!! Gathering information
-
-My Newton functions primarily to collect and link information together in my life. I use it to WRITE and to PLAN, plain and simple. The gesture driven interface is like nothing else out there, and I love it. I have tried to move on; I have always come back to the Newton. Now, I don't try to leave anymore.
-
-I use multiple ways of entering information in the Newton, depending on my needs.
-
-! Linking Soups
-
-Gathering information is the name of the game for me. Notes is my primary entry interface, though I plan my life using Dates. I have an old version of MoreInfo running, so I can link Names and Notes together. That way, I can look up people in my Names, assign ToDos or Meetings with them, and look up when I'll be seeing them or working with them next.
-
-This gets far more important when working with a project in Names. I have a series of projects, either courses I teach or grants I'm working on or research I'm doing. Often, my graduate students are linked to specific projects, often they exist within many projects. Each student, course, grant, or research project is its own Name. I use the TapBar Names button to launch Names in the right place ("500" launches SMT 500, my educational psychology course, "238" gets me to my physics course, and "IMT" gets me to the research project dealing with the mechanics course I teach). From there, I either launch a linked note or put in an appointment or todo.
-
-Using this approach, I can "surf" across my soups by using the routing button. In a Note, I can click on the name of the student working on a project, head to that students Name card, see when I have my next meeting with that student, and create a new linked note that contains my planning thoughts for that meeting. When the meeting happens, I use the Name soup to find the Note with the right date on it, and I'm off. (I don't like linking Notes to appointments, for whatever reason, though I know it can be useful...)
-
-! Filing in Notes: Naming conventions
-
-Back when I was working on my dissertation and using a heavily keyboard centered filing system, I came up with numbers to preced my folder names. Two strokes and I was in a folder, on the desktop. I still use the same numbers, and do so across all my computers, including the Newton. These are:
-
-* 1-admin
-* 2-writing
-* 3-teaching
-* 34-students (I am mentoring them and they work on research projects, so they are both 3's and 4's)
-* 4-projects
-* 5-personal
-* 6-reading
-* 7-other work
-
-I also had letters at one point... whatever. Each of these categories could have subfolders. On the Newton, where I only have one layer of folders, that's it. I have multiple "4" folders, though: 4-projects and 4-someday. Projects is for ongoing things, while Someday is for brainstorming, big lists, and so on.
-
-! Coded titles
-
-To facilitate finding things, I use one last system. Every Note (and every meeting and todo and event) comes coded. "H:" means it's a "5-personal" thing. (Why not use the number? because I merged two systems, and the coded entries came from my use of the Newton while the numbers were on my desktop first.) Here are all my codes, just as examples:
-
-* H: personal things (i.e. "home/personal")
-* L: or S: or A: appointments my wife or kids have that I need to be aware of
-* 500: or 238: or 105: and so on: classes that I teach
-* IMT: or IQP: or UM: or QM: are all project names
-* PERL: or Phy: or Cntr: are all administrative units (Physics Education Research Laboratory, physics department, Center for Science and Mathematics Education Research, etc.)
-* Katr: or Ellie: or Jeff: or Padr: are names or abbreviations that tell me which student I'm talking about.
-
-These codes can be repeated, though that's usually redundant. Jeff is in PERL, why use both? Katrina works on the IMT (mechanics) project, why use both? On the other hand, sometimes I have a Center thing with a student not usually coded.
-
-The codes are most useful in Notes. I need to see in the titles what's actually going on. In Dates, I can actually have the project names and the people involved listed under "Invitees." In the process, everything gets linked together.
-
-! Dates in titles
-
-One last thing about Notes, I use a 6 digit date convention. When I dumpt files on the desktop using NewtSync or bluetooth, the data comes in all wrong. The download date is often not the date of the Note data. I need to sort according to the date, most often - I can search for projects or names or file in subfolders depending on the codes in the titles. But the date, that I need. So I use YYMMDD. That sorts correctly and easily. Was it a pain in 2000? Why yes, yes it was. But now that's past. Do the database guys I know get mad at me for not using YYYYMMDD? Why yes, yes they do, because they point out how annoying I will be to anyone in 2100. But, see, I'll be dead by then. So there.
-
-! Putting it all together
-
-A typical note title has this form: "060415 500: Tannen framing discussion." This note would be filed in "3-teaching" because it's for my ed psych class. It would be linked to SMT 500 in my Names soup. If one of my graduate students were leading the class discussion, the Note would be linked to that person, too.
-
-!! Tools to make this work
-
-I won't link to these, but I'll just name them:
-
-* [DateBar | http://members.tripod.com/SDHEngSoft/#NewtStuff] helps me do day/week/month views and switch from todo to agenda view in Dates
-* [TapBar | http://saryo.org/basuke/tapbar/] is indispendsible in my life. Buttons for Notes, Names, restarting, style sets, ejecting cards, and more. A GREAT utility.
-* [BBEditor | http://home.earthlink.net/~firstvln/bytesize/bbeditor.html] is from Byte-Size software. I have arrow buttons, a set of custom tools for using Markdown editing in Notes, and more
-* [OneTap Scroller | http://deepfocus.com/newton/OneTapScroller.shtml] lets me move note by note or to the first or the last note in a folder
-* [SimpleMail | http://homepage.mac.com/simonbell/simplemail/] is Simon Bell's fabulous program. I use it for emailing when I'm close to a wireless network that actually works or my ethernet connection
-* [NoteSlider | http://www.tek-ed.com/readme.cfm?id=93] was a program created by "Yos" in Japan. It's for dragging incremental amounts in a Note. The motion is oddly counterintuitive or exactly intuitive, depending on if you've been working on a word processor on your desktop...
-
---=_multipart_boundary_41
-Content-Type: application/x-phpwiki;
-  pagename=Organize%20Information;
-  flags="";
-  author=MichaelWittmann;
-  version=1;
-  lastmodified=1145494761;
-  created=1145494868;
-  author_id=MichaelWittmann;
-  markup=2;
-  hits=511;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-
-
-!!! Gathering information
-
-My Newton functions primarily to collect and link information together in my life. I use it to WRITE and to PLAN, plain and simple. The gesture driven interface is like nothing else out there, and I love it. I have tried to move on; I have always come back to the Newton. Now, I don't try to leave anymore.
-
-I use multiple ways of entering information in the Newton, depending on my needs.
-
-! Linking Soups
-
-Gathering information is the name of the game for me. Notes is my primary entry interface, though I plan my life using Dates. I have an old version of MoreInfo running, so I can link Names and Notes together. That way, I can look up people in my Names, assign ToDos or Meetings with them, and look up when I'll be seeing them or working with them next.
-
-This gets far more important when working with a project in Names. I have a series of projects, either courses I teach or grants I'm working on or research I'm doing. Often, my graduate students are linked to specific projects, often they exist within many projects. Each student, course, grant, or research project is its own Name. I use the TapBar Names button to launch Names in the right place ("500" launches SMT 500, my educational psychology course, "238" gets me to my physics course, and "IMT" gets me to the research project dealing with the mechanics course I teach). From there, I either launch a linked note or put in an appointment or todo.
-
-Using this approach, I can "surf" across my soups by using the routing button. In a Note, I can click on the name of the student working on a project, head to that students Name card, see when I have my next meeting with that student, and create a new linked note that contains my planning thoughts for that meeting. When the meeting happens, I use the Name soup to find the Note with the right date on it, and I'm off. (I don't like linking Notes to appointments, for whatever reason, though I know it can be useful...)
-
-! Filing in Notes: Naming conventions
-
-Back when I was working on my dissertation and using a heavily keyboard centered filing system, I came up with numbers to preced my folder names. Two strokes and I was in a folder, on the desktop. I still use the same numbers, and do so across all my computers, including the Newton. These are:
-
-* 1-admin
-* 2-writing
-* 3-teaching
-* 34-students (I am mentoring them and they work on research projects, so they are both 3's and 4's)
-* 4-projects
-* 5-personal
-* 6-reading
-* 7-other work
-
-I also had letters at one point... whatever. Each of these categories could have subfolders. On the Newton, where I only have one layer of folders, that's it. I have multiple "4" folders, though: 4-projects and 4-someday. Projects is for ongoing things, while Someday is for brainstorming, big lists, and so on.
-
-! Coded titles
-
-To facilitate finding things, I use one last system. Every Note (and every meeting and todo and event) comes coded. "H:" means it's a "5-personal" thing. (Why not use the number? because I merged two systems, and the coded entries came from my use of the Newton while the numbers were on my desktop first.) Here are all my codes, just as examples:
-
-* H: personal things (i.e. "home/personal")
-* L: or S: or A: appointments my wife or kids have that I need to be aware of
-* 500: or 238: or 105: and so on: classes that I teach
-* IMT: or IQP: or UM: or QM: are all project names
-* PERL: or Phy: or Cntr: are all administrative units (Physics Education Research Laboratory, physics department, Center for Science and Mathematics Education Research, etc.)
-* Katr: or Ellie: or Jeff: or Padr: are names or abbreviations that tell me which student I'm talking about.
-
-These codes can be repeated, though that's usually redundant. Jeff is in PERL, why use both? Katrina works on the IMT (mechanics) project, why use both? On the other hand, sometimes I have a Center thing with a student not usually coded.
-
-The codes are most useful in Notes. I need to see in the titles what's actually going on. In Dates, I can actually have the project names and the people involved listed under "Invitees." In the process, everything gets linked together.
-
-! Dates in titles
-
-One last thing about Notes, I use a 6 digit date convention. When I dumpt files on the desktop using NewtSync or bluetooth, the data comes in all wrong. The download date is often not the date of the Note data. I need to sort according to the date, most often - I can search for projects or names or file in subfolders depending on the codes in the titles. But the date, that I need. So I use YYMMDD. That sorts correctly and easily. Was it a pain in 2000? Why yes, yes it was. But now that's past. Do the database guys I know get mad at me for not using YYYYMMDD? Why yes, yes they do, because they point out how annoying I will be to anyone in 2100. But, see, I'll be dead by then. So there.
-
-! Putting it all together
-
-A typical note title has this form: "060415 500: Tannen framing discussion." This note would be filed in "3-teaching" because it's for my ed psych class. It would be linked to SMT 500 in my Names soup. If one of my graduate students were leading the class discussion, the Note would be linked to that person, too.
-
-!! Tools to make this work
-
-I won't link to these, but I'll just name them:
-
-* [DateBar | http://members.tripod.com/SDHEngSoft/#NewtStuff] helps me do day/week/month views and switch from todo to agenda view in Dates
-* [TapBar | http://saryo.org/basuke/tapbar/] is indispendsible in my life. Buttons for Notes, Names, restarting, style sets, ejecting cards, and more. A GREAT utility.
-* [BBEditor | http://home.earthlink.net/~firstvln/bytesize/bbeditor.html] is from Byte-Size software. I have arrow buttons, a set of custom tools for using Markdown editing in Notes, and more
-* [OneTap Scroller | http://deepfocus.com/newton/OneTapScroller.shtml] lets me move note by note or to the first or the last note in a folder
-* [SimpleMail | http://homepage.mac.com/simonbell/simplemail/] is Simon Bell's fabulous program. I use it for emailing when I'm close to a wireless network that actually works or my ethernet connection
-* [NoteSlider | http://www.tek-ed.com/readme.cfm?id=93] was a program created by "Yos" in Japan. It's for dragging incremental amounts in a Note. The motion is oddly counterintuitive or exactly intuitive, depending on if you've been working on a word processor on your desktop...
-
---=_multipart_boundary_41--
+* [DateBar ](http://members.tripod.com/SDHEngSoft/#NewtStuff) helps me do day/week/month views and switch from todo to agenda view in Dates
+* [TapBar ](http://saryo.org/basuke/tapbar/) is indispendsible in my life. Buttons for Notes, Names, restarting, style sets, ejecting cards, and more. A GREAT utility.
+* [BBEditor ](http://home.earthlink.net/~firstvln/bytesize/bbeditor.html) is from Byte-Size software. I have arrow buttons, a set of custom tools for using Markdown editing in Notes, and more
+* [OneTap Scroller ](http://deepfocus.com/newton/[[OneTapScroller]].shtml) lets me move note by note or to the first or the last note in a folder
+* [SimpleMail ](http://homepage.mac.com/simonbell/simplemail/) is Simon Bell's fabulous program. I use it for emailing when I'm close to a wireless network that actually works or my ethernet connection
+* [NoteSlider ](http://www.tek-ed.com/readme.cfm?id=93) was a program created by "Yos" in Japan. It's for dragging incremental amounts in a Note. The motion is oddly counterintuitive or exactly intuitive, depending on if you've been working on a word processor on your desktop...

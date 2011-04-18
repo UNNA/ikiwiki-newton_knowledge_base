@@ -1,27 +1,8 @@
-Date: Wed, 24 May 2006 19:40:28 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_43"
-
---=_multipart_boundary_43
-Content-Type: application/x-phpwiki;
-  pagename=EinsteinOnZaurus;
-  flags="";
-  author=RossOlson;
-  version=3;
-  lastmodified=1148514028;
-  created=1148514028;
-  author_id=RossOlson;
-  markup=2;
-  hits=226;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 How to get Einstein running on a Sharp Zaurus (focusing on the SL-5500)
 
 *1) Get a Sharp Zaurus* SL-5500. Ebay has them often.
 
-*2) Install OpenZaurus* (3.5.x) from http://openzaurus.org
+*2) Install [[OpenZaurus]]* (3.5.x) from http://openzaurus.org
 
 _Which version? Need more instructions here! I want to get an install of OZ that has just the pieces that Einstein needs. However it seems that the 5500 is considered to have a very tight space for the Flash RAM. It seems that Einstein needs X11. Does that mean I need to install OPIE? or GPE?_
 
@@ -31,74 +12,8 @@ _Which version? Need more instructions here! I want to get an install of OZ that
 
 I ended up using the "zImage-24-8" and the "gpe-image-3.5.4-collie.initrd.bin" files to get my "zImage" and "initrd.bin" files on the Compact Flash card. All of the OZ apps run SLLLLOOOOOWWWWLY to the point that I've rebooted to get access back to the machine. Some take 5 mintues to launch.
 
-The note at the bottom of that first BerliOS site/wiki says that the root should be moved to another card. did the SL-5500 in Adam's photo have that?
+The note at the bottom of that first [[BerliOS]] site/wiki says that the root should be moved to another card. did the SL-5500 in Adam's photo have that?
 
 *3) Install Einstein*.
 
-_Since I've not even gotten through step 2, this one is a ways down the road for me. - RossOlson_
-
---=_multipart_boundary_43
-Content-Type: application/x-phpwiki;
-  pagename=EinsteinOnZaurus;
-  flags="";
-  author=RossOlson;
-  version=2;
-  lastmodified=1148452834;
-  created=1148514028;
-  author_id=RossOlson;
-  markup=2;
-  hits=226;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-How to get Einstein running on a Sharp Zaurus (focusing on the SL-5500)
-
-*1) Get a Sharp Zaurus* SL-5500. Ebay has them often.
-
-*2) Install OpenZaurus* (3.5.x) from http://openzaurus.org
-
-_Which version? Need more instructions here! I want to get an install of OZ that has just the pieces that Einstein needs. However it seems that the 5500 is considered to have a very tight space for the Flash RAM. It seems that Einstein needs X11. Does that mean I need to install OPIE? or GPE?_
-
-* http://openzaurus.berlios.de/Collie/Install
-* http://openzaurus.org/wordpress/downloads/
-* http://oz.hentges.net/mirror/oz3.5.4/images/collie/
-
-The note at the bottom of that first BerliOS site/wiki says that the root should be moved to another card. did the SL-5500 in Adam's photo have that?
-
-*3) Install Einstein*.
-
-_Since I've not even gotten through step 2, this one is a ways down the road for me. - RossOlson_
-
---=_multipart_boundary_43
-Content-Type: application/x-phpwiki;
-  pagename=EinsteinOnZaurus;
-  flags="";
-  author=RossOlson;
-  version=1;
-  lastmodified=1148448009;
-  created=1148452834;
-  author_id=RossOlson;
-  markup=2;
-  hits=226;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-How to get Einstein running on a Sharp Zaurus (focusing on the SL-5500)
-
-*1) Get a Sharp Zaurus* SL-5500. Ebay has them often.
-
-*2) Install OpenZaurus* (3.5.x) from http://openzaurus.org
-
-_Which version? Need more instructions here! I want to get an install of OZ that has just the pieces that Einstein needs. However it seems that the 5500 is considered to have a very tight space for the Flash RAM. It seems that Einstein needs X11. Does that mean I need to install OPIE? or GPE?_
-
-* http://openzaurus.berlios.de/collie/install
-* http://openzaurus.org/wordpress/downloads/
-* http://oz.hentges.net/mirror/oz3.5.4/images/collie/
-
-The note at the bottom of that first BerliOS site/wiki says that the root should be moved to another card. did the SL-5500 in Adam's photo have that?
-
-*3) Install Einstein*.
-
-_Since I've not even gotten through step 2, this one is a ways down the road for me. - RossOlson_
-
---=_multipart_boundary_43--
+_Since I've not even gotten through step 2, this one is a ways down the road for me. - [[RossOlson]]_

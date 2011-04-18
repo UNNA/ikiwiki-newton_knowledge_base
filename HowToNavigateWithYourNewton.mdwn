@@ -1,25 +1,10 @@
-Date: Thu, 26 May 2005 04:35:55 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=HowToNavigateWithYourNewton;
-  flags="";
-  author=RonParker;
-  version=1;
-  lastmodified=1117096555;
-  created=1117096555;
-  author_id=67.114.220.142;
-  markup=2;
-  hits=442;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+[[HomePage]] : [[CoolSetups]] : [[LakeTahoeHikingNewton]] : [[HowToNavigateWithYourNewton]]
 
-HomePage : CoolSetups : LakeTahoeHikingNewton : HowToNavigateWithYourNewton
-
-HomePage : HowTo : [GPSOnNewton] : LakeTahoeHikingNewton : HowToNavigateWithYourNewton
+[[HomePage]] : [[HowTo]] : [[GPSOnNewton]] : [[LakeTahoeHikingNewton]] : [[HowToNavigateWithYourNewton]]
 ----
 
-!!!The Lake Tahoe Hiking Newton - The Official Reference Guide
-!!GPS Basics: Information About GPS, Mapping And Navigation
+### The Lake Tahoe Hiking Newton - The Official Reference Guide
+## GPS Basics: Information About GPS, Mapping And Navigation
 __Written by Ron A. Parker - February 25, 2005 - All Rights Reserved__
 %%%
 %%%
@@ -27,21 +12,21 @@ __Written by Ron A. Parker - February 25, 2005 - All Rights Reserved__
 
 
 UNNA's mirror for GPS Map and GPS Map Lite online manuals:
-  English -  [http://mirrors.unna.org/www.soaring.de/gps/GPS_Map_e.html]%%%
-  Deutsch - [http://mirrors.unna.org/www.soaring.de/gps/GPS_Map_d.html]%%%
+English -  <http://mirrors.unna.org/www.soaring.de/gps/GPS_Map_e.html>%%%
+Deutsch - <http://mirrors.unna.org/www.soaring.de/gps/GPS_Map_d.html>%%%
 
 
 Free Source for USGS Topographical Maps of California:
-  [http://casil.ucdavis.edu/casil/gis.ca.gov/drg/]%%%
+<http://casil.ucdavis.edu/casil/gis.ca.gov/drg/>%%%
 
 Subscription Mapping Sources:
-  [http://www.topozone.com] - Custom maps of many different types%%%
-  [http://maps.nationalgeographic.com/topo/] - National Geographic's TOPO! Mapping Software for Mac/PC %%%
+<http://www.topozone.com> - Custom maps of many different types%%%
+<http://maps.nationalgeographic.com/topo/> - National Geographic's TOPO! Mapping Software for Mac/PC %%%
 
 Geo Code Address Conversion:
-  [http://geocoder.us/] - U.S. Addresses to longitude/latitude %%%
-  [http://www.travelgis.com/geocode/] - Conversions for 22 countries plus reverse lookup %%%
+<http://geocoder.us/> - U.S. Addresses to longitude/latitude %%%
+<http://www.travelgis.com/geocode/> - Conversions for 22 countries plus reverse lookup %%%
 
 Tutorials about GPS, Mapping, and Navigation:
-  [http://www.globalsecurity.org/military/library/policy/army/fm/3-25-26/index.html] - U.S. Army Map Reading and Land Navigation Field Manual FM-3-25-26 %%%
-  [Download the Newton eBook|http://www.stillnewt.org/library/_nonfiction/_Natural%20Sciences%20&%20Technology/_Navigation%20and%20Woodcraft/US%20Army%20Field%20Manual%20-%20FM%203-25.26%20Map%20Reading%20and%20Land%20Navigation/] - Classic 10pt Format w/Illustrations
+<http://www.globalsecurity.org/military/library/policy/army/fm/3-25-26/index.html> - U.S. Army Map Reading and Land Navigation Field Manual FM-3-25-26 %%%
+[Download the Newton eBook](http://www.stillnewt.org/library/_nonfiction/_Natural%20Sciences%20&%20Technology/_Navigation%20and%20Woodcraft/US%20Army%20Field%20Manual%20-%20FM%203-25.26%20Map%20Reading%20and%20Land%20Navigation/) - Classic 10pt Format w/Illustrations

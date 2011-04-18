@@ -1,48 +1,33 @@
-Date: Fri, 13 May 2005 09:23:08 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=TheJaggies;
-  flags="";
-  author=66.193.164.125;
-  version=1;
-  lastmodified=1115990588;
-  created=1115990588;
-  author_id=66.193.164.125;
-  markup=2;
-  hits=2551;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HardWare : FixIt : TheJaggies%%%
-HomePage : NewtonRepairPerson : FixIt : TheJaggies%%%
+[[HomePage]] : [[HardWare]] : [[FixIt]] : [[TheJaggies]]%%%
+[[HomePage]] : [[NewtonRepairPerson]] : [[FixIt]] : [[TheJaggies]]%%%
 ----
 %%%
-!!Please look at the disclaimer in the FixIt page before attempting to fix your Newton yourself!
+!!Please look at the disclaimer in the [[FixIt]] page before attempting to fix your Newton yourself!
 
 %%%
-TheJaggies is a common problem with many [MessagePad2000]s and [MessagePad2100]s.
+[[TheJaggies]] is a common problem with many [[MessagePad2000]]s and [[MessagePad2100]]s.
 
- __Symptoms:__ Pen input is not interpreted properly: digital ink is not displayed as it was written.  For example: straight lines look squiggly, letters have jagged edges which affects Handwriting Recognition, pen taps do not register in the right places.  Some of these symptoms may only occur or get worse when pressure is applied to the Newton's case in a certain way.
+__Symptoms:__ Pen input is not interpreted properly: digital ink is not displayed as it was written.  For example: straight lines look squiggly, letters have jagged edges which affects Handwriting Recognition, pen taps do not register in the right places.  Some of these symptoms may only occur or get worse when pressure is applied to the Newton's case in a certain way.
 
-The Jaggies were described by Ed Kummel in more dramatic fashion on the NewtonTalk list on 3/24/05 as follows: "The jaggies are evidenced by the digital ink not tracking with the stylus in a pseudo-random manner. The way this manifests its self is that you can be writing on the screen, happy as you please, then in the middle of forming a letter, and without you removing the stylus from the screen, the digital ink will suddenly and disasterously jump to some other random part of the screen and continue doing this until what you wrote resembles the jagged tracing of electrical arcs in a Van-Degraff machine. Needless to say, the resulting digital ink is unrecognizable by you or the recognizer software."
+The Jaggies were described by Ed Kummel in more dramatic fashion on the [[NewtonTalk]] list on 3/24/05 as follows: "The jaggies are evidenced by the digital ink not tracking with the stylus in a pseudo-random manner. The way this manifests its self is that you can be writing on the screen, happy as you please, then in the middle of forming a letter, and without you removing the stylus from the screen, the digital ink will suddenly and disasterously jump to some other random part of the screen and continue doing this until what you wrote resembles the jagged tracing of electrical arcs in a Van-Degraff machine. Needless to say, the resulting digital ink is unrecognizable by you or the recognizer software."
 
- __Causes:__ After much debate over the years, it has generally been accepted that TheJaggies are caused by __a worn-out touchscreen layer or connector__ (although list member [Doug Parker | mailto:dougp@ispinn.com] has had multiple, permanent successes following Marco Mailand's fix involving shaving plastic from the [inside edges|http://www.unna.org/unnasearch/entry.php?pkey=472] of the top of the Newton's case. The process involves the complete [disassembly | http://www.pda-soft.de/2x00_disassemble.html] of the Newton). ([Reassembly instruction are at Frank's site, here. |http://www.pda-soft.de/2x00_reassemble.html]) The connection between the touchscreen and the Newton's logic board is held together only by the pressure of the motherboard screwed into the case: therefore, over time it is possible for the connection to become dirty or worn because of minute movements of either the touchscreen cable or the Newton's logic board itself. You can see here:
+__Causes:__ After much debate over the years, it has generally been accepted that [[TheJaggies]] are caused by __a worn-out touchscreen layer or connector__ (although list member [Doug Parker | mailto:dougp@ispinn.com] has had multiple, permanent successes following Marco Mailand's fix involving shaving plastic from the [inside edges|http://www.unna.org/unnasearch/entry.php?pkey=472] of the top of the Newton's case. The process involves the complete [disassembly | http://www.pda-soft.de/2x00_disassemble.html] of the Newton). ([Reassembly instruction are at Frank's site, here. ](http://www.pda-soft.de/2x00_reassemble.html)) The connection between the touchscreen and the Newton's logic board is held together only by the pressure of the motherboard screwed into the case: therefore, over time it is possible for the connection to become dirty or worn because of minute movements of either the touchscreen cable or the Newton's logic board itself. You can see here:
 
-[here|http://www.pda-soft.de/2x00_disassembly31large.jpg]
+[here](http://www.pda-soft.de/2x00_disassembly31large.jpg)
 
- a photo of the touchscreen cable.  Yes, it's just held in place by two little pegs and then the motherboard pressing on top of it.
+a photo of the touchscreen cable.  Yes, it's just held in place by two little pegs and then the motherboard pressing on top of it.
 
- __Workarounds:__  Some people are able to make TheJaggies go away temporarially by simply running a thin card around the edge of their screen to clean out any dirt that may be confusing the touchscreen. One report is in that fitting a Nu Shield screen protector cured the Jaggies. This is at best a temporary fix, but can be month-long.
+__Workarounds:__  Some people are able to make [[TheJaggies]] go away temporarially by simply running a thin card around the edge of their screen to clean out any dirt that may be confusing the touchscreen. One report is in that fitting a Nu Shield screen protector cured the Jaggies. This is at best a temporary fix, but can be month-long.
 
- __Solution 1:__ Clean the touchscreen connection with alcohol or contact cleaner and reassemble: this has been reported to work in most cases.  Alternatively, the touchscreen layer of the screen or the entire screen itself may need to be replaced. (Note: This has the side effect of clearing the space between the touch screen and the Newton's case, so it's possible that either or both could be contributing to the jaggies fix. --Doug Parker)
+__Solution 1:__ Clean the touchscreen connection with alcohol or contact cleaner and reassemble: this has been reported to work in most cases.  Alternatively, the touchscreen layer of the screen or the entire screen itself may need to be replaced. (Note: This has the side effect of clearing the space between the touch screen and the Newton's case, so it's possible that either or both could be contributing to the jaggies fix. --Doug Parker)
 
- __Solution 2:__ Shave some tenths of a millimeter off of the inside edges of the upper Newton case and thus increase the space between touch screen and the dark green plastic of the upper shell. We believe that the upper shell changes its shape due to loss of softener or e.g. in bright sunlight or other environmental specialities. Thus TheJaggies may occour even with a brand new Newton or only in a certain time of the year or climatic circumstance. (Note: This is the same as my suggested fix above. --Doug Parker)
+__Solution 2:__ Shave some tenths of a millimeter off of the inside edges of the upper Newton case and thus increase the space between touch screen and the dark green plastic of the upper shell. We believe that the upper shell changes its shape due to loss of softener or e.g. in bright sunlight or other environmental specialities. Thus [[TheJaggies]] may occour even with a brand new Newton or only in a certain time of the year or climatic circumstance. (Note: This is the same as my suggested fix above. --Doug Parker)
 
-For MP2x00 disassembly instructions, [click here|http://www.pda-soft.de/body_2x00_disassemble.html].
- Touchscreen replacement kits can be ordered from [http://www.adago.net/|http://www.adago.net/].
+For MP2x00 disassembly instructions, [click here](http://www.pda-soft.de/body_2x00_disassemble.html).
+Touchscreen replacement kits can be ordered from <http://www.adago.net/>(http://www.adago.net/).
 
 
 
 ----
-HomePage : HardWare : FixIt : TheJaggies%%%
-HomePage : NewtonRepairPerson : FixIt : TheJaggies%%%
+[[HomePage]] : [[HardWare]] : [[FixIt]] : [[TheJaggies]]%%%
+[[HomePage]] : [[NewtonRepairPerson]] : [[FixIt]] : [[TheJaggies]]%%%

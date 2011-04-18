@@ -1,16 +1,1 @@
-Date: Tue, 23 Sep 2003 12:45:35 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=Dongle;
-  flags="";
-  author=VictorRehorst;
-  version=1;
-  lastmodified=1064335535;
-  created=1064335535;
-  author_id=204.225.173.9;
-  markup=2;
-  hits=504;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-See AboutDongles.
+See [[AboutDongles]].

@@ -1,28 +1,13 @@
-Date: Tue, 18 Oct 2005 17:14:31 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NewtonKeyboard;
-  flags="";
-  author=199.8.68.159;
-  version=1;
-  lastmodified=1129670071;
-  created=1129670071;
-  author_id=199.8.68.159;
-  markup=2;
-  hits=219;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 http://www.enfour.co.jp/newton/images/mp2100-2.gif
 
-The NewtonKeyboard allows a user to add information to your Newton by typing as well has writing.  Most keyboards have a standard Macintosh Serial port and will require a Dongle (see AboutDongles) or [SER-001] board.
+The [[NewtonKeyboard]] allows a user to add information to your Newton by typing as well has writing.  Most keyboards have a standard Macintosh Serial port and will require a Dongle (see [[AboutDongles]]) or [SER-001] board.
 
-! Inside the keyboard
+#  Inside the keyboard
 (Any one care to fill this out more?  I've taken the first step.  --Puckdropper)
 
 The serial cable connects to a header on a circuit board.  It is wired as such:
 
-!Keyboard to printed circuit board layout
+# Keyboard to printed circuit board layout
 * DIN 8    Color
 * 1  Tan
 * 2  Tan
@@ -35,7 +20,7 @@ The serial cable connects to a header on a circuit board.  It is wired as such:
 * Outside Black (large)
 
 
-! More information about keyboards
+#  More information about keyboards
 Want to use your Newton keyboard with a Macintosh Computer?
 http://www.markus-fritze.de/newtonen/index.html
 

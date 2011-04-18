@@ -1,86 +1,66 @@
-Date: Thu, 8 Feb 2007 13:33:24 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_36"
-
---=_multipart_boundary_36
-Content-Type: application/x-phpwiki;
-  pagename=NewtonSightings;
-  flags="";
-  author=admin;
-  version=2;
-  lastmodified=1170959604;
-  created=1170959604;
-  author_id=admin;
-  markup=2;
-  summary=removing%20spammage;
-  hits=5238;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-Due to Apple's great relationship with Hollywood, you may have noticed that there are a lot of Macs popping up in movies and TV shows.  The Newton is no exception.  This is an attempt to document all of the sightings of Newtons in television, movies and other mainstream media.  Thanks to Rick Ludwig of NewtonTalk for writing [the initial list|http://www.newtontalk.net/archive/newtontalk.2004-02/0209.html] that this page is based on.  Also some of this information gleaned from various posts to NewtonTalk over the years.%%%
+Due to Apple's great relationship with Hollywood, you may have noticed that there are a lot of Macs popping up in movies and TV shows.  The Newton is no exception.  This is an attempt to document all of the sightings of Newtons in television, movies and other mainstream media.  Thanks to Rick Ludwig of [[NewtonTalk]] for writing [the initial list](http://www.newtontalk.net/archive/newtontalk.2004-02/0209.html] that this page is based on.  Also some of this information gleaned from various posts to [[NewtonTalk]) over the years.%%%
 %%%
 
 __Apple-sponsored media appearances__
 
-* __[Newton TV Commercials|http://www.unna.org/view.php?/movies/commercials]__ : The original Newton TV spots.  In QuickTime format, some also in PKG format for viewing on the Newton itself.
+* __[Newton TV Commercials](http://www.unna.org/view.php?/movies/commercials]__ : The original Newton TV spots.  In [[QuickTime]) format, some also in PKG format for viewing on the Newton itself.
 
-* __[Knowledge Navigator|http://www.unna.org/view.php?/movies/Apple/KnowledgeNavigator]__ : While not strictly containing the Newton, this video was commissioned by John Sculley (Apple CEO 1985-1997) to show his vision of computing.  Part of the vision was a Personal Digital Assistant, and the rest is history...
+* __[Knowledge Navigator](http://www.unna.org/view.php?/movies/Apple/KnowledgeNavigator)__ : While not strictly containing the Newton, this video was commissioned by John Sculley (Apple CEO 1985-1997) to show his vision of computing.  Part of the vision was a Personal Digital Assistant, and the rest is history...
 
 __Movie and TV appearances in alphabetical order__
 
-* __[Angels in the Outfield|http://us.imdb.com/title/tt0109127/] (1994)__ : Danny Glover's assistant uses an MP2000 (to remember the day he is supposed to be fired).
+* __[Angels in the Outfield](http://us.imdb.com/title/tt0109127/) (1994)__ : Danny Glover's assistant uses an MP2000 (to remember the day he is supposed to be fired).
 
-* __[Batman and Robin|http://us.imdb.com/title/tt0118688/] (1997)__: Ever-present use of an eMate by Alicia Silverstone (Batgirl).
+* __[Batman and Robin](http://us.imdb.com/title/tt0118688/) (1997)__: Ever-present use of an eMate by Alicia Silverstone (Batgirl).
 
-* __[Blank Check|http://us.imdb.com/title/tt0109287/] (1994)__ : Not sure...
+* __[Blank Check](http://us.imdb.com/title/tt0109287/) (1994)__ : Not sure...
 
-* __[Earth Final Conflict (TV)|http://us.imdb.com/title/tt0123816/] (1997-2002)__ : MP130, MP2000
+* __[Earth Final Conflict (TV)](http://us.imdb.com/title/tt0123816/) (1997-2002)__ : MP130, MP2000
 
-* __[Die fetten Jahre sind vorbei|http://us.imdb.com/title/tt0408777/] (Germany, 2004)__: The main actor is using a Newton 130 for checking the security systems of buildings.
+* __[Die fetten Jahre sind vorbei](http://us.imdb.com/title/tt0408777/) (Germany, 2004)__: The main actor is using a Newton 130 for checking the security systems of buildings.
 
-* __[Hackers|http://us.imdb.com/title/tt0113243/] (USA 1995)__ : Angelina Jolie's character has a Newton [sitting on her desk|http://dev.newtontalk.net/~jburks/archives/2004_02_01_dumbstart_archive.html].  Also seen when people are drooling over the new PowerBook hardware.
+* __[Hackers|http://us.imdb.com/title/tt0113243/] (USA 1995)__ : Angelina Jolie's character has a Newton [sitting on her desk](http://dev.newtontalk.net/~jburks/archives/2004_02_01_dumbstart_archive.html].  Also seen when people are drooling over the new [[PowerBook]) hardware.
 
-* __[Herbie, The Love Bug|http://us.imdb.com/title/tt0119571/] (1995)__: Not sure...
+* __[Herbie, The Love Bug](http://us.imdb.com/title/tt0119571/) (1995)__: Not sure...
 
-* __[The Jackal|http://www.imdb.com/title/tt0119395] (1997)__: The Jackal (Bruce Willis as contract killer) has a remote-controlled autocannon. The remote control uses the original Newton keyboard by Apple ([sighted|http://marc.10east.com/?l=newtontalk&m=108875956122711&w=2] by [DJVollkasko], confirmed by Oliver Brose, with additional contributions by LA Green, Peter H. Coffin, David Abramowitz and a special appearance by Commander Benjamin Sisko of the Starfleet's DS 9 {WTF?}).
+* __[The Jackal|http://www.imdb.com/title/tt0119395] (1997)__: The Jackal (Bruce Willis as contract killer) has a remote-controlled autocannon. The remote control uses the original Newton keyboard by Apple ([sighted](http://marc.10east.com/?l=newtontalk&m=108875956122711&w=2] by [[DJVollkasko]), confirmed by Oliver Brose, with additional contributions by LA Green, Peter H. Coffin, David Abramowitz and a special appearance by Commander Benjamin Sisko of the Starfleet's DS 9 {WTF?}).
 
-* __[Jurassic Park|http://us.imdb.com/title/tt0107290/] (USA 1993)__: in the control room on Nedry's desk (you can barely see it, but if you have the DVD you can catch it). __Possibly the first time a Newton appears on the silver screen or tv.__
+* __[Jurassic Park](http://us.imdb.com/title/tt0107290/) (USA 1993)__: in the control room on Nedry's desk (you can barely see it, but if you have the DVD you can catch it). __Possibly the first time a Newton appears on the silver screen or tv.__
 
-* __[The Matrix | http://us.imdb.com/title/tt0133093/] (USA 1999)__: MP2x00 - right in the beginning, when Neo sleeps with his head on his desktop. Seems funny, that no one has noticed. But playing around with my new DVD & DVD player (slow motion and 4x zoom) - the oh so well known form factor appeared left of Neos head. As the Camera looks down and turns, we see all the gadgets spread out on his desk, and there something very familiar moves from seven to nine o'clock.
+* __[The Matrix ](http://us.imdb.com/title/tt0133093/) (USA 1999)__: MP2x00 - right in the beginning, when Neo sleeps with his head on his desktop. Seems funny, that no one has noticed. But playing around with my new DVD & DVD player (slow motion and 4x zoom) - the oh so well known form factor appeared left of Neos head. As the Camera looks down and turns, we see all the gadgets spread out on his desk, and there something very familiar moves from seven to nine o'clock.
 
-* __[The Outer Limits (TV)|http://www.theouterlimits.com/episodes/season4/411.htm/]__: MP2000 and keyboard used to take notes during an interrogation during the episode, "The Joining" (season four). Screenshot [available|http://dev.newtontalk.net/~jburks/archives/2004_02_01_dumbstart_archive.html].
+* __[The Outer Limits (TV)|http://www.theouterlimits.com/episodes/season4/411.htm/]__: MP2000 and keyboard used to take notes during an interrogation during the episode, "The Joining" (season four). Screenshot [available](http://dev.newtontalk.net/~jburks/archives/2004_02_01_dumbstart_archive.html).
 
-* __[Pandora's Clock (TV Movie) | http://www.imdb.com/title/tt0115309/] (USA 1996)__: Messagepad and Iridium save the world
+* __[Pandora's Clock (TV Movie) ](http://www.imdb.com/title/tt0115309/) (USA 1996)__: Messagepad and Iridium save the world
 
-* __[Pensacola Wings of Gold (TV)|http://us.imdb.com/title/tt0128889/] (USA 1997-2000)__: Not sure...
+* __[Pensacola Wings of Gold (TV)](http://us.imdb.com/title/tt0128889/) (USA 1997-2000)__: Not sure...
 
-* __[Ransom|http://us.imdb.com/title/tt0117438/] (USA 1996)__: MP130, or a Digital Ocean
+* __[Ransom](http://us.imdb.com/title/tt0117438/) (USA 1996)__: MP130, or a Digital Ocean
 
-* __[Sabrina (TV)|http://us.imdb.com/title/tt0115341/] (1996-2003)__: OMP
+* __[Sabrina (TV)](http://us.imdb.com/title/tt0115341/) (1996-2003)__: OMP
 
-* __[seaQuest DSV (TV)|http://us.imdb.com/title/tt0106126/] (1993-1995)__ : In season 2, the psychiatrist uses a Newton as a notepad.
+* __[seaQuest DSV (TV)](http://us.imdb.com/title/tt0106126/) (1993-1995)__ : In season 2, the psychiatrist uses a Newton as a notepad.
 
-* __[The Simpsons (TV)|http://us.imdb.com/title/tt0096697/] (USA 1989-???)__ : In the episode ["Lisa on Ice"|http://www.snpp.com/episodes/2F05.html] (1994). Screenshot "Eat up Martha" [available|http://dev.newtontalk.net/~jburks/archives/2004_03_01_dumbstart_archive.html], movie [available|http://www.crackman.de/newtenlightment/movies/newton/simpsons-newton.mov] (from this episode or from another featuring the Newton?).
+* __[The Simpsons (TV)|http://us.imdb.com/title/tt0096697/] (USA 1989-???)__ : In the episode ["Lisa on Ice"|http://www.snpp.com/episodes/2F05.html] (1994). Screenshot "Eat up Martha" [available|http://dev.newtontalk.net/~jburks/archives/2004_03_01_dumbstart_archive.html], movie [available](http://www.crackman.de/newtenlightment/movies/newton/simpsons-newton.mov) (from this episode or from another featuring the Newton?).
 
-* __[Starship Troopers|http://us.imdb.com/title/tt0120201/] (1997)__ : When they are in class and taking notes on a screen on their desk, they are writing with collapsable Newton 110-130 pens.
+* __[Starship Troopers](http://us.imdb.com/title/tt0120201/) (1997)__ : When they are in class and taking notes on a screen on their desk, they are writing with collapsable Newton 110-130 pens.
 
-* __[The Superwife (Movie) | http://www.imdb.com/title/tt0117788/] (Germany, 1996)__ : Messagepad assist a lawyer in a divorce case.
+* __[The Superwife (Movie) ](http://www.imdb.com/title/tt0117788/) (Germany, 1996)__ : Messagepad assist a lawyer in a divorce case.
 
-* __[Under Siege 2: Dark Territory|http://us.imdb.com/title/tt0114781/] (1995)__ : Steven Segall uses his MP130 to write a fax and then send it from a moving train.  His friends receive it and save the good guys from the terrorists...
+* __[Under Siege 2: Dark Territory](http://us.imdb.com/title/tt0114781/) (1995)__ : Steven Segall uses his MP130 to write a fax and then send it from a moving train.  His friends receive it and save the good guys from the terrorists...
 
-* __[Wing Commander: Prophecy|http://www.imdb.com/title/tt0120519/] (1997)__ : Mark Hamill uses a MP2000 as a video communicator / playback device.
+* __[Wing Commander: Prophecy](http://www.imdb.com/title/tt0120519/) (1997)__ : Mark Hamill uses a MP2000 as a video communicator / playback device.
 
-* __[The X-Files (TV)|http://us.imdb.com/title/tt0106179/] (USA/Canada 1993-2002)__ : Not sure...%%%
+* __[The X-Files (TV)](http://us.imdb.com/title/tt0106179/) (USA/Canada 1993-2002)__ : Not sure...%%%
 %%%
 
 __Cartoon and Comicbook appearances in alphabetical order__
 
-* __Dilbert, by Scott Adams (when + where?)__: Image [available|http://dev.newtontalk.net/~jburks/archives/2004_03_01_dumbstart_archive.html].
+* __Dilbert, by Scott Adams (when + where?)__: Image [available](http://dev.newtontalk.net/~jburks/archives/2004_03_01_dumbstart_archive.html).
 
-* __[Doonesbury|http://www.doonesbury.com], by Gary Trudeau (USA)__: (1) August 1993: Doonesbury runs a couple cartoons making fun of guys and their toys, targeting the Newton as first of a new species. Does anybody have those cartoons? (2) The "Egg freckles"-easter egg Trudeau did for NOS 2.0. There's an easter egg enabler for NOS 2.1 [available from Avi Drissmann|http://www.drissman.com/avi/newton/EggFrecklesEnabler]. Image [available| http://dev.newtontalk.net/~jburks/archives/2004_03_01_dumbstart_archive.html]. [The story behind this| http://web.archive.org/web/19980215122832/http://www.madcapps.com/writings/every.htm] is that Marie A. D'Amico, Esq., aka Mrs. Steve Capp, Apple Fellow, hustled Trudeau into doing the easter egg to make up for his faux pas. (Also be sure to read [Mrs D'Amico's report|http://web.archive.org/web/19980215132851/http://www.madcapps.com/Writings/newton.htm] of the original MessagePad release, June 1993.)
+* __[Doonesbury|http://www.doonesbury.com], by Gary Trudeau (USA)__: (1) August 1993: Doonesbury runs a couple cartoons making fun of guys and their toys, targeting the Newton as first of a new species. Does anybody have those cartoons? (2) The "Egg freckles"-easter egg Trudeau did for NOS 2.0. There's an easter egg enabler for NOS 2.1 [available from Avi Drissmann|http://www.drissman.com/avi/newton/EggFrecklesEnabler]. Image [available| http://dev.newtontalk.net/~jburks/archives/2004_03_01_dumbstart_archive.html]. [The story behind this| http://web.archive.org/web/19980215122832/http://www.madcapps.com/writings/every.htm] is that Marie A. D'Amico, Esq., aka Mrs. Steve Capp, Apple Fellow, hustled Trudeau into doing the easter egg to make up for his faux pas. (Also be sure to read [Mrs D'Amico's report](http://web.archive.org/web/19980215132851/http://www.madcapps.com/Writings/newton.htm] of the original [[MessagePad]) release, June 1993.)
 
-* __[The Simpsons (TV)|http://us.imdb.com/title/tt0096697/] (USA 1989-???)__ : See Movie and TV Appearances.
+* __[The Simpsons (TV)](http://us.imdb.com/title/tt0096697/) (USA 1989-???)__ : See Movie and TV Appearances.
 
 %%%
 %%%
@@ -88,22 +68,22 @@ __Print and digital media appearances in chronological order__%%%
 
 __Feature Articles__%%%
 
-*__[Mo' Better Blogging With Newton|http://www.wired.com/news/mac/0,2125,63317,00.html] by Leander Kahney (Wired News, May. 05, 2004)__:
+*__[Mo' Better Blogging With Newton](http://www.wired.com/news/mac/0,2125,63317,00.html) by Leander Kahney (Wired News, May. 05, 2004)__:
 "Further proof that Apple's Newton will never die: A Seattle blogger is using the brick-like PDA to run the very latest in personal publishing -- a mobile blog.
-Programmer Mike Manzano maintains his Dumb Blogs Have More Fun mobile blog, or moblog, almost entirely from his Newton MessagePad. "It's been working out great," said Manzano. "The form factor is just right. It's not too small like a Palm Pilot, and it's not too big like a Microsoft pad computer." " (cont.)
+Programmer Mike Manzano maintains his Dumb Blogs Have More Fun mobile blog, or moblog, almost entirely from his Newton [[MessagePad]]. "It's been working out great," said Manzano. "The form factor is just right. It's not too small like a Palm Pilot, and it's not too big like a Microsoft pad computer." " (cont.)
 
-*__[10 Jahre Apple Newton: Dem ersten PDA zur Erinnerung|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/39113] by jk (Heise News 02.08.2003)__:
-"Heute vor 10 Jahren wurde das Apple Newton MessagePad der Öffentlichkeit vorgestellt. Das originale MessagePad gab es in deutscher oder englischer Version; es begründete die Kategorie der persönlichen digitalen Assistenten (PDA), die später von Palm massentauglich gemacht wurde. Das MessagePad -- ursprünglich sollte es BrainAmplifier heißen -- wurde auf den Gattungsnamen Newton getauft und erinnerte damit an das erste Apple-Logo, auf dem Isaac Newton unter dem Apfelbaum sitzt, umrankt von einer adaptierten Gedichtzeile William Wordsworths über Newton: "A Mind Forever Voyaging Through Strange Seas of Thought... Alone." " (cont.)
+*__[10 Jahre Apple Newton: Dem ersten PDA zur Erinnerung](http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/39113) by jk (Heise News 02.08.2003)__:
+"Heute vor 10 Jahren wurde das Apple Newton [[MessagePad]] der Öffentlichkeit vorgestellt. Das originale [[MessagePad]] gab es in deutscher oder englischer Version; es begründete die Kategorie der persönlichen digitalen Assistenten (PDA), die später von Palm massentauglich gemacht wurde. Das [[MessagePad]] -- ursprünglich sollte es [[BrainAmplifier]] heißen -- wurde auf den Gattungsnamen Newton getauft und erinnerte damit an das erste Apple-Logo, auf dem Isaac Newton unter dem Apfelbaum sitzt, umrankt von einer adaptierten Gedichtzeile William Wordsworths über Newton: "A Mind Forever Voyaging Through Strange Seas of Thought... Alone." " (cont.)
 
-*__[Apples Newton: Der Schwerkraft getrotzt, doch der Zeit voraus|http://www.heise.de/ct/aktuell/meldung/39105] by Detlef Borchers (c't Aktuell, 02.08.2003)__:
-"Apples Newton sollte Newton widerlegen -- er sollte ein Gerät sein, das der Schwerkraft trotzt, das als Nachfolger des Personalcomputers Standards setzt, die das 21. Jahrhundert einläuten. Die Vorlage für den Newton lieferte ein Video, das der spätere Netscape-Designer Hugh Dubberly und die Künstlerin Doris Mitsch für Apple produzierten. In Anlehnung an Vannevar Bushs Memex und Douglas Engelbarts Demonstration der Zukunft des Computers schufen sie das Video über den Knowledge Navigator. Dieses Video reichte, den damaligen Apple-Chef John Sculley als Visionär des 21. Jahrhunderts festzuschreiben. Steve Sakoman, der bei Hewlett Packard die Entwicklung der Laptops geleitet hatte und bei Apple das McPhone-Telefon bauen sollte, wurde beauftragt, den Navigator zu bauen. Sakoman holte die Programmierer Steve Capps und Walter Smith sowie den Marketing-Fachmann Michael Tchao an Bord. Sie bildeten den Grundstock der Crew die das "Monster" zähmen und zu einem realisierbaren Produkt verkleinern sollten." (cont.)
+*__[Apples Newton: Der Schwerkraft getrotzt, doch der Zeit voraus](http://www.heise.de/ct/aktuell/meldung/39105) by Detlef Borchers (c't Aktuell, 02.08.2003)__:
+"Apples Newton sollte Newton widerlegen -- er sollte ein Gerät sein, das der Schwerkraft trotzt, das als Nachfolger des Personalcomputers Standards setzt, die das 21. Jahrhundert einläuten. Die Vorlage für den Newton lieferte ein Video, das der spätere Netscape-Designer Hugh Dubberly und die Künstlerin Doris Mitsch für Apple produzierten. In Anlehnung an Vannevar Bushs Memex und Douglas Engelbarts Demonstration der Zukunft des Computers schufen sie das Video über den Knowledge Navigator. Dieses Video reichte, den damaligen Apple-Chef John Sculley als Visionär des 21. Jahrhunderts festzuschreiben. Steve Sakoman, der bei Hewlett Packard die Entwicklung der Laptops geleitet hatte und bei Apple das [[McPhone]]-Telefon bauen sollte, wurde beauftragt, den Navigator zu bauen. Sakoman holte die Programmierer Steve Capps und Walter Smith sowie den Marketing-Fachmann Michael Tchao an Bord. Sie bildeten den Grundstock der Crew die das "Monster" zähmen und zu einem realisierbaren Produkt verkleinern sollten." (cont.)
 
-*__[Newton's Return: A Hit and a Myth |http://www.wired.com/news/mac/0,2125,54690,00.html] by Leander Kahney (Wired News, Aug. 29, 2002)__:
-"The resurrection rumor has surfaced at least nine times since 1998, when Apple discontinued the device, according to Albert Muniz, an assistant professor in the marketing department at Chicago's DePaul University, and Hope Schau, an assistant professor of marketing at Philadelphia's Temple University. (...)
+*__[Newton's Return: A Hit and a Myth ](http://www.wired.com/news/mac/0,2125,54690,00.html) by Leander Kahney (Wired News, Aug. 29, 2002)__:
+"The resurrection rumor has surfaced at least nine times since 1998, when Apple discontinued the device, according to Albert Muniz, an assistant professor in the marketing department at Chicago's [[DePaul]] University, and Hope Schau, an assistant professor of marketing at Philadelphia's Temple University. (...)
 Muniz and Schau have been studying the Newton community for more than a year. The researchers are interested in self-sustaining "brand communities," or groups of people devoted to a particular brand, a hot topic in consumer behavior research right now.
 Through detailed analysis of news groups and websites, the researchers conclude that the rebirth rumor is central to the ethos of the Newton community." (cont.)
 
-*__[Apple's Newton Just Won't Drop|http://www.wired.com/news/mac/0,2125,54580,00.html] By Leander Kahney (Wired News, Aug. 29, 2002)__:
+*__[Apple's Newton Just Won't Drop](http://www.wired.com/news/mac/0,2125,54580,00.html) By Leander Kahney (Wired News, Aug. 29, 2002)__:
 "In January, Jonathan Wise's Handspring Visor organizer died, so he decided to get a different handheld.
 After shopping around, he found a machine that did it all: Web, e-mail, calendar and address book, but it could also recognize ordinary, cursive handwriting that wasn't as awkward as graffiti.
 Wise, a Web developer from Ontario, Canada, was impressed by the handheld's hardware: a big, clear screen; two PC card slots; external memory support; and long battery life.
@@ -112,215 +92,52 @@ It streams MP3s off the Net and can read headlines aloud that have been automati
 What is this amazing machine? The latest sleek Clié from Sony, or a skunkworks Pocket PC yet to hit the market?
 No, it's the granddaddy of them all: Apple's Newton, which is still going strong despite being discontinued by Apple in 1998." (cont.)
 
-*__[Apple stellt Newton ein|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/2042] by ts (Heise news, 27.02.1998)__:
-"Der Pionier der Personal Digital Assistants, Apples MessagePad, ist am Ende. Die Firma stellte die Produktion der NewtonOS-basierten Produkte MessagePad 2100 und eMate 300 nach eigenen Angaben ein." (cont.)
+*__[Apple stellt Newton ein](http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/2042) by ts (Heise news, 27.02.1998)__:
+"Der Pionier der Personal Digital Assistants, Apples [[MessagePad]], ist am Ende. Die Firma stellte die Produktion der [[NewtonOS]]-basierten Produkte [[MessagePad]] 2100 und eMate 300 nach eigenen Angaben ein." (cont.)
 
-*__[Deutscher Newton eingestellt?|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1914] by ts (Heise News, 03.02.1998)__:
-"Als Ausgleich gibt Apple seinen Händlern auf die lieferbare englischsprachige Version einen Rabatt von 10%. Die Firma betont jedoch, daß es auch in Zukunft keine Möglichkeit geben wird, ein internationales MessagePad zu einem deutschen umzurüsten. Apple verweist jedoch auf andere Anbieter, die Software verschenken oder verkaufen, um das MessagePad an deutsche Gegebenheiten anzupassen: Wörterbuch, Tastenbelegung, Zeit- und Datumsformate lassen sich auf diese Weise ändern." (cont.)
+*__[Deutscher Newton eingestellt?](http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1914) by ts (Heise News, 03.02.1998)__:
+"Als Ausgleich gibt Apple seinen Händlern auf die lieferbare englischsprachige Version einen Rabatt von 10%. Die Firma betont jedoch, daß es auch in Zukunft keine Möglichkeit geben wird, ein internationales [[MessagePad]] zu einem deutschen umzurüsten. Apple verweist jedoch auf andere Anbieter, die Software verschenken oder verkaufen, um das [[MessagePad]] an deutsche Gegebenheiten anzupassen: Wörterbuch, Tastenbelegung, Zeit- und Datumsformate lassen sich auf diese Weise ändern." (cont.)
 
-*__[Neues Newton-Messagepad von Apple|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1557] by Volker Weber (Heise News, 21.10.1997)__:
-"Das MessagePad 2100 soll den Newton Internet Enabler (NIE) 2.0 beinhalten, der nun auch auf Ethernet-PC-Karten (zum Beispiel auf die "EtherMac" von Farallon) aufsetzen kann. NIE 2.0 unterstützt DHCP, Proxies, mehrere DNS-Server sowie bei PPP-Verbindungen per Modem   Authentifizierungen über PAP und CHAP. Die Software steht auch für MP-2000-Besitzer zum Download bereit.
+*__[Neues Newton-Messagepad von Apple](http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1557) by Volker Weber (Heise News, 21.10.1997)__:
+"Das [[MessagePad]] 2100 soll den Newton Internet Enabler (NIE) 2.0 beinhalten, der nun auch auf Ethernet-PC-Karten (zum Beispiel auf die "[[EtherMac]]" von Farallon) aufsetzen kann. NIE 2.0 unterstützt DHCP, Proxies, mehrere DNS-Server sowie bei PPP-Verbindungen per Modem   Authentifizierungen über PAP und CHAP. Die Software steht auch für MP-2000-Besitzer zum Download bereit.
 
-Das Paket wird Textverarbeitung, Tabellenkalkulation, Web-Browser und EMail-Client enthalten. Die neue Version 3.2 des Web-Browsers NetHopper erlaubt den Download und die Installation von Newton-Packages, funktioniert auch über Proxy-Server und bietet eine einfache Username/Password-Authentifizierung auf den besuchten Websites."
+Das Paket wird Textverarbeitung, Tabellenkalkulation, Web-Browser und EMail-Client enthalten. Die neue Version 3.2 des Web-Browsers [[NetHopper]] erlaubt den Download und die Installation von Newton-Packages, funktioniert auch über Proxy-Server und bietet eine einfache Username/Password-Authentifizierung auf den besuchten Websites."
 
-*__[Newton-Division soll bei Apple bleiben|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1398] by se (Heise news, 09.09.1997)__:
+*__[Newton-Division soll bei Apple bleiben](http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1398) by se (Heise news, 09.09.1997)__:
 "Heute hin, morgen her: Nachdem Apple die Newton-Abteilung in ein eigenständig operierendes Unternehmen "Newton Technologies Inc." umgeformt hat (siehe http://www.heise.de/newsticker/data/cp-23.05.97-000/), soll die nun zum Mutterhaus zurückkehren." (cont.)
 
-*__[Newton: Entwicklungstools jetzt kostenlos|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1324] by se (Heise News, 14.08.1997)__:
-"Die von Apple ausgegliederte Newton, Inc. (http://www.newton-inc.com/) stellt ab sofort sämtliche Programmierwerkzeuge für die MessagePad-Familie kostenlos zur Verfügung." (cont.)
+*__<Newton: Entwicklungstools jetzt kostenlos>(http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1324) by se (Heise News, 14.08.1997)__:
+"Die von Apple ausgegliederte Newton, Inc. (http://www.newton-inc.com/) stellt ab sofort sämtliche Programmierwerkzeuge für die [[MessagePad]]-Familie kostenlos zur Verfügung." (cont.)
 
-*__[Apple gliedert Newton aus|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1047] by cp (Heise news, 23.05.1997)__:
+*__[Apple gliedert Newton aus](http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1047) by cp (Heise news, 23.05.1997)__:
 "Apple hat angekündigt, seine Newton-Abteilung zum 30. Juni in ein eigenständiges Unternehmen umzuformen. Die Leitung behält der bisherige Vizepräsident und Chef der Newton Systems Group, Sandy Benett. Rund 170 Mitarbeiter nimmt er mit. Apple bleibt -- jedenfalls vorläufig -- alleiniger Eigentümer. Wirtschaftsbeobachter gehen allerdings davon aus, daß die Ausgliederung den Verkauf von Anteilen oder der gesamten Firma vorbereiten soll."
 
-*__[Geht Apples Newton an Sun?|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/957] by ts (Heise news, 11.04.1997)__:
+*__[Geht Apples Newton an Sun?](http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/957) by ts (Heise news, 11.04.1997)__:
 "Nach einem Bericht der US-amerikanischen Tageszeitung USA Today verhandeln Apple und Sun über einen Verkauf des Newton, Apples Pionierprodukt im Bereich der Personal Digital Assistants (PDA). Gespräche mit der taiwanesischen Firma Inventec sollen vorausgegangen sein. {...} Sun hatte bereits im vergangenen Jahr vergeblich versucht, Apple als Ganzes zu erwerben. Aber auch der Newton alleine paßt ins Produktspektrum von Sun, nämlich als Grundlage für einen mobilen Netzcomputer, der bisher fehlte."
 
-*__[Newton erleuchtet: Apple MessagePad 130 mit Hintergrundbeleuchtung|http://www.heise.de/ct/96/05/061/default.shtml] by Volker Weber ( c't 5/96, S. 61)__:
-"Die MessagePads 120 und 130 stecken im gleichen Gehäuse und sind nur durch die Modellbezeichnung auf Anhieb zu unterscheiden. Das neue Display ist mit einer rauheren und laut Apple strapazierfähigeren Oberfläche versehen. Die rauhere Schicht vermindert Reflexionen und erleichtert außerdem das Schreiben, weil sie dem Schreibgefühl auf Papier näher kommt als das bisherige Arbeiten mit der glasähnlichen Platte.
+*__[Newton erleuchtet: Apple [[MessagePad]] 130 mit Hintergrundbeleuchtung](http://www.heise.de/ct/96/05/061/default.shtml) by Volker Weber ( c't 5/96, S. 61)__:
+"Die [[MessagePads]] 120 und 130 stecken im gleichen Gehäuse und sind nur durch die Modellbezeichnung auf Anhieb zu unterscheiden. Das neue Display ist mit einer rauheren und laut Apple strapazierfähigeren Oberfläche versehen. Die rauhere Schicht vermindert Reflexionen und erleichtert außerdem das Schreiben, weil sie dem Schreibgefühl auf Papier näher kommt als das bisherige Arbeiten mit der glasähnlichen Platte.
 
-Die Hintergrundbeleuchtung des Displays funktioniert nach dem Elektrolumineszenz-Prinzip und wird mit dem Einschalter sowie durch Software-Timeouts kontrolliert. Die Batterie-Lebensdauer vermindert sich um etwa 50 Prozent, wenn die Beleuchtung ständig eingeschaltet ist. Das MessagePad 130 hat nun 2,5 MByte RAM: etwas mehr als die Hälfte stehen für Daten und Software zur Verfügung, der Rest gehört dem Betriebssystem. Die Aufrüstung um 512 KByte verwendet das neue MessagePad für die Erweiterung des bisher sehr knappen Heap. Beide MessagePads werden mit dem Newton OS 2.0 ([1|http://www.heise.de/ct/95/12/055/default.shtml] geliefert; die einzige Software-Ergänzung des 130er-Modells im Vergleich zum 120er ist die Unterstützung von Fax Class-2. {...}
+Die Hintergrundbeleuchtung des Displays funktioniert nach dem Elektrolumineszenz-Prinzip und wird mit dem Einschalter sowie durch Software-Timeouts kontrolliert. Die Batterie-Lebensdauer vermindert sich um etwa 50 Prozent, wenn die Beleuchtung ständig eingeschaltet ist. Das [[MessagePad]] 130 hat nun 2,5 MByte RAM: etwas mehr als die Hälfte stehen für Daten und Software zur Verfügung, der Rest gehört dem Betriebssystem. Die Aufrüstung um 512 KByte verwendet das neue [[MessagePad]] für die Erweiterung des bisher sehr knappen Heap. Beide [[MessagePads]] werden mit dem Newton OS 2.0 ([1](http://www.heise.de/ct/95/12/055/default.shtml) geliefert; die einzige Software-Ergänzung des 130er-Modells im Vergleich zum 120er ist die Unterstützung von Fax Class-2. {...}
 
 Die ersten praktischen Erfahrungen mit der neuen Systemsoftware sind sehr positiv; die Texterkennung funktioniert tatsächlich zuverlässig, und die Software-Ausstattung macht viele bisher notwendigen Erweiterungen entbehrlich. {...}
 
-Etwas unklar bleibt der Status des TCP/IP-Stacks, den Apple ursprünglich bereits für Newton OS 2.0 angekündigt hatte. Bisher ist diese Software-Komponente nicht fertiggestellt, ist aber dennoch Voraussetzung für einige der anderen Ankündigungen, die Apple anläßlich der CeBIT-Pressekonferenz machte. {...}
+Etwas unklar bleibt der Status des TCP/IP-Stacks, den Apple ursprünglich bereits für Newton OS 2.0 angekündigt hatte. Bisher ist diese Software-Komponente nicht fertiggestellt, ist aber dennoch Voraussetzung für einige der anderen Ankündigungen, die Apple anläßlich der [[CeBIT]]-Pressekonferenz machte. {...}
 
 Angekündigt, aber noch nicht verfügbar ist eine interessante Software- Lösung von Pica in München. Der Winlinx Office Companion soll ab Mai eine Verbindung zwischen Microsoft Office 95 und dem Newton realisieren. Das Herzstück ist eine eigene Transfer-Engine, die Daten zwischen Newton und Office austauscht. Interessant sind bei dieser Lösung vor allem die Synchronisation von Terminen, Adressen und Aufgaben mit Schedule+ sowie die Benutzung und Replication von Access-95-Datenbanken."
 
-*__[Runderneuerung: Neues Newton-Betriebssystem 2.0|http://www.heise.de/ct/95/12/055/default.shtml] by Volker Weber (c't 12/95, S. 55)__:
-"Bevor Apple im nächsten Frühjahr weitere Newton-Produkte vorstellt, kommen erst einmal Besitzer des MessagePad 120 in den Genuß von einer deutlich effizienteren Handschrifterkennung und verbesserten Anwendungsprogrammen.
+*__<Runderneuerung: Neues Newton-Betriebssystem 2.0>(http://www.heise.de/ct/95/12/055/default.shtml) by Volker Weber (c't 12/95, S. 55)__:
+"Bevor Apple im nächsten Frühjahr weitere Newton-Produkte vorstellt, kommen erst einmal Besitzer des [[MessagePad]] 120 in den Genuß von einer deutlich effizienteren Handschrifterkennung und verbesserten Anwendungsprogrammen.
 
-Das MessagePad 100 ist endgültig 'out': nur die gesockelten 4-MByte-ROMs im 120er lassen sich mit vertretbarem Aufwand durch die insgesamt 8 MByte großen Chips ersetzen, die das neue Betriebssystem enthalten. Ab Januar 96 wird das Apple Update Center in München Geräte innerhalb von 2 Tagen aufrüsten. Vorher bekommt man das Newton Backup Utility und ein passendes Kabel zugeschickt, um sich alle Daten auf den Mac oder Windows-PC zu sichern; alles ist im Update-Preis von etwa 200 Mark inbegriffen.
+Das [[MessagePad]] 100 ist endgültig 'out': nur die gesockelten 4-MByte-ROMs im 120er lassen sich mit vertretbarem Aufwand durch die insgesamt 8 MByte großen Chips ersetzen, die das neue Betriebssystem enthalten. Ab Januar 96 wird das Apple Update Center in München Geräte innerhalb von 2 Tagen aufrüsten. Vorher bekommt man das Newton Backup Utility und ein passendes Kabel zugeschickt, um sich alle Daten auf den Mac oder Windows-PC zu sichern; alles ist im Update-Preis von etwa 200 Mark inbegriffen.
 
 Jetzt die schlechte Nachricht: etwa die Hälfte aller Newton-Anwendungen wird unter dem neuen Betriebssystem nicht mehr funktionieren." (cont.)
 
 %%%
 __Newton Mentions__
 
-*__[4 Concept Computers: New PC designs may not reach a mass audience, but some features point to the future of computing.| http://cio-asia.com/pcio.nsf/0/4DFCC79A82E4A43E48256ECA003426B5?OpenDocument] by Galen Gruman (CIO Asia, Issue 4, July 2004)__:
+*__[4 Concept Computers: New PC designs may not reach a mass audience, but some features point to the future of computing.](http://cio-asia.com/pcio.nsf/0/4DFCC79A82E4A43E48256ECA003426B5?OpenDocument) by Galen Gruman (CIO Asia, Issue 4, July 2004)__:
 "Modular PCs - Apple Computer's Newton made the idea of a handheld computer seem plausible—technologically succeeding Palm and Pocket PC devices. However, Newton capabilities remain considerably less than a fully enabled PC despite its improved processing power." (cont.)
 
-*__[Riffage Comes of Age|http://www.wired.com/news/culture/0,1284,38282,00.html] by Brad King (Wired News, Aug. 22, 2000)__:
-"That's a lesson Wirt and several of his employees learned working on the Newton at Apple. An early version of the Palm Pilot, the Newton promised to be an all-in-one, hand-held computer. Instead, it became an unwieldy tool that very few people could master. "That is the difference between what people really want versus layering feature, feature, and feature so there is something for everybody, but too difficult for most people," {Ken} Wirt {of Riffage.com} said."
-
---=_multipart_boundary_36
-Content-Type: application/x-phpwiki;
-  pagename=NewtonSightings;
-  flags="";
-  author=67.53.128.155;
-  version=1;
-  lastmodified=1125445979;
-  created=1170959604;
-  author_id=67.53.128.155;
-  markup=2;
-  hits=5238;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-Due to Apple's great relationship with Hollywood, you may have noticed that there are a lot of Macs popping up in movies and TV shows.  The Newton is no exception.  This is an attempt to document all of the sightings of Newtons in television, movies and other mainstream media.  Thanks to Rick Ludwig of NewtonTalk for writing [the initial list|http://www.newtontalk.net/archive/newtontalk.2004-02/0209.html] that this page is based on.  Also some of this information gleaned from various posts to NewtonTalk over the years.%%%
-%%%
-
-__Apple-sponsored media appearances__
-
-* __[Newton TV Commercials|http://www.unna.org/view.php?/movies/commercials]__ : The original Newton TV spots.  In QuickTime format, some also in PKG format for viewing on the Newton itself.
-
-* __[Knowledge Navigator|http://www.unna.org/view.php?/movies/Apple/KnowledgeNavigator]__ : While not strictly containing the Newton, this video was commissioned by John Sculley (Apple CEO 1985-1997) to show his vision of computing.  Part of the vision was a Personal Digital Assistant, and the rest is history...
-
-__Movie and TV appearances in alphabetical order__
-
-* __[Angels in the Outfield|http://us.imdb.com/title/tt0109127/] (1994)__ : Danny Glover's assistant uses an MP2000 (to remember the day he is supposed to be fired).
-
-* __[Batman and Robin|http://us.imdb.com/title/tt0118688/] (1997)__: Ever-present use of an eMate by Alicia Silverstone (Batgirl).
-
-* __[Blank Check|http://us.imdb.com/title/tt0109287/] (1994)__ : Not sure...
-
-* __[Earth Final Conflict (TV)|http://us.imdb.com/title/tt0123816/] (1997-2002)__ : MP130, MP2000
-
-* __[Die fetten Jahre sind vorbei|http://us.imdb.com/title/tt0408777/] (Germany, 2004)__: The main actor is using a Newton 130 for checking the security systems of buildings.
-
-* __[Hackers|http://us.imdb.com/title/tt0113243/] (USA 1995)__ : Angelina Jolie's character has a Newton [sitting on her desk|http://dev.newtontalk.net/~jburks/archives/2004_02_01_dumbstart_archive.html].  Also seen when people are drooling over the new PowerBook hardware.
-
-* __[Herbie, The Love Bug|http://us.imdb.com/title/tt0119571/] (1995)__: Not sure...
-
-* __[The Jackal|http://www.imdb.com/title/tt0119395] (1997)__: The Jackal (Bruce Willis as contract killer) has a remote-controlled autocannon. The remote control uses the original Newton keyboard by Apple ([sighted|http://marc.10east.com/?l=newtontalk&m=108875956122711&w=2] by [DJVollkasko], confirmed by Oliver Brose, with additional contributions by LA Green, Peter H. Coffin, David Abramowitz and a special appearance by Commander Benjamin Sisko of the Starfleet's DS 9 {WTF?}).
-
-* __[Jurassic Park|http://us.imdb.com/title/tt0107290/] (USA 1993)__: in the control room on Nedry's desk (you can barely see it, but if you have the DVD you can catch it). __Possibly the first time a Newton appears on the silver screen or tv.__
-
-* __[The Matrix | http://us.imdb.com/title/tt0133093/] (USA 1999)__: MP2x00 - right in the beginning, when Neo sleeps with his head on his desktop. Seems funny, that no one has noticed. But playing around with my new DVD & DVD player (slow motion and 4x zoom) - the oh so well known form factor appeared left of Neos head. As the Camera looks down and turns, we see all the gadgets spread out on his desk, and there something very familiar moves from seven to nine o'clock.
-
-* __[The Outer Limits (TV)|http://www.theouterlimits.com/episodes/season4/411.htm/]__: MP2000 and keyboard used to take notes during an interrogation during the episode, "The Joining" (season four). Screenshot [available|http://dev.newtontalk.net/~jburks/archives/2004_02_01_dumbstart_archive.html].
-
-* __[Pandora's Clock (TV Movie) | http://www.imdb.com/title/tt0115309/] (USA 1996)__: Messagepad and Iridium save the world
-
-* __[Pensacola Wings of Gold (TV)|http://us.imdb.com/title/tt0128889/] (USA 1997-2000)__: Not sure...
-
-* __[Ransom|http://us.imdb.com/title/tt0117438/] (USA 1996)__: MP130, or a Digital Ocean
-
-* __[Sabrina (TV)|http://us.imdb.com/title/tt0115341/] (1996-2003)__: OMP
-
-* __[seaQuest DSV (TV)|http://us.imdb.com/title/tt0106126/] (1993-1995)__ : In season 2, the psychiatrist uses a Newton as a notepad.
-
-* __[The Simpsons (TV)|http://us.imdb.com/title/tt0096697/] (USA 1989-???)__ : In the episode ["Lisa on Ice"|http://www.snpp.com/episodes/2F05.html] (1994). Screenshot "Eat up Martha" [available|http://dev.newtontalk.net/~jburks/archives/2004_03_01_dumbstart_archive.html], movie [available|http://www.crackman.de/newtenlightment/movies/newton/simpsons-newton.mov] (from this episode or from another featuring the Newton?).
-
-* __[Starship Troopers|http://us.imdb.com/title/tt0120201/] (1997)__ : When they are in class and taking notes on a screen on their desk, they are writing with collapsable Newton 110-130 pens.
-
-* __[The Superwife (Movie) | http://www.imdb.com/title/tt0117788/] (Germany, 1996)__ : Messagepad assist a lawyer in a divorce case.
-
-* __[Under Siege 2: Dark Territory|http://us.imdb.com/title/tt0114781/] (1995)__ : Steven Segall uses his MP130 to write a fax and then send it from a moving train.  His friends receive it and save the good guys from the terrorists...
-
-* __[Wing Commander: Prophecy|http://www.imdb.com/title/tt0120519/] (1997)__ : Mark Hamill uses a MP2000 as a video communicator / playback device.
-
-* __[The X-Files (TV)|http://us.imdb.com/title/tt0106179/] (USA/Canada 1993-2002)__ : Not sure...%%%
-%%%
-
-__Cartoon and Comicbook appearances in alphabetical order__
-
-* __Dilbert, by Scott Adams (when + where?)__: Image [available|http://dev.newtontalk.net/~jburks/archives/2004_03_01_dumbstart_archive.html].
-
-* __[Doonesbury|http://www.doonesbury.com], by Gary Trudeau (USA)__: (1) August 1993: Doonesbury runs a couple cartoons making fun of guys and their toys, targeting the Newton as first of a new species. Does anybody have those cartoons? (2) The "Egg freckles"-easter egg Trudeau did for NOS 2.0. There's an easter egg enabler for NOS 2.1 [available from Avi Drissmann|http://www.drissman.com/avi/newton/EggFrecklesEnabler]. Image [available| http://dev.newtontalk.net/~jburks/archives/2004_03_01_dumbstart_archive.html]. [The story behind this| http://web.archive.org/web/19980215122832/http://www.madcapps.com/writings/every.htm] is that Marie A. D'Amico, Esq., aka Mrs. Steve Capp, Apple Fellow, hustled Trudeau into doing the easter egg to make up for his faux pas. (Also be sure to read [Mrs D'Amico's report|http://web.archive.org/web/19980215132851/http://www.madcapps.com/Writings/newton.htm] of the original MessagePad release, June 1993.)
-
-* __[The Simpsons (TV)|http://us.imdb.com/title/tt0096697/] (USA 1989-???)__ : See Movie and TV Appearances.
-
-%%%
-%%%
-__Print and digital media appearances in chronological order__%%%
-
-__Feature Articles__%%%
-
-*__[Mo' Better Blogging With Newton|http://www.wired.com/news/mac/0,2125,63317,00.html] by Leander Kahney (Wired News, May. 05, 2004)__:
-"Further proof that Apple's Newton will never die: A Seattle blogger is using the brick-like PDA to run the very latest in personal publishing -- a mobile blog.
-Programmer Mike Manzano maintains his Dumb Blogs Have More Fun mobile blog, or moblog, almost entirely from his Newton MessagePad. "It's been working out great," said Manzano. "The form factor is just right. It's not too small like a Palm Pilot, and it's not too big like a Microsoft pad computer." " (cont.)
-
-*__[10 Jahre Apple Newton: Dem ersten PDA zur Erinnerung|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/39113] by jk (Heise News 02.08.2003)__:
-"Heute vor 10 Jahren wurde das Apple Newton MessagePad der Öffentlichkeit vorgestellt. Das originale MessagePad gab es in deutscher oder englischer Version; es begründete die Kategorie der persönlichen digitalen Assistenten (PDA), die später von Palm massentauglich gemacht wurde. Das MessagePad -- ursprünglich sollte es BrainAmplifier heißen -- wurde auf den Gattungsnamen Newton getauft und erinnerte damit an das erste Apple-Logo, auf dem Isaac Newton unter dem Apfelbaum sitzt, umrankt von einer adaptierten Gedichtzeile William Wordsworths über Newton: "A Mind Forever Voyaging Through Strange Seas of Thought... Alone." " (cont.)
-
-*__[Apples Newton: Der Schwerkraft getrotzt, doch der Zeit voraus|http://www.heise.de/ct/aktuell/meldung/39105] by Detlef Borchers (c't Aktuell, 02.08.2003)__:
-"Apples Newton sollte Newton widerlegen -- er sollte ein Gerät sein, das der Schwerkraft trotzt, das als Nachfolger des Personalcomputers Standards setzt, die das 21. Jahrhundert einläuten. Die Vorlage für den Newton lieferte ein Video, das der spätere Netscape-Designer Hugh Dubberly und die Künstlerin Doris Mitsch für Apple produzierten. In Anlehnung an Vannevar Bushs Memex und Douglas Engelbarts Demonstration der Zukunft des Computers schufen sie das Video über den Knowledge Navigator. Dieses Video reichte, den damaligen Apple-Chef John Sculley als Visionär des 21. Jahrhunderts festzuschreiben. Steve Sakoman, der bei Hewlett Packard die Entwicklung der Laptops geleitet hatte und bei Apple das McPhone-Telefon bauen sollte, wurde beauftragt, den Navigator zu bauen. Sakoman holte die Programmierer Steve Capps und Walter Smith sowie den Marketing-Fachmann Michael Tchao an Bord. Sie bildeten den Grundstock der Crew die das "Monster" zähmen und zu einem realisierbaren Produkt verkleinern sollten." (cont.)
-
-*__[Newton's Return: A Hit and a Myth |http://www.wired.com/news/mac/0,2125,54690,00.html] by Leander Kahney (Wired News, Aug. 29, 2002)__:
-"The resurrection rumor has surfaced at least nine times since 1998, when Apple discontinued the device, according to Albert Muniz, an assistant professor in the marketing department at Chicago's DePaul University, and Hope Schau, an assistant professor of marketing at Philadelphia's Temple University. (...)
-Muniz and Schau have been studying the Newton community for more than a year. The researchers are interested in self-sustaining "brand communities," or groups of people devoted to a particular brand, a hot topic in consumer behavior research right now.
-Through detailed analysis of news groups and websites, the researchers conclude that the rebirth rumor is central to the ethos of the Newton community." (cont.)
-
-*__[Apple's Newton Just Won't Drop|http://www.wired.com/news/mac/0,2125,54580,00.html] By Leander Kahney (Wired News, Aug. 29, 2002)__:
-"In January, Jonathan Wise's Handspring Visor organizer died, so he decided to get a different handheld.
-After shopping around, he found a machine that did it all: Web, e-mail, calendar and address book, but it could also recognize ordinary, cursive handwriting that wasn't as awkward as graffiti.
-Wise, a Web developer from Ontario, Canada, was impressed by the handheld's hardware: a big, clear screen; two PC card slots; external memory support; and long battery life.
-It can connect to Macs, PCs and Unix machines, as well as all kinds of networks, from wireless Wi-Fi networks to the new, always-on GPRS cell-phone nets.
-It streams MP3s off the Net and can read headlines aloud that have been automatically fetched from online news sites.
-What is this amazing machine? The latest sleek Clié from Sony, or a skunkworks Pocket PC yet to hit the market?
-No, it's the granddaddy of them all: Apple's Newton, which is still going strong despite being discontinued by Apple in 1998." (cont.)
-
-*__[Apple stellt Newton ein|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/2042] by ts (Heise news, 27.02.1998)__:
-"Der Pionier der Personal Digital Assistants, Apples MessagePad, ist am Ende. Die Firma stellte die Produktion der NewtonOS-basierten Produkte MessagePad 2100 und eMate 300 nach eigenen Angaben ein." (cont.)
-
-*__[Deutscher Newton eingestellt?|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1914] by ts (Heise News, 03.02.1998)__:
-"Als Ausgleich gibt Apple seinen Händlern auf die lieferbare englischsprachige Version einen Rabatt von 10%. Die Firma betont jedoch, daß es auch in Zukunft keine Möglichkeit geben wird, ein internationales MessagePad zu einem deutschen umzurüsten. Apple verweist jedoch auf andere Anbieter, die Software verschenken oder verkaufen, um das MessagePad an deutsche Gegebenheiten anzupassen: Wörterbuch, Tastenbelegung, Zeit- und Datumsformate lassen sich auf diese Weise ändern." (cont.)
-
-*__[Neues Newton-Messagepad von Apple|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1557] by Volker Weber (Heise News, 21.10.1997)__:
-"Das MessagePad 2100 soll den Newton Internet Enabler (NIE) 2.0 beinhalten, der nun auch auf Ethernet-PC-Karten (zum Beispiel auf die "EtherMac" von Farallon) aufsetzen kann. NIE 2.0 unterstützt DHCP, Proxies, mehrere DNS-Server sowie bei PPP-Verbindungen per Modem   Authentifizierungen über PAP und CHAP. Die Software steht auch für MP-2000-Besitzer zum Download bereit.
-
-Das Paket wird Textverarbeitung, Tabellenkalkulation, Web-Browser und EMail-Client enthalten. Die neue Version 3.2 des Web-Browsers NetHopper erlaubt den Download und die Installation von Newton-Packages, funktioniert auch über Proxy-Server und bietet eine einfache Username/Password-Authentifizierung auf den besuchten Websites."
-
-*__[Newton-Division soll bei Apple bleiben|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1398] by se (Heise news, 09.09.1997)__:
-"Heute hin, morgen her: Nachdem Apple die Newton-Abteilung in ein eigenständig operierendes Unternehmen "Newton Technologies Inc." umgeformt hat (siehe http://www.heise.de/newsticker/data/cp-23.05.97-000/), soll die nun zum Mutterhaus zurückkehren." (cont.)
-
-*__[Newton: Entwicklungstools jetzt kostenlos|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1324] by se (Heise News, 14.08.1997)__:
-"Die von Apple ausgegliederte Newton, Inc. (http://www.newton-inc.com/) stellt ab sofort sämtliche Programmierwerkzeuge für die MessagePad-Familie kostenlos zur Verfügung." (cont.)
-
-*__[Apple gliedert Newton aus|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/1047] by cp (Heise news, 23.05.1997)__:
-"Apple hat angekündigt, seine Newton-Abteilung zum 30. Juni in ein eigenständiges Unternehmen umzuformen. Die Leitung behält der bisherige Vizepräsident und Chef der Newton Systems Group, Sandy Benett. Rund 170 Mitarbeiter nimmt er mit. Apple bleibt -- jedenfalls vorläufig -- alleiniger Eigentümer. Wirtschaftsbeobachter gehen allerdings davon aus, daß die Ausgliederung den Verkauf von Anteilen oder der gesamten Firma vorbereiten soll."
-
-*__[Geht Apples Newton an Sun?|http://www.heise.de/newsticker/result.xhtml?url=/newsticker/meldung/957] by ts (Heise news, 11.04.1997)__:
-"Nach einem Bericht der US-amerikanischen Tageszeitung USA Today verhandeln Apple und Sun über einen Verkauf des Newton, Apples Pionierprodukt im Bereich der Personal Digital Assistants (PDA). Gespräche mit der taiwanesischen Firma Inventec sollen vorausgegangen sein. {...} Sun hatte bereits im vergangenen Jahr vergeblich versucht, Apple als Ganzes zu erwerben. Aber auch der Newton alleine paßt ins Produktspektrum von Sun, nämlich als Grundlage für einen mobilen Netzcomputer, der bisher fehlte."
-
-*__[Newton erleuchtet: Apple MessagePad 130 mit Hintergrundbeleuchtung|http://www.heise.de/ct/96/05/061/default.shtml] by Volker Weber ( c't 5/96, S. 61)__:
-"Die MessagePads 120 und 130 stecken im gleichen Gehäuse und sind nur durch die Modellbezeichnung auf Anhieb zu unterscheiden. Das neue Display ist mit einer rauheren und laut Apple strapazierfähigeren Oberfläche versehen. Die rauhere Schicht vermindert Reflexionen und erleichtert außerdem das Schreiben, weil sie dem Schreibgefühl auf Papier näher kommt als das bisherige Arbeiten mit der glasähnlichen Platte.
-
-Die Hintergrundbeleuchtung des Displays funktioniert nach dem Elektrolumineszenz-Prinzip und wird mit dem Einschalter sowie durch Software-Timeouts kontrolliert. Die Batterie-Lebensdauer vermindert sich um etwa 50 Prozent, wenn die Beleuchtung ständig eingeschaltet ist. Das MessagePad 130 hat nun 2,5 MByte RAM: etwas mehr als die Hälfte stehen für Daten und Software zur Verfügung, der Rest gehört dem Betriebssystem. Die Aufrüstung um 512 KByte verwendet das neue MessagePad für die Erweiterung des bisher sehr knappen Heap. Beide MessagePads werden mit dem Newton OS 2.0 ([1|http://www.heise.de/ct/95/12/055/default.shtml] geliefert; die einzige Software-Ergänzung des 130er-Modells im Vergleich zum 120er ist die Unterstützung von Fax Class-2. {...}
-
-Die ersten praktischen Erfahrungen mit der neuen Systemsoftware sind sehr positiv; die Texterkennung funktioniert tatsächlich zuverlässig, und die Software-Ausstattung macht viele bisher notwendigen Erweiterungen entbehrlich. {...}
-
-Etwas unklar bleibt der Status des TCP/IP-Stacks, den Apple ursprünglich bereits für Newton OS 2.0 angekündigt hatte. Bisher ist diese Software-Komponente nicht fertiggestellt, ist aber dennoch Voraussetzung für einige der anderen Ankündigungen, die Apple anläßlich der CeBIT-Pressekonferenz machte. {...}
-
-Angekündigt, aber noch nicht verfügbar ist eine interessante Software- Lösung von Pica in München. Der Winlinx Office Companion soll ab Mai eine Verbindung zwischen Microsoft Office 95 und dem Newton realisieren. Das Herzstück ist eine eigene Transfer-Engine, die Daten zwischen Newton und Office austauscht. Interessant sind bei dieser Lösung vor allem die Synchronisation von Terminen, Adressen und Aufgaben mit Schedule+ sowie die Benutzung und Replication von Access-95-Datenbanken."
-
-*__[Runderneuerung: Neues Newton-Betriebssystem 2.0|http://www.heise.de/ct/95/12/055/default.shtml] by Volker Weber (c't 12/95, S. 55)__:
-"Bevor Apple im nächsten Frühjahr weitere Newton-Produkte vorstellt, kommen erst einmal Besitzer des MessagePad 120 in den Genuß von einer deutlich effizienteren Handschrifterkennung und verbesserten Anwendungsprogrammen.
-
-Das MessagePad 100 ist endgültig 'out': nur die gesockelten 4-MByte-ROMs im 120er lassen sich mit vertretbarem Aufwand durch die insgesamt 8 MByte großen Chips ersetzen, die das neue Betriebssystem enthalten. Ab Januar 96 wird das Apple Update Center in München Geräte innerhalb von 2 Tagen aufrüsten. Vorher bekommt man das Newton Backup Utility und ein passendes Kabel zugeschickt, um sich alle Daten auf den Mac oder Windows-PC zu sichern; alles ist im Update-Preis von etwa 200 Mark inbegriffen.
-
-Jetzt die schlechte Nachricht: etwa die Hälfte aller Newton-Anwendungen wird unter dem neuen Betriebssystem nicht mehr funktionieren." (cont.)
-
-%%%
-__Newton Mentions__
-
-*__[4 Concept Computers: New PC designs may not reach a mass audience, but some features point to the future of computing.| http://cio-asia.com/pcio.nsf/0/4DFCC79A82E4A43E48256ECA003426B5?OpenDocument] by Galen Gruman (CIO Asia, Issue 4, July 2004)__:
-"Modular PCs - Apple Computer's Newton made the idea of a handheld computer seem plausible—technologically succeeding Palm and Pocket PC devices. However, Newton capabilities remain considerably less than a fully enabled PC despite its improved processing power." (cont.)
-
-*__[Riffage Comes of Age|http://www.wired.com/news/culture/0,1284,38282,00.html] by Brad King (Wired News, Aug. 22, 2000)__:
-"That's a lesson Wirt and several of his employees learned working on the Newton at Apple. An early version of the Palm Pilot, the Newton promised to be an all-in-one, hand-held computer. Instead, it became an unwieldy tool that very few people could master. "That is the difference between what people really want versus layering feature, feature, and feature so there is something for everybody, but too difficult for most people," {Ken} Wirt {of Riffage.com} said."
-
-
-[Nicole Kidman | http://www.snajka.com/nude/nicole_kidman.html ]
-
---=_multipart_boundary_36--
+*__[Riffage Comes of Age](http://www.wired.com/news/culture/0,1284,38282,00.html) by Brad King (Wired News, Aug. 22, 2000)__:
+"That's a lesson Wirt and several of his employees learned working on the Newton at Apple. An early version of the Palm Pilot, the Newton promised to be an all-in-one, hand-held computer. Instead, it became an unwieldy tool that very few people could master. "That is the difference between what people really want versus layering feature, feature, and feature so there is something for everybody, but too difficult for most people," {Ken} Wirt {of Riffage.com} said."

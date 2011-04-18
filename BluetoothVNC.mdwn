@@ -1,90 +1,27 @@
-Date: Tue, 6 Feb 2007 15:12:25 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_16"
-
---=_multipart_boundary_16
-Content-Type: application/x-phpwiki;
-  pagename=BluetoothVNC;
-  flags="";
-  author=TonyGiunta;
-  version=2;
-  lastmodified=1170792745;
-  created=1170792745;
-  author_id=TonyGiunta;
-  markup=2;
-  summary=updated%20dead%20links%20with%20archive.org%20counterparts;
-  hits=1084;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : UsingBluetoothIndex : [BluetoothVNC]
+[[HomePage]] : [[HowTo]] : [[UsingBluetoothIndex]] : [[BluetoothVNC]]
 ----
 
-(Note: I, Thomas Tempelmann, have moved the following text which formerly was inside BluntSetup to this new place. Unfortunately, I do not understand what this text is trying to tell us, and the included links are all not working any more. I was tempted to delete this entire text therefore, but decided to keep it here in case someone eventually puts sense into this again)
+(Note: I, Thomas Tempelmann, have moved the following text which formerly was inside [[BluntSetup]] to this new place. Unfortunately, I do not understand what this text is trying to tell us, and the included links are all not working any more. I was tempted to delete this entire text therefore, but decided to keep it here in case someone eventually puts sense into this again)
 
 ----
 
 Do the VNC: Yes, your Newton can, and *you* can, too! Remote control your Powerbook or any other desktop machine:
 
-# Install NewtVNC on your Newton. Install the Newton Internet Enabler-packages (NIE). Install a VNC-server on your desktop (e.g. OSXVNC on your Mac OS X machine).
-# Start NewtVNC, select Viewer, and for Host enter the IP of the desktop machine. Tap connect, set USING to My Bluetooth Setup. Peer should be set to the hostname of the machine you want to remote control. Tap "Connect".
+# Install [[NewtVNC]] on your Newton. Install the Newton Internet Enabler-packages (NIE). Install a VNC-server on your desktop (e.g. OSXVNC on your Mac OS X machine).
+# Start [[NewtVNC]], select Viewer, and for Host enter the IP of the desktop machine. Tap connect, set USING to My Bluetooth Setup. Peer should be set to the hostname of the machine you want to remote control. Tap "Connect".
 
 Q: "Connecting" slip opens, but progress bar stalls at "loading the PPP driver..." - what's wrong? Possibly you don't have sharing your network connections enabled on your desktop. For Mac OSX, the procedure is here:
 
-A. Download Clinton Kennedy Sample , III 's Share2Blue2th (Version 3.0 or better) from (sorry, the link is not working any more:) [http://www.mobilewhack.com/networking/bluetooth/share2blue2th_v3_1.html].
-(As of Feb 2007, you could download the scripts via archive.org: [http://web.archive.org/web/20050411162529/http://www.mobilewhack.com/networking/bluetooth/share2blue2th_v3_1.html] -- TonyGiunta)
+A. Download Clinton Kennedy Sample , III 's Share2Blue2th (Version 3.0 or better) from (sorry, the link is not working any more:) <http://www.mobilewhack.com/networking/bluetooth/share2blue2th_v3_1.html>.
+(As of Feb 2007, you could download the scripts via archive.org: <http://web.archive.org/web/20050411162529/http://www.mobilewhack.com/networking/bluetooth/share2blue2th_v3_1.html] -- [[TonyGiunta]>)
 
-B. Follow the instructions there. It is assumed that Powerbook and MessagePad have been paired already. The script(s) will ask the MAC address of the MessagePad (see System Preferences/Bluetooth/Devices or, in german: Systemeinstellungen/Bluetooth/Geräte) and after that, the Admin password.
+B. Follow the instructions there. It is assumed that Powerbook and [[MessagePad]] have been paired already. The script(s) will ask the MAC address of the [[MessagePad]] (see System Preferences/Bluetooth/Devices or, in german: Systemeinstellungen/Bluetooth/Geräte) and after that, the Admin password.
 Note: This didn't work for me. CK Sample's scripts didn't like my passwords, so I sought another solution and went back to Go.
 
 A. Go to http://www.technohappymeal.com/archives/000069.html (this link is dead as well) and follow Peter's instructions on "Sharing Your Mac's Internet Connection via Bluetooth ".
-(As of Feb 2007, you can view this page via archive.org: [http://web.archive.org/web/20030401203137/http://www.technohappymeal.com/archives/000069.html] --TonyGiunta)
+(As of Feb 2007, you can view this page via archive.org: <http://web.archive.org/web/20030401203137/http://www.technohappymeal.com/archives/000069.html] --[[TonyGiunta]>)
 
 B. It's assumed that the devices are already paired.
 
 ----
-HomePage : HowTo : UsingBluetoothIndex : [BluetoothVNC]
-
---=_multipart_boundary_16
-Content-Type: application/x-phpwiki;
-  pagename=BluetoothVNC;
-  flags="";
-  author=ThomasTempelmann;
-  version=1;
-  lastmodified=1142176023;
-  created=1170792745;
-  author_id=212.202.193.236;
-  markup=2;
-  summary=Moved%20this%20text%20from%20BluntSetup%20where%20it%20did%20not%20really%20belong;
-  hits=1084;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : UsingBluetoothIndex : [BluetoothVNC]
-----
-
-(Note: I, Thomas Tempelmann, have moved the following text which formerly was inside BluntSetup to this new place. Unfortunately, I do not understand what this text is trying to tell us, and the included links are all not working any more. I was tempted to delete this entire text therefore, but decided to keep it here in case someone eventually puts sense into this again)
-
-----
-
-Do the VNC: Yes, your Newton can, and *you* can, too! Remote control your Powerbook or any other desktop machine:
-
-# Install NewtVNC on your Newton. Install the Newton Internet Enabler-packages (NIE). Install a VNC-server on your desktop (e.g. OSXVNC on your Mac OS X machine).
-# Start NewtVNC, select Viewer, and for Host enter the IP of the desktop machine. Tap connect, set USING to My Bluetooth Setup. Peer should be set to the hostname of the machine you want to remote control. Tap "Connect".
-
-Q: "Connecting" slip opens, but progress bar stalls at "loading the PPP driver..." - what's wrong? Possibly you don't have sharing your network connections enabled on your desktop. For Mac OSX, the procedure is here:
-
-A. Download Clinton Kennedy Sample , III 's Share2Blue2th (Version 3.0 or better) from (sorry, the link is not work any more:) [http://www.mobilewhack.com/networking/bluetooth/share2blue2th_v3_1.html].
-
-B. Follow the instructions there. It is assumed that Powerbook and MessagePad have been paired already. The script(s) will ask the MAC address of the MessagePad (see System Preferences/Bluetooth/Devices or, in german: Systemeinstellungen/Bluetooth/Geräte) and after that, the Admin password.
-Note: This didn't work for me. CK Sample's scripts didn't like my passwords, so I sought another solution and went back to Go.
-
-A. Go to http://www.technohappymeal.com/archives/000069.html (this link is dead as well) and follow Peter's instructions on "Sharing Your Mac's Internet Connection via Bluetooth ".
-
-B. It's assumed that the devices are already paired.
-
-----
-HomePage : HowTo : UsingBluetoothIndex : [BluetoothVNC]
-
---=_multipart_boundary_16--
+[[HomePage]] : [[HowTo]] : [[UsingBluetoothIndex]] : [[BluetoothVNC]]

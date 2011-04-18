@@ -1,167 +1,40 @@
-Date: Tue, 12 Sep 2006 17:25:40 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: multipart/mixed;
-  boundary="=_multipart_boundary_10"
+[[HomePage]] : [[HowTo]] : [[UsingBluetoothIndex]]
 
---=_multipart_boundary_10
-Content-Type: application/x-phpwiki;
-  pagename=UsingBluetoothIndex;
-  flags="";
-  author=stevenf;
-  version=3;
-  lastmodified=1158096340;
-  created=1158096340;
-  author_id=stevenf;
-  markup=2;
-  hits=4819;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : UsingBluetoothIndex
-
-HomePage : [BluetoothConnection|UsingBluetoothIndex]
+[[HomePage]] : [BluetoothConnection](UsingBluetoothIndex)
 ----
 
-!!Things to Make and Do with Bluetooth on your Newton
+## Things to Make and Do with Bluetooth on your Newton
 
-* How to [prepare your Newton to use Bluetooth|BluntSetup]
+* How to [prepare your Newton to use Bluetooth](BluntSetup)
 
-* How to [set up your Macintosh computer for Bluetooth|MacOSXBluetooth]
+* How to [set up your Macintosh computer for Bluetooth](MacOSXBluetooth)
 
-* How to [transfer data between a Newton and another device (computer, phone) using Bluetooth|BluetoothOBEX]
+* How to [transfer data between a Newton and another device (computer, phone) using Bluetooth](BluetoothOBEX)
 
 * How to synchronize dates and names with your desktop computer: (sorry, no one's written this yet)
 
-* How to [remote-control your desktop computer via Bluetooth and VNC|BluetoothVNC]
+* How to [remote-control your desktop computer via Bluetooth and VNC](BluetoothVNC)
 
-* How to use a [Terminal application via Bluetooth|http://marc.theaimsgroup.com/?l=newtontalk&m=112725968329557&w=2] (needs its own Wiki Page and some detail...)
+* How to use a [Terminal application via Bluetooth](http://marc.theaimsgroup.com/?l=newtontalk&m=112725968329557&w=2) (needs its own Wiki Page and some detail...)
 
-* How to [setup Newton-Webbrowsing via BT-enabled mobile phone|BlueTooth]
+* How to [setup Newton-Webbrowsing via BT-enabled mobile phone](BlueTooth)
 
-* How to [print via Bluetooth|http://marc.10east.com/?l=newtontalk&m=110287172410379&w=2] - Download "Bluetooth Print Bridge" (Demo) from [here|http://web.archive.org/web/20040130170745/http://www.scriptsoftware.com/bpb/bpb.sitx] (thx, Adriano!)
+* How to [print via Bluetooth|http://marc.10east.com/?l=newtontalk&m=110287172410379&w=2] - Download "Bluetooth Print Bridge" (Demo) from [here](http://web.archive.org/web/20040130170745/http://www.scriptsoftware.com/bpb/bpb.sitx) (thx, Adriano!)
 
-* How to [use Bluetooth to transfer files|http://marc.theaimsgroup.com/?l=newtontalk&m=111317961415490&w=2] between two Newtons (thx again, AdrianoAngelillis!).
+* How to [use Bluetooth to transfer files](http://marc.theaimsgroup.com/?l=newtontalk&m=111317961415490&w=2] between two Newtons (thx again, [[AdrianoAngelillis])!).
 
-* How to sync your MessagePad via serial using a SerialToBluetooth wireless adapter (Blunt is not required). AdrianoAngelillis
+* How to sync your [[MessagePad]] via serial using a [[SerialToBluetooth]] wireless adapter (Blunt is not required). [[AdrianoAngelillis]]
 
 * How to [get a Newton on the internet using a Bluetooth connection to an internet-connected Mac]
 
 ----
- ! See also:
+#  See also:
 
-* BluetoothCards for Blunt-compatible Bluetooth-adapters
-* BluetoothTroubleShooting for what to do when things go wrong.
-* Eckhart's [internal Bluetooth module hack|http://40hz.org/mottek-old/archives/2004_02.html] (2004)
-* Jake's [internal Bluetooth card for MessagePad 2x00|http://www.allaboutjake.com/newton/bt-001.html] called [BT-001] (see [announcement at NTLK|http://marc.theaimsgroup.com/?t=112725982700003&r=1&w=2], September 2005)
+* [[BluetoothCards]] for Blunt-compatible Bluetooth-adapters
+* [[BluetoothTroubleShooting]] for what to do when things go wrong.
+* Eckhart's [internal Bluetooth module hack](http://40hz.org/mottek-old/archives/2004_02.html) (2004)
+* Jake's [internal Bluetooth card for [[MessagePad]] 2x00|http://www.allaboutjake.com/newton/bt-001.html] called [BT-001] (see [announcement at NTLK](http://marc.theaimsgroup.com/?t=112725982700003&r=1&w=2), September 2005)
 ----
-HomePage : HowTo : UsingBluetoothIndex
+[[HomePage]] : [[HowTo]] : [[UsingBluetoothIndex]]
 
-HomePage : [BluetoothConnection|UsingBluetoothIndex]
-
---=_multipart_boundary_10
-Content-Type: application/x-phpwiki;
-  pagename=UsingBluetoothIndex;
-  flags="";
-  author=se6ciocco;
-  version=2;
-  lastmodified=1156682830;
-  created=1158096340;
-  author_id=se6ciocco;
-  markup=2;
-  hits=4819;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : UsingBluetoothIndex
-
-HomePage : [BluetoothConnection|UsingBluetoothIndex]
-----
-
-!!Things to Make and Do with Bluetooth on your Newton
-
-* How to [prepare your Newton to use Bluetooth|BluntSetup]
-
-* How to [set up your Macintosh computer for Bluetooth|MacOSXBluetooth]
-
-* How to [transfer data between a Newton and another device (computer, phone) using Bluetooth|BluetoothOBEX]
-
-* How to synchronize dates and names with your desktop computer: (sorry, no one's written this yet)
-
-* How to [remote-control your desktop computer via Bluetooth and VNC|BluetoothVNC]
-
-* How to use a [Terminal application via Bluetooth|http://marc.theaimsgroup.com/?l=newtontalk&m=112725968329557&w=2] (needs its own Wiki Page and some detail...)
-
-* How to [setup Newton-Webbrowsing via BT-enabled mobile phone|BlueTooth]
-
-* How to [print via Bluetooth|http://marc.10east.com/?l=newtontalk&m=110287172410379&w=2] - Download "Bluetooth Print Bridge" (Demo) from [here|http://web.archive.org/web/20040130170745/http://www.scriptsoftware.com/bpb/bpb.sitx] (thx, Adriano!)
-
-* How to [use Bluetooth to transfer files|http://marc.theaimsgroup.com/?l=newtontalk&m=111317961415490&w=2] between two Newtons (thx again, AdrianoAngelillis!).
-
-* How to sync your MessagePad via serial using a SerialToBluetooth wireless adapter (Blunt is not required). AdrianoAngelillis
-
-----
- ! See also:
-
-* BluetoothCards for Blunt-compatible Bluetooth-adapters
-* BluetoothTroubleShooting for what to do when things go wrong.
-* Eckhart's [internal Bluetooth module hack|http://40hz.org/mottek-old/archives/2004_02.html] (2004)
-* Jake's [internal Bluetooth card for MessagePad 2x00|http://www.allaboutjake.com/newton/bt-001.html] called [BT-001] (see [announcement at NTLK|http://marc.theaimsgroup.com/?t=112725982700003&r=1&w=2], September 2005)
-----
-HomePage : HowTo : UsingBluetoothIndex
-
-HomePage : [BluetoothConnection|UsingBluetoothIndex]
-
---=_multipart_boundary_10
-Content-Type: application/x-phpwiki;
-  pagename=UsingBluetoothIndex;
-  flags="";
-  author=ThomasTempelmann;
-  version=1;
-  lastmodified=1142177530;
-  created=1156682830;
-  author_id=212.202.193.236;
-  markup=2;
-  hits=4819;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : UsingBluetoothIndex
-
-HomePage : [BluetoothConnection|UsingBluetoothIndex]
-----
-
-!!Things to Make and Do with Bluetooth on your Newton
-
-* How to [prepare your Newton to use Bluetooth|BluntSetup]
-
-* How to [set up your Macintosh computer for Bluetooth|MacOSXBluetooth]
-
-* How to [transfer data between a Newton and another device (computer, phone) using Bluetooth|BluetoothOBEX]
-
-* How to synchronize dates and names with your desktop computer: (sorry, no one's written this yet)
-
-* How to [remote-control your desktop computer via Bluetooth and VNC|BluetoothVNC]
-
-* How to use a [Terminal application via Bluetooth|http://marc.theaimsgroup.com/?l=newtontalk&m=112725968329557&w=2] (needs its own Wiki Page and some detail...)
-
-* How to [setup Newton-Webbrowsing via BT-enabled mobile phone|BlueTooth]
-
-* How to [print via Bluetooth|http://marc.10east.com/?l=newtontalk&m=110287172410379&w=2] (thx, Adriano!)
-
-* How to [use Bluetooth to transfer files|http://marc.theaimsgroup.com/?l=newtontalk&m=111317961415490&w=2] between two Newtons (thx again, AdrianoAngelillis!).
-
-* How to sync your MessagePad via serial using a SerialToBluetooth wireless adapter (Blunt is not required). AdrianoAngelillis
-
-----
- ! See also:
-
-* BluetoothCards for Blunt-compatible Bluetooth-adapters
-* BluetoothTroubleShooting for what to do when things go wrong.
-* Eckhart's [internal Bluetooth module hack|http://40hz.org/mottek-old/archives/2004_02.html] (2004)
-* Jake's [internal Bluetooth card for MessagePad 2x00|http://www.allaboutjake.com/newton/bt-001.html] called [BT-001] (see [announcement at NTLK|http://marc.theaimsgroup.com/?t=112725982700003&r=1&w=2], September 2005)
-----
-HomePage : HowTo : UsingBluetoothIndex
-
-HomePage : [BluetoothConnection|UsingBluetoothIndex]
-
---=_multipart_boundary_10--
+[[HomePage]] : [BluetoothConnection](UsingBluetoothIndex)

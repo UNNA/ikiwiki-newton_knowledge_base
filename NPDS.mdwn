@@ -1,21 +1,7 @@
-Date: Sat, 19 Jun 2004 17:12:36 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NPDS;
-  flags="";
-  author=24.156.127.194;
-  version=1;
-  lastmodified=1087679556;
-  created=1087679556;
-  author_id=24.156.127.194;
-  hits=601;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+[NPDS ](http://npds.free.fr/] is a [[WebServer]] for [[NewtonOS]). There is another one from a Japanese developer (I think), but I cannot find a link to it.
 
-[NPDS | http://npds.free.fr/] is a WebServer for NewtonOS. There is another one from a Japanese developer (I think), but I cannot find a link to it.
+In fact, NPDS was first a project of [[MatthewVaughn]] who started from a sample code that appeared in PIE by [RayRischpater |http://www.lothlorien.com/dove/]. Matthew released NPDS as an [[OpenSource]] project. It was then improved by [[YoichiTakezawa]][[1]] (his website is archived by [archive.org](http://web.archive.org/web/20010625060510/http://www3.alpha-net.ne.jp/users/xyoichix/newton/npdsu.html], but the archive doesn't contain his packages; could somebody pls. upload to UNNA and link this here? - DJV) who added Unicode support, and at the same time by [[AdamTow]], [[VictorRehorst]] and [[PaulGuyot]). This branch is now considered by Matthew as the official branch of NPDS, although Unicode support was never added.
 
-In fact, NPDS was first a project of MatthewVaughn who started from a sample code that appeared in PIE by [RayRischpater |http://www.lothlorien.com/dove/]. Matthew released NPDS as an OpenSource project. It was then improved by YoichiTakezawa[1] (his website is archived by [archive.org|http://web.archive.org/web/20010625060510/http://www3.alpha-net.ne.jp/users/xyoichix/newton/npdsu.html], but the archive doesn't contain his packages; could somebody pls. upload to UNNA and link this here? - DJV) who added Unicode support, and at the same time by AdamTow, VictorRehorst and PaulGuyot. This branch is now considered by Matthew as the official branch of NPDS, although Unicode support was never added.
+There is quite an extensive description of NPDS modules in the [[WebServer]] Wiki page.
 
-There is quite an extensive description of NPDS modules in the WebServer Wiki page.
-
-[1] It can be found at http://genetrap.cshl.org/~vaughn/NPDS/image/npdsu.gif
+[[1]] It can be found at http://genetrap.cshl.org/~vaughn/NPDS/image/npdsu.gif

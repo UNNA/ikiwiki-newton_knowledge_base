@@ -1,27 +1,12 @@
-Date: Fri, 11 Jun 2004 20:05:31 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=AppleMultifunctionInterconnectAdapter;
-  flags="";
-  author=24.156.127.194;
-  version=1;
-  lastmodified=1086998731;
-  created=1086998731;
-  author_id=24.156.127.194;
-  markup=2;
-  hits=599;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 __Multifunction Interconnect Adapter__
 
 
-__What:__ Replace MP 2x00's [Interconnect] port with Audio In/Out, Power In and two (2) serial ports.
+__What:__ Replace MP 2x00's [[Interconnect]] port with Audio In/Out, Power In and two (2) serial ports.
 
-__Background:__ "There's been the "[Apple Multifunction Interconnect Adapter | http://www.normalkid.com/collector/inter.html]" discussed a couple days ago [at NTLK|http://www.newtontalk.net/archive/newtontalk.2004-04/0620.html], which totally replaces the Interconnect socket with line out, line in, power line and two (2) serial ports. Sweet. And that rolled in one with, let's say... *[Bluetooth]* - that would be truly amazing."
-([DJV| http://www.newtontalk.net/archive/newtontalk.2004-04/0911.html])
+__Background:__ "There's been the "[Apple Multifunction Interconnect Adapter | http://www.normalkid.com/collector/inter.html]" discussed a couple days ago [at NTLK](http://www.newtontalk.net/archive/newtontalk.2004-04/0620.html], which totally replaces the Interconnect socket with line out, line in, power line and two (2) serial ports. Sweet. And that rolled in one with, let's say... *[[Bluetooth])* - that would be truly amazing."
+([DJV](http://www.newtontalk.net/archive/newtontalk.2004-04/0911.html))
 
-__Benefit:__ Get rid of flimsy Interconnect adapter and [dongle] need. Replace [SER001] with more complete solution, feat. audio and Bluetooth for the masses. Leave current SER001 real estate free for other uses (e.g. [Implant] board). Use two serial devices (e.g. keyboard, GPS) simultaneously while hooked up to network via Bluetooth.
+__Benefit:__ Get rid of flimsy Interconnect adapter and [[dongle]] need. Replace [[SER001]] with more complete solution, feat. audio and Bluetooth for the masses. Leave current SER001 real estate free for other uses (e.g. [[Implant]] board). Use two serial devices (e.g. keyboard, GPS) simultaneously while hooked up to network via Bluetooth.
 
 __Additional Data:__ Any additional input appreciated.
 
@@ -30,4 +15,4 @@ __Any Takers?__%%%
 %%%
 %%%
 ----
-HomePage : NewtonWishLists : HardwareWishList : AppleMultifunctionInterconnectAdapter
+[[HomePage]] : [[NewtonWishLists]] : [[HardwareWishList]] : [[AppleMultifunctionInterconnectAdapter]]

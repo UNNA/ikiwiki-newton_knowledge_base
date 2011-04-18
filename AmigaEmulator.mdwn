@@ -1,27 +1,12 @@
-Date: Sun, 25 Jul 2004 04:04:38 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=AmigaEmulator;
-  flags="";
-  author=DjVollkasko;
-  version=1;
-  lastmodified=1090742678;
-  created=1090742678;
-  author_id=80.128.164.232;
-  markup=2;
-  hits=459;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
+This week an Amiga emulator came to [[PocketPC]], and we still don't have one! Arrgh! ;=}
 
-This week an Amiga emulator came to PocketPC, and we still don't have one! Arrgh! ;=}
+There are several emulators for desktop computers freely available, e.g. [UAE Amiga Emulator|http://www.freiburg.linux.de/~uae/], which is all GPL and has ports to DOS, Windows 95/NT, [[MacOS]], [[RiscOS]], [[BeOS]] and [[NextStep]]. Another one is [Fellow](http://sourceforge.net/projects/fellow/), which supposedly is faster but possibly doesn't emulate the Amiga hardware as completely as UAE.
 
-There are several emulators for desktop computers freely available, e.g. [UAE Amiga Emulator|http://www.freiburg.linux.de/~uae/], which is all GPL and has ports to DOS, Windows 95/NT, MacOS, RiscOS, BeOS and NextStep. Another one is [Fellow|http://sourceforge.net/projects/fellow/], which supposedly is faster but possibly doesn't emulate the Amiga hardware as completely as UAE.
-
-Now Ismail Khatib [ported UAE to PocketPC|http://pocketinsanity.sourceforge.net/index.php?content=uae] (check out the screenshots!).
+Now Ismail Khatib [ported UAE to PocketPC](http://pocketinsanity.sourceforge.net/index.php?content=uae) (check out the screenshots!).
 
 I wish for an Amiga emulator for Newton, so we could use all the cool Amiga apps 'n' games on our green buddies!
 
 
 %%%
 ----
-HomePage : NewtonWishLists : SoftwareWishlist : AmigaEmulator
+[[HomePage]] : [[NewtonWishLists]] : [[SoftwareWishlist]] : [[AmigaEmulator]]

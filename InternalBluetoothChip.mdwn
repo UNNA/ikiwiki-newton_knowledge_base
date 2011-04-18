@@ -1,28 +1,13 @@
-Date: Tue, 27 Sep 2005 07:50:42 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=InternalBluetoothChip;
-  flags="";
-  author=69.249.83.212;
-  version=1;
-  lastmodified=1127821842;
-  created=1127821842;
-  author_id=69.249.83.212;
-  markup=2;
-  hits=717;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 __Internal Bluetooth Chip__
 
 
 __What:__ Internal Bluetooth chip for MP 2x00 and eMate (if possible also MP 120, 130).
 
-__Background:__ Implant Newtons with Bluetooth-capability by tying a BT-chip to either one of the three (four?) serial ports internally available or one of the four PC Card ports provided by the Voyager Chipset ([here | http://web.archive.org/web/19980111224604/http://www.cirrus.com/news/archive/fy1997/96.1028p.voyager.html]). High level of integration with other hardware hacks desireable (e.g. modifying the original Mr. PCBMAN(tm) SER001(tm) to a "BlueSER001(tm)" card), but for MP 1x0, standalone solutions appreciated, too. Groundwork in the driver-department already covered by Eckhart Köppen's [Blunt | http://www.40hz.org/Blunt], successful proof-of-concept, too ([here | http://40hz.org/mottek/archives/2004_01.html] and later).  Also see the [bt-001].
+__Background:__ Implant Newtons with Bluetooth-capability by tying a BT-chip to either one of the three (four?) serial ports internally available or one of the four PC Card ports provided by the Voyager Chipset ([here | http://web.archive.org/web/19980111224604/http://www.cirrus.com/news/archive/fy1997/96.1028p.voyager.html]). High level of integration with other hardware hacks desireable (e.g. modifying the original Mr. PCBMAN(tm) SER001(tm) to a "BlueSER001(tm)" card), but for MP 1x0, standalone solutions appreciated, too. Groundwork in the driver-department already covered by Eckhart Köppen's [Blunt | http://www.40hz.org/Blunt], successful proof-of-concept, too ([here ](http://40hz.org/mottek/archives/2004_01.html] and later).  Also see the [bt-001).
 
 __Benefit:__ Bump all MP 2x00 (and others, hopefully) up to a 21st century IR-communication replacement, connect to keyboards, mobile phones and desktops without cables and much hustle. Would leave serial port (Interconnect or SER001) and PC Card slots undisturbed.
 
-__Additional Data:__ Could possibly be integrated with either AppleMultifunctionInterconnectAdapter or InternalCommCard project.
+__Additional Data:__ Could possibly be integrated with either [[AppleMultifunctionInterconnectAdapter]] or [[InternalCommCard]] project.
 
 
 __Any Takers?__%%%
@@ -30,4 +15,4 @@ __Any Takers?__%%%
 
 %%%
 ----
-HomePage : NewtonWishLists : HardwareWishList : InternalBluetoothChip
+[[HomePage]] : [[NewtonWishLists]] : [[HardwareWishList]] : [[InternalBluetoothChip]]

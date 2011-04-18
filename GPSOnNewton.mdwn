@@ -1,50 +1,35 @@
-Date: Sat, 21 May 2005 16:15:47 -0400
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=GPSOnNewton;
-  flags="";
-  author=84.178.170.209;
-  version=1;
-  lastmodified=1116706547;
-  created=1116706547;
-  author_id=84.178.170.209;
-  markup=2;
-  hits=2297;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-HomePage : HowTo : [GPSOnNewton]%%%
-HomePage : HardWare : [GPSOnNewton]%%%
+[[HomePage]] : [[HowTo]] : [[GPSOnNewton]]%%%
+[[HomePage]] : [[HardWare]] : [[GPSOnNewton]]%%%
 ----
-!!!Newton GPS Ressources
+### Newton GPS Ressources
 
-!["Using the Apple Newton with Global Positioning Satellites (GPS)"|http://homepage.mac.com/matthewboulanger/NewtonandGPS.html] by MatthewBoulanger
+# ["Using the Apple Newton with Global Positioning Satellites (GPS)"](http://homepage.mac.com/matthewboulanger/[[NewtonandGPS]].html] by [[MatthewBoulanger])
 
-![The Lake Tahoe Hiking Newton - The Official Reference Guide|LakeTahoeHikingNewton]
-Ron A. Parker's excellent "Introduction to GPS Navigation using an Apple Newton MessagePad 120" (NOS 1.3 or NOS 2.0)
-
-
-!!GPS Software for Newton
-
-*__[FieldWorker|http://www.fieldworker.com]__ -- Data collection
-*__[GPSMap]__ -- Excellent moving map application by Gerd Staudenmaier
-*__[MapPad|http://www.ria.com.au/mp]__ -- The Australian GPS solution (dead link?)
-*__[TeleTypeGPS] 2.0 for Newton__
-*__[eMate meets Tripmate|http://www.provide.net/~hdodgson/newt.html]__ -- eMate-software for DeLorme Tripmate (has this been ever been released?)
+# [The Lake Tahoe Hiking Newton - The Official Reference Guide](LakeTahoeHikingNewton)
+Ron A. Parker's excellent "Introduction to GPS Navigation using an Apple Newton [[MessagePad]] 120" (NOS 1.3 or NOS 2.0)
 
 
-!!GPS Hardware for Newton
+## GPS Software for Newton
+
+*__[FieldWorker](http://www.fieldworker.com)__ -- Data collection
+*__[[GPSMap]]__ -- Excellent moving map application by Gerd Staudenmaier
+*__[MapPad](http://www.ria.com.au/mp)__ -- The Australian GPS solution (dead link?)
+*__[[TeleTypeGPS]] 2.0 for Newton__
+*__[eMate meets Tripmate](http://www.provide.net/~hdodgson/newt.html]__ -- eMate-software for [[DeLorme]) Tripmate (has this been ever been released?)
+
+
+## GPS Hardware for Newton
 
 __Note:__ All GPS devices that transmit a NMEA 183-protocol signal via serial should play nicely with your Newton (as long as you get them to plug into the Newton via various adapters...). This covers about all stand-alone GPS handhelds and GPS mice (for use with PDAs or desktop PCs). PC-Card and CF-Card format GPS receivers have also been reported working.%%%
 
-*__GPS Mice, GPS PC-Cards, GPS CF-Cards, other hardware: [GPSHardware]__
+*__GPS Mice, GPS PC-Cards, GPS CF-Cards, other hardware: [[GPSHardware]]__
 
 
-!!General GPS FAQ
+## General GPS FAQ
 
-__Note:__ Application- or hardware-specific questions may also be answered on the respective Wiki page, e.g. [GPSMap], NewtNav, [TeleTypeGPS],...
+__Note:__ Application- or hardware-specific questions may also be answered on the respective Wiki page, e.g. [[GPSMap]], [[NewtNav]], [[TeleTypeGPS]],...
 
 
 ----
-HomePage : HowTo : [GPSOnNewton]%%%
-HomePage : HardWare : [GPSOnNewton]%%%
+[[HomePage]] : [[HowTo]] : [[GPSOnNewton]]%%%
+[[HomePage]] : [[HardWare]] : [[GPSOnNewton]]%%%

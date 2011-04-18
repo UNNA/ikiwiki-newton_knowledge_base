@@ -1,36 +1,20 @@
-Date: Fri, 18 Mar 2005 16:57:54 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=DesktopConnectionSoftware;
-  flags="";
-  author=212.202.193.26;
-  version=1;
-  lastmodified=1111183074;
-  created=1111183074;
-  author_id=212.202.193.26;
-  markup=2;
-  summary=%28by%20Thomas%20Tempelmann%29%20Removed%20outdated%20newtsync-link%20-%20we%27ll%20link%20to%20the%20NewtSync%20wiki%20page%20instead%20now;
-  hits=1585;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
 So you've got your PCMCIA Card and connection of choice.. Now it's time to put them to good use:
 
 * Email
 
- Email on the Newt is one of the simple joys in life and there is no shortage of applictions out there to facillitate its use.
+Email on the Newt is one of the simple joys in life and there is no shortage of applictions out there to facillitate its use.
 
-  [Simplemail | http://dialspace.dial.pipex.com/town/road/aah66/] has to be the first candidate, if only for the slightly pedantic view that its the only email suite which is still currently supported and actively updated. The application is written and maintained by SimonBell and runs through the I/O Box application of NOS 2.x. It is simple to configure and supports image viewing, MP3 attachments, VCards, SMTP authentication, APOP secure authentication, basic IMAP support, and a whole host of many other file-types through many plug-ins, such are the advantages of having an actively developed email client
+[Simplemail ](http://dialspace.dial.pipex.com/town/road/aah66/] has to be the first candidate, if only for the slightly pedantic view that its the only email suite which is still currently supported and actively updated. The application is written and maintained by [[SimonBell]) and runs through the I/O Box application of NOS 2.x. It is simple to configure and supports image viewing, MP3 attachments, VCards, SMTP authentication, APOP secure authentication, basic IMAP support, and a whole host of many other file-types through many plug-ins, such are the advantages of having an actively developed email client
 
-  Other mail clients include Eudora, Enroute, etc.  More to come here.
+Other mail clients include Eudora, Enroute, etc.  More to come here.
 
 * Web Browsers
 
-  Web Browsers can be used to load packages on to a Newton using Apache (In Mac OS X,) see [MacOSXConnection].%%%
-  To get help selecting a Newton web browser see WebBrowsers
+Web Browsers can be used to load packages on to a Newton using Apache (In Mac OS X,) see [[MacOSXConnection]].%%%
+To get help selecting a Newton web browser see [[WebBrowsers]]
 
 * Synchronization Software
 
-  NewtSync synchronizes your Newton with OSX. Out of the box, NewtSync can connect via serial and TCP/IP communications and synchronized your data with iCal and OSX Address Book. Written fully in Cocoa, the software is built on a plugin architecture that allows other programmers to create plugins that sync with other applications. (n.b. Like all the other unix synchronization utilities, Newt Sync requires a package to be first installed on your Newton before they can talk.)
+[[NewtSync]] synchronizes your Newton with OSX. Out of the box, [[NewtSync]] can connect via serial and TCP/IP communications and synchronized your data with iCal and OSX Address Book. Written fully in Cocoa, the software is built on a plugin architecture that allows other programmers to create plugins that sync with other applications. (n.b. Like all the other unix synchronization utilities, Newt Sync requires a package to be first installed on your Newton before they can talk.)
 
-    _Please Wiki Wiki more folks =]_
+_Please Wiki Wiki more folks =]_

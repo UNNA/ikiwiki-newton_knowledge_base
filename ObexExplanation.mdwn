@@ -1,29 +1,14 @@
-Date: Mon, 15 Nov 2004 14:14:31 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=ObexExplanation;
-  flags="";
-  author=66.193.164.125;
-  version=1;
-  lastmodified=1100546071;
-  created=1100546071;
-  author_id=66.193.164.125;
-  markup=2;
-  hits=485;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-How to get stuff to your Newton via Bluetooth. This is ''__sooo__'' easy.
+How to get stuff to your Newton via Bluetooth. This is ___sooo___ easy.
 
 1. Get a bluetooth PC card model that Eckhart has tested.%%%
-  Some cards work, some don't. [Check here for the latest list.|http://www.40hz.org/Blunt/] Look for the heading titled __Hardware Compatibility__.
+Some cards work, some don't. [Check here for the latest list.](http://www.40hz.org/Blunt/) Look for the heading titled __Hardware Compatibility__.
 2. Bluetooth software, also from Eckhart's site. Three configurations are supported:
-  US 2x00:        __BluntMP2x00US.pkg__ and __Bluetooth Setup.pkg__%%%
-  German(?) 2x00: __BluntMP2100D.pkg__  and __Bluetooth Setup.pkg__%%%
-  eMate:          __!BlunteMate.pkg__    and __Bluetooth Setup.pkg__%%%
+US 2x00:        __BluntMP2x00US.pkg__ and __Bluetooth Setup.pkg__%%%
+German(?) 2x00: __BluntMP2100D.pkg__  and __Bluetooth Setup.pkg__%%%
+eMate:          __![[BlunteMate]].pkg__    and __Bluetooth Setup.pkg__%%%
 
-  [Get the Blunt software from here.|http://www.40hz.org/Blunt/] Blunt is a .sit package that contains the three configuration packages listed above and the Bluetooth Setup package.
+[Get the Blunt software from here.](http://www.40hz.org/Blunt/) Blunt is a .sit package that contains the three configuration packages listed above and the Bluetooth Setup package.
 3. Other software
-  You'll also need the __NIE Nitro & Blunt Support__ module [which you can get from here|http://www.40hz.org/NIENitroBlunt/] and __Neo__ [which you can get from here|http://www.40hz.org/Neo/].
+You'll also need the __NIE Nitro & Blunt Support__ module [which you can get from here|http://www.40hz.org/NIENitroBlunt/] and __Neo__ [which you can get from here](http://www.40hz.org/Neo/).
 
-to be continued...
+to be continued...

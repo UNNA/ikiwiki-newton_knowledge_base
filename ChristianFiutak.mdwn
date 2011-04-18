@@ -1,34 +1,18 @@
-Date: Sun, 12 Jan 2003 13:19:48 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=ChristianFiutak;
-  flags="";
-  author=ChristianFiutak;
-  version=1;
-  lastmodified=1042395588;
-  created=1042395588;
-  author_id=217.80.218.90;
-  markup=2;
-  summary=Who%20is%3A%20Christian%20Fiutak;
-  hits=227;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-[Christian Fiutak | mailto:cfiutak@fiutak.de] from Duisburg, Germany%%%
+[Christian Fiutak ](mailto:cfiutak@fiutak.de) from Duisburg, Germany%%%
 Owner of the following Newton modells:%%%
 
 * MP2000, upgraded to MP2100 , with Ser-001
 * eMate with memory expansion ;-)
 * MP130 with German OS 2.0
 * MP100 with German OS 1.3
-* Siemens NotePhone with German OS 1.11
+* Siemens [[NotePhone]] with German OS 1.11
 %%%
 
 Recent Newton Projects:
 
-* [Newton Lifestyle (now PDA Lifestyle) | http://www.pda-lifestyle.de], a german website about the Newton and some other PDAs
-* [Info-Newt.De | http://www.info-newt.de], new home of the NewtonVersions database (not updated since 2001)
-* [My Newton software page | http://www.fiutak.de/newton]: CurrencyUpdater 2.0, CeBIT exhibitor list book
+* [Newton Lifestyle (now PDA Lifestyle) ](http://www.pda-lifestyle.de), a german website about the Newton and some other PDAs
+* [Info-Newt.De ](http://www.info-newt.de], new home of the [[NewtonVersions]) database (not updated since 2001)
+* [My Newton software page ](http://www.fiutak.de/newton]: [[CurrencyUpdater]] 2.0, [[CeBIT]) exhibitor list book
 
 %%%
-I found this wiki today (2003.01.12) and thought I should help Victor a little bit...
+I found this wiki today (2003.01.12) and thought I should help Victor a little bit...

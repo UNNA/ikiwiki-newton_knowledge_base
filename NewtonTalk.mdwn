@@ -1,16 +1,1 @@
-Date: Fri, 26 Mar 2004 13:24:20 -0500
-Mime-Version: 1.0 (Produced by PhpWiki 1.3.11p1)
-Content-Type: application/x-phpwiki;
-  pagename=NewtonTalk;
-  flags="";
-  author=68.56.244.91;
-  version=1;
-  lastmodified=1080325460;
-  created=1080325460;
-  author_id=68.56.244.91;
-  markup=2;
-  hits=898;
-  charset=iso-8859-1
-Content-Transfer-Encoding: binary
-
-NewtonTalk, [http://www.newtontalk.net], is a mailing list devoted to Apple Computer Co.'s series of Newton MessagePads.
+[[NewtonTalk]], <http://www.newtontalk.net], is a mailing list devoted to Apple Computer Co.'s series of Newton [[MessagePads]>.

@@ -80,6 +80,8 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 
 * [Messagepad.org](http://www.messagepad.org/) — Korean Newton Users Group - has Newton news in Korean. [*Note*: Domain owner and content have changed. You can try putting the link in the [WayBack Machine](http://web.archive.org) to retieve Newton-related information.]
 
+* [Музей Apple Newton](http://newtonpda.com) — The Apple Newton Museum (In Russian).
+
 * [United Network of Newton Archives ](http://www.unna.org) — Consolidated Newton software and eBook repository.
 
 * [NewtonSearch](http://www.newtonsearch.net/) — Searchable index of Newton Websites. Linklist is reindexed regularly.

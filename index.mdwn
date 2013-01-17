@@ -62,19 +62,19 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 
 * [Newtontalk.net](http://www.newtontalk.net/) - the Premiere Newton discussion forum
 
-* [The Newton FAQ](http://www.chuma.org/newton/faq/)
+* [The Newton FAQ](http://old.chuma.org/newton/faq/)
 
 * Newton Glossary: [view|http://www.splorp.com/newton/glossary/] or [search](http://guelph.unna.org/glossary/).
 
 * [Newton Does It!](http://dettmer.maclab.org/newton/) - Newton news and links, updated regularly.
 
-* [Newton Enlightenment](http://www.newtenlightment.de/) - Newton news and links, updated regularly. [DEAD LINK]
+* [Newton Enlightenment](http://www.newtenlightment.de/) - Newton news and links, updated regularly. [Domain owner and content have changed. You can try putting the link in the [WayBack Machine](http://web.archive.org) to retieve Newton-related information.]
 
-* [Newton Dose](http://dev.newtontalk.net/~dpadilla/newtondose.htm) - Newton news, updated daily.
+* [Newton Dose](http://dev.newtontalk.net/~dpadilla/newtondose.htm) - Newton news, updated daily. [Last updated: Jun 7, 2004]
 
 * [MacMac newton page](http://mac.plonter.co.il/plonwiki/Newton) - The Israeli (In Hebrew) Newton page.
 
-* [Messagepad.org](http://www.messagepad.org/) - Korean Newton Users Group - has Newton news in Korean.
+* [Messagepad.org](http://www.messagepad.org/) - Korean Newton Users Group - has Newton news in Korean. [Domain owner and content have changed. You can try putting the link in the [WayBack Machine](http://web.archive.org) to retieve Newton-related information.]
 
 * [United Network of Newton Archives ](http://www.unna.org) - Consolidated Newton software and eBook repository.
 

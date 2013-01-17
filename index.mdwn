@@ -64,7 +64,7 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 
 * [The Newton FAQ](http://old.chuma.org/newton/faq/)
 
-* Newton Glossary: [view|http://www.splorp.com/newton/glossary/] or [search](http://guelph.unna.org/glossary/).
+* Newton Glossary: [view](http://www.splorp.com/newton/glossary/) or [search](http://guelph.unna.org/glossary/).
 
 * [Newton Does It!](http://dettmer.maclab.org/newton/) - Newton news and links, updated regularly.
 

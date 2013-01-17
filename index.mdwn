@@ -68,6 +68,8 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 
 * [The Newton FAQ](http://old.chuma.org/newton/faq/)
 
+* [The Newton FAQ repository on GitHub](https://github.com/splorp/newton-faq)
+
 * Newton Glossary: [view](http://www.splorp.com/newton/glossary/) or [search](http://tools.unna.org/glossary/).
 
 * [Newton Does It!](http://dettmer.maclab.org/newton/) — Newton news and links, updated regularly.

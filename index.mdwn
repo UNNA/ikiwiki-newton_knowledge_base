@@ -7,11 +7,11 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 ## Entry Points:
 
 
-* __[[NewtonNewbieGuide]]__ New to the Newton?  Check it out , or find places to __[[TalkAboutNewton]]__
+* __[[NewtonNewbieGuide]]__ New to the Newton?  Check it out, or find places to __[[TalkAboutNewton]]__
 
-* [[GettingSoftware]] for and onto your Newton
+* [[GettingSoftware]] for and onto your Newton.
 
-* [[BootStrapping]] Solving the  problem
+* [[BootStrapping]] Solving the bootstrapping problem.
 
 * Connectivity
  * [[MacOSConnection]],

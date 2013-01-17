@@ -26,20 +26,20 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 
  * [[NewtonConnectivityCD]] combines the most important connectivity tools for many platforms.
 
-* [[IntraNet]], [[InterNet]], [[WiFi]] and [Bluetooth](UsingBluetoothIndex) (Wireless) Getting Newton On The Network.
+* [[IntraNet]], [[InterNet]], [[WiFi]] and [Bluetooth](UsingBluetoothIndex) — (Wireless) Getting Newton On The Network.
 
-* [[HowTo]] The collected list of articles, pointers, and general software tips
+* [[HowTo]] — The collected list of articles, pointers, and general software tips.
 
-* [[HardWare]] tips, tricks, drivers & repairs
+* [[HardWare]] — Tips, tricks, drivers & repairs.
 
-* [[Audio]] Want to know what sort of audio tricks your Newton can play? Check out .
+* [[Audio]] — Want to know what sort of audio tricks your Newton can play? Check out this section.
 
-* [[CoolSetups]] - how do you setup your Newton?  Visit this page and see some examples, or write your own page
+* [[CoolSetups]] — How do you set up your Newton?  Visit this page and see some examples, or write your own page.
 
 
-* [[WhatAreSoups]]? The structure of the information on the Newton explained:
+* [[WhatAreSoups]]? — The structure of the information on the Newton explained.
 
-* [[DevelopmentResources]] -- Programming for Newton ain't Rocket Science!
+* [[DevelopmentResources]] — Programming for Newton ain't Rocket Science!
 
 
 * __[[SoftwareReviews]]__. __[[DeadWare]]__ There's still commercial stuff being marketed or occasionally found in the original shrinkwrap and lots of non-UNNA free- and sharewares. Links and packages can be found here.

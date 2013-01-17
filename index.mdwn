@@ -13,14 +13,18 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 
 * [[BootStrapping]] Solving the  problem
 
-*Connectivity
-* [[MacOSConnection]],
+* Connectivity
+ * [[MacOSConnection]],
 
-*[[WindowsConnection]],
-*[[UNIXConnection]],
-*[[IrDAConnection]],
-*[BluetoothConnection](UsingBluetoothIndex)
-* [[NewtonConnectivityCD]] combines the most important connectivity tools for many platforms.
+ * [[WindowsConnection]],
+
+ * [[UNIXConnection]],
+
+ * [[IrDAConnection]],
+
+ * [BluetoothConnection](UsingBluetoothIndex),
+
+ * [[NewtonConnectivityCD]] combines the most important connectivity tools for many platforms.
 
 * [[IntraNet]], [[InterNet]], [[WiFi]] and [Bluetooth](UsingBluetoothIndex) (Wireless) Getting Newton On The Network.
 

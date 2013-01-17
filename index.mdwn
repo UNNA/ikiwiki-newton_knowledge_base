@@ -7,11 +7,11 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 ## Entry Points:
 
 
-* __[[NewtonNewbieGuide]]__ New to the Newton?  Check it out, or find places to __[[TalkAboutNewton]]__
+* The __[[NewtonNewbieGuide]]__ — New to the Newton?  Check it out, or find places to __[[TalkAboutNewton]]__
 
 * [[GettingSoftware]] for and onto your Newton.
 
-* [[BootStrapping]] Solving the bootstrapping problem.
+* [[BootStrapping]] — Solving the bootstrapping problem.
 
 * Connectivity
  * [[MacOSConnection]],
@@ -42,19 +42,19 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 * [[DevelopmentResources]] — Programming for Newton ain't Rocket Science!
 
 
-* __[[SoftwareReviews]]__. __[[DeadWare]]__ There's still commercial stuff being marketed or occasionally found in the original shrinkwrap and lots of non-UNNA free- and sharewares. Links and packages can be found here.
+* __[[SoftwareReviews]]__. __[[DeadWare]]__ — There's still commercial stuff being marketed or occasionally found in the original shrinkwrap and lots of non-UNNA free- and sharewares. Links and packages can be found here.
 
-*  __[[UnnaReviews]]__ The [UNNA archives](http://www.unna.org) are 'raw'.  Come and read or write some Reviews.
+*  __[[UnnaReviews]]__ — The [UNNA archives](http://www.unna.org) are 'raw'.  Come and read or write some Reviews.
 
-* [[NewtonSightings]] in movies, on tv and other media.
+* [[NewtonSightings]] in movies, on TV and other media.
 
-* [[NewtonWishLists]] What'd you like to see happen for the Newton?
+* [[NewtonWishLists]] — What'd you like to see happen for the Newton?
 
-* [[NewtonCreations]] See what people have made with their Newts.
+* [[NewtonCreations]] — See what people have made with their Newts.
 
 * [[PrototypesAndMockups]] of what Newton could have been...
 
-* [Webservers running on Newtons](http://npds-tracker.continuity.cx:3680/)The newton makes a great webserver!
+* [Webservers running on Newtons](http://npds-tracker.continuity.cx:3680/) — The newton makes a great webserver!
 
 * .... add your entry point here or edit more links into those above
 

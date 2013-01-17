@@ -86,7 +86,7 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 
 * [NewtonSearch](http://www.newtonsearch.net/) — Searchable index of Newton Websites. Linklist is reindexed regularly.
 
-* [pda-soft](http://www.pda-soft.de/) — Disassembly, repair and battery rebuild instructions along with some (mostly hardware-related) software.
+* [Frank Gründel's pda-soft](http://www.pda-soft.de/) — Disassembly, repair and battery rebuild instructions along with some (mostly hardware-related) software.
 
 * <http://www.info.apple.com/support/oldersoftwarelist.html#newton> — Newton downloads at Apple
 

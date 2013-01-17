@@ -88,6 +88,8 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 
 * <http://www.info.apple.com/support/oldersoftwarelist.html#newton> — Newton downloads at Apple
 
+* [Softwarebüro Müller](http://www.softwarebueromueller.de/englisch/newton/index.htm) — Software for the NewtonOS (SBM Utilities, Card Eject, etc.)
+
 * [Newton's Library](http://www.newtonslibrary.org/) — A large collection of freely downloadable Newton books
 
 * [Temporary Newton Library](http://www.stillnewt.org/library) — Actively maintained Newton eBook repository

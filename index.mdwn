@@ -64,27 +64,23 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 
 * [The Newton FAQ](http://old.chuma.org/newton/faq/)
 
-* Newton Glossary: [view](http://www.splorp.com/newton/glossary/) or [search](http://guelph.unna.org/glossary/).
+* Newton Glossary: [view](http://www.splorp.com/newton/glossary/) or [search](http://tools.unna.org/glossary/).
 
 * [Newton Does It!](http://dettmer.maclab.org/newton/) - Newton news and links, updated regularly.
 
-* [Newton Enlightenment](http://www.newtenlightment.de/) - Newton news and links, updated regularly. [Domain owner and content have changed. You can try putting the link in the [WayBack Machine](http://web.archive.org) to retieve Newton-related information.]
+* [Newton Enlightenment](http://www.newtenlightment.de/) - Newton news and links, updated regularly. [*Note*: Domain owner and content have changed. You can try putting the link in the [WayBack Machine](http://web.archive.org) to retieve Newton-related information.]
 
 * [Newton Dose](http://dev.newtontalk.net/~dpadilla/newtondose.htm) - Newton news, updated daily. [Last updated: Jun 7, 2004]
 
 * [MacMac newton page](http://mac.plonter.co.il/plonwiki/Newton) - The Israeli (In Hebrew) Newton page.
 
-* [Messagepad.org](http://www.messagepad.org/) - Korean Newton Users Group - has Newton news in Korean. [Domain owner and content have changed. You can try putting the link in the [WayBack Machine](http://web.archive.org) to retieve Newton-related information.]
+* [Messagepad.org](http://www.messagepad.org/) - Korean Newton Users Group - has Newton news in Korean. [*Note*: Domain owner and content have changed. You can try putting the link in the [WayBack Machine](http://web.archive.org) to retieve Newton-related information.]
 
 * [United Network of Newton Archives ](http://www.unna.org) - Consolidated Newton software and eBook repository.
 
 * [NewtonSearch](http://www.newtonsearch.net/) - Searchable index of Newton Websites. Linklist is reindexed regularly.
 
 * [pda-soft](http://www.pda-soft.de/) - Disassembly, repair and battery rebuild instructions along with some (mostly hardware-related) software.
-
-* <http://tools.unna.org/glossary/>
-
-* <http://www.splorp.com/newton/glossary/> - Grant H's comprehensive glossary
 
 * <http://www.info.apple.com/support/oldersoftwarelist.html#newton> - Newton downloads at Apple
 

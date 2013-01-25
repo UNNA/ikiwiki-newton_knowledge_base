@@ -1,6 +1,6 @@
-###  The Newton Newbie Guide
+#  The Newton Newbie Guide
 
-_this is still a work in progress_
+(_This is still a work in progress_)
 
 
 ## Preamble

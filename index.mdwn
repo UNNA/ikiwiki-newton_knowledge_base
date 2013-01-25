@@ -7,7 +7,7 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 ## Entry Points:
 
 
-* The __[[Newton Newbie Guide | NewtonNewbieGuide]]__ — New to the Newton?  Check it out, or find places to __[[TalkAboutNewton]]__
+* The __[[Newton Newbie Guide|NewtonNewbieGuide]]__ — New to the Newton?  Check it out, or find places to __[[TalkAboutNewton]]__
 
 * [[GettingSoftware]] for and onto your Newton.
 

@@ -42,24 +42,23 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 * [[Development Resources|DevelopmentResources]] — Programming for Newton ain't Rocket Science!
 
 
-* __[[SoftwareReviews]]__. __[[DeadWare]]__ — There's still commercial stuff being marketed or occasionally found in the original shrinkwrap and lots of non-UNNA free- and sharewares. Links and packages can be found here.
+* __[[Software reviews|SoftwareReviews]]__. __[[DeadWare]]__ — There's still commercial stuff being marketed or occasionally found in the original shrinkwrap and lots of non-UNNA free- and sharewares. Links and packages can be found here.
 
-*  __[[UnnaReviews]]__ — The [UNNA archives](http://www.unna.org) are 'raw'.  Come and read or write some Reviews.
+*  __[[UNNA reviews|UnnaReviews]]__ — The [UNNA archives](http://www.unna.org) are 'raw'.  Come and read or write some reviews.
 
-* [[NewtonSightings]] in movies, on TV and other media.
+* [[Newton sightings|NewtonSightings]] in movies, on TV and other media.
 
-* [[NewtonWishLists]] — What'd you like to see happen for the Newton?
+* [[Newton Wishlists|NewtonWishLists]] — What'd you like to see happen for the Newton?
 
-* [[NewtonCreations]] — See what people have made with their Newts.
+* [[Newton creations|NewtonCreations]] — See what people have made with their Newts.
 
-* [[PrototypesAndMockups]] of what Newton could have been...
+* [[Prototypes and mockups|PrototypesAndMockups]] of what Newton could have been...
 
 * [Webservers running on Newtons](http://npds-tracker.continuity.cx:3680/) — The newton makes a great webserver!
 
-* .... add your entry point here or edit more links into those above
 
 
-* Perform a [[FullTextSearch]] of this entire wiki
+* Perform a [[FullTextSearch]] of the Newton Knowledge Base.
 
 
 ## Exit Points (other sources of Newton info and news):

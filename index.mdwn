@@ -60,6 +60,7 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 
 * Perform a [[FullTextSearch]] of the Newton Knowledge Base.
 
+----
 
 ## Exit Points (other sources of Newton info and news):
 

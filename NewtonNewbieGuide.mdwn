@@ -5,7 +5,7 @@
 
 ## Preamble
 
-In the last year and a half, there has been a large number of new users come to the Newton platform. Certainly more than one would expect from a platform that has been abandoned by its creator for over four years. These newbies have traditionally been pointed at the [FAQ |http://www.chuma.org/newton/faq/] or the [Newtontalk mailing list](http://www.newtontalk.net/) for answers to their questions. But it finally dawned on me that it would be the best if there was one central clearinghouse for Newton newbie information, and since no one had written it yet, here I am.
+In the last year and a half, there has been a large number of new users come to the Newton platform. Certainly more than one would expect from a platform that has been abandoned by its creator for almost 15 years now. These newbies have traditionally been pointed at the [FAQ] (http://old.chuma.org/newton/faq/) or the [NewtonTalk mailing list](http://www.newtontalk.net/) for answers to their questions. But it finally dawned on us that it would be the best if there was one central clearinghouse for Newton newbie information. So here we are.
 
 
 ## Getting Started

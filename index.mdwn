@@ -1,13 +1,13 @@
 Welcome to [[WikiWikiNewt]], a Wiki site created for the [[NewtonMessagePad]].
 
 
-___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do what you like with it.  Just keep it clean and play nice.  Please view [[TheGuidelines]] as well.
+___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do what you like with it.  Just keep it clean and play nice.  Please view [[the Guidelines|TheGuidelines]] as well.
 
 
 ## Entry Points:
 
 
-* The __[[Newton Newbie Guide|NewtonNewbieGuide]]__ — New to the Newton?  Check it out, or find places to __[[talk about the Newton|TalkAboutNewton]]__
+* The __[[Newton Newbie Guide|NewtonNewbieGuide]]__ — New to the Newton?  Check it out, or find places to __[[talk about the Newton|TalkAboutNewton]]__.
 
 * [[Getting software|GettingSoftware]] for and onto your Newton.
 

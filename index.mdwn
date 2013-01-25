@@ -22,7 +22,7 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 
  * [[Infrared connection|IrDAConnection]],
 
- * [Bluetooth connection|UsingBluetoothIndex],
+ * [[Bluetooth connection|UsingBluetoothIndex]],
 
  * [[The Newton Connectivity CD|NewtonConnectivityCD]] combines the most important connectivity tools for many platforms.
 

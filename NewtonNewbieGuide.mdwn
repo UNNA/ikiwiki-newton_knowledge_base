@@ -52,7 +52,7 @@ All of the manuals that came with Newtons are also available as PDF files.  They
 
 * _Modems_.  Most PCMCIA hardware modems will work with the Newton - some may need a special configuration string.  Any "[WinModem](SoftModem)" or "[[SoftModem]]" will NOT work.  External serial modems will work fine as well.
 
-* _Network cards_.  There is a [definitive list of working Ethernet cards] (http://old.chuma.org/newton/ethernet/] and their drivers available.  It is also possible to use 802.11 "[[WaveLAN]]" wireless network cards with the Newton, with a [shareware driver](http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm). Of course Bluetooth is also [available](UsingBluetoothIndex).
+* _Network cards_.  There is a [definitive list of working Ethernet cards] (http://old.chuma.org/newton/ethernet/) and their drivers available.  It is also possible to use 802.11 "[[WaveLAN]]" wireless network cards with the Newton, with a [shareware driver](http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm). Of course Bluetooth is also [available](UsingBluetoothIndex).
 
 
 ###  __Where do I get software?__

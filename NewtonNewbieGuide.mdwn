@@ -11,75 +11,58 @@ In the last year and a half, there has been a large number of new users come to 
 ## Getting Started
 
 
-1.  __What is a Newton?__
-
+###  __What is a Newton?__
 
 See the [[NewtonMessagePad]] node.  Newton is the original PDA. The Newton line of PDAs was launched by Apple Computer in 1993, and discontinued in 1998. You can get a [quick rundown of the released models ](http://www.chuma.org/newton/faq/newton-faq-hardware.html#IIA). Basicially though, everyone has or wants an upgraded 2000 or 2100. These were the latest models, the most feature-packed, and the ones that most new software is being developed for today.
-
 
 To learn more about the lingo and jargon about the Newton, check out the [[NewtonGlossary]].
 
 
-2.  __Where do I get a Newton?  How much does it cost?__
-
+###  __Where do I get a Newton?  How much does it cost?__
 
 Pretty much the only place to get one (assuming you don't know someone who has one stuffed in a desk drawer) is [eBay|http://www.ebay.com]. Other possibilities are looking for ads or posting a Wanted ad to the comp.sys.newton.misc newsgroup, or the Newtontalk mailing list.  There are also some resellers out there that sell through non-eBay channels - look them up in the [[VendorsList]].  For current going prices on Newtons and accessories, consult the [This Old Newt price guide ](http://www.thisoldnewt.net/html/used.html) (broken link).
 
 
-3.  __What hardware do I need to get started?__
-
+### __What hardware do I need to get started?__
 
 (I'm not going to talk about older models here.)  For a 2000 or a 2100, at a minimum you need:
 
-* The Newton itself
-
-* A battery cage (which you put AA batteries into, and then slot into the Newton) or rechargable battery and AC adapter
-
-* A stylus
-
-* If you have a Macintosh [[PowerBook]] equipped with a Infrared port running Mac OS 8.x or 9.x, you can connect to your Newton via [[IrDA]] to install software (see [[BootStrapping]])
-
-* Otherwise, you will need a serial cable with a [[MiniDIN]]-8 connector for connecting to your desktop PC or Mac, plus a Newton dongle (this is an adapter which connects the serial cable to the Newton Interconnect Port under the door at the top of the Newton) or equivalent - See Section 4 (below)
+ * The Newton itself
+ * A battery cage (which you put AA batteries into, and then slot into the Newton) or rechargable battery and AC adapter
+ * A stylus
+ * If you have a Macintosh [[PowerBook]] equipped with a Infrared port running Mac OS 8.x or 9.x, you can connect to your Newton via [[IrDA]] to install software (see [[BootStrapping]])
+ * Otherwise, you will need a serial cable with a [[MiniDIN]]-8 connector for connecting to your desktop PC or Mac, plus a Newton dongle (this is an adapter which connects the serial cable to the Newton Interconnect Port under the door at the top of the Newton) or equivalent - See Section 4 (below)
 
 
-4.  __What kind of serial cable do I need?__
-
+### __What kind of serial cable do I need?__
 
 If you get a standard Newton serial cable, make sure that you also get a serial dongle - see [[AboutDongles]].  This will mate the serial cable to the Newton's special Interconnect port, as stock 2x00 models didn't have a standard Mac serial connection like all 1x0 models do, which have the [[MiniDIN]] 8-serial port that was Apples standard for connecting peripherals at the time (printers, keyboards, ...). There are also serial cables that have this Interconnect plug molded into one end.  There is also a third-party addon, the [SER-001] by [Mr PCBMan], that provides a 2x00 with a standard serial connector.  Note that all recent Macs since the iMac don't have serial ports anymore: you'll have to invest in a [[USBtoSerialAdapter]] (list of compatible models), or a [Stealth serial port ](http://www.geethree.com/stealth/stealth.html).%%%
-
 
 You can avoid this and other [[BootStrapping]] issues by using the [[CardLending]] services available from [[FrankGruendel]] in[Europe](http://www.pda-soft.de] and in the USA by ???. They lend you a card preloaded with all packages you could possibly need to do [[BluetoothSetup]] or configure Ethernet or [[Wifi]], thus avoiding any [[Dongle]) and serial cable issues.
 
 
-5.  __Where can I get manuals or other documentation?__
-
+###  __Where can I get manuals or other documentation?__
 
 All of the manuals that came with Newtons are also available as PDF files.  They're all [here](http://www.unna.org/view.php?/apple/documentation/), sorted by model.
 
 
-6.  __What other hardware should I look for?__
-
+###  __What other hardware should I look for?__
 
 * Storage cards.  The Newton supports linear flash cards for additional data storage.  However, these cards are becoming harder and harder to find as they have been largely replaced with ATA-style flash memory and other formats such as [[CompactFlash]] and [[SmartMedia]].  However, there is now an [ATA driver](http://www.kallisys.com/newton/ata/) for the Newton that will let you use these types of media (with an appropriate PCMCIA adapter).
 
-
 * Modems.  Most PCMCIA hardware modems will work with the Newton - some may need a special configuration string.  Any "[WinModem ](SoftModem)" or "[[SoftModem]]" will NOT work.  External serial modems will work fine as well.
-
 
 * Network cards.  There is a [definitive list of working Ethernet cards | http://www.chuma.org/index.php/newton/ethernet/] and their drivers available.  It is also possible to use 802.11 "[[WaveLAN]]" wireless network cards with the Newton, with a [shareware driver ](http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm]. Of course Bluetooth is also [available)(UsingBluetoothIndex).
 
 
-7.  __Where do I get software?__
-
+###  __Where do I get software?__
 
 The largest repository of Newton software is at [UNNA|http://www.unna.org/].  Since there is so much software there, you probably want to read some [[UnnaReviews]] to help you choose packages. For some example of what other [[Newtonian]]s use, see [[CoolSetups]]. Additional stuff can be found on many webpages, see the links at the bottom of the Wiki-[[HomePage]]. A lot of content -- mainly ebooks -- can be found at either [UNNA|http://www.unna.org/view.php?/books] or the [Temporary Newton Library](http://www.stillnewt.org/library), the only actively maintained Newton bookshelf at the moment (2005).
 
 
-8.  __What software should I install?__
-
+### __What software should I install?__
 
 This is largely up to you.  Read [NewtonTalk](http://www.newtontalk.net/) and other online forums and ask for people's opinions.  You'll probably get a lot of ideas on what to try.  For most 2x00s, however, there are certain things that every Newton should have installed:
-
 
 * Get the latest system patch for your model.  [Look up what you should have|http://www.chuma.org/newton/faq/newton-faq-nos.html#IIIA2], and then [go and get it](http://www.unna.org/view.php?/apple/software/SystemPatches).
 
@@ -89,39 +72,31 @@ This is largely up to you.  Read [NewtonTalk](http://www.newtontalk.net/) and ot
 
 * Newton Works for word processing, spreadsheets, advanced drawing and more.  Get it [here|http://newyork.unna.org/unna/applications/[[NewtonWorks]]/].  To activate handwriting recognition in works, you'll also need [HWRWorks](http://www.unna.org/unna/applications/[[NewtonWorks]]/hwrworks/).
 
-* ???
+* ...
 
 
-9.  __How do I connect this thing to my desktop?__
-
+###  __How do I connect this thing to my desktop?__
 
 See [[MacOSConnection]], [[WindowsConnection]], [[UNIXConnection]], [BluetoothConnection](UsingBluetoothIndex).
 
 
-10. __How do I connect this thing to the Internet?__
+### __How do I connect this thing to the Internet?__
 
-
-Now that you've got this thing hooked up to your computer, you want to start surfing the web! You want to send and receive email! These things, and anything else you can do on the net can be done with a Newton.
-
-
-This is where you really see how well the Newton has adapted to "life after death". Internet access has been the yardstick upon which most Operating Systems have been measured in the past 6-7 years and beyond and the Newton out shines amongst its fellow PDA's for its support of most things net-related.
+Now that you've got this thing hooked up to your computer, you want to start surfing the web! You want to send and receive email! These things, and anything else you can do on the net can be done with a Newton. This is where you really see how well the Newton has adapted to "life after death". Internet access has been the yardstick upon which most Operating Systems have been measured in the past 6-7 years and beyond and the Newton out shines amongst its fellow PDA's for its support of most things net-related.
 
 
 So lets start at the bare Basics:
 
+ * [[DesktopConnectionHardware]]
 
-* [[DesktopConnectionHardware]]
+ * [[DesktopConnectionSoftware]]
 
-* [[DesktopConnectionSoftware]]
-
-* actually, crap, I didn't name these links properly.  -[[VictorRehorst]]
+ * actually, crap, I didn't name these links properly.  -[[VictorRehorst]]
 
 
-11.  __What are some of the most popular packages on the Newton and what do they do?__
-
+###  __What are some of the most popular packages on the Newton and what do they do?__
 
 Here's a list for you, with links to their web pages (where applicable) or directory in [[UNNA]]:
-
 
 * [Newt's Cape](http://www.kagi.com/weyer/#Newtscape) - web browser / web clipping / book creator
 
@@ -130,17 +105,17 @@ Here's a list for you, with links to their web pages (where applicable) or direc
 * _more_
 
 
-12. __What did other [Newbies want to know]?__
+### __What did other [Newbies want to know]?__
 
 * Qs & As that popped up at [[NTLK]].
 
 
-13. [[Glossary]]
+* [[Glossary]]
 
 
-_this is still a work in progress_
+_This is still a work in progress_
 
 
-%%%
+
 ----
 [[HomePage]] : [[NewtonNewbieGuide]]

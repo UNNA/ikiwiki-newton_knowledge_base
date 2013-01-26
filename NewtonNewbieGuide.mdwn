@@ -57,7 +57,7 @@ All of the manuals that came with Newtons are also available as PDF files.  They
 
 ###  __Where do I get software?__
 
-The largest repository of Newton software is at [UNNA|http://www.unna.org/].  Since there is so much software there, you probably want to read some [[UnnaReviews]] to help you choose packages. For some example of what other [[Newtonian]]s use, see [[CoolSetups]]. Additional stuff can be found on many webpages, see the links at the bottom of the Wiki-[[HomePage]]. A lot of content -- mainly ebooks -- can be found at either [UNNA|http://www.unna.org/view.php?/books] or the [Temporary Newton Library](http://www.stillnewt.org/library), the only actively maintained Newton bookshelf at the moment (2005).
+The largest repository of Newton software is at [UNNA](http://www.unna.org/).  Since there is so much software there, you probably want to read some [[UnnaReviews]] to help you choose packages. For some example of what other [[Newtonian]]s use, see [[CoolSetups]]. Additional stuff can be found on many webpages, see the links at the bottom of the Wiki-[[HomePage]]. A lot of content -- mainly ebooks -- can be found at either [UNNA](http://www.unna.org/view.php?/books) or the [Temporary Newton Library](http://www.stillnewt.org/library), the only actively maintained Newton bookshelf at the moment (2005).
 
 
 ### __What software should I install?__
@@ -70,7 +70,7 @@ This is largely up to you.  Read [NewtonTalk](http://www.newtontalk.net/) and ot
 
 * [[BigNotes]] to allow you to create notes larger than the default (small) size.
 
-* Newton Works for word processing, spreadsheets, advanced drawing and more.  Get it [here|http://newyork.unna.org/unna/applications/[[NewtonWorks]]/].  To activate handwriting recognition in works, you'll also need [HWRWorks](http://www.unna.org/unna/applications/[[NewtonWorks]]/hwrworks/).
+* Newton Works for word processing, spreadsheets, advanced drawing and more.  Get it [here](http://newyork.unna.org/unna/applications/[[NewtonWorks]]/).  To activate handwriting recognition in works, you'll also need [HWRWorks](http://www.unna.org/unna/applications/[[NewtonWorks]]/hwrworks/).
 
 * ...
 

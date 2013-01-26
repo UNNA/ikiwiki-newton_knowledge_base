@@ -13,14 +13,14 @@ In the last year and a half, there has been a large number of new users come to 
 
 ###  __What is a Newton?__
 
-See the [[NewtonMessagePad]] node.  Newton is the original PDA. The Newton line of PDAs was launched by Apple Computer in 1993, and discontinued in 1998. You can get a [quick rundown of the released models ](http://www.chuma.org/newton/faq/newton-faq-hardware.html#IIA). Basicially though, everyone has or wants an upgraded 2000 or 2100. These were the latest models, the most feature-packed, and the ones that most new software is being developed for today.
+See the [[Newton MessagePad|NewtonMessagePad]] node.  Newton is the original PDA. The Newton line of PDAs was launched by Apple Computer in 1993, and discontinued in 1998. You can get a [quick rundown of the released models ](http://www.chuma.org/newton/faq/newton-faq-hardware.html#IIA). Basicially though, everyone has or wants an upgraded 2000 or 2100. These were the latest models, the most feature-packed, and the ones that most new software is being developed for today.
 
-To learn more about the lingo and jargon about the Newton, check out the [[NewtonGlossary]].
+To learn more about the lingo and jargon about the Newton, check out the [[Newton Glossary|NewtonGlossary]].
 
 
 ###  __Where do I get a Newton?  How much does it cost?__
 
-Pretty much the only place to get one (assuming you don't know someone who has one stuffed in a desk drawer) is [eBay|http://www.ebay.com]. Other possibilities are looking for ads or posting a Wanted ad to the comp.sys.newton.misc newsgroup, or the Newtontalk mailing list.  There are also some resellers out there that sell through non-eBay channels - look them up in the [[VendorsList]].  For current going prices on Newtons and accessories, consult the [This Old Newt price guide ](http://www.thisoldnewt.net/html/used.html) (broken link).
+Pretty much the only place to get one (assuming you don't know someone who has one stuffed in a desk drawer) is [eBay|http://www.ebay.com]. Other possibilities are looking for ads or posting a Wanted ad to the comp.sys.newton.misc newsgroup, or the Newtontalk mailing list.  There are also some resellers out there that sell through non-eBay channels - look them up in the [[Vendors List|VendorsList]].  For current going prices on Newtons and accessories, consult the [This Old Newt price guide ](http://www.thisoldnewt.net/html/used.html) (broken link).
 
 
 ### __What hardware do I need to get started?__
@@ -38,7 +38,7 @@ Pretty much the only place to get one (assuming you don't know someone who has o
 
 If you get a standard Newton serial cable, make sure that you also get a serial dongle - see [[AboutDongles]].  This will mate the serial cable to the Newton's special Interconnect port, as stock 2x00 models didn't have a standard Mac serial connection like all 1x0 models do, which have the [[MiniDIN]] 8-serial port that was Apples standard for connecting peripherals at the time (printers, keyboards, ...). There are also serial cables that have this Interconnect plug molded into one end.  There is also a third-party addon, the [SER-001] by [Mr PCBMan], that provides a 2x00 with a standard serial connector.  Note that all recent Macs since the iMac don't have serial ports anymore: you'll have to invest in a [[USBtoSerialAdapter]] (list of compatible models), or a [Stealth serial port ](http://www.geethree.com/stealth/stealth.html).%%%
 
-You can avoid this and other [[BootStrapping]] issues by using the [[CardLending]] services available from [[FrankGruendel]] in[Europe](http://www.pda-soft.de] and in the USA by ???. They lend you a card preloaded with all packages you could possibly need to do [[BluetoothSetup]] or configure Ethernet or [[Wifi]], thus avoiding any [[Dongle]) and serial cable issues.
+You can avoid this and other [[BootStrapping]] issues by using the [[CardLending]] services available from [[FrankGruendel]] in [Europe](http://www.pda-soft.de] and in the USA by ???. They lend you a card preloaded with all packages you could possibly need to [[set up Bluetooth|BluetoothSetup]] or configure Ethernet or [[Wifi]], thus avoiding any [[Dongle]] and serial cable issues.
 
 
 ###  __Where can I get manuals or other documentation?__
@@ -48,11 +48,11 @@ All of the manuals that came with Newtons are also available as PDF files.  They
 
 ###  __What other hardware should I look for?__
 
-* Storage cards.  The Newton supports linear flash cards for additional data storage.  However, these cards are becoming harder and harder to find as they have been largely replaced with ATA-style flash memory and other formats such as [[CompactFlash]] and [[SmartMedia]].  However, there is now an [ATA driver](http://www.kallisys.com/newton/ata/) for the Newton that will let you use these types of media (with an appropriate PCMCIA adapter).
+* _Storage cards_.  The Newton supports linear flash cards for additional data storage.  However, these cards are becoming harder and harder to find as they have been largely replaced with ATA-style flash memory and other formats such as [[CompactFlash]] and [[SmartMedia]].  However, there is now an [ATA driver](http://www.kallisys.com/newton/ata/) for the Newton that will let you use these types of media (with an appropriate PCMCIA adapter).
 
-* Modems.  Most PCMCIA hardware modems will work with the Newton - some may need a special configuration string.  Any "[WinModem ](SoftModem)" or "[[SoftModem]]" will NOT work.  External serial modems will work fine as well.
+* _Modems_.  Most PCMCIA hardware modems will work with the Newton - some may need a special configuration string.  Any "[WinModem](SoftModem)" or "[[SoftModem]]" will NOT work.  External serial modems will work fine as well.
 
-* Network cards.  There is a [definitive list of working Ethernet cards | http://www.chuma.org/index.php/newton/ethernet/] and their drivers available.  It is also possible to use 802.11 "[[WaveLAN]]" wireless network cards with the Newton, with a [shareware driver ](http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm]. Of course Bluetooth is also [available)(UsingBluetoothIndex).
+* _Network cards_.  There is a [definitive list of working Ethernet cards | http://www.chuma.org/index.php/newton/ethernet/] and their drivers available.  It is also possible to use 802.11 "[[WaveLAN]]" wireless network cards with the Newton, with a [shareware driver ](http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm]. Of course Bluetooth is also [available](UsingBluetoothIndex).
 
 
 ###  __Where do I get software?__

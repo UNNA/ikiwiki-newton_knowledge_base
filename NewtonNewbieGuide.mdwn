@@ -20,7 +20,7 @@ To learn more about the lingo and jargon about the Newton, check out the [[Newto
 
 ###  __Where do I get a Newton?  How much does it cost?__
 
-Pretty much the only place to get one (assuming you don't know someone who has one stuffed in a desk drawer) is [eBay|http://www.ebay.com]. Other possibilities are looking for ads or posting a Wanted ad to the comp.sys.newton.misc newsgroup, or the Newtontalk mailing list.  There are also some resellers out there that sell through non-eBay channels - look them up in the [[Vendors List|VendorsList]].  For current going prices on Newtons and accessories, consult the [This Old Newt price guide ](http://www.thisoldnewt.net/html/used.html) (broken link).
+Pretty much the only place to get one (assuming you don't know someone who has one stuffed in a desk drawer) is [eBay](http://www.ebay.com). Other possibilities are looking for ads or posting a Wanted ad to the comp.sys.newton.misc newsgroup, or the Newtontalk mailing list.  There are also some resellers out there that sell through non-eBay channels - look them up in the [[Vendors List|VendorsList]].  For current going prices on Newtons and accessories, consult the [This Old Newt price guide](http://www.thisoldnewt.net/html/used.html) (broken link).
 
 
 ### __What hardware do I need to get started?__
@@ -36,9 +36,9 @@ Pretty much the only place to get one (assuming you don't know someone who has o
 
 ### __What kind of serial cable do I need?__
 
-If you get a standard Newton serial cable, make sure that you also get a serial dongle - see [[AboutDongles]].  This will mate the serial cable to the Newton's special Interconnect port, as stock 2x00 models didn't have a standard Mac serial connection like all 1x0 models do, which have the [[MiniDIN]] 8-serial port that was Apples standard for connecting peripherals at the time (printers, keyboards, ...). There are also serial cables that have this Interconnect plug molded into one end.  There is also a third-party addon, the [SER-001] by [Mr PCBMan], that provides a 2x00 with a standard serial connector.  Note that all recent Macs since the iMac don't have serial ports anymore: you'll have to invest in a [[USBtoSerialAdapter]] (list of compatible models), or a [Stealth serial port ](http://www.geethree.com/stealth/stealth.html).%%%
+If you get a standard Newton serial cable, make sure that you also get a serial dongle - see [[AboutDongles]].  This will mate the serial cable to the Newton's special Interconnect port, as stock 2x00 models didn't have a standard Mac serial connection like all 1x0 models do, which have the [[MiniDIN]] 8-serial port that was Apples standard for connecting peripherals at the time (printers, keyboards, ...). There are also serial cables that have this Interconnect plug molded into one end.  There is also a third-party addon, the [SER-001] by [Mr PCBMan], that provides a 2x00 with a standard serial connector.  Note that all recent Macs since the iMac don't have serial ports anymore: you'll have to invest in a [[USBtoSerialAdapter]] (list of compatible models), or a [Stealth serial port](http://www.geethree.com/stealth/stealth.html).
 
-You can avoid this and other [[BootStrapping]] issues by using the [[CardLending]] services available from [[FrankGruendel]] in [Europe](http://www.pda-soft.de] and in the USA by ???. They lend you a card preloaded with all packages you could possibly need to [[set up Bluetooth|BluetoothSetup]] or configure Ethernet or [[Wifi]], thus avoiding any [[Dongle]] and serial cable issues.
+You can avoid this and other [[BootStrapping]] issues by using the [[CardLending]] services available from [[FrankGruendel]] in [Europe](http://www.pda-soft.de) and in the USA by ???. They lend you a card preloaded with all packages you could possibly need to [[set up Bluetooth|BluetoothSetup]] or configure Ethernet or [[Wifi]], thus avoiding any [[Dongle]] and serial cable issues.
 
 
 ###  __Where can I get manuals or other documentation?__
@@ -52,7 +52,7 @@ All of the manuals that came with Newtons are also available as PDF files.  They
 
 * _Modems_.  Most PCMCIA hardware modems will work with the Newton - some may need a special configuration string.  Any "[WinModem](SoftModem)" or "[[SoftModem]]" will NOT work.  External serial modems will work fine as well.
 
-* _Network cards_.  There is a [definitive list of working Ethernet cards | http://www.chuma.org/index.php/newton/ethernet/] and their drivers available.  It is also possible to use 802.11 "[[WaveLAN]]" wireless network cards with the Newton, with a [shareware driver ](http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm]. Of course Bluetooth is also [available](UsingBluetoothIndex).
+* _Network cards_.  There is a [definitive list of working Ethernet cards] (http://old.chuma.org/newton/ethernet/] and their drivers available.  It is also possible to use 802.11 "[[WaveLAN]]" wireless network cards with the Newton, with a [shareware driver](http://www.ff.iij4u.or.jp/~ngc/eng/newtwave.htm). Of course Bluetooth is also [available](UsingBluetoothIndex).
 
 
 ###  __Where do I get software?__

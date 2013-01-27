@@ -115,9 +115,5 @@ Here's a list for you, with links to their web pages (where applicable) or direc
 * [[Glossary]]
 
 
-_This is still a work in progress_
+(_This is still a work in progress_)
 
-
-
-----
-[[HomePage]] : [[NewtonNewbieGuide]]

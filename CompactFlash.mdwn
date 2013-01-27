@@ -1,3 +1,4 @@
-Compact Flash Cards are 1.69 inches (42.8 mm) wide, 1.22 inches (31 mm) deep and .13 inches (3.3 mm) thick. Compact Flash cards are about the size of a matchbook. Epinions has a [Review of Compact Flash Cards with a picture](http://www.epinions.com/elec_Cameras-Digital-Accessories-Storage_Media_[[CompactFlashCardss]]-[[CompactFlash]]_Memory_Card).
+Compact Flash Cards are 1.69 inches (42.8 mm) wide, 1.22 inches (31 mm) deep and .13 inches (3.3 mm) thick. Compact Flash cards are about the size of a matchbook. Epinions has a [Review of Compact Flash Cards with a picture](http://www.epinions.com/elec_Cameras-Digital-Accessories-Storage_Media_CompactFlashCardss-CompactFlash_Memory_Card).
 
-To use these in a Newton, you will need a [[PcCardAdapter]].
+
+To use these in a Newton, you will need a [[PcCardAdapter]].

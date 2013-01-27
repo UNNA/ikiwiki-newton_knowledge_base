@@ -1,20 +1,26 @@
-So you've got your PCMCIA Card and connection of choice.. Now it's time to put them to good use:
+## Desktop connection software
 
-* Email
+So you've got your PCMCIA Card and connection of choice. Now it's time to put them to good use:
+
+
+### Email
 
 Email on the Newt is one of the simple joys in life and there is no shortage of applictions out there to facillitate its use.
 
-[Simplemail ](http://dialspace.dial.pipex.com/town/road/aah66/] has to be the first candidate, if only for the slightly pedantic view that its the only email suite which is still currently supported and actively updated. The application is written and maintained by [[SimonBell]) and runs through the I/O Box application of NOS 2.x. It is simple to configure and supports image viewing, MP3 attachments, VCards, SMTP authentication, APOP secure authentication, basic IMAP support, and a whole host of many other file-types through many plug-ins, such are the advantages of having an actively developed email client
+
+[Simplemail](http://dialspace.dial.pipex.com/town/road/aah66/) has to be the first candidate, if only for the slightly pedantic view that it's the only email suite which is still currently supported and actively updated. The application is written and maintained by [[SimonBell]] and runs through the I/O Box application of NOS 2.x. It is simple to configure and supports image viewing, MP3 attachments, VCards, SMTP authentication, APOP secure authentication, basic IMAP support, and a whole host of many other file types through many plug-ins, such are the advantages of having an actively developed email client.
 
 Other mail clients include Eudora, Enroute, etc.  More to come here.
 
-* Web Browsers
 
-Web Browsers can be used to load packages on to a Newton using Apache (In Mac OS X,) see [[MacOSXConnection]].%%%
+### Web Browsers
+
+Web Browsers can be used to load packages on to a Newton using Apache (In Mac OS X). see [[MacOSXConnection]].
+
 To get help selecting a Newton web browser see [[WebBrowsers]]
 
-* Synchronization Software
 
-[[NewtSync]] synchronizes your Newton with OSX. Out of the box, [[NewtSync]] can connect via serial and TCP/IP communications and synchronized your data with iCal and OSX Address Book. Written fully in Cocoa, the software is built on a plugin architecture that allows other programmers to create plugins that sync with other applications. (n.b. Like all the other unix synchronization utilities, Newt Sync requires a package to be first installed on your Newton before they can talk.)
+### Synchronization Software
 
-_Please Wiki Wiki more folks =]_
+[[NewtSync]] synchronizes your Newton with OSX. Out of the box, [[NewtSync]] can connect via serial and TCP/IP communications and synchronized your data with iCal and Mac OS X's Address Book. Written fully in Cocoa, the software is built on a plug-in architecture that allows other programmers to create plug-ins that sync with other applications. (N.B. — Like all the other UNIX synchronization utilities, Newt Sync requires a package to be first installed on your Newton before they can talk.)
+

@@ -100,9 +100,9 @@ So let's start at the bare Basics:
 
 Here's a list for you, with links to their web pages (where applicable) or directory in [UNNA](http://www.unna.org):
 
-* [Newt's Cape](http://www.kagi.com/weyer/#Newtscape) - web browser / web clipping / book creator
+* [Newt's Cape](http://communicrossings.com/html/newton/newtscape.htm) — Web browser / web clipping / book creator.
 
-* [Avi's Backdrop](http://www.kallisys.com/newton/avibd/) - custom backdrop application: displays background graphics, date/time, displays anniversaries, and more!
+* [Avi's Backdrop](http://www.drissman.com/avi/newton/AvisBackdrop/) (newer version available on [UNNA](http://www.unna.org/view.php?/applications/backdrops/AvisBackdrop) — Custom backdrop application: displays background graphics, date/time, anniversaries, and more!
 
 * _more_
 

@@ -10,7 +10,7 @@ For those who enjoy the absurd joys of Broadband Internet access and run OS 2.x,
 
 ### Modem
 
-Modem cards are also inexpensive and tend to be the favoured low-end approach. The 56k dialup is universally accepted in all countries on all terrestrial phone-lines, it  _is_ civilization. All you need is a PCMCIA card and a driver. A lot of Generic modem cards run natively through Newton Internet Enabler (See the [[Desktop connection software|DesktopConnectionSoftware]] page) under the "28k or faster" choice and for a complete view of the Modem Cards that work with the Newton try Len Lutz's [big list o' Newton PCMCIA Modem Cards](http://www.dca.net/cgi-bin/cgiwrap/lenlutz/newton.cgi).  See [[ModemCards]] for more in-depth information about picking a modem card.
+Modem cards are also inexpensive and tend to be the favoured low-end approach. The 56k dialup is universally accepted in all countries on all terrestrial phone-lines, it  _is_ civilization. All you need is a PCMCIA card and a driver. A lot of Generic modem cards run natively through Newton Internet Enabler (See the [[Desktop connection software|DesktopConnectionSoftware]] page) under the "28k or faster" choice and for a complete view of the Modem Cards that work with the Newton try Len Lutz's [big list o' Newton PCMCIA Modem Cards](http://www.dca.net/cgi-bin/cgiwrap/lenlutz/newton.cgi) (_broken link_).  See [[ModemCards]] for more in-depth information about picking a modem card.
 
 
 ### Wireless

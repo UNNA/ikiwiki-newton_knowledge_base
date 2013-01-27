@@ -59,35 +59,35 @@ All of the manuals that came with Newtons are also available as PDF files.  They
 
 ###  __Where do I get software?__
 
-The largest repository of Newton software is at [UNNA](http://www.unna.org/).  Since there is so much software there, you probably want to read some [[UnnaReviews]] to help you choose packages. For some example of what other [[Newtonian]]s use, see [[CoolSetups]]. Additional stuff can be found on many webpages, see the links at the bottom of the Wiki-[[HomePage]]. A lot of content -- mainly ebooks -- can be found at either [UNNA](http://www.unna.org/view.php?/books) or the [Temporary Newton Library](http://www.stillnewt.org/library), the only actively maintained Newton bookshelf at the moment (2005).
+The largest repository of Newton software is at [UNNA](http://www.unna.org/).  Since there is so much software there, you probably want to read some [[UNNA reviews|UnnaReviews]] to help you choose packages. For some example of what other [[Newtonian]]s use, see [[CoolSetups]]. Additional stuff can be found on many webpages, see the links at the bottom of the Wiki-[[HomePage]]. A lot of content -- mainly ebooks -- can be found at either [UNNA](http://www.unna.org/view.php?/books) or the [Temporary Newton Library](http://www.stillnewt.org/library), the only actively maintained Newton bookshelf at the moment (2005).
 
 
 ### __What software should I install?__
 
 This is largely up to you.  Read [NewtonTalk](http://www.newtontalk.net/) and other online forums and ask for people's opinions.  You'll probably get a lot of ideas on what to try.  For most 2x00s, however, there are certain things that every Newton should have installed:
 
-* Get the latest system patch for your model.  [Look up what you should have|http://www.chuma.org/newton/faq/newton-faq-nos.html#IIIA2], and then [go and get it](http://www.unna.org/view.php?/apple/software/SystemPatches).
+* Get the latest system patch for your model.  [Look up what you should have](http://old.chuma.org/newton/faq/newton-faq-nos.html#IIIA2), and then [go and get it](http://www.unna.org/view.php?/apple/software/SystemPatches).
 
-* If you have an upgraded 2000, upgraded eMate, or 2100, a [[61Fix]] package to avoid the nasty ['61Error].
+* If you have an upgraded 2000, upgraded eMate, or 2100, a [[61Fix]] package to avoid the nasty [['61Error]].
 
 * [[BigNotes]] to allow you to create notes larger than the default (small) size.
 
-* Newton Works for word processing, spreadsheets, advanced drawing and more.  Get it [here](http://newyork.unna.org/unna/applications/[[NewtonWorks]]/).  To activate handwriting recognition in works, you'll also need [HWRWorks](http://www.unna.org/unna/applications/[[NewtonWorks]]/hwrworks/).
+* Newton Works for word processing, spreadsheets, advanced drawing and more.  Get it [here](http://newyork.unna.org/unna/applications/NewtonWorks/).  To activate handwriting recognition in works, you'll also need [HWRWorks](http://www.unna.org/unna/applications/NewtonWorks/hwrworks/).
 
 * ...
 
 
 ###  __How do I connect this thing to my desktop?__
 
-See [[MacOSConnection]], [[WindowsConnection]], [[UNIXConnection]], [BluetoothConnection](UsingBluetoothIndex).
+See the pages for [[Mac OS connection|MacOSConnection]], [[Windows connection|WindowsConnection]], [[UNIX connection|UNIXConnection]], [[Bluetooth connection|UsingBluetoothIndex]].
 
 
 ### __How do I connect this thing to the Internet?__
 
-Now that you've got this thing hooked up to your computer, you want to start surfing the web! You want to send and receive email! These things, and anything else you can do on the net can be done with a Newton. This is where you really see how well the Newton has adapted to "life after death". Internet access has been the yardstick upon which most Operating Systems have been measured in the past 6-7 years and beyond and the Newton out shines amongst its fellow PDA's for its support of most things net-related.
+Now that you've got this thing hooked up to your computer, you want to start surfing the web! You want to send and receive email! These things, and anything else you can do on the net can be done with a Newton. This is where you really see how well the Newton has adapted to "life after death". Internet access has been the yardstick upon which most Operating Systems have been measured in the past decade and beyond and the Newton outshines amongst its fellow PDA's for its support of most things net-related.
 
 
-So lets start at the bare Basics:
+So let's start at the bare Basics:
 
  * [[DesktopConnectionHardware]]
 
@@ -109,7 +109,7 @@ Here's a list for you, with links to their web pages (where applicable) or direc
 
 ### __What did other [Newbies want to know]?__
 
-* Qs & As that popped up at [[NTLK]].
+* Questions & Answers that popped up at [[NewtonTalk|NTLK]].
 
 
 * [[Glossary]]

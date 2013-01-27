@@ -89,11 +89,11 @@ Now that you've got this thing hooked up to your computer, you want to start sur
 
 So let's start at the bare Basics:
 
- * [[DesktopConnectionHardware]]
+ * [[Desktop connection hardware|DesktopConnectionHardware]]
 
- * [[DesktopConnectionSoftware]]
+ * [[Desktop connection software|DesktopConnectionSoftware]]
 
- * actually, crap, I didn't name these links properly.  -[[VictorRehorst]]
+ * ...
 
 
 ###  __What are some of the most popular packages on the Newton and what do they do?__

@@ -100,10 +100,11 @@ ___Go forth, and make pages!___  This is a sandbox for the Newton Community.  Do
 
 * [manybooks.net](http://manybooks.net/) — Project Gutenberg texts pre-converted to Newton Paperback format.
 
-Below here is just the usual default Wiki stuff.
-
 
 ----
+
+Below here is just the usual default Wiki stuff.
+
 
 * What is [[WikiWikiWeb]]? A description of this application.
 

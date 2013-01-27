@@ -5,7 +5,7 @@ There are 3 more orthodox ways to connect your Newton to the Internet.
 
 ### Ethernet
 
-For those who enjoy the absurd joys of Broadband Internet access and run OS 2.x, you'll be happy to know your Newt can join in too!  See related [[WiFi]] and [[EtherNet]] pages for guidelines on which cards are available to work with your Newt.
+For those who enjoy the absurd joys of Broadband Internet access and run NOS 2.x, you'll be happy to know your Newt can join in too!  See related [[WiFi]] and [[EtherNet]] pages for guidelines on which cards are available to work with your Newt.
 
 
 ### Modem

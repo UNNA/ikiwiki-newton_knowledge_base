@@ -59,7 +59,7 @@ All of the manuals that came with Newtons are also available as PDF files.  They
 
 ###  __Where do I get software?__
 
-The largest repository of Newton software is at [UNNA](http://www.unna.org/).  Since there is so much software there, you probably want to read some [[UNNA reviews|UnnaReviews]] to help you choose packages. For some example of what other [[Newtonian]]s use, see [[CoolSetups]]. Additional stuff can be found on many webpages, see the links at the bottom of the Wiki-[[HomePage]]. A lot of content -- mainly ebooks -- can be found at either [UNNA](http://www.unna.org/view.php?/books) or the [Temporary Newton Library](http://www.stillnewt.org/library), the only actively maintained Newton bookshelf at the moment (2005).
+The largest repository of Newton software is at [UNNA](http://www.unna.org/).  Since there is so much software there, you probably want to read some [[UNNA reviews|UnnaReviews]] to help you choose packages. For some example of what other [[Newtonian]]s use, see [[Cool setups|CoolSetups]]. Additional stuff can be found on many webpages, see the links at the bottom of the Wiki-[[HomePage]]. A lot of content -- mainly ebooks -- can be found at either [UNNA](http://www.unna.org/view.php?/books) or the [Temporary Newton Library](http://www.stillnewt.org/library), the only actively maintained Newton bookshelf at the moment (2005).
 
 
 ### __What software should I install?__

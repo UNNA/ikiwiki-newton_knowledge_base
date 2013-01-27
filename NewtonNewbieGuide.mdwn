@@ -20,7 +20,7 @@ To learn more about the lingo and jargon about the Newton, check out the [[Newto
 
 ###  __Where do I get a Newton?  How much does it cost?__
 
-Pretty much the only place to get one (assuming you don't know someone who has one stuffed in a desk drawer) is [eBay](http://www.ebay.com). Other possibilities are looking for ads or posting a Wanted ad to the comp.sys.newton.misc newsgroup, or the Newtontalk mailing list.  There are also some resellers out there that sell through non-eBay channels - look them up in the [[Vendors List|VendorsList]].  For current going prices on Newtons and accessories, consult the [This Old Newt price guide](http://www.thisoldnewt.net/html/used.html) (broken link).
+Pretty much the only place to get one (assuming you don't know someone who has one stuffed in a desk drawer) is [eBay](http://www.ebay.com). Other possibilities are looking for ads or posting a Wanted ad to the comp.sys.newton.misc newsgroup, or the NewtonTalk mailing list.  There are also some resellers out there that sell through non-eBay channels - look them up in the [[Vendors List|VendorsList]].  For current going prices on Newtons and accessories, consult the [This Old Newt price guide](http://www.thisoldnewt.net/html/used.html) (broken link).
 
 
 ### __What hardware do I need to get started?__

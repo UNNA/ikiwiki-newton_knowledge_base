@@ -15,11 +15,11 @@ Other mail clients include Eudora, Enroute, etc.  More to come here.
 
 ### Web Browsers
 
-Web Browsers can be used to load packages on to a Newton using Apache (In Mac OS X). see [[MacOSXConnection]].
+Web Browsers can be used to load packages on to a Newton using Apache (in Mac OS X). See [[MacOSXConnection]].
 
-To get help selecting a Newton web browser see [[WebBrowsers]]
+To get help selecting a Newton web browser, see [[WebBrowsers]].
 
 
 ### Synchronization Software
 
-[[NewtSync]] synchronizes your Newton with OSX. Out of the box, [[NewtSync]] can connect via serial and TCP/IP communications and synchronized your data with iCal and Mac OS X's Address Book. Written fully in Cocoa, the software is built on a plug-in architecture that allows other programmers to create plug-ins that sync with other applications. (N.B. — Like all the other UNIX synchronization utilities, Newt Sync requires a package to be first installed on your Newton before they can talk.)
+[[NewtSync]] synchronizes your Newton with Mac OS X. Out of the box, [[NewtSync]] can connect via serial and TCP/IP communications and synchronized your data with iCal and Mac OS X's Address Book. Written fully in Cocoa, the software is built on a plug-in architecture that allows other programmers to create plug-ins that sync with other applications. (N.B. — Like all the other UNIX synchronization utilities, Newt Sync requires a package to be first installed on your Newton before they can talk.)

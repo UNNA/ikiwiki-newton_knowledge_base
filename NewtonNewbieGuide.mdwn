@@ -25,7 +25,7 @@ Pretty much the only place to get one (assuming you don't know someone who has o
 
 ### __What hardware do I need to get started?__
 
-(_Older models here are not discussed_)
+(_Older models are not discussed here_)
 
 For a MessagePad 2000 or 2100, at a minimum you need:
 

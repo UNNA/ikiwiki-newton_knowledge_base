@@ -98,7 +98,7 @@ So let's start at the bare Basics:
 
 ###  __What are some of the most popular packages on the Newton and what do they do?__
 
-Here's a list for you, with links to their web pages (where applicable) or directory in [[UNNA]]:
+Here's a list for you, with links to their web pages (where applicable) or directory in [UNNA](http://www.unna.org):
 
 * [Newt's Cape](http://www.kagi.com/weyer/#Newtscape) - web browser / web clipping / book creator
 
@@ -116,4 +116,3 @@ Here's a list for you, with links to their web pages (where applicable) or direc
 
 
 (_This is still a work in progress_)
-

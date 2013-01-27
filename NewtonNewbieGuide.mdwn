@@ -25,7 +25,9 @@ Pretty much the only place to get one (assuming you don't know someone who has o
 
 ### __What hardware do I need to get started?__
 
-(I'm not going to talk about older models here.)  For a 2000 or a 2100, at a minimum you need:
+(_Older models here are not discussed_)
+
+For a MessagePad 2000 or 2100, at a minimum you need:
 
  * The Newton itself;
  * A battery tray (which you put AA batteries into, and then slot into the Newton) or a rechargable battery pack and AC adapter;

@@ -31,6 +31,7 @@ _Editors: Please add a link to the page, a short description of what needs to be
     * [[SerialConnection]]
     * [[EbookWishList]]
     * ...
+* Replace WikiWikiWeb/phpWiki references on [[index]] with respective ikiwiki links (morgant)
 
 ## Medium Priority
 

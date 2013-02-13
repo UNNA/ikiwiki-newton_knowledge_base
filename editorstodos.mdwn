@@ -8,6 +8,13 @@ _Editors: Please add a link to the page, a short description of what needs to be
 
 ## High Priority
 
+* Fix hierarchical links & links to tools.unna.org/wikiwikinewt on the following pages (broken from the conversion from the original WikiWikiNewt; morgant):
+    * [[BootStrapping]]
+    * [[UsingBluetoothIndex]]
+    * [[BluntSetup]]
+    * [[BluetoothOBEX]]
+    * [[HowTo]]
+    * ...
 
 ## Medium Priority
 

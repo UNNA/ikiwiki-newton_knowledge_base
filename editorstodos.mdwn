@@ -2,6 +2,8 @@
 
 This is a list of pending edits, rewrites, additions, etc. for the editors to take on. Expect it to be a long, daunting list. Yes, even though we refer to editor in the singular, there are actually multiple working towards the end goal of a well written and organized Newton Knowledge Base.
 
+For a list of what editors are actively working on, please see [[On The Editor's Desk|OnTheEditorsDesk]].
+
 _Editors: Please add a link to the page, a short description of what needs to be done, and mark your username next to it._
 
 ## High Priority

@@ -1,0 +1,13 @@
+# Editor's To-Dos
+
+This is a list of pending edits, rewrites, additions, etc. for the editors to take on. Expect it to be a long, daunting list. Yes, even though we refer to editor in the singular, there are actually multiple working towards the end goal of a well written and organized Newton Knowledge Base.
+
+_Editors: Please add a link to the page, a short description of what needs to be done, and mark your username next to it._
+
+## High Priority
+
+
+## Medium Priority
+
+
+## Low Priority

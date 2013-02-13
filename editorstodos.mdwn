@@ -14,6 +14,22 @@ _Editors: Please add a link to the page, a short description of what needs to be
     * [[BluntSetup]]
     * [[BluetoothOBEX]]
     * [[HowTo]]
+    * [[NewtonWishLists]]
+    * [[SoftwareWishlist]]
+    * [[HardwareWishList]]
+    * [[InternalCommCard]]
+    * [[230KSerialConnection]]
+    * [[CreateNewtonFonts]]
+    * [[DigitalPhotography]]
+    * [[EthernetConnection]]
+    * [[HackNewton]]
+    * [[MakeNewtonEbooks]]
+    * [[MakeNewtonSing]]
+    * [[MakeNewtonSpeakText]]
+    * [[Newbies%20want%20to%20know]]
+    * [[NewtonBackupUtility]]
+    * [[SerialConnection]]
+    * [[EbookWishList]]
     * ...
 
 ## Medium Priority

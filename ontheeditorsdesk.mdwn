@@ -1,0 +1,8 @@
+# On The Editor's Desk
+
+Here you'll find what pages the editors are actively working on. These are generally pages that require multiple edits to bring up to snuff, rewrite, etc. Yes, even though we refer to editor in the singular, there are actually multiple working towards the end goal of a well written and organized Newton Knowledge Base.
+
+_Editors: Please list pages you're actively working on below and mark your username next to them._
+
+* [[OnTheEditorsDesk]] (morgant)
+* [[EditorsToDos]] (morgant)
